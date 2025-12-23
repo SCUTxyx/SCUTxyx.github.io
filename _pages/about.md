@@ -17,7 +17,7 @@ I’m interested in building intelligent systems that are both **robust** and **
 
 - **University:** South China University of Technology (SCUT)  
 - **College / Major:** Future Technology College / Artificial Intelligence (AI)  
-- **Class:** 2024 cohort (24级)  
+- **Class:** AI 2 class (2024)  
 - **Current GPA:** **3.74 / 4.00**  
 - **Interests:** **Basketball**, **Games**
 
@@ -57,14 +57,12 @@ My current interests include (and I’m actively exploring projects in):
 ## Publications / Manuscripts
 
 - **[Under Review]** *A Computer Vision paper submitted to CVPR (2nd author).*  
-  *(Details available upon request.)*
 
 ---
 
 ## Contact
 
-- Email: *(add your email in `_config.yml` so it shows in the sidebar)*  
-- GitHub: *(add your GitHub username in `_config.yml`)*
+- Email: *1120135876@qq.com*  
 
 ---
 
