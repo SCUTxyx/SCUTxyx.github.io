@@ -11,10 +11,8 @@
 
   <style>
     body { font-family: 'Inter', sans-serif; background-color: #fcfcfc; }
-    
-    /* 表格样式微调 */
     .resource-table td { vertical-align: middle; }
-    .tag-type { min-width: 60px; text-align: center; font-weight: bold; }
+    .tag-type { min-width: 60px; text-align: center; }
   </style>
 </head>
 <body>
@@ -23,9 +21,9 @@
     <div class="container is-max-desktop">
       <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
-          <li><a href="index.html">首页</a></li>
-          <li><a href="resources.html">学习资料库</a></li>
-          <li class="is-active"><a href="#" aria-current="page">Computer Vision</a></li>
+          <li><a href="index.html">主页</a></li>
+          <li><a href="resources.html">资料库</a></li>
+          <li class="is-active"><a href="#" aria-current="page">计算机视觉</a></li>
         </ul>
       </nav>
     </div>
@@ -38,16 +36,16 @@
         <div class="column is-8">
           <h1 class="title is-3">
             <span class="icon has-text-info"><i class="fas fa-eye"></i></span>
-            &nbsp;计算机视觉笔记
+            计算机视觉 (CV) 学习笔记
           </h1>
           <p class="subtitle is-6 has-text-grey">
-            CS231n 课程笔记整理、作业代码以及 YOLO 系列论文的阅读总结。
+            这里归档了我的 CS231n 课程作业、反向传播推导以及 YOLO 系列论文的阅读笔记。
           </p>
         </div>
         <div class="column is-4 has-text-right">
              <a href="https://github.com/SCUTxyx" target="_blank" class="button is-small is-dark is-outlined">
               <span class="icon"><i class="fab fa-github"></i></span>
-              <span>查看源码仓库</span>
+              <span>查看 GitHub 仓库</span>
             </a>
         </div>
       </div>
@@ -56,9 +54,9 @@
         <table class="table is-fullwidth is-hoverable resource-table">
           <thead>
             <tr>
-              <th width="50%">文件名 / 主题</th>
+              <th>资料标题 / 简介</th>
               <th>格式</th>
-              <th>更新日期</th>
+              <th>日期</th>
               <th style="text-align: right;">操作</th>
             </tr>
           </thead>
@@ -66,45 +64,45 @@
             
             <tr>
               <td>
-                <strong>Lecture 01: CNN 基础架构</strong><br>
-                <span class="is-size-7 has-text-grey">包含卷积层、池化层的数学推导与图解。</span>
+                <strong>Lecture 01: 卷积神经网络基础</strong><br>
+                <span class="is-size-7 has-text-grey">包含 CNN 架构图解、卷积层与池化层的计算公式。</span>
               </td>
-              <td><span class="tag is-danger is-light tag-type">PDF</span></td>
+              <td><span class="tag is-light tag-type">PDF</span></td>
               <td class="is-size-7 has-text-grey">2026-01-10</td>
               <td style="text-align: right;">
                 <a href="files/cv/lec01.pdf" target="_blank" class="button is-small is-info is-light">
                   <span class="icon"><i class="fas fa-download"></i></span>
-                  <span>下载/预览</span>
+                  <span>下载 / 预览</span>
                 </a>
               </td>
             </tr>
 
             <tr>
               <td>
-                <strong>反向传播 (Backpropagation) 推导</strong><br>
-                <span class="is-size-7 has-text-grey">手写推导过程的 Latex 整理。</span>
+                <strong>反向传播 (Backpropagation) 推导笔记</strong><br>
+                <span class="is-size-7 has-text-grey">手写梯度下降推导过程，LaTeX 公式整理。</span>
               </td>
-              <td><span class="tag is-info is-light tag-type">MD</span></td>
+              <td><span class="tag is-white border tag-type" style="border: 1px solid #eee;">MD</span></td>
               <td class="is-size-7 has-text-grey">2026-01-12</td>
               <td style="text-align: right;">
-                <a href="files/cv/backprop.md" target="_blank" class="button is-small is-text">
-                  <span class="icon"><i class="fas fa-file-code"></i></span>
-                  <span>查看源码</span>
+                <a href="#" class="button is-small is-text">
+                  <span class="icon"><i class="fab fa-markdown"></i></span>
+                  <span>在线阅读</span>
                 </a>
               </td>
             </tr>
 
             <tr>
               <td>
-                <strong>目标检测 YOLO v1-v8 演变史</strong><br>
-                <span class="is-size-7 has-text-grey">详细对比了每一代的 Loss 函数变化。</span>
+                <strong>目标检测 (YOLO series) 综述</strong><br>
+                <span class="is-size-7 has-text-grey">从 YOLOv1 到 YOLOv8 的演变历史总结。</span>
               </td>
-              <td><span class="tag is-danger is-light tag-type">PDF</span></td>
+              <td><span class="tag is-light tag-type">PDF</span></td>
               <td class="is-size-7 has-text-grey">2026-01-15</td>
               <td style="text-align: right;">
-                <a href="files/cv/yolo_summary.pdf" target="_blank" class="button is-small is-info is-light">
+                <a href="#" class="button is-small is-info is-light">
                   <span class="icon"><i class="fas fa-download"></i></span>
-                  <span>下载/预览</span>
+                  <span>下载 / 预览</span>
                 </a>
               </td>
             </tr>

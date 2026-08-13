@@ -3,45 +3,135 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yuxuan Xue | SCUT AI</title>
-  
-  <meta name="description" content="Personal Homepage of Yuxuan Xue, Undergraduate at SCUT specializing in Efficient AI and Computer Vision.">
-  <meta name="keywords" content="Yuxuan Xue, SCUT, AI, Computer Vision, Edge Computing">
+  <title>Yuxuan Xue | SCUT AI · Embodied Intelligence & RL</title>
+
+  <meta name="description" content="Personal homepage of Yuxuan Xue, undergraduate at South China University of Technology (SCUT), working on Embodied AI and Reinforcement Learning.">
+  <meta name="keywords" content="Yuxuan Xue, SCUT, Embodied AI, Reinforcement Learning, VLA, Robotics, Computer Vision">
   <meta name="author" content="Yuxuan Xue">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
-    /* 针对个人主页的特定微调 */
-    body { font-family: 'Inter', sans-serif; background-color: #fcfcfc; }
-    .hero-body { padding-top: 3rem; padding-bottom: 3rem; }
-    .profile-img { 
-      border-radius: 50%; 
-      border: 5px solid #fff; 
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-      width: 250px; 
-      height: 250px; 
-      object-fit: cover; 
+    body { font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; background-color: #fbfbfc; }
+
+    .profile-img {
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.12);
+      width: 240px;
+      height: 240px;
+      object-fit: cover;
     }
+
     .stat-box {
-      background: #f5f5f5;
-      padding: 1rem;
-      border-radius: 8px;
+      background: #ffffff;
+      border: 1px solid #ececf1;
+      padding: 1rem 0.75rem;
+      border-radius: 14px;
       text-align: center;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      transition: all .25s ease;
+      height: 100%;
     }
-    .stat-number { font-size: 1.5rem; font-weight: 700; color: #363636; }
-    .stat-label { font-size: 0.9rem; color: #666; }
-    .section-title { margin-bottom: 1.5rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; }
-    .award-item { margin-bottom: 0.8rem; display: flex; align-items: baseline; }
-    .award-year { min-width: 60px; font-weight: bold; color: #209cee; }
-    
-    /* 自定义按钮组样式 */
-    .project-buttons .button { margin-right: 10px; margin-bottom: 10px; }
+    .stat-box:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(37, 99, 235, 0.10);
+      border-color: #c7d8f8;
+    }
+    .stat-number { font-size: 1.4rem; font-weight: 800; color: #1e293b; letter-spacing: -0.02em; }
+    .stat-label { font-size: 0.78rem; color: #64748b; margin-top: 2px; }
+
+    .section-title { margin-bottom: 1.75rem; border-bottom: 2px solid #eef0f4; padding-bottom: 0.5rem; }
+
+    .award-item { margin-bottom: 0.9rem; display: flex; align-items: baseline; }
+    .award-year { min-width: 60px; font-weight: 700; color: #2563eb; }
+
+    .course-tag {
+      border: 1px solid #e3e8f0;
+      background: #fff;
+      border-radius: 999px;
+      padding: 0.4rem 0.9rem;
+      font-size: 0.85rem;
+      color: #334155;
+      margin: 0.25rem;
+      display: inline-block;
+      transition: all .2s ease;
+    }
+    .course-tag:hover {
+      border-color: #2563eb;
+      color: #2563eb;
+      background: #f5f8ff;
+    }
+
+    /* Research Space / Learning Log window */
+    .research-window {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #1e293b 0%, #334155 55%, #2563eb 130%);
+      color: #fff;
+      padding: 2.75rem 2.5rem;
+      text-decoration: none;
+      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.22);
+      transition: transform .3s cubic-bezier(.4,0,.2,1), box-shadow .3s ease;
+    }
+    .research-window:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 24px 55px rgba(15, 23, 42, 0.30);
+      color: #fff;
+    }
+    .research-window .glow {
+      position: absolute;
+      right: -60px;
+      top: -60px;
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(96,165,250,.55), transparent 70%);
+      pointer-events: none;
+    }
+    .research-window .glow2 {
+      position: absolute;
+      left: 30%;
+      bottom: -90px;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(167,139,250,.35), transparent 70%);
+      pointer-events: none;
+    }
+    .research-window .window-icon {
+      width: 52px; height: 52px;
+      border-radius: 14px;
+      background: rgba(255,255,255,.14);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      backdrop-filter: blur(4px);
+    }
+    .research-window h3 { font-size: 1.6rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .research-window p { color: rgba(255,255,255,.82); max-width: 560px; line-height: 1.6; }
+    .research-window .window-cta {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      margin-top: 1.25rem;
+      background: #fff; color: #1e293b;
+      padding: 0.6rem 1.25rem;
+      border-radius: 999px;
+      font-weight: 700; font-size: 0.9rem;
+      transition: transform .2s ease;
+    }
+    .research-window:hover .window-cta { transform: translateX(4px); }
+
+    @media screen and (max-width: 768px) {
+      .research-window { padding: 2rem 1.5rem; }
+      .profile-img { width: 200px; height: 200px; }
+    }
   </style>
 </head>
 <body>
@@ -55,337 +145,181 @@
     <div class="navbar-menu is-active">
       <div class="navbar-end">
         <a href="#about" class="navbar-item">About</a>
+        <a href="#education" class="navbar-item">Education</a>
+        <a href="#research" class="navbar-item">Research</a>
         <a href="#news" class="navbar-item">News</a>
+        <a href="#projects" class="navbar-item">Projects</a>
         <a href="#honors" class="navbar-item">Honors</a>
-        <a href="#publications" class="navbar-item">Publications</a>
+        <a href="#blog" class="navbar-item">Blog</a>
       </div>
     </div>
   </nav>
 
+  <!-- ================= About / Hero ================= -->
   <section class="hero" id="about">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-vcentered">
-          
+
           <div class="column is-4 has-text-centered">
-            <img src="1d3ae1e7b1d213ac598d5bc8995bcea2.jpg" alt="Yuxuan Xue" class="profile-img">
-            
-            <div class="columns is-mobile is-multiline" style="margin-top: 20px;">
-              <div class="column is-6">
+            <img src="学术网页头像.jpg" alt="Yuxuan Xue" class="profile-img">
+
+            <div class="columns is-mobile" style="margin-top: 22px;">
+              <div class="column is-4">
                 <div class="stat-box">
-                  <div class="stat-number">3.7</div>
-                  <div class="stat-label">GPA (4.0)</div>
+                  <div class="stat-number">88.03</div>
+                  <div class="stat-label">Average / 100</div>
                 </div>
               </div>
-              <div class="column is-6">
+              <div class="column is-4">
                 <div class="stat-box">
-                  <div class="stat-number">Top 22%</div>
-                  <div class="stat-label">Ranking</div>
+                  <div class="stat-number">3.73</div>
+                  <div class="stat-label">GPA / 4.0</div>
+                </div>
+              </div>
+              <div class="column is-4">
+                <div class="stat-box">
+                  <div class="stat-number">17/95</div>
+                  <div class="stat-label">Top 18%</div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="column is-8">
-            <h1 class="title is-2">Yuxuan Xue (薛宇轩)</h1>
-            <h2 class="subtitle is-4" style="color: #666;">
-              Undergraduate @ SCUT, Future Technology College
+            <h1 class="title is-2" style="letter-spacing: -0.02em;">Yuxuan Xue (薛宇轩)</h1>
+            <h2 class="subtitle is-4" style="color: #64748b;">
+              Undergraduate @ SCUT · Future Technology College
             </h2>
             <div class="content">
               <p>
-                I am a senior undergraduate student majoring in <b>Artificial Intelligence</b> at <a href="https://www.scut.edu.cn/" target="_blank">South China University of Technology (SCUT)</a>. 
+                I am an undergraduate student majoring in <b>Artificial Intelligence</b> at <a href="https://www.scut.edu.cn/" target="_blank">South China University of Technology (SCUT)</a>.
               </p>
               <p>
-                My research interests lie at the intersection of <b>Computer Vision</b> and <b>Efficient Deep Learning</b>. I am passionate about designing robust AI systems that can run efficiently on edge devices (Embedded AI). I also have a strong background in Mathematical Modeling.
+                My research interests lie at the intersection of <b>Embodied AI</b> and <b>Reinforcement Learning</b>. I am passionate about building intelligent agents that can perceive, reason, and act in the physical world — with a particular focus on <b>Vision-Language-Action (VLA)</b> models and <b>robotic learning</b>. I also have a strong background in <b>Mathematical Modeling</b>.
               </p>
               <p>
-                <b>Looking for Ph.D. / Mphill positions starting in Fall 2028.</b>
+                <b>Looking for Ph.D. / MPhil positions starting in Fall 2028.</b>
               </p>
             </div>
 
             <div class="buttons">
-              <!-- 原有的邮箱和GitHub按钮 -->
               <a href="mailto:1120135876@qq.com" class="button is-dark is-rounded is-small">
                 <span class="icon"><i class="fas fa-envelope"></i></span>
                 <span>Email</span>
               </a>
-              <a href="https://github.com/SCUTxyx" class="button is-dark is-rounded is-small">
+              <a href="https://github.com/SCUTxyx" target="_blank" class="button is-dark is-rounded is-small">
                 <span class="icon"><i class="fab fa-github"></i></span>
                 <span>GitHub</span>
               </a>
-              
-              <!-- ✨ 新增：学习笔记/博客按钮 -->
-              <a href="#blog" class="button is-dark is-rounded is-small">
+              <a href="blog.html" class="button is-dark is-rounded is-small">
                 <span class="icon"><i class="fas fa-book-reader"></i></span>
-                <span>Blog / Notes</span>
+                <span>Research Space</span>
               </a>
-            
-
+              <a href="薛宇轩简历.pdf" target="_blank" class="button is-dark is-rounded is-small">
+                <span class="icon"><i class="fas fa-file-alt"></i></span>
+                <span>CV / Resume</span>
+              </a>
               <a href="resources.html" class="button is-dark is-rounded is-small">
                 <span class="icon"><i class="fas fa-archive"></i></span>
-                <span>📚 Learning Resources</span>
+                <span>Learning Resources</span>
               </a>
             </div>
-            
-
-
-
-            <p class="is-size-6 has-text-weight-bold" style="margin-top: 15px; margin-bottom: 10px; color: #209cee;">
-              Explore my different profiles:
-            </p>
-            <div class="project-buttons">
-              <a href="projects_embedded.html" class="button is-outlined is-info is-small">
-                <span class="icon"><i class="fas fa-microchip"></i></span>
-                <span>🤖 Embedded AI Projects</span>
-              </a>
-              <a href="projects_math.html" class="button is-outlined is-info is-small">
-                <span class="icon"><i class="fas fa-calculator"></i></span>
-                <span>📐 Math Modeling</span>
-              </a>
-              <a href="projects_vision.html" class="button is-outlined is-info is-small">
-                <span class="icon"><i class="fas fa-eye"></i></span>
-                <span>👁️ Computer Vision</span>
-              </a>
-            </div>
-
           </div>
         </div>
       </div>
     </div>
   </section>
 
-    <!-- ================= 教育经历 (Education) ================= -->
+  <!-- ================= Education ================= -->
   <section class="section" id="education" style="padding-top: 0;">
     <div class="container is-max-desktop">
       <h2 class="title is-3 section-title">🎓 Education</h2>
-      
+
       <div class="content">
-        
-        <!-- 大学经历 (SCUT) -->
         <div style="margin-bottom: 25px;">
           <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-            <h4 class="title is-5" style="margin-bottom: 5px; color: #363636;">
-              <span class="icon" style="color: #209cee; margin-right: 5px;"><i class="fas fa-university"></i></span>
+            <h4 class="title is-5" style="margin-bottom: 5px; color: #1e293b;">
+              <span class="icon" style="color: #2563eb; margin-right: 5px;"><i class="fas fa-university"></i></span>
               South China University of Technology (SCUT)
             </h4>
             <span class="tag is-dark is-light" style="font-weight: bold;">Sept. 2024 – June 2028 (Expected)</span>
           </div>
-          <p style="margin-left: 32px; margin-top: 0; color: #666;">
+          <p style="margin-left: 32px; margin-top: 0; color: #64748b;">
             <b>B.Eng. in Artificial Intelligence</b><br>
-            <span style="font-size: 0.9em;">Future Technology College</span>
+            <span style="font-size: 0.9em;">Future Technology College</span><br>
+            <span style="font-size: 0.9em;">GPA: 3.73 / 4.0 · Average: 88.03 / 100 · Rank: 17 / 95 (Top 18%)</span>
           </p>
         </div>
 
-        <!-- 高中经历 (Guangya) -->
         <div style="margin-bottom: 10px;">
           <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-            <h4 class="title is-5" style="margin-bottom: 5px; color: #363636;">
-              <span class="icon" style="color: #999; margin-right: 5px;"><i class="fas fa-school"></i></span>
+            <h4 class="title is-5" style="margin-bottom: 5px; color: #1e293b;">
+              <span class="icon" style="color: #94a3b8; margin-right: 5px;"><i class="fas fa-school"></i></span>
               Guangdong Guangya High School
             </h4>
-            <span class="tag is-white" style="border: 1px solid #eee; color: #888;">Sept. 2021 – June 2024</span>
+            <span class="tag is-white" style="border: 1px solid #eef0f4; color: #64748b;">Sept. 2021 – June 2024</span>
           </div>
-          <p style="margin-left: 32px; margin-top: 0; color: #666;">
+          <p style="margin-left: 32px; margin-top: 0; color: #64748b;">
             High School Diploma
           </p>
         </div>
-
       </div>
     </div>
   </section>
 
-    <!-- ================= 学习笔记与周报 (Blog / Learning Log) ================= -->
-  <section class="section" id="blog">
+  <!-- ================= Research Experience ================= -->
+  <section class="section is-light" id="research" style="padding-top: 0;">
     <div class="container is-max-desktop">
-      <h2 class="title is-3 section-title">📚 Learning Log & Weekly Reports</h2>
-      <p class="subtitle is-6 has-text-grey" style="margin-bottom: 2rem;">
-        Sharing my learning path on CS basics, weekly progress, and research notes.
-      </p>
+      <h2 class="title is-3 section-title">🔬 Research Experience</h2>
 
-      <div class="columns is-multiline">
-        
-        <!-- 文章 1: 周报 -->
-        <div class="column is-6">
-          <div class="card" style="border-radius: 8px; height: 100%;">
-            <div class="card-content">
-              <p class="is-size-7 has-text-info">
-                <i class="far fa-calendar-alt"></i> Jan 20, 2026 &nbsp;|&nbsp; <span class="tag is-light is-info is-small">Week Report</span>
-              </p>
-              <p class="title is-5" style="margin-top: 10px; margin-bottom: 10px;">
-                Week 1 Report: CS Missing Semester
-              </p>
-              <div class="content is-size-6 has-text-grey">
-                Completed the "Missing Semester" course (Shell, Vim, Git). Started reviewing CS231n for Computer Vision basics.
-              </div>
-              <!-- 这里链接到具体的 html 文件 -->
-              <a href="posts/week1_report.html" class="button is-small is-outlined is-link" style="margin-top: 10px;">
-                Read More &nbsp; <i class="fas fa-arrow-right"></i>
-              </a>
+      <div class="card" style="border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.04);">
+        <div class="card-content">
+          <div class="level is-mobile" style="margin-bottom: 0.5rem;">
+            <div class="level-left">
+              <h4 class="title is-5" style="margin-bottom: 0;">Multi-Agent &amp; Embodied AI (CVPR 2025 Submission, Second Author)</h4>
+            </div>
+            <div class="level-right">
+              <span class="tag is-warning is-light" style="font-weight: 600;">Nov. 2025</span>
             </div>
           </div>
+          <p class="is-size-6 has-text-grey" style="margin-bottom: 0.75rem;">
+            Contributed to a research project on multi-agent systems and embodied intelligence.
+          </p>
+          <ul style="margin-left: 1.2rem; color: #475569; font-size: 0.95rem;">
+            <li>Conducted literature review and technical analysis, and authored the <b>Related Work</b> section.</li>
+            <li>Reproduced and ran experiments; performed <b>data preprocessing</b>, result statistics, and performance evaluation.</li>
+            <li>Designed the experimental <b>pipeline</b> and produced visualizations (flowcharts, result figures, and research reports).</li>
+          </ul>
         </div>
-
-        <!-- 文章 2: Git 笔记 -->
-        <div class="column is-6">
-          <div class="card" style="border-radius: 8px; height: 100%;">
-            <div class="card-content">
-              <p class="is-size-7 has-text-success">
-                <i class="far fa-calendar-alt"></i> Jan 20, 2026 &nbsp;|&nbsp; <span class="tag is-light is-success is-small">CS Basics</span>
-              </p>
-              <p class="title is-5" style="margin-top: 10px; margin-bottom: 10px;">
-                Version Control with Git
-              </p>
-              <div class="content is-size-6 has-text-grey">
-                Notes on Git snapshot mechanism, branching strategies, and collaboration workflows.
-              </div>
-              <a href="posts/git_notes.html" class="button is-small is-outlined is-success" style="margin-top: 10px;">
-                Read More &nbsp; <i class="fas fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 文章 3: Vim 笔记 -->
-        <div class="column is-6">
-          <div class="card" style="border-radius: 8px; height: 100%;">
-            <div class="card-content">
-              <p class="is-size-7 has-text-warning">
-                <i class="far fa-calendar-alt"></i> Jan 18, 2026 &nbsp;|&nbsp; <span class="tag is-light is-warning is-small">Tools</span>
-              </p>
-              <p class="title is-5" style="margin-top: 10px; margin-bottom: 10px;">
-                Mastering Vim Editor
-              </p>
-              <div class="content is-size-6 has-text-grey">
-                Introduction to modal editing, basic commands, and configuration for efficient coding.
-              </div>
-              <a href="#" class="button is-small is-outlined is-warning" style="margin-top: 10px;">
-                Read More &nbsp; <i class="fas fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 文章 4: Tmux 笔记 -->
-        <div class="column is-6">
-          <div class="card" style="border-radius: 8px; height: 100%;">
-            <div class="card-content">
-              <p class="is-size-7 has-text-danger">
-                <i class="far fa-calendar-alt"></i> Jan 19, 2026 &nbsp;|&nbsp; <span class="tag is-light is-danger is-small">Efficiency</span>
-              </p>
-              <p class="title is-5" style="margin-top: 10px; margin-bottom: 10px;">
-                Terminal Multiplexer: Tmux
-              </p>
-              <div class="content is-size-6 has-text-grey">
-                How to manage multiple terminal sessions, window splitting, and keeping processes running.
-              </div>
-              <a href="#" class="button is-small is-outlined is-danger" style="margin-top: 10px;">
-                Read More &nbsp; <i class="fas fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
 
-
-
-
+  <!-- ================= News ================= -->
   <section class="section" id="news" style="padding-top: 0;">
     <div class="container is-max-desktop">
       <h2 class="title is-3 section-title">🔥 News</h2>
       <div class="content">
         <ul>
-          <li>
-            <b>[Jan. 2026]</b> Successfully won the second prize in the APMCM.
-          </li>
-          <li>
-            <b>[Nov. 2025]</b> One paper submitted to <span class="tag is-warning">CVPR 2025</span> (Under Review).
-          </li>
-          <li>
-            <b>[Nov. 2025]</b> Won the <b>First Prize</b> in China Undergraduate Mathematical Contest (Guangdong).
-          </li>
+          <li><b>[Jan. 2026]</b> Won the <b>Second Prize</b> in the Asia-Pacific Mathematical Contest in Modeling (APMCM).</li>
+          <li><b>[Nov. 2025]</b> One paper submitted to <span class="tag is-warning">CVPR 2025</span> as second author (multi-agent &amp; embodied AI).</li>
+          <li><b>[Nov. 2025]</b> Won the <b>First Prize</b> in the China Undergraduate Mathematical Contest (Guangdong Province).</li>
         </ul>
       </div>
     </div>
   </section>
 
-  <section class="section is-light" id="honors">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3 section-title">🏆 Honors & Awards</h2>
-      <div class="columns">
-        <div class="column is-12">
-          
-          <div class="award-item">
-            <span class="award-year">2025</span>
-            <div>
-              <b>First Prize</b>, China Undergraduate Mathematical Contest (Guangdong Province)
-              <span class="tag is-light is-rounded">Math</span>
-            </div>
-          </div>
-
-          <div class="award-item">
-            <span class="award-year">2025</span>
-            <div>
-              <b>Second Prize</b>, Asia-Pacific Mathematical Contest in Modeling (APMCM)
-              <span class="tag is-light is-rounded">Modeling</span>
-            </div>
-          </div>
-
-
-          <div class="award-item">
-            <span class="award-year">2025</span>
-            <div>
-              <b>Second Prize</b>, National Embedded Competition (South China Region)
-              <span class="tag is-light is-rounded">Embedded System</span>
-            </div>
-          </div>
-
-          <div class="award-item">
-            <span class="award-year">2025</span>
-            <div>
-              <b>Second Prize</b>, Electronic Design Contest (Guangdong Province)
-              <span class="tag is-light is-rounded">Hardware</span>
-            </div>
-          </div>
-
-          <div class="award-item">
-            <span class="award-year">2025</span>
-            <div>
-              <b>Third Prize</b>, China Undergraduate Mathematical Modeling Contest (Guangdong)
-              <span class="tag is-light is-rounded">Modeling</span>
-            </div>
-          </div>
-
-          <div class="award-item">
-            <span class="award-year">2025</span>
-            <div>
-              <b>Third-Class Scholarship</b>, South China University of Technology
-              <span class="tag is-light is-rounded">Academic</span>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="publications">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3 section-title">📝 Publications / Manuscripts</h2>
-
-
-    <!-- ================= 项目经历 (Selected Projects) ================= -->
-  <section class="section is-light" id="projects">
+  <!-- ================= Selected Projects ================= -->
+  <section class="section is-light" id="projects" style="padding-top: 0;">
     <div class="container is-max-desktop">
       <h2 class="title is-3 section-title">🛠️ Selected Projects</h2>
-      
+
       <!-- Project 1: CVPR Research -->
       <div class="columns is-vcentered" style="margin-bottom: 2rem;">
         <div class="column is-3">
-          <div style="background: #fff; border:1px solid #ddd; height: 140px; display:flex; align-items:center; justify-content:center; border-radius:8px;">
-            <i class="fas fa-eye fa-3x" style="color: #ccc;"></i>
+          <div style="background: #fff; border:1px solid #eef0f4; height: 140px; display:flex; align-items:center; justify-content:center; border-radius:12px;">
+            <i class="fas fa-robot fa-3x" style="color: #cbd5e1;"></i>
           </div>
         </div>
         <div class="column is-9">
@@ -395,12 +329,10 @@
             <span class="tag is-info is-light">PyTorch</span>
             <span class="tag is-info is-light">Experimentation</span>
           </div>
-          <p>
-            <b>Research Assistant.</b> Contributed to a research project focusing on optimizing visual models for resource-constrained devices.
-          </p>
+          <p><b>Research Assistant.</b> Contributed to a research project optimizing visual models for resource-constrained devices.</p>
           <p class="is-size-6" style="margin-top: 5px;">
-            <span class="icon"><i class="fas fa-user-tag"></i></span> 
-            <b>My Role:</b> Conducted extensive <b>ablation studies</b> to validate model performance; Responsible for large-scale <b>data preprocessing</b> and visualization of experimental results.
+            <span class="icon"><i class="fas fa-user-tag"></i></span>
+            <b>My Role:</b> Conducted extensive <b>ablation studies</b>; responsible for large-scale <b>data preprocessing</b> and visualization of experimental results.
           </p>
         </div>
       </div>
@@ -408,8 +340,8 @@
       <!-- Project 2: Embedded Competition -->
       <div class="columns is-vcentered" style="margin-bottom: 2rem;">
         <div class="column is-3">
-          <div style="background: #fff; border:1px solid #ddd; height: 140px; display:flex; align-items:center; justify-content:center; border-radius:8px;">
-            <i class="fas fa-robot fa-3x" style="color: #ccc;"></i>
+          <div style="background: #fff; border:1px solid #eef0f4; height: 140px; display:flex; align-items:center; justify-content:center; border-radius:12px;">
+            <i class="fas fa-tools fa-3x" style="color: #cbd5e1;"></i>
           </div>
         </div>
         <div class="column is-9">
@@ -420,84 +352,203 @@
             <span class="tag is-success is-light">Keil</span>
             <span class="tag is-success is-light">C++</span>
           </div>
-          <p>
-            <b>National Embedded Competition Project.</b> Designed a robot capable of navigating industrial pipelines to detect defects autonomously.
-          </p>
+          <p><b>National Embedded Competition Project.</b> Designed a robot that navigates industrial pipelines to detect defects autonomously.</p>
           <p class="is-size-6" style="margin-top: 5px;">
-            <span class="icon"><i class="fas fa-user-tag"></i></span> 
-            <b>My Role:</b> Developed the firmware using <b>Keil</b>; Handled <b>sensor integration</b> (IMU/Distance) and implemented PID algorithms for the <b>robotic arm control</b>.
+            <span class="icon"><i class="fas fa-user-tag"></i></span>
+            <b>My Role:</b> Designed and fabricated the <b>robotic arm</b>; handled <b>sensor integration</b> and implemented PID control for the arm.
           </p>
         </div>
       </div>
 
-      <!-- Project 3: Knee Sensor -->
-      <div class="columns is-vcentered">
+      <!-- Project 3: Vision-Guided Car -->
+      <div class="columns is-vcentered" style="margin-bottom: 2rem;">
         <div class="column is-3">
-          <div style="background: #fff; border:1px solid #ddd; height: 140px; display:flex; align-items:center; justify-content:center; border-radius:8px;">
-            <i class="fas fa-heartbeat fa-3x" style="color: #ccc;"></i>
+          <div style="background: #fff; border:1px solid #eef0f4; height: 140px; display:flex; align-items:center; justify-content:center; border-radius:12px;">
+            <i class="fas fa-car-side fa-3x" style="color: #cbd5e1;"></i>
           </div>
         </div>
         <div class="column is-9">
-          <h4 class="title is-5">Smart Knee Health Monitoring System</h4>
+          <h4 class="title is-5">Vision-Guided Car (Electronic Design Contest, Problem E)</h4>
           <div class="tags">
-            <span class="tag is-warning is-light">IoT</span>
-            <span class="tag is-warning is-light">Signal Processing</span>
+            <span class="tag is-warning is-light">Computer Vision</span>
+            <span class="tag is-warning is-light">Control</span>
             <span class="tag is-warning is-light">Hardware</span>
           </div>
-          <p>
-            <b>Introduction to Engineering Project.</b> Developed a wearable device to monitor knee bending angles in real-time, detecting potential health risks and suggesting countermeasures.
-          </p>
+          <p><b>Electronic Design Contest Project.</b> Built a vision-guided vehicle for autonomous target detection and tracking.</p>
           <p class="is-size-6" style="margin-top: 5px;">
-            <span class="icon"><i class="fas fa-user-tag"></i></span> 
-            <b>My Role:</b> Lead the <b>data processing</b> module; Designed algorithms to filter sensor noise and interpret bending patterns into health metrics.
+            <span class="icon"><i class="fas fa-user-tag"></i></span>
+            <b>My Role:</b> Designed the <b>visual detection module</b> and the connection/control between the gimbal and the vision system.
           </p>
+        </div>
+      </div>
+
+      <!-- Project 4: Knee Sense -->
+      <div class="columns is-vcentered" style="margin-bottom: 2rem;">
+        <div class="column is-3">
+          <div style="background: #fff; border:1px solid #eef0f4; height: 140px; display:flex; align-items:center; justify-content:center; border-radius:12px;">
+            <i class="fas fa-heartbeat fa-3x" style="color: #cbd5e1;"></i>
+          </div>
+        </div>
+        <div class="column is-9">
+          <h4 class="title is-5">Knee Sense — IMU-Based Knee Health Monitor</h4>
+          <div class="tags">
+            <span class="tag is-danger is-light">IoT</span>
+            <span class="tag is-danger is-light">Signal Processing</span>
+            <span class="tag is-danger is-light">Hardware</span>
+          </div>
+          <p><b>Baidu Brain Cup Project.</b> Developed a wearable device that monitors knee bending angles in real time and detects potential health risks.</p>
+          <p class="is-size-6" style="margin-top: 5px;">
+            <span class="icon"><i class="fas fa-user-tag"></i></span>
+            <b>My Role:</b> Led the <b>data processing</b> module; designed algorithms to filter sensor noise and interpret bending patterns.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 5: ML Quant Strategy -->
+      <div class="columns is-vcentered" style="margin-bottom: 2rem;">
+        <div class="column is-3">
+          <div style="background: #fff; border:1px solid #eef0f4; height: 140px; display:flex; align-items:center; justify-content:center; border-radius:12px;">
+            <i class="fas fa-chart-line fa-3x" style="color: #cbd5e1;"></i>
+          </div>
+        </div>
+        <div class="column is-9">
+          <h4 class="title is-5">ML Quantitative Trading Strategy (Tencent Stock)</h4>
+          <div class="tags">
+            <span class="tag is-link is-light">Machine Learning</span>
+            <span class="tag is-link is-light">Quantitative Finance</span>
+            <span class="tag is-link is-light">Python</span>
+          </div>
+          <p><b>Machine Learning Course Project.</b> Designed machine-learning-based trading strategies on Tencent stock data.</p>
+          <p class="is-size-6" style="margin-top: 5px;">
+            <span class="icon"><i class="fas fa-user-tag"></i></span>
+            <b>My Role:</b> Designed and evaluated various <b>trading strategies</b>.
+          </p>
+          <a href="https://scutxyx.github.io/SCUTMLTrading.github.io/" target="_blank" class="button is-small is-outlined is-link">Project Page &nbsp;<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Project 6: GraphRL-Fleet -->
+      <div class="columns is-vcentered">
+        <div class="column is-3">
+          <div style="background: #fff; border:1px solid #eef0f4; height: 140px; display:flex; align-items:center; justify-content:center; border-radius:12px;">
+            <i class="fas fa-route fa-3x" style="color: #cbd5e1;"></i>
+          </div>
+        </div>
+        <div class="column is-9">
+          <h4 class="title is-5">New Energy Vehicle Fleet Logistics Scheduling</h4>
+          <div class="tags">
+            <span class="tag is-primary is-light">Algorithms</span>
+            <span class="tag is-primary is-light">Full-Stack</span>
+            <span class="tag is-primary is-light">UI Design</span>
+          </div>
+          <p><b>Data Structures Course Project.</b> Built a logistics scheduling system for new-energy vehicle fleets.</p>
+          <p class="is-size-6" style="margin-top: 5px;">
+            <span class="icon"><i class="fas fa-user-tag"></i></span>
+            <b>My Role:</b> Algorithm tuning, front-end/back-end integration, <b>UI design</b>, and graphical visualization.
+          </p>
+          <a href="https://github.com/oplisty/GraphRL-Fleet" target="_blank" class="button is-small is-outlined is-link">GitHub &nbsp;<i class="fab fa-github"></i></a>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- ================= 技能与课程 (Skills & Courses) ================= -->
-  <section class="section">
+  <!-- ================= Honors & Awards ================= -->
+  <section class="section" id="honors" style="padding-top: 0;">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 section-title">🏆 Honors &amp; Awards</h2>
+      <div class="columns">
+        <div class="column is-12">
+
+          <div class="award-item">
+            <span class="award-year">2025</span>
+            <div><b>First Prize</b>, China Undergraduate Mathematical Contest (Guangdong Province) <span class="tag is-light is-rounded">Math</span></div>
+          </div>
+
+          <div class="award-item">
+            <span class="award-year">2025</span>
+            <div><b>Second Prize</b>, Asia-Pacific Mathematical Contest in Modeling (APMCM) <span class="tag is-light is-rounded">Modeling</span></div>
+          </div>
+
+          <div class="award-item">
+            <span class="award-year">2025</span>
+            <div><b>Second Prize</b>, National Embedded Competition (South China Region) <span class="tag is-light is-rounded">Embedded System</span></div>
+          </div>
+
+          <div class="award-item">
+            <span class="award-year">2025</span>
+            <div><b>Second Prize</b>, Electronic Design Contest (Guangdong Province) <span class="tag is-light is-rounded">Hardware</span></div>
+          </div>
+
+          <div class="award-item">
+            <span class="award-year">2025</span>
+            <div><b>Third Prize</b>, China Undergraduate Mathematical Modeling Contest (Guangdong) <span class="tag is-light is-rounded">Modeling</span></div>
+          </div>
+
+          <div class="award-item">
+            <span class="award-year">2025</span>
+            <div><b>Third-Class Scholarship</b>, South China University of Technology <span class="tag is-light is-rounded">Academic</span></div>
+          </div>
+
+          <div class="award-item">
+            <span class="award-year">2025</span>
+            <div><b>Outstanding Student ("Three Good Student")</b>, Jun-De College, SCUT <span class="tag is-light is-rounded">Academic</span></div>
+          </div>
+
+          <div class="award-item">
+            <span class="award-year">2024</span>
+            <div><b>Second Prize</b>, Baidu Brain Cup, Future Technology College, SCUT <span class="tag is-light is-rounded">AI</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Skills & Coursework ================= -->
+  <section class="section is-light" style="padding-top: 0;">
     <div class="container is-max-desktop">
       <div class="columns">
-        
-        <!-- 左边：技术栈 -->
+
         <div class="column is-6">
           <h2 class="title is-3 section-title">💻 Technical Skills</h2>
           <div class="content">
             <ul style="list-style-type: none; margin-left: 0;">
               <li style="margin-bottom: 10px;">
-                <span class="icon"><i class="fas fa-code"></i></span> 
-                <strong>Languages:</strong> Python, C/C++ (Proficient)
+                <span class="icon"><i class="fas fa-code"></i></span>
+                <strong>Languages:</strong> Python, C/C++
               </li>
               <li style="margin-bottom: 10px;">
-                <span class="icon"><i class="fas fa-microchip"></i></span> 
-                <strong>Embedded & Hardware:</strong> Arduino, Keil, STM32, Sensors Integration
+                <span class="icon"><i class="fas fa-brain"></i></span>
+                <strong>AI &amp; ML:</strong> PyTorch, Deep Learning, Reinforcement Learning, Computer Vision, Embodied AI
               </li>
               <li style="margin-bottom: 10px;">
-                <span class="icon"><i class="fas fa-brain"></i></span> 
-                <strong>AI & Tools:</strong> PyTorch, Computer Vision, AI-Assisted Development (LLMs)
+                <span class="icon"><i class="fas fa-microchip"></i></span>
+                <strong>Embedded &amp; Hardware:</strong> Arduino, Keil, STM32, Sensor Integration
               </li>
               <li>
-                <span class="icon"><i class="fas fa-tools"></i></span> 
-                <strong>Others:</strong> Git, Linux, LaTeX, MATLAB
+                <span class="icon"><i class="fas fa-tools"></i></span>
+                <strong>Tools:</strong> Git, Linux, LaTeX, MATLAB
               </li>
             </ul>
           </div>
         </div>
 
-        <!-- 右边：核心课程 -->
         <div class="column is-6">
           <h2 class="title is-3 section-title">🏫 Core Coursework</h2>
-          <div class="content">
-            <div class="tags are-medium">
-              <!-- 核心课程 -->
-              <span class="tag is-white" style="border: 1px solid #ddd;">Machine Learning</span>
-              <span class="tag is-white" style="border: 1px solid #ddd;">Data Structures</span>
-              <span class="tag is-white" style="border: 1px solid #ddd;">Signals and Systems</span>
-              <span class="tag is-white" style="border: 1px solid #ddd;">Basic Circuit Theory</span>
-            </div>
+          <div>
+            <span class="course-tag">Deep Learning</span>
+            <span class="course-tag">Machine Learning</span>
+            <span class="course-tag">Digital Signal Processing</span>
+            <span class="course-tag">Probability Theory</span>
+            <span class="course-tag">Calculus</span>
+            <span class="course-tag">Linear Algebra</span>
+            <span class="course-tag">Complex Analysis</span>
+            <span class="course-tag">Data Structures</span>
+            <span class="course-tag">Digital Logic Circuits</span>
+            <span class="course-tag">Signals and Systems</span>
+            <span class="course-tag">Basic Circuit Theory</span>
+            <span class="course-tag">C++ Programming</span>
           </div>
         </div>
 
@@ -505,66 +556,79 @@
     </div>
   </section>
 
-    <!-- ================= 生活与爱好 (Life & Hobbies) ================= -->
-  <section class="section is-light" id="life">
+  <!-- ================= Research Space / Learning Log (window) ================= -->
+  <section class="section" id="blog" style="padding-top: 0;">
     <div class="container is-max-desktop">
-      <h2 class="title is-3 section-title">🌈 Life & Hobbies</h2>
-      
+      <h2 class="title is-3 section-title">📚 Research Space</h2>
+
+      <a href="blog.html" class="research-window">
+        <span class="glow"></span>
+        <span class="glow2"></span>
+        <div class="window-icon"><i class="fas fa-book-open"></i></div>
+        <h3>Learning Log &amp; Research Notes</h3>
+        <p>
+          A living space where I document my learning progress — from reinforcement learning and embodied AI to
+          paper reading notes and weekly reports. Click to explore all posts.
+        </p>
+        <span class="window-cta">
+          Explore All Posts
+          <i class="fas fa-arrow-right"></i>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ================= Life & Hobbies ================= -->
+  <section class="section is-light" id="life" style="padding-top: 0;">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 section-title">🌈 Life &amp; Hobbies</h2>
+
       <div class="columns is-vcentered">
-        
-        <!-- 左侧：文字描述 -->
         <div class="column is-8">
           <div class="content">
-            <p>
-              Beyond academic research, I value a healthy work-life balance.
-            </p>
+            <p>Beyond academic research, I value a healthy work-life balance.</p>
             <ul style="list-style: none; margin-left: 0;">
-              <li style="margin-bottom: 10px;">
-                🏃‍♂️ <strong>Sports:</strong> I am passionate about <b>Basketball</b>. I also go <b>Jogging</b> regularly to maintain physical fitness.
-              </li>
-              <li>
-                🎮 <strong>Leisure:</strong> In my spare time, I relax by playing <b>Video Games</b> or <b>hanging out with classmates</b> to recharge.
-              </li>
+              <li style="margin-bottom: 10px;">🏃‍♂️ <strong>Sports:</strong> I am passionate about <b>Basketball</b> and go <b>Jogging</b> regularly to stay fit.</li>
+              <li>🎮 <strong>Leisure:</strong> In my spare time, I relax by playing <b>Video Games</b> or <b>hanging out with classmates</b>.</li>
             </ul>
           </div>
         </div>
 
-        <!-- 右侧：图标标签 -->
         <div class="column is-4">
           <div class="tags are-medium">
-            <span class="tag is-white" style="border: 1px solid #ddd; width: 100%;">
+            <span class="tag is-white" style="border: 1px solid #eef0f4; width: 100%;">
               <span class="icon has-text-warning"><i class="fas fa-basketball-ball"></i></span>
               &nbsp; Basketball
             </span>
-            <span class="tag is-white" style="border: 1px solid #ddd; width: 100%;">
+            <span class="tag is-white" style="border: 1px solid #eef0f4; width: 100%;">
               <span class="icon has-text-info"><i class="fas fa-running"></i></span>
               &nbsp; Jogging
             </span>
-            <span class="tag is-white" style="border: 1px solid #ddd; width: 100%;">
+            <span class="tag is-white" style="border: 1px solid #eef0f4; width: 100%;">
               <span class="icon has-text-primary"><i class="fas fa-gamepad"></i></span>
               &nbsp; Video Games
             </span>
-            <span class="tag is-white" style="border: 1px solid #ddd; width: 100%;">
+            <span class="tag is-white" style="border: 1px solid #eef0f4; width: 100%;">
               <span class="icon has-text-danger"><i class="fas fa-user-friends"></i></span>
               &nbsp; Socializing
             </span>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
-
-      
-      
+  <footer class="footer" style="background-color: #fbfbfc; padding: 2rem 1.5rem;">
+    <div class="content has-text-centered">
+      <p class="is-size-7 has-text-grey">&copy; 2026 Yuxuan Xue. Built with Bulma &amp; Inter.</p>
+    </div>
+  </footer>
 
   <script>
-    // 简单的汉堡菜单交互
     document.addEventListener('DOMContentLoaded', () => {
       const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
       if ($navbarBurgers.length > 0) {
-        $navbarBurgers.forEach( el => {
+        $navbarBurgers.forEach(el => {
           el.addEventListener('click', () => {
             const target = el.dataset.target;
             const $target = document.getElementById(target);
