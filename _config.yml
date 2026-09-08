@@ -1,21 +1,21 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "Yuxuan Xue"
 title_separator          : "-"
-name                     : "Your Name"
-description              : &description "A clean academic homepage template."
-url                      : ""
+name                     : "Yuxuan Xue"
+description              : &description "Homepage of Yuxuan Xue — undergraduate at South China University of Technology working on Embodied AI and Reinforcement Learning."
+url                      : "https://scutxyx.github.io"
 baseurl                  : ""
-repository               : ""
+repository               : "SCUTxyx/SCUTxyx.github.io"
 
 author:
-  avatar           : "1.png"
-  name             : "Your Name"
+  avatar           : "avatar.jpg"
+  name             : "Yuxuan Xue"
   pronouns         :
-  bio              : "Student and researcher."
-  location         : "City, Country"
-  employer         : "Institution or Company"
+  bio              : "Exploring Embodied AI & Reinforcement Learning ✨"
+  location         : "Guangzhou, China"
+  employer         : "SCUT"
   uri              :
-  email            : "name@example.com"
+  email            : "1120135876@qq.com"
 
   arxiv            :
   googlescholar    :
@@ -28,7 +28,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "SCUTxyx"
   kaggle           :
   stackoverflow    :
 

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Space · Learning Log | Yuxuan Xue</title>
+
+  <meta name="description" content="Research Space and Learning Log of Yuxuan Xue — notes on Embodied AI, Reinforcement Learning, and more.">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; background-color: #fbfbfc; }
+
+    .blog-hero {
+      background: linear-gradient(135deg, #ffd9e8 0%, #f6d9f2 45%, #d9e6ff 100%);
+      color: #4a4458;
+      border: 2px dashed rgba(247, 143, 179, 0.5);
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 16px 40px rgba(224, 86, 140, 0.15);
+    }
+    .blog-hero h1 { font-weight: 800; letter-spacing: -0.03em; color: #d94f8c; }
+    .blog-hero p { color: #7a7290; }
+
+    .post-card {
+      display: block;
+      background: #fff;
+      border: 1px solid #ececf1;
+      border-radius: 16px;
+      padding: 1.75rem;
+      height: 100%;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      transition: transform .25s cubic-bezier(.4,0,.2,1), box-shadow .25s ease, border-color .25s ease;
+    }
+    .post-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px rgba(37, 99, 235, 0.10);
+      border-color: #c7d8f8;
+    }
+    .post-card .post-meta { font-size: 0.78rem; color: #64748b; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+    .post-card h3 { font-size: 1.15rem; font-weight: 700; color: #1e293b; margin-bottom: 0.5rem; line-height: 1.35; }
+    .post-card p { font-size: 0.92rem; color: #64748b; line-height: 1.55; }
+    .post-card .read-more { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; font-weight: 600; color: #2563eb; margin-top: 1rem; }
+
+    .featured-tag { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #2563eb; }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/anime.css">
+  <script src="/assets/js/sakura.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar is-light">
+    <div class="container is-max-desktop">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <span class="icon"><i class="fas fa-arrow-left"></i></span>
+          &nbsp; <b>Back to Home</b>
+        </a>
+      </div>
+      <div class="navbar-menu is-active">
+        <div class="navbar-end">
+          <a href="/" class="navbar-item">Home</a>
+          <a href="https://github.com/SCUTxyx" target="_blank" class="navbar-item">GitHub</a>
+          <a href="mailto:1120135876@qq.com" class="navbar-item">Email</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container is-max-desktop">
+
+      <div class="blog-hero">
+        <span class="featured-tag" style="color: #93c5fd;">📚 Research Space</span>
+        <h1 class="title is-2" style="margin-top: 0.5rem; color: #fff;">Learning Log &amp; Research Notes</h1>
+        <p class="subtitle is-6" style="margin-top: 0.5rem;">
+          A living archive of my learning progress — reinforcement learning, embodied AI, paper reading, and weekly reports.
+        </p>
+      </div>
+
+      <div class="columns is-multiline">
+
+        <!-- Featured / latest post -->
+        <div class="column is-12">
+          <a href="report/rl_token.html" class="post-card" style="background: linear-gradient(135deg, #ffffff 0%, #f5f8ff 100%);">
+            <div class="post-meta">
+              <i class="far fa-calendar-alt"></i> Aug 14, 2026
+              <span class="tag is-link is-light is-small" style="margin-left: 0.25rem;">Featured</span>
+              <span class="tag is-light is-small">Research Report</span>
+              <span class="tag is-light is-small">VLA</span>
+              <span class="tag is-light is-small">Reinforcement Learning</span>
+            </div>
+            <h3>RL Token: High-Precision Online RL for VLAs While Preserving Generalization Priors</h3>
+            <p>
+              Paper reading report: RL Token compresses VLA knowledge into compact token representations,
+              freezes the large model, and trains only a lightweight actor-critic — learning sub-millimeter
+              contact manipulation within hours while balancing generalization and sample efficiency.
+            </p>
+            <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="column is-6">
+          <a href="posts/embodied_ai_roadmap.html" class="post-card">
+            <div class="post-meta">
+              <i class="far fa-calendar-alt"></i> Aug 2026
+              <span class="tag is-light is-info is-small">Reading Notes</span>
+            </div>
+            <h3>Embodied AI &amp; Reinforcement Learning: My Research Roadmap</h3>
+            <p>
+              Where I am heading — a personal roadmap for moving into embodied intelligence: from RL fundamentals and
+              Vision-Language-Action (VLA) models to world models and critic-based robot learning.
+            </p>
+            <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="column is-6">
+          <a href="posts/embodied_ai_roadmap.html" class="post-card">
+            <div class="post-meta">
+              <i class="far fa-calendar-alt"></i> Jan 2026
+              <span class="tag is-light is-success is-small">CS Basics</span>
+            </div>
+            <h3>CS Missing Semester: Shell, Vim &amp; Git</h3>
+            <p>
+              Recap of the "Missing Semester" course and a review of CS231n fundamentals for computer vision.
+            </p>
+            <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="column is-6">
+          <a href="posts/embodied_ai_roadmap.html" class="post-card">
+            <div class="post-meta">
+              <i class="far fa-calendar-alt"></i> Jan 2026
+              <span class="tag is-light is-warning is-small">Tools</span>
+            </div>
+            <h3>Version Control with Git</h3>
+            <p>
+              Notes on Git snapshots, branching strategies, and collaboration workflows.
+            </p>
+            <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <!-- Post 5 -->
+        <div class="column is-6">
+          <a href="posts/embodied_ai_roadmap.html" class="post-card">
+            <div class="post-meta">
+              <i class="far fa-calendar-alt"></i> Jan 2026
+              <span class="tag is-light is-danger is-small">Efficiency</span>
+            </div>
+            <h3>Terminal Multiplexer: Tmux</h3>
+            <p>
+              Managing multiple terminal sessions, window splitting, and keeping processes running.
+            </p>
+            <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" style="background-color: #fbfbfc; padding: 2rem 1.5rem;">
+    <div class="content has-text-centered">
+      <p class="is-size-7 has-text-grey">&copy; 2026 Yuxuan Xue.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
