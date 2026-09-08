@@ -90,7 +90,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :
+og_image                 : images/avatar.jpg
 social:
   type                   :
   name                   :

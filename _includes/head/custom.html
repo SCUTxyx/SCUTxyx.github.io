@@ -11,6 +11,7 @@
 <link rel="apple-touch-icon" sizes="144x144" href="{{ base_path }}/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="152x152" href="{{ base_path }}/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg">
 <link rel="icon" href="{{ base_path }}/images/favicon.ico">
 <link rel="manifest" href="{{ base_path }}/images/manifest.json?v=M44lzPylqQ">
 <link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
@@ -27,8 +28,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/anime.css">
 
-<!-- Support for MatJax -->
-<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!-- MathJax is loaded per-page where needed (e.g. report/rl_token.html),
+     so it is intentionally NOT loaded globally. -->
 
 <!-- end custom head snippets -->

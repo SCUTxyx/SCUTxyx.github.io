@@ -1,6 +1,5 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+/* Handwritten display fonts are loaded once via _includes/head/custom.html
+   (Caveat / Patrick Hand / Kalam). No per-page font @imports needed here. */
 
 #news,
     #experience,

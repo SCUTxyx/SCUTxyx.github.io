@@ -1,10 +1,9 @@
 /* ============================================================
    ✿ Anime / Handwritten Theme for Yuxuan Xue's Homepage ✿
    Fonts : Caveat (headings) · Patrick Hand (body) · Kalam (accents)
+           (loaded via <link> in _includes/head/custom.html)
    Feel  : sakura pastel · soft paper cards · floating petals
    ============================================================ */
-
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap');
 
 :root {
   --sakura: #f78fb3;
@@ -21,11 +20,13 @@
 body {
   background-color: #fdf3f7 !important;
   background-image:
+    radial-gradient(circle, rgba(224, 86, 140, 0.055) 1.5px, transparent 1.6px),
     radial-gradient(circle at 12% 18%, rgba(255, 183, 213, 0.45) 0%, transparent 34%),
     radial-gradient(circle at 88% 12%, rgba(182, 157, 242, 0.35) 0%, transparent 38%),
     radial-gradient(circle at 78% 85%, rgba(142, 197, 242, 0.35) 0%, transparent 40%),
     radial-gradient(circle at 20% 90%, rgba(143, 217, 196, 0.30) 0%, transparent 36%),
     linear-gradient(160deg, #fff5f9 0%, #fdeaf4 30%, #eef3fd 70%, #f6effc 100%) !important;
+  background-size: 28px 28px, auto, auto, auto, auto, auto !important;
   background-attachment: fixed !important;
   font-family: 'Patrick Hand', 'Comic Sans MS', cursive !important;
   font-size: 16.5px;
@@ -208,8 +209,7 @@ a:hover {
 .project-card:hover .project-emoji { transform: rotate(-8deg) scale(1.12); }
 
 .project-card { padding: 14px !important; }
-.project-card > div:not(.project-emoji) { flex: 1; }
-.project-card > div:not(.project-emoji) > div { flex: 1; }
+.project-card > div:not(.project-emoji) { flex: 1; min-width: 0; }
 
 /* skills / hobby twin cards */
 .skills-container {
@@ -324,6 +324,9 @@ li em { font-family: 'Kalam', cursive; color: var(--sakura-deep); }
   z-index: 9999;
 }
 
+/* ---------- anchor offset under the fixed masthead ---------- */
+[id] { scroll-margin-top: 84px; }
+
 /* ---------- entrance animation ---------- */
 @keyframes pop-in {
   0%   { opacity: 0; transform: translateY(-18px) scale(0.94); }
@@ -344,8 +347,14 @@ li em { font-family: 'Kalam', cursive; color: var(--sakura-deep); }
   body { font-size: 15.5px; }
   .main-heading { font-size: 2.3em !important; }
   h1 { font-size: 2.2em !important; }
-  .project-emoji { width: 58px; height: 58px; margin-right: 14px; font-size: 1.7rem; }
+
+  /* stack project / space cards vertically so content can shrink */
+  .project-card { flex-direction: column !important; align-items: flex-start !important; }
+  .project-card > .project-emoji { width: 58px; height: 58px; margin-right: 0 !important; margin-bottom: 12px; font-size: 1.7rem; }
   .space-card, .skills-card { flex: 1 1 100%; }
+
+  /* guard against any remaining horizontal overflow */
+  body { overflow-x: hidden; }
 }
 
 /* respect reduced-motion users */
