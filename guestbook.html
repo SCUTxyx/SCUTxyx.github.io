@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guestbook · Say Hi | Yuxuan Xue</title>
+
+  <meta name="description" content="Leave a message, share a suggestion, or start a collaboration with Yuxuan Xue — Embodied AI & Reinforcement Learning.">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/anime.css">
+  <script src="/assets/js/sakura.js" defer></script>
+
+  <style>
+    body { font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; background-color: #fbfbfc; }
+
+    /* mint meadow palette: fresh teal accents, still part of the pastel family */
+    :root {
+      --mint-deep: #2e9b78;
+      --mint: #6cc5a3;
+      --mint-bg: #e6f6ef;
+      --sky-deep: #4a8fb5;
+    }
+
+    .guest-hero {
+      background: linear-gradient(135deg, #d9f2e6 0%, #d9ecf2 45%, #e2d9f2 100%);
+      color: #4a4458;
+      border: 2px dashed rgba(108, 197, 163, 0.6);
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 16px 40px rgba(108, 197, 163, 0.2);
+    }
+    .guest-hero h1 { font-weight: 800; letter-spacing: -0.03em; color: #2e9b78; }
+    .guest-hero p { color: #7a7290; }
+
+    .guest-kicker {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--mint-deep);
+    }
+
+    .section-title-mini {
+      font-family: 'Caveat', cursive;
+      font-size: 1.9rem;
+      color: var(--mint-deep);
+      margin: 2.2rem 0 1rem;
+    }
+    .section-title-mini .dash {
+      display: inline-block; width: 60px; height: 4px; border-radius: 999px;
+      background: linear-gradient(90deg, var(--mint), transparent);
+      vertical-align: middle; margin-left: 12px;
+    }
+
+    /* collaboration card */
+    .collab-card {
+      background: rgba(255, 255, 255, 0.9);
+      border: 1.5px solid rgba(108, 197, 163, 0.4);
+      border-radius: 18px;
+      padding: 1.6rem 1.8rem;
+      box-shadow: 0 6px 18px rgba(108, 197, 163, 0.15);
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+    }
+    .collab-card:hover { transform: translateY(-4px) rotate(-0.4deg); box-shadow: 0 14px 30px rgba(46, 155, 120, 0.2); }
+    .collab-card .cols { display: flex; gap: 1.8rem; flex-wrap: wrap; }
+    .collab-card .col { flex: 1 1 260px; }
+    .collab-card h3 { font-family: 'Caveat', cursive; font-size: 1.5rem; color: var(--sky-deep); margin-bottom: 0.4rem; }
+    .collab-card ul { margin: 0; padding-left: 1.1em; }
+    .collab-card li { margin-bottom: 6px; line-height: 1.55; }
+    .collab-buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 1.2rem; }
+    .collab-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      border-radius: 999px; padding: 9px 22px;
+      font-family: 'Kalam', cursive; font-weight: 700; font-size: 1rem;
+      text-decoration: none; transition: all 0.25s ease;
+    }
+    .collab-btn:hover { transform: translateY(-2px) rotate(-1deg); text-decoration: none; }
+    .collab-btn.mail { background: linear-gradient(120deg, var(--mint), var(--sky-deep)); color: #fff !important; box-shadow: 0 6px 14px rgba(46, 155, 120, 0.35); }
+    .collab-btn.gh { background: #fff; color: #4a4458 !important; border: 1.5px solid rgba(108, 197, 163, 0.6); }
+
+    /* guestbook form */
+    .form-card {
+      background: rgba(255, 255, 255, 0.92);
+      border: 1.5px solid rgba(108, 197, 163, 0.4);
+      border-radius: 18px;
+      padding: 1.6rem 1.8rem;
+      box-shadow: 0 6px 18px rgba(108, 197, 163, 0.15);
+    }
+    .field label { font-family: 'Kalam', cursive; color: var(--sky-deep); font-size: 1rem; }
+    .field input, .field textarea {
+      border-radius: 12px;
+      border: 1.5px solid rgba(108, 197, 163, 0.45);
+      box-shadow: none;
+      font-family: 'Patrick Hand', cursive;
+      font-size: 1.05rem;
+      color: #4a4458;
+      transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+    .field input:focus, .field textarea:focus {
+      border-color: var(--mint);
+      box-shadow: 0 0 0 0.15em rgba(108, 197, 163, 0.25) !important;
+    }
+    .send-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: linear-gradient(120deg, var(--mint), var(--sky-deep));
+      color: #fff; border: none; border-radius: 999px;
+      padding: 10px 28px;
+      font-family: 'Kalam', cursive; font-weight: 700; font-size: 1.05rem;
+      cursor: pointer;
+      box-shadow: 0 6px 14px rgba(46, 155, 120, 0.35);
+      transition: transform 0.25s ease;
+    }
+    .send-btn:hover { transform: translateY(-2px) rotate(-1deg); }
+    .form-hint { font-size: 0.85rem; color: #9a93ab; margin-top: 0.8rem; font-family: 'Kalam', cursive; }
+
+    /* channels */
+    .channel-row { display: flex; gap: 20px; flex-wrap: wrap; }
+    .channel-card {
+      flex: 1 1 300px;
+      display: flex; align-items: center; gap: 16px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1.5px solid rgba(108, 197, 163, 0.4);
+      border-radius: 18px;
+      padding: 1.2rem 1.4rem;
+      color: #4a4458 !important;
+      text-decoration: none;
+      box-shadow: 0 6px 18px rgba(108, 197, 163, 0.15);
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+    }
+    .channel-card:hover { transform: translateY(-4px) rotate(-0.5deg); text-decoration: none !important; box-shadow: 0 14px 30px rgba(46, 155, 120, 0.2); }
+    .channel-emoji {
+      flex: 0 0 auto; width: 54px; height: 54px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem;
+      background: linear-gradient(135deg, #e6f6ef, #e2d9f2);
+      border: 1.5px solid rgba(108, 197, 163, 0.4);
+    }
+    .channel-card strong { font-family: 'Caveat', cursive; font-size: 1.35rem; color: var(--mint-deep); display: block; }
+    .channel-card span.desc { font-size: 0.88rem; color: #7a7290; }
+
+    @media (max-width: 768px) {
+      .guest-hero { padding: 2rem 1.5rem; }
+      .collab-card, .form-card { padding: 1.2rem 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar is-light">
+    <div class="container is-max-desktop">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <span class="icon"><i class="fas fa-arrow-left"></i></span>
+          &nbsp; <b>Back to Home</b>
+        </a>
+      </div>
+      <div class="navbar-menu is-active">
+        <div class="navbar-end">
+          <a href="/" class="navbar-item">Home</a>
+          <a href="blog.html" class="navbar-item">Blog</a>
+          <a href="https://github.com/SCUTxyx" target="_blank" class="navbar-item">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container is-max-desktop">
+
+      <div class="guest-hero">
+        <span class="guest-kicker">📮 Guestbook · Leave a Note</span>
+        <h1 class="title is-2" style="margin-top: 0.5rem;">Say Hi, Suggest, Collaborate! 🌿</h1>
+        <p class="subtitle is-6" style="margin-top: 0.5rem;">
+          Found a bug on this site? Have a paper to recommend? A wild idea about robots?
+          Or just want to say hello? — This little mailbox is always open for you. 💚
+        </p>
+      </div>
+
+      <!-- Collaboration invitation -->
+      <h2 class="section-title-mini">🤝 Let's Collaborate<span class="dash"></span></h2>
+      <div class="collab-card">
+        <div class="cols">
+          <div class="col">
+            <h3>What I work on</h3>
+            <ul>
+              <li>🤖 <b>Embodied AI</b> — VLA models &amp; robot manipulation</li>
+              <li>🎮 <b>Reinforcement Learning</b> — sample-efficient policy learning</li>
+              <li>👁 <b>Computer Vision</b> — perception for the physical world</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>What I'm looking for</h3>
+            <ul>
+              <li>🎓 <b>Ph.D. / MPhil positions</b> starting Fall 2028</li>
+              <li>🔬 Research collaboration on embodied AI &amp; RL papers</li>
+              <li>☕ Friendly chats about robots, papers, or grad life</li>
+            </ul>
+          </div>
+        </div>
+        <div class="collab-buttons">
+          <a class="collab-btn mail" href="mailto:1120135876@qq.com?subject=%5BCollaboration%5D%20Hello%20Yuxuan!">
+            <i class="fas fa-envelope"></i> Email Me
+          </a>
+          <a class="collab-btn gh" href="https://github.com/SCUTxyx" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a class="collab-btn gh" href="/files/CV_Yuxuan_Xue.pdf" target="_blank">
+            <i class="fas fa-file-lines"></i> My CV
+          </a>
+        </div>
+      </div>
+
+      <!-- Suggestion form -->
+      <h2 class="section-title-mini">💌 Drop a Message<span class="dash"></span></h2>
+      <div class="form-card">
+        <div class="columns is-multiline">
+          <div class="column is-6 field">
+            <label class="label">Your name / 昵称 ✿</label>
+            <input class="input" id="gb-name" type="text" placeholder="e.g. A fellow robot lover">
+          </div>
+          <div class="column is-6 field">
+            <label class="label">Email (optional, so I can reply)</label>
+            <input class="input" id="gb-email" type="email" placeholder="you@example.com">
+          </div>
+          <div class="column is-12 field">
+            <label class="label">Your message ✍</label>
+            <textarea class="textarea" id="gb-msg" rows="5" placeholder="Suggestions for this site, paper recommendations, collaboration ideas, or just a friendly hello…"></textarea>
+          </div>
+          <div class="column is-12">
+            <button class="send-btn" id="gb-send"><i class="fas fa-paper-plane"></i> Send my message</button>
+            <p class="form-hint">💌 This opens your mail app with the message pre-filled — no data is stored anywhere on this site.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Public channels -->
+      <h2 class="section-title-mini">🌳 Other Ways to Reach Me<span class="dash"></span></h2>
+      <div class="channel-row">
+        <a class="channel-card" href="https://github.com/SCUTxyx/SCUTxyx.github.io/issues/new?title=%5BGuestbook%5D%20Hi%20Yuxuan!&body=Leave%20your%20message%20here%20%F0%9F%92%9A"
+           target="_blank" rel="noopener">
+          <div class="channel-emoji">🏬</div>
+          <div>
+            <strong>Public Guestbook via GitHub Issues</strong>
+            <span class="desc">Leave a message on the public wall — open an issue, no email needed, just a GitHub account.</span>
+          </div>
+        </a>
+        <a class="channel-card" href="mailto:1120135876@qq.com">
+          <div class="channel-emoji">✉️</div>
+          <div>
+            <strong>Good Old Email</strong>
+            <span class="desc">1120135876@qq.com — for anything longer than a sticky note.</span>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer" style="background-color: #fcfcfc; padding: 2rem 1.5rem;">
+    <div class="content has-text-centered">
+      <p class="is-size-7 has-text-grey">
+        Made with 💚 &amp; falling sakura · &copy; 2026 Yuxuan Xue.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    document.getElementById('gb-send').addEventListener('click', function () {
+      var name = document.getElementById('gb-name').value.trim() || 'A secret friend';
+      var email = document.getElementById('gb-email').value.trim();
+      var msg = document.getElementById('gb-msg').value.trim();
+      if (!msg) {
+        document.getElementById('gb-msg').focus();
+        return;
+      }
+      var subject = encodeURIComponent('[Guestbook] A message from ' + name);
+      var body = encodeURIComponent(msg + '\n\n— ' + name + (email ? ' (' + email + ')' : ''));
+      window.location.href = 'mailto:1120135876@qq.com?subject=' + subject + '&body=' + body;
+    });
+  })();
+  </script>
+
+</body>
+</html>

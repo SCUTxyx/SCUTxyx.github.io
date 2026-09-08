@@ -22,5 +22,8 @@ main:
   - title: "Blog"
     url: "/blog.html"
 
+  - title: "Guestbook 📮"
+    url: "/guestbook.html"
+
   - title: "CV"
     url: "/files/CV_Yuxuan_Xue.pdf"

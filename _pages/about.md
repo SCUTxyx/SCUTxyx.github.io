@@ -183,7 +183,7 @@ Skills &amp; Coursework
   </div>
 </div>
 
-Research Space
+Explore More ✨
 --------
 
 <div class="space-container" id="blog">
@@ -203,6 +203,15 @@ Research Space
       <strong>Daily arXiv Papers</strong><br>
       Fresh robotics, embodied-AI, reinforcement-learning and CV papers fetched from arXiv every morning, ranked by my research taste.
       <span class="space-cta">Read Today's Papers →</span>
+    </div>
+  </a>
+
+  <a href="/guestbook.html" class="space-card">
+    <div class="space-emoji">📮</div>
+    <div>
+      <strong>Guestbook · Say Hi</strong><br>
+      Suggestions, paper recommendations, or collaboration ideas — my mailbox is always open, and fellow researchers are warmly welcome.
+      <span class="space-cta">Leave a Message →</span>
     </div>
   </a>
 
