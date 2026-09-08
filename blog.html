@@ -3,14 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Research Space · Learning Log | Yuxuan Xue</title>
+  <title>Knowledge Space · Learning Log | Yuxuan Xue</title>
 
-  <meta name="description" content="Research Space and Learning Log of Yuxuan Xue — notes on Embodied AI, Reinforcement Learning, and more.">
+  <meta name="description" content="Knowledge Space of Yuxuan Xue — blog posts and notes on Embodied AI, Reinforcement Learning, and more.">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="static/css/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/anime.css">
+  <script src="/assets/js/sakura.js" defer></script>
 
   <style>
     body { font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; background-color: #fbfbfc; }
@@ -27,6 +32,19 @@
     .blog-hero h1 { font-weight: 800; letter-spacing: -0.03em; color: #d94f8c; }
     .blog-hero p { color: #7a7290; }
 
+    .ks-stats { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 1.4rem; }
+    .ks-stat {
+      display: inline-flex; align-items: center; gap: 0.45rem;
+      background: rgba(255, 255, 255, 0.75);
+      border: 1.5px solid rgba(247, 143, 179, 0.45);
+      border-radius: 999px;
+      padding: 5px 16px;
+      font-family: 'Kalam', cursive;
+      font-size: 0.95rem;
+      color: #b23a70;
+    }
+    .ks-stat img { height: 20px; }
+
     .post-card {
       display: block;
       background: #fff;
@@ -41,21 +59,47 @@
     }
     .post-card:hover {
       transform: translateY(-4px);
-      box-shadow: 0 14px 30px rgba(37, 99, 235, 0.10);
-      border-color: #c7d8f8;
+      box-shadow: 0 14px 30px rgba(224, 86, 140, 0.10);
+      border-color: rgba(247, 143, 179, 0.6);
     }
-    .post-card .post-meta { font-size: 0.78rem; color: #64748b; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
-    .post-card h3 { font-size: 1.15rem; font-weight: 700; color: #1e293b; margin-bottom: 0.5rem; line-height: 1.35; }
+    .post-card .post-meta { font-size: 0.82rem; color: #64748b; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+    .post-card h3 { font-size: 1.2rem; font-weight: 700; color: #1e293b; margin-bottom: 0.5rem; line-height: 1.35; }
     .post-card p { font-size: 0.92rem; color: #64748b; line-height: 1.55; }
-    .post-card .read-more { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; font-weight: 600; color: #2563eb; margin-top: 1rem; }
+    .post-card .read-more { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; font-weight: 600; color: #e0568c; margin-top: 1rem; }
 
-    .featured-tag { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #2563eb; }
+    .ks-post-top {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.7rem;
+    }
+    .ks-date {
+      display: inline-flex; align-items: center; gap: 0.45rem;
+      font-family: 'Kalam', cursive;
+      font-size: 0.92rem;
+      color: #b23a70;
+      background: #fff0f6;
+      border: 1.5px dashed rgba(247, 143, 179, 0.55);
+      border-radius: 999px;
+      padding: 3px 14px;
+    }
+    .ks-pv { height: 20px; }
+
+    .featured-tag { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #e0568c; }
+
+    .ks-divider {
+      display: flex; align-items: center; gap: 1rem;
+      margin: 2.6rem 0 1.6rem;
+      color: #b23a70;
+      font-family: 'Caveat', cursive;
+      font-size: 1.6rem;
+    }
+    .ks-divider::before, .ks-divider::after {
+      content: ''; flex: 1; height: 2px;
+      background: repeating-linear-gradient(90deg, rgba(247,143,179,.6) 0 10px, transparent 10px 18px);
+      border-radius: 999px;
+    }
+
+    .soon-card { opacity: 0.82; }
   </style>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap">
-  <link rel="stylesheet" href="/assets/css/anime.css">
-  <script src="/assets/js/sakura.js" defer></script>
 </head>
 <body>
 
@@ -81,21 +125,41 @@
     <div class="container is-max-desktop">
 
       <div class="blog-hero">
-        <span class="featured-tag" style="color: #93c5fd;">📚 Research Space</span>
-        <h1 class="title is-2" style="margin-top: 0.5rem; color: #fff;">Learning Log &amp; Research Notes</h1>
+        <span class="featured-tag">🌸 Knowledge Space · Learning Log</span>
+        <h1 class="title is-2" style="margin-top: 0.5rem;">Notes, Papers &amp; Ideas ✨</h1>
         <p class="subtitle is-6" style="margin-top: 0.5rem;">
-          A living archive of my learning progress — reinforcement learning, embodied AI, paper reading, and weekly reports.
+          A living archive of my learning progress — reinforcement learning, embodied AI,
+          paper reading, and weekly reports. Every post is stamped with its publish date 📅
+          and read count 👀.
         </p>
+        <div class="ks-stats">
+          <span class="ks-stat">📚 2 posts published</span>
+          <span class="ks-stat">🌱 more on the way</span>
+          <span class="ks-stat">👀
+            <img class="ks-pv"
+                 src="https://visitor-badge.laobi.icu/badge?page_id=scutxyx.blog.space"
+                 alt="total reads"
+                 loading="lazy"
+                 onerror="this.style.display='none'">
+          </span>
+        </div>
       </div>
 
       <div class="columns is-multiline">
 
         <!-- Featured / latest post -->
         <div class="column is-12">
-          <a href="report/rl_token.html" class="post-card" style="background: linear-gradient(135deg, #ffffff 0%, #f5f8ff 100%);">
+          <a href="report/rl_token.html" class="post-card" style="background: linear-gradient(135deg, #ffffff 0%, #fff5f9 100%);">
+            <div class="ks-post-top">
+              <span class="ks-date"><i class="far fa-calendar-alt"></i> Aug 14, 2026</span>
+              <img class="ks-pv"
+                   src="https://visitor-badge.laobi.icu/badge?page_id=scutxyx.blog.rl_token"
+                   alt="read count"
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+            </div>
             <div class="post-meta">
-              <i class="far fa-calendar-alt"></i> Aug 14, 2026
-              <span class="tag is-link is-light is-small" style="margin-left: 0.25rem;">Featured</span>
+              <span class="tag is-link is-light is-small">Featured</span>
               <span class="tag is-light is-small">Research Report</span>
               <span class="tag is-light is-small">VLA</span>
               <span class="tag is-light is-small">Reinforcement Learning</span>
@@ -113,8 +177,15 @@
         <!-- Post 2 -->
         <div class="column is-6">
           <a href="posts/embodied_ai_roadmap.html" class="post-card">
+            <div class="ks-post-top">
+              <span class="ks-date"><i class="far fa-calendar-alt"></i> Aug 14, 2026</span>
+              <img class="ks-pv"
+                   src="https://visitor-badge.laobi.icu/badge?page_id=scutxyx.blog.roadmap"
+                   alt="read count"
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+            </div>
             <div class="post-meta">
-              <i class="far fa-calendar-alt"></i> Aug 2026
               <span class="tag is-light is-info is-small">Reading Notes</span>
             </div>
             <h3>Embodied AI &amp; Reinforcement Learning: My Research Roadmap</h3>
@@ -128,12 +199,14 @@
 
         <!-- Post 3 -->
         <div class="column is-6">
-          <a href="#" class="post-card">
+          <a href="#" class="post-card soon-card">
+            <div class="ks-post-top">
+              <span class="ks-date"><i class="far fa-calendar-alt"></i> Coming Soon</span>
+            </div>
             <div class="post-meta">
-              <i class="far fa-calendar-alt"></i> Jan 2026
               <span class="tag is-light is-success is-small">CS Basics</span>
             </div>
-            <h3>CS Missing Semester: Shell, Vim &amp; Git <span class="tag is-light is-small">Coming Soon</span></h3>
+            <h3>CS Missing Semester: Shell, Vim &amp; Git</h3>
             <p>
               Recap of the "Missing Semester" course and a review of CS231n fundamentals for computer vision.
             </p>
@@ -141,37 +214,10 @@
           </a>
         </div>
 
-        <!-- Post 4 -->
-        <div class="column is-6">
-          <a href="#" class="post-card">
-            <div class="post-meta">
-              <i class="far fa-calendar-alt"></i> Jan 2026
-              <span class="tag is-light is-warning is-small">Tools</span>
-            </div>
-            <h3>Version Control with Git <span class="tag is-light is-small">Coming Soon</span></h3>
-            <p>
-              Notes on Git snapshots, branching strategies, and collaboration workflows.
-            </p>
-            <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
-          </a>
-        </div>
-
-        <!-- Post 5 -->
-        <div class="column is-6">
-          <a href="#" class="post-card">
-            <div class="post-meta">
-              <i class="far fa-calendar-alt"></i> Jan 2026
-              <span class="tag is-light is-danger is-small">Efficiency</span>
-            </div>
-            <h3>Terminal Multiplexer: Tmux <span class="tag is-light is-small">Coming Soon</span></h3>
-            <p>
-              Managing multiple terminal sessions, window splitting, and keeping processes running.
-            </p>
-            <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
-          </a>
-        </div>
-
       </div>
+
+      <div class="ks-divider">🌱 more notes sprouting here</div>
+
     </div>
   </section>
 

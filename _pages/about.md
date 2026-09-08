@@ -189,11 +189,11 @@ Research Space
 <div class="space-container" id="blog">
 
   <a href="/blog.html" class="space-card">
-    <div class="space-emoji">📚</div>
+    <div class="space-emoji">✨</div>
     <div>
-      <strong>Learning Log &amp; Research Notes</strong><br>
-      A living space where I document my learning progress — from reinforcement learning and embodied AI to paper reading notes and weekly reports.
-      <span class="space-cta">Explore All Posts →</span>
+      <strong>Knowledge Space</strong><br>
+      My blog — learning notes, paper reading reports, and research ideas, each stamped with its publish date and read count.
+      <span class="space-cta">Enter the Knowledge Space →</span>
     </div>
   </a>
 
