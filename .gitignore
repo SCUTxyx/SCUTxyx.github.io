@@ -9,4 +9,5 @@ Gemfile.lock
 
 # Ingore files created by npm
 node_modules
-package-lock.json_config_local.yml
+package-lock.json
+_config_local.yml
