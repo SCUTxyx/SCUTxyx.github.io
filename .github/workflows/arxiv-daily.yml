@@ -1,0 +1,40 @@
+name: daily-arxiv-feed
+
+# Rebuilds the arXiv daily feed once a day (08:00 Beijing) and publishes it
+# to the orphan `feed` branch. The site page (/daily.html) fetches it from
+# raw.githubusercontent.com — keeping the feed separate avoids any conflicts
+# with manually pushed site updates.
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build feed
+        run: python3 .github/scripts/build_arxiv_feed.py daily_papers.json
+
+      - name: Publish to feed branch
+        run: |
+          git config user.name  "arxiv-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp daily_papers.json /tmp/daily_papers.json
+          git fetch origin feed || echo "no feed branch yet"
+          if git rev-parse --verify origin/feed >/dev/null 2>&1; then
+            git checkout -B feed origin/feed
+          else
+            git checkout --orphan feed
+            git rm -rf --cached . >/dev/null 2>&1 || true
+          fi
+          mv /tmp/daily_papers.json daily_papers.json
+          git add daily_papers.json
+          git commit -m "arXiv feed update $(date -u +%F)" || echo "feed unchanged"
+          git push origin feed

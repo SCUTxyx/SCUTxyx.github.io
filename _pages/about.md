@@ -197,6 +197,15 @@ Research Space
     </div>
   </a>
 
+  <a href="/daily.html" class="space-card">
+    <div class="space-emoji">🗞</div>
+    <div>
+      <strong>Daily arXiv Papers</strong><br>
+      Fresh robotics, embodied-AI, reinforcement-learning and CV papers fetched from arXiv every morning, ranked by my research taste.
+      <span class="space-cta">Read Today's Papers →</span>
+    </div>
+  </a>
+
   <a href="/resources.html" class="space-card">
     <div class="space-emoji">🎒</div>
     <div>

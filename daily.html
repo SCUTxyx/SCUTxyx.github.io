@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily arXiv Papers | Yuxuan Xue</title>
+
+  <meta name="description" content="Daily fresh arXiv papers for Embodied AI, Robotics, Reinforcement Learning and Computer Vision — hand-tuned feed for Yuxuan Xue.">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/anime.css">
+  <script src="/assets/js/sakura.js" defer></script>
+
+  <style>
+    body { font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; background-color: #fbfbfc; }
+
+    /* sunrise palette: peach → rose → lavender — diverse yet harmonious with the sakura theme */
+    :root {
+      --sun: #e8834a;
+      --sun-soft: #f2a65a;
+      --sun-bg: #fff3e6;
+      --lav: #9d8df2;
+    }
+
+    .daily-hero {
+      background: linear-gradient(135deg, #ffe8d6 0%, #ffd9e8 45%, #e2d9f2 100%);
+      color: #4a4458;
+      border: 2px dashed rgba(242, 166, 90, 0.55);
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 16px 40px rgba(242, 166, 90, 0.18);
+    }
+    .daily-hero h1 { font-weight: 800; letter-spacing: -0.03em; color: #d97a35; }
+    .daily-hero p { color: #7a7290; }
+
+    .daily-kicker {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--sun);
+    }
+    .ks-stats { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 1.4rem; }
+    .ks-stat {
+      display: inline-flex; align-items: center; gap: 0.45rem;
+      background: rgba(255, 255, 255, 0.78);
+      border: 1.5px solid rgba(242, 166, 90, 0.5);
+      border-radius: 999px;
+      padding: 5px 16px;
+      font-family: 'Kalam', cursive;
+      font-size: 0.95rem;
+      color: #c06a2e;
+    }
+
+    .filter-chips { display: flex; gap: 10px; flex-wrap: wrap; margin: 0 0 1.6rem; }
+    .chip {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      border: 1.5px solid rgba(242, 166, 90, 0.5);
+      background: rgba(255, 255, 255, 0.85);
+      color: #a4633a;
+      border-radius: 999px;
+      padding: 5px 16px;
+      font-family: 'Kalam', cursive;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      user-select: none;
+    }
+    .chip:hover { transform: translateY(-2px) rotate(-1deg); border-color: var(--sun); }
+    .chip.active {
+      background: linear-gradient(120deg, var(--sun-soft), var(--lav));
+      color: #fff;
+      border-color: transparent;
+      box-shadow: 0 6px 14px rgba(232, 131, 74, 0.35);
+    }
+
+    .paper-card {
+      background: rgba(255, 255, 255, 0.9);
+      border: 1.5px solid rgba(242, 166, 90, 0.3);
+      border-radius: 18px;
+      padding: 1.4rem 1.6rem;
+      margin-bottom: 1.2rem;
+      box-shadow: 0 6px 18px rgba(157, 141, 242, 0.12);
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+    .paper-card:hover {
+      transform: translateY(-4px) rotate(-0.4deg);
+      border-color: rgba(242, 166, 90, 0.7);
+      box-shadow: 0 14px 30px rgba(232, 131, 74, 0.18);
+    }
+    .paper-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+    .pick-badge {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-family: 'Kalam', cursive; font-weight: 700; font-size: 0.85rem;
+      border-radius: 999px; padding: 3px 14px; white-space: nowrap;
+    }
+    .pick-embodied  { background: #ffe3ee; color: #d94f8c; border: 1.5px solid rgba(247,143,179,.5); }
+    .pick-rl        { background: #e9e2fd; color: #7a5fd0; border: 1.5px solid rgba(157,141,242,.5); }
+    .pick-cv        { background: #fff3e6; color: #d97a35; border: 1.5px solid rgba(242,166,90,.5); }
+    .pick-ai        { background: #e0f2ec; color: #3d9b7a; border: 1.5px solid rgba(143,217,196,.6); }
+    .paper-date { font-family: 'Kalam', cursive; font-size: 0.88rem; color: var(--ink-soft, #7a7290); white-space: nowrap; }
+
+    .paper-title {
+      font-weight: 700; font-size: 1.08rem; line-height: 1.4; margin-bottom: 0.35rem;
+    }
+    .paper-title a { color: #4a4458 !important; }
+    .paper-title a:hover { color: var(--sun) !important; }
+    .paper-authors { font-size: 0.86rem; color: #7a7290; font-style: italic; margin-bottom: 0.5rem; }
+    .paper-abstract {
+      font-size: 0.92rem; color: #5f5a70; line-height: 1.6; margin-bottom: 0.6rem;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+      cursor: pointer;
+    }
+    .paper-abstract.open { -webkit-line-clamp: unset; display: block; }
+    .paper-links { display: flex; gap: 0.9rem; align-items: center; flex-wrap: wrap; }
+    .paper-links a { font-family: 'Kalam', cursive; font-weight: 700; font-size: 0.9rem; }
+    .paper-cats { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; }
+    .paper-cats .cat {
+      font-size: 0.75rem; font-family: 'Kalam', cursive;
+      background: #f4f0fc; color: #7a5fd0;
+      border: 1px solid rgba(157,141,242,.4);
+      border-radius: 999px; padding: 1px 10px;
+    }
+
+    .status-box {
+      text-align: center; padding: 3rem 2rem;
+      background: rgba(255,255,255,0.85);
+      border: 2px dashed rgba(242, 166, 90, 0.5);
+      border-radius: 18px;
+      font-family: 'Patrick Hand', cursive; font-size: 1.1rem; color: #7a7290;
+    }
+    .status-box .big { font-size: 2.6rem; display: block; margin-bottom: 0.6rem; }
+    .spinner {
+      display: inline-block; width: 42px; height: 42px; margin-bottom: 0.8rem;
+      border: 4px solid rgba(242,166,90,.25); border-top-color: var(--sun);
+      border-radius: 50%; animation: spin 0.9s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .retray-btn {
+      display: inline-block; margin-top: 1rem; cursor: pointer;
+      background: linear-gradient(120deg, var(--sun-soft), var(--lav));
+      color: #fff; border: none; border-radius: 999px;
+      padding: 8px 24px; font-family: 'Kalam', cursive; font-size: 1rem;
+      box-shadow: 0 6px 14px rgba(232, 131, 74, 0.35);
+      transition: transform .25s ease;
+    }
+    .retray-btn:hover { transform: translateY(-2px) rotate(-1deg); }
+
+    .paper-card { animation: pop-in 0.5s ease both; }
+    .paper-card:nth-child(2) { animation-delay: 0.05s; }
+    .paper-card:nth-child(3) { animation-delay: 0.1s; }
+    .paper-card:nth-child(4) { animation-delay: 0.15s; }
+    .paper-card:nth-child(5) { animation-delay: 0.2s; }
+    @keyframes pop-in {
+      0%   { opacity: 0; transform: translateY(-14px) scale(0.97); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @media (max-width: 768px) {
+      .daily-hero { padding: 2rem 1.5rem; }
+      .paper-card { padding: 1.1rem 1.2rem; }
+      .paper-cats { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar is-light">
+    <div class="container is-max-desktop">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <span class="icon"><i class="fas fa-arrow-left"></i></span>
+          &nbsp; <b>Back to Home</b>
+        </a>
+      </div>
+      <div class="navbar-menu is-active">
+        <div class="navbar-end">
+          <a href="/" class="navbar-item">Home</a>
+          <a href="blog.html" class="navbar-item">Blog</a>
+          <a href="https://github.com/SCUTxyx" target="_blank" class="navbar-item">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container is-max-desktop">
+
+      <div class="daily-hero">
+        <span class="daily-kicker">🗞 Daily arXiv · Fresh From the Oven</span>
+        <h1 class="title is-2" style="margin-top: 0.5rem;">Today's Papers, Picked for Me 🥐</h1>
+        <p class="subtitle is-6" style="margin-top: 0.5rem;">
+          Newest arXiv submissions in robotics, computer vision, machine learning and AI —
+          auto-fetched every morning and ranked toward my research taste:
+          <b>Embodied AI &amp; Robotics</b> first, then <b>Reinforcement Learning</b> and <b>CV</b>. ✨
+        </p>
+        <div class="ks-stats">
+          <span class="ks-stat" id="stat-updated"> ⏳ loading feed…</span>
+          <span class="ks-stat" id="stat-count">📚 — papers</span>
+          <span class="ks-stat">🏆 ranked by interest score</span>
+        </div>
+      </div>
+
+      <div class="filter-chips" id="chips">
+        <span class="chip active" data-filter="all">🍜 All</span>
+        <span class="chip" data-filter="Embodied AI & Robotics">🤖 Embodied &amp; Robotics</span>
+        <span class="chip" data-filter="Reinforcement Learning">🎮 Reinforcement Learning</span>
+        <span class="chip" data-filter="Computer Vision">👁 Computer Vision</span>
+        <span class="chip" data-filter="AI & LLM">✨ AI &amp; LLM</span>
+      </div>
+
+      <div id="feed">
+        <div class="status-box" id="status">
+          <span class="spinner"></span>
+          <span class="big">🌸</span>
+          Picking fresh papers from the arXiv garden…
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer" style="background-color: #fcfcfc; padding: 2rem 1.5rem;">
+    <div class="content has-text-centered">
+      <p class="is-size-7 has-text-grey">
+        🗞 Fed by the <a href="https://export.arxiv.org/api/help" target="_blank">arXiv API</a> ·
+        auto-updated daily · &copy; 2026 Yuxuan Xue.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    var FEED_REMOTE = 'https://raw.githubusercontent.com/SCUTxyx/SCUTxyx.github.io/feed/daily_papers.json';
+    var FEED_LOCAL  = '/daily_papers.json';   // bootstrap copy shipped with the site
+    var papers = [];
+    var filter = 'all';
+
+    var statusEl = document.getElementById('status');
+    var feedEl = document.getElementById('feed');
+
+    function esc(s) {
+      return (s || '').replace(/[&<>"]/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+      });
+    }
+
+    // arXiv abstracts often carry raw LaTeX; show it as plain prose instead
+    function tidy(s) {
+      return esc((s || '')
+        .replace(/\\cite[tp]?\{[^{}]*\}/g, '')
+        .replace(/\\(emph|textbf|textit|texttt|underline|mbox|mathrm|mathbf)\{([^{}]*)\}/g, '$2')
+        .replace(/\\[a-zA-Z]+\{([^{}]*)\}/g, '$1')
+        .replace(/\\([%$&_#{}])/g, '$1')
+        .replace(/\$([^$]*)\$/g, '$1')
+        .replace(/[{}]/g, ''));
+    }
+
+    function badgeFor(p) {
+      var cls = 'pick-ai';
+      if (p.pick === 'Embodied AI & Robotics') cls = 'pick-embodied';
+      else if (p.pick === 'Reinforcement Learning') cls = 'pick-rl';
+      else if (p.pick === 'Computer Vision') cls = 'pick-cv';
+      return '<span class="pick-badge ' + cls + '">' + esc(p.pick_emoji) + ' ' + esc(p.pick) + '</span>';
+    }
+
+    function render() {
+      var shown = papers.filter(function (p) {
+        return filter === 'all' || p.pick === filter;
+      });
+      if (!shown.length) {
+        feedEl.innerHTML = '<div class="status-box"><span class="big">🍂</span>No papers in this shelf today — check another flavour!</div>';
+        return;
+      }
+      feedEl.innerHTML = shown.map(function (p, i) {
+        var authors = p.authors.slice(0, 3).join(', ') + (p.authors.length > 3 ? ', et al.' : '');
+        var cats = (p.categories || []).slice(0, 3).map(function (c) {
+          return '<span class="cat">' + esc(c) + '</span>';
+        }).join('');
+        return (
+          '<div class="paper-card">' +
+            '<div class="paper-top">' + badgeFor(p) +
+              '<span class="paper-date">📅 ' + esc(p.published) + '</span>' +
+            '</div>' +
+            '<div class="paper-title"><a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a></div>' +
+            '<div class="paper-authors">' + esc(authors) + '</div>' +
+            '<div class="paper-abstract" title="click to expand">' + tidy(p.summary) + '…</div>' +
+            '<div class="paper-links">' +
+              '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">📄 arXiv page</a>' +
+              (p.pdf ? '<a href="' + esc(p.pdf) + '" target="_blank" rel="noopener">⬇ PDF</a>' : '') +
+              '<span class="paper-cats">' + cats + '</span>' +
+            '</div>' +
+          '</div>'
+        );
+      }).join('');
+
+      feedEl.querySelectorAll('.paper-abstract').forEach(function (el) {
+        el.addEventListener('click', function () { el.classList.toggle('open'); });
+      });
+    }
+
+    function showStatus(html) { feedEl.innerHTML = '<div class="status-box">' + html + '</div>'; }
+
+    function apply(feed) {
+      papers = feed.papers || [];
+      document.getElementById('stat-updated').innerHTML = '⏰ feed updated ' + esc(feed.generated_at || 'just now');
+      document.getElementById('stat-count').textContent = '📚 ' + papers.length + ' papers today';
+      render();
+    }
+
+    function load() {
+      showStatus('<span class="spinner"></span><span class="big">🌸</span>Picking fresh papers from the arXiv garden…');
+      fetch(FEED_REMOTE, { cache: 'no-store' })
+        .then(function (r) { if (!r.ok) throw new Error('remote ' + r.status); return r.json(); })
+        .then(apply)
+        .catch(function () {
+          // feed branch not published yet — fall back to the copy shipped with the site
+          fetch(FEED_LOCAL, { cache: 'no-store' })
+            .then(function (r) { if (!r.ok) throw new Error('local ' + r.status); return r.json(); })
+            .then(function (feed) { apply(feed); showLocalNote(); })
+            .catch(function () {
+              showStatus(
+                '<span class="big">🌧</span>The paper garden is resting right now.<br>' +
+                'The daily feed could not be fetched — please try again later.' +
+                '<br><button class="retray-btn" onclick="location.reload()">🔄 Retry</button>'
+              );
+            });
+        });
+    }
+
+    function showLocalNote() {
+      var s = document.getElementById('stat-updated');
+      if (s) s.textContent = '⏰ bootstrap feed · daily auto-refresh at 08:00 🌱';
+    }
+
+    document.getElementById('chips').addEventListener('click', function (e) {
+      var chip = e.target.closest('.chip');
+      if (!chip) return;
+      document.querySelectorAll('.chip').forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      filter = chip.dataset.filter;
+      render();
+    });
+
+    load();
+  })();
+  </script>
+
+</body>
+</html>

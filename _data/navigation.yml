@@ -16,6 +16,9 @@ main:
   - title: "Awards"
     url: "/#awards"
 
+  - title: "Daily 🗞"
+    url: "/daily.html"
+
   - title: "Blog"
     url: "/blog.html"
 
