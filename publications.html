@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications | Yuxuan Xue</title>
+
+  <meta name="description" content="Publications by Yuxuan Xue — current submission under review and future papers on Embodied AI & Reinforcement Learning.">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/anime.css">
+  <script src="/assets/js/sakura.js" defer></script>
+
+  <style>
+    body { font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; background-color: #fbfbfc; }
+
+    /* periwinkle sky palette — the calm academic corner of the pastel family */
+    :root {
+      --peri: #5b7fd6;
+      --peri-deep: #3f5fc0;
+      --peri-bg: #e8eeff;
+      --rose: #e0568c;
+    }
+
+    .pub-hero {
+      background: linear-gradient(135deg, #d6e6ff 0%, #e6d9ff 45%, #ffd9e8 100%);
+      color: #4a4458;
+      border: 2px dashed rgba(91, 127, 214, 0.5);
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 16px 40px rgba(91, 127, 214, 0.18);
+    }
+    .pub-hero h1 { font-weight: 800; letter-spacing: -0.03em; color: var(--peri-deep); }
+    .pub-hero p { color: #7a7290; }
+
+    .pub-kicker {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--peri);
+    }
+
+    .section-title-mini {
+      font-family: 'Caveat', cursive;
+      font-size: 1.9rem;
+      color: var(--peri-deep);
+      margin: 2.2rem 0 1rem;
+    }
+    .section-title-mini .dash {
+      display: inline-block; width: 60px; height: 4px; border-radius: 999px;
+      background: linear-gradient(90deg, var(--peri), transparent);
+      vertical-align: middle; margin-left: 12px;
+    }
+
+    .paper-card {
+      background: rgba(255, 255, 255, 0.92);
+      border: 1.5px solid rgba(91, 127, 214, 0.35);
+      border-radius: 18px;
+      padding: 1.5rem 1.7rem;
+      margin-bottom: 1.2rem;
+      box-shadow: 0 6px 18px rgba(91, 127, 214, 0.14);
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+    .paper-card:hover {
+      transform: translateY(-4px) rotate(-0.4deg);
+      border-color: rgba(91, 127, 214, 0.7);
+      box-shadow: 0 14px 30px rgba(91, 127, 214, 0.22);
+    }
+    .paper-top { display: flex; justify-content: space-between; align-items: center; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+    .status-badge {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-family: 'Kalam', cursive; font-weight: 700; font-size: 0.85rem;
+      border-radius: 999px; padding: 3px 14px; white-space: nowrap;
+      background: #fff3d6; color: #b8860b; border: 1.5px solid rgba(255, 200, 80, 0.6);
+    }
+    .role-badge {
+      font-family: 'Kalam', cursive; font-size: 0.85rem;
+      background: var(--peri-bg); color: var(--peri-deep);
+      border: 1.5px solid rgba(91, 127, 214, 0.4);
+      border-radius: 999px; padding: 3px 14px; white-space: nowrap;
+    }
+    .paper-card h3 { font-size: 1.15rem; font-weight: 700; color: #4a4458; margin-bottom: 0.4rem; line-height: 1.4; }
+    .paper-card .venue { font-family: 'Kalam', cursive; font-size: 0.95rem; color: var(--rose); margin-bottom: 0.5rem; }
+    .paper-card ul { margin: 0.4rem 0 0; padding-left: 1.15em; }
+    .paper-card li { font-size: 0.92rem; color: #5f5a70; line-height: 1.6; margin-bottom: 4px; }
+
+    /* empty shelf */
+    .empty-shelf {
+      border: 2px dashed rgba(91, 127, 214, 0.45);
+      border-radius: 18px;
+      padding: 2.6rem 2rem;
+      text-align: center;
+      background: rgba(232, 238, 255, 0.45);
+      color: #7a7290;
+      font-family: 'Patrick Hand', cursive;
+      font-size: 1.12rem;
+      line-height: 1.7;
+    }
+    .empty-shelf .frame {
+      font-size: 2.6rem; display: block; margin-bottom: 0.5rem;
+      animation: swing 3.5s ease-in-out infinite; transform-origin: top center;
+      display: inline-block;
+    }
+    @keyframes swing {
+      0%, 100% { transform: rotate(-4deg); }
+      50%      { transform: rotate(4deg); }
+    }
+
+    .profiles-note {
+      background: rgba(255, 255, 255, 0.9);
+      border: 1.5px solid rgba(91, 127, 214, 0.35);
+      border-radius: 18px;
+      padding: 1.4rem 1.7rem;
+      box-shadow: 0 6px 18px rgba(91, 127, 214, 0.14);
+      display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+    }
+    .profiles-note .icon-badge {
+      flex: 0 0 auto; width: 54px; height: 54px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem;
+      background: linear-gradient(135deg, #e8eeff, #ffd9e8);
+      border: 1.5px solid rgba(91, 127, 214, 0.4);
+    }
+    .profiles-note p { margin: 0; font-size: 0.95rem; color: #5f5a70; line-height: 1.6; }
+
+    .cta-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 2.2rem; }
+    .cta-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      border-radius: 999px; padding: 9px 22px;
+      font-family: 'Kalam', cursive; font-weight: 700; font-size: 1rem;
+      text-decoration: none; transition: all 0.25s ease;
+    }
+    .cta-btn:hover { transform: translateY(-2px) rotate(-1deg); text-decoration: none; }
+    .cta-btn.solid { background: linear-gradient(120deg, var(--peri), var(--rose)); color: #fff !important; box-shadow: 0 6px 14px rgba(91, 127, 214, 0.35); }
+    .cta-btn.ghost { background: #fff; color: #4a4458 !important; border: 1.5px solid rgba(91, 127, 214, 0.5); }
+
+    @media (max-width: 768px) {
+      .pub-hero { padding: 2rem 1.5rem; }
+      .paper-card { padding: 1.2rem 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar is-light">
+    <div class="container is-max-desktop">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <span class="icon"><i class="fas fa-arrow-left"></i></span>
+          &nbsp; <b>Back to Home</b>
+        </a>
+      </div>
+      <div class="navbar-menu is-active">
+        <div class="navbar-end">
+          <a href="/" class="navbar-item">Home</a>
+          <a href="blog.html" class="navbar-item">Blog</a>
+          <a href="https://github.com/SCUTxyx" target="_blank" class="navbar-item">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container is-max-desktop">
+
+      <div class="pub-hero">
+        <span class="pub-kicker">📄 Publications · The Paper Shelf</span>
+        <h1 class="title is-2" style="margin-top: 0.5rem;">Publications, In the Making 🐣</h1>
+        <p class="subtitle is-6" style="margin-top: 0.5rem;">
+          The shelf is not heavy yet — no published papers at the moment —
+          but my first submission is already under review, and more are on the way.
+          Watch this space! ✨
+        </p>
+      </div>
+
+      <!-- Under review -->
+      <h2 class="section-title-mini">🔭 Under Review<span class="dash"></span></h2>
+
+      <div class="paper-card">
+        <div class="paper-top">
+          <span class="role-badge">👤 Second Author</span>
+          <span class="status-badge">⏳ Under Review</span>
+        </div>
+        <h3>Multi-Agent &amp; Embodied AI</h3>
+        <div class="venue">📄 submitted to CVPR · Nov. 2025</div>
+        <ul>
+          <li>Conducted literature review and technical analysis; authored the <b>Related Work</b> section.</li>
+          <li>Reproduced and ran experiments; performed <b>data preprocessing</b>, result statistics, and performance evaluation.</li>
+          <li>Designed the experimental <b>pipeline</b> and produced visualizations (flowcharts, result figures, and research reports).</li>
+        </ul>
+      </div>
+
+      <!-- Future shelf -->
+      <h2 class="section-title-mini">🖼 The Future Shelf<span class="dash"></span></h2>
+      <div class="empty-shelf">
+        <span class="frame">🖼</span><br>
+        <b>Reserved for the first publication.</b><br>
+        Somewhere between lecture notes and late-night experiments, a paper is growing up.
+        Until then, you can watch the ideas evolve in my
+        <a href="/blog.html">Knowledge Space</a> 🌱
+      </div>
+
+      <!-- Academic profiles -->
+      <h2 class="section-title-mini">🔗 Academic Profiles<span class="dash"></span></h2>
+      <div class="profiles-note">
+        <div class="icon-badge">🎓</div>
+        <p>
+          Google Scholar, ORCID and DBLP links will appear here as soon as the first paper is out.
+          Meanwhile, my reading notes and research progress live in the
+          <a href="/blog.html">Knowledge Space</a>, and fresh arXiv picks are updated daily on the
+          <a href="/daily.html">Daily Papers</a> page. 📚
+        </p>
+      </div>
+
+      <div class="cta-row">
+        <a class="cta-btn solid" href="/guestbook.html"><i class="fas fa-handshake"></i> Interested in collaborating?</a>
+        <a class="cta-btn ghost" href="/"><i class="fas fa-house"></i> Back to Homepage</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer" style="background-color: #fcfcfc; padding: 2rem 1.5rem;">
+    <div class="content has-text-centered">
+      <p class="is-size-7 has-text-grey">&copy; 2026 Yuxuan Xue.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

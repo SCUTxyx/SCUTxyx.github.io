@@ -11,6 +11,7 @@ Live site: [scutxyx.github.io](https://scutxyx.github.io)
 | Home | `/` | About, news, education, research experience, projects, awards, skills, hobbies |
 | Knowledge Space | `/blog.html` | Research notes and paper reading reports |
 | Daily arXiv Papers | `/daily.html` | Daily fresh arXiv feed (embodied AI / RL / CV), auto-updated by GitHub Action |
+| Publications | `/publications.html` | Paper shelf — submissions under review and future publications |
 | Guestbook | `/guestbook.html` | Leave messages & suggestions, collaboration invitations |
 | RL Token report | `/report/rl_token.html` | Paper reading report (VLA + online RL) |
 | Research roadmap | `/posts/embodied_ai_roadmap.html` | Embodied AI & RL research roadmap |

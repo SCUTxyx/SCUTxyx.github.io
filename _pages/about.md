@@ -215,6 +215,15 @@ Explore More ✨
     </div>
   </a>
 
+  <a href="/publications.html" class="space-card">
+    <div class="space-emoji">📄</div>
+    <div>
+      <strong>Publications</strong><br>
+      My paper shelf — one submission under review at CVPR, and the first publication on its way. The shelf is ready and waiting. 🐣
+      <span class="space-cta">View Publications →</span>
+    </div>
+  </a>
+
   <a href="/resources.html" class="space-card">
     <div class="space-emoji">🎒</div>
     <div>
