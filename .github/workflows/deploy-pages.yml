@@ -1,0 +1,53 @@
+name: deploy-pages
+
+# Builds the Jekyll site with a pinned, known-good toolchain and deploys it
+# to GitHub Pages via the official Actions integration. Unlike the legacy
+# branch builder, every build step is visible in the Actions log.
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
+      - name: Install Jekyll
+        run: gem install jekyll -v 4.4.1 --no-document
+
+      - name: Build site
+        run: JEKYLL_NO_BUNDLER_REQUIRE=true jekyll build --config _config.yml
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
