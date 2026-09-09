@@ -324,6 +324,54 @@ li em { font-family: 'Kalam', cursive; color: var(--sakura-deep); }
   z-index: 9999;
 }
 
+/* ---------- back-to-top ---------- */
+#back-to-top {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 10000;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--sakura), var(--lavender));
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(224, 86, 140, 0.4);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+}
+#back-to-top:hover {
+  transform: translateY(-4px) scale(1.08);
+  box-shadow: 0 12px 26px rgba(224, 86, 140, 0.5);
+}
+
+/* ---------- featured guide card (starred recommendation) ---------- */
+.space-card.space-card--star {
+  background: linear-gradient(120deg, #fff8e1 0%, #fff0f6 100%) !important;
+  border: 1.5px solid rgba(230, 175, 60, 0.55) !important;
+  position: relative;
+}
+.space-card--star .space-emoji {
+  background: linear-gradient(135deg, #fff3c4, #ffe3ee);
+  border-color: rgba(230, 175, 60, 0.6);
+}
+.space-card--star .star-badge {
+  display: inline-block;
+  font-family: 'Kalam', cursive;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #b8860b;
+  background: #fff3c4;
+  border: 1px solid rgba(230, 175, 60, 0.65);
+  border-radius: 999px;
+  padding: 1px 10px;
+  margin-left: 8px;
+  vertical-align: 2px;
+}
+
 /* ---------- anchor offset under the fixed masthead ---------- */
 [id] { scroll-margin-top: 84px; }
 

@@ -25,6 +25,9 @@ main:
   - title: "Blog"
     url: "/blog.html"
 
+  - title: "Diary 🌸"
+    url: "/diary.html"
+
   - title: "Guestbook 📮"
     url: "/guestbook.html"
 

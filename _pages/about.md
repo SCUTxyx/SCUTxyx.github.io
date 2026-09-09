@@ -42,8 +42,7 @@ Education
       <div class="experience-info">
           <strong>South China University of Technology (SCUT)</strong><br>
           <em>Sept. 2024 – June 2028 (Expected)</em><br>
-          B.Eng. in Artificial Intelligence, <em>Future Technology College</em><br>
-          <span style="color:#888;">GPA: 3.73 / 4.0 · Average: 88.03 / 100 · Rank: 17 / 95 (Top 18%)</span>
+          B.Eng. in Artificial Intelligence, <em>Future Technology College</em>
       </div>
   </div>
 
@@ -187,6 +186,15 @@ Explore More ✨
 --------
 
 <div class="space-container" id="blog">
+
+  <a href="https://github.com/tianxingchen/Embodied-AI-Guide" target="_blank" rel="noopener" class="space-card space-card--star">
+    <div class="space-emoji">🧭</div>
+    <div>
+      <strong>Embodied AI Guide<span class="star-badge">⭐ Highly Recommended</span></strong><br>
+      The single best starting point for embodied intelligence: learning roadmaps, curated paper lists and tutorials — lovingly maintained by Tianxing Chen. 大力推荐！
+      <span class="space-cta">Start Here →</span>
+    </div>
+  </a>
 
   <a href="/blog.html" class="space-card">
     <div class="space-emoji">✨</div>

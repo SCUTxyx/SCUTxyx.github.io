@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /studio.html
+Sitemap: https://scutxyx.github.io/sitemap.xml

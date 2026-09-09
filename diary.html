@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diary · Growth Log | Yuxuan Xue</title>
+
+  <meta name="description" content="Yuxuan Xue's daily growth log — what I did, what I learned, one petal at a time.">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/anime.css">
+
+  <style>
+    /* dusk lavender palette (sixth pastel accent) */
+    :root {
+      --dusk: #8b7bd8;
+      --dusk-deep: #6a58b8;
+      --dusk-bg: #efeafd;
+      --dawn: #f2a0c0;
+    }
+    body {
+      background: linear-gradient(160deg, #f1ecff 0%, #fdeaf4 55%, #eef3fd 100%) fixed;
+      font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+      font-size: 16.5px;
+      color: #4a4458;
+    }
+    .diary-wrap { max-width: 980px; margin: 0 auto; padding: 2rem 1rem 4rem; }
+
+    .diary-hero {
+      background: linear-gradient(135deg, #efe9ff 0%, #ffe4f0 55%, #e4ecff 100%);
+      border: 2px dashed rgba(139, 123, 216, 0.55);
+      border-radius: 20px;
+      padding: 2.4rem 2.4rem;
+      margin-bottom: 1.8rem;
+      box-shadow: 0 16px 40px rgba(139, 123, 216, 0.18);
+    }
+    .diary-hero h1 { font-family: 'Caveat', cursive; font-size: 2.7rem; color: var(--dusk-deep); margin: 0.2em 0 0.1em; }
+    .diary-kicker { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--dusk); }
+    .diary-hero p { color: #7a7290; }
+
+    .stats-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 1rem; }
+    .stat-chip {
+      display: inline-flex; align-items: center; gap: 0.45rem;
+      background: rgba(255,255,255,.8);
+      border: 1.5px solid rgba(139,123,216,.45);
+      border-radius: 999px; padding: 5px 16px;
+      font-family: 'Kalam', cursive; font-size: 0.98rem; color: var(--dusk-deep);
+    }
+
+    .diary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; align-items: start; }
+    @media (max-width: 860px) { .diary-grid { grid-template-columns: 1fr; } }
+
+    .cal-card, .side-card {
+      background: rgba(255,255,255,.92);
+      border: 1.5px solid rgba(139,123,216,.35);
+      border-radius: 18px;
+      padding: 1.4rem 1.5rem;
+      box-shadow: 0 6px 18px rgba(139,123,216,.14);
+    }
+    .cal-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+    .cal-head .month { font-family: 'Caveat', cursive; font-size: 1.7rem; color: var(--dusk-deep); }
+    .cal-nav { display: flex; gap: 6px; }
+    .cal-nav button {
+      border: 1.5px solid rgba(139,123,216,.4); background: #fff; color: var(--dusk-deep);
+      border-radius: 10px; width: 34px; height: 30px; cursor: pointer; font-size: 1rem;
+      transition: all .2s ease;
+    }
+    .cal-nav button:hover { background: var(--dusk-bg); }
+
+    .cal-table { width: 100%; border-collapse: collapse; }
+    .cal-table th { font-family: 'Kalam', cursive; font-weight: 400; color: #9a93ab; padding: 4px 0; font-size: .85rem; }
+    .cal-table td { text-align: center; padding: 3px 0; }
+    .day-cell {
+      width: 38px; height: 38px; margin: 0 auto;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      border-radius: 12px; cursor: default; position: relative;
+      transition: all .2s ease;
+    }
+    .day-cell.has-entry { cursor: pointer; background: var(--dusk-bg); border: 1.5px solid rgba(139,123,216,.4); }
+    .day-cell.has-entry:hover { transform: translateY(-2px) scale(1.06); box-shadow: 0 4px 10px rgba(139,123,216,.3); }
+    .day-cell.selected { outline: 2.5px solid var(--dawn); }
+    .day-cell.today .dnum { color: var(--dawn); font-weight: 700; }
+    .day-cell .dnum { font-family: 'Kalam', cursive; font-size: .95rem; line-height: 1; }
+    .day-cell .memoji { font-size: .78rem; line-height: 1.1; }
+    .day-cell.other { opacity: 0.25; }
+
+    .timeline h3 { font-family: 'Caveat', cursive; font-size: 1.6rem; color: var(--dusk-deep); margin-bottom: 10px; }
+    .tl-item {
+      border-left: 3px solid rgba(139,123,216,.45);
+      padding: 6px 0 6px 14px; margin-bottom: 10px;
+      cursor: pointer; transition: transform .2s ease;
+    }
+    .tl-item:hover { transform: translateX(4px); }
+    .tl-item .tl-date { font-family: 'Kalam', cursive; color: var(--dusk-deep); font-size: .95rem; }
+    .tl-item .tl-mood { font-size: 1.05rem; margin-left: 6px; }
+    .tl-item .tl-body {
+      display: none; background: rgba(255,255,255,.85); border-radius: 10px;
+      padding: 8px 12px; margin-top: 6px; line-height: 1.7; white-space: pre-wrap;
+    }
+    .tl-item.open .tl-body { display: block; }
+
+    /* writer (owner only) */
+    .writer-card {
+      background: rgba(255,255,255,.95);
+      border: 1.5px solid rgba(139,123,216,.45);
+      border-radius: 18px; padding: 1.4rem 1.5rem; margin-bottom: 1.6rem;
+      box-shadow: 0 8px 22px rgba(139,123,216,.18);
+    }
+    .writer-card h3 { font-family: 'Caveat', cursive; font-size: 1.7rem; color: var(--dusk-deep); margin-bottom: 8px; }
+    .mood-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+    .mood-btn {
+      font-size: 1.35rem; width: 46px; height: 46px;
+      border-radius: 14px; border: 1.5px solid rgba(139,123,216,.35);
+      background: #fff; cursor: pointer; transition: all .2s ease;
+    }
+    .mood-btn:hover { transform: translateY(-2px); }
+    .mood-btn.sel { background: var(--dusk-bg); border-color: var(--dusk-deep); box-shadow: 0 0 0 .15em rgba(139,123,216,.3); }
+    .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+    .tag-btn {
+      border: 1.5px solid rgba(139,123,216,.4); background: #fff; color: var(--dusk-deep);
+      border-radius: 999px; padding: 4px 14px; cursor: pointer;
+      font-family: 'Kalam', cursive; font-size: .9rem; transition: all .2s ease;
+    }
+    .tag-btn.sel { background: var(--dusk-deep); color: #fff; }
+    #diary-text {
+      width: 100%; min-height: 130px;
+      border: 1.5px solid rgba(139,123,216,.4); border-radius: 12px;
+      padding: 10px 14px; font-family: 'Patrick Hand', cursive; font-size: 1.08rem;
+      color: #4a4458; outline: none; resize: vertical;
+    }
+    #diary-text:focus { border-color: var(--dusk); box-shadow: 0 0 0 .2em rgba(139,123,216,.2); }
+    .btn {
+      display: inline-flex; align-items: center; gap: .45rem; cursor: pointer;
+      border: none; border-radius: 999px; padding: 9px 24px;
+      font-family: 'Kalam', cursive; font-weight: 700; font-size: 1rem;
+      background: linear-gradient(120deg, var(--dusk), var(--dawn));
+      color: #fff; box-shadow: 0 6px 14px rgba(139,123,216,.35);
+      transition: transform .25s ease;
+    }
+    .btn:hover { transform: translateY(-2px) rotate(-1deg); }
+    .msg { border-radius: 12px; padding: 9px 16px; margin-top: 10px; display: none; font-family: 'Kalam', cursive; }
+    .msg.ok  { background: #e6f6ef; color: #2e9b78; border: 1.5px solid rgba(46,155,120,.4); display: block; }
+    .msg.err { background: #fdeaea; color: #d9534f; border: 1.5px solid rgba(217,83,79,.4); display: block; }
+    .msg.info{ background: var(--dusk-bg); color: var(--dusk-deep); border: 1.5px solid rgba(139,123,216,.35); display: block; }
+
+    .back-link { color: var(--dusk-deep); font-family: 'Kalam', cursive; }
+    .entry-view h2 { font-family: 'Caveat', cursive; color: var(--dusk-deep); font-size: 1.8rem; }
+    .entry-view .body { line-height: 1.8; white-space: pre-wrap; background: rgba(255,255,255,.85); border-radius: 12px; padding: 12px 16px; }
+  </style>
+</head>
+<body>
+  <div class="diary-wrap">
+
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <span class="diary-kicker">🌸 Diary · Growth Log</span>
+      <a class="back-link" href="/">← Back to site</a>
+    </div>
+
+    <div class="diary-hero">
+      <h1>One Petal a Day 🌸</h1>
+      <p>A tiny log of what I did, what I learned and how I felt —
+         collected one petal at a time, so the whole garden stays visible.</p>
+      <div class="stats-row">
+        <span class="stat-chip" id="stat-total">📅 — days recorded</span>
+        <span class="stat-chip" id="stat-streak">🔥 — day streak</span>
+      </div>
+    </div>
+
+    <!-- owner writer (needs token) -->
+    <div class="writer-card" id="writer-card" style="display:none;">
+      <h3>✍️ Record Today</h3>
+      <div class="mood-row" id="mood-row">
+        <button class="mood-btn sel" data-mood="🌸">🌸</button>
+        <button class="mood-btn" data-mood="😊">😊</button>
+        <button class="mood-btn" data-mood="😐">😐</button>
+        <button class="mood-btn" data-mood="😫">😫</button>
+        <button class="mood-btn" data-mood="🔥">🔥</button>
+      </div>
+      <div class="tag-row" id="tag-row">
+        <button class="tag-btn" data-tag="Experiments">🧪 Experiments</button>
+        <button class="tag-btn" data-tag="Papers">📄 Papers</button>
+        <button class="tag-btn" data-tag="Coding">💻 Coding</button>
+        <button class="tag-btn" data-tag="Gym">🏀 Gym</button>
+        <button class="tag-btn" data-tag="Ideas">💡 Ideas</button>
+      </div>
+      <textarea id="diary-text" placeholder="What did I do today? What did I learn?"></textarea>
+      <div style="margin-top:12px; display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+        <button class="btn" id="diary-save">💾 Save today</button>
+        <span class="st-sub" id="writer-hint" style="font-family:'Kalam',cursive; color:#9a93ab;"></span>
+      </div>
+      <div class="msg" id="diary-msg"></div>
+    </div>
+
+    <div class="diary-grid">
+      <div class="cal-card">
+        <div class="cal-head">
+          <span class="month" id="cal-month">…</span>
+          <div class="cal-nav">
+            <button id="cal-prev">‹</button>
+            <button id="cal-next">›</button>
+          </div>
+        </div>
+        <table class="cal-table">
+          <thead><tr><th>Su</th><th>Mo</th><th>Tu</th><th>We</th><th>Th</th><th>Fr</th><th>Sa</th></tr></thead>
+          <tbody id="cal-body"></tbody>
+        </table>
+        <p style="font-family:'Kalam',cursive; color:#9a93ab; font-size:.85rem; margin:8px 0 0;">
+          🌸 = a recorded day · click a petal to open it
+        </p>
+      </div>
+
+      <div class="side-card timeline">
+        <h3>🕰 Timeline</h3>
+        <div id="timeline"></div>
+      </div>
+    </div>
+
+    <div class="side-card entry-view" id="entry-view" style="display:none; margin-top:1.4rem;">
+      <h2 id="entry-title"></h2>
+      <div class="body" id="entry-body"></div>
+    </div>
+
+  </div>
+
+  <script>
+  (function () {
+    'use strict';
+    var OWNER = 'SCUTxyx', REPO = 'SCUTxyx.github.io', BRANCH = 'master';
+    var DIR = '_diary';
+    var API = 'https://api.github.com/repos/' + OWNER + '/' + REPO + '/contents/' + DIR + '?ref=' + BRANCH;
+    var RAW = 'https://raw.githubusercontent.com/' + OWNER + '/' + REPO + '/' + BRANCH + '/' + DIR + '/';
+    var TOKEN_KEY = 'gh_token';
+
+    var token = localStorage.getItem(TOKEN_KEY) || '';
+    var entries = {};   // 'YYYY-MM-DD' -> {mood, tags, body, sha}
+    var viewYear, viewMonth;
+    var today = new Date();
+    var todayStr = fmtDate(today);
+    var mood = '🌸', tags = [];
+
+    var $ = function (id) { return document.getElementById(id); };
+
+    function fmtDate(d) {
+      return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    }
+    function pad(n) { return String(n).padStart(2, '0'); }
+    function msg(kind, text) {
+      var el = $('diary-msg');
+      el.className = 'msg ' + kind;
+      el.textContent = text;
+      if (kind !== 'err') setTimeout(function () { el.className = 'msg'; }, 4000);
+    }
+    function esc(s) {
+      return (s || '').replace(/[&<>"]/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+      });
+    }
+
+    function parseEntry(text) {
+      var mood = '🌸', tags = [];
+      var m = text.match(/^<!--\s*mood:(\S+)\s*(?:tags:([^>]*))?\s*-->\s*\n?/);
+      if (m) {
+        mood = m[1];
+        tags = (m[2] || '').split(/[,，]/).map(function (t) { return t.trim(); }).filter(Boolean);
+        text = text.slice(m[0].length);
+      }
+      return { mood: mood, tags: tags, body: text.trim() };
+    }
+
+    function loadEntries() {
+      return fetch(API).then(function (r) {
+        // the _diary folder doesn't exist until the first entry is saved
+        if (r.status === 404) return [];
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      }).then(function (files) {
+        var days = files.filter(function (f) { return /^\d{4}-\d{2}-\d{2}\.md$/.test(f.name); })
+                        .map(function (f) { return f.name.replace('.md', ''); });
+        return Promise.all(days.map(function (day) {
+          return fetch(RAW + day + '.md', { cache: 'no-store' })
+            .then(function (r) { return r.ok ? r.text() : ''; })
+            .then(function (t) {
+              var p = parseEntry(t);
+              entries[day] = { mood: p.mood, tags: p.tags, body: p.body };
+            });
+        }));
+      }).then(function () {
+        renderStats(); renderCal(); renderTimeline();
+      }).catch(function (e) {
+        renderStats(); renderCal(); renderTimeline();
+        $('stat-total').textContent = '📅 feed hiccup — refresh to retry';
+        console.warn('diary load failed:', e.message);
+      });
+    }
+
+    function renderStats() {
+      var days = Object.keys(entries).sort();
+      $('stat-total').textContent = '📅 ' + days.length + ' days recorded';
+      var streak = 0;
+      var d = new Date(today);
+      if (!entries[fmtDate(d)]) d.setDate(d.getDate() - 1); // streak alive if yesterday recorded
+      while (entries[fmtDate(d)]) { streak++; d.setDate(d.getDate() - 1); }
+      $('stat-streak').textContent = '🔥 ' + (streak > 0 ? streak + '-day streak' : 'no streak yet — start today!');
+    }
+
+    function renderCal() {
+      var first = new Date(viewYear, viewMonth, 1);
+      var startDow = first.getDay();
+      var dim = new Date(viewYear, viewMonth + 1, 0).getDate();
+      var monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+      $('cal-month').textContent = monthNames[viewMonth] + ' ' + viewYear;
+
+      var html = '<tr>';
+      for (var i = 0; i < startDow; i++) html += '<td></td>';
+      for (var day = 1; day <= dim; day++) {
+        var ds = viewYear + '-' + pad(viewMonth + 1) + '-' + pad(day);
+        var e = entries[ds];
+        var cls = 'day-cell';
+        if (!e) cls += ' other';
+        if (e) cls += ' has-entry';
+        if (ds === todayStr) cls += ' today';
+        if (ds === selected) cls += ' selected';
+        if ((startDow + day) % 7 === 0) { /* week ends */ }
+        html += '<td><div class="' + cls + '" data-date="' + ds + '">' +
+                '<span class="dnum">' + day + '</span>' +
+                (e ? '<span class="memoji">' + e.mood + '</span>' : '') +
+                '</div></td>';
+        if ((startDow + day) % 7 === 0 && day !== dim) html += '</tr><tr>';
+      }
+      html += '</tr>';
+      $('cal-body').innerHTML = html;
+    }
+
+    function showEntry(day) {
+      var e = entries[day];
+      selected = day;
+      renderCal();
+      var view = $('entry-view');
+      if (!e) {
+        if (day === todayStr && token) { openWriter(); view.style.display = 'none'; return; }
+        view.style.display = 'block';
+        $('entry-title').textContent = '🌸 ' + day;
+        $('entry-body').textContent = 'No entry for this day yet.';
+        return;
+      }
+      view.style.display = 'block';
+      $('entry-title').textContent = (e.mood || '🌸') + '  ' + day + (e.tags && e.tags.length ? '  ·  ' + e.tags.join(' / ') : '');
+      $('entry-body').textContent = e.body || '(empty)';
+    }
+
+    function renderTimeline() {
+      var days = Object.keys(entries).sort().reverse();
+      $('timeline').innerHTML = days.map(function (day) {
+        var e = entries[day];
+        var excerpt = (e.body || '').split('\n')[0].slice(0, 60);
+        return '<div class="tl-item" data-date="' + day + '">' +
+                 '<span class="tl-date">📅 ' + day + '</span><span class="tl-mood">' + e.mood + '</span>' +
+                 (excerpt ? '<div class="st-sub" style="color:#9a93ab;">' + esc(excerpt) + '…</div>' : '') +
+                 '<div class="tl-body">' + esc(e.body) + '</div>' +
+               '</div>';
+      }).join('') || '<p style="color:#9a93ab;">The garden is empty — the first petal starts today 🌱</p>';
+    }
+
+    $('timeline').addEventListener('click', function (e) {
+      var item = e.target.closest('.tl-item');
+      if (!item) return;
+      item.classList.toggle('open');
+    });
+
+    $('cal-body').addEventListener('click', function (e) {
+      var cell = e.target.closest('.day-cell.has-entry');
+      if (cell) showEntry(cell.dataset.date);
+    });
+    $('cal-prev').addEventListener('click', function () { viewMonth--; if (viewMonth < 0) { viewMonth = 11; viewYear--; } renderCal(); });
+    $('cal-next').addEventListener('click', function () { viewMonth++; if (viewMonth > 11) { viewMonth = 0; viewYear++; } renderCal(); });
+
+    /* ---------- owner writer ---------- */
+    var selected = todayStr;
+
+    function openWriter() {
+      var card = $('writer-card');
+      card.style.display = 'block';
+      var e = entries[todayStr];
+      if (e) {
+        mood = e.mood || '🌸';
+        tags = e.tags || [];
+        $('diary-text').value = e.body || '';
+        $('writer-hint').textContent = 'editing today\'s entry — saving will overwrite it';
+      } else {
+        $('writer-hint').textContent = todayStr;
+      }
+      document.querySelectorAll('.mood-btn').forEach(function (b) {
+        b.classList.toggle('sel', b.dataset.mood === mood);
+      });
+      document.querySelectorAll('.tag-btn').forEach(function (b) {
+        b.classList.toggle('sel', tags.indexOf(b.dataset.tag) !== -1);
+      });
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    $('mood-row').addEventListener('click', function (e) {
+      var b = e.target.closest('.mood-btn');
+      if (!b) return;
+      mood = b.dataset.mood;
+      document.querySelectorAll('.mood-btn').forEach(function (x) { x.classList.toggle('sel', x === b); });
+    });
+    $('tag-row').addEventListener('click', function (e) {
+      var b = e.target.closest('.tag-btn');
+      if (!b) return;
+      var t = b.dataset.tag;
+      var i = tags.indexOf(t);
+      if (i === -1) { tags.push(t); b.classList.add('sel'); }
+      else { tags.splice(i, 1); b.classList.remove('sel'); }
+    });
+
+    function api(path, opts) {
+      opts = opts || {};
+      opts.headers = Object.assign({
+        'Authorization': 'Bearer ' + token,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json'
+      }, opts.headers || {});
+      return fetch('https://api.github.com/repos/' + OWNER + '/' + REPO + '/contents/' + path, opts)
+        .then(function (r) {
+          if (!r.ok) return r.json().then(function (j) {
+            var e = new Error(j.message || 'HTTP ' + r.status); e.status = r.status; throw e;
+          });
+          return r.json();
+        });
+    }
+    function b64encode(str) {
+      var bytes = new TextEncoder().encode(str), bin = '';
+      bytes.forEach(function (b) { bin += String.fromCharCode(b); });
+      return btoa(bin);
+    }
+
+    $('diary-save').addEventListener('click', function () {
+      var text = $('diary-text').value.trim();
+      if (!text) { msg('err', '写点什么再保存吧 🌱'); return; }
+      var payload = {
+        message: 'diary ' + todayStr,
+        content: b64encode('<!-- mood:' + mood + ' tags:' + tags.join(',') + ' -->\n\n' + text + '\n'),
+        branch: BRANCH
+      };
+      var doSave = function (sha) {
+        if (sha) payload.sha = sha;
+        return api(DIR + '/' + todayStr + '.md', { method: 'PUT', body: JSON.stringify(payload) });
+      };
+      msg('info', '保存中…');
+      // find existing sha for today (overwrite = same day, second save)
+      var existing = (entries[todayStr] && entries[todayStr].sha) ? Promise.resolve(entries[todayStr].sha)
+        : api(DIR + '?ref=' + BRANCH).then(function (files) {
+            var f = files.filter(function (x) { return x.name === todayStr + '.md'; })[0];
+            return f ? f.sha : null;
+          }).then(function (sha) { if (entries[todayStr]) entries[todayStr].sha = sha; return sha; });
+      existing
+        .then(doSave)
+        .then(function () {
+          msg('ok', '🌸 Saved! Today has been pinned to your garden.');
+          entries[todayStr] = { mood: mood, tags: tags, body: text };
+          renderStats(); renderCal(); renderTimeline(); showEntry(todayStr);
+        })
+        .catch(function (e) { msg('err', '保存失败：' + e.message); });
+    });
+
+    /* ---------- boot ---------- */
+    viewYear = today.getFullYear();
+    viewMonth = today.getMonth();
+    selected = todayStr;
+
+    if (token) $('writer-card').style.display = 'block';
+    loadEntries();
+  })();
+  </script>
+</body>
+</html>

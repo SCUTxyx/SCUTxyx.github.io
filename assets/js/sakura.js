@@ -73,3 +73,22 @@
   for (var i = 0; i < PETAL_COUNT; i++) petals.push(new Petal(true));
   tick();
 })();
+
+/* ✿ Back-to-top button — appears after one screen of scrolling ✿ */
+(function () {
+  var btn = document.createElement('button');
+  btn.id = 'back-to-top';
+  btn.title = 'Back to top';
+  btn.innerHTML = '🌸';
+  btn.style.display = 'none';
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  document.body.appendChild(btn);
+
+  var toggle = function () {
+    btn.style.display = (window.scrollY > 600) ? 'flex' : 'none';
+  };
+  window.addEventListener('scroll', toggle, { passive: true });
+  toggle();
+})();

@@ -57,6 +57,23 @@
     }
 
     .filter-chips { display: flex; gap: 10px; flex-wrap: wrap; margin: 0 0 1.6rem; }
+    .paper-search {
+      width: 100%;
+      border: 1.5px solid rgba(242, 166, 90, 0.5);
+      border-radius: 999px;
+      padding: 11px 22px;
+      margin-bottom: 1rem;
+      font-family: 'Patrick Hand', cursive;
+      font-size: 1.05rem;
+      color: #4a4458;
+      background: rgba(255, 255, 255, 0.85);
+      outline: none;
+      transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+    .paper-search:focus {
+      border-color: var(--sun);
+      box-shadow: 0 0 0 0.2em rgba(242, 166, 90, 0.2);
+    }
     .chip {
       display: inline-flex; align-items: center; gap: 0.4rem;
       border: 1.5px solid rgba(242, 166, 90, 0.5);
@@ -206,12 +223,18 @@
         </div>
       </div>
 
+      <input id="paper-search" class="paper-search" type="search"
+             placeholder="🔍 Search title / author / abstract…" autocomplete="off">
+
       <div class="filter-chips" id="chips">
         <span class="chip active" data-filter="all">🍜 All</span>
         <span class="chip" data-filter="Embodied AI & Robotics">🤖 Embodied &amp; Robotics</span>
         <span class="chip" data-filter="Reinforcement Learning">🎮 Reinforcement Learning</span>
         <span class="chip" data-filter="Computer Vision">👁 Computer Vision</span>
         <span class="chip" data-filter="AI & LLM">✨ AI &amp; LLM</span>
+        <a class="chip" style="background: #fff3c4; border-color: rgba(230,175,60,.65); color: #b8860b;"
+           href="https://github.com/tianxingchen/Embodied-AI-Guide" target="_blank" rel="noopener"
+           title="Embodied AI Guide by Tianxing Chen">📖 New to Embodied AI? Start here</a>
       </div>
 
       <div id="feed">
@@ -270,11 +293,15 @@
     }
 
     function render() {
+      var q = (document.getElementById('paper-search').value || '').trim().toLowerCase();
       var shown = papers.filter(function (p) {
-        return filter === 'all' || p.pick === filter;
+        var passFilter = filter === 'all' || p.pick === filter;
+        var passSearch = !q || ((p.title + ' ' + p.authors.join(' ') + ' ' + p.summary).toLowerCase().indexOf(q) !== -1);
+        return passFilter && passSearch;
       });
       if (!shown.length) {
-        feedEl.innerHTML = '<div class="status-box"><span class="big">🍂</span>No papers in this shelf today — check another flavour!</div>';
+        var why = q ? 'Nothing matches “' + esc(q) + '” today.' : 'No papers in this shelf today — check another flavour!';
+        feedEl.innerHTML = '<div class="status-box"><span class="big">🍂</span>' + why + '</div>';
         return;
       }
       feedEl.innerHTML = shown.map(function (p, i) {
@@ -308,7 +335,18 @@
 
     function apply(feed) {
       papers = feed.papers || [];
-      document.getElementById('stat-updated').innerHTML = '⏰ feed updated ' + esc(feed.generated_at || 'just now');
+      var st = document.getElementById('stat-updated');
+      var ts = Date.parse((feed.generated_at || '').replace(' UTC', 'Z'));
+      if (!isNaN(ts)) {
+        var mins = Math.max(0, Math.round((Date.now() - ts) / 60000));
+        var rel = mins < 1 ? 'just now'
+                : mins < 60 ? mins + ' min ago'
+                : mins < 1440 ? Math.round(mins / 60) + ' hours ago'
+                : Math.round(mins / 1440) + ' days ago';
+        st.innerHTML = '⏰ feed updated <b title="' + esc(feed.generated_at || '') + '">' + rel + '</b>';
+      } else {
+        st.textContent = '⏰ feed updated ' + (feed.generated_at || 'just now');
+      }
       document.getElementById('stat-count').textContent = '📚 ' + papers.length + ' papers today';
       render();
     }
@@ -338,14 +376,24 @@
       if (s) s.textContent = '⏰ bootstrap feed · daily auto-refresh at 08:00 🌱';
     }
 
+    // remember the last category choice (localStorage)
+    var SAVED = 'daily_filter';
+    try { filter = localStorage.getItem(SAVED) || 'all'; } catch (e) { filter = 'all'; }
+    document.querySelectorAll('.chip[data-filter]').forEach(function (c) {
+      c.classList.toggle('active', c.dataset.filter === filter);
+    });
+
     document.getElementById('chips').addEventListener('click', function (e) {
-      var chip = e.target.closest('.chip');
+      var chip = e.target.closest('.chip[data-filter]');
       if (!chip) return;
-      document.querySelectorAll('.chip').forEach(function (c) { c.classList.remove('active'); });
+      document.querySelectorAll('.chip[data-filter]').forEach(function (c) { c.classList.remove('active'); });
       chip.classList.add('active');
       filter = chip.dataset.filter;
+      try { localStorage.setItem(SAVED, filter); } catch (err) {}
       render();
     });
+
+    document.getElementById('paper-search').addEventListener('input', render);
 
     load();
   })();
