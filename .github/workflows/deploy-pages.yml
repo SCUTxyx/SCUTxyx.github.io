@@ -28,8 +28,10 @@ jobs:
         with:
           ruby-version: '3.3'
 
-      - name: Install Jekyll
-        run: gem install jekyll -v 4.4.1 --no-document
+      - name: Install Jekyll and plugins
+        run: |
+          gem install jekyll -v 4.4.1 --no-document
+          gem install jekyll-paginate jekyll-sitemap jekyll-feed jekyll-gist jekyll-redirect-from jemoji --no-document
 
       - name: Build site
         run: JEKYLL_NO_BUNDLER_REQUIRE=true jekyll build --config _config.yml
