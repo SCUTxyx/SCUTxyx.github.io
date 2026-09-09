@@ -76,8 +76,20 @@
       display: inline-flex; align-items: center; gap: 0.4rem;
       font-family: 'Kalam', cursive; font-weight: 700; font-size: 0.85rem;
       border-radius: 999px; padding: 3px 14px; white-space: nowrap;
-      background: #fff3d6; color: #b8860b; border: 1.5px solid rgba(255, 200, 80, 0.6);
+      background: #eef0f4; color: #6b7280; border: 1.5px solid rgba(107, 114, 128, 0.4);
     }
+    .paper-links { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 0.9rem; }
+    .pdf-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: linear-gradient(120deg, var(--peri), var(--rose));
+      color: #fff !important;
+      border-radius: 999px; padding: 8px 22px;
+      font-family: 'Kalam', cursive; font-weight: 700; font-size: 0.95rem;
+      box-shadow: 0 6px 14px rgba(91, 127, 214, 0.35);
+      transition: transform 0.25s ease;
+    }
+    .pdf-btn:hover { transform: translateY(-2px) rotate(-1deg); text-decoration: none !important; }
+    .pdf-note { font-family: 'Kalam', cursive; font-size: 0.82rem; color: #9a93ab; }
     .role-badge {
       font-family: 'Kalam', cursive; font-size: 0.85rem;
       background: var(--peri-bg); color: var(--peri-deep);
@@ -172,27 +184,32 @@
         <span class="pub-kicker">📄 Publications · The Paper Shelf</span>
         <h1 class="title is-2" style="margin-top: 0.5rem;">Publications, In the Making 🐣</h1>
         <p class="subtitle is-6" style="margin-top: 0.5rem;">
-          The shelf is not heavy yet — no published papers at the moment —
-          but my first submission is already under review, and more are on the way.
-          Watch this space! ✨
+          No published papers yet — but my first manuscript <b>FastEvo</b> already went through a
+          CVPR review cycle, and the PDF is right here on the shelf. More are brewing. ✨
         </p>
       </div>
 
-      <!-- Under review -->
-      <h2 class="section-title-mini">🔭 Under Review<span class="dash"></span></h2>
+      <!-- Manuscripts & preprints -->
+      <h2 class="section-title-mini">📝 Manuscripts &amp; Preprints<span class="dash"></span></h2>
 
       <div class="paper-card">
         <div class="paper-top">
           <span class="role-badge">👤 Second Author</span>
-          <span class="status-badge">⏳ Under Review</span>
+          <span class="status-badge">📄 Preprint · Not Published</span>
         </div>
-        <h3>Multi-Agent &amp; Embodied AI</h3>
-        <div class="venue">📄 submitted to CVPR · Nov. 2025</div>
+        <h3>FastEvo: Accelerating Reward Evolution with Multi-Agent Evaluation for Robotic Manipulation</h3>
+        <div class="venue">📄 CVPR 2026 submission (#8389) · Nov. 2025 — not accepted · shared here as a preprint</div>
         <ul>
           <li>Conducted literature review and technical analysis; authored the <b>Related Work</b> section.</li>
           <li>Reproduced and ran experiments; performed <b>data preprocessing</b>, result statistics, and performance evaluation.</li>
           <li>Designed the experimental <b>pipeline</b> and produced visualizations (flowcharts, result figures, and research reports).</li>
         </ul>
+        <div class="paper-links">
+          <a class="pdf-btn" href="/files/papers/FastEvo.pdf" target="_blank" rel="noopener">
+            <i class="fas fa-file-pdf"></i> Download PDF
+          </a>
+          <span class="pdf-note">double-blind review copy · anonymous author list</span>
+        </div>
       </div>
 
       <!-- Future shelf -->

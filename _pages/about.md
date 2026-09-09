@@ -25,7 +25,7 @@ News
 
 <li><span class="news-date"><em>2026.01</em></span> 🏆 Won the <b>Second Prize</b> in the Asia-Pacific Mathematical Contest in Modeling (APMCM).</li>
 
-<li><span class="news-date"><em>2025.11</em></span> 🚀 One paper submitted to <b>CVPR</b> as second author (multi-agent &amp; embodied AI).</li>
+<li><span class="news-date"><em>2025.11</em></span> 🚀 Our first manuscript <b>FastEvo</b> was submitted to <b>CVPR 2026</b> as second author (multi-agent reward evolution for robotic manipulation) — <a href="/publications.html">preprint available</a>.</li>
 
 <li><span class="news-date"><em>2025.11</em></span> 🥇 Won the <b>First Prize</b> in the China Undergraduate Mathematical Contest (Guangdong Province).</li>
 
@@ -63,7 +63,7 @@ Research Experience
 <div class="project-card" id="research">
   <div class="project-emoji">🤖</div>
   <div>
-    <strong>Multi-Agent &amp; Embodied AI <span class="pub-list-badge">CVPR Submission</span></strong><br>
+    <strong>FastEvo — Multi-Agent Reward Evolution for Robotic Manipulation <span class="pub-list-badge">CVPR 2026 Submission</span></strong><br>
     <i style="font-size: 13px;">Second Author · Nov. 2025</i><br>
     Contributed to a research project on multi-agent systems and embodied intelligence:
     <ul style="margin: 6px 0 0 18px; padding: 0;">
@@ -219,7 +219,7 @@ Explore More ✨
     <div class="space-emoji">📄</div>
     <div>
       <strong>Publications</strong><br>
-      My paper shelf — one submission under review at CVPR, and the first publication on its way. The shelf is ready and waiting. 🐣
+      My paper shelf — first manuscript <b>FastEvo</b> (CVPR 2026 submission, second author) is up as a preprint; the published version is on its way. 🐣
       <span class="space-cta">View Publications →</span>
     </div>
   </a>
