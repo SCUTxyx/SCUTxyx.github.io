@@ -170,6 +170,11 @@
       </div>
 
       <div class="st-card">
+        <div class="msg" id="draft-bar" style="display:none; align-items:center; gap:10px; flex-wrap:wrap;">
+          <span id="draft-info">📄 检测到未发布的草稿</span>
+          <button class="btn small" id="draft-restore">恢复草稿</button>
+          <button class="btn danger small" id="draft-discard">丢弃</button>
+        </div>
         <div class="field-row">
           <div>
             <span class="lbl">文章标题</span>
@@ -270,11 +275,92 @@
       return new TextDecoder().decode(bytes);
     }
 
+    /* ---------- draft autosave ---------- */
+    var DRAFT_KEY = 'studio_draft';
+    var draftTimer = null;
+
+    function saveDraft() {
+      var title = $('post-title').value.trim();
+      var tgs = $('post-tags').value.trim();
+      var md = mdInput.value;
+      if (!title && !tgs && !md) return;   // nothing worth saving
+      try {
+        localStorage.setItem(DRAFT_KEY, JSON.stringify({
+          title: title, tags: tgs, md: md,
+          path: editing ? editing.path : null,
+          sha: editing ? editing.sha : null,
+          savedAt: Date.now()
+        }));
+      } catch (e) {}
+    }
+    function clearDraft() {
+      try { localStorage.removeItem(DRAFT_KEY); } catch (e) {}
+      $('draft-bar').style.display = 'none';
+    }
+    function scheduleDraft() {
+      if (draftTimer) clearTimeout(draftTimer);
+      draftTimer = setTimeout(saveDraft, 1200);
+    }
+    function maybeShowDraftBar() {
+      var raw = null;
+      try { raw = localStorage.getItem(DRAFT_KEY); } catch (e) { return; }
+      if (!raw) return;
+      var d;
+      try { d = JSON.parse(raw); } catch (e) { return; }
+      if (!d || (!d.title && !d.md)) return;
+      var when = new Date(d.savedAt);
+      var rel = Math.max(1, Math.round((Date.now() - d.savedAt) / 60000));
+      $('draft-info').textContent = '📄 检测到未发布的草稿（' + (rel >= 60 ? Math.round(rel / 60) + ' 小时' : rel + ' 分钟') + '前保存）';
+      $('draft-bar').style.display = 'flex';
+      $('draft-restore').onclick = function () {
+        $('post-title').value = d.title || '';
+        $('post-tags').value = d.tags || '';
+        mdInput.value = d.md || '';
+        renderPreview();
+        editing = d.path ? { path: d.path, sha: d.sha } : null;
+        $('edit-state').textContent = editing ? '当前编辑：' + editing.path : '';
+        $('draft-bar').style.display = 'none';
+        msg('editor-msg', 'ok', '草稿已恢复 ✓');
+      };
+      $('draft-discard').onclick = function () {
+        clearDraft();
+        msg('editor-msg', 'ok', '草稿已丢弃。');
+      };
+    }
+
+    /* ---------- image compression ---------- */
+    function compressImage(file) {
+      return new Promise(function (resolve) {
+        var MAX_EDGE = 1600, MAX_BYTES = 400 * 1024;
+        if (file.size <= MAX_BYTES && !/png$/i.test(file.type)) { resolve(file); return; }
+        var img = new Image();
+        var url = URL.createObjectURL(file);
+        img.onload = function () {
+          URL.revokeObjectURL(url);
+          var w = img.naturalWidth, h = img.naturalHeight;
+          if (w <= MAX_EDGE && h <= MAX_EDGE && file.size <= MAX_BYTES) { resolve(file); return; }
+          var scale = Math.min(1, MAX_EDGE / Math.max(w, h));
+          var canvas = document.createElement('canvas');
+          canvas.width = Math.round(w * scale);
+          canvas.height = Math.round(h * scale);
+          canvas.getContext('2d').fillStyle = '#ffffff';
+          canvas.getContext('2d').fillRect(0, 0, canvas.width, canvas.height);
+          canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+          canvas.toBlob(function (blob) {
+            resolve(blob ? new File([blob], file.name.replace(/\.png$/i, '.jpg'), { type: 'image/jpeg' }) : file);
+          }, 'image/jpeg', 0.85);
+        };
+        img.onerror = function () { URL.revokeObjectURL(url); resolve(file); };
+        img.src = url;
+      });
+    }
+
     /* ---------- token / lock ---------- */
     function unlock() {
       lockScreen.style.display = 'none';
       editorScreen.style.display = 'block';
       loadList();
+      maybeShowDraftBar();
     }
 
     $('token-save').addEventListener('click', function () {
@@ -307,7 +393,9 @@
     function renderPreview() {
       $('preview').innerHTML = DOMPurify.sanitize(marked.parse(mdInput.value || ''));
     }
-    mdInput.addEventListener('input', renderPreview);
+    mdInput.addEventListener('input', function () { renderPreview(); scheduleDraft(); });
+    $('post-title').addEventListener('input', scheduleDraft);
+    $('post-tags').addEventListener('input', scheduleDraft);
     renderPreview();
 
     document.querySelectorAll('.toolbar button[data-md]').forEach(function (b) {
@@ -336,13 +424,15 @@
     /* ---------- image upload (paste / pick) ---------- */
     function uploadImage(file) {
       if (!/^image\//.test(file.type)) { msg('editor-msg', 'err', '只支持图片文件。'); return; }
-      msg('editor-msg', 'info', '图片上传中…');
-      var reader = new FileReader();
-      reader.onload = function () {
-        var b64 = reader.result.split(',')[1];
-        var ext = (file.type.split('/')[1] || 'png').replace('jpeg', 'jpg');
-        var name = 'assets/posts/' + Date.now() + '-' + Math.random().toString(36).slice(2, 8) + '.' + ext;
-        api(name, {
+      msg('editor-msg', 'info', '图片压缩中…');
+      compressImage(file).then(function (processed) {
+        msg('editor-msg', 'info', '图片上传中…');
+        var reader = new FileReader();
+        reader.onload = function () {
+          var b64 = reader.result.split(',')[1];
+          var ext = (processed.type.split('/')[1] || 'png').replace('jpeg', 'jpg');
+          var name = 'assets/posts/' + Date.now() + '-' + Math.random().toString(36).slice(2, 8) + '.' + ext;
+          api(name, {
           method: 'PUT',
           body: JSON.stringify({ message: 'upload image', content: b64, branch: BRANCH })
         }).then(function () {
@@ -352,7 +442,8 @@
           msg('editor-msg', 'err', '图片上传失败：' + e.message);
         });
       };
-      reader.readAsDataURL(file);
+      reader.readAsDataURL(processed);
+    });
     }
     $('btn-image').addEventListener('click', function () { $('img-file').click(); });
     $('img-file').addEventListener('change', function () {
@@ -410,6 +501,7 @@
         .then(function () {
           editing = { path: path, sha: null };
           $('edit-state').textContent = '当前编辑：' + path;
+          clearDraft();
           msg('editor-msg', 'ok', '🎉 已提交！Actions 正在构建，约 1~2 分钟后文章上线。点上方「构建状态」查看进度。');
         })
         .catch(function (e) {
@@ -474,6 +566,7 @@
       $('post-title').value = ''; $('post-tags').value = ''; mdInput.value = '';
       $('edit-state').textContent = '';
       renderPreview();
+      clearDraft();
       msg('editor-msg', 'ok', '新文章模式：发布后保存为 _posts/今天日期-标题.md');
     });
     $('btn-list').addEventListener('click', function () {
