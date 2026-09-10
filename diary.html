@@ -175,8 +175,26 @@
       <p>A tiny log of what I did, what I learned and how I felt —
          collected one petal at a time, so the whole garden stays visible.</p>
       <div class="stats-row">
-        <span class="stat-chip" id="stat-total">📅 — days recorded</span>
+        <span class="stat-chip" id="stat-total">📅 — entries</span>
         <span class="stat-chip" id="stat-streak">🔥 — day streak</span>
+        <button class="stat-chip" id="export-btn" title="download all entries as Markdown" style="cursor:pointer;">⬇ Export Markdown</button>
+      </div>
+    </div>
+
+    <div class="cal-card" style="margin-bottom: 1.6rem;">
+      <div class="cal-head">
+        <span class="month" id="heat-year">…</span>
+        <div class="cal-nav">
+          <button id="heat-prev">‹</button>
+          <button id="heat-next">›</button>
+        </div>
+      </div>
+      <div class="heat-scroll"><div class="heatmap" id="heatmap"></div></div>
+      <div class="heat-legend">
+        <span>Less</span>
+        <span class="hm hm0"></span><span class="hm hm1"></span><span class="hm hm2"></span><span class="hm hm3"></span>
+        <span>More</span>
+        <span style="margin-left:auto;" id="heat-count"></span>
       </div>
     </div>
 
@@ -225,6 +243,10 @@
 
       <div class="side-card timeline">
         <h3>🕰 Timeline</h3>
+        <div class="tl-filters">
+          <div class="mood-row" id="tl-moods" style="margin-bottom:6px;"></div>
+          <div class="tag-row" id="tl-tags" style="margin-bottom:6px;"></div>
+        </div>
         <div id="timeline"></div>
       </div>
     </div>
@@ -308,9 +330,9 @@
       entries.sort(function (a, b) {
         return (a.day + (a.time || '00:00')).localeCompare(b.day + (b.time || '00:00'));
       });
-      renderStats(); renderCal(); renderTimeline();
+      buildFilters(); renderStats(); renderCal(); renderTimeline(); renderHeatmap();
     }).catch(function (e) {
-      renderStats(); renderCal(); renderTimeline();
+      buildFilters(); renderStats(); renderCal(); renderTimeline(); renderHeatmap();
       $('stat-total').textContent = '📅 feed hiccup — refresh to retry';
       console.warn('diary load failed:', e.message);
     });
@@ -506,7 +528,7 @@
     }).then(function () {
       entries = entries.filter(function (e) { return e.file !== file; });
       msg('ok', '已删除 🍂');
-      renderStats(); renderCal(); renderTimeline();
+      buildFilters(); renderStats(); renderCal(); renderTimeline(); renderHeatmap();
       var day = file.slice(0, 10);
       if (dayEntries(day).length) showDay(day);
       else { $('entry-view').style.display = 'none'; selected = null; renderCal(); }
