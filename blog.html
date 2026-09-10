@@ -103,6 +103,25 @@ layout: null
     }
 
     .soon-card { opacity: 0.82; }
+
+    /* series filter */
+    .series-chips { display: flex; gap: 10px; flex-wrap: wrap; margin: 0 0 1.6rem; }
+    .schip {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      border: 1.5px solid rgba(224, 86, 140, 0.45);
+      background: rgba(255, 255, 255, 0.85);
+      color: #b23a70;
+      border-radius: 999px; padding: 5px 16px;
+      font-family: 'Kalam', cursive; font-size: 0.95rem;
+      cursor: pointer; transition: all 0.25s ease; user-select: none;
+    }
+    .schip:hover { transform: translateY(-2px); border-color: #e0568c; }
+    .schip.active {
+      background: linear-gradient(120deg, #f78fb3, #b69df2);
+      color: #fff; border-color: transparent;
+      box-shadow: 0 6px 14px rgba(224, 86, 140, 0.3);
+    }
+    .col-hidden { display: none !important; }
   </style>
 </head>
 <body>
@@ -149,10 +168,18 @@ layout: null
         </div>
       </div>
 
+      <div class="series-chips" id="series-chips">
+        <span class="schip active" data-series="all">✨ All</span>
+        <span class="schip" data-series="paper-reading">📄 Paper Reading</span>
+        <span class="schip" data-series="research-notes">🔬 Research Notes</span>
+        <span class="schip" data-series="cs-basics">🧱 CS Basics</span>
+        <span class="schip" data-series="studio">✍️ Studio Posts</span>
+      </div>
+
       <div class="columns is-multiline">
 
         <!-- Featured / latest post -->
-        <div class="column is-12">
+        <div class="column is-12" data-series="paper-reading">
           <a href="report/rl_token.html" class="post-card" style="background: linear-gradient(135deg, #ffffff 0%, #fff5f9 100%);">
             <div class="ks-post-top">
               <span class="ks-date"><i class="far fa-calendar-alt"></i> Aug 14, 2026</span>
@@ -179,7 +206,7 @@ layout: null
         </div>
 
         <!-- Post 2 -->
-        <div class="column is-6">
+        <div class="column is-6" data-series="research-notes">
           <a href="posts/embodied_ai_roadmap.html" class="post-card">
             <div class="ks-post-top">
               <span class="ks-date"><i class="far fa-calendar-alt"></i> Aug 14, 2026</span>
@@ -203,7 +230,7 @@ layout: null
 
         <!-- Studio posts (from _posts/, published via /studio.html) -->
         {% for post in site.posts %}
-        <div class="column is-6">
+        <div class="column is-6" data-series="studio">
           <a href="{{ post.url }}" class="post-card">
             <div class="ks-post-top">
               <span class="ks-date"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%b %d, %Y" }}</span>
@@ -219,7 +246,7 @@ layout: null
         {% endfor %}
 
         <!-- Post 3 -->
-        <div class="column is-6">
+        <div class="column is-6" data-series="cs-basics">
           <a href="#" class="post-card soon-card">
             <div class="ks-post-top">
               <span class="ks-date"><i class="far fa-calendar-alt"></i> Coming Soon</span>
@@ -248,5 +275,33 @@ layout: null
     </div>
   </footer>
 
+<script>
+(function () {
+  var KEY = 'blog_series';
+  var current = 'all';
+  try { current = localStorage.getItem(KEY) || 'all'; } catch (e) {}
+
+  function apply() {
+    document.querySelectorAll('#series-chips .columns, #series-chips ~ .columns .column').forEach(function () {});
+    document.querySelectorAll('.columns .column[data-series]').forEach(function (col) {
+      var match = (current === 'all') || (col.dataset.series === current);
+      col.classList.toggle('col-hidden', !match);
+    });
+    document.querySelectorAll('.schip').forEach(function (c) {
+      c.classList.toggle('active', c.dataset.series === current);
+    });
+  }
+
+  document.getElementById('series-chips').addEventListener('click', function (e) {
+    var chip = e.target.closest('.schip');
+    if (!chip || !chip.dataset.series) return;
+    current = chip.dataset.series;
+    try { localStorage.setItem(KEY, current); } catch (err) {}
+    apply();
+  });
+
+  apply();
+})();
+</script>
 </body>
 </html>
