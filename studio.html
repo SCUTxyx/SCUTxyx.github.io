@@ -342,7 +342,7 @@
         var b64 = reader.result.split(',')[1];
         var ext = (file.type.split('/')[1] || 'png').replace('jpeg', 'jpg');
         var name = 'assets/posts/' + Date.now() + '-' + Math.random().toString(36).slice(2, 8) + '.' + ext;
-        api('/contents/' + name, {
+        api(name, {
           method: 'PUT',
           body: JSON.stringify({ message: 'upload image', content: b64, branch: BRANCH })
         }).then(function () {
@@ -406,7 +406,7 @@
       if (editing && editing.sha) payload.sha = editing.sha;
 
       msg('editor-msg', 'info', '发布中…');
-      api('/contents/' + path, { method: 'PUT', body: JSON.stringify(payload) })
+      api(path, { method: 'PUT', body: JSON.stringify(payload) })
         .then(function () {
           editing = { path: path, sha: null };
           $('edit-state').textContent = '当前编辑：' + path;
@@ -420,7 +420,7 @@
 
     /* ---------- post list / edit / delete ---------- */
     function loadList() {
-      api('/contents/_posts?ref=' + BRANCH).then(function (files) {
+      api('_posts?ref=' + BRANCH).then(function (files) {
         var md = files.filter(function (f) { return /\.md$/.test(f.name); });
         $('post-list').innerHTML = md.map(function (f) {
           return '<li data-name="' + f.name + '" data-sha="' + f.sha + '">' +
@@ -440,7 +440,7 @@
       var name = li.dataset.name, sha = li.dataset.sha;
 
       if (e.target.classList.contains('act-edit')) {
-        api('/contents/_posts/' + name + '?ref=' + BRANCH).then(function (f) {
+        api('_posts/' + name + '?ref=' + BRANCH).then(function (f) {
           var raw = b64decode(f.content);
           var fm = raw.match(/^---\n([\s\S]*?)\n---\n/);
           var body = raw.replace(/^---\n[\s\S]*?\n---\n/, '');
@@ -459,7 +459,7 @@
 
       if (e.target.classList.contains('act-del')) {
         if (!confirm('确定删除 ' + name + ' ？此操作会从线上移除该文章。')) return;
-        api('/contents/_posts/' + name, {
+        api('_posts/' + name, {
           method: 'DELETE',
           body: JSON.stringify({ message: 'Delete post ' + name, sha: sha, branch: BRANCH })
         }).then(function () {

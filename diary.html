@@ -449,14 +449,14 @@
 
       // always fetch the file's CURRENT sha right before writing (404 = new file)
       function currentSha() {
-        return api('/contents/' + DIR + '/' + todayStr + '.md?ref=' + BRANCH)
+        return api(DIR + '/' + todayStr + '.md?ref=' + BRANCH)
           .then(function (f) { return f.sha; })
           .catch(function (e) { if (e.status === 404) return null; throw e; });
       }
       function put(sha) {
         var p = { message: 'diary ' + todayStr, content: b64encode(bodyMd), branch: BRANCH };
         if (sha) p.sha = sha;
-        return api('/contents/' + DIR + '/' + todayStr + '.md', { method: 'PUT', body: JSON.stringify(p) });
+        return api(DIR + '/' + todayStr + '.md', { method: 'PUT', body: JSON.stringify(p) });
       }
       function finish() {
         btn.dataset.busy = '';
