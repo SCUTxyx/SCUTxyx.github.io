@@ -452,10 +452,15 @@
       };
       msg('info', '保存中…');
       // find existing sha for today (overwrite = same day, second save)
+      // NOTE: the _diary folder may not exist yet for the very first save —
+      // a 404 here simply means "new file", and the PUT below creates it.
       var existing = (entries[todayStr] && entries[todayStr].sha) ? Promise.resolve(entries[todayStr].sha)
         : api(DIR + '?ref=' + BRANCH).then(function (files) {
             var f = files.filter(function (x) { return x.name === todayStr + '.md'; })[0];
             return f ? f.sha : null;
+          }).catch(function (e) {
+            if (e.status === 404) return null;
+            throw e;
           }).then(function (sha) { if (entries[todayStr]) entries[todayStr].sha = sha; return sha; });
       existing
         .then(doSave)
