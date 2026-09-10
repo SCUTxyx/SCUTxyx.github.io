@@ -439,38 +439,42 @@
     }
 
     $('diary-save').addEventListener('click', function () {
+      var btn = $('diary-save');
+      if (btn.dataset.busy === '1') return;
       var text = $('diary-text').value.trim();
       if (!text) { msg('err', '写点什么再保存吧 🌱'); return; }
-      var payload = {
-        message: 'diary ' + todayStr,
-        content: b64encode('<!-- mood:' + mood + ' tags:' + tags.join(',') + ' -->\n\n' + text + '\n'),
-        branch: BRANCH
-      };
-      var doSave = function (sha) {
-        if (sha) payload.sha = sha;
-        return api(DIR + '/' + todayStr + '.md', { method: 'PUT', body: JSON.stringify(payload) });
-      };
+      btn.dataset.busy = '1';
+      var bodyMd = '<!-- mood:' + mood + ' tags:' + tags.join(',') + ' -->\n\n' + text + '\n';
       msg('info', '保存中…');
-      // find existing sha for today (overwrite = same day, second save)
-      // NOTE: the _diary folder may not exist yet for the very first save —
-      // a 404 here simply means "new file", and the PUT below creates it.
-      var existing = (entries[todayStr] && entries[todayStr].sha) ? Promise.resolve(entries[todayStr].sha)
-        : api(DIR + '?ref=' + BRANCH).then(function (files) {
-            var f = files.filter(function (x) { return x.name === todayStr + '.md'; })[0];
-            return f ? f.sha : null;
-          }).catch(function (e) {
-            if (e.status === 404) return null;
-            throw e;
-          }).then(function (sha) { if (entries[todayStr]) entries[todayStr].sha = sha; return sha; });
-      existing
-        .then(doSave)
-        .then(function () {
-          msg('ok', '🌸 Saved! Today has been pinned to your garden.');
-          entries[todayStr] = { mood: mood, tags: tags, body: text };
-          renderStats(); renderCal(); renderTimeline(); showEntry(todayStr);
-        })
+
+      // always fetch the file's CURRENT sha right before writing (404 = new file)
+      function currentSha() {
+        return api('/contents/' + DIR + '/' + todayStr + '.md?ref=' + BRANCH)
+          .then(function (f) { return f.sha; })
+          .catch(function (e) { if (e.status === 404) return null; throw e; });
+      }
+      function put(sha) {
+        var p = { message: 'diary ' + todayStr, content: b64encode(bodyMd), branch: BRANCH };
+        if (sha) p.sha = sha;
+        return api('/contents/' + DIR + '/' + todayStr + '.md', { method: 'PUT', body: JSON.stringify(p) });
+      }
+      function finish() {
+        btn.dataset.busy = '';
+        msg('ok', '🌸 Saved! Today has been pinned to your garden.');
+        entries[todayStr] = { mood: mood, tags: tags, body: text };
+        renderStats(); renderCal(); renderTimeline(); showEntry(todayStr);
+      }
+
+      currentSha()
+        .then(put)
+        .then(finish)
         .catch(function (e) {
-          if (e.status === 403) {
+          btn.dataset.busy = '';
+          if (e.status === 409) {
+            // file changed underneath us — refresh the sha and retry once
+            currentSha().then(put).then(finish)
+              .catch(function (e2) { msg('err', '保存失败：' + e2.message); });
+          } else if (e.status === 403) {
             msg('err', '保存失败：令牌缺少写入权限。请到 GitHub 令牌设置把 Contents 改为 Read and write（或重新创建令牌并在本页重新粘贴）。');
           } else {
             msg('err', '保存失败：' + e.message);
