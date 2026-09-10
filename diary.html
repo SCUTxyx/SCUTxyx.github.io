@@ -150,6 +150,16 @@
     .back-link { color: var(--dusk-deep); font-family: 'Kalam', cursive; }
     .entry-view h2 { font-family: 'Caveat', cursive; color: var(--dusk-deep); font-size: 1.8rem; }
     .entry-view .body { line-height: 1.8; white-space: pre-wrap; background: rgba(255,255,255,.85); border-radius: 12px; padding: 12px 16px; }
+    .day-entry { padding: 4px 0; }
+    .act-del {
+      border: 1.5px solid rgba(217,83,79,.45); background: #fff; color: #d9534f;
+      border-radius: 8px; padding: 2px 10px; cursor: pointer;
+      font-family: 'Kalam', cursive; font-size: .8rem; margin-top: 8px;
+      transition: all .2s ease;
+    }
+    .act-del:hover { background: #fdeaea; }
+    .day-cell .cnt { font-family: 'Kalam', cursive; font-size: .62rem; color: var(--dusk-deep); line-height: 1; }
+    .tl-tags { font-family: 'Kalam', cursive; font-size: .8rem; color: #9a93ab; }
   </style>
 </head>
 <body>
@@ -227,269 +237,289 @@
   </div>
 
   <script>
-  (function () {
-    'use strict';
-    var OWNER = 'SCUTxyx', REPO = 'SCUTxyx.github.io', BRANCH = 'master';
-    var DIR = '_diary';
-    var API = 'https://api.github.com/repos/' + OWNER + '/' + REPO + '/contents/' + DIR + '?ref=' + BRANCH;
-    var RAW = 'https://raw.githubusercontent.com/' + OWNER + '/' + REPO + '/' + BRANCH + '/' + DIR + '/';
-    var TOKEN_KEY = 'gh_token';
+(function () {
+  'use strict';
+  var OWNER = 'SCUTxyx', REPO = 'SCUTxyx.github.io', BRANCH = 'master';
+  var DIR = '_diary';
+  var API = 'https://api.github.com/repos/' + OWNER + '/' + REPO + '/contents/' + DIR + '?ref=' + BRANCH;
+  var RAW = 'https://raw.githubusercontent.com/' + OWNER + '/' + REPO + '/' + BRANCH + '/' + DIR + '/';
+  var TOKEN_KEY = 'gh_token';
 
-    var token = localStorage.getItem(TOKEN_KEY) || '';
-    var entries = {};   // 'YYYY-MM-DD' -> {mood, tags, body, sha}
-    var viewYear, viewMonth;
-    var today = new Date();
-    var todayStr = fmtDate(today);
+  var token = localStorage.getItem(TOKEN_KEY) || '';
+  var entries = [];   // {file, day, time, mood, tags, body, sha}
+  var viewYear = new Date().getFullYear(), viewMonth = new Date().getMonth();
+  var today = new Date();
+  var todayStr = fmtDate(today);
+  var selected = null;
+  var mood = '🌸', tags = [];
+
+  var $ = function (id) { return document.getElementById(id); };
+
+  function fmtDate(d) {
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+  function pad(n) { return String(n).padStart(2, '0'); }
+  function msg(kind, text) {
+    var el = $('diary-msg');
+    el.className = 'msg ' + kind;
+    el.textContent = text;
+    if (kind !== 'err') setTimeout(function () { el.className = 'msg'; }, 4000);
+  }
+  function esc(s) {
+    return (s || '').replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+
+  function parseEntry(text) {
     var mood = '🌸', tags = [];
-
-    var $ = function (id) { return document.getElementById(id); };
-
-    function fmtDate(d) {
-      return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    var m = text.match(/^<!--\s*mood:(\S+)\s*(?:tags:([^>]*))?\s*-->\s*\n?/);
+    if (m) {
+      mood = m[1];
+      tags = (m[2] || '').split(/[,，]/).map(function (t) { return t.trim(); }).filter(Boolean);
+      text = text.slice(m[0].length);
     }
-    function pad(n) { return String(n).padStart(2, '0'); }
-    function msg(kind, text) {
-      var el = $('diary-msg');
-      el.className = 'msg ' + kind;
-      el.textContent = text;
-      if (kind !== 'err') setTimeout(function () { el.className = 'msg'; }, 4000);
-    }
-    function esc(s) {
-      return (s || '').replace(/[&<>"]/g, function (c) {
-        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    return { mood: mood, tags: tags, body: text.trim() };
+  }
+
+  /* file name: 2026-09-10.md (legacy, time='') or 2026-09-10-164530.md */
+  function loadEntries() {
+    return fetch(API).then(function (r) {
+      if (r.status === 404) return [];   // no diary yet — first save creates the folder
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (files) {
+      entries = [];
+      var mine = files.filter(function (f) {
+        return /^\d{4}-\d{2}-\d{2}(-\d{6})?\.md$/.test(f.name);
       });
-    }
-
-    function parseEntry(text) {
-      var mood = '🌸', tags = [];
-      var m = text.match(/^<!--\s*mood:(\S+)\s*(?:tags:([^>]*))?\s*-->\s*\n?/);
-      if (m) {
-        mood = m[1];
-        tags = (m[2] || '').split(/[,，]/).map(function (t) { return t.trim(); }).filter(Boolean);
-        text = text.slice(m[0].length);
-      }
-      return { mood: mood, tags: tags, body: text.trim() };
-    }
-
-    function loadEntries() {
-      return fetch(API).then(function (r) {
-        // the _diary folder doesn't exist until the first entry is saved
-        if (r.status === 404) return [];
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
-      }).then(function (files) {
-        var days = files.filter(function (f) { return /^\d{4}-\d{2}-\d{2}\.md$/.test(f.name); })
-                        .map(function (f) { return f.name.replace('.md', ''); });
-        return Promise.all(days.map(function (day) {
-          return fetch(RAW + day + '.md', { cache: 'no-store' })
-            .then(function (r) { return r.ok ? r.text() : ''; })
-            .then(function (t) {
-              var p = parseEntry(t);
-              entries[day] = { mood: p.mood, tags: p.tags, body: p.body };
-            });
-        }));
-      }).then(function () {
-        renderStats(); renderCal(); renderTimeline();
-      }).catch(function (e) {
-        renderStats(); renderCal(); renderTimeline();
-        $('stat-total').textContent = '📅 feed hiccup — refresh to retry';
-        console.warn('diary load failed:', e.message);
-      });
-    }
-
-    function renderStats() {
-      var days = Object.keys(entries).sort();
-      $('stat-total').textContent = '📅 ' + days.length + ' days recorded';
-      var streak = 0;
-      var d = new Date(today);
-      if (!entries[fmtDate(d)]) d.setDate(d.getDate() - 1); // streak alive if yesterday recorded
-      while (entries[fmtDate(d)]) { streak++; d.setDate(d.getDate() - 1); }
-      $('stat-streak').textContent = '🔥 ' + (streak > 0 ? streak + '-day streak' : 'no streak yet — start today!');
-    }
-
-    function renderCal() {
-      var first = new Date(viewYear, viewMonth, 1);
-      var startDow = first.getDay();
-      var dim = new Date(viewYear, viewMonth + 1, 0).getDate();
-      var monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-      $('cal-month').textContent = monthNames[viewMonth] + ' ' + viewYear;
-
-      var html = '<tr>';
-      for (var i = 0; i < startDow; i++) html += '<td></td>';
-      for (var day = 1; day <= dim; day++) {
-        var ds = viewYear + '-' + pad(viewMonth + 1) + '-' + pad(day);
-        var e = entries[ds];
-        var cls = 'day-cell';
-        if (!e) cls += ' other';
-        if (e) cls += ' has-entry';
-        if (ds === todayStr) cls += ' today';
-        if (ds === selected) cls += ' selected';
-        if ((startDow + day) % 7 === 0) { /* week ends */ }
-        html += '<td><div class="' + cls + '" data-date="' + ds + '">' +
-                '<span class="dnum">' + day + '</span>' +
-                (e ? '<span class="memoji">' + e.mood + '</span>' : '') +
-                '</div></td>';
-        if ((startDow + day) % 7 === 0 && day !== dim) html += '</tr><tr>';
-      }
-      html += '</tr>';
-      $('cal-body').innerHTML = html;
-    }
-
-    function showEntry(day) {
-      var e = entries[day];
-      selected = day;
-      renderCal();
-      var view = $('entry-view');
-      if (!e) {
-        if (day === todayStr && token) { openWriter(); view.style.display = 'none'; return; }
-        view.style.display = 'block';
-        $('entry-title').textContent = '🌸 ' + day;
-        $('entry-body').textContent = 'No entry for this day yet.';
-        return;
-      }
-      view.style.display = 'block';
-      $('entry-title').textContent = (e.mood || '🌸') + '  ' + day + (e.tags && e.tags.length ? '  ·  ' + e.tags.join(' / ') : '');
-      $('entry-body').textContent = e.body || '(empty)';
-    }
-
-    function renderTimeline() {
-      var days = Object.keys(entries).sort().reverse();
-      $('timeline').innerHTML = days.map(function (day) {
-        var e = entries[day];
-        var excerpt = (e.body || '').split('\n')[0].slice(0, 60);
-        return '<div class="tl-item" data-date="' + day + '">' +
-                 '<span class="tl-date">📅 ' + day + '</span><span class="tl-mood">' + e.mood + '</span>' +
-                 (excerpt ? '<div class="st-sub" style="color:#9a93ab;">' + esc(excerpt) + '…</div>' : '') +
-                 '<div class="tl-body">' + esc(e.body) + '</div>' +
-               '</div>';
-      }).join('') || '<p style="color:#9a93ab;">The garden is empty — the first petal starts today 🌱</p>';
-    }
-
-    $('timeline').addEventListener('click', function (e) {
-      var item = e.target.closest('.tl-item');
-      if (!item) return;
-      item.classList.toggle('open');
-    });
-
-    $('cal-body').addEventListener('click', function (e) {
-      var cell = e.target.closest('.day-cell.has-entry');
-      if (cell) showEntry(cell.dataset.date);
-    });
-    $('cal-prev').addEventListener('click', function () { viewMonth--; if (viewMonth < 0) { viewMonth = 11; viewYear--; } renderCal(); });
-    $('cal-next').addEventListener('click', function () { viewMonth++; if (viewMonth > 11) { viewMonth = 0; viewYear++; } renderCal(); });
-
-    /* ---------- owner writer ---------- */
-    var selected = todayStr;
-
-    function openWriter() {
-      var card = $('writer-card');
-      card.style.display = 'block';
-      var e = entries[todayStr];
-      if (e) {
-        mood = e.mood || '🌸';
-        tags = e.tags || [];
-        $('diary-text').value = e.body || '';
-        $('writer-hint').textContent = 'editing today\'s entry — saving will overwrite it';
-      } else {
-        $('writer-hint').textContent = todayStr;
-      }
-      document.querySelectorAll('.mood-btn').forEach(function (b) {
-        b.classList.toggle('sel', b.dataset.mood === mood);
-      });
-      document.querySelectorAll('.tag-btn').forEach(function (b) {
-        b.classList.toggle('sel', tags.indexOf(b.dataset.tag) !== -1);
-      });
-      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-
-    $('mood-row').addEventListener('click', function (e) {
-      var b = e.target.closest('.mood-btn');
-      if (!b) return;
-      mood = b.dataset.mood;
-      document.querySelectorAll('.mood-btn').forEach(function (x) { x.classList.toggle('sel', x === b); });
-    });
-    $('tag-row').addEventListener('click', function (e) {
-      var b = e.target.closest('.tag-btn');
-      if (!b) return;
-      var t = b.dataset.tag;
-      var i = tags.indexOf(t);
-      if (i === -1) { tags.push(t); b.classList.add('sel'); }
-      else { tags.splice(i, 1); b.classList.remove('sel'); }
-    });
-
-    function api(path, opts) {
-      opts = opts || {};
-      opts.headers = Object.assign({
-        'Authorization': 'Bearer ' + token,
-        'Accept': 'application/vnd.github+json',
-        'Content-Type': 'application/json'
-      }, opts.headers || {});
-      return fetch('https://api.github.com/repos/' + OWNER + '/' + REPO + '/contents/' + path, opts)
-        .then(function (r) {
-          if (!r.ok) return r.json().then(function (j) {
-            var e = new Error(j.message || 'HTTP ' + r.status); e.status = r.status; throw e;
+      return Promise.all(mine.map(function (f) {
+        var day = f.name.slice(0, 10);
+        var time = f.name.length > 14 ? f.name.slice(11, 13) + ':' + f.name.slice(13, 15) : '';
+        return fetch(RAW + f.name, { cache: 'no-store' })
+          .then(function (r) { return r.ok ? r.text() : ''; })
+          .then(function (t) {
+            var p = parseEntry(t);
+            entries.push({ file: f.name, sha: f.sha, day: day, time: time,
+                           mood: p.mood, tags: p.tags, body: p.body });
           });
-          return r.json();
-        });
-    }
-    function b64encode(str) {
-      var bytes = new TextEncoder().encode(str), bin = '';
-      bytes.forEach(function (b) { bin += String.fromCharCode(b); });
-      return btoa(bin);
-    }
-
-    $('diary-save').addEventListener('click', function () {
-      var btn = $('diary-save');
-      if (btn.dataset.busy === '1') return;
-      var text = $('diary-text').value.trim();
-      if (!text) { msg('err', '写点什么再保存吧 🌱'); return; }
-      btn.dataset.busy = '1';
-      var bodyMd = '<!-- mood:' + mood + ' tags:' + tags.join(',') + ' -->\n\n' + text + '\n';
-      msg('info', '保存中…');
-
-      // always fetch the file's CURRENT sha right before writing (404 = new file)
-      function currentSha() {
-        return api(DIR + '/' + todayStr + '.md?ref=' + BRANCH)
-          .then(function (f) { return f.sha; })
-          .catch(function (e) { if (e.status === 404) return null; throw e; });
-      }
-      function put(sha) {
-        var p = { message: 'diary ' + todayStr, content: b64encode(bodyMd), branch: BRANCH };
-        if (sha) p.sha = sha;
-        return api(DIR + '/' + todayStr + '.md', { method: 'PUT', body: JSON.stringify(p) });
-      }
-      function finish() {
-        btn.dataset.busy = '';
-        msg('ok', '🌸 Saved! Today has been pinned to your garden.');
-        entries[todayStr] = { mood: mood, tags: tags, body: text };
-        renderStats(); renderCal(); renderTimeline(); showEntry(todayStr);
-      }
-
-      currentSha()
-        .then(put)
-        .then(finish)
-        .catch(function (e) {
-          btn.dataset.busy = '';
-          if (e.status === 409) {
-            // file changed underneath us — refresh the sha and retry once
-            currentSha().then(put).then(finish)
-              .catch(function (e2) { msg('err', '保存失败：' + e2.message); });
-          } else if (e.status === 403) {
-            msg('err', '保存失败：令牌缺少写入权限。请到 GitHub 令牌设置把 Contents 改为 Read and write（或重新创建令牌并在本页重新粘贴）。');
-          } else {
-            msg('err', '保存失败：' + e.message);
-          }
-        });
+      }));
+    }).then(function () {
+      entries.sort(function (a, b) {
+        return (a.day + (a.time || '00:00')).localeCompare(b.day + (b.time || '00:00'));
+      });
+      renderStats(); renderCal(); renderTimeline();
+    }).catch(function (e) {
+      renderStats(); renderCal(); renderTimeline();
+      $('stat-total').textContent = '📅 feed hiccup — refresh to retry';
+      console.warn('diary load failed:', e.message);
     });
+  }
 
-    /* ---------- boot ---------- */
-    viewYear = today.getFullYear();
-    viewMonth = today.getMonth();
-    selected = todayStr;
+  function renderStats() {
+    var days = {};
+    entries.forEach(function (e) { days[e.day] = 1; });
+    var streak = 0;
+    var d = new Date(today);
+    if (!days[fmtDate(d)]) d.setDate(d.getDate() - 1);
+    while (days[fmtDate(d)]) { streak++; d.setDate(d.getDate() - 1); }
+    $('stat-total').textContent = '🌸 ' + entries.length + ' entries · ' + Object.keys(days).length + ' days';
+    $('stat-streak').textContent = '🔥 ' + (streak > 0 ? streak + '-day streak' : 'no streak yet — start today!');
+  }
 
-    if (token) $('writer-card').style.display = 'block';
-    loadEntries();
-  })();
-  </script>
+  function dayEntries(day) {
+    return entries.filter(function (e) { return e.day === day; });
+  }
+
+  function renderCal() {
+    var first = new Date(viewYear, viewMonth, 1);
+    var startDow = first.getDay();
+    var dim = new Date(viewYear, viewMonth + 1, 0).getDate();
+    var monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    $('cal-month').textContent = monthNames[viewMonth] + ' ' + viewYear;
+
+    var html = '<tr>';
+    for (var i = 0; i < startDow; i++) html += '<td></td>';
+    for (var day = 1; day <= dim; day++) {
+      var ds = viewYear + '-' + pad(viewMonth + 1) + '-' + pad(day);
+      var list = dayEntries(ds);
+      var cls = 'day-cell';
+      if (list.length) cls += ' has-entry';
+      if (ds === todayStr) cls += ' today';
+      if (ds === selected) cls += ' selected';
+      var memo = list.length ? list[list.length - 1].mood : '';
+      var cnt = list.length > 1 ? '<span class="cnt">×' + list.length + '</span>' : '';
+      html += '<td><div class="' + cls + '" data-date="' + ds + '">' +
+              '<span class="dnum">' + day + '</span>' +
+              (memo ? '<span class="memoji">' + memo + cnt + '</span>' : '') +
+              '</div></td>';
+      if ((startDow + day) % 7 === 0 && day !== dim) html += '</tr><tr>';
+    }
+    html += '</tr>';
+    $('cal-body').innerHTML = html;
+  }
+
+  function renderTimeline() {
+    var desc = entries.slice().sort(function (a, b) {
+      return (b.day + (b.time || '00:00')).localeCompare(a.day + (a.time || '00:00'));
+    });
+    $('timeline').innerHTML = desc.map(function (e) {
+      var when = '📅 ' + e.day + (e.time ? ' · ' + e.time : '');
+      var del = token ? '<button class="act-del" data-file="' + e.file + '">🗑 Delete</button>' : '';
+      var tagHtml = e.tags && e.tags.length ? '<span class="tl-tags">' + e.tags.map(esc).join(' / ') + '</span>' : '';
+      return '<div class="tl-item" data-file="' + e.file + '">' +
+               '<span class="tl-date">' + when + '</span><span class="tl-mood">' + e.mood + '</span> ' + tagHtml +
+               '<div class="tl-body">' + esc(e.body) + del + '</div>' +
+             '</div>';
+    }).join('') || '<p style="color:#9a93ab;">The garden is empty — the first petal starts today 🌱</p>';
+  }
+
+  $('timeline').addEventListener('click', function (e) {
+    var del = e.target.closest('.act-del');
+    if (del) { deleteEntry(del.dataset.file); return; }
+    var item = e.target.closest('.tl-item');
+    if (item) item.classList.toggle('open');
+  });
+
+  $('cal-body').addEventListener('click', function (e) {
+    var cell = e.target.closest('.day-cell.has-entry');
+    if (cell) showDay(cell.dataset.date);
+  });
+  $('cal-prev').addEventListener('click', function () { viewMonth--; if (viewMonth < 0) { viewMonth = 11; viewYear--; } renderCal(); });
+  $('cal-next').addEventListener('click', function () { viewMonth++; if (viewMonth > 11) { viewMonth = 0; viewYear++; } renderCal(); });
+
+  function showDay(day) {
+    selected = day;
+    renderCal();
+    var list = dayEntries(day);
+    var view = $('entry-view');
+    view.style.display = 'block';
+    $('entry-title').textContent = '🌸 ' + day + ' · ' + list.length + (list.length > 1 ? ' entries' : ' entry');
+    $('entry-body').innerHTML = list.map(function (e) {
+      var del = token ? '<button class="act-del" data-file="' + e.file + '">🗑 Delete</button>' : '';
+      return '<div class="day-entry"><div class="tl-mood">' + e.mood + (e.time ? ' <span class="st-sub">' + e.time + '</span>' : '') + '</div>' +
+             '<div style="white-space:pre-wrap; line-height:1.75;">' + esc(e.body) + '</div>' + del + '</div>';
+    }).join('<hr style="border:none; border-top:1.5px dashed rgba(139,123,216,.35); margin:12px 0;">') ||
+      'No entry for this day yet.';
+    view.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  $('entry-body').addEventListener('click', function (e) {
+    var del = e.target.closest('.act-del');
+    if (del) deleteEntry(del.dataset.file);
+  });
+
+  /* ---------- owner writer: each save adds a NEW entry ---------- */
+  function openWriter() {
+    var card = $('writer-card');
+    card.style.display = 'block';
+    mood = '🌸'; tags = [];
+    $('diary-text').value = '';
+    $('writer-hint').textContent = todayStr + ' · each save adds a new entry 🌱';
+    document.querySelectorAll('.mood-btn').forEach(function (b) {
+      b.classList.toggle('sel', b.dataset.mood === mood);
+    });
+    document.querySelectorAll('.tag-btn').forEach(function (b) { b.classList.remove('sel'); });
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  $('mood-row').addEventListener('click', function (e) {
+    var b = e.target.closest('.mood-btn');
+    if (!b) return;
+    mood = b.dataset.mood;
+    document.querySelectorAll('.mood-btn').forEach(function (x) { x.classList.toggle('sel', x === b); });
+  });
+  $('tag-row').addEventListener('click', function (e) {
+    var b = e.target.closest('.tag-btn');
+    if (!b) return;
+    var t = b.dataset.tag;
+    var i = tags.indexOf(t);
+    if (i === -1) { tags.push(t); b.classList.add('sel'); }
+    else { tags.splice(i, 1); b.classList.remove('sel'); }
+  });
+
+  function api(path, opts) {
+    opts = opts || {};
+    opts.headers = Object.assign({
+      'Authorization': 'Bearer ' + token,
+      'Accept': 'application/vnd.github+json',
+      'Content-Type': 'application/json'
+    }, opts.headers || {});
+    return fetch('https://api.github.com/repos/' + OWNER + '/' + REPO + '/contents/' + path, opts)
+      .then(function (r) {
+        if (!r.ok) return r.json().then(function (j) {
+          var e = new Error(j.message || 'HTTP ' + r.status); e.status = r.status; throw e;
+        });
+        return r.json();
+      });
+  }
+  function b64encode(str) {
+    var bytes = new TextEncoder().encode(str), bin = '';
+    bytes.forEach(function (b) { bin += String.fromCharCode(b); });
+    return btoa(bin);
+  }
+
+  $('diary-save').addEventListener('click', function () {
+    var btn = $('diary-save');
+    if (btn.dataset.busy === '1') return;
+    var text = $('diary-text').value.trim();
+    if (!text) { msg('err', '写点什么再保存吧 🌱'); return; }
+    btn.dataset.busy = '1';
+    var bodyMd = '<!-- mood:' + mood + ' tags:' + tags.join(',') + ' -->\n\n' + text + '\n';
+    msg('info', '保存中…');
+
+    var now = new Date();
+    var fname = todayStr + '-' + pad(now.getHours()) + pad(now.getMinutes()) + pad(now.getSeconds()) + '.md';
+
+    api(DIR + '/' + fname, {
+      method: 'PUT',
+      body: JSON.stringify({ message: 'diary ' + todayStr, content: b64encode(bodyMd), branch: BRANCH })
+    }).then(function () {
+      btn.dataset.busy = '';
+      msg('ok', '🌸 Saved! A new petal has been added to today.');
+      entries.push({ file: fname, day: todayStr,
+                     time: pad(now.getHours()) + ':' + pad(now.getMinutes()),
+                     mood: mood, tags: tags.slice(), body: text });
+      renderStats(); renderCal(); renderTimeline();
+      selected = todayStr; renderCal();
+      showDay(todayStr);
+    }).catch(function (e) {
+      btn.dataset.busy = '';
+      if (e.status === 403) {
+        msg('err', '保存失败：令牌缺少写入权限。请到 GitHub 令牌设置把 Contents 改为 Read and write（或重新创建令牌并在本页重新粘贴）。');
+      } else {
+        msg('err', '保存失败：' + e.message);
+      }
+    });
+  });
+
+  function deleteEntry(file) {
+    if (!token) return;
+    if (!confirm('确定删除这条记录吗？删除后无法恢复。')) return;
+    msg('info', '删除中…');
+    // fresh sha at delete time
+    api('/contents/' + DIR + '/' + file + '?ref=' + BRANCH).then(function (f) {
+      return api('/contents/' + DIR + '/' + file, {
+        method: 'DELETE',
+        body: JSON.stringify({ message: 'delete diary ' + file, sha: f.sha, branch: BRANCH })
+      });
+    }).then(function () {
+      entries = entries.filter(function (e) { return e.file !== file; });
+      msg('ok', '已删除 🍂');
+      renderStats(); renderCal(); renderTimeline();
+      var day = file.slice(0, 10);
+      if (dayEntries(day).length) showDay(day);
+      else { $('entry-view').style.display = 'none'; selected = null; renderCal(); }
+    }).catch(function (e) {
+      if (e.status === 403) msg('err', '删除失败：令牌缺少写入权限。');
+      else msg('err', '删除失败：' + e.message);
+    });
+  }
+
+  /* ---------- boot ---------- */
+  if (token) $('writer-card').style.display = 'block';
+  loadEntries();
+})();
+</script>
 </body>
 </html>
