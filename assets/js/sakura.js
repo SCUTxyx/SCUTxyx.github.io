@@ -92,3 +92,17 @@
   window.addEventListener('scroll', toggle, { passive: true });
   toggle();
 })();
+
+/* ✿ Owner-only Studio entry — visible only in a browser where the
+   GitHub token is stored (i.e. the owner's). Visitors never see it. ✿ */
+(function () {
+  try {
+    if (!localStorage.getItem('gh_token')) return;
+  } catch (e) { return; }
+  var a = document.createElement('a');
+  a.href = '/studio.html';
+  a.id = 'studio-link';
+  a.textContent = '✍️';
+  a.title = 'Private Studio';
+  document.body.appendChild(a);
+})();

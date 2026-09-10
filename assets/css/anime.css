@@ -324,6 +324,32 @@ li em { font-family: 'Kalam', cursive; color: var(--sakura-deep); }
   z-index: 9999;
 }
 
+/* ---------- owner-only studio entry ---------- */
+#studio-link {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 10000;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  text-decoration: none !important;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1.5px solid rgba(107, 95, 208, 0.45);
+  box-shadow: 0 4px 12px rgba(107, 95, 208, 0.25);
+  opacity: 0.55;
+  transition: all 0.25s ease;
+}
+#studio-link:hover {
+  opacity: 1;
+  transform: translateY(-3px) rotate(-8deg);
+  box-shadow: 0 8px 18px rgba(107, 95, 208, 0.4);
+}
+
 /* ---------- back-to-top ---------- */
 #back-to-top {
   position: fixed;
