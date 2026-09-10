@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <script>try{if(localStorage.getItem('theme')==='dark'){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Diary · Growth Log | Yuxuan Xue</title>
 
@@ -305,8 +306,106 @@
   }
 
   /* file name: 2026-09-10.md (legacy, time='') or 2026-09-10-164530.md */
+  var moodFilter = new Set();
+  var tagFilter = new Set();
+
+  function renderHeatmap() {
+    var counts = {};
+    entries.forEach(function (e) { counts[e.day] = (counts[e.day] || 0) + 1; });
+    var html = '';
+    var d = new Date(viewYear, 0, 1);
+    var total = 0;
+    for (var day = 0; day < 366; day++) {
+      if (d.getFullYear() > viewYear) break;
+      var ds = fmtDate(d);
+      var c = counts[ds] || 0;
+      total += c;
+      var lvl = c >= 3 ? 'l3' : c === 2 ? 'l2' : c === 1 ? 'l1' : 'hm0';
+      var cls = 'hm-cell ' + (c ? 'has ' + lvl : 'hm0');
+      if (ds === todayStr) cls += ' today';
+      html += '<div class="' + cls + '" data-date="' + ds + '" title="' + ds + ' · ' + c + ' entries"></div>';
+      d.setDate(d.getDate() + 1);
+    }
+    $('heatmap').innerHTML = html;
+    $('heat-year').textContent = viewYear;
+    $('heat-count').textContent = total + ' entries in ' + viewYear;
+  }
+
+  $('heatmap').addEventListener('click', function (e) {
+    var cell = e.target.closest('.hm-cell.has');
+    if (!cell) return;
+    var day = cell.dataset.date;
+    viewYear = parseInt(day.slice(0, 4), 10);
+    viewMonth = parseInt(day.slice(5, 7), 10) - 1;
+    showDay(day);
+  });
+  $('heat-prev').addEventListener('click', function () { viewYear--; renderHeatmap(); });
+  $('heat-next').addEventListener('click', function () { viewYear++; renderHeatmap(); });
+
+  function buildFilters() {
+    var moods = [], tgs = [];
+    entries.forEach(function (e) {
+      if (e.mood && moods.indexOf(e.mood) === -1) moods.push(e.mood);
+      e.tags.forEach(function (t) { if (tgs.indexOf(t) === -1) tgs.push(t); });
+    });
+    $('tl-moods').innerHTML = moods.map(function (m) {
+      return '<button class="mood-btn' + (moodFilter.has(m) ? ' sel' : '') + '" data-mood="' + m + '">' + m + '</button>';
+    }).join('');
+    $('tl-tags').innerHTML = tgs.map(function (t) {
+      return '<button class="tag-btn' + (tagFilter.has(t) ? ' sel' : '') + '" data-tag="' + esc(t) + '">' + esc(t) + '</button>';
+    }).join('');
+  }
+
+  function passFilters(e) {
+    var moodOK = moodFilter.size === 0 || moodFilter.has(e.mood);
+    var tagOK = tagFilter.size === 0 || e.tags.some(function (t) { return tagFilter.has(t); });
+    return moodOK && tagOK;
+  }
+
+  function exportDiary() {
+    var asc = entries.slice().sort(function (a, b) {
+      return (a.day + (a.time || '00:00')).localeCompare(b.day + (b.time || '00:00'));
+    });
+    var lines = ['# Diary Backup — Yuxuan Xue', '', 'Exported: ' + fmtDate(new Date()) + ' · ' + asc.length + ' entries', ''];
+    asc.forEach(function (e) {
+      lines.push('## ' + e.day + (e.time ? ' ' + e.time : '') + '  ' + e.mood + (e.tags.length ? '  #' + e.tags.join(' #') : ''));
+      lines.push('');
+      lines.push(e.body);
+      lines.push('');
+    });
+    var blob = new Blob([lines.join('\n')], { type: 'text/markdown' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'diary-backup-' + todayStr + '.md';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    msg('ok', '⬇ Backup downloaded as Markdown.');
+  }
+
+  $('export-btn').addEventListener('click', exportDiary);
+
+  $('tl-moods').addEventListener('click', function (e) {
+    var b = e.target.closest('.mood-btn');
+    if (!b) return;
+    var m = b.dataset.mood;
+    moodFilter.has(m) ? moodFilter.delete(m) : moodFilter.add(m);
+    b.classList.toggle('sel', moodFilter.has(m));
+    renderTimeline();
+  });
+  $('tl-tags').addEventListener('click', function (e) {
+    var b = e.target.closest('.tag-btn');
+    if (!b) return;
+    var t = b.dataset.tag;
+    tagFilter.has(t) ? tagFilter.delete(t) : tagFilter.add(t);
+    b.classList.toggle('sel', tagFilter.has(t));
+    renderTimeline();
+  });
+
   function loadEntries() {
+    window.__s2 = 'fetching';
     return fetch(API).then(function (r) {
+      window.__s2 = 'listed ' + r.status;
       if (r.status === 404) return [];   // no diary yet — first save creates the folder
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
@@ -330,8 +429,11 @@
       entries.sort(function (a, b) {
         return (a.day + (a.time || '00:00')).localeCompare(b.day + (b.time || '00:00'));
       });
+      window.__s3 = 'parsed ' + entries.length;
       buildFilters(); renderStats(); renderCal(); renderTimeline(); renderHeatmap();
+      window.__s4 = 'rendered';
     }).catch(function (e) {
+      window.__sE = String(e && e.message || e);
       buildFilters(); renderStats(); renderCal(); renderTimeline(); renderHeatmap();
       $('stat-total').textContent = '📅 feed hiccup — refresh to retry';
       console.warn('diary load failed:', e.message);
@@ -382,7 +484,8 @@
   }
 
   function renderTimeline() {
-    var desc = entries.slice().sort(function (a, b) {
+    var visible = entries.filter(passFilters);
+    var desc = visible.slice().sort(function (a, b) {
       return (b.day + (b.time || '00:00')).localeCompare(a.day + (a.time || '00:00'));
     });
     $('timeline').innerHTML = desc.map(function (e) {
@@ -539,8 +642,10 @@
   }
 
   /* ---------- boot ---------- */
+  window.__s0 = 'boot';
   if (token) $('writer-card').style.display = 'block';
   loadEntries();
+  window.__s1 = 'loadEntries called';
 })();
 </script>
 </body>

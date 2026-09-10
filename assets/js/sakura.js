@@ -93,6 +93,29 @@
   toggle();
 })();
 
+/* 🌙 dark-mode toggle — remembers the choice in localStorage 🌙 */
+(function () {
+  var btn = document.createElement('button');
+  btn.id = 'theme-toggle';
+  function icon() {
+    return document.documentElement.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙';
+  }
+  btn.textContent = icon();
+  btn.title = 'Toggle dark mode';
+  btn.addEventListener('click', function () {
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (dark) {
+      document.documentElement.removeAttribute('data-theme');
+      try { localStorage.setItem('theme', 'light'); } catch (e) {}
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+    }
+    btn.textContent = icon();
+  });
+  document.body.appendChild(btn);
+})();
+
 /* ✿ Owner-only Studio entry — visible only in a browser where the
    GitHub token is stored (i.e. the owner's). Visitors never see it. ✿ */
 (function () {
