@@ -469,7 +469,13 @@
           entries[todayStr] = { mood: mood, tags: tags, body: text };
           renderStats(); renderCal(); renderTimeline(); showEntry(todayStr);
         })
-        .catch(function (e) { msg('err', '保存失败：' + e.message); });
+        .catch(function (e) {
+          if (e.status === 403) {
+            msg('err', '保存失败：令牌缺少写入权限。请到 GitHub 令牌设置把 Contents 改为 Read and write（或重新创建令牌并在本页重新粘贴）。');
+          } else {
+            msg('err', '保存失败：' + e.message);
+          }
+        });
     });
 
     /* ---------- boot ---------- */
