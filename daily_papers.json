@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08 16:32 UTC",
+  "generated_at": "2026-09-12 04:16 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,119 +9,85 @@
   "count": 100,
   "papers": [
     {
-      "id": "2609.05324v1",
-      "url": "http://arxiv.org/abs/2609.05324v1",
-      "pdf": "https://arxiv.org/pdf/2609.05324v1",
-      "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
-      "summary": "Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However, existing datasets and benchmarks mainly evaluate task completion under predefined settings, offering limited insight into model reasoning under increasing spatial and procedural complexity. We introduce \\textbf{RoboSPA} (\\textbf{Robo}t \\textbf{S}patial-\\textbf{P}rocedural \\textbf{A}ssessment), a large-scale robotic manipulation dataset and benchmark for diagnosing embodied reasoning in VLA models. \\texttt{RoboSPA} focuses on two core dimensions, Fine-Grained Spatial Reasonin",
+      "id": "2609.11697v1",
+      "url": "http://arxiv.org/abs/2609.11697v1",
+      "pdf": "https://arxiv.org/pdf/2609.11697v1",
+      "title": "ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies",
+      "summary": "Vision-Language-Action (VLA) and World-Action Models (WAMs) have demonstrated strong capabilities in general-purpose robotic manipulation, yet their generated actions may violate hard physical constraints and therefore be unsafe or infeasible for deployment. Existing safety approaches either optimize statistical safety objectives without deterministic per-step guarantees or correct unsafe actions only during inference, creating a mismatch between policy training and execution. We introduce ActSafeGuard, a differentiable and training-aligned safeguard layer for flow-matching based policies. Act",
       "authors": [
-        "Zhenxuan Fan",
-        "Bo Zhang",
-        "Yutong Lin",
-        "Yuqian Yuan",
-        "Juekai Lin",
-        "Liang Liang",
-        "Zhuoyi Huang",
-        "Wenqiao Zhang",
-        "Juncheng Li",
-        "Siliang Tang",
-        "Jun Xiao",
-        "Yueting Zhuang"
+        "Jianming Ma",
+        "Rongjun Jin",
+        "Xiaxi Si",
+        "Yang Zhang",
+        "Yiheng Li",
+        "Yue Gao"
       ],
-      "published": "2026-09-04",
+      "published": "2026-09-10",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
-        "cs.AI",
-        "cs.CV"
+        "cs.AI"
       ],
-      "score": 20.5,
+      "score": 19.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖"
     },
     {
-      "id": "2609.05178v1",
-      "url": "http://arxiv.org/abs/2609.05178v1",
-      "pdf": "https://arxiv.org/pdf/2609.05178v1",
-      "title": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models",
-      "summary": "Vision-Language-Action (VLA) or World Action (WAM) models have recently demonstrated remarkable performance in robotic manipulation. On LIBERO, SOTA method have achieved nearly 100\\% success rates, seemingly suggesting that the models are ready for deployment in real world. However, near perfect performance on existing benchmarks can be misleading: success under ideal conditions does not imply real world robustness. Existing benchmarks primarily evaluate task completion from predefined initial states, while real world interactions inevitably involve failures such as failed grasps, collisions, ",
+      "id": "2609.11875v1",
+      "url": "http://arxiv.org/abs/2609.11875v1",
+      "pdf": "https://arxiv.org/pdf/2609.11875v1",
+      "title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
+      "summary": "Recent advances in Vision-Language-Action (VLA) models have improved robotic manipulation, yet observation-to-action learning remains limited by a fundamental transition realizability gap, manifested in three tightly coupled problems: (i) Transition ambiguity. Visually similar current observations may correspond to different manipulation phases and imply different subsequent transitions. (ii) Prediction--execution mismatch. A visually plausible predicted future observation does not necessarily correspond to a physically realizable transition. (iii) Experience--realization mismatch. A historica",
       "authors": [
-        "Lin Liu",
-        "Zhicheng Bao",
-        "Lu Zhang",
-        "Ziying Song",
-        "Wu Yang",
-        "Shuai Tao",
-        "Wulong Liu",
-        "Huchuan Lu"
+        "Wei Li",
+        "Rui Shao",
+        "Jie He",
+        "Lingsen Zhang",
+        "Ziwei Liu",
+        "Liqiang Nie"
       ],
-      "published": "2026-09-04",
+      "published": "2026-09-10",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
       ],
-      "score": 19.5,
+      "score": 18.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖"
     },
     {
-      "id": "2609.05282v1",
-      "url": "http://arxiv.org/abs/2609.05282v1",
-      "pdf": "https://arxiv.org/pdf/2609.05282v1",
-      "title": "Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover",
-      "summary": "Reliable robot-to-human handover requires the robot to infer when the person is ready to receive the object, and release it safely, comfortably, and at the right time. This is challenging because visual observations alone may not disambiguate clear taking intent from accidental contact, weak grasping, wrong-direction forces, or transient interactions. In this work we treat human-robot handover as an intrinsically multimodal problem. Our approach couples a VLA model with a compliance controller that reduces interaction forces during object transfer. We finetune the VLA model with human demonstr",
+      "id": "2609.11775v1",
+      "url": "http://arxiv.org/abs/2609.11775v1",
+      "pdf": "https://arxiv.org/pdf/2609.11775v1",
+      "title": "Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation",
+      "summary": "Dexterous in-hand manipulation of a grasped object with an anthropomorphic hand is an unsolved frontier for robot dexterity. The contact-richness and highly dynamic nature of object-hand interactions tend to require extensive modeling or data-collection efforts for learning-based approaches. Modern simulators used for reinforcement learning (RL) cannot fully replicate the required contact complexity, while collecting dexterous demonstrations for imitation learning (IL) remains an open problem. In this research, we present an embodied control approach based on real-time task Jacobian estimation",
       "authors": [
-        "Pasquale Marra",
-        "Stefano Berti",
-        "Gabriele Mario Caddeo",
-        "Lorenzo Natale"
+        "Kai Stewart",
+        "Yasunori Toshimitsu",
+        "Robert K. Katzschmann"
       ],
-      "published": "2026-09-04",
+      "published": "2026-09-10",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
       ],
-      "score": 14.5,
+      "score": 17.5,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖"
     },
     {
-      "id": "2609.05369v1",
-      "url": "http://arxiv.org/abs/2609.05369v1",
-      "pdf": "https://arxiv.org/pdf/2609.05369v1",
-      "title": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation",
-      "summary": "Vision-language-action (VLA) models can execute short manipulation skills, but remain brittle in long-horizon procedures requiring persistent task state, dependency-aware reasoning, conditional decisions, and reliable grounding. We investigate a neuro-symbolic framework that combines learned VLA control with explicit task graphs and multimodal procedural memory. Task graphs encode action dependencies, valid transitions, and branch conditions, while memory maintains the active step, completed actions, textual context, and task-relevant visual evidence. Together, these structures guide object se",
+      "id": "2609.11579v1",
+      "url": "http://arxiv.org/abs/2609.11579v1",
+      "pdf": "https://arxiv.org/pdf/2609.11579v1",
+      "title": "Quasi-static analysis of passive stability in a novel underactuated multi-finger hand",
+      "summary": "Underactuated robotic hands achieve adaptive and robust grasping with a reduced number of actuators, but predicting the stable equilibrium pose of the grasped object remains a significant challenge. This paper introduces a quasi-static analytical approach to assess passive stability in underactuated multi-finger hands. A novel three-finger hand architecture integrating a differential spring-loaded slider mechanism is introduced, enabling versatile and adaptive grasping. The study focuses on how the differential mechanism influences the overall grasp behavior and analyzes the effect of object s",
       "authors": [
-        "Vivek Chavan",
-        "Yahuan Shi",
-        "Oliver Heimann",
-        "Kevin Haninger",
-        "Jörg Krüger"
+        "Léonie Plancoulaine",
+        "Sylvain Guégan",
+        "Franck Plestan",
+        "Damien Chablat"
       ],
-      "published": "2026-09-04",
-      "primary_category": "cs.RO",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "score": 14.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖"
-    },
-    {
-      "id": "2609.05300v1",
-      "url": "http://arxiv.org/abs/2609.05300v1",
-      "pdf": "https://arxiv.org/pdf/2609.05300v1",
-      "title": "Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds",
-      "summary": "Safe robot navigation in dense crowds requires reasoning about pedestrian motion and how it may change in response to a robot. However, many learning-based approaches generate pedestrian motion independently of the robot or assume uniform reciprocity, omitting an important source of interaction uncertainty. This paper presents a Human-Human & Human-Robot Interaction Transformer (H2INT), a reinforcement learning framework that retains robot-conditioned changes in pedestrian motion during policy learning while allowing responsiveness to vary across pedestrians. Responsiveness affects the crowd d",
-      "authors": [
-        "Ao Shen",
-        "Kaixi Chen",
-        "Shiwei Liu",
-        "Fang Deng",
-        "Chen Chen"
-      ],
-      "published": "2026-09-04",
+      "published": "2026-09-10",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -131,148 +97,76 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "2609.05206v1",
-      "url": "http://arxiv.org/abs/2609.05206v1",
-      "pdf": "https://arxiv.org/pdf/2609.05206v1",
-      "title": "Morphology and actuation as inductive biases in robotic hand manipulation",
-      "summary": "Robotic hands vary widely in anatomical fidelity and mechanical complexity, and these structural choices influence the coordination of joint motions and the difficulty of controlling the system. A unified framework is presented in which the kinematic and actuation stages are analysed separately and in composition, through the conditioning of the task Jacobian, the actuation matrix, and their product. It is applied to two hands representing opposing design philosophies, the Shadow Dexterous Hand and the Anatomically Correct, Biomechatronic Hand, along four morphological aspects: joint axis geom",
+      "id": "2609.11561v1",
+      "url": "http://arxiv.org/abs/2609.11561v1",
+      "pdf": "https://arxiv.org/pdf/2609.11561v1",
+      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+      "summary": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation. Existing memory mechanisms often rely on language summaries, growing visual windows, or their combinations, and may therefore lose fine-grained visual evidence or face a trade-off between history coverage and execution efficiency. We introduce MaP-WAM, a Memory-as-Plans framework that decomposes memory-dependent world-action modeling into memory-grounded planning and plan-conditioned execution",
       "authors": [
-        "Zalán Tari",
-        "Eszter Birtalan",
-        "Péter Polcz",
-        "Miklós Koller"
+        "Sizhe Zhao",
+        "Haozhe Xie",
+        "Weiyu Zhao",
+        "Chenchu Zhang",
+        "Huan Wang",
+        "Chenyang Wang",
+        "Qinglin Liu",
+        "Shengping Zhang"
       ],
-      "published": "2026-09-04",
+      "published": "2026-09-10",
       "primary_category": "cs.RO",
       "categories": [
-        "cs.RO",
-        "eess.SY"
+        "cs.RO"
       ],
-      "score": 12.0,
+      "score": 10.5,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖"
     },
     {
-      "id": "2609.05401v1",
-      "url": "http://arxiv.org/abs/2609.05401v1",
-      "pdf": "https://arxiv.org/pdf/2609.05401v1",
-      "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
-      "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often violate this property. Paraphrasing the instruction alone can substantially change predicted progress scores, and can even flip identical robot behavior between failure and success. To measure this failure mode, we introduce ROBORMBENCH, a benchmark with 2,390 real-robot trajectories, ground-truth progress labels, and 21",
+      "id": "2609.11553v1",
+      "url": "http://arxiv.org/abs/2609.11553v1",
+      "pdf": "https://arxiv.org/pdf/2609.11553v1",
+      "title": "CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising",
+      "summary": "Humanoid locomotion across complex terrain demands forward-looking exteroception to anticipate obstacles, yet this signal is unreliable in real-world deployment, failing partially and intermittently. Existing perceptive policies often assume that depth observations remain clean and in-distribution, while recent attempts to unify perceptive and blind control typically route or switch between separate sub-policies, leaving recoverable information in partially corrupted depth unexploited. We instead propose CAP, a single-stage humanoid locomotion policy that recovers this signal with a perceptive",
       "authors": [
-        "Wonje Jeung",
-        "Sangyeon Yoon",
-        "Hyesoo Hong",
-        "Yoonjun Cho",
-        "Dongjae Jeon",
-        "Bumjun Kim",
-        "Jean Oh",
-        "Youngjae Yu",
-        "Albert No"
+        "Hongjin Chen",
+        "Zijun Xu",
+        "Shihao Ma",
+        "Yi Zhao",
+        "Xilai Liu",
+        "Ke Ma",
+        "Wei Zhang",
+        "Chunyang Xie",
+        "Pengfei Li",
+        "Jieru Zhao",
+        "Wenchao Ding"
       ],
-      "published": "2026-09-04",
+      "published": "2026-09-10",
       "primary_category": "cs.RO",
       "categories": [
-        "cs.RO",
-        "cs.CL"
-      ],
-      "score": 11.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖"
-    },
-    {
-      "id": "2609.05298v1",
-      "url": "http://arxiv.org/abs/2609.05298v1",
-      "pdf": "https://arxiv.org/pdf/2609.05298v1",
-      "title": "Online Change-point Detection for Cooperative Multi-Agent Reinforcement Learning",
-      "summary": "Cooperative multi-agent reinforcement learning (MARL) systems rely on past experience for learning coordinated behaviour, but this experience may become unreliable if the environment or task objective changes during training. In such cases, agents first need a way to recognize that the situation has changed before deciding how to adapt. This paper studies online change-point detection for cooperative MARL using reward-derived signals. We propose \\emph{Patterns of Past Rewards} (PPR), a lightweight algorithm-agnostic detector that smooths agents' return streams, highlights recent changes, and a",
-      "authors": [
-        "Fatemeh Saberi Khomami",
-        "Julita Vassileva"
-      ],
-      "published": "2026-09-04",
-      "primary_category": "cs.MA",
-      "categories": [
-        "cs.MA",
-        "cs.LG"
+        "cs.RO"
       ],
       "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮"
-    },
-    {
-      "id": "2609.05416v1",
-      "url": "http://arxiv.org/abs/2609.05416v1",
-      "pdf": "https://arxiv.org/pdf/2609.05416v1",
-      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
-      "summary": "We study the problem of generating a compositional 3D representation of a cluttered scene containing hundreds of objects. The goal is to represent the scene as a collection of individual object meshes placed in a shared world frame, as required by downstream applications such as gaming, AR/VR, simulation, and robotics. This task is challenging in densely cluttered scenes, where objects heavily occlude one another and each view reveals only a fraction of their geometry. Geometry-based approaches typically reconstruct the scene as a single representation and leave incomplete geometry in occluded",
-      "authors": [
-        "Muyao Niu",
-        "Jixuan He",
-        "Ruihan Yu",
-        "Lian Fu",
-        "Yonghao Yu",
-        "Zheng-Hui Huang",
-        "Yifan Zhan",
-        "Fengbo Lan",
-        "Yongtao Ge",
-        "Yinqiang Zheng",
-        "Kaipeng Zhang",
-        "Zhixiang Wang"
-      ],
-      "published": "2026-09-04",
-      "primary_category": "cs.CV",
-      "categories": [
-        "cs.CV"
-      ],
-      "score": 9.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖"
     },
     {
-      "id": "2609.05171v1",
-      "url": "http://arxiv.org/abs/2609.05171v1",
-      "pdf": "https://arxiv.org/pdf/2609.05171v1",
-      "title": "WeAgent-MMGenEdit: A Full-Stack Recipe for Multimodal Agentic Image Generation and Editing",
-      "summary": "Image generation and editing models have advanced rapidly, yet remain unreliable when prompts require external world knowledge. Bounded and long-tail parametric knowledge prevents direct or reason-then-generate approaches from recovering the required facts and visual appearances. Existing agentic generation and editing methods mitigate this limitation with retrieval tools, yet remain constrained by insufficient visual verification, overloaded policy models, and weak integration of retrieved textual and visual evidence. To address these limitations, we present WeAgent-MMGenEdit, a full-stack re",
+      "id": "2609.11753v1",
+      "url": "http://arxiv.org/abs/2609.11753v1",
+      "pdf": "https://arxiv.org/pdf/2609.11753v1",
+      "title": "SEED-UMI: Sharing the Exoskeleton between human and robot for onE-to-one Dexterous demonstration",
+      "summary": "Imitation learning for dexterous hands is bottlenecked by the difficulty of collecting contact-rich demonstrations that transfer faithfully to the robot. Prior wearable-exoskeleton systems record only on the human side and retarget via open-loop mappings calibrated in free space, which degrade under contact. We present SEED-UMI, a framework in which both the human and the robot wear the same exoskeleton: joint encoders become a physically shared measurement, and wrist cameras mounted to the exoskeleton observe the same outer mechanism during both human data collection and robot policy rollouts",
       "authors": [
-        "Hui Zhang",
-        "Zongkai Liu",
-        "Liqiang Niu",
-        "Juntao Liu",
-        "Han Li",
-        "Zhen Cao",
-        "Wenchao Chen",
-        "Chengduo Zhao",
-        "Fandong Meng"
+        "Tengbo Yu",
+        "Jiahao Wu",
+        "Daohan Li",
+        "Bingxu Chen",
+        "Hao Liu",
+        "Xiaojian Ma",
+        "Hangxin Liu"
       ],
-      "published": "2026-09-04",
-      "primary_category": "cs.CV",
+      "published": "2026-09-10",
+      "primary_category": "cs.RO",
       "categories": [
-        "cs.CV"
-      ],
-      "score": 9.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁"
-    },
-    {
-      "id": "2609.05161v1",
-      "url": "http://arxiv.org/abs/2609.05161v1",
-      "pdf": "https://arxiv.org/pdf/2609.05161v1",
-      "title": "APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design",
-      "summary": "Rigid Body Dynamics (RBD) forms the computational core of real-time robotic control, but its immense computational complexity creates a performance bottleneck that necessitates dedicated hardware accelerators. However, the substantial hardware resource and power costs of these accelerators make their deployment on resource-constrained edge platforms highly challenging. While quantization offers a promising path to optimize RBD hardware for edge computing, existing uniform-precision approaches remain inefficient by ignoring the diverse quantization sensitivities of different variables. Although",
-      "authors": [
-        "Xingyu Liu",
-        "Hanwei Fan",
-        "Chaofang Ma",
-        "Jiawei Liang",
-        "Guangyu Hu",
-        "Jiang Xu",
-        "Wei Zhang"
-      ],
-      "published": "2026-09-04",
-      "primary_category": "cs.AR",
-      "categories": [
-        "cs.AR",
         "cs.RO"
       ],
       "score": 8.5,
@@ -280,171 +174,105 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "2609.05404v1",
-      "url": "http://arxiv.org/abs/2609.05404v1",
-      "pdf": "https://arxiv.org/pdf/2609.05404v1",
-      "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
-      "summary": "Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. By physically manipulating the TV's antenna, audiences control the clarity of AI-generated images and sounds, metaphorically enacting the denoising process that underlies diffusion-based generation. Using the tuning knob, participants switch between three channels featuring AI-generated animals from the Past (extinct species), Present (endangered species), and Future (speculative creatures), situating the interaction within a temporal and ecological n",
+      "id": "2609.11660v1",
+      "url": "http://arxiv.org/abs/2609.11660v1",
+      "pdf": "https://arxiv.org/pdf/2609.11660v1",
+      "title": "Autonomy, Social Norms, and Alignment: Towards a Developmental Framework for Autonomous Artificial Agents",
+      "summary": "In recent years, artificial intelligence has made extraordinary progress thanks to large-scale models capable of generalization and the generation of complex outputs. However, transferring this potential into embodied agents reveals a significant limitation: the most advanced systems rely on pre-existing datasets and human feedback strategies that are powerful but insufficient in dynamic or unknown contexts. To adapt, an agent must acquire knowledge through direct interaction with its environment. One strategy to address this challenge involves introducing higher-level mechanisms, such as intr",
       "authors": [
-        "Sihwa Park"
+        "Marica Notte",
+        "Ludovica Marinucci",
+        "Vieri Giuliano Santucci"
       ],
-      "published": "2026-09-04",
-      "primary_category": "cs.HC",
-      "categories": [
-        "cs.HC",
-        "cs.AI"
-      ],
-      "score": 7.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁"
-    },
-    {
-      "id": "2609.05295v1",
-      "url": "http://arxiv.org/abs/2609.05295v1",
-      "pdf": "https://arxiv.org/pdf/2609.05295v1",
-      "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
-      "summary": "On-policy distillation (OPD) provides dense, per-token supervision for language model post-training, but its effectiveness is bottlenecked by teacher quality: external teachers suffer from distribution mismatch, while self-distillation with privileged conditioning is limited by in-context learning capacity. We propose \\textbf{RISE} (\\textbf{R}ecursive \\textbf{I}mprovement via \\textbf{S}elf-\\textbf{E}xtrapolating Policy Distillation), which constructs a synthetic teacher directly from the model's own RLVR training trajectory. By extrapolating the displacement between the current checkpoint and ",
-      "authors": [
-        "Yang Li",
-        "Semih Yavuz",
-        "Shafiq Joty"
-      ],
-      "published": "2026-09-04",
+      "published": "2026-09-10",
       "primary_category": "cs.AI",
       "categories": [
         "cs.AI"
+      ],
+      "score": 8.5,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖"
+    },
+    {
+      "id": "2609.11733v1",
+      "url": "http://arxiv.org/abs/2609.11733v1",
+      "pdf": "https://arxiv.org/pdf/2609.11733v1",
+      "title": "Reflex-Informed Neuromuscular Reinforcement Learning for Muscle-Driven Locomotion",
+      "summary": "Muscle-driven locomotion provides a physically grounded approach to generating realistic human movement. However, achieving both physiological plausibility and adaptability to changes in musculoskeletal capacity and external disturbances remains a fundamental challenge. To address this limitation, we propose a Reflex-Informed Neuromuscular Reinforcement Learning framework for muscle-driven locomotion. Within this framework, a fixed phase-dependent reflex controller serves as the underlying neuromuscular control mechanism, while the reinforcement learning policy produces four biomechanically me",
+      "authors": [
+        "Jian Zhou",
+        "Xingyu Zhang",
+        "Rui Ma",
+        "Yu Cao",
+        "Shane Xie",
+        "Zhi-qiang Zhang"
+      ],
+      "published": "2026-09-10",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "score": 8.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮"
+    },
+    {
+      "id": "2609.11615v1",
+      "url": "http://arxiv.org/abs/2609.11615v1",
+      "pdf": "https://arxiv.org/pdf/2609.11615v1",
+      "title": "Distributed Optimization of Modular Production Systems using Model-based Reinforcement Learning with Inverse Models",
+      "summary": "This paper presents a novel approach for data-driven self-learning control of highly flexible, modular manufacturing systems. Specifically, we employ a novel framework for model-based reinforcement learning which introduces approximate inverse process models within the training of reinforcement policies. This approach disentangles the learning of actuation dynamics and the dynamics in state space, resulting in RL-based training solely within the task space. We propose a lightweight feedforward architecture for approximate inverse models and integrate them within the policy network of standard ",
+      "authors": [
+        "Andreas Schwung",
+        "Steve Yuwono",
+        "Sofiene Lassoued",
+        "Dorothea Schwung"
+      ],
+      "published": "2026-09-10",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "eess.SY"
       ],
       "score": 7.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮"
     },
     {
-      "id": "2609.05149v1",
-      "url": "http://arxiv.org/abs/2609.05149v1",
-      "pdf": "https://arxiv.org/pdf/2609.05149v1",
-      "title": "From Vision to Language: Investigating Causal Information Flow in Multimodal Decision-Making",
-      "summary": "Vision-Language Models are commonly evaluated through their final predictions, but understanding whether these decisions are grounded in visual evidence requires tracing how visual information contributes to language-based decisions. With this purpose in mind, we investigate cross-modal information flow in a video-based generative multiple-choice-like setting by applying a layer-wise causal intervention on video-text attention pathways. We target spatial, causal, and temporal visual reasoning. Our results show that visual information is mainly integrated while the model processes the candidate",
+      "id": "2609.11548v1",
+      "url": "http://arxiv.org/abs/2609.11548v1",
+      "pdf": "https://arxiv.org/pdf/2609.11548v1",
+      "title": "World in World: Explore the World with World Models",
+      "summary": "Autoregressive video world models enable interactive, long-horizon exploration, but flexible control remains challenging. Exploring a source video from new viewpoints requires the generated rollout to remain synchronised with the recorded event, place observed content in the requested view, plausibly complete newly exposed regions, and recover previously generated appearance on revisits. Existing methods typically address these requirements through task-specific modules or additional training. We present World in World, a training-free inference-time interface that converts heterogeneous contr",
       "authors": [
-        "Davide Testa",
-        "Hugh Mee Wong",
-        "Alessandro Lenci",
-        "Bernardo Magnini",
-        "Albert Gatt"
+        "Chenxi Song",
+        "Yanming Yang",
+        "Chi Zhang"
       ],
-      "published": "2026-09-04",
-      "primary_category": "cs.CL",
+      "published": "2026-09-10",
+      "primary_category": "cs.CV",
       "categories": [
-        "cs.CL",
         "cs.CV"
       ],
-      "score": 7.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁"
-    },
-    {
-      "id": "2609.05361v1",
-      "url": "http://arxiv.org/abs/2609.05361v1",
-      "pdf": "https://arxiv.org/pdf/2609.05361v1",
-      "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
-      "summary": "Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This paper introduces a humanoid robot prototype designed as a flexible testbed for developing and integrating artificial intelligence (AI) modules in HRI tasks. The system features a 12 degree-of-freedom (DOFs) dual-arm mechanism and a 2 DOFs head with an expressive LCD screen to express facial emotions. All hardware components are controlled by a custom-designed controller board with real-time AI processing supported by an onboard Jetson module. The system incor",
-      "authors": [
-        "Thang Tran Viet",
-        "Thanh Nguyen Canh",
-        "Huy Uong Gia",
-        "Phuc Dinh Van",
-        "Son Tran Duc",
-        "Ngoc Minh Do",
-        "Xiem HoangVan"
-      ],
-      "published": "2026-09-04",
-      "primary_category": "cs.RO",
-      "categories": [
-        "cs.RO"
-      ],
       "score": 7.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖"
     },
     {
-      "id": "2609.05260v1",
-      "url": "http://arxiv.org/abs/2609.05260v1",
-      "pdf": "https://arxiv.org/pdf/2609.05260v1",
-      "title": "One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning",
-      "summary": "Natural-language instruction changes can directly alter robot behavior. A reliable embodied system should preserve its action when the task is unchanged and update it correctly when the task itself changes. We introduce One Word, Different Action, a real-robot benchmark built on physical decision states and executable actions, using task-preserving and task-changing instruction pairs to jointly evaluate Decision Invariance and Decision Sensitivity, with further evaluation under multi-constraint reasoning and real-RGB grounding. Experiments show that modern models are near saturation on single-",
+      "id": "2609.11920v1",
+      "url": "http://arxiv.org/abs/2609.11920v1",
+      "pdf": "https://arxiv.org/pdf/2609.11920v1",
+      "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
+      "summary": "Reliable relative localization between aerial and ground robots is a key requirement for tightly coordinated heterogeneous teams. This can be difficult to do using conventional frame-based cameras and fiducial markers because they are sensitive to motion blur, lighting variations, and payload constraints. This paper presents EVPeriscope, an event-based perception system that enables detection, localization and control of a quadrotor using an upward-facing event camera on a ground robot by detecting the high-frequency visual signature of its propellers. This system allows the quadrotor to funct",
       "authors": [
-        "Yiwei Liu",
-        "Luwei Yang",
-        "Shunbo Lei"
+        "Dexter Ong",
+        "Vijay Kumar",
+        "Pratik Chaudhari"
       ],
-      "published": "2026-09-04",
-      "primary_category": "cs.RO",
-      "categories": [
-        "cs.RO"
-      ],
-      "score": 7.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖"
-    },
-    {
-      "id": "2609.05221v1",
-      "url": "http://arxiv.org/abs/2609.05221v1",
-      "pdf": "https://arxiv.org/pdf/2609.05221v1",
-      "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
-      "summary": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to verify. We propose a verifier-guided explainable reasoning framework for transparent educational question answering that combines gold-anchored QLoRA, task-aware symbolic routing, and group-relative RLVR. Qwen2.5-3B-Instruct is first adapted with field-weighted QLoRA supervision anchored to authoritative answers. A lightweight router then assigns logic problems to a FOL/Z3 verifier and physics problems to a formula- and unit aware symbolic solver. Verifie",
-      "authors": [
-        "Thi Kim Trang Vo",
-        "Nam Tien Le",
-        "Thi Kim Nguyet Vo",
-        "Minh Khang Tran",
-        "Duy Phuong Tran"
-      ],
-      "published": "2026-09-04",
-      "primary_category": "cs.CL",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "score": 7.0,
-      "pick": "AI & LLM",
-      "pick_emoji": "✨"
-    },
-    {
-      "id": "2609.05331v1",
-      "url": "http://arxiv.org/abs/2609.05331v1",
-      "pdf": "https://arxiv.org/pdf/2609.05331v1",
-      "title": "Adaptation Needs in Robotic Systems: Assessing Behavior Trees and Their Enhancement",
-      "summary": "Robotic systems increasingly operate in dynamic, uncertain, and open-ended environments, where design-time assumptions may no longer hold, and adaptation becomes necessary to maintain effective and safe operation. Behavior Trees (BTs) are widely used in robotic control architectures due to their modularity, readability, and reactivity. This raises a central question: are BTs sufficient to meet the adaptation needs of modern robotic systems? This paper investigates this question through a literature-driven study complemented by empirical validation. First, we derive a classification of robotic ",
-      "authors": [
-        "Mehran Rostamnia",
-        "Gianluca Filippone",
-        "Ricardo Caldas",
-        "Patrizio Pelliccione"
-      ],
-      "published": "2026-09-04",
-      "primary_category": "cs.RO",
-      "categories": [
-        "cs.RO",
-        "cs.SE"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖"
-    },
-    {
-      "id": "2609.05266v1",
-      "url": "http://arxiv.org/abs/2609.05266v1",
-      "pdf": "https://arxiv.org/pdf/2609.05266v1",
-      "title": "TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation",
-      "summary": "World-action models guide action generation with predicted future observations, but vision-centric predictions miss the local contact cues that decide contact-rich manipulation. However, naively predicting future tactile observations as additional views recovers only a third of the achievable gain in our experiments. This gap reflects a timing mismatch: predictions precede execution, while tactile feedback arrives during it. We introduce TacPAC, which turns tactile prediction into real-time action correction. Once the base model has planned an action chunk, TacPAC caches the predicted contact ",
-      "authors": [
-        "Zipei Ma",
-        "Xiaofei Wei",
-        "Junzhe Jiang",
-        "Shunlin Lu",
-        "Li Zhang"
-      ],
-      "published": "2026-09-04",
+      "published": "2026-09-10",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -454,124 +282,339 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "2609.05257v1",
-      "url": "http://arxiv.org/abs/2609.05257v1",
-      "pdf": "https://arxiv.org/pdf/2609.05257v1",
-      "title": "Commonsense Reasoning in Computer Vision: Foundations, Recent Advancements, and Future Directions",
-      "summary": "Commonsense reasoning in computer vision encompasses integrating visual data and contextual knowledge, crucial for enhancing AI's understanding of everyday scenarios. This understanding not only improves machine learning models but also enhances their ability to interact meaningfully with humans and the environment. Unlike CNN-based conventional vision models, which are designed to identify objects within a specific image, incorporating commonsense knowledge enables models to interpret scenes in a more holistic manner, thereby improving their spatial ability to reason about relationships among",
+      "id": "2609.11766v1",
+      "url": "http://arxiv.org/abs/2609.11766v1",
+      "pdf": "https://arxiv.org/pdf/2609.11766v1",
+      "title": "Visual-SLAM for the detection of hidden tomatoes in greenhouses by Hierarchical Localization and GLOMAPfor robotized harvesting",
+      "summary": "Advanced crop monitoring inside greenhouses is becoming one of the primary objectives of research centers. High-performance sensors, such as LiDAR or stereo cameras, have traditionally been employed for this purpose, though these often have a high cost. This work proposes a Visual-SLAM system using a monocular camera, which is significantly more cost-effective and specifically tailored for agricultural applications, such as mapping tomato crops in a greenhouse. Tests were carried out on a real tomato bunch, located in the Agroconnect experimental greenhouse. A ROS 2 Humble node was developed t",
       "authors": [
-        "Bahar Uddin Mahmud",
-        "Sumit Barua",
-        "Guan Yue Hong",
-        "Ajay Gupta",
-        "Hexu Liu"
+        "Fernando Cañadas-Aránega",
+        "José C. Moreno",
+        "José L. Blanco-Claraco",
+        "Francisco Rodríguez"
       ],
-      "published": "2026-09-04",
-      "primary_category": "cs.AI",
+      "published": "2026-09-10",
+      "primary_category": "cs.RO",
       "categories": [
-        "cs.AI"
+        "cs.RO"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖"
+    },
+    {
+      "id": "2609.11929v1",
+      "url": "http://arxiv.org/abs/2609.11929v1",
+      "pdf": "https://arxiv.org/pdf/2609.11929v1",
+      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "summary": "We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully curated generation and editing data, improved task formulation, structural prompt enhancement, and native resolutions of up to 4K. For post-training, we optimize specialized experts for visual aesthetics, bilingual text rendering, infographic generation, and image editing, and consolidate their cap",
+      "authors": [
+        "Haiwen Diao",
+        "Jiahao Wang",
+        "Chenjing Ding",
+        "Hanming Deng",
+        "Jiangnan Chen",
+        "Ruixi Zhang",
+        "Ruohui Wang",
+        "Wenwen Tong",
+        "Xiangyu Fan",
+        "Yubo Wang",
+        "Yue Zhu",
+        "Yuwei Niu",
+        "Zhengqi Bai",
+        "Zhiqian Lin",
+        "Zhitao Yang",
+        "Zhongang Cai",
+        "Bo Yang",
+        "Chen Feng",
+        "Chengguang Lv",
+        "Guangjia Liu",
+        "Guanlin Wang",
+        "Hanyu Zhang",
+        "Haojia Yu",
+        "Hongcan Xiao",
+        "Hongli Wang",
+        "Huan Wu",
+        "Huaping Zhong",
+        "Jian Fang",
+        "Jianan Fan",
+        "Jiaqi Li",
+        "Jiefan Lu",
+        "Jing Zuo",
+        "Jingcheng Ni",
+        "Junxiang Xu",
+        "Linjun Dai",
+        "Mutian Xu",
+        "Peishen Yan",
+        "Penghao Wu",
+        "Ruijie Mao",
+        "Ruisi Wang",
+        "Shihao Bai",
+        "Shuang Yang",
+        "Shuya Yang",
+        "Shuyan Zheng",
+        "Silei Wu",
+        "Siying Li",
+        "Tao Chu",
+        "Tianbo Zhong",
+        "Tongxi Zhou",
+        "Weichao Luo",
+        "Weichen Fan",
+        "Wenhao Jia",
+        "Wenjie Gao",
+        "Xiangli Kong",
+        "Yan Li",
+        "Yang Yong",
+        "Zimo Wen",
+        "Zixuan Qian",
+        "Wenxiu Sun",
+        "Ruihao Gong",
+        "Quan Wang",
+        "Lewei Lu",
+        "Lei Yang",
+        "Ziwei Liu",
+        "Dahua Lin"
+      ],
+      "published": "2026-09-10",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
       ],
       "score": 5.5,
       "pick": "Computer Vision",
       "pick_emoji": "👁"
     },
     {
-      "id": "2609.05388v1",
-      "url": "http://arxiv.org/abs/2609.05388v1",
-      "pdf": "https://arxiv.org/pdf/2609.05388v1",
-      "title": "Think-Verify-Revise: Neuro-Symbolic Visual Reasoning with Vision-Language Models and Dynamic Logic Tensor Networks",
-      "summary": "Visual reasoning tasks require a system to jointly perceive visual content and apply formal relational constraints---a combination that neither pure neural nor purely symbolic approaches handle well in isolation. This paper proposes a Neuro-Symbolic (NeSy) framework that closes this gap by tightly coupling a Vision-Language Model (VLM) for automatic First-Order Logic (FOL) rule induction with a Dynamic Logic Tensor Network (D-LTN) for differentiable rule verification, in a closed iterative feedback loop. The VLM receives a small set of labelled visual examples and proposes candidate FOL rules ",
+      "id": "2609.11699v1",
+      "url": "http://arxiv.org/abs/2609.11699v1",
+      "pdf": "https://arxiv.org/pdf/2609.11699v1",
+      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+      "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act as their own teachers by leveraging privileged information such as ground-truth solutions. However, recent findings indicate that OPSD can severely degrade the performance of LLMs on complex reasoning tasks: By forcing the student to imitate an artificially confident reasoning trace conditioned on privileged information, OPSD inadvertently suppresses expressions of uncertainty and penalizes the exploratory, self-corrective behaviors required to solve chal",
       "authors": [
-        "Homayoun Afshari",
-        "Pietro Basci",
-        "Alessandro Russo",
-        "Lia Morra"
+        "Rongcan Pei",
+        "Zhepei Wei",
+        "Shuyao Xu",
+        "Xinyu Zhu",
+        "Wei-Lin Chen",
+        "Yu Meng"
       ],
-      "published": "2026-09-04",
+      "published": "2026-09-10",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "score": 5.5,
+      "pick": "AI & LLM",
+      "pick_emoji": "✨"
+    },
+    {
+      "id": "2609.11769v1",
+      "url": "http://arxiv.org/abs/2609.11769v1",
+      "pdf": "https://arxiv.org/pdf/2609.11769v1",
+      "title": "Recognizing Is Not Reversing: A Controlled Inversion Test of Fact-Preserving News Framing",
+      "summary": "Large language models (LLMs) are increasingly used to analyze and rewrite news, yet current framing studies mainly evaluate generation, detection, or whether rewritten text appears more neutral. They do not directly show whether a model can undo a known framing transformation while keeping the facts fixed. We introduce a controlled inversion test over three established textual realizations of framing: evaluative lexis, agency realization, and information salience. Across 60 news articles and three intervention strengths, this yields 540 paired variants with preserved atomic facts and recorded ",
+      "authors": [
+        "Yi Liu"
+      ],
+      "published": "2026-09-10",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "score": 5.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁"
+    },
+    {
+      "id": "2609.11886v1",
+      "url": "http://arxiv.org/abs/2609.11886v1",
+      "pdf": "https://arxiv.org/pdf/2609.11886v1",
+      "title": "Guided Super-Resolution of Digital Elevation Models with Diffusion-Based Image Generators",
+      "summary": "High-resolution digital surface models (DSMs) play an important role in urban analysis, 3D building reconstruction, and infrastructure monitoring, yet their availability remains limited due to the high cost and complexity of data acquisition. In contrast, coarse DSMs from commercial satellite missions are widely accessible, and high-resolution optical imagery is increasingly available from aerial and satellite platforms. We address the resulting mismatch in spatial resolution and propose a DSM superresolution approach that enhances 5 m DSMs to 0.5 m resolution, using guidance from high-resolut",
+      "authors": [
+        "Armand Mihai Nicolicioiu",
+        "Dominik Narnhofer",
+        "Nando Metzger",
+        "Daniel Panangian",
+        "Ksenia Bittner",
+        "Konrad Schindler"
+      ],
+      "published": "2026-09-10",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV"
       ],
-      "score": 5.0,
+      "score": 4.5,
       "pick": "Computer Vision",
       "pick_emoji": "👁"
     },
     {
-      "id": "2609.05370v1",
-      "url": "http://arxiv.org/abs/2609.05370v1",
-      "pdf": "https://arxiv.org/pdf/2609.05370v1",
-      "title": "When LLM Decompilers Recompile More and Preserve Less",
-      "summary": "Decompilation recovers high-level source from compiled machine code and serves as a foundation for security tasks such as vulnerability detection and malware analysis. Traditional decompilers like Ghidra and Hex-Rays expose whatever they cannot resolve as visible placeholders and often emit pseudocode that will not compile or execute; LLM-based decompilers produce clean, idiomatic C and are now judged almost entirely by recompilability and re-executability: whether the output builds and passes its shipped input/output tests. We show that these metrics can reward the wrong path: a function may ",
+      "id": "2609.11717v1",
+      "url": "http://arxiv.org/abs/2609.11717v1",
+      "pdf": "https://arxiv.org/pdf/2609.11717v1",
+      "title": "MC-DeTra: Motion-Consistent Joint Object Detection and Socially-Aware Trajectory Forecasting in Bird's-Eye-View Images",
+      "summary": "Unified models for object detection and trajectory forecasting aim to merge perception and prediction for autonomous driving, refining actor trajectories directly over shared bird's-eye-view (BEV) images rasterized from LiDAR and high-definition maps. Their accuracy on dynamic, moving actors, however, remains the hardest part of the task, and the strongest such model, DeTra, has no public implementation. We contribute an openly released DeTra reimplementation with documented approximations, and on top of it MC-DeTra: a family of motion-consistency mechanisms that add supervision through two an",
       "authors": [
-        "Chang Liu",
-        "Edward Raff",
-        "Kristopher Micinski"
+        "Vladislav Diuzhev",
+        "Dmitry Yudin"
       ],
-      "published": "2026-09-04",
-      "primary_category": "cs.CR",
+      "published": "2026-09-10",
+      "primary_category": "cs.CV",
       "categories": [
-        "cs.CR",
-        "cs.AI"
+        "cs.CV",
+        "cs.RO"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮"
-    },
-    {
-      "id": "2609.05275v1",
-      "url": "http://arxiv.org/abs/2609.05275v1",
-      "pdf": "https://arxiv.org/pdf/2609.05275v1",
-      "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
-      "summary": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to zero-shot layer pruning in both language and vision transformers. However, as models and datasets have scaled, dropout - particularly layer dropout - has largely disappeared from large language models (LLMs) pre-training recipes. While some prior work has reported that dropout can degrade accuracy, no comprehensive study has quantified, let alone mitigated, this effect. In this study, we show that layer dropout should be used in state-of-the-art LLM training, establishing best p",
-      "authors": [
-        "Mostafa Elhoushi",
-        "Alex Pretko",
-        "Nolan Dey",
-        "Bin Claire Zhang",
-        "Gavia Gray",
-        "Gurpreet Gosal",
-        "Abdulrahman Mahmoud",
-        "Shane Bergsma",
-        "Joel Hestness"
-      ],
-      "published": "2026-09-04",
-      "primary_category": "cs.AI",
-      "categories": [
-        "cs.AI"
-      ],
-      "score": 5.0,
+      "score": 4.5,
       "pick": "Computer Vision",
       "pick_emoji": "👁"
     },
     {
-      "id": "2609.05251v1",
-      "url": "http://arxiv.org/abs/2609.05251v1",
-      "pdf": "https://arxiv.org/pdf/2609.05251v1",
-      "title": "A Unified Physics-Aware Quantum Machine Learning Framework across Power GaN HEMTs and Logic Nanowire FETs: Predicting Unseen Process Splits and Held-Out Geometry Combinations with Lower Error and Tighter Split-to-Split Variability",
-      "summary": "We present a unified reinforcement-learning (RL) framework that discovers compact parametrized quantum circuits (PQCs) for data-scarce device modeling. A graph neural network (GNN) policy optimized by proximal policy optimization (PPO) searches circuit architectures using leave-one-group-out cross-validation (LOGOCV) error on held-out process or geometry groups as the reward. The framework achieves the lowest mean absolute error (MAE) on all 11 targets versus six classical baselines, with 59% lower error (Ioff) and 81% tighter fold variability (VTH) for HEMTs and 84% lower error (VTH, SS, Ioff",
+      "id": "2609.11639v1",
+      "url": "http://arxiv.org/abs/2609.11639v1",
+      "pdf": "https://arxiv.org/pdf/2609.11639v1",
+      "title": "LoaDiff: Conditional Generation of Electricity Consumption Time Series for Energy Analytics",
+      "summary": "The energy transition is reshaping residential electricity consumption through the increasing adoption of distributed generation, electrified appliances, and demand-response programs. Understanding these evolving behaviors requires access to granular smart-meter data for applications such as load forecasting, appliance detection, and demand-side flexibility analysis. However, such data are subject to strict access restrictions and data-protection regulations. Thus, realistic synthetic alternatives are necessary. In this paper, we introduce LoaDiff, a diffusion-based generative model for year-l",
       "authors": [
-        "Rushat Rai",
-        "Yun-Yuan Wang",
-        "Autsada Kakaen",
-        "Pei-Jie Chang",
-        "Doan Viet Nguyen",
-        "Yuan-Chieh Chiu",
-        "Doldet Tantraviwat",
-        "Niall Tumilty",
-        "Simon See",
-        "Wen-Jay Lee",
-        "Tai-Yue Li",
-        "Nan-Yow Chen",
-        "Tian-Li Wu"
+        "Mariia Baranova",
+        "Adrien Petralia",
+        "Etienne Le Naour",
+        "Nathan Etourneau",
+        "Guillaume Hofmann",
+        "Themis Palpanas"
       ],
-      "published": "2026-09-04",
+      "published": "2026-09-10",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.SP"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁"
+    },
+    {
+      "id": "2609.11582v1",
+      "url": "http://arxiv.org/abs/2609.11582v1",
+      "pdf": "https://arxiv.org/pdf/2609.11582v1",
+      "title": "OmniKVQuant: KV Cache Quantization for Omni-LLMs",
+      "summary": "As Omni-modal large language models (Omni-LLMs) take in audio, video and text together, their KV cache memory cost grows. KV cache quantization is the de facto approach in text-only LLMs, but its application to Omni-LLMs remains unexplored. In this paper, we analyze how TurboQuant, a representative rotation-based KV cache quantization method, behaves on multimodal caches and identify two critical issues: temporal key drift and heterogeneous value geometry. To address these, we propose OmniKVQuant, a training-free framework that (i) sets the key quantization range over each short window of the ",
+      "authors": [
+        "Suho Yoo",
+        "Hyunjong Ok",
+        "Jongmin Choi",
+        "Jihoo Jung",
+        "Joon Son Chung"
+      ],
+      "published": "2026-09-10",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "score": 4.5,
+      "pick": "AI & LLM",
+      "pick_emoji": "✨"
+    },
+    {
+      "id": "2609.11550v1",
+      "url": "http://arxiv.org/abs/2609.11550v1",
+      "pdf": "https://arxiv.org/pdf/2609.11550v1",
+      "title": "A Comparative Evaluation of Pre-trained Convolutional Neural Networks for Melanoma Detection",
+      "summary": "Early diagnosis of melanoma is critical for improving patient survival rates. However, accurately distinguishing melanoma from other skin lesions remains a significant clinical challenge due to the high visual similarity among lesion types and variability in image acquisition conditions. Artificial intelligence, particularly machine learning, has emerged as a promising tool to support dermatological diagnosis by automating feature extraction from medical images. Among the available approaches, convolutional neural networks (CNNs) have demonstrated strong performance in image classification tas",
+      "authors": [
+        "Wagner Moreno Schmitz",
+        "Marco Antonio de Castro Barbosa",
+        "Thiago Magalhães Amaral",
+        "Dalcimar Casanova",
+        "Jefferson Tales Oliva"
+      ],
+      "published": "2026-09-10",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁"
+    },
+    {
+      "id": "2609.11532v1",
+      "url": "http://arxiv.org/abs/2609.11532v1",
+      "pdf": "https://arxiv.org/pdf/2609.11532v1",
+      "title": "Prompt Revision as a Source of Cultural Bias in Text-to-Image Systems",
+      "summary": "Commercial text-to-image systems silently revise user prompts before generating images, a step users typically cannot disable or even see. Yet, existing audits of cultural bias examine only the final images and treat generation as a single pipeline, so they cannot tell where the bias originates. We introduce WORLDVIEW, a multilingual benchmark of 8,960 prompts across 15 languages and 31 language-context pairings. Using it, we audit the revision layer in three systems (DALL-E-3, Imagen-4, GPT-Image-1.5) through a three-step analysis of how heavily it marks each cultural context, whether it flat",
+      "authors": [
+        "Aleksandra Urman",
+        "Elsa Lichtenegger",
+        "Salima Jaoua",
+        "Azza Bouleimen",
+        "Robin Forsberg",
+        "Corinna Hertweck",
+        "Stefania Ionescu",
+        "Nicolò Pagan",
+        "Ancsa Hannak",
+        "Joachim Baumann"
+      ],
+      "published": "2026-09-10",
       "primary_category": "cs.AI",
       "categories": [
         "cs.AI"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮"
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁"
+    },
+    {
+      "id": "2609.11916v1",
+      "url": "http://arxiv.org/abs/2609.11916v1",
+      "pdf": "https://arxiv.org/pdf/2609.11916v1",
+      "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
+      "summary": "Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale ones -- the practically relevant class to evaluate for species identification. We test whether models in this deployment-relevant 2--8B range carry genuine taxonomic knowledge, evaluating four such VLMs (Qwen3-VL 2B/4B/8B, Gemma3 4B) against the domain-specific specialist BioCLIP (300M parameters) on a 96-species task, comparing clean iNaturalist photographs against camera-trap imagery from 6 LILA.science collections, on two ",
+      "authors": [
+        "William Zhou",
+        "Mayukha Siripuram",
+        "Xiao Yan",
+        "Ziqi Liu",
+        "Yi Ding"
+      ],
+      "published": "2026-09-10",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 4.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁"
+    },
+    {
+      "id": "2609.11899v1",
+      "url": "http://arxiv.org/abs/2609.11899v1",
+      "pdf": "https://arxiv.org/pdf/2609.11899v1",
+      "title": "Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding",
+      "summary": "Long-video understanding on edge devices must reason over hours of content under tight compute and bandwidth budgets. Subsampling visual tokens loses temporal structure, while text-only video memories lose fine-grained visual attributes. We observe a visual-textual duality: language memories carry long-range temporal structure better than dense frames, while pixels remain decisive for attribute-level perception. Building on this insight, we propose Caption-once, Frames-onDemand (CFD), a budget-aware edge-cloud agentic framework. The edge runs a single offline captioning pass that builds a dual",
+      "authors": [
+        "Weitong Cai",
+        "Hang Zhang",
+        "Yukai Huang",
+        "Yiqiao Xie",
+        "Shan Gao",
+        "Jiankang Deng",
+        "Songcen Xu",
+        "Jifei Song",
+        "Zhensong Zhang"
+      ],
+      "published": "2026-09-10",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.HC"
+      ],
+      "score": 4.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁"
     }
   ]
 }
