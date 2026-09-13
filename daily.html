@@ -221,6 +221,7 @@
           <span class="ks-stat" id="stat-updated"> ⏳ loading feed…</span>
           <span class="ks-stat" id="stat-count">📚 — papers</span>
           <span class="ks-stat">🏆 ranked by interest score</span>
+          <button class="ks-stat" id="refresh-btn" style="cursor:pointer;" title="re-fetch the feed">🔄 Refresh</button>
         </div>
       </div>
 
@@ -259,6 +260,8 @@
   </footer>
 
   <script>
+  window.addEventListener('error', function (ev) { window.__dailyErr = ev.message + ' @line ' + ev.lineno; });
+  window.addEventListener('unhandledrejection', function (ev) { window.__dailyRej = String(ev.reason).slice(0, 200); });
   (function () {
     var FEED_REMOTE = 'https://raw.githubusercontent.com/SCUTxyx/SCUTxyx.github.io/feed/daily_papers.json';
     var FEED_API    = 'https://api.github.com/repos/SCUTxyx/SCUTxyx.github.io/contents/daily_papers.json?ref=feed';

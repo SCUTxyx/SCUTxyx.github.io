@@ -403,9 +403,7 @@
   });
 
   function loadEntries() {
-    window.__s2 = 'fetching';
     return fetch(API).then(function (r) {
-      window.__s2 = 'listed ' + r.status;
       if (r.status === 404) return [];   // no diary yet — first save creates the folder
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
@@ -429,11 +427,8 @@
       entries.sort(function (a, b) {
         return (a.day + (a.time || '00:00')).localeCompare(b.day + (b.time || '00:00'));
       });
-      window.__s3 = 'parsed ' + entries.length;
       buildFilters(); renderStats(); renderCal(); renderTimeline(); renderHeatmap();
-      window.__s4 = 'rendered';
     }).catch(function (e) {
-      window.__sE = String(e && e.message || e);
       buildFilters(); renderStats(); renderCal(); renderTimeline(); renderHeatmap();
       $('stat-total').textContent = '📅 feed hiccup — refresh to retry';
       console.warn('diary load failed:', e.message);
@@ -642,10 +637,8 @@
   }
 
   /* ---------- boot ---------- */
-  window.__s0 = 'boot';
   if (token) $('writer-card').style.display = 'block';
   loadEntries();
-  window.__s1 = 'loadEntries called';
 })();
 </script>
 </body>
