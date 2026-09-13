@@ -261,6 +261,7 @@
   <script>
   (function () {
     var FEED_REMOTE = 'https://raw.githubusercontent.com/SCUTxyx/SCUTxyx.github.io/feed/daily_papers.json';
+    var FEED_API    = 'https://api.github.com/repos/SCUTxyx/SCUTxyx.github.io/contents/daily_papers.json?ref=feed';
     var FEED_LOCAL  = '/daily_papers.json';   // bootstrap copy shipped with the site
     var papers = [];
     var filter = 'all';
@@ -352,24 +353,40 @@
       render();
     }
 
+    function fetchJSON(url) {
+      return fetch(url, { cache: 'no-store' }).then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      });
+    }
+    function decodeContents(j) {
+      var b64 = (j.content || '').replace(/\n/g, '');
+      var bin = atob(b64);
+      var bytes = new Uint8Array(bin.length);
+      for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+      return JSON.parse(new TextDecoder().decode(bytes));
+    }
+
     function load() {
       showStatus('<span class="spinner"></span><span class="big">🌸</span>Picking fresh papers from the arXiv garden…');
-      fetch(FEED_REMOTE, { cache: 'no-store' })
-        .then(function (r) { if (!r.ok) throw new Error('remote ' + r.status); return r.json(); })
-        .then(apply)
-        .catch(function () {
-          // feed branch not published yet — fall back to the copy shipped with the site
-          fetch(FEED_LOCAL, { cache: 'no-store' })
-            .then(function (r) { if (!r.ok) throw new Error('local ' + r.status); return r.json(); })
-            .then(function (feed) { apply(feed); showLocalNote(); })
-            .catch(function () {
-              showStatus(
-                '<span class="big">🌧</span>The paper garden is resting right now.<br>' +
-                'The daily feed could not be fetched — please try again later.' +
-                '<br><button class="retray-btn" onclick="location.reload()">🔄 Retry</button>'
-              );
-            });
+      // 1) GitHub API on the feed branch — always serves the current commit
+      fetchJSON(FEED_API).then(decodeContents).then(function (feed) {
+        apply(feed);
+      }).catch(function () {
+        // 2) raw file on the feed branch (may lag a few minutes behind)
+        fetchJSON(FEED_REMOTE).then(apply).catch(function () {
+          // 3) bootstrap copy shipped with the site
+          fetchJSON(FEED_LOCAL).then(function (feed) {
+            apply(feed); showLocalNote();
+          }).catch(function () {
+            showStatus(
+              '<span class="big">🌧</span>The paper garden is resting right now.<br>' +
+              'The daily feed could not be fetched — please try again later.' +
+              '<br><button class="retray-btn" onclick="location.reload()">🔄 Retry</button>'
+            );
+          });
         });
+      });
     }
 
     function showLocalNote() {
@@ -395,6 +412,14 @@
     });
 
     document.getElementById('paper-search').addEventListener('input', render);
+    document.getElementById('refresh-btn').addEventListener('click', function () {
+      var b = document.getElementById('refresh-btn');
+      if (b.dataset.busy === '1') return;
+      b.dataset.busy = '1';
+      b.textContent = '🔄 Refreshing…';
+      load();
+      setTimeout(function () { b.textContent = '🔄 Refresh'; b.dataset.busy = ''; }, 1500);
+    });
 
     load();
   })();
