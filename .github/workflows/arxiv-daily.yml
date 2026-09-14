@@ -13,6 +13,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: arxiv-feed
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,9 +24,23 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build feed
-        run: python3 .github/scripts/build_arxiv_feed.py daily_papers.json
+        id: build
+        run: |
+          if python3 .github/scripts/build_arxiv_feed.py daily_papers.json 2>build_err.log; then
+            echo "status=ok" >> "$GITHUB_OUTPUT"
+          else
+            echo "status=failed" >> "$GITHUB_OUTPUT"
+            {
+              echo "### ⚠️ arXiv feed build failed"
+              echo ""
+              echo '```'
+              tail -25 build_err.log
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Publish to feed branch
+        if: steps.build.outputs.status == 'ok'
         run: |
           git config user.name  "arxiv-feed-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -39,3 +57,9 @@ jobs:
           git add daily_papers.json
           git commit -m "arXiv feed update $(date -u +%F)" || echo "feed unchanged"
           git push origin feed
+
+      - name: Report build failure
+        if: steps.build.outputs.status == 'failed'
+        run: |
+          echo "### ⚠️ Feed build failed — the site keeps yesterday's data" >> "$GITHUB_STEP_SUMMARY"
+          exit 1

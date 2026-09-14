@@ -53,9 +53,24 @@ def fetch() -> str:
         "max_results": MAX_RESULTS,
     })
     url = f"{ARXIV_API}?{params}"
-    req = urllib.request.Request(url, headers={"User-Agent": "scutxyx-homepage-feed/1.0"})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        return resp.read().decode("utf-8")
+    last_err = None
+    for attempt in range(1, 4):   # arXiv throttles cloud IPs now and then
+        req = urllib.request.Request(url, headers={"User-Agent": "scutxyx-homepage-feed/1.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                return resp.read().decode("utf-8")
+        except urllib.error.HTTPError as e:
+            body = ""
+            try: body = e.read().decode("utf-8", "ignore")[:200]
+            except Exception: pass
+            last_err = f"HTTP {e.code}: {body}"
+            print(f"attempt {attempt}/3 failed: {last_err}", file=sys.stderr)
+            time.sleep(20)
+        except Exception as e:
+            last_err = str(e)
+            print(f"attempt {attempt}/3 failed: {e}", file=sys.stderr)
+            time.sleep(20)
+    raise RuntimeError(f"arXiv API unreachable after 3 attempts: {last_err}")
 
 
 def flat(text: str) -> str:

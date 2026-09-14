@@ -618,8 +618,8 @@
     if (!confirm('确定删除这条记录吗？删除后无法恢复。')) return;
     msg('info', '删除中…');
     // fresh sha at delete time
-    api('/contents/' + DIR + '/' + file + '?ref=' + BRANCH).then(function (f) {
-      return api('/contents/' + DIR + '/' + file, {
+    api(DIR + '/' + file + '?ref=' + BRANCH).then(function (f) {
+      return api(DIR + '/' + file, {
         method: 'DELETE',
         body: JSON.stringify({ message: 'delete diary ' + file, sha: f.sha, branch: BRANCH })
       });
