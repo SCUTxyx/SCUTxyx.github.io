@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>Knowledge Base | Yuxuan Xue</title>
+
+  <meta name="description" content="Yuxuan Xue's curated knowledge base — learning roadmaps, courses, books, papers and tools for Embodied AI, Reinforcement Learning and Computer Vision.">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/anime.css">
+  <script src="/assets/js/sakura.js" defer></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+
+    .kb-hero {
+      background: linear-gradient(135deg, #d9f2e6 0%, #d9ecf2 40%, #e6d9ff 100%);
+      border: 2px dashed rgba(46, 155, 120, 0.5);
+      border-radius: 20px;
+      padding: 2.6rem 2.4rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 16px 40px rgba(46, 155, 120, 0.16);
+    }
+    .kb-hero h1 { font-family: 'Caveat', cursive; font-size: 2.7rem; color: #2e9b78; margin: 0.2em 0 0.1em; }
+    .kb-kicker { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #2e9b78; }
+    .kb-hero p { color: #7a7290; }
+    .kb-stats { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 1.1rem; }
+    .kb-stat {
+      display: inline-flex; align-items: center; gap: 0.45rem;
+      background: rgba(255,255,255,.8); border: 1.5px solid rgba(46,155,120,.4);
+      border-radius: 999px; padding: 5px 16px;
+      font-family: 'Kalam', cursive; font-size: 0.95rem; color: #2e9b78;
+    }
+
+    .kb-search {
+      width: 100%;
+      border: 1.5px solid rgba(46, 155, 120, 0.45);
+      border-radius: 999px;
+      padding: 12px 24px;
+      margin-bottom: 1rem;
+      font-family: 'Patrick Hand', cursive;
+      font-size: 1.08rem;
+      color: #4a4458;
+      background: rgba(255,255,255,.9);
+      outline: none;
+      transition: border-color .25s ease, box-shadow .25s ease;
+    }
+    .kb-search:focus { border-color: #2e9b78; box-shadow: 0 0 0 .2em rgba(46,155,120,.18); }
+
+    .kb-chips { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 1.6rem; }
+    .kb-chip {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      border: 1.5px solid rgba(46, 155, 120, 0.45);
+      background: rgba(255,255,255,.9);
+      color: #2e9b78;
+      border-radius: 999px; padding: 5px 16px;
+      font-family: 'Kalam', cursive; font-size: 0.95rem;
+      cursor: pointer; transition: all 0.25s ease; user-select: none;
+    }
+    .kb-chip:hover { transform: translateY(-2px); border-color: #2e9b78; }
+    .kb-chip.active {
+      background: linear-gradient(120deg, #6cc5a3, #8ec5f2);
+      color: #fff; border-color: transparent;
+      box-shadow: 0 6px 14px rgba(46,155,120,.3);
+    }
+    .kb-chip.star-chip.active { background: linear-gradient(120deg, #ffd76e, #f78fb3); color: #7a4a00; }
+
+    .res-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.2rem; }
+    .res-card {
+      background: rgba(255,255,255,.92);
+      border: 1.5px solid rgba(46,155,120,.3);
+      border-radius: 16px;
+      padding: 1.3rem 1.4rem;
+      display: flex; flex-direction: column; gap: 0.5rem;
+      box-shadow: 0 6px 18px rgba(46,155,120,.12);
+      transition: transform .25s cubic-bezier(.34,1.56,.64,1), box-shadow .25s ease, border-color .25s ease;
+      position: relative;
+    }
+    .res-card:hover {
+      transform: translateY(-4px) rotate(-0.4deg);
+      border-color: rgba(46,155,120,.65);
+      box-shadow: 0 14px 30px rgba(46,155,120,.2);
+    }
+    .res-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+    .res-icon {
+      width: 44px; height: 44px; border-radius: 12px; flex: 0 0 auto;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem; background: var(--kb-tint, #e8f5ef); border: 1px solid rgba(46,155,120,.25);
+    }
+    .res-star {
+      background: none; border: none; cursor: pointer; font-size: 1.15rem;
+      color: #c9c2d8; transition: transform .2s ease, color .2s ease; padding: 2px 4px;
+    }
+    .res-star:hover { transform: scale(1.25); }
+    .res-star.starred { color: #ffb020; }
+    .res-title { font-weight: 700; font-size: 1.02rem; color: #35544a; line-height: 1.35; }
+    .res-title a { color: inherit; }
+    .res-desc { font-size: 0.88rem; color: #7a7290; line-height: 1.55; }
+    .res-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: auto; }
+    .res-tag {
+      font-family: 'Kalam', cursive; font-size: 0.78rem;
+      background: rgba(46,155,120,.1); color: #2e9b78;
+      border-radius: 999px; padding: 1px 10px;
+    }
+    .res-type {
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      font-family: 'Kalam', cursive; font-size: 0.78rem;
+      color: #7a5fd0; background: rgba(122,95,208,.12);
+      border-radius: 999px; padding: 1px 10px;
+    }
+
+    .kb-empty {
+      grid-column: 1 / -1; text-align: center; padding: 3rem 2rem;
+      border: 2px dashed rgba(46,155,120,.4); border-radius: 16px;
+      color: #9a93ab; font-family: 'Patrick Hand', cursive; font-size: 1.1rem;
+    }
+    .kb-section-title {
+      font-family: 'Caveat', cursive; font-size: 1.9rem; color: #2e9b78;
+      margin: 2.2rem 0 1rem;
+    }
+    .kb-section-title .dash {
+      display: inline-block; width: 60px; height: 4px; border-radius: 999px;
+      background: linear-gradient(90deg, #6cc5a3, transparent);
+      vertical-align: middle; margin-left: 12px;
+    }
+    .glossary-entry {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(255,255,255,.85); border: 1.5px solid rgba(122,95,208,.4);
+      border-radius: 999px; padding: 8px 20px;
+      font-family: 'Kalam', cursive; font-weight: 700; color: #7a5fd0;
+      text-decoration: none; transition: all .25s ease;
+    }
+    .glossary-entry:hover { transform: translateY(-2px) rotate(-1deg); color: #5b3fd0 !important; box-shadow: 0 8px 18px rgba(122,95,208,.3); }
+
+    @media (max-width: 768px) {
+      .kb-hero { padding: 2rem 1.5rem; }
+      .res-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar is-light">
+    <div class="container is-max-desktop">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <span class="icon"><i class="fas fa-arrow-left"></i></span>
+          &nbsp; <b>Back to Home</b>
+        </a>
+      </div>
+      <div class="navbar-menu is-active">
+        <div class="navbar-end">
+          <a class="navbar-item" href="/">Home</a>
+          <a class="navbar-item" href="daily.html">Daily</a>
+          <a class="navbar-item" href="https://github.com/SCUTxyx" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container is-max-desktop">
+
+      <div class="kb-hero">
+        <span class="kb-kicker">🌱 Knowledge Base · Curated by Yuxuan</span>
+        <h1>Learn Embodied AI, Properly</h1>
+        <p>
+          A hand-picked collection of the courses, books, papers and tools that I'm
+          actually using on my way into Embodied AI — no filler, everything tested.
+        </p>
+        <div class="kb-stats">
+          <span class="kb-stat">📚 <span id="stat-resources">—</span> resources</span>
+          <span class="kb-stat">🏷 <span id="stat-cats">—</span> categories</span>
+          <span class="kb-stat">🔄 updated <span id="stat-updated">2026-09</span></span>
+        </div>
+      </div>
+
+      <!-- Embodied AI Guide featured banner -->
+      <a href="https://github.com/tianxingchen/Embodied-AI-Guide" target="_blank" rel="noopener" style="text-decoration: none;">
+        <div class="card guide-banner" style="background: linear-gradient(120deg, #fff8e1 0%, #fff0f6 100%); border: 2px dashed rgba(230, 175, 60, 0.6); border-radius: 16px; padding: 1.5rem 1.7rem; margin-bottom: 2rem; display: flex; align-items: center; gap: 18px; transition: transform 0.25s ease, box-shadow 0.25s ease;">
+          <div style="flex: 0 0 auto; font-size: 2.2rem;">🧭</div>
+          <div style="flex: 1;">
+            <p class="title is-5" style="margin-bottom: 0.3rem;">⭐ Featured · Embodied AI Guide <span class="tag is-warning" style="vertical-align: 2px;">Start Here</span></p>
+            <p class="subtitle is-6 has-text-grey" style="margin-bottom: 0;">
+              The best curated roadmap, paper lists and tutorials for embodied intelligence, maintained by Tianxing Chen —
+              strongly recommended before diving into anything else below.
+            </p>
+          </div>
+          <div style="flex: 0 0 auto; color: #b8860b; font-family: 'Kalam', cursive;">Open →</div>
+        </div>
+      </a>
+
+      <!-- search + filters -->
+      <input id="kb-search" class="kb-search" type="search" placeholder="🔍 Search resources… (e.g. RL, simulation, course)" autocomplete="off">
+      <div class="kb-chips" id="kb-chips">
+        <span class="kb-chip active" data-cat="all">🌐 All</span>
+        <span class="kb-chip" data-cat="embodied">🤖 Embodied AI</span>
+        <span class="kb-chip" data-cat="rl">🎮 RL</span>
+        <span class="kb-chip" data-cat="cv">👁 CV</span>
+        <span class="kb-chip" data-cat="math">📐 Math</span>
+        <span class="kb-chip" data-cat="tools">🛠 Tools</span>
+        <span class="kb-chip star-chip" data-cat="starred">⭐ My Stars</span>
+      </div>
+
+      <div class="res-grid" id="res-grid"></div>
+      <div class="kb-empty" id="kb-empty" style="display:none;">Nothing matches — try another keyword or category 🔍</div>
+
+      <!-- glossary entry -->
+      <div style="display:flex; justify-content:center; margin: 2.4rem 0 1rem;">
+        <a class="glossary-entry" href="glossary.html">📖 Browse the Glossary →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer" style="background-color: #fcfcfc; padding: 2rem 1.5rem;">
+    <div class="content has-text-centered">
+      <p class="is-size-7 has-text-grey">&copy; 2026 Yuxuan Xue · curated with 💚</p>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    'use strict';
+    var RESOURCES = [
+      // ---- Embodied AI & Robotics ----
+      { cat: "embodied", type: "Library", icon: "🦾", tint: "#e6f5ef",
+        title: "LeRobot by Hugging Face",
+        desc: "End-to-end library for real-world robotics: datasets, imitation-learning models and tools, made approachable.",
+        url: "https://github.com/huggingface/lerobot", tags: ["Robotics", "Open Source"] },
+      { cat: "embodied", type: "Simulation", icon: "🕹", tint: "#e8f5ef",
+        title: "NVIDIA Isaac Lab",
+        desc: "GPU-accelerated robot-learning framework on Isaac Sim — thousands of parallel environments.",
+        url: "https://github.com/isaac-sim/IsaacLab", tags: ["Simulation", "NVIDIA"] },
+      { cat: "embodied", type: "Simulation", icon: "🌀", tint: "#e0f2f7",
+        title: "MuJoCo",
+        desc: "The classic physics simulator for contact-rich robotics research. Fast, precise, free.",
+        url: "https://mujoco.org/", tags: ["Simulation", "Physics"] },
+      { cat: "embodied", type: "Dataset", icon: "🌐", tint: "#fff0f6",
+        title: "Open X-Embodiment",
+        desc: "One dataset to rule them all: 22 robot embodiments, 1M+ trajectories collected across labs worldwide.",
+        url: "https://arxiv.org/abs/2310.08864", tags: ["Dataset", "Embodied AI"] },
+      { cat: "embodied", type: "Paper", icon: "🤲", tint: "#fff0f6",
+        title: "ALOHA & ACT — Bimanual Manipulation",
+        desc: "Low-cost bimanual teleoperation plus the ACT policy: fine-grained manipulation from 50 demos.",
+        url: "https://arxiv.org/abs/2304.13705", tags: ["Manipulation", "Imitation"] },
+      { cat: "embodied", type: "Paper", icon: "🦾", tint: "#fff0f6",
+        title: "OpenVLA — An Open Vision-Language-Action Model",
+        desc: "A 7B open VLA trained on 970k robot episodes. The starting point for much of today's VLA research.",
+        url: "https://arxiv.org/abs/2406.09246", tags: ["VLA", "Foundation Model"] },
+
+      // ---- Reinforcement Learning ----
+      { cat: "rl", type: "Book", icon: "📖", tint: "#eef0ff",
+        title: "Sutton & Barto — Reinforcement Learning",
+        desc: "THE RL bible, free to read online. Chapters 1–6 build the whole mental model.",
+        url: "https://incompleteideas.net/book/the-book-2nd.html", tags: ["Book", "Theory"] },
+      { cat: "rl", type: "Course", icon: "🧑‍🚀", tint: "#eef0ff",
+        title: "OpenAI Spinning Up in Deep RL",
+        desc: "Official intro to deep RL: theory, annotated code and research advice. Kind to beginners.",
+        url: "https://spinningup.openai.com/", tags: ["Course", "Code"] },
+      { cat: "rl", type: "Course", icon: "🎓", tint: "#eef0ff",
+        title: "UC Berkeley CS285 — Deep RL",
+        desc: "Sergey Levine's legendary course. Full lectures online — the deepest free treatment of modern RL.",
+        url: "https://rail.berkeley.edu/deeprlcourse/", tags: ["Course", "Lectures"] },
+      { cat: "rl", type: "Paper", icon: "📄", tint: "#eef0ff",
+        title: "PPO — Proximal Policy Optimization",
+        desc: "The workhorse of policy optimization. Simple, stable, everywhere — from games to robot control.",
+        url: "https://arxiv.org/abs/1707.06347", tags: ["Paper", "Policy Gradient"] },
+      { cat: "rl", type: "Paper", icon: "📄", tint: "#eef0ff",
+        title: "SAC — Soft Actor-Critic",
+        desc: "Off-policy actor-critic with maximum-entropy exploration. A default for real-robot learning.",
+        url: "https://arxiv.org/abs/1801.01290", tags: ["Paper", "Off-Policy"] },
+      { cat: "rl", type: "Paper", icon: "🌍", tint: "#eef0ff",
+        title: "DreamerV3 — Mastering Diverse Domains with World Models",
+        desc: "One world-model recipe across 150+ tasks. The 'learn by dreaming' line of research.",
+        url: "https://arxiv.org/abs/2301.04104", tags: ["Paper", "World Models"] },
+
+      // ---- Computer Vision ----
+      { cat: "cv", type: "Course", icon: "👁", tint: "#eef4ff",
+        title: "Stanford CS231n — Deep Learning for Vision",
+        desc: "The classic. CNNs, backprop, transformers for vision — lecture notes are gold.",
+        url: "https://cs231n.stanford.edu/", tags: ["Course", "CNN"] },
+      { cat: "cv", type: "Paper", icon: "🧩", tint: "#eef4ff",
+        title: "ViT — An Image is Worth 16×16 Words",
+        desc: "The paper that brought the transformer to vision. Read before any modern CV architecture.",
+        url: "https://arxiv.org/abs/2010.11929", tags: ["Paper", "Transformer"] },
+      { cat: "cv", type: "Paper", icon: "🔗", tint: "#eef4ff",
+        title: "CLIP — Learning Transferable Visual Models",
+        desc: "Connects images and language in one embedding space — the bridge behind VLA models.",
+        url: "https://arxiv.org/abs/2103.00020", tags: ["Paper", "Multimodal"] },
+      { cat: "cv", type: "Book", icon: "📘", tint: "#eef4ff",
+        title: "Dive into Deep Learning (D2L)",
+        desc: "Interactive book with runnable code for every concept. Great for building intuition hands-on.",
+        url: "https://d2l.ai/", tags: ["Book", "Interactive"] },
+
+      // ---- Math & Foundations ----
+      { cat: "math", type: "Book", icon: "📐", tint: "#f3ecff",
+        title: "Mathematics for Machine Learning",
+        desc: "Free book covering the linear algebra, calculus and probability you actually need for ML.",
+        url: "https://mml-book.github.io/", tags: ["Book", "Free"] },
+
+      // ---- Tools ----
+      { cat: "tools", type: "Tool", icon: "🔎", tint: "#fff7e8",
+        title: "Papers with Code",
+        desc: "Papers paired with their code and leaderboards. Where research meets implementation.",
+        url: "https://paperswithcode.com/", tags: ["Code", "Papers"] },
+      { cat: "tools", type: "Tool", icon: "🤗", tint: "#fff7e8",
+        title: "Hugging Face",
+        desc: "Models, datasets and spaces — the shared toolbox of the whole ML community.",
+        url: "https://huggingface.co/", tags: ["Models", "Community"] },
+      { cat: "tools", type: "Tool", icon: "✍️", tint: "#fff7e8",
+        title: "Overleaf — LaTeX Online",
+        desc: "Collaborative LaTeX editor. Paper writing without localTeX setup pain.",
+        url: "https://www.overleaf.com/", tags: ["Writing", "LaTeX"] }
+    ];
+
+    var STAR_KEY = "kb_stars";
+    var CAT_KEY = "kb_category";
+    var stars = [];
+    try { stars = JSON.parse(localStorage.getItem(STAR_KEY) || "[]"); } catch (e) { stars = []; }
+    var currentCat = "all";
+    try { currentCat = localStorage.getItem(CAT_KEY) || "all"; } catch (e) {}
+
+    var grid = document.getElementById("res-grid");
+    var empty = document.getElementById("kb-empty");
+    var search = document.getElementById("kb-search");
+
+    function isStarred(url) { return stars.indexOf(url) !== -1; }
+
+    function toggleStar(url, btn) {
+      var i = stars.indexOf(url);
+      if (i === -1) { stars.push(url); btn.classList.add("starred"); btn.textContent = "⭐"; }
+      else { stars.splice(i, 1); btn.classList.remove("starred"); btn.textContent = "☆"; }
+      try { localStorage.setItem(STAR_KEY, JSON.stringify(stars)); } catch (e) {}
+    }
+
+    function cardHTML(r) {
+      var starred = isStarred(r.url);
+      return '<div class="res-card">' +
+        '<div class="res-head">' +
+          '<div class="res-icon" style="--kb-tint:' + r.tint + '">' + r.icon + '</div>' +
+          '<button class="res-star' + (starred ? ' starred' : '') + '" data-url="' + r.url + '" title="star">' + (starred ? "⭐" : "☆") + '</button>' +
+        '</div>' +
+        '<div class="res-title"><a href="' + r.url + '" target="_blank" rel="noopener">' + r.title + '</a></div>' +
+        '<div class="res-desc">' + r.desc + '</div>' +
+        '<div class="res-tags"><span class="res-type">' + r.type + '</span>' +
+          r.tags.map(function (t) { return '<span class="res-tag">' + t + '</span>'; }).join("") + '</div>' +
+      '</div>';
+    }
+
+    function render() {
+      var q = (search.value || "").trim().toLowerCase();
+      var shown = RESOURCES.filter(function (r) {
+        var catOK = currentCat === "all" || (currentCat === "starred" ? isStarred(r.url) : r.cat === currentCat);
+        var qOK = !q || (r.title + " " + r.desc + " " + r.tags.join(" ")).toLowerCase().indexOf(q) !== -1;
+        return catOK && qOK;
+      });
+      if (!shown.length) {
+        grid.innerHTML = "";
+        empty.style.display = "block";
+        return;
+      }
+      empty.style.display = "none";
+      grid.innerHTML = shown.map(cardHTML).join("");
+      grid.querySelectorAll(".res-star").forEach(function (b) {
+        b.addEventListener("click", function (ev) {
+          ev.preventDefault();
+          toggleStar(b.dataset.url, b);
+        });
+      });
+    }
+
+    // chips
+    document.getElementById("kb-chips").addEventListener("click", function (e) {
+      var chip = e.target.closest(".kb-chip");
+      if (!chip) return;
+      document.querySelectorAll(".kb-chip").forEach(function (c) { c.classList.remove("active"); });
+      chip.classList.add("active");
+      currentCat = chip.dataset.cat;
+      try { localStorage.setItem(CAT_KEY, currentCat); } catch (err) {}
+      render();
+    });
+
+    // restore saved category chip
+    document.querySelectorAll(".kb-chip").forEach(function (c) {
+      c.classList.toggle("active", c.dataset.cat === currentCat);
+    });
+
+    search.addEventListener("input", render);
+
+    // stats
+    document.getElementById("stat-resources").textContent = RESOURCES.length;
+    document.getElementById("stat-cats").textContent = new Set(RESOURCES.map(function (r) { return r.cat; })).size;
+
+    render();
+  })();
+  </script>
+
+</body>
+</html>

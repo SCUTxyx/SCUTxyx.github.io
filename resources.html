@@ -44,6 +44,26 @@
     .bg-green { background-color: #e8f5e9; color: #2e7d32; }
     .bg-orange { background-color: #fff3e0; color: #ef6c00; }
   </style>
+  <style>
+    .glossary-entry {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(255,255,255,.85); border: 1.5px solid rgba(122,95,208,.4);
+      border-radius: 999px; padding: 8px 20px;
+      font-family: 'Kalam', cursive; font-weight: 700; color: #7a5fd0;
+      text-decoration: none; transition: all .25s ease;
+    }
+    .glossary-entry:hover { transform: translateY(-2px) rotate(-1deg); color: #5b3fd0 !important; box-shadow: 0 8px 18px rgba(122,95,208,.3); }
+  </style>
+  <style>
+    .glossary-entry {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(255,255,255,.85); border: 1.5px solid rgba(122,95,208,.4);
+      border-radius: 999px; padding: 8px 20px;
+      font-family: 'Kalam', cursive; font-weight: 700; color: #7a5fd0;
+      text-decoration: none; transition: all .25s ease;
+    }
+    .glossary-entry:hover { transform: translateY(-2px) rotate(-1deg); color: #5b3fd0 !important; box-shadow: 0 8px 18px rgba(122,95,208,.3); }
+  </style>
 </head>
 <body>
 
@@ -72,7 +92,7 @@
         <div class="card guide-banner" style="background: linear-gradient(120deg, #fff8e1 0%, #fff0f6 100%); border: 2px dashed rgba(230, 175, 60, 0.6); border-radius: 16px; padding: 1.6rem 1.8rem; margin-bottom: 2rem; display: flex; align-items: center; gap: 18px; transition: transform 0.25s ease, box-shadow 0.25s ease;">
           <div style="flex: 0 0 auto; font-size: 2.4rem;">🧭</div>
           <div style="flex: 1;">
-            <p class="title is-5" style="margin-bottom: 0.3rem;">⭐ Featured · Embodied AI Guide <span class="tag is-warning" style="vertical-align: 2px;">Start Here</span></p>
+            <p class="title is-5" style="margin-bottom: 0.55rem;">⭐ Featured · Embodied AI Guide <span class="tag is-warning" style="vertical-align: 2px;">Start Here</span></p>
             <p class="subtitle is-6 has-text-grey" style="margin-bottom: 0;">
               The best curated roadmap, paper lists and tutorials for embodied intelligence, maintained by Tianxing Chen —
               strongly recommended before diving into anything else below.
@@ -164,6 +184,16 @@
           </a>
         </div>
 
+      </div>
+
+      <div style="display:flex; gap: 16px; flex-wrap: wrap; margin-top: 2rem;">
+        <a class="glossary-entry" href="knowledge.html">🌱 Curated Knowledge Base →</a>
+        <a class="glossary-entry" href="glossary.html">📖 Glossary of Terms →</a>
+
+      <div style="display:flex; gap: 16px; flex-wrap: wrap; margin-top: 2rem;">
+        <a class="glossary-entry" href="knowledge.html">🌱 Curated Knowledge Base →</a>
+        <a class="glossary-entry" href="glossary.html">📖 Glossary of Terms →</a>
+      </div>
       </div>
     </div>
   </section>

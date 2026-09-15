@@ -576,6 +576,12 @@
       if (c.style.display === 'block') loadList();
     });
 
+    /* ---------- prevent accidental loss ---------- */
+    window.addEventListener('beforeunload', function (e) {
+      var has = $('post-title').value.trim() || mdInput.value.trim();
+      if (has) { e.preventDefault(); e.returnValue = ''; }
+    });
+
     /* ---------- boot ---------- */
     if (token) {
       // verify quietly; fall back to lock screen if invalid

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>try{if(localStorage.getItem('theme')==='dark'){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>Glossary · Embodied AI Terms | Yuxuan Xue</title>
+
+  <meta name="description" content="A friendly glossary of Embodied AI, Reinforcement Learning and Computer Vision terms — one-sentence definitions, no jargon walls.">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&family=Kalam:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/anime.css">
+  <script src="/assets/js/sakura.js" defer></script>
+
+  <style>
+    body { font-family: 'Patrick Hand', 'Comic Sans MS', cursive; font-size: 16.5px; color: #4a4458; }
+
+    .glossary-wrap { max-width: 1080px; margin: 0 auto; padding: 2rem 1rem 4rem; }
+
+    .glossary-hero {
+      background: linear-gradient(135deg, #f3ecff 0%, #ffe4f0 50%, #e4ecff 100%);
+      border: 2px dashed rgba(122, 95, 208, 0.5);
+      border-radius: 20px;
+      padding: 2.4rem 2.4rem;
+      margin-bottom: 1.8rem;
+      box-shadow: 0 16px 40px rgba(122, 95, 208, 0.18);
+    }
+    .glossary-hero h1 { font-family: 'Caveat', cursive; font-size: 2.7rem; color: #7a5fd0; margin: 0.2em 0 0.1em; }
+    .glossary-kicker { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #7a5fd0; }
+    .glossary-hero p { color: #7a7290; }
+
+    .glossary-search {
+      width: 100%;
+      border: 1.5px solid rgba(122, 95, 208, 0.45);
+      border-radius: 999px;
+      padding: 12px 24px;
+      margin-bottom: 1.4rem;
+      font-family: 'Patrick Hand', cursive;
+      font-size: 1.08rem;
+      color: #4a4458;
+      background: rgba(255,255,255,.9);
+      outline: none;
+      transition: border-color .25s ease, box-shadow .25s ease;
+    }
+    .glossary-search:focus { border-color: #9d8df2; box-shadow: 0 0 0 .2em rgba(157,141,242,.2); }
+
+    .glossary-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1rem; }
+    .term-card {
+      background: rgba(255,255,255,.92);
+      border: 1.5px solid rgba(122, 95, 208, 0.3);
+      border-radius: 16px;
+      padding: 1.1rem 1.3rem;
+      box-shadow: 0 6px 18px rgba(122, 95, 208, 0.12);
+      transition: transform .25s cubic-bezier(.34,1.56,.64,1), box-shadow .25s ease, border-color .25s ease;
+      position: relative;
+    }
+    .term-card:hover {
+      transform: translateY(-4px) rotate(-0.4deg);
+      border-color: rgba(122, 95, 208, 0.65);
+      box-shadow: 0 14px 30px rgba(122, 95, 208, 0.2);
+    }
+    .term-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 4px; }
+    .term-name { font-family: 'Kalam', cursive; font-weight: 700; font-size: 1.08rem; color: #6a4fc0; }
+    .term-group {
+      font-family: 'Kalam', cursive; font-size: 0.72rem;
+      background: rgba(122,95,208,.1); color: #7a5fd0;
+      border-radius: 999px; padding: 1px 10px; white-space: nowrap;
+    }
+    .term-def { font-size: 0.94rem; color: #5f5a70; line-height: 1.65; }
+    .term-see { font-size: 0.8rem; color: #9a93ab; margin-top: 6px; }
+    .term-see a { color: #9d8df2; }
+
+    .glossary-empty {
+      grid-column: 1 / -1; text-align: center; padding: 3rem 2rem;
+      border: 2px dashed rgba(122,95,208,.4); border-radius: 16px;
+      color: #9a93ab; font-family: 'Patrick Hand', cursive; font-size: 1.1rem;
+    }
+
+    .back-link { color: #7a5fd0; font-family: 'Kalam', cursive; }
+
+    @media (max-width: 768px) {
+      .glossary-hero { padding: 2rem 1.5rem; }
+      .glossary-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="glossary-wrap">
+
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <span class="glossary-kicker">📖 Glossary · No Jargon Walls</span>
+      <a class="back-link" href="/">← Back to site</a>
+    </div>
+
+    <div class="glossary-hero" style="margin-top: 1.2rem;">
+      <h1>Embodied AI, In Plain Words</h1>
+      <p>Every term you'll meet on this site — explained in one or two friendly sentences. Search, learn, come back anytime. ✨</p>
+    </div>
+
+    <input id="glossary-search" class="glossary-search" type="search"
+           placeholder="🔍 Search a term… (e.g. VLA, world model, policy)" autocomplete="off">
+
+    <div class="glossary-grid" id="glossary-grid"></div>
+    <div class="glossary-empty" id="glossary-empty" style="display:none;">No term matches — try a shorter keyword 🔍</div>
+
+  </div>
+
+  <script>
+  (function () {
+    'use strict';
+    var TERMS = [
+      { g: "Embodied & Robotics", t: "Embodied AI", d: "AI that lives in a physical body — robots that perceive the world, decide, and act in it, rather than only on screens." },
+      { g: "Embodied & Robotics", t: "VLA (Vision-Language-Action)", d: "A model that looks at a camera image, reads an instruction like 'put the pot on the stove', and outputs actual robot actions." },
+      { g: "Embodied & Robotics", t: "Action Chunking", d: "Predicting a whole sequence of future actions at once instead of one step at a time — smoother motions, easier learning." },
+      { g: "Embodied & Robotics", t: "Teleoperation", d: "A human remotely controlling a robot (often with VR or a leader arm) to collect demonstration data." },
+      { g: "Embodied & Robotics", t: "Proprioception", d: "The robot's own 'body sense' — joint angles, torques and gripper state, alongside what its cameras see." },
+      { g: "Embodied & Robotics", t: "Manipulation", d: "Robot tasks involving hands or grippers changing objects: picking, inserting, screwing, folding." },
+      { g: "Embodied & Robotics", t: "Sim-to-Real Gap", d: "The difference between how a policy performs in simulation and on the real robot. Closing it is half the battle." },
+      { g: "Embodied & Robotics", t: "Domain Randomization", d: "Randomizing sim colors, lighting and physics during training so the real world looks like 'just another variation'." },
+      { g: "Embodied & Robotics", t: "World Model", d: "A learned internal simulator: the model imagines what happens next, so the agent can practice by dreaming." },
+      { g: "Reinforcement Learning", t: "Reinforcement Learning (RL)", d: "Learning by trial and error: the agent tries actions, gets rewards, and slowly figures out which behaviors earn more." },
+      { g: "Reinforcement Learning", t: "Actor-Critic", d: "A two-part RL setup: the actor picks actions, the critic scores how good they were — both improve together." },
+      { g: "Reinforcement Learning", t: "Reward Shaping", d: "Designing the score function that tells the agent what 'doing well' means. Good shaping is half the art of RL." },
+      { g: "Reinforcement Learning", t: "Sample Efficiency", d: "How much real-world experience the agent needs to learn something. Real robots make every minute expensive." },
+      { g: "Reinforcement Learning", t: "Offline RL", d: "Learning a good policy from a fixed dataset of past experience, without exploring the real world at all." },
+      { g: "Reinforcement Learning", t: "Replay Buffer", d: "The agent's memory of past attempts, replayed to squeeze more learning out of every real interaction." },
+      { g: "Reinforcement Learning", t: "Residual Policy", d: "A small policy that learns corrections on top of a base controller — small model, big effect." },
+      { g: "Computer Vision", t: "Diffusion Policy", d: "A robot-action model that generates motions through iterative denoising — smooth, expressive, multimodal." },
+      { g: "Computer Vision", t: "ViT (Vision Transformer)", d: "The paper that cut images into 16×16 patches and ran a transformer over them — now the backbone of most vision models." },
+      { g: "Computer Vision", t: "CLIP", d: "A model trained to match images with sentences, giving machines a shared visual-language embedding space." },
+      { g: "AI & LLM", t: "Fine-tuning", d: "Taking a pretrained model and continuing its training on your specific task — cheap, fast, and effective." },
+      { g: "AI & LLM", t: "Foundation Model", d: "A giant general-purpose model pretrained on broad data, ready to adapt to many downstream tasks." },
+      { g: "AI & LLM", t: "Multimodal", d: "A model that understands more than one type of input at once — images, language, actions, even touch." },
+      { g: "AI & LLM", t: "Zero-shot", d: "Solving a task you never explicitly trained for — the model transfers what it knows to the new situation." },
+      { g: "AI & LLM", t: "Behavior Cloning (BC)", d: "The simplest imitation learning: show the robot demonstrations, train it to copy the actions frame by frame." }
+    ];
+
+    var grid = document.getElementById("glossary-grid");
+    var empty = document.getElementById("glossary-empty");
+    var search = document.getElementById("glossary-search");
+
+    function render() {
+      var q = (search.value || "").trim().toLowerCase();
+      var shown = TERMS.filter(function (t) {
+        return !q || (t.t + " " + t.d + " " + t.g).toLowerCase().indexOf(q) !== -1;
+      });
+      if (!shown.length) {
+        grid.innerHTML = "";
+        empty.style.display = "block";
+        return;
+      }
+      empty.style.display = "none";
+      grid.innerHTML = shown.map(function (t) {
+        return '<div class="term-card">' +
+                 '<div class="term-head">' +
+                   '<span class="term-name">' + t.t + '</span>' +
+                   '<span class="term-group">' + t.g + '</span>' +
+                 '</div>' +
+                 '<div class="term-def">' + t.d + '</div>' +
+               '</div>';
+      }).join("");
+    }
+
+    search.addEventListener("input", render);
+    render();
+  })();
+  </script>
+</body>
+</html>
