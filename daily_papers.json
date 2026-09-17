@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16 22:30 UTC",
+  "generated_at": "2026-09-17 17:48 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,86 +9,153 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7213336900",
-      "url": "https://doi.org/10.1049/aie2.70027",
-      "pdf": "https://doi.org/10.1049/aie2.70027",
-      "title": "Variance‐Guided Evolutionary Reinforcement Learning for Multi‐Objective Energy Scheduling in Dairy Farms",
-      "summary": "ABSTRACT Electricity consumption on dairy farms has a direct impact on operational cost, renewable energy utilisation and load flexibility. Coordinating electric water heating and battery storage under dynamic tariffs, photovoltaic generation and temperature constraints forms a challenging multi‐objective sequential decision‐making problem. This paper proposes a variance‐guided evolutionary reinforcement learning (VG‐ERL) framework for joint water‐heater and battery scheduling. VG‐ERL combines PPO‐based policy learning, NSGA‐II parent selection, a shared‐critic multi‐actor architecture and var",
+      "id": "W7168244763",
+      "url": "https://doi.org/10.1007/978-3-032-38404-1_16",
+      "pdf": "https://doi.org/10.48550/arxiv.2607.10172",
+      "title": "On the Efficiency of LoRA Fine-Tuning for Vision-Language-Action Models in Industrial Robotic Manipulation",
+      "summary": "",
       "authors": [
-        "Nawazish Ali",
-        "Rachael Shaw",
-        "Karl Mason"
+        "Finn Ferchau",
+        "Daniel Pommer",
+        "Cristian Axenie"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮"
-    },
-    {
-      "id": "W7162440864",
-      "url": "https://doi.org/10.1145/3832810.3832831",
-      "pdf": "https://doi.org/10.1145/3832810.3832831",
-      "title": "Accelerating Long-Tail Generation in Synchronous RLHF Training via Adaptive Tensor Parallelism",
-      "summary": "Reinforcement Learning from Human Feedback (RLHF) has become a key post-training paradigm for improving model quality. However, the synchronous three-stage RLHF pipeline is often bottlenecked by the generation stage, where response-length skew causes the effective batch size to shrink rapidly during decoding, leaving GPUs underutilized while a few long responses remain unfinished. Mainstream frameworks employ a static tensor parallelism (TP) configuration that cannot adapt to changing batch characteristics, leaving substantial performance headroom unexplored. We propose PAT, an adaptive TP met",
-      "authors": [
-        "Long Zhao",
-        "Qinghe Wang",
-        "Jiaan Zhu",
-        "Youhui Bai",
-        "Zewen Jin",
-        "Chaoyi Ruan",
-        "Shengnan Wang",
-        "Cheng Xin Li"
-      ],
-      "published": "2026-09-13",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮"
-    },
-    {
-      "id": "W7118489452",
-      "url": "https://doi.org/10.1038/s41467-026-77664-0",
-      "pdf": "https://doi.org/10.1038/s41467-026-77664-0",
-      "title": "Nonlinear spectral modeling and control of soft-robotic muscles from data",
-      "summary": "Abstract Artificial muscles are essential for compliant musculoskeletal robotics but complicate control due to nonlinear multiphysics dynamics. Electrohydraulic actuators, a class of soft artificial muscles, offer high performance but exhibit memory effects and hysteresis. Here we present a data-driven reduction and control strategy grounded in spectral submanifold theory. In the adiabatic regime, where inputs vary slowly relative to intrinsic transients, trajectories rapidly converge to a low-dimensional slow manifold. We learn an explicit input-to-output map on this manifold directly from fo",
-      "authors": [
-        "Leonardo Bettini",
-        "Amirhossein Kazemipour",
-        "Robert K. Katzschmann",
-        "George Haller"
-      ],
-      "published": "2026-09-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
+      "score": 12.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖"
     },
     {
-      "id": "W7212215390",
-      "url": "https://openalex.org/W7212215390",
-      "pdf": "https://inria.hal.science/hal-05727216",
-      "title": "DotBot in the Warehouse: A Swarm Robotics Platform for Intralogistics Research",
+      "id": "W7212418149",
+      "url": "https://doi.org/10.5302/j.icros.2026.26.0158",
+      "pdf": "",
+      "title": "Development of an Educational Platform for Reinforcement Learning Control of a Rotary Inverted Pendulum Based on LW-RCP",
+      "summary": "This study proposes a compact rotary inverted pendulum experimental platform designed for implementing reinforcement learning (RL) based controllers on physical systems. While RL demonstrates superior performance in simulated environments, applying it to real-world systems often leads to performance degradation and instability due to the sim-to-real gap and physical actuator constraints. In particular, when a stepper motor is employed as the actuator, its drive characteristics need to be considered when applying control commands generated by the learned policy to the physical system. This stud",
+      "authors": [
+        "Jaewook Lee",
+        "Doyoon Ju",
+        "Young‐Sam Lee"
+      ],
+      "published": "2026-09-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮"
+    },
+    {
+      "id": "W7163698515",
+      "url": "https://doi.org/10.1007/978-3-032-38404-1_15",
+      "pdf": "https://doi.org/10.48550/arxiv.2606.06041",
+      "title": "Sample-Efficient Low-Level Motion Planning for Robotic Manipulation Tasks via Zero-Shot Transfer Learning",
+      "summary": "",
+      "authors": [
+        "Yuanzhi He",
+        "Víctor Romero-Cano",
+        "José Patiño",
+        "Juan David Hernández",
+        "William Sawtell",
+        "Gualtiero Colombo"
+      ],
+      "published": "2026-09-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖"
+    },
+    {
+      "id": "W7204506757",
+      "url": "https://doi.org/10.48676/unibo/amsdottorato/13051",
+      "pdf": "https://amsdottorato.unibo.it/view/dottorati/DOT547/>,",
+      "title": "Design, control and computational strategies for unstructured robotic applications",
+      "summary": "Modern robotics has moved from tightly scripted, structured workcells to unstructured, open-world settings. This shift replaces fixed fixtures and repeatable parts with deformable objects, occlusions, and changing contacts. As a result, manipulation now hinges on perception-driven control, uncertainty handling, and learning from data. We embrace this transition and show how combining model-based priors with adaptive policies enables reliable performance beyond the lab. The main contribution focuses on deformable linear objects manipulation: industrial appli-cations are developed for wire harne",
+      "authors": [
+        "Andrea Govoni"
+      ],
+      "published": "2026-09-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖"
+    },
+    {
+      "id": "W7212421986",
+      "url": "https://doi.org/10.1145/3822301.3822307",
+      "pdf": "https://doi.org/10.1145/3822301.3822307",
+      "title": "Robot assistants during high mental workload: Understanding Task-Specific Load in Human–Robot Interaction",
+      "summary": "Cognitive offloading refers to the redistribution of task demands with the aim of reducing an individual’s mental workload. A promising strategy in this domain involves leveraging robotic agents, whether humanoid or non-humanoid, to support such task redistribution. However, this process is not straightforward, as the effectiveness of a robot as an offloading agent critically depends on identifying the specific type of mental workload experienced by the user. Mental workload is a multidimensional construct that includes demands on perception, working memory, and executive functions; therefore,",
+      "authors": [
+        "Valentina Cesari",
+        "Jacopo Elettari",
+        "Agnieszka Wykowska"
+      ],
+      "published": "2026-09-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖"
+    },
+    {
+      "id": "W7204517183",
+      "url": "https://doi.org/10.48676/unibo/amsdottorato/13042",
+      "pdf": "https://amsdottorato.unibo.it/view/dottorati/DOT547/>,",
+      "title": "Control-theoretic methods for reinforcement learning",
+      "summary": "Reinforcement Learning (RL) has become a cornerstone of modern artificial intelligence and control theory, enabling complex decision-making tasks in a wide variety of domains such as robotics, autonomous driving and strategic games. While deep neural networks allow RL methods to address large-scale problems, exploiting the mathematical structures underlying these problems remains essential for designing efficient and theoretically grounded algorithms. This thesis bridges two complementary perspectives, mathematical analysis of reinforcement learning problems and control-theoretic principles, t",
+      "authors": [
+        "Simone Baroncini"
+      ],
+      "published": "2026-09-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮"
+    },
+    {
+      "id": "W7212480148",
+      "url": "https://doi.org/10.5281/zenodo.22748437",
+      "pdf": "https://doi.org/10.5281/zenodo.22748437",
+      "title": "The Reassessment That Did Not Travel: What the 2020 Arcade Result About Exploration Bonuses Establishes, the Six Conditions That Made It Informative, and Which of Them the Language-Model Revival Drops",
+      "summary": "(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Exploration bonuses have returned. Between 2025 and 2026 at least six frameworks added an intrinsic novelty or uncertainty term to reinforcement learning with verifiable rewards for language models, each naming a classical antecedent - prediction error, pseudo-counts, epistemic uncertainty - and each reporting gains. The classical literature those antecedents come from also contains a controlled reassessment. In work published at ICLR 2020, a study held the learning algorithm fixed, tuned every bonus, and compared against plain undirected ",
+      "authors": [
+        "Pranay M. Mahendrakar"
+      ],
+      "published": "2026-09-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮"
+    },
+    {
+      "id": "W7205752337",
+      "url": "https://openalex.org/W7205752337",
+      "pdf": "",
+      "title": "AI-Driven Nano-Robotic RF Probe Station for Automated On-Wafer Characterization",
       "summary": "International audience",
       "authors": [
-        "Corentin Rasda",
-        "Trifun Savić",
-        "Geovane Fedrecheski",
-        "Jean-Paul Fabre",
-        "Mališa Vučinić",
-        "Thomas Watteyne"
+        "Clément Lenoir",
+        "Kamel Haddadi"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -98,22 +165,21 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "W7213232669",
-      "url": "https://doi.org/10.1007/s10029-026-03843-z",
-      "pdf": "",
-      "title": "Learning curve in robotic inguinal hernia repair: a systematic review and meta-analysis",
-      "summary": "",
+      "id": "W7134054986",
+      "url": "https://doi.org/10.5281/zenodo.18890151",
+      "pdf": "https://doi.org/10.5281/zenodo.18890151",
+      "title": "Astra",
+      "summary": "Astra (Automated Survey observaTory Robotised with Alpaca) is an open-source observatory control software for automating and managing robotic observatories.",
       "authors": [
-        "Gabriela Lyons",
-        "ANA LUIZA AGUIAR PERES KOZLOWSKI BREVES",
-        "Vítor Neves",
-        "Paula Cambuli-Bianchi",
-        "Raquel Nogueira",
-        "Leandro Totti Cavazzola",
-        "Diego Laurentino Lima",
-        "Flavio Malcher"
+        "P P Pedersen",
+        "David Degen",
+        "Lionel Garcia",
+        "Sebastián Zúñiga-Fernández",
+        "Daniel Sebastian",
+        "U. Schroffenegger",
+        "Didier Queloz"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -123,17 +189,17 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "W7213234451",
-      "url": "https://doi.org/10.5604/01.3001.0055.8892",
-      "pdf": "https://doi.org/10.5604/01.3001.0055.8892",
-      "title": "Spillover effect of technology perception in accounting information systems: Evidence from structured e-invoicing",
-      "summary": "Purpose: This research investigates whether perceptions of invoice-processing technologies currently operating in accounting information systems (AIS) are associated with accountants’ attitudes toward a new, related invoice-processing technology. The study interprets these associations from a spillover perspective. Methodology/approach: The study employs regression analysis using data from a survey experiment conducted among 128 professional accountants in Poland. The independent variables are perceived risk of using technology in AIS, technology type, namely Robotic Process Automation (RPA) o",
+      "id": "W7203544409",
+      "url": "https://doi.org/10.5281/zenodo.21955149",
+      "pdf": "https://doi.org/10.5281/zenodo.21955149",
+      "title": "Condition-Dependent RGB-D Depth Uncertainty Modeling for Safety-Margin Planning and Empirical Risk Assessment of Robotic Manipulators: Research Dataset",
+      "summary": "This version 3.0.0 dataset and reproducibility package accompanies the revised manuscript “Condition-Dependent RGB-D Depth Uncertainty Modeling for Safety-Margin Planning and Empirical Risk Assessment of Robotic Manipulators” (manuscript ID: applsci-4569971). This revision-stage release adds independently repositioned and remeasured Intel RealSense D435 acquisitions, temporal-dependence and signed/directional diagnostics, replication-augmented P90/P95/P99 empirical uncertainty envelopes, six safety-margin strategies, three static PyBullet scenes, 1,440 frozen planning paths, and 144,000 path-c",
       "authors": [
-        "Maciej Andrzej Tuszkiewicz",
-        "Olga Grzybek",
-        "Ewa Wanda Maruszewska"
+        "XiangChen Ku",
+        "Xuan Ren",
+        "Linchao Lv"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -143,20 +209,15 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "W7213236273",
-      "url": "https://doi.org/10.1007/s11701-026-03964-8",
-      "pdf": "",
-      "title": "Economic, resource-use, and adoption signals in the robotic colorectal surgery literature: a bibliometric and visualization study",
-      "summary": "",
+      "id": "W7204673115",
+      "url": "https://doi.org/10.48676/unibo/amsdottorato/13093",
+      "pdf": "https://amsdottorato.unibo.it/view/dottorati/DOT539/>,",
+      "title": "Secure RISC-V architectures for brain-inspired computing",
+      "summary": "Modern Cyber-Physical Systems (CPS) demand high computational capability, strong security guarantees, and energy-aware operation, particularly in embedded, mobile, and autonomous platforms such as robotics, intelligent vehicles, and industrial controllers. Addressing these requirements calls for heterogeneous System-on-Chip (SoC) architectures that balance performance, efficiency, and security while supporting flexible on-device artificial intelligence (AI) execution. This thesis proposes a heterogeneous, high-performance RISC-V–based architectural template integrating a general-purpose host p",
       "authors": [
-        "Jia Wang",
-        "Gaobo Wang",
-        "Wenqing Li",
-        "Bowei Yang",
-        "Zhiqiang Tian",
-        "Yang Yang"
+        "Simone <1996> Manoni"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -166,21 +227,20 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "W7213236529",
-      "url": "https://doi.org/10.31067/acusaglik.2033231",
-      "pdf": "https://doi.org/10.31067/acusaglik.2033231",
-      "title": "Safety and Feasibility of Axillary Artery Cannulation In Robotic Assisted Minimally Invasive Coronary Revascularization",
-      "summary": "Purpose: Axillary artery cannulation is associated with safer results and fewer complications compared to femoral artery cannulation in minimally invasive cardiac surgery. Coronary artery bypass surgery patients present with a high atherosclerotic burden, and thus may also benefit greatly from antegrade axillary artery cannulation. The aim of this study was to compare outcomes in axillary and femoral cannulation in robotic-assisted minimally invasive coronary artery bypass surgery.Methods: Between March 2022 and May 2024, 96 consecutive patients underwent on-pump robotic-assisted minimally inv",
+      "id": "W7212387184",
+      "url": "https://doi.org/10.17180/ciag-2026-vol114-art05",
+      "pdf": "https://hal.inrae.fr/hal-05745724",
+      "title": "Agroéquipements, protection des cultures et réduction des pesticides : vers une transformation systémique des pratiques agricoles",
+      "summary": "The agroecological transition aims to reduce pesticide use while maintaining the productivity and resilience of farming systems. Agricultural machinery and equipment are important levers for this transition, provided they are integrated into an approach combining technical innovation, agronomic practices, work organization, and collective action. Precision technologies, robotics, and sensors improve crop monitoring and enable more targeted interventions, but their effectiveness depends on the cropping system and farmers' skills. Co-design, training, and collective experimentation support the a",
       "authors": [
-        "Gökhan Arslanhan",
-        "Zeynep Sıla Özcan",
-        "Murat Baştopçu",
-        "Anıl Karaağaç",
-        "Şahın Şenay",
-        "Muharrem Koçyiğit",
-        "Cem Alhan"
+        "Xavier Reboud",
+        "Pierre Labarthe",
+        "Damien Trémeau-Busson",
+        "Damien Rousselière",
+        "Hervé Durand",
+        "Christian Lannou"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -190,21 +250,15 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "W7213242673",
-      "url": "https://doi.org/10.1007/s11701-026-03952-y",
-      "pdf": "",
-      "title": "Augmented reality in robotic urology: from 3D printed models to cognitive surgical systems. A systematic literature review",
-      "summary": "",
+      "id": "W7212420172",
+      "url": "https://doi.org/10.5281/zenodo.22738768",
+      "pdf": "https://doi.org/10.5281/zenodo.22738768",
+      "title": "Sentinel: Resident Autonomous Guardians for Critical Infrastructure — Authority, Partition and the Case Where the Site Is Gone",
+      "summary": "Critical infrastructure sites in Europe are acquiring permanent robotic residents. Quadruped and wheeled platforms already patrol substations, switchyards and process plants on fixed schedules; aerial systems conduct perimeter and post-event surveys; and the same class of hardware is being fielded at scale under fire in Ukraine. The engineering question is no longer whether a plant can host a resident multi-agent system. It is what that system is permitted to do, who decides, and what happens to those permissions when the network is cut, when one of the agents is compromised, or when the asset",
       "authors": [
-        "Νικόλαος Κωστακόπουλος",
-        "Stamatios Katsimperis",
-        "Themistoklis Bellos",
-        "Grigorios Athanasiadis",
-        "Lazaros Tzelves",
-        "IOANNIS VARKARAKIS",
-        "Andreas Skolarikos"
+        "Nicolas Waern"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -214,139 +268,16 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "W7213243500",
-      "url": "https://doi.org/10.1007/s11701-026-03958-6",
-      "pdf": "",
-      "title": "Robotic technologies relevant to brain tumor surgery: a bibliometric and knowledge-mapping analysis of global trends and translational frontiers",
-      "summary": "",
+      "id": "W7160934558",
+      "url": "https://doi.org/10.1038/s41598-026-68191-5",
+      "pdf": "https://doi.org/10.1038/s41598-026-68191-5",
+      "title": "Scaling vision models does not consistently improve localisation-based explanation quality",
+      "summary": "Artificial intelligence models are increasingly scaled to improve predictive accuracy, yet it remains unclear whether scale improves the quality of post-hoc explanations. We investigate this relationship by evaluating 11 computer vision models representing increasing levels of depth and complexity within the ResNet, DenseNet, and Vision Transformer families, trained from scratch or pretrained, across the medical and natural image datasets with ground-truth segmentation masks. For each model, we generate explanations using five post-hoc explainable AI methods and quantify mask alignment using t",
       "authors": [
-        "Guolong Zhang",
-        "Yan Dong"
+        "Mateusz Cedro",
+        "Marcin Chlebus"
       ],
-      "published": "2026-09-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖"
-    },
-    {
-      "id": "W7213253841",
-      "url": "https://doi.org/10.1080/01691864.2026.2728199",
-      "pdf": "",
-      "title": "A reasoning-LLM-based high-level planning framework for robotic shelf-stocking and disposal tasks",
-      "summary": "",
-      "authors": [
-        "Yuki Ishiyama",
-        "Masaki Onishi",
-        "Hiroki Sakazaki",
-        "Kosei Demura"
-      ],
-      "published": "2026-09-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖"
-    },
-    {
-      "id": "W7213258094",
-      "url": "https://doi.org/10.56201/ijebm.vol.12.no2.2026.pg352.364",
-      "pdf": "",
-      "title": "Evaluating Digital Process Technologies and Competitive Advantage: A Field Study of Listed Commercial Banks Zimbabwe",
-      "summary": "The quantitative field study has included 400 stratified random-sampled employees surveyed using a Likert-scale questionnaire (Cronbach's alpha>0.7 overall) which contributes to the formation of an evaluation of the effects of digital process technologies on driving competitive advantage in listed commercial banks in Zimbabwe. Using the Resource-Based View and Dynamic Capabilities Framework, it finds very high adoption rates for mobile banking (mean=4.18), internet banking (mean=4.24), and core banking automation (mean=4.05), and lower adoption for robotic process automation (RPA, mean=3.60). ",
-      "authors": [
-        "Precious Mandava"
-      ],
-      "published": "2026-09-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖"
-    },
-    {
-      "id": "W7213261587",
-      "url": "https://doi.org/10.3389/fonc.2026.1919981",
-      "pdf": "https://doi.org/10.3389/fonc.2026.1919981",
-      "title": "Resection margins in transoral oropharyngeal surgery: comparative analysis of robotic and VITOM Eagle–assisted exoscopic approaches",
-      "summary": "Background Transoral robotic surgery (TORS) is widely regarded as the current benchmark minimally invasive approach for early-stage oropharyngeal squamous cell carcinoma (OPSCC), although access remains limited by cost and infrastructure. Three-dimensional exoscopic surgery (3Des) has recently emerged as a lower-cost, team-shared alternative, but clinical evidence in OPSCC is still limited. This study compared the pathological radicality and surgical margin adequacy of transoral resections performed using a robotic platform versus a 3D exoscope. Methods This retrospective cohort study included",
-      "authors": [
-        "Erika Crosetti",
-        "Andrea Lorenzi",
-        "Giulia Arrigoni",
-        "Ilaria Bertotto",
-        "Adolfo Suriani",
-        "Nara Stella",
-        "Giovanni Succo"
-      ],
-      "published": "2026-09-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖"
-    },
-    {
-      "id": "W7213268390",
-      "url": "https://doi.org/10.21275/sr26910071257",
-      "pdf": "https://doi.org/10.21275/sr26910071257",
-      "title": "Evolution of Warfare and the Emerging Character of Future War",
-      "summary": "The changing nature of warfare is closely linked with advances in weapons, information systems, and military technology. Modern conflicts are moving from direct physical engagement toward non-contact and technology-driven operations supported by UAVs, precision-guided weapons, hypersonic systems, artificial intelligence, cyber capabilities, space-based systems, and robotics. Future battlefields may extend across land, sea, air, cyber, and space, where rapid access to reliable information could become as important as conventional firepower. Networked sensors, automated systems, and unmanned pla",
-      "authors": [
-        "Col Dalvinder Singh Grewal",
-        "Brigadier Gurtej Singh Grewal"
-      ],
-      "published": "2026-09-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖"
-    },
-    {
-      "id": "W7213329461",
-      "url": "https://doi.org/10.26642/sas-2026-4(16)-23-27",
-      "pdf": "https://doi.org/10.26642/sas-2026-4(16)-23-27",
-      "title": "Possibilities of using software complexes with elements of artificial intelligence in fortification",
-      "summary": "The scientific article provides a comprehensive analysis of the possibilities, prospects and technical and technological features of the integration of autonomous and robotic equipment into the construction of fortifications and engineering equipment of defense lines. The relevance is due to the rapid dynamics of hostilities and the massive use of reconnaissance and strike UAVs, which makes traditional fortification construction with manual labor critically dangerous and slow. The adaptation of global trends in the automation of the construction industry to the needs of military engineering su",
-      "authors": [
-        "Петро Бесараб"
-      ],
-      "published": "2026-09-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖"
-    },
-    {
-      "id": "W7213253943",
-      "url": "https://doi.org/10.3390/s26185869",
-      "pdf": "https://doi.org/10.3390/s26185869",
-      "title": "Underwater Computer Vision for Ecologists: A Framework for Curating Image Training Datasets for Object Detection",
-      "summary": "As marine ecosystems experience accelerating change, there is an urgent need for efficient and scalable biodiversity monitoring tools. We present a 10-step framework for integrating computer vision (CV) tools into long-term underwater biodiversity monitoring, using a case study from coastal British Columbia. Over 9000 h of unbaited remote underwater video footage were collected from two kelp farms and reference sites between March 2022 and June 2023. The framework includes steps for creating an annotated training dataset using unsupervised and supervised CV tools, culminating in the training a",
-      "authors": [
-        "Talen Rimmer",
-        "Colin Bates",
-        "Declan McIntosh",
-        "Tom Zhang",
-        "Alexandra Branzan Albu",
-        "Francis Juanes"
-      ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -356,21 +287,16 @@
       "pick_emoji": "👁"
     },
     {
-      "id": "W7213227163",
-      "url": "https://doi.org/10.1007/s00170-026-19082-6",
-      "pdf": "https://doi.org/10.1007/s00170-026-19082-6",
-      "title": "Uncertainty-aware model-enhanced soft actor-critic for conformal coating parameter optimization",
-      "summary": "Abstract Conformal coating optimization requires control of multiple application parameters to achieve target thickness and coverage uniformity, with spray atomization settings (atomization valve control) playing a crucial role in droplet formation and material deposition. Traditional manual tuning yields a low success rate and wastes significant materials through trial-and-error. We introduce Model-Enhanced Soft Actor-Critic (ME-SAC), a reinforcement learning approach that combines a hybrid dynamics model with uncertainty-aware planning. Our dynamics model integrates polynomial ridge regressi",
+      "id": "W7213417132",
+      "url": "https://doi.org/10.3795/ksme-a.2026.50.9.709",
+      "pdf": "",
+      "title": "State-based Selection of Expert Policies in Disaster Environments and Reinforcement Learning of a Unified Student Policy via Distillation",
+      "summary": "",
       "authors": [
-        "Hemi Patel",
-        "Abdelrahman Farrag",
-        "J. H. Kim",
-        "Daehan Won",
-        "Sangwon Yoon",
-        "Seungbae Park",
-        "Mohammad T. Khasawneh"
+        "Sung Jae Han",
+        "Jung-Yup Kim"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -380,19 +306,15 @@
       "pick_emoji": "🎮"
     },
     {
-      "id": "W7213289710",
-      "url": "https://doi.org/10.1016/j.aei.2026.105268",
-      "pdf": "https://doi.org/10.1016/j.aei.2026.105268",
-      "title": "Dynamics-aware hierarchical decision–control with egocentric perception for robust navigation of underactuated uncrewed surface vehicles",
-      "summary": "Reliable navigation of underactuated uncrewed surface vehicles (USVs) in complex waters depends on the consistency between adaptive decision-making and physically executable motion under nonlinear dynamics and environmental disturbances. Existing deep reinforcement learning methods often insufficiently account for the underactuated motion characteristics governing USV execution. To address this issue, this paper proposes a dynamics-aware hierarchical decision–control framework for robust USV navigation. The upper-level policy learns interpretable kinematic commands, including desired surge spe",
+      "id": "W7165474977",
+      "url": "https://doi.org/10.82901/nemar.on003474",
+      "pdf": "https://doi.org/10.82901/nemar.on003474",
+      "title": "EEG: Probabilistic Selection and Depression",
+      "summary": "This dataset contains EEG recordings from 122 college-age participants performing a probabilistic selection task, collected circa 2008-2010 in the John J.B. Allen laboratory at the University of Arizona. Participants were selected based on reliably high or low scores on the Beck Depression Inventory, with some undergoing clinical interviews. The dataset supports investigation of reinforcement learning and reward-based decision-making processes in relation to depression.",
       "authors": [
-        "Weijun Li",
-        "Hao Hu",
-        "Hui Zhao",
-        "Zhipeng Zhang",
-        "Xingzhi Yang"
+        "James F Cavanagh jcavanagh@unm.edu"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -402,16 +324,18 @@
       "pick_emoji": "🎮"
     },
     {
-      "id": "W7213329225",
-      "url": "https://doi.org/10.4108/eetsis.14518",
-      "pdf": "https://doi.org/10.4108/eetsis.14518",
-      "title": "Research on Multi-Objective Task Scheduling Optimization and Reinforcement Learning Decision-Making Methods for Edge-Cloud Collaborative Scalable Information Systems",
-      "summary": "INTRODUCTION: Edge-cloud schedulers must coordinate latency, energy, load balance, and deadline compliance under changing demand while keeping task-arrival and throughput units physically consistent.OBJECTIVE: This study evaluates MORL-ECSO under an auditable, paired-seed simulation protocol and compares it with tuned heuristic, metaheuristic, value-based, actor-critic, and entropy-regularized baselines.METHODS: A custom Python discrete-event simulator processes individual tasks in 0.1-s event windows. Offered load is 500-2000 tasks/s, with 4-20 edge nodes and four cloud nodes. DQN, A2C, discr",
+      "id": "W7204172131",
+      "url": "https://doi.org/10.5705/ss.202025.0457",
+      "pdf": "https://doi.org/10.5705/ss.202025.0457",
+      "title": "Sparse Additive Off-policy Evaluation for Reinforcement Learning with Potentially Limited Number of Trajectories",
+      "summary": "We develop a new framework for flexible, nonlinear, and interpretable off-policy evaluation for infinite-horizon reinforcement learning.To handle large state spaces and support transparent decision-making, we model the Q-function using a nonlinear function class with a sparse additive structure.We derive high-probability finite-sample error bounds for estimating the value function of a target policy and show that the bounds depend only logarithmically on the ambient dimension d, thereby alleviating the curse of dimensionality.In contrast to most existing theory for off-policy evaluation, which",
       "authors": [
-        "Lina Guo",
-        "Chengyu Sun"
+        "Tuoyi Zhao",
+        "Chengchun Shi",
+        "Zhengling Qi",
+        "Lan Wang"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -421,18 +345,17 @@
       "pick_emoji": "🎮"
     },
     {
-      "id": "W7213355413",
-      "url": "https://doi.org/10.1186/s12544-026-00841-1",
-      "pdf": "https://doi.org/10.1186/s12544-026-00841-1",
-      "title": "A framework for benchmarking traffic signal control robustness under incidents: comparative study of reinforcement learning-based methods",
-      "summary": "Abstract Reinforcement learning-based traffic signal control (RL-TSC) has emerged as a promising approach for improving urban mobility. However, its robustness under real-world disruptions such as traffic incidents remains largely underexplored. In this study, we introduce T-REX, an open-source, SUMO-based simulation framework for training and evaluating RL-TSC methods under dynamic, incident scenarios. T-REX models realistic network-level performance considering drivers’ probabilistic rerouting, speed adaptation, and contextual lane-changing, enabling the simulation of congestion propagation ",
+      "id": "W7212480736",
+      "url": "https://doi.org/10.54536/ajsts.v5i2.7966",
+      "pdf": "https://journals.e-palli.com/home/index.php/ajsts/article/download/7966/4022",
+      "title": "Enhancing Energy Management in Multi-Zone Buildings Using the On-Policy Reinforcement Learning Algorithm SARSA",
+      "summary": "THVAC systems in commercial buildings, particularly open-plan offices, account for substantial energy use. Thermal coupling between adjacent zones complicates control, while conventional rule-based and model-based approaches may not adapt effectively to changing occupancy and environmental conditions. Deep reinforcement learning methods can also impose high computational demands, limiting their practical deployment. This study developed and evaluated a lightweight, computationally inexpensive HVAC control policy for multi-zone open-plan offices using the on-policy reinforcement learning algori",
       "authors": [
-        "Dang Viet Anh Nguyen",
-        "Carlos Lima Azevedo",
-        "Tomer Toledo",
-        "Filipe Rodrigues"
+        "Mohamed Abdalla Abd El-Hameed Attia",
+        "Mohamed Abdelaal Ahmed Abdelaal",
+        "Elsayed Abd Elhameed Sallam"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -442,22 +365,15 @@
       "pick_emoji": "🎮"
     },
     {
-      "id": "W7213268533",
-      "url": "https://doi.org/10.3389/fdgth.2026.1851723",
-      "pdf": "https://doi.org/10.3389/fdgth.2026.1851723",
-      "title": "Application of artificial intelligence in hepatology",
-      "summary": "Artificial intelligence (AI) is being applied across diagnostic and therapeutic workflows in hepatology. This narrative review summarizes recent advances in AI for liver disease. In medical imaging and digital pathology, computer vision enables automated quantitative analysis of ultrasound, CT, MRI, and histologic images, with the aim of improving the consistency of lesion detection, disease staging, and prognostic assessment. In biomarker research, machine learning can analyze high-dimensional liquid-biopsy and multi-omics data to develop diagnostic and prognostic models; some have outperform",
+      "id": "W7212362910",
+      "url": "https://doi.org/10.17632/65rzpcgbp4",
+      "pdf": "https://doi.org/10.17632/65rzpcgbp4",
+      "title": "Soybean Seed Image Dataset for Healthy and Damaged Seed Detection",
+      "summary": "This dataset contains original soybean seed images developed for computer vision and object detection research, with a focus on the detection of healthy and damaged soybean seeds. The dataset consists of images captured using an Infinix HOT 60i smartphone under controlled imaging conditions, with soybean seeds placed on a white paper background. The dataset contains two classes: healthy seeds and damaged seeds. The original images are provided in their original form, together with corresponding annotations for object detection. A 640 × 640 pixel version of the images is also provided as a mode",
       "authors": [
-        "Zekai Hu",
-        "Yajie Lin",
-        "Hainv Gao",
-        "Leyao Shuai",
-        "Zhaowei Tong",
-        "Chenqi Nie",
-        "Zhe Yang",
-        "Junsheng Zhao"
+        "Rafiullah Rafi"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -467,19 +383,17 @@
       "pick_emoji": "👁"
     },
     {
-      "id": "W7164618779",
-      "url": "https://openalex.org/W7164618779",
+      "id": "W7213398813",
+      "url": "https://doi.org/10.64628/aa.f4yrmf95k",
       "pdf": "",
-      "title": "Embodied Psychological Flexibility in Acceptance and Commitment Therapy",
-      "summary": "Abstract Introduction A core therapeutic target in Acceptance and Commitment Therapy (ACT) is psychological flexibility, that is, acting in line with personal values while remaining open to private experiences (Harris, 2006). Evidence suggests that flexibility may be expressed through bodily postures, evidenced as open, aware, and engaged postures (Falletta-Cowden et al., 2022). This study aimed to develop a coding procedure and examine interrater reliability for the rating of body language during self-talk. Method 92 participants were assigned to a values-based self-talk condition (N=45) or a",
+      "title": "Why do some robots feel creepy? We deliberately built one to find out",
+      "summary": "",
       "authors": [
-        "Ebbe Mollerup",
-        "Nanna Bjerg Ramsdal",
-        "Emma Elkjær; id_orcid 0000-0002-1515-2520 Nygaard",
-        "Johannes Michalak",
-        "Mia Skytte O’Toole"
+        "Jessica Turner",
+        "Nicholas Vanderschantz",
+        "Jemma König"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -489,16 +403,20 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "W7204170729",
-      "url": "https://doi.org/10.1115/1.4072701",
-      "pdf": "https://arxiv.org/pdf/2608.22633",
-      "title": "Scaling-Based Reciprocal Control Barrier Functions for Nonholonomic Mobile Robots",
-      "summary": "Abstract This paper studies the construction of control barrier functions (CBFs) for force-controlled nonholonomic mobile robots subject to relative-degree-two safety constraints arising from position-level obstacle avoidance. A scaling-based reciprocal barrier construction is proposed, in which a positive motion-dependent scaling factor is placed in the numerator of a reciprocal barrier associated with the original physical safety function. The resulting barrier is defined exactly on the interior of the physical safe set and becomes singular on its boundary, thereby preserving the certified i",
+      "id": "W7213420313",
+      "url": "https://doi.org/10.1007/s00339-026-10228-7",
+      "pdf": "",
+      "title": "Coherent manipulation of Goos-Hänchen shift by effective milnor polynomial in a diamond-like atomic model",
+      "summary": "",
       "authors": [
-        "Tianyu Han",
-        "Bo Wang"
+        "Aleem Ullah",
+        "Latif Ur Rahman",
+        "Mashair Ahmed Mohammed Yousif",
+        "Naglaa Mohammed",
+        "Raad Abdul Kareem Nsaif",
+        "Nidal H. E. Eljaneid"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -508,15 +426,61 @@
       "pick_emoji": "🤖"
     },
     {
-      "id": "W7208039448",
-      "url": "https://openalex.org/W7208039448",
+      "id": "W7213422621",
+      "url": "https://doi.org/10.1007/s00170-026-19150-x",
       "pdf": "",
-      "title": "From Design to Real-World Impact: Enhancing Human–Robot Interaction through Personality-Driven Robots",
-      "summary": "Objective: Personality is a cognitive construct that shapes individuals’ characteristic patterns of thought, emotion, and behavior, influencing how they interact with others. Consequently, implementing personality in robots can significantly affect Human–Robot Interaction (HRI), shaping key dimensions such as trust, engagement, attention, empathy, and enjoyability. Although psychology lacks a univocal definition of human personality, several theoretical models, such as the Big Five, PEN, HEXACO, Cattell’s, and Myers–Briggs, aim to describe personality along trait dimensions. Psychological and ",
+      "title": "A method for automated programming of robot laser cutting through image-based toolpath extraction",
+      "summary": "",
       "authors": [
-        "Alice Nardelli"
+        "Bogdan Momčilović",
+        "Nikola Slavković",
+        "Saša Živanović",
+        "Zoran Miljković"
       ],
-      "published": "2026-09-16",
+      "published": "2026-09-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖"
+    },
+    {
+      "id": "W7213435736",
+      "url": "https://doi.org/10.1016/j.rcim.2026.103434",
+      "pdf": "",
+      "title": "Industrial robot fault detection and diagnosis for intelligent maintenance: A review of data, methods, and emerging trends",
+      "summary": "",
+      "authors": [
+        "Ruqiang Yan",
+        "Xin Zhu",
+        "Qianxi Dong",
+        "Mengyang Zhang",
+        "Ziren Yin",
+        "Zhibin Zhao",
+        "Xuefeng Chen"
+      ],
+      "published": "2026-09-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖"
+    },
+    {
+      "id": "W7213438536",
+      "url": "https://doi.org/10.1007/s10799-026-00510-8",
+      "pdf": "",
+      "title": "Can the application of industrial robots in the information and communication manufacturing promote green ICT innovation?",
+      "summary": "",
+      "authors": [
+        "Min Chen",
+        "Yonghong Tang"
+      ],
+      "published": "2026-09-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
