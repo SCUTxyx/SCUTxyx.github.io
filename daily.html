@@ -230,6 +230,10 @@
           <span class="ks-stat" id="stat-count">📚 — papers</span>
           <span class="ks-stat">🏆 ranked by interest score</span>
           <button class="ks-stat" id="refresh-btn" style="cursor:pointer;" title="re-fetch the feed">🔄 Refresh</button>
+          <input class="ks-stat" id="kw-input" type="text"
+                 placeholder="🔔 your keywords for 'For You' (comma-separated)"
+                 style="min-width:240px; cursor:text; font-family:'Patrick Hand',cursive; color:#7a5fd0; background:rgba(255,243,196,.55); border-color:rgba(230,175,60,.55);"
+                 autocomplete="off">
         </div>
       </div>
 
@@ -445,6 +449,9 @@
       c.classList.toggle('active', c.dataset.filter === filter);
     });
 
+    ['chips', 'paper-search', 'refresh-btn', 'kw-input'].forEach(function (id) {
+      if (!document.getElementById(id)) console.warn('daily: missing element #' + id);
+    });
     document.getElementById('chips').addEventListener('click', function (e) {
       var chip = e.target.closest('.chip[data-filter]');
       if (!chip) return;
