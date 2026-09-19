@@ -159,6 +159,14 @@
     }
     @keyframes spin { to { transform: rotate(360deg); } }
 
+    .fire-badge {
+      font-size: 0.8rem; margin-left: 6px; padding: 1px 8px;
+      border-radius: 999px; vertical-align: 1px; white-space: nowrap;
+    }
+    .fire-badge.fire1 { background: rgba(242,166,90,.14); color: #d97a35; }
+    .fire-badge.fire2 { background: rgba(232,131,74,.2); color: #c25a1a; }
+    .fire-badge.fire3 { background: rgba(224,86,76,.22); color: #b93a30; }
+
     .star-btn {
       background: none; border: none; cursor: pointer; font-size: 1.05rem;
       color: #b9c2d0; padding: 2px 4px; transition: transform .2s ease, color .2s ease;
@@ -246,6 +254,7 @@
         <span class="chip" data-filter="Reinforcement Learning">🎮 Reinforcement Learning</span>
         <span class="chip" data-filter="Computer Vision">👁 Computer Vision</span>
         <span class="chip" data-filter="AI & LLM">✨ AI &amp; LLM</span>
+        <span class="chip" data-filter="trending">🔥 Trending</span>
         <span class="chip" data-filter="starred">⭐ Starred</span>
         <span class="chip" data-filter="foryou">🔔 For You</span>
         <a class="chip" style="background: #fff3c4; border-color: rgba(230,175,60,.65); color: #b8860b;"
@@ -308,7 +317,12 @@
       if (p.pick === 'Embodied AI & Robotics') cls = 'pick-embodied';
       else if (p.pick === 'Reinforcement Learning') cls = 'pick-rl';
       else if (p.pick === 'Computer Vision') cls = 'pick-cv';
-      return '<span class="pick-badge ' + cls + '">' + esc(p.pick_emoji) + ' ' + esc(p.pick) + '</span>';
+      var flame = '';
+      var tr = p.trending || 0;
+      if (tr >= 4) flame = '<span class="fire-badge fire3">🔥🔥</span>';
+      else if (tr >= 2.5) flame = '<span class="fire-badge fire2">🔥</span>';
+      else if (tr >= 1.5) flame = '<span class="fire-badge fire1">✨</span>';
+      return '<span class="pick-badge ' + cls + '">' + esc(p.pick_emoji) + ' ' + esc(p.pick) + '</span>' + flame;
     }
 
     function getStars() {
@@ -323,6 +337,7 @@
       var q = (document.getElementById('paper-search').value || '').trim().toLowerCase();
       var kw = getKeywords();
       var shown = papers.filter(function (p) {
+        if (filter === 'trending') return (p.trending || 0) >= 1.5;
         if (filter === 'starred') return isStarred(p);
         if (filter === 'foryou') {
           var hay = (p.title + ' ' + p.summary).toLowerCase();
@@ -332,6 +347,9 @@
         var passSearch = !q || ((p.title + ' ' + p.authors.join(' ') + ' ' + p.summary).toLowerCase().indexOf(q) !== -1);
         return passFilter && passSearch;
       });
+      if (filter === 'trending') {
+        shown = shown.slice().sort(function (a, b) { return (b.trending || 0) - (a.trending || 0); });
+      }
       if (!shown.length) {
         var why = q ? 'Nothing matches “' + esc(q) + '” today.' : 'No papers in this shelf today — check another flavour!';
         feedEl.innerHTML = '<div class="status-box"><span class="big">🍂</span>' + why + '</div>';

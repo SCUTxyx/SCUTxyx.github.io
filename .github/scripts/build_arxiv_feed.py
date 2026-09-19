@@ -53,6 +53,27 @@ SCORERS = [
 RSS_NS = "{http://purl.org/rss/1.0/}"
 
 
+# ---- trending signals ----
+STAR_AUTHORS = [
+    "sergey levine", "chelsea finn", "pieter abbeel", "yuke zhu", "anima anandkumar",
+    "russ tedrake", "dieter fox", "jitendra malik", "kaiming he", "fei-fei li",
+    "andy zeng", "karol hausman", "brian ichter", "ted xiao", "anthonyBrohan",
+    "lerrel pinto", "vincent vanhoucke", "dorsa sadigh", "emma brunskill",
+    "hao su", "huazhe xu", "jiafei", "chenfeng xu", "xiaolong wang",
+]
+STAR_ORGS = [
+    "stanford", "berkeley", "mit", "cmu", "carnegie mellon", "deepmind",
+    "openai", "nvidia", "tsinghua", "peking university", "sjtu", "pku",
+    "hugging face", "eth zurich", "oxford", "princeton", "caltech", "meta ai",
+    "google deepmind", "ucsd", "umich", "georgia tech",
+]
+HOT_TERMS = [
+    "vla", "vision-language-action", "world model", "humanoid", "dexterous",
+    "sim-to-real", "foundation model", "diffusion policy", "flow matching",
+    "open-source", "benchmark", "state-of-the-art",
+]
+
+
 def http_get(url: str, timeout: int = 90) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": "scutxyx-homepage-feed/1.0"})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -153,6 +174,46 @@ def fetch_openalex(day_from: str, day_to: str) -> list:
             })
     return out
 
+def trend_score(paper: dict) -> float:
+    """Heuristic 'is this paper likely to matter?' score: known authors,
+    famous labs and hot-topic keywords in title+abstract."""
+    text = (paper["title"] + " " + paper["summary"]).lower()
+    score = 0.0
+    for a in paper.get("authors", []):
+        al = a.lower()
+        if any(s == al or s in al for s in STAR_AUTHORS):
+            score += 2.0
+        if any(o in al for o in STAR_ORGS):
+            score += 1.0
+    score += 1.5 * sum(1 for k in HOT_TERMS if k in text)
+    if paper.get("cited_by_count"):
+        score += min(3.0, paper["cited_by_count"] / 5.0)
+    return round(score, 2)
+
+
+def enrich_with_openalex(papers: list):
+    """Best-effort: attach cited_by_count from OpenAlex by title lookup.
+    Purely optional — enrichment failures never break the feed."""
+    if len(papers) > 20:
+        return
+    for p in papers[:20]:
+        try:
+            q = urllib.parse.urlencode({
+                "filter": "title.search:" + p["title"][:80],
+                "per-page": 1, "mailto": "1120135876@qq.com",
+            })
+            req = urllib.request.Request(f"{OPENALEX}?{q}",
+                                         headers={"User-Agent": "scutxyx-homepage-feed/1.0"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            res = data.get("results", [])
+            if res:
+                p["cited_by_count"] = res[0].get("cited_by_count", 0)
+        except Exception as e:
+            print(f"openalex enrich skipped ({e})", file=sys.stderr)
+            return
+
+
 def score(paper: dict) -> dict:
     text = (paper["title"] + " " + paper["summary"]).lower()
     best = ("✨", "AI & LLM", 0.0)
@@ -236,6 +297,9 @@ def main(out_path: str):
 
     papers.sort(key=lambda p: -p["score"])
     papers = papers[:24]
+    enrich_with_openalex(papers)
+    for p in papers:
+        p["trending"] = trend_score(p)
 
     feed = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
