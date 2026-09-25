@@ -1,4 +1,4 @@
-/* ✿ Sakura petals — lightweight canvas animation ✿ */
+/* ✿ Sakura petals + festival particles — lightweight canvas animation ✿ */
 (function () {
   if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
@@ -15,6 +15,15 @@
     'rgba(255, 218, 233, %a)'    // pale pink
   ];
 
+  /* festival override: when a festival theme is active, use its particle style */
+  var F = window.__festivalTheme || null;
+  if (F) {
+    PETAL_COUNT = F.particle.count;
+    if (F.particle.color) COLORS = [F.particle.color];
+  }
+  var PKIND = F ? F.particle.kind : 'sakura';
+  var CONFETTI_COLORS = ['#f78fb3', '#ffd76e', '#6cc5a3', '#8ec5f2', '#b69df2', '#ff6b6b'];
+
   function resize() {
     WIDTH = canvas.width = window.innerWidth;
     HEIGHT = canvas.height = window.innerHeight;
@@ -27,15 +36,24 @@
       this.x = random(0, WIDTH);
       this.y = anywhere ? random(-HEIGHT, 0) : random(-60, -10);
       this.size = random(5, 11);
-      this.speedY = random(0.6, 1.6);
-      this.speedX = random(-0.6, 0.6);
+      if (PKIND === 'confetti') this.size = random(6, 12);
+      this.speedY = PKIND === 'snow' ? random(0.9, 2.2) : random(0.6, 1.6);
+      if (PKIND === 'moon' || PKIND === 'lantern') this.speedY = random(0.3, 0.8); // floaters drift slower
+      this.speedX = PKIND === 'confetti' ? random(-1.4, 1.4) : random(-0.6, 0.6);
       this.rotation = random(0, Math.PI * 2);
-      this.spin = random(-0.02, 0.02);
+      this.spin = PKIND === 'confetti' ? random(-0.08, 0.08) : random(-0.02, 0.02);
       this.swayPhase = random(0, Math.PI * 2);
       this.swaySpeed = random(0.008, 0.02);
       this.swayAmp = random(0.4, 1.2);
       this.opacity = random(0.35, 0.8);
-      this.color = COLORS[Math.floor(random(0, COLORS.length))].replace('%a', this.opacity.toFixed(2));
+      if (PKIND === 'confetti') {
+        var c = CONFETTI_COLORS[Math.floor(random(0, CONFETTI_COLORS.length))];
+        // convert hex to rgba with opacity
+        var r = parseInt(c.slice(1, 3), 16), g = parseInt(c.slice(3, 5), 16), b = parseInt(c.slice(5, 7), 16);
+        this.color = 'rgba(' + r + ',' + g + ',' + b + ',' + this.opacity.toFixed(2) + ')';
+      } else {
+        this.color = COLORS[Math.floor(random(0, COLORS.length))].replace('%a', this.opacity.toFixed(2));
+      }
     };
     this.reset(startAnywhere);
   }
@@ -45,12 +63,66 @@
     ctx.translate(p.x, p.y);
     ctx.rotate(p.rotation);
     ctx.fillStyle = p.color;
-    ctx.beginPath();
-    // petal shape: two arcs forming a soft teardrop
-    ctx.moveTo(0, -p.size);
-    ctx.bezierCurveTo(p.size, -p.size, p.size, p.size * 0.4, 0, p.size);
-    ctx.bezierCurveTo(-p.size, p.size * 0.4, -p.size, -p.size, 0, -p.size);
-    ctx.fill();
+    switch (PKIND) {
+      case 'moon':   // glowing full moon
+        ctx.beginPath();
+        ctx.arc(0, 0, p.size * 0.9, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.globalAlpha = 0.3;
+        ctx.beginPath();
+        ctx.arc(0, 0, p.size * 1.4, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.globalAlpha = 1;
+        break;
+      case 'star':   // five-pointed star
+        ctx.beginPath();
+        for (var i = 0; i < 5; i++) {
+          var a = -Math.PI / 2 + i * Math.PI * 2 / 5;
+          ctx.lineTo(Math.cos(a) * p.size, Math.sin(a) * p.size);
+          a += Math.PI / 5;
+          ctx.lineTo(Math.cos(a) * p.size * 0.45, Math.sin(a) * p.size * 0.45);
+        }
+        ctx.closePath(); ctx.fill();
+        break;
+      case 'pumpkin': // little pumpkin
+        ctx.beginPath();
+        ctx.arc(0, 0, p.size * 0.8, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillRect(-p.size * 0.12, -p.size * 1.05, p.size * 0.24, p.size * 0.3);
+        break;
+      case 'snow':   // soft snowflake dot
+        ctx.globalAlpha = 0.85;
+        ctx.beginPath();
+        ctx.arc(0, 0, p.size * 0.42, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.globalAlpha = 1;
+        break;
+      case 'confetti': // rotating confetti rectangle
+        ctx.fillStyle = p.color;
+        ctx.fillRect(-p.size * 0.5, -p.size * 0.28, p.size, p.size * 0.56);
+        break;
+      case 'lantern': // red lantern
+        ctx.beginPath();
+        ctx.ellipse(0, 0, p.size * 0.75, p.size * 0.6, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillRect(-p.size * 0.3, -p.size * 0.72, p.size * 0.6, p.size * 0.14);
+        ctx.fillRect(-p.size * 0.3, p.size * 0.5, p.size * 0.6, p.size * 0.14);
+        break;
+      case 'heart':  // heart
+        var s = p.size / 9;
+        ctx.beginPath();
+        ctx.moveTo(0, s * 3);
+        ctx.bezierCurveTo(-s * 5, -s, -s * 3, -s * 5, 0, -s * 2);
+        ctx.bezierCurveTo(s * 3, -s * 5, s * 5, -s, 0, s * 3);
+        ctx.fill();
+        break;
+      default:       // sakura petal (original)
+        ctx.beginPath();
+        ctx.moveTo(0, -p.size);
+        ctx.bezierCurveTo(p.size, -p.size, p.size, p.size * 0.4, 0, p.size);
+        ctx.bezierCurveTo(-p.size, p.size * 0.4, -p.size, -p.size, 0, -p.size);
+        ctx.fill();
+    }
     ctx.restore();
   }
 
