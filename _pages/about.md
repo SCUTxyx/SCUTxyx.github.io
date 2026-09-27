@@ -38,7 +38,7 @@ Education
 <div class="experience-container">
 
   <div class="experience-card">
-      <img src="images/scut.svg" alt="SCUT logo" class="experience-logo">
+      <img src="images/scut-badge.png" alt="SCUT logo" class="experience-logo">
       <div class="experience-info">
           <strong>South China University of Technology (SCUT)</strong><br>
           <em>Sept. 2024 – June 2028 (Expected)</em><br>
@@ -47,7 +47,7 @@ Education
   </div>
 
   <div class="experience-card">
-      <img src="images/school.svg" alt="High school logo" class="experience-logo">
+      <img src="images/guangya-badge.svg" alt="High school logo" class="experience-logo">
       <div class="experience-info">
           <strong>Guangdong Guangya High School</strong><br>
           <em>Sept. 2021 – June 2024</em><br>
