@@ -47,7 +47,7 @@ Education
   </div>
 
   <div class="experience-card">
-      <img src="images/guangya-badge.svg" alt="High school logo" class="experience-logo">
+      <img src="images/guangya-badge.png" alt="High school logo" class="experience-logo">
       <div class="experience-info">
           <strong>Guangdong Guangya High School</strong><br>
           <em>Sept. 2021 – June 2024</em><br>
