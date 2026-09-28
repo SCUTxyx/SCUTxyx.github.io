@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27 22:42 UTC",
+  "generated_at": "2026-09-28 20:19 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,79 +9,15 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7166658297",
-      "url": "https://doi.org/10.1007/978-3-032-38470-6_30",
-      "pdf": "https://arxiv.org/pdf/2606.29247",
-      "title": "SurgVLA-Bench: Towards Evaluating Vision-Language-Action Models for Laparoscopic Surgical Robotics",
-      "summary": "",
+      "id": "W7214155898",
+      "url": "https://doi.org/10.5281/zenodo.22945776",
+      "pdf": "https://doi.org/10.5281/zenodo.22945776",
+      "title": "Does a Model Forget Differently When the Data Is Its Own? RL's Retention Advantage and Model Collapse Are Claims About the Same Loop, and No Study Has Measured Both",
+      "summary": "(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Two literatures make claims about what happens when a language model trains on data that resembles its own distribution. One asks whether reinforcement learning forgets a model's prior capabilities less than supervised fine-tuning does, and answers yes: on-policy RL is implicitly biased toward solutions that stay close, in KL divergence, to the base policy, while supervised fine-tuning can converge to distributions arbitrarily far away (Shenfeld, Pari and Agrawal, 2025). The other asks whether a model trained recursively on its own generat",
       "authors": [
-        "J F Sun",
-        "Y He",
-        "Wenxuan Liu",
-        "Tao Mao",
-        "Jiazheng Wang",
-        "Xiang Chen",
-        "M Y Liu"
+        "Pranay M. Mahendrakar"
       ],
-      "published": "2026-09-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7196969567",
-      "url": "https://doi.org/10.5281/zenodo.21823643",
-      "pdf": "https://doi.org/10.5281/zenodo.21823643",
-      "title": "Renaissance: The Sovereign Physical Intelligence via Resonance Plexus Framework",
-      "summary": "Technical White Paper v2.0 | Document ID: QN-RP-2026-V2.0 Affiliation: QuantNature Global (https://www.quantnature.com)Release Date: September 24, 2026 Executive Summary This white paper presents the Resonance Plexus (RP v2.0), an authoritative non-symbolic physical intelligence framework designed to overcome the structural brittleness of classical symbolic logic and the catastrophic inferential latency of generative foundation models (VLA/LLM) in embodied robotic control. Grounded in the paradigm of Sovereign Physical Intelligence (SPI), the architecture transmutes continuous multi-modal stim",
-      "authors": [
-        "QuantNature Global"
-      ],
-      "published": "2026-09-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7214034470",
-      "url": "https://doi.org/10.17632/5jmk8cnmtg",
-      "pdf": "https://doi.org/10.17632/5jmk8cnmtg",
-      "title": "Distance-Aware Inverse Reinforcement Learning Dataset for Robotic Grasping",
-      "summary": "This dataset contains state-action observations collected from a low-cost robotic manipulator during expert-guided demonstrations for robotic grasping. Each observation records four joint measurements, the scanning-servo angle of the time-of-flight (ToF) distance sensor, the measured distance between the robot and the target object, and the corresponding action label. The dataset is intended to support research on inverse reinforcement learning, learning from demonstration, robotic action selection, and resource-constrained autonomous robotic grasping.",
-      "authors": [
-        "Paikhomba Wangkheimayum"
-      ],
-      "published": "2026-09-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214153400",
-      "url": "https://doi.org/10.5281/zenodo.22944132",
-      "pdf": "https://doi.org/10.5281/zenodo.22944132",
-      "title": "RegTrace v1 — FDA Regulatory Trajectory Dataset for Reinforcement Learning",
-      "summary": "This page on Zenodo hosts a free sample only (50 trajectories) — not the full dataset. The complete RegTrace v1 dataset — 29,395 trajectories, 457 SFT traces with full CRL letter text, and 795 forecasting records — is available at sentineldata.com.ua/dataset/regtrace-v1. This sample is a true, unmodified subset of the full dataset (the first 50 rich episodes) and contains: regtrace_v1_sample.parquet — 50 rows × 14 columns, flat tabular view with deficiency counts and outcomes regtrace_v1_sample_episodes.jsonl — 50 full RL episodes with decision-point turns, rewards, and CRL observations Datase",
-      "authors": [
-        "CODE SENTINEL DATA",
-        "Chekerskyi Maksym"
-      ],
-      "published": "2026-09-24",
+      "published": "2026-09-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -92,118 +28,43 @@
       "trending": 0.0
     },
     {
-      "id": "W7126197901",
-      "url": "https://doi.org/10.5281/zenodo.18445179",
-      "pdf": "https://doi.org/10.5281/zenodo.18445179",
-      "title": "Physical AI for Oncology Clinical Trials",
-      "summary": "Practical tools for integrating physical AI into oncology clinical trials. Provides production-ready configurations, validated pipelines, and integration guides for deploying robotic systems, digital twins, and embodied AI agents in oncology. Covers NVIDIA Isaac Lab, MuJoCo, ORBIT-Surgical, dVRK, and agentic/generative AI frameworks.",
+      "id": "W7214180765",
+      "url": "https://doi.org/10.5281/zenodo.22945775",
+      "pdf": "https://doi.org/10.5281/zenodo.22945775",
+      "title": "Does a Model Forget Differently When the Data Is Its Own? RL's Retention Advantage and Model Collapse Are Claims About the Same Loop, and No Study Has Measured Both",
+      "summary": "(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Two literatures make claims about what happens when a language model trains on data that resembles its own distribution. One asks whether reinforcement learning forgets a model's prior capabilities less than supervised fine-tuning does, and answers yes: on-policy RL is implicitly biased toward solutions that stay close, in KL divergence, to the base policy, while supervised fine-tuning can converge to distributions arbitrarily far away (Shenfeld, Pari and Agrawal, 2025). The other asks whether a model trained recursively on its own generat",
       "authors": [
-        "Kevin Kawchak"
+        "Pranay M. Mahendrakar"
       ],
-      "published": "2026-09-27",
+      "published": "2026-09-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7204689700",
-      "url": "https://doi.org/10.5281/zenodo.22179171",
-      "pdf": "https://doi.org/10.5281/zenodo.22179171",
-      "title": "Awesome Embodied AI & Sim2Real: A Living Evidence Map for ROS 2, VLA, and Sim2Real",
-      "summary": "A curated collection of 62 foundational papers on Embodied AI, Vision-Language-Action (VLA) models, Sim2Real transfer, and the integration of Large Language Models with ROS 2. Includes structured metadata (papers.csv), research protocol, and identified research gaps across four sublines: multimodal perception, semantic planning, edge AI inference, and Sim2Real safety.",
-      "authors": [
-        "Henry Antonio Roncancio Velandia"
-      ],
-      "published": "2026-09-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7214478800",
-      "url": "https://doi.org/10.5281/zenodo.22983770",
-      "pdf": "https://doi.org/10.5281/zenodo.22983770",
-      "title": "Physical AI for Oncology Clinical Trials",
-      "summary": "Practical tools for integrating physical AI into oncology clinical trials. Provides production-ready configurations, validated pipelines, and integration guides for deploying robotic systems, digital twins, and embodied AI agents in oncology. Covers NVIDIA Isaac Lab, MuJoCo, ORBIT-Surgical, dVRK, and agentic/generative AI frameworks.",
-      "authors": [
-        "Kevin Kawchak"
-      ],
-      "published": "2026-09-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214482308",
-      "url": "https://doi.org/10.5281/zenodo.22984143",
-      "pdf": "https://doi.org/10.5281/zenodo.22984143",
-      "title": "Awesome Embodied AI & Sim2Real: A Living Evidence Map for ROS 2, VLA, and Sim2Real",
-      "summary": "A curated collection of 62 foundational papers on Embodied AI, Vision-Language-Action (VLA) models, Sim2Real transfer, and the integration of Large Language Models with ROS 2. Includes structured metadata (papers.csv), research protocol, and identified research gaps across four sublines: multimodal perception, semantic planning, edge AI inference, and Sim2Real safety.",
-      "authors": [
-        "Henry Antonio Roncancio Velandia"
-      ],
-      "published": "2026-09-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7214501493",
-      "url": "https://doi.org/10.1007/s11701-026-04000-5",
+      "id": "W7214523613",
+      "url": "https://doi.org/10.1007/s00264-026-07042-4",
       "pdf": "",
-      "title": "Autonomous robotic surgery, surgical video and world models: what the surgeon needs to know about the next computational layer of the operating theatre",
+      "title": "Less inflammation and early functional recovery after total hip arthroplasty performed with robotic arm assistance than with computed tomography-based navigation: a propensity score-matched comparative study",
       "summary": "",
       "authors": [
-        "Carlos Blanco Velázquez",
-        "Diego González Oviaño",
-        "Isabel Santos Ramos",
-        "Laura Llorente Sanz",
-        "Julio M. Mayol"
+        "Yasuyuki Omichi",
+        "Tomohiro Goto",
+        "Gakuto Yoshida",
+        "Yusaku Nakayama",
+        "Michihiro Takai",
+        "Ryosuke Sato",
+        "Tetsuya Enishi",
+        "Yasuaki Tamaki",
+        "Koichi Sairyo",
+        "Shunji Nakano"
       ],
-      "published": "2026-09-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7203706879",
-      "url": "https://doi.org/10.17632/yctpcddnm7",
-      "pdf": "https://doi.org/10.17632/yctpcddnm7",
-      "title": "Tactile Data of 12 Textures on Uneven Surfaces Collected with a 6-DoF Robotic Arm",
-      "summary": "This dataset provides tactile data captured with the BioIn-Tacto multimodal tactile sensing module [1, 2] mounted on the end-effector of a Lite6 robotic arm [3]. It includes barometric and MARG (Magnetic, Angular Rate, and Gravity) data to support research in texture recognition and robotic manipulation, collected as the manipulator moved the sensing module across 12 textures applied to concave/convex surfaces. Data/ ├── 0_Raw: Raw CSVs extracted from ROS bags, organized by shape/texture(T1–T12)/experiment (25 movements per texture). ├── 1_Merged: Raw per-sensor CSVs merged into a single time-",
-      "authors": [
-        "Soheil Khatibi",
-        "Frederico Luiz Martins de Sousa",
-        "Mateus Nazário Coelho",
-        "Vinicius Prado da Fonseca",
-        "Thiago Eustaquio Alves de Oliveira"
-      ],
-      "published": "2026-09-24",
+      "published": "2026-09-28",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -214,18 +75,25 @@
       "trending": 0.0
     },
     {
-      "id": "W7203684892",
-      "url": "https://doi.org/10.1038/s41598-026-72833-z",
-      "pdf": "https://www.nature.com/articles/s41598-026-72833-z_reference.pdf",
-      "title": "Energy-aware hybrid artificial bee colony and reinforcement learning for multi-objective task scheduling in green cloud–fog industrial IoT systems",
-      "summary": "Efficient task scheduling in Cloud–Fog computing environments remains a critical challenge in Industrial Internet of Things (IIoT) systems due to the conflicting requirements of energy efficiency, latency reduction, and Quality of Service (QoS) assurance. This paper proposes an Energy-Aware Improved Artificial Bee Colony (EA-IABC) algorithm integrated with a Q-learning-based reinforcement learning (RL) module for multi-objective task scheduling in Green IIoT infrastructures. The proposed method enhances the exploration and exploitation capabilities of the standard Artificial Bee Colony (ABC) a",
+      "id": "W7147069775",
+      "url": "https://doi.org/10.1007/978-3-032-38236-8_49",
+      "pdf": "https://arxiv.org/pdf/2603.26720",
+      "title": "SutureFormer: Learning Surgical Trajectories via Goal-Conditioned Offline RL in Pixel Space",
+      "summary": "",
       "authors": [
-        "Bo Feng",
-        "Jiayi Yang",
-        "Yi Liu",
-        "Yunyun Yao"
+        "Huanrong Liu",
+        "Chunlin Tian",
+        "Tongyu Jia",
+        "Tailai Zhou",
+        "Qin Liu",
+        "Yu Gao",
+        "Yutong Ban",
+        "Yun Gu",
+        "Guy Rosman",
+        "Xin Ma",
+        "Qingbiao Li"
       ],
-      "published": "2026-09-24",
+      "published": "2026-09-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -236,19 +104,19 @@
       "trending": 0.0
     },
     {
-      "id": "W7214154700",
-      "url": "https://doi.org/10.17632/hnst584z46.1",
-      "pdf": "https://doi.org/10.17632/hnst584z46.1",
-      "title": "RL-ABC: Reinforcement learning for accelerator beamline control",
-      "summary": "Particle accelerator beamline optimization is a high-dimensional control problem traditionally requiring significant expert intervention. We present RLABC (Reinforcement Learning for Accelerator Beamline Control), an open-source Python framework that automatically transforms standard Elegant beamline configurations into reinforcement learning environments. RLABC integrates with the widely-used Elegant beam dynamics simulation code via SDDS-based interfaces, enabling researchers to apply modern RL algorithms to beamline optimization with minimal RL-specific development. The main contribution is",
+      "id": "W7126209101",
+      "url": "https://doi.org/10.1145/3773078.3831745",
+      "pdf": "https://doi.org/10.1145/3773078.3831745",
+      "title": "SAGE: Sequence-level Adaptive Gradient Evolution for Generative Recommendation",
+      "summary": "Generative recommenders increasingly train Semantic-ID models to autoregressively generate length-L slates, aligned to user feedback by reinforcement learning. Gradient-Bounded Policy Optimization (GBPO) stabilizes this stage with a BCE-stable asymmetric gradient bound, but its clipping boundary is computed per sample and is therefore blind to three recommendation-specific signals—rare-positive value, low-diversity negative slates, and multi-objective reward resolution—a limitation we call the Static Boundary Bottleneck. We propose SAGE (Sequence-level Adaptive Gradient Evolution), which keeps",
       "authors": [
-        "Anwar Ibrahim",
-        "Fedor Ratnikov",
-        "Maxim Kaledin",
-        "Alexey Petrenko",
-        "Denis Derkach"
+        "Yu Xie",
+        "Xing Kai Ren",
+        "Ying Qi",
+        "Ping Yang",
+        "Yao Hu"
       ],
-      "published": "2026-09-24",
+      "published": "2026-09-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -256,43 +124,203 @@
       "score": 7.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214516886",
+      "url": "https://doi.org/10.5281/zenodo.23003696",
+      "pdf": "https://doi.org/10.5281/zenodo.23003696",
+      "title": "perfbound: data-driven discovery of performance boundaries",
+      "summary": "Companion code and data for: Jahanshahi H, Zhu ZH. Data-Driven Discovery of Performance Boundaries in Robotic Systems through Extreme Quantile Estimation. PLOS ONE. 2026. doi:10.1371/journal.pone.0352196 Contents: perfbound: installable Python package implementing the boundary-discovery method (discover_boundary, bootstrap_boundary) reproduction: all analysis scripts behind the paper (a01-a08) and the figure-generation script data: UR10e tracking dataset, per-push dataset derived from the public MIT MCube benchmark, and the validation datasets figures: the eight manuscript figures",
+      "authors": [
+        "Hadi Jahanshahi",
+        "Zheng Hong Zhu"
+      ],
+      "published": "2026-09-28",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 1.5
     },
     {
-      "id": "W7214155059",
-      "url": "https://doi.org/10.17632/hnst584z46",
-      "pdf": "https://doi.org/10.17632/hnst584z46",
-      "title": "RL-ABC: Reinforcement learning for accelerator beamline control",
-      "summary": "Particle accelerator beamline optimization is a high-dimensional control problem traditionally requiring significant expert intervention. We present RLABC (Reinforcement Learning for Accelerator Beamline Control), an open-source Python framework that automatically transforms standard Elegant beamline configurations into reinforcement learning environments. RLABC integrates with the widely-used Elegant beam dynamics simulation code via SDDS-based interfaces, enabling researchers to apply modern RL algorithms to beamline optimization with minimal RL-specific development. The main contribution is",
+      "id": "W7214518692",
+      "url": "https://doi.org/10.3389/fonc.2026.1957208",
+      "pdf": "https://doi.org/10.3389/fonc.2026.1957208",
+      "title": "Cystoscopic submucosal indocyanine green marking in robot-assisted radical nephroureterectomy: a multicenter cohort study",
+      "summary": "Background Distal ureter and bladder cuff dissection can be difficult during robot-assisted radical nephroureterectomy (RA-RNU) for upper tract urothelial carcinoma (UTUC), particularly in the deep pelvis where tactile feedback is limited. We evaluated cystoscopic submucosal indocyanine green (ICG) marking around the ureteral orifice as a navigation aid for this step. Methods Adults who underwent RA-RNU with formal bladder cuff excision for clinically localized UTUC (≤T3, M0) at three centers between January 2019 and November 2024 were retrospectively analyzed. Outcomes were compared between s",
       "authors": [
-        "Anwar Ibrahim",
-        "Fedor Ratnikov",
-        "Maxim Kaledin",
-        "Alexey Petrenko",
-        "Denis Derkach"
+        "Runyi Wang",
+        "Menghua Wu",
+        "Haozhou Wang",
+        "Hui Liu",
+        "Xin Zheng"
       ],
-      "published": "2026-09-24",
+      "published": "2026-09-28",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214521841",
+      "url": "https://doi.org/10.3389/frobt.2026.1828495",
+      "pdf": "https://doi.org/10.3389/frobt.2026.1828495",
+      "title": "Comparing simulation and physical kilobots performance in two ant-inspired foraging behaviours",
+      "summary": "Robotics looks to nature for inspiration to perform effectively in unstructured environments and can be used to test biological hypotheses. Social animals often share information about food source locations like tandem running in ants, where a leader guides a naive recruit to a known profitable food site. This is extremely advantageous as it allows the sharing of important information among colony members, but it also has costs, such as waiting time inside the nest when no leaders are around, and a reduced walking speed for the tandem couple compared to individuals. Whether and when these cost",
+      "authors": [
+        "Niamh Ellis",
+        "Jonathan Kelly",
+        "Alexander Caravaggio",
+        "Ian Young",
+        "Fabio Manfredini",
+        "Maria Elena Giannaccini"
+      ],
+      "published": "2026-09-28",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214523094",
+      "url": "https://doi.org/10.33423/25102b43",
+      "pdf": "",
+      "title": "Designing a framework for Sustainable Smart Agriculture with Mobile Robots and CNN",
+      "summary": "Advances in artificial intelligence, robotics, and computer vision enable intelligent gardening systems that reduce manual monitoring. This study presents a smart gardening framework integrating a mobile robot with convolutional neural network (CNN) flower recognition. The robot captures garden images, while the CNN classifies flower species and provides plant-specific information for future care decisions. Using 50 training images and 50 independent testing images, the model achieved 92.0% training accuracy and 95.0% testing accuracy. The framework connects robotic image acquisition with auto",
+      "authors": [
+        "Ting Zhang",
+        "Oanh Phan",
+        "Jiang Lu"
+      ],
+      "published": "2026-09-28",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214535904",
+      "url": "https://doi.org/10.3389/frobt.2026.1886514",
+      "pdf": "https://doi.org/10.3389/frobt.2026.1886514",
+      "title": "High-precision universality? A matched-pair sawbone study on the learning curve, accuracy, and implant interchangeability of a novel open-platform robotic UKA system",
+      "summary": "Background Robotic-assisted unicompartmental knee arthroplasty (UKA) improves implant positioning over conventional techniques, but commercial systems commonly bind the robotic platform to a single implant manufacturer, restricting clinical flexibility. Open-platform systems offer a vendor-neutral alternative, yet their effect on novice execution precision and workflow stability during implant switching remains insufficiently characterized. Methods A prospective exploratory matched-pair case series was conducted on standardized synthetic bone models (Sawbones). Two robotic-naïve medical studen",
+      "authors": [
+        "Pengyu Zhan",
+        "Ziyue Liu",
+        "Boran Liang",
+        "Yugang Xing",
+        "Xingyu Liu",
+        "Yiling Zhang",
+        "Jing Chen"
+      ],
+      "published": "2026-09-28",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214538162",
+      "url": "https://doi.org/10.1007/s11701-026-04008-x",
+      "pdf": "https://doi.org/10.1007/s11701-026-04008-x",
+      "title": "Medical students’ perceptions and curriculum preferences for robotic surgery in Oman: a cross-sectional study",
+      "summary": "Abstract Robotic surgery is an advanced form of minimally invasive surgery, and its use has continued to grow worldwide. Despite this, undergraduate medical education has not expanded at the same rate, and formal exposure to robotic surgery remains limited in many settings, including Oman. A structured educational needs assessment is an important first step in curriculum development. Understanding medical students’ perceived knowledge, attitudes, and preferred learning approaches can help guide the introduction of robotic surgery into undergraduate and postgraduate training. This study therefo",
+      "authors": [
+        "Abdullah Al Lawati",
+        "Azzan Al-Wahshi",
+        "Lubna Al Hashmi",
+        "Ali Abduwani",
+        "Ibrahim Al-Sibayi",
+        "Ahmed Al-Rawahi",
+        "Said A. Al‐Busafi",
+        "Hani Al-Qadhi"
+      ],
+      "published": "2026-09-28",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214542479",
+      "url": "https://doi.org/10.1007/s11701-026-04010-3",
+      "pdf": "",
+      "title": "Robotic versus laparoscopic rectal cancer surgery after neoadjuvant chemoradiotherapy",
+      "summary": "",
+      "authors": [
+        "Dimitrios Vlahos",
+        "Nikolaos Karountzos",
+        "Dionysios Prevezanos",
+        "Mike K. Konstantinides",
+        "Konstantinos Kossenas"
+      ],
+      "published": "2026-09-28",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.0
+    },
+    {
+      "id": "W7214542587",
+      "url": "https://doi.org/10.5281/zenodo.23003695",
+      "pdf": "https://doi.org/10.5281/zenodo.23003695",
+      "title": "perfbound: data-driven discovery of performance boundaries",
+      "summary": "Companion code and data for: Jahanshahi H, Zhu ZH. Data-Driven Discovery of Performance Boundaries in Robotic Systems through Extreme Quantile Estimation. PLOS ONE. 2026. doi:10.1371/journal.pone.0352196 Contents: perfbound: installable Python package implementing the boundary-discovery method (discover_boundary, bootstrap_boundary) reproduction: all analysis scripts behind the paper (a01-a08) and the figure-generation script data: UR10e tracking dataset, per-push dataset derived from the public MIT MCube benchmark, and the validation datasets figures: the eight manuscript figures",
+      "authors": [
+        "Hadi Jahanshahi",
+        "Zheng Hong Zhu"
+      ],
+      "published": "2026-09-28",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 1.5
     },
     {
-      "id": "W7214461067",
-      "url": "https://doi.org/10.1007/s11701-026-03997-z",
-      "pdf": "",
-      "title": "Single-port versus multiport robotic hysterectomy for large myomatous uteri: a comparison of operative time and perioperative outcomes",
+      "id": "W7214543768",
+      "url": "https://doi.org/10.21203/rs.3.rs-11042518/v1",
+      "pdf": "https://doi.org/10.21203/rs.3.rs-11042518/v1",
+      "title": "A Step-Size-Based Spectral Three-Term Conjugate Gradient Method for Unconstrained Optimization with Applications to Robotic Motion Control and Image Denoising",
       "summary": "",
       "authors": [
-        "Gürhan Güney",
-        "Jamal Mourad",
-        "Johnny Yi"
+        "Kabir Mohammed",
+        "Muhammad Sulaiman Muhammad",
+        "Mohammed Yusuf Waziri",
+        "Musa Haruna"
       ],
-      "published": "2026-09-27",
+      "published": "2026-09-28",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -303,72 +331,19 @@
       "trending": 0.0
     },
     {
-      "id": "W7214467447",
-      "url": "https://doi.org/10.5463/thesis.1838",
+      "id": "W7214559385",
+      "url": "https://doi.org/10.1007/s11701-026-04005-0",
       "pdf": "",
-      "title": "Gaze estimation for social robotics",
-      "summary": "A single glance can say a lot. It can show interest, attract attention, hint at what someone wants, or regulate turn-taking. Humans use gaze naturally in social life, and as social robots enter hospitals, classrooms, and public spaces, they need to understand this silent language too. A robot with eyes and a face that ignores gaze, or responds at the wrong moment, can feel strange and lose people’s trust. Accurate gaze estimation has traditionally relied on specialized hardware such as dedi- cated eye trackers, which are often expensive, intrusive, and difficult to deploy in natural human-robo",
-      "authors": [
-        "Linlin Cheng"
-      ],
-      "published": "2026-09-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214467966",
-      "url": "https://doi.org/10.1007/s11701-026-03987-1",
-      "pdf": "https://doi.org/10.1007/s11701-026-03987-1",
-      "title": "Robotic versus open mesh-enforced retrorectus ventral hernia repair: a multi-center comparative study",
-      "summary": "Abstract Mesh-enforced open ventral hernia repair (OVHR) is associated with increased surgical site occurrences and prolonged hospital stay. Robotic-assisted ventral hernia repair (RVHR) may offer benefits compared to OVHR, but comparative literature is scarce. This multicenter prospective cohort study used data from the international CROSSFIRE (MultiCentre InteRnational PrOSpective DatabaSe For Ventral HernIa REpair) register. Patients undergoing OVHR or RVHR for ventral hernias with 3–15 cm transverse diameter between December 2023 and March 2026 were analyzed. The primary outcome was surgic",
-      "authors": [
-        "Johannes Baur",
-        "Marie-Therese Böttcher",
-        "Anna Rümmele-Vogt",
-        "Michael Meir",
-        "Regina Pistorius",
-        "Jörg Filser",
-        "Beat Peter Müller-Stich",
-        "Daniel Christian Steinemann",
-        "Fiorenzo Angehrn",
-        "Julian Süsstrunk",
-        "the CROSSFIRE study group"
-      ],
-      "published": "2026-09-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214479686",
-      "url": "https://doi.org/10.1007/s11701-026-03969-3",
-      "pdf": "",
-      "title": "Comparative analysis of clinical efficacy between OSR-2000 robotic-assisted total knee arthroplasty and conventional manual surgery for knee osteoarthritis: a retrospective cohort study",
+      "title": "Public information-seeking about orthopedic surgical robotics: a decade-scale infodemiological analysis and forecast through 2030",
       "summary": "",
       "authors": [
-        "Yuchen Xu",
-        "Jianguo Zhang",
-        "Yinhao Zeng",
-        "Huiwu Wang",
-        "Fan Cheng",
-        "鲍运平",
-        "Feng Tian",
-        "Zhengrong Zhu",
-        "Pan Jin",
-        "Lixue Zou"
+        "Yakup Kahve",
+        "Tahsin Aydın",
+        "Utku Gürhan",
+        "Erman Ceyhan",
+        "Özdamar Fuad Öken"
       ],
-      "published": "2026-09-27",
+      "published": "2026-09-28",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -379,22 +354,24 @@
       "trending": 0.0
     },
     {
-      "id": "W7214490459",
-      "url": "https://doi.org/10.1007/s11701-026-04004-1",
-      "pdf": "https://doi.org/10.1007/s11701-026-04004-1",
-      "title": "Transition from laparoscopic to robotic hepatectomy within a minimally invasive liver surgery program: risk-adjusted learning curve assessment by multiple continuous outcomes",
-      "summary": "Abstract Training in minimally invasive liver surgery (MILS) usually encompasses prior laparoscopic liver resection (LLR) experience before moving to robotic liver resections (RLR). We analyzed the risk-adjusted learning curve of MILS within the transition from LLR to RLR. Consecutive LLR and RLR from a surgeon trained sequentially in the two techniques were reviewed. Multiple regression analysis was used to adjust for patient- and hepatectomy-related confounders. The cumulative sum (CUSUM) analysis of the risk-adjusted operative time, blood loss, and comprehensive complication index (CCI) was",
+      "id": "W7214564562",
+      "url": "https://doi.org/10.1007/s11701-026-03973-7",
+      "pdf": "",
+      "title": "Comparison of perioperative outcomes between laparoscopy and robotic-assisted surgery in the surgical treatment of endometriosis: a retrospective study",
+      "summary": "",
       "authors": [
-        "Lorenzo Bernardi",
-        "Eleonora Garosi",
-        "Raffaello Roesel",
-        "Francesco Mongelli",
-        "Isabella Hunjan",
-        "V. Sitta",
-        "Pietro Majno-Hurst",
-        "Alessandra Cristaudi"
+        "Marina Quaglio Oinegue Fulfaro",
+        "Tatiani Araújo Pandim",
+        "Gustavo Anderman Silva Barison",
+        "Priscila Duarte Pessoa",
+        "Guilherme A. Sampaio",
+        "Júlia Pereira Junho e Silva",
+        "Antonio Phelipe Junior",
+        "Sérgio Podgaec",
+        "Eduardo Zlotnik",
+        "Mariano Tamura Vieira Gomes"
       ],
-      "published": "2026-09-27",
+      "published": "2026-09-28",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -405,16 +382,19 @@
       "trending": 0.0
     },
     {
-      "id": "W7214066123",
-      "url": "https://doi.org/10.1186/s43067-026-00407-0",
-      "pdf": "https://link.springer.com/content/pdf/10.1186/s43067-026-00407-0.pdf",
-      "title": "Dynamic federated multi-agent planning under partial observability and network instability for real-time edge applications",
-      "summary": "Abstract In recent years, the proliferation of autonomous systems at the edge—including robotic swarms, autonomous vehicles, and intelligent sensor networks—has highlighted the urgent need for resilient multi-agent planning under uncertain, decentralized conditions. Traditional multi-agent planning architectures typically assume stable communication links and complete observability, conditions that are rarely met in real-world deployments marked by dynamic network topologies, delayed information exchange, and partial observability. This paper introduces Dynamic Federated Multi-Agent Planning (",
+      "id": "W7135083228",
+      "url": "https://doi.org/10.1007/978-3-032-38236-8_42",
+      "pdf": "https://arxiv.org/pdf/2603.10220",
+      "title": "Robotic Ultrasound Makes CBCT Alive",
+      "summary": "",
       "authors": [
-        "Milad Rahmati",
-        "Nasrin Rahmati"
+        "Feng Li",
+        "Ziyuan Li",
+        "Zhongliang Jiang",
+        "Nassir Navab",
+        "Yuan Bi"
       ],
-      "published": "2026-09-24",
+      "published": "2026-09-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -425,15 +405,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7214145048",
-      "url": "https://doi.org/10.5281/zenodo.22940052",
-      "pdf": "https://doi.org/10.5281/zenodo.22940052",
-      "title": "Anonymized dataset for \"First Use of a Consumer-Grade EEG-Controlled Robotic Hand: An Exploratory Study of Actionable Control and User Experience\"",
-      "summary": "Per-participant objective interaction measures and post-interaction subjective ratings for eight participants (coded P1–P8). No personally identifying or demographic data.",
+      "id": "W7138312747",
+      "url": "https://doi.org/10.1007/978-3-032-38236-8_21",
+      "pdf": "https://arxiv.org/pdf/2603.14393",
+      "title": "From Scanning Guidelines to Action: A Robotic Ultrasound Agent with LLM-Based Reasoning",
+      "summary": "",
       "authors": [
-        "Charlotte De Sainte Maresville"
+        "Yuan Bi",
+        "Yiping Zhou",
+        "Pei Liu",
+        "Feng Li",
+        "Zhongliang Jiang",
+        "Nassir Navab"
       ],
-      "published": "2026-09-24",
+      "published": "2026-09-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -444,18 +429,89 @@
       "trending": 0.0
     },
     {
-      "id": "W7214430115",
-      "url": "https://doi.org/10.1007/s10586-026-06444-8",
-      "pdf": "https://doi.org/10.1007/s10586-026-06444-8",
-      "title": "A novel real-time integrated adaptive stable offloading (RIASO) algorithm in multi-access edge computing",
-      "summary": "Abstract Mobile Edge Computing (MEC) and Mobile Computation Offloading (MCO) help IoT devices with limited computational capabilities and battery by offloading tasks to the nearest resource-rich servers in MEC. Deciding to execute the tasks at the user device or the edge server can be optimized by AI techniques such as Deep Reinforcement Learning (DRL). In this paper, A Real-time Integrated Adaptive Stable Offloading (RIASO) algorithm is proposed based on Lyapunov optimization (LO), Multi Output Learning (MOL), and DRL. In RIASO, a new training policy that regulates the start time of the train",
+      "id": "W7151556028",
+      "url": "https://doi.org/10.1007/978-3-032-38236-8_28",
+      "pdf": "https://arxiv.org/pdf/2604.03781",
+      "title": "OpenRC: An Open-Source Robotic Colonoscopy Framework for Multimodal Data Acquisition and Autonomy Research",
+      "summary": "",
       "authors": [
-        "Hala Elhadidy",
-        "Heba Saleh",
-        "Rawya Rizk",
-        "Walaa Saber"
+        "Siddhartha Kapuria",
+        "Mohammad Rafiee Javazm",
+        "Naruhiko Ikoma",
+        "Joga Ivatury",
+        "Mohammad Ali Nasseri",
+        "Nassir Navab",
+        "Farshid Alambeigi"
       ],
-      "published": "2026-09-27",
+      "published": "2026-09-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7155718017",
+      "url": "https://doi.org/10.5281/zenodo.19781683",
+      "pdf": "https://doi.org/10.5281/zenodo.19781683",
+      "title": "The Convergence Index: The Mixing Zone of Human Mechanization and AI Humanization",
+      "summary": "Bioethics has debated human enhancement (prosthetics, brain-computer interfaces, cognitive offloading), charting the progressive mechanization of body and mind, while AI ethics has examined AI humanization: robotic embodiment, emotional simulation, legal personhood. These two traditions have developed in isolation. This paper argues that the two trajectories converge along a single axis rather than running parallel, and proposes the Convergence Index (CI) for measuring their mutual approach. CI is defined as CI = 1 − |FRR − AIHR|, where the Functional Residual Ratio (FRR) captures the degree t",
+      "authors": [
+        "Kenji Yamada"
+      ],
+      "published": "2026-09-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214274170",
+      "url": "https://doi.org/10.1002/9781394399222.ch24",
+      "pdf": "",
+      "title": "Next‐Generation Robotic Perception Artificial Intelligence Design, Development, and Real‐World Impacts",
+      "summary": "Artificial intelligence (AI)–driven robotic vision is transforming the domains of autonomous mobility, healthcare, geological research, and space exploration. This work examines the integration of deep learning, sensor fusion, edge AI, and multimodal geospatial intelligence into robotic perception systems. Convolutional neural networks, transformers, LiDAR (light detection and ranging), edge computing, and AI-augmented geospatial analysis exemplify essential technologies. Advancements such as neuromorphic computing, biomimetic vision, autonomous learning, and adaptive reinforcement learning en",
+      "authors": [
+        "Martins Olatoye AROWOLO",
+        "Rafiu Mope Isiaka",
+        "Kingsley Theophilus Igulu",
+        "Ayodeji Nurudeen Mohammed",
+        "Adejare Adeyemo",
+        "Marvis Ayoola Arowolo",
+        "Adeola Margaret Olarewaju",
+        "Micheal Olaolu Arowolo"
+      ],
+      "published": "2026-09-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214546918",
+      "url": "https://doi.org/10.1016/j.aei.2026.105312",
+      "pdf": "",
+      "title": "Velocity adaptive preview path tracking control for autonomous vehicles using deep reinforcement learning with Lyapunov function-based reward shaping",
+      "summary": "",
+      "authors": [
+        "Lie Guo",
+        "Zhengwei Zhao",
+        "Lu Guan",
+        "Linli Xu",
+        "Pingshu Ge"
+      ],
+      "published": "2026-09-28",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -466,15 +522,29 @@
       "trending": 0.0
     },
     {
-      "id": "W7161114252",
-      "url": "https://doi.org/10.5281/zenodo.20190158",
-      "pdf": "https://doi.org/10.5281/zenodo.20190158",
-      "title": "Supplementary Material: Motion Capture Recordings of Multi-Player Autonomous Racing",
-      "summary": "Motion capture recordings of autonomous quadrotor races comparing a multi-agent reinforcement learning (MARL) policy trained with league-play against a human expert pilot. See README.md for more details.",
+      "id": "W7170191759",
+      "url": "https://doi.org/10.1145/3773078.3831912",
+      "pdf": "https://doi.org/10.1145/3773078.3831912",
+      "title": "Long-term User Engagement Optimization through Model-agnostic Downstream Rewards Learning",
+      "summary": "As recommender systems mature in the past few years, their optimization objectives have evolved from a primary focusing on short-term behavioral signals to a broader emphasis on long-term user engagement and retention. However, directly optimizing retention is difficult because return signals are sparse, delayed, and only partially attributable to earlier recommendations. Prior work has addressed this challenge with sequential modeling and reinforcement learning, but these approaches typically require task specific reward engineering, substantial computational overhead, and surface specific im",
       "authors": [
-        "Ismail Geles"
+        "Dingsu Wang",
+        "Filip Ryzner",
+        "Kelly He",
+        "Armando Ordorica",
+        "David Woo",
+        "Aditya Mantha",
+        "Liyao Lu",
+        "Usha Nookala",
+        "Haoran Guo",
+        "Jiacong He",
+        "Olafur Gudmundsson",
+        "Matt Chun",
+        "Krystal Benitez",
+        "Dhruvil Badani",
+        "Yijie Dylan Wang"
       ],
-      "published": "2026-09-24",
+      "published": "2026-09-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -485,18 +555,18 @@
       "trending": 0.0
     },
     {
-      "id": "W7214122598",
-      "url": "https://doi.org/10.1038/s41598-026-72857-5",
-      "pdf": "https://www.nature.com/articles/s41598-026-72857-5_reference.pdf",
-      "title": "Field-validated climate-resilient HVAC control for mixed-use buildings in a hot-arid region",
-      "summary": "Buildings in desert cities are difficult to operate efficiently because heat waves and airborne dust increase cooling demand, alter short-term thermal behavior, and reduce HVAC efficiency. This study develops and field-validates an adaptive control framework for mixed residential and commercial buildings in a hot-arid climate. The framework integrates a continuously calibrated digital twin, a heterogeneous spatiotemporal graph neural network for short-horizon thermal and load prediction, and decentralized multi-agent deep reinforcement learning. The control architecture uses Proximal Policy Op",
+      "id": "W7202207971",
+      "url": "https://doi.org/10.1145/3773078.3831929",
+      "pdf": "https://doi.org/10.1145/3773078.3831929",
+      "title": "LLM Reasoning for Subjective Tasks: Failure Modes, Mitigation, and Dynamic Reasoning Routing",
+      "summary": "Recommendation systems thrive on personalization, where “correctness” is rarely a binary truth but a matter of subjective human preference. As Large Language Models (LLMs) are deployed as autonomous verifiers of safety and quality guidelines, they face a distinctive challenge: context-aware preference alignment. Recent gains in Reinforcement Learning with Verifiable Rewards (RLVR) are indexed mostly on objective, mathematical tasks. Through a large-scale study spanning both proprietary and open-source models on four real-world verification tasks from a production recommender platform, we ask w",
       "authors": [
-        "Mohammad Alsulami",
-        "Hela Ahmad Gnaba",
-        "Zeinab Abdallah Mohammed Elhassan",
-        "Yohannes Mehari Andiye"
+        "Juncheng Dong",
+        "童 丁",
+        "Ishan Gupta",
+        "Yuyan Wang"
       ],
-      "published": "2026-09-24",
+      "published": "2026-09-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -504,26 +574,7 @@
       "score": 5.0,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214147477",
-      "url": "https://doi.org/10.17632/whtnxwby55",
-      "pdf": "https://doi.org/10.17632/whtnxwby55",
-      "title": "Deep Reinforcement Learning for Tengiz-Sileno Supply Chain — Simulation Code and Results",
-      "summary": "This dataset contains the simulation code and results for the research paper \"Deep Reinforcement Learning for Supply Chain Resilience: The Tengiz–Sileno Ethane Corridor in Kazakhstan.\" Contents: 1. Python source code for the physics-based simulator of the Tengiz → GSK → Sileno ethane supply chain (sileno_env.py, config.py, disruptions.py). 2. Deep Q-Network (DQN) training and evaluation code (train_dqn.py, evaluate_agent.py, rl_utils.py). 3. Temporal Fusion Transformer (TFT) forecasting code (train_tft.py, tft_forecast_provider.py). 4. Simulation results: comparison of 4 agents (Random, DQN+Or",
-      "authors": [
-        "Fatima Daniyar"
-      ],
-      "published": "2026-09-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
+      "trending": 1.5
     }
   ]
 }
