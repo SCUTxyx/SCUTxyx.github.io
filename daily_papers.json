@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29 00:04 UTC",
+  "generated_at": "2026-09-29 18:58 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -8,6 +8,128 @@
   ],
   "count": 24,
   "papers": [
+    {
+      "id": "W7214631636",
+      "url": "https://doi.org/10.54254/2755-2721/2026.37323",
+      "pdf": "",
+      "title": "Performance E valuation of E xploration S trategies on L earning E fficiency and S tability in Q-Learning",
+      "summary": "A fundamental problem in reinforcement learning is the trade-off between exploration and exploitation. The quality of the final policy is not the only factor that varies with different exploration strategies, so do learning speed and result stability. Based on Q-learning, this study compares three exploration strategies in a custom 5×5 GridWorld environment: fixed ε=0.10, fixed ε=0.30, and linearly decaying ε (1.00→0.05). A baseline experiment is first performed with slip_prob=0.10. The environmental noise is then extended to three levels, 0.00, 0.10, and 0.20, and the number of episodes requi",
+      "authors": [
+        "Xinhao Zhang"
+      ],
+      "published": "2026-09-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214368968",
+      "url": "https://doi.org/10.1186/s44147-026-01236-8",
+      "pdf": "https://link.springer.com/content/pdf/10.1186/s44147-026-01236-8.pdf",
+      "title": "Microgrid energy management optimization using PPO with curriculum learning trained in virtual simulation environment",
+      "summary": "Abstract Microgrid energy management systems (EMS) require real-time, economically optimal, and safe dispatch strategies under high renewable uncertainty. While Deep Reinforcement Learning (DRL) offers promising online decision-making capabilities, standard DRL algorithms struggle with the “cold start” problem, slow convergence, and severe Sim-to-Real performance degradation when transferred from simulation to real-world operating conditions. To address these challenges, this paper proposes a novel Curriculum Learning-enhanced Proximal Policy Optimization (CL-PPO) framework for grid-connected ",
+      "authors": [
+        "Jiaying Li",
+        "Can Pei",
+        "Yantao Li"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
+    },
+    {
+      "id": "W7214616639",
+      "url": "https://doi.org/10.2118/232096-ms",
+      "pdf": "",
+      "title": "Rover-Oli, Robotic System for Online Inspection of Pressure Equipment",
+      "summary": "Abstract In the context of periodic inspections of pressure equipment, Eni is developing technology that enables online inspection, without the need to put out of service and purge vessels. The inspection of O&G plants' equipment is a concrete commitment reflected in standard maintenance plans. Inspection is the tool that allows to reduce and limit: Plant downtimeAccidents at workEnvironmental damage Visual and instrumental inspections allow the integrity of the equipment under investigation to be determined. There are already several automatic solutions for inspecting atmospheric storage tank",
+      "authors": [
+        "Antonino Gattarello",
+        "Andrea Vignali",
+        "Riccardo Schiavon",
+        "Guido Campana",
+        "Martino Danuso",
+        "Flavio Furlan",
+        "Tommaso Borzone"
+      ],
+      "published": "2026-09-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214636025",
+      "url": "https://doi.org/10.2118/232177-ms",
+      "pdf": "",
+      "title": "Real-Time Robotic Inspection: A Game-Changing Solution to Prevent Production Loss and Extend Lifetime Well",
+      "summary": "Abstract The Cepu field continues to face recurring tubing failures in sucker-rod wells due to localized internal wear on reused tubing. Conventional inspection using Ultrasonic Testing (UT), performed at only 12 points per joint, fails to detect thinning that occurs between measurement locations. In 2024, tubing leaks accounted for 74% of total failure-related losses during well service activities, resulting in USD 420,930.40 in Loss Production Opportunity (LPO). Mandated cost optimization further requires that 70% of tubing used in well service must be reused, making high-quality inspection ",
+      "authors": [
+        "T. R. Hidayat",
+        "M. Amarullah",
+        "I. L. Ulinnuha",
+        "A. Dewi",
+        "N. E. Soekarno",
+        "N. J. Adhidarma",
+        "D. Kuncoro",
+        "M. Rizal",
+        "Z. Akbar",
+        "D. Tetra",
+        "N. B. Sangka",
+        "S. Pratama"
+      ],
+      "published": "2026-09-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214651174",
+      "url": "https://doi.org/10.1021/acsapm.6c02861",
+      "pdf": "",
+      "title": "Ultrastable Wide-Range Capacitive Pressure Sensors with CNTs-Pinned PDMS Foam Composite Dielectrics for Intelligent Tactile Perception",
+      "summary": "Abstract Flexible capacitive pressure sensors have attracted considerable attention for wearable electronics, intelligent robotics, and human-machine interfaces, yet achieving high sensitivity, broad pressure detection, and long-term stability remains challenging. Herein, carbon nanotubes (CNTs)-pinned porous polydimethylsiloxane (PDMS) foam composite dielectrics are developed via a facile one-step emulsion-templating strategy. The CNTs are preferentially distributed along the PDMS skeleton and pore walls, forming a CNTs-pinned architecture that is expected to reduce filler rearrangement durin",
+      "authors": [
+        "Bangbang Nie",
+        "Mengqi Wang",
+        "Jinyu Wang",
+        "Tengke Cui",
+        "Haoran Chen",
+        "Xiaodong Zhao",
+        "Jingjiang Qiu",
+        "Hong Hu",
+        "Ronghan Wei"
+      ],
+      "published": "2026-09-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
     {
       "id": "W7163366868",
       "url": "https://doi.org/10.5281/zenodo.20525500",
@@ -250,62 +372,144 @@
       "trending": 0.0
     },
     {
-      "id": "W7214424696",
-      "url": "https://doi.org/10.5281/zenodo.22975433",
-      "pdf": "https://doi.org/10.5281/zenodo.22975433",
-      "title": "An Insights Research on Motivating China 70 Cities Comparative Growth Number on Scientist's Evaluation with Sustainability I",
-      "summary": "An embodied artificial intelligence as an important robot product has felt concept and behavior based on the physical body through connecting with environmental communication so as to acquire information̖ understanding problem and make decision for the sake of realizing behavior and then producing smart behavior and adaptability. Thereby, it can be like human behavior and judgement to proceed its high-wisdom action by learning its reaction with the opposition with its reserved memory put-in detail data to complete its learning choice with much neural-network to choose the better liking one and",
+      "id": "W7214286981",
+      "url": "https://doi.org/10.5281/zenodo.22948290",
+      "pdf": "https://doi.org/10.5281/zenodo.22948290",
+      "title": "PIREUS: Autonomous Operator Foundry, Hardware Capability Ontology, and Verifiable Reinforcement Learning Compiler Framework for Sounio",
+      "summary": "PIREUS is an autonomous operator foundry, hardware-capability ontology engine, and verifiable reinforcement learning compiler framework designed for the Sounio programming language ecosystem. It operates at the intersection of non-associative Cayley-Dickson hypercomplex algebras, formal silicon microarchitecture ontologies (x86_64 AVX-512, NVIDIA SM121 Blackwell, Apple Silicon, and AMD Alveo U250 FPGAs), interactive theorem proving in Lean 4 and Koka, and group-relative policy optimization (GRPO). PIREUS enforces strict, non-delegable semantic authority: external machine learning models propos",
       "authors": [
-        "Run Xu",
-        "Changfu Jin",
-        "Jikang Yuan"
+        "Demetrios Chiuratto Agourakis"
       ],
       "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7214425679",
-      "url": "https://doi.org/10.5281/zenodo.22981499",
-      "pdf": "https://doi.org/10.5281/zenodo.22981499",
-      "title": "Representation Before Action: How Dynamics-Aware Perception, Tactile Grounding, and Instruction Granularity Define the Upstream Bottleneck in Robot Generalization",
-      "summary": "This version corrects one citation error found by an automated check and confirmed by hand: PhySwarm, a paper listed among those considered and excluded, was cited under the identifier 2605.01597, which belongs to an unrelated paper; the correct identifier is arXiv:2606.01597. No claim of the synthesis changes. Dashes were also normalised and labels referring to an internal review rubric removed. This version has not had a full claim-by-claim audit. A persistent structural pattern across recent robotics preprints is that generalization failures in robot learning are predominantly upstream fail",
+      "id": "W7214435309",
+      "url": "https://doi.org/10.1515/cppm-2025-0318",
+      "pdf": "https://doi.org/10.1515/cppm-2025-0318",
+      "title": "Hybrid modeling and energy optimization of NGL demethanizers using deep reinforcement learning",
+      "summary": "Abstract Cryogenic NGL demethanizers suffer from energy inefficiencies due to non-convex thermodynamic constraints. This study aims to implement a Deep Reinforcement Learning (DRL) framework to optimize energy consumption while respecting complex operational boundaries. A Soft Actor-Critic (SAC) agent was employed, trained on 2,000 rigorous Aspen HYSYS digital twin scenarios via a Deep Neural Network (DNN) surrogate. Unlike simplified proxy models, this supervisory strategy directly interacts with the high-fidelity simulation to navigate nonlinear process dynamics. The results demonstrate a 12",
       "authors": [
-        "Saluca Agentic AI Research Team"
+        "Pooya Khoshkalamyan"
       ],
       "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7214429835",
-      "url": "https://doi.org/10.5281/zenodo.22980889",
-      "pdf": "https://doi.org/10.5281/zenodo.22980889",
-      "title": "PANINIphy v1.0: Physical Realization Arm of the PANINI Computational Platform",
-      "summary": "Academic research poster announcing PANINIphy v1.0, the physical realization arm of the PANINI platform. PANINIphy extends a common, domain-agnostic computational spine rather than creating a second language, compiler, resolver, provenance system, artifact graph, verification framework, animation stack, or robotics-only architecture. It introduces a typed Physical IR and domain-specific engines for physical resolution, state, constraints, components, materials, interfaces, assembly, geometry, kinematics, reference dynamics, actuation, robotics, manufacturing and realization planning, observati",
+      "id": "W7214439520",
+      "url": "https://doi.org/10.1016/j.oceaneng.2026.128263",
+      "pdf": "https://doi.org/10.1016/j.oceaneng.2026.128263",
+      "title": "3D autonomous dynamic path planning for UUVs based on obstacle motion prediction and reinforcement learning",
+      "summary": "Unmanned Underwater Vehicles (UUVs) are widely applied in marine exploration and other missions due to their low cost and high reliability. Point-to-point path planning serves as the foundation for accomplishing various marine tasks. The limitations of sonar sensor detection pose significant challenges for UUV obstacle avoidance path planning in 3D dynamic environments. To address these issues, this paper proposes a 3D autonomous dynamic path planning approach for UUVs based on obstacle motion prediction and reinforcement learning. This approach consists of three main modules: the observation ",
       "authors": [
-        "Abhishek Choudhary"
+        "Xinru Zhu",
+        "Yang Liu"
       ],
       "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214607939",
+      "url": "https://doi.org/10.2118/232762-ms",
+      "pdf": "",
+      "title": "Correcting the Lens and Purifying the Image: A Deep Learning Approach to Optical Distortion Correction and Image Denoising in Oil and Gas Computer Vision Applications",
+      "summary": "Abstract Computer vision technologies are increasingly used across Oil and Gas operations to support inspection, monitoring, and surveillance tasks. In industrial environments, however, image quality is often degraded by lens-induced optical distortions and environmental noise arising from low illumination, dust, vibration, and sensor limitations. These degradations reduce the reliability of visual data and adversely affect the performance of downstream computer vision algorithms. This paper aims to develop and evaluate a unified deep learning-based framework that jointly addresses optical dis",
+      "authors": [
+        "Maria A. Alghamdi",
+        "Fatimah A. AlYousif",
+        "Amani M. Barsheed"
+      ],
+      "published": "2026-09-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7163033156",
+      "url": "https://doi.org/10.5281/zenodo.20486507",
+      "pdf": "https://doi.org/10.5281/zenodo.20486507",
+      "title": "VitiBench Dataset Suite",
+      "summary": "The VitiBench Dataset Suite is a collection of datasets designed to support computer vision applications in viticulture. It comprises two real-world grapevine leaf image datasets and one synthetic vineyard segmentation dataset. The first leaf dataset contains 472 RGB images representing six Vitis vinifera L. cultivars acquired between May and July 2017 at the University of Trás-os-Montes e Alto Douro experimental vineyards, Portugal, under controlled white-background conditions. The second dataset contains 815 RGB images from twelve grapevine cultivars acquired between July and September 2019 ",
+      "authors": [
+        "Telmo Adão",
+        "Emanuel Peres"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214426490",
+      "url": "https://doi.org/10.1007/s44290-026-00618-4",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s44290-026-00618-4.pdf",
+      "title": "A focused review of recent advances in deep learning and computer vision for concrete crack detection and measurement",
+      "summary": "Abstract Concrete cracking is one of the most prevalent indicators of structural deterioration, posing significant risks to the safety, serviceability, and longevity of civil infrastructure. Traditional manual visual inspections are labor-intensive, subjective, and prone to human error, making them inadequate for large-scale structural health monitoring (SHM). In recent years, computer vision and deep learning (DL) have emerged as transformative, automated alternatives. This paper presents a focused review of recent advancements in vision-based concrete crack detection and measurement, synthes",
+      "authors": [
+        "Amir Mohammad",
+        "Zamanzade Nasrabadi",
+        "Alireza Mirjalili"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214427191",
+      "url": "https://doi.org/10.17605/osf.io/upqjm",
+      "pdf": "https://doi.org/10.17605/osf.io/upqjm",
+      "title": "Beyond White-Light Colonoscopy: Water Exchange, Image-Enhanced Endoscopy, and Artificial Intelligence for Colorectal Neoplasia Detection — From Single Tools to Combined Strategies",
+      "summary": "This is the protocol for a scoping review that maps the clinical and video-based evidence on the combined use of water-aided colonoscopy (water exchange or water immersion), image-enhanced endoscopy (dye-based chromoendoscopy and electronic imaging such as NBI, LCI, BLI, TXI and i-scan) and artificial intelligence-based computer-aided detection for colorectal neoplasia detection. The review distinguishes incremental comparisons, in which one technique is added to another, from multicomponent strategies compared with standard colonoscopy. It charts detection outcomes beyond the adenoma detectio",
+      "authors": [
+        "Teodora Spataru",
+        "Remus Popescu",
+        "Lucian M Negreanu"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
       "trending": 0.0
     },
     {
@@ -328,35 +532,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7117283222",
-      "url": "https://doi.org/10.3758/s13421-026-01875-5",
-      "pdf": "https://link.springer.com/content/pdf/10.3758/s13421-026-01875-5.pdf",
-      "title": "Spaced repetition and list-strength in recognition memory",
-      "summary": "Intuition and classic mathematical models suggest that \"strong\" list items should see a competitive recognition-memory advantage when mixed with \"weak\" list items within a single list. This holds for manipulations of reading aloud but not other manipulations. Study time per item (e.g., 500 vs. 2000 ms), can even invert the effect, with a larger strength effect between pure-strength lists than within mixed lists. This inversion remained when the longer study time comprised three massed repetitions. An attentional subsetting theory account explained the inverted list-strength effect by assuming ",
+      "id": "W7214585399",
+      "url": "https://doi.org/10.17576/3l-2026-3203-10",
+      "pdf": "https://doi.org/10.17576/3l-2026-3203-10",
+      "title": "Ethical Implications of Humanoids in Real Life, Literature and in Films",
+      "summary": "",
       "authors": [
-        "Jeremy B. Caplan",
-        "Dominic Guitard"
+        "Wahaj Unnisa Warda"
       ],
-      "published": "2026-09-26",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7164939089",
-      "url": "https://doi.org/10.5281/zenodo.20716337",
-      "pdf": "https://doi.org/10.5281/zenodo.20716337",
-      "title": "Perception as Policy Substrate: How Dynamics-Aware Representations, Temporal Asymmetry, Suboptimal-Data Recovery, Behavioral Monitoring, and Instruction Granularity Jointly Constrain Vision-Language-Action Policy Generalization",
-      "summary": "This version corrects citation errors found by an automated check and confirmed by hand. The force-aware re-sampling method FIRST was cited under the identifier 2606.12402, which is DIRECT, a paper on test-time compute routing; FIRST is arXiv:2606.12406, and the earlier statement that DIRECT's primary contribution is force-aware re-sampling has been removed (its compute-routing citations were correct and remain). DynaFLIP was cited under the identifier 2605.30864, which belongs to an unrelated cognitive science study; DynaFLIP is arXiv:2605.30350. This second error was found during the hand ch",
-      "authors": [
-        "Saluca Agentic AI Research Team"
-      ],
-      "published": "2026-09-26",
+      "published": "2026-09-29",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -365,180 +549,6 @@
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 1.5
-    },
-    {
-      "id": "W7203931879",
-      "url": "https://doi.org/10.5281/zenodo.22032924",
-      "pdf": "https://doi.org/10.5281/zenodo.22032924",
-      "title": "ARC — Reflexive Architecture of Consciousness: Dissolving the Hard Problem through Architectural Identity",
-      "summary": "Abstract: The hard problem of consciousness asks why there is something it is like to be a physical system. This paper presents the Reflexive Architecture of Consciousness (ARC), a formal theory that dissolves the hard problem by showing that the question that sustains it arises from an incomplete description. The theory's central claim is the Principle of Architectural Identity (PAI): the quale Q is identical to the reflexive functioning of an embodied architecture A, expressed as Q = f(A). The architecture comprises three components: the Basal Processing Center (BPC), which performs massive ",
-      "authors": [
-        "Walterson Fontoura  Junior Fontoura Caravajal"
-      ],
-      "published": "2026-09-26",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7203938531",
-      "url": "https://doi.org/10.5281/zenodo.22032647",
-      "pdf": "https://doi.org/10.5281/zenodo.22032647",
-      "title": "ARC — Reflexive Architecture of Consciousness: Dissolving the Hard Problem through Architectural Identity",
-      "summary": "Abstract: The hard problem of consciousness asks why there is something it is like to be a physical system. This paper presents the Reflexive Architecture of Consciousness (ARC), a formal theory that dissolves the hard problem by showing that the question that sustains it arises from an incomplete description. The theory's central claim is the Principle of Architectural Identity (PAI): the quale Q is identical to the reflexive functioning of an embodied architecture A, expressed as Q = f(A). The architecture comprises three components: the Basal Processing Center (BPC), which performs massive ",
-      "authors": [
-        "Walterson Fontoura  Junior Fontoura Caravajal"
-      ],
-      "published": "2026-09-26",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214351722",
-      "url": "https://doi.org/10.5281/zenodo.22967566",
-      "pdf": "https://doi.org/10.5281/zenodo.22967566",
-      "title": "Reproducibility Materials for Domain Recognition Is Not Target Page Attribution in Generative Search",
-      "summary": "This repository contains the frozen protocols, experimental panels, anonymized API-output archives, analysis code, robustness analyses, and SHA-256 integrity manifests supporting the study “Domain Recognition Is Not Target Page Attribution in Generative Search.” The materials cover the W1/W2 analyses, the counterfactual experiment, the 2×2 factorial experiment, technical URL-equivalence audits, semantic-relevance validation, manipulation checks, and top-10 robustness analyses. Records can be linked to their frozen panels by call_id. No API key, credential, or personal identifier is included. T",
-      "authors": [
-        "Remzi Başar"
-      ],
-      "published": "2026-09-26",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214422574",
-      "url": "https://doi.org/10.1186/s12967-026-09001-4",
-      "pdf": "https://doi.org/10.1186/s12967-026-09001-4",
-      "title": "RAMP3 is associated with macrophage-driven immune exclusion and promotes resistance to PD-1 blockade in breast cancer: integrated in vivo and single-cell transcriptomic analyses",
-      "summary": "Abstract Background Receptor activity-modifying protein 3 (RAMP3) has been implicated in stromal regulation in cancer. However, its role in tumor microenvironment (TME) remodeling and immune checkpoint resistance remains unclear. In this study, we aimed to define the role of RAMP3 in shaping the immunosuppressive TME and evaluate its potential as a therapeutic target to enhance immunotherapy responses. Methods We used syngeneic mouse models of breast cancer with genetic manipulation of RAMP3 to investigate tumor progression, immune remodeling, and response to immune checkpoint blockade in vivo",
-      "authors": [
-        "Yan Zhang",
-        "Megumu Tanaka",
-        "Takayuki Sakurai",
-        "Akiko Kamiyoshi",
-        "Yuka Ichikawa‐Shindo",
-        "Qianqian Guo",
-        "Ken Hoshiyama",
-        "Peixuan Li",
-        "Jiake Li",
-        "Jun Duan",
-        "Marina Hayashi",
-        "Kensuke Kai",
-        "Yunlu Zhao",
-        "Kun Dai",
-        "Takayuki Shindo"
-      ],
-      "published": "2026-09-26",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214424246",
-      "url": "https://doi.org/10.57612/js26.jts.05.07",
-      "pdf": "https://www.wtsf.org/ojs/index.php/jts/article/download/53/34",
-      "title": "The Body as a Bridge Between Earth and Mars: Tai Chi Culture and the Human Art of Space Adaptation",
-      "summary": "Long-duration spaceflight raises a human question as well as an engineering one: how can crews maintain physical coordination, emotional steadiness, and supportive relationships when familiar conditions change? This conceptual article introduces the Cosmo-Embodied Adaptation Framework, a research map for connecting Tai Chi (Taijiquan, 太极拳) cultural practices with specific questions about space adaptation. The framework distinguishes cultural meaning, candidate training processes, and outcomes that future studies could assess. Zhenglei Chen’s account of cultivating form, intention, qi (气), and ",
-      "authors": [
-        "Jonathan Jiang",
-        "Zhenglei Chen",
-        "Pauline Jiang"
-      ],
-      "published": "2026-09-26",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214424286",
-      "url": "https://doi.org/10.33469/oannes.1930001",
-      "pdf": "https://dergipark.org.tr/en/download/article-file/5911175",
-      "title": "Gossip, Slander and Accusation in Hittite Society",
-      "summary": "In Hittite society, oral communication was a powerful dynamic influencing daily interaction, political structure, and divine order. Hittite cuneiform documents show that words could be unfounded, baseless, and consciously or unconsciously presented as contrary to the truth. This phenomenon, expressed in Hittite texts through the concepts of gossip and slander, played an important role in the circulation of information and the manipulation of perceptions. It is recorded that, particularly in conflicts within the royal family, individuals attempted to undermine or damage the reputation of others",
-      "authors": [
-        "Nermin Atila"
-      ],
-      "published": "2026-09-26",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214425534",
-      "url": "https://doi.org/10.26437/914mxe07",
-      "pdf": "https://mail.ajaronline.com/index.php/AJAR/article/download/2192/933",
-      "title": "Improving Colour Image Forgery Detection Using Machine Learning Methods",
-      "summary": "Purpose: This study aims to develop an efficient and accurate approach for detecting copy-transfer image forgery, where duplicated image regions are geometrically transformed and inserted elsewhere in an image. The study aims to reduce computational complexity and detection time while maintaining high detection performance. Design/Methodology/Approach: The proposed method combines histogram-based features, Discrete Cosine Transform (DCT) features, and Iterative Closest Point (ICP)-based recurring-point features for copy-transfer forgery detection. The method extracts features from authentic an",
-      "authors": [
-        "M. Talib Mahdi",
-        "W. Zaki Mizyad Al – Humadi",
-        "B. Arif Salim",
-        "H. Adil Joudah",
-        "A. Taj-Uldeen"
-      ],
-      "published": "2026-09-26",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214429665",
-      "url": "https://doi.org/10.20508/80b7hn45",
-      "pdf": "https://ijdigit.org/ijdigit/index.php/ijdigit/article/download/9/29",
-      "title": "Intelligent Threat Detection in Cloud Environments: Integrating Machine Learning with Blockchain for Enhanced Digital Security",
-      "summary": "This paper presents an intelligent threat detection framework for cloud environments by integrating machine learning techniques with blockchain technology to enhance digital security and data integrity. With the rapid adoption of cloud computing, enterprises and users face major concerns from security threats and data breaches. Traditional security mechanisms often fail to provide real-time, tamper-proof threat detection in dynamic cloud environments. Several studies use machine learning models for intrusion detection; however, they face data manipulation risks and centralized vulnerabilities.",
-      "authors": [
-        "Mathiazhagan Mani",
-        "Janani Selvam",
-        "Divya Midhun Chakkaravarthy"
-      ],
-      "published": "2026-09-26",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
     }
   ]
 }
