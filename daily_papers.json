@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 20:19 UTC",
+  "generated_at": "2026-09-29 00:04 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,134 +9,34 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7214155898",
-      "url": "https://doi.org/10.5281/zenodo.22945776",
-      "pdf": "https://doi.org/10.5281/zenodo.22945776",
-      "title": "Does a Model Forget Differently When the Data Is Its Own? RL's Retention Advantage and Model Collapse Are Claims About the Same Loop, and No Study Has Measured Both",
-      "summary": "(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Two literatures make claims about what happens when a language model trains on data that resembles its own distribution. One asks whether reinforcement learning forgets a model's prior capabilities less than supervised fine-tuning does, and answers yes: on-policy RL is implicitly biased toward solutions that stay close, in KL divergence, to the base policy, while supervised fine-tuning can converge to distributions arbitrarily far away (Shenfeld, Pari and Agrawal, 2025). The other asks whether a model trained recursively on its own generat",
+      "id": "W7163366868",
+      "url": "https://doi.org/10.5281/zenodo.20525500",
+      "pdf": "https://doi.org/10.5281/zenodo.20525500",
+      "title": "Representation Before Action: How Dynamics-Aware Perception, Tactile Grounding, and Instruction Granularity Define the Upstream Bottleneck in Robot Generalization",
+      "summary": "This version corrects one citation error found by an automated check and confirmed by hand: PhySwarm, a paper listed among those considered and excluded, was cited under the identifier 2605.01597, which belongs to an unrelated paper; the correct identifier is arXiv:2606.01597. No claim of the synthesis changes. Dashes were also normalised and labels referring to an internal review rubric removed. This version has not had a full claim-by-claim audit. A persistent structural pattern across recent robotics preprints is that generalization failures in robot learning are predominantly upstream fail",
       "authors": [
-        "Pranay M. Mahendrakar"
+        "Saluca Agentic AI Research Team"
       ],
-      "published": "2026-09-25",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214180765",
-      "url": "https://doi.org/10.5281/zenodo.22945775",
-      "pdf": "https://doi.org/10.5281/zenodo.22945775",
-      "title": "Does a Model Forget Differently When the Data Is Its Own? RL's Retention Advantage and Model Collapse Are Claims About the Same Loop, and No Study Has Measured Both",
-      "summary": "(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Two literatures make claims about what happens when a language model trains on data that resembles its own distribution. One asks whether reinforcement learning forgets a model's prior capabilities less than supervised fine-tuning does, and answers yes: on-policy RL is implicitly biased toward solutions that stay close, in KL divergence, to the base policy, while supervised fine-tuning can converge to distributions arbitrarily far away (Shenfeld, Pari and Agrawal, 2025). The other asks whether a model trained recursively on its own generat",
-      "authors": [
-        "Pranay M. Mahendrakar"
-      ],
-      "published": "2026-09-25",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214523613",
-      "url": "https://doi.org/10.1007/s00264-026-07042-4",
-      "pdf": "",
-      "title": "Less inflammation and early functional recovery after total hip arthroplasty performed with robotic arm assistance than with computed tomography-based navigation: a propensity score-matched comparative study",
-      "summary": "",
-      "authors": [
-        "Yasuyuki Omichi",
-        "Tomohiro Goto",
-        "Gakuto Yoshida",
-        "Yusaku Nakayama",
-        "Michihiro Takai",
-        "Ryosuke Sato",
-        "Tetsuya Enishi",
-        "Yasuaki Tamaki",
-        "Koichi Sairyo",
-        "Shunji Nakano"
-      ],
-      "published": "2026-09-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
+      "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7147069775",
-      "url": "https://doi.org/10.1007/978-3-032-38236-8_49",
-      "pdf": "https://arxiv.org/pdf/2603.26720",
-      "title": "SutureFormer: Learning Surgical Trajectories via Goal-Conditioned Offline RL in Pixel Space",
-      "summary": "",
+      "id": "W7164817519",
+      "url": "https://doi.org/10.5281/zenodo.20700884",
+      "pdf": "https://doi.org/10.5281/zenodo.20700884",
+      "title": "Compute-Aware Deployment at the Edge: How Test-Time Routing, Temporal Asymmetry, Inference Efficiency, Force-Sensor Surrogates, and Safety Certification Jointly Constrain Real-Time Robot Policy Execution",
+      "summary": "This version corrects two citation errors found by an automated check and confirmed by hand. In the Selection Process, HANDOFF was cited as arXiv:2606.06491 (TempoVLA) and now cites arXiv:2606.06493, and RoboNaldo was cited as arXiv:2606.11091 (QUIET, a network-neuroscience paper) and now cites arXiv:2606.11092. A reference to an earlier internal synthesis and labels pointing to an internal review rubric are removed, and typographic dashes are removed. This version has not had a full claim-by-claim audit. The correction note is at the top of the PDF. Deploying learned robot policies on physica",
       "authors": [
-        "Huanrong Liu",
-        "Chunlin Tian",
-        "Tongyu Jia",
-        "Tailai Zhou",
-        "Qin Liu",
-        "Yu Gao",
-        "Yutong Ban",
-        "Yun Gu",
-        "Guy Rosman",
-        "Xin Ma",
-        "Qingbiao Li"
+        "Saluca Agentic AI Research Team"
       ],
-      "published": "2026-09-25",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7126209101",
-      "url": "https://doi.org/10.1145/3773078.3831745",
-      "pdf": "https://doi.org/10.1145/3773078.3831745",
-      "title": "SAGE: Sequence-level Adaptive Gradient Evolution for Generative Recommendation",
-      "summary": "Generative recommenders increasingly train Semantic-ID models to autoregressively generate length-L slates, aligned to user feedback by reinforcement learning. Gradient-Bounded Policy Optimization (GBPO) stabilizes this stage with a BCE-stable asymmetric gradient bound, but its clipping boundary is computed per sample and is therefore blind to three recommendation-specific signals—rare-positive value, low-diversity negative slates, and multi-objective reward resolution—a limitation we call the Static Boundary Bottleneck. We propose SAGE (Sequence-level Adaptive Gradient Evolution), which keeps",
-      "authors": [
-        "Yu Xie",
-        "Xing Kai Ren",
-        "Ying Qi",
-        "Ping Yang",
-        "Yao Hu"
-      ],
-      "published": "2026-09-25",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214516886",
-      "url": "https://doi.org/10.5281/zenodo.23003696",
-      "pdf": "https://doi.org/10.5281/zenodo.23003696",
-      "title": "perfbound: data-driven discovery of performance boundaries",
-      "summary": "Companion code and data for: Jahanshahi H, Zhu ZH. Data-Driven Discovery of Performance Boundaries in Robotic Systems through Extreme Quantile Estimation. PLOS ONE. 2026. doi:10.1371/journal.pone.0352196 Contents: perfbound: installable Python package implementing the boundary-discovery method (discover_boundary, bootstrap_boundary) reproduction: all analysis scripts behind the paper (a01-a08) and the figure-generation script data: UR10e tracking dataset, per-push dataset derived from the public MIT MCube benchmark, and the validation datasets figures: the eight manuscript figures",
-      "authors": [
-        "Hadi Jahanshahi",
-        "Zheng Hong Zhu"
-      ],
-      "published": "2026-09-28",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -147,19 +47,15 @@
       "trending": 1.5
     },
     {
-      "id": "W7214518692",
-      "url": "https://doi.org/10.3389/fonc.2026.1957208",
-      "pdf": "https://doi.org/10.3389/fonc.2026.1957208",
-      "title": "Cystoscopic submucosal indocyanine green marking in robot-assisted radical nephroureterectomy: a multicenter cohort study",
-      "summary": "Background Distal ureter and bladder cuff dissection can be difficult during robot-assisted radical nephroureterectomy (RA-RNU) for upper tract urothelial carcinoma (UTUC), particularly in the deep pelvis where tactile feedback is limited. We evaluated cystoscopic submucosal indocyanine green (ICG) marking around the ureteral orifice as a navigation aid for this step. Methods Adults who underwent RA-RNU with formal bladder cuff excision for clinically localized UTUC (≤T3, M0) at three centers between January 2019 and November 2024 were retrospectively analyzed. Outcomes were compared between s",
+      "id": "W7165749419",
+      "url": "https://doi.org/10.17613/6y8vp-7m357",
+      "pdf": "https://doi.org/10.17613/6y8vp-7m357",
+      "title": "Leadership in the Age of AI: Introducing FILE — The Five Intelligences of Leadership Evolution",
+      "summary": "As artificial intelligence becomes a structural feature of organizational life, leadership studies faces a foundational challenge: what forms of human intelligence become more necessary when machine intelligence becomes more powerful? This working paper introduces FILE: The Five Intelligences of Leadership Evolution as a management theory and diagnostic framework proposing that responsible leadership and decision-making in the age of artificial intelligence and robotics require the integrated development of five human intelligences: Augmented Intelligence (AI, \"Mind\"), Emotional Intelligence (",
       "authors": [
-        "Runyi Wang",
-        "Menghua Wu",
-        "Haozhou Wang",
-        "Hui Liu",
-        "Xin Zheng"
+        "Guillaume Mariani"
       ],
-      "published": "2026-09-28",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -170,115 +66,138 @@
       "trending": 0.0
     },
     {
-      "id": "W7214521841",
-      "url": "https://doi.org/10.3389/frobt.2026.1828495",
-      "pdf": "https://doi.org/10.3389/frobt.2026.1828495",
-      "title": "Comparing simulation and physical kilobots performance in two ant-inspired foraging behaviours",
-      "summary": "Robotics looks to nature for inspiration to perform effectively in unstructured environments and can be used to test biological hypotheses. Social animals often share information about food source locations like tandem running in ants, where a leader guides a naive recruit to a known profitable food site. This is extremely advantageous as it allows the sharing of important information among colony members, but it also has costs, such as waiting time inside the nest when no leaders are around, and a reduced walking speed for the tandem couple compared to individuals. Whether and when these cost",
-      "authors": [
-        "Niamh Ellis",
-        "Jonathan Kelly",
-        "Alexander Caravaggio",
-        "Ian Young",
-        "Fabio Manfredini",
-        "Maria Elena Giannaccini"
-      ],
-      "published": "2026-09-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214523094",
-      "url": "https://doi.org/10.33423/25102b43",
+      "id": "W7214337739",
+      "url": "https://doi.org/10.1007/s11701-026-04002-3",
       "pdf": "",
-      "title": "Designing a framework for Sustainable Smart Agriculture with Mobile Robots and CNN",
-      "summary": "Advances in artificial intelligence, robotics, and computer vision enable intelligent gardening systems that reduce manual monitoring. This study presents a smart gardening framework integrating a mobile robot with convolutional neural network (CNN) flower recognition. The robot captures garden images, while the CNN classifies flower species and provides plant-specific information for future care decisions. Using 50 training images and 50 independent testing images, the model achieved 92.0% training accuracy and 95.0% testing accuracy. The framework connects robotic image acquisition with auto",
-      "authors": [
-        "Ting Zhang",
-        "Oanh Phan",
-        "Jiang Lu"
-      ],
-      "published": "2026-09-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214535904",
-      "url": "https://doi.org/10.3389/frobt.2026.1886514",
-      "pdf": "https://doi.org/10.3389/frobt.2026.1886514",
-      "title": "High-precision universality? A matched-pair sawbone study on the learning curve, accuracy, and implant interchangeability of a novel open-platform robotic UKA system",
-      "summary": "Background Robotic-assisted unicompartmental knee arthroplasty (UKA) improves implant positioning over conventional techniques, but commercial systems commonly bind the robotic platform to a single implant manufacturer, restricting clinical flexibility. Open-platform systems offer a vendor-neutral alternative, yet their effect on novice execution precision and workflow stability during implant switching remains insufficiently characterized. Methods A prospective exploratory matched-pair case series was conducted on standardized synthetic bone models (Sawbones). Two robotic-naïve medical studen",
-      "authors": [
-        "Pengyu Zhan",
-        "Ziyue Liu",
-        "Boran Liang",
-        "Yugang Xing",
-        "Xingyu Liu",
-        "Yiling Zhang",
-        "Jing Chen"
-      ],
-      "published": "2026-09-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214538162",
-      "url": "https://doi.org/10.1007/s11701-026-04008-x",
-      "pdf": "https://doi.org/10.1007/s11701-026-04008-x",
-      "title": "Medical students’ perceptions and curriculum preferences for robotic surgery in Oman: a cross-sectional study",
-      "summary": "Abstract Robotic surgery is an advanced form of minimally invasive surgery, and its use has continued to grow worldwide. Despite this, undergraduate medical education has not expanded at the same rate, and formal exposure to robotic surgery remains limited in many settings, including Oman. A structured educational needs assessment is an important first step in curriculum development. Understanding medical students’ perceived knowledge, attitudes, and preferred learning approaches can help guide the introduction of robotic surgery into undergraduate and postgraduate training. This study therefo",
-      "authors": [
-        "Abdullah Al Lawati",
-        "Azzan Al-Wahshi",
-        "Lubna Al Hashmi",
-        "Ali Abduwani",
-        "Ibrahim Al-Sibayi",
-        "Ahmed Al-Rawahi",
-        "Said A. Al‐Busafi",
-        "Hani Al-Qadhi"
-      ],
-      "published": "2026-09-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214542479",
-      "url": "https://doi.org/10.1007/s11701-026-04010-3",
-      "pdf": "",
-      "title": "Robotic versus laparoscopic rectal cancer surgery after neoadjuvant chemoradiotherapy",
+      "title": "Robotic versus open (or laparoscopic) hysterectomy: a comprehensive review of clinical, surgical, and economic outcomes",
       "summary": "",
       "authors": [
-        "Dimitrios Vlahos",
-        "Nikolaos Karountzos",
-        "Dionysios Prevezanos",
-        "Mike K. Konstantinides",
-        "Konstantinos Kossenas"
+        "Farhad Shafiei",
+        "Fatemeh Kani",
+        "Ehsan Tarki",
+        "Sonia Fallahi",
+        "Niyoosha Ahmadi Beidokhti",
+        "Hananeh Zarebian",
+        "Fatemeh Roshani",
+        "Maedeh Taiebi Falah",
+        "Hossein Ali Abdolrazaghi",
+        "Amir Shokri"
       ],
-      "published": "2026-09-28",
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214340814",
+      "url": "https://doi.org/10.1007/s11701-026-03982-6",
+      "pdf": "",
+      "title": "Utilisation of table-mounted versus floor-mounted robotic systems for thoracolumbar fusion: a before-and-after institutional experience",
+      "summary": "",
+      "authors": [
+        "Shane Zaw",
+        "Joshua Zhi En Koh",
+        "Joseph Jon Yin Wan",
+        "Tay Zhiquan",
+        "Thevandiran Kanavathy",
+        "Lilian Ow",
+        "Shree Kumar Dinesh",
+        "Andy Kuei Siong Yeo",
+        "Hong Lee Terry Teo",
+        "CHEW ZHIHONG",
+        "Nishal Kishinchand Primalani",
+        "Dalun Leong",
+        "Zhiquan Damian Lee",
+        "Mon Hnin Tun",
+        "Chen Shen",
+        "Lester Lee"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214363352",
+      "url": "https://doi.org/10.1007/s11701-026-03758-y",
+      "pdf": "",
+      "title": "Development and clinical translation of a stepwise simulation-based curriculum for robotic lung transplantation",
+      "summary": "",
+      "authors": [
+        "Jehad Feras AlSamhori",
+        "Therese Van Hoof",
+        "Benjamin Benavides",
+        "Min Peter Kim",
+        "Deven C. Patel",
+        "Warren Naselsky",
+        "Ray Chihara"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214366248",
+      "url": "https://doi.org/10.1108/jmtm-01-2026-0091",
+      "pdf": "",
+      "title": "A digital resilience hierarchy: orchestrating Industry 4.0 technologies in manufacturing",
+      "summary": "Purpose This paper examines how Industry 4.0 technologies contribute to organizational resilience through hierarchical digital orchestration. Specifically, it investigates how blockchain and IIoT function as foundational digital resources that enable the effective utilization of machine vision, robotics, and AI, and how these technologies collectively strengthen a firm's risk management infrastructure and resilience. Design/methodology/approach Drawing on resource orchestration theory as a theoretical lens, this study develops a Digital Resilience Hierarchy (DRH) that distinguishes between a d",
+      "authors": [
+        "Liu Yang",
+        "Pamela J. Zelbst",
+        "Sandra Buzón",
+        "Gerald Kohers"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214367248",
+      "url": "https://doi.org/10.1007/s00190-026-02111-3",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s00190-026-02111-3.pdf",
+      "title": "Multi-facility GNSS antenna calibration",
+      "summary": "Abstract Accurate antenna calibrations are a cornerstone of high-quality global navigation satellite systems (GNSS) positioning, time and frequency transfer, precise orbits, and troposphere estimates. The international GNSS service (IGS) antenna committee maintains antenna phase center corrections in the ANTEX file relying on five calibration facilities. Since new calibration facilities have been set up and user demands have grown along with hardware and software updates of GNSS, we organized an international inter-comparison across nine facilities, using both anechoic chambers and field robot",
+      "authors": [
+        "Tobias Kersten",
+        "Johannes Kröger",
+        "Steffen Schön",
+        "Andria L. Bilich",
+        "Igor Sutyagin",
+        "Martin Schmitz",
+        "Ansgar Dreier",
+        "Heiner Kuhlmann",
+        "Stefano Caizzone",
+        "Benedikt S. Soja",
+        "Andreas Brown",
+        "Gregor Möller",
+        "G. Hu",
+        "Zhigang Hu",
+        "Arturo Villiger"
+      ],
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -289,292 +208,337 @@
       "trending": 1.0
     },
     {
-      "id": "W7214542587",
-      "url": "https://doi.org/10.5281/zenodo.23003695",
-      "pdf": "https://doi.org/10.5281/zenodo.23003695",
-      "title": "perfbound: data-driven discovery of performance boundaries",
-      "summary": "Companion code and data for: Jahanshahi H, Zhu ZH. Data-Driven Discovery of Performance Boundaries in Robotic Systems through Extreme Quantile Estimation. PLOS ONE. 2026. doi:10.1371/journal.pone.0352196 Contents: perfbound: installable Python package implementing the boundary-discovery method (discover_boundary, bootstrap_boundary) reproduction: all analysis scripts behind the paper (a01-a08) and the figure-generation script data: UR10e tracking dataset, per-push dataset derived from the public MIT MCube benchmark, and the validation datasets figures: the eight manuscript figures",
+      "id": "W7214367798",
+      "url": "https://doi.org/10.36615/mx6tv588",
+      "pdf": "https://journals.uj.ac.za/index.php/jexed/article/download/5591/2864",
+      "title": "FROM FACE-TO-FACE TO ONLINE EDUCATIONAL ROBOTICS COMPETITIONS: A LONGITUDINAL STUDY OF PARTICIPATION AND LEARNING OUTCOMES",
+      "summary": "This study examines the evolution of the Aegean Robotics Competition (ARC) from a face-to-face educational robotics event to an online competition format. Using a longitudinal case study approach, participation records and questionnaire data collected from students, coaches, organizers, and judges across five competition cycles (2017–2022) were analyzed. The findings indicate sustained participation levels, increased interest in STEM disciplines, particularly robotics and programming, and positive development of teamwork, communication, and problem-solving skills. The results suggest that educ",
       "authors": [
-        "Hadi Jahanshahi",
-        "Zheng Hong Zhu"
+        "Despoina Sarrigeorgiou",
+        "Dimitris Chatzis",
+        "Ergina Kavallieratou",
+        "Eleni Dima"
       ],
-      "published": "2026-09-28",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
       "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.0
+    },
+    {
+      "id": "W7214397978",
+      "url": "https://doi.org/10.1007/s11701-026-03995-1",
+      "pdf": "",
+      "title": "Robotic versus laparoscopic surgery in older adults: a systematic review and meta-analysis of recovery-centered outcomes",
+      "summary": "",
+      "authors": [
+        "Lin Wang",
+        "Chenglu Ruan"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214424696",
+      "url": "https://doi.org/10.5281/zenodo.22975433",
+      "pdf": "https://doi.org/10.5281/zenodo.22975433",
+      "title": "An Insights Research on Motivating China 70 Cities Comparative Growth Number on Scientist's Evaluation with Sustainability I",
+      "summary": "An embodied artificial intelligence as an important robot product has felt concept and behavior based on the physical body through connecting with environmental communication so as to acquire information̖ understanding problem and make decision for the sake of realizing behavior and then producing smart behavior and adaptability. Thereby, it can be like human behavior and judgement to proceed its high-wisdom action by learning its reaction with the opposition with its reserved memory put-in detail data to complete its learning choice with much neural-network to choose the better liking one and",
+      "authors": [
+        "Run Xu",
+        "Changfu Jin",
+        "Jikang Yuan"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214425679",
+      "url": "https://doi.org/10.5281/zenodo.22981499",
+      "pdf": "https://doi.org/10.5281/zenodo.22981499",
+      "title": "Representation Before Action: How Dynamics-Aware Perception, Tactile Grounding, and Instruction Granularity Define the Upstream Bottleneck in Robot Generalization",
+      "summary": "This version corrects one citation error found by an automated check and confirmed by hand: PhySwarm, a paper listed among those considered and excluded, was cited under the identifier 2605.01597, which belongs to an unrelated paper; the correct identifier is arXiv:2606.01597. No claim of the synthesis changes. Dashes were also normalised and labels referring to an internal review rubric removed. This version has not had a full claim-by-claim audit. A persistent structural pattern across recent robotics preprints is that generalization failures in robot learning are predominantly upstream fail",
+      "authors": [
+        "Saluca Agentic AI Research Team"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214429835",
+      "url": "https://doi.org/10.5281/zenodo.22980889",
+      "pdf": "https://doi.org/10.5281/zenodo.22980889",
+      "title": "PANINIphy v1.0: Physical Realization Arm of the PANINI Computational Platform",
+      "summary": "Academic research poster announcing PANINIphy v1.0, the physical realization arm of the PANINI platform. PANINIphy extends a common, domain-agnostic computational spine rather than creating a second language, compiler, resolver, provenance system, artifact graph, verification framework, animation stack, or robotics-only architecture. It introduces a typed Physical IR and domain-specific engines for physical resolution, state, constraints, components, materials, interfaces, assembly, geometry, kinematics, reference dynamics, actuation, robotics, manufacturing and realization planning, observati",
+      "authors": [
+        "Abhishek Choudhary"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214421855",
+      "url": "https://openalex.org/W7214421855",
+      "pdf": "",
+      "title": "'Depuis l'usine jusqu'à l'université': medewerksters van het Apostolaat tussen Kerk en wereld (1917-1974)",
+      "summary": "This dissertation examines the history of the auxiliaires de l'Apostolat, Catholic laywomen who are called by their bishop to support him in his apostolate through societal presence and spiritual exercise. Focusing on Belgium in its international context, the study explores how these women forged a form of life that did not fully align with traditional categories such as religious orders and congregations or secular institutes. Instead, they embodied a model of consecrated secularity, living in the world while committing themselves to an apostolic and spiritual vocation. The dissertation situa",
+      "authors": [
+        "Maite De Beukeleer"
+      ],
+      "published": "2026-09-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7117283222",
+      "url": "https://doi.org/10.3758/s13421-026-01875-5",
+      "pdf": "https://link.springer.com/content/pdf/10.3758/s13421-026-01875-5.pdf",
+      "title": "Spaced repetition and list-strength in recognition memory",
+      "summary": "Intuition and classic mathematical models suggest that \"strong\" list items should see a competitive recognition-memory advantage when mixed with \"weak\" list items within a single list. This holds for manipulations of reading aloud but not other manipulations. Study time per item (e.g., 500 vs. 2000 ms), can even invert the effect, with a larger strength effect between pure-strength lists than within mixed lists. This inversion remained when the longer study time comprised three massed repetitions. An attentional subsetting theory account explained the inverted list-strength effect by assuming ",
+      "authors": [
+        "Jeremy B. Caplan",
+        "Dominic Guitard"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7164939089",
+      "url": "https://doi.org/10.5281/zenodo.20716337",
+      "pdf": "https://doi.org/10.5281/zenodo.20716337",
+      "title": "Perception as Policy Substrate: How Dynamics-Aware Representations, Temporal Asymmetry, Suboptimal-Data Recovery, Behavioral Monitoring, and Instruction Granularity Jointly Constrain Vision-Language-Action Policy Generalization",
+      "summary": "This version corrects citation errors found by an automated check and confirmed by hand. The force-aware re-sampling method FIRST was cited under the identifier 2606.12402, which is DIRECT, a paper on test-time compute routing; FIRST is arXiv:2606.12406, and the earlier statement that DIRECT's primary contribution is force-aware re-sampling has been removed (its compute-routing citations were correct and remain). DynaFLIP was cited under the identifier 2605.30864, which belongs to an unrelated cognitive science study; DynaFLIP is arXiv:2605.30350. This second error was found during the hand ch",
+      "authors": [
+        "Saluca Agentic AI Research Team"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 1.5
     },
     {
-      "id": "W7214543768",
-      "url": "https://doi.org/10.21203/rs.3.rs-11042518/v1",
-      "pdf": "https://doi.org/10.21203/rs.3.rs-11042518/v1",
-      "title": "A Step-Size-Based Spectral Three-Term Conjugate Gradient Method for Unconstrained Optimization with Applications to Robotic Motion Control and Image Denoising",
-      "summary": "",
+      "id": "W7203931879",
+      "url": "https://doi.org/10.5281/zenodo.22032924",
+      "pdf": "https://doi.org/10.5281/zenodo.22032924",
+      "title": "ARC — Reflexive Architecture of Consciousness: Dissolving the Hard Problem through Architectural Identity",
+      "summary": "Abstract: The hard problem of consciousness asks why there is something it is like to be a physical system. This paper presents the Reflexive Architecture of Consciousness (ARC), a formal theory that dissolves the hard problem by showing that the question that sustains it arises from an incomplete description. The theory's central claim is the Principle of Architectural Identity (PAI): the quale Q is identical to the reflexive functioning of an embodied architecture A, expressed as Q = f(A). The architecture comprises three components: the Basal Processing Center (BPC), which performs massive ",
       "authors": [
-        "Kabir Mohammed",
-        "Muhammad Sulaiman Muhammad",
-        "Mohammed Yusuf Waziri",
-        "Musa Haruna"
+        "Walterson Fontoura  Junior Fontoura Caravajal"
       ],
-      "published": "2026-09-28",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7214559385",
-      "url": "https://doi.org/10.1007/s11701-026-04005-0",
-      "pdf": "",
-      "title": "Public information-seeking about orthopedic surgical robotics: a decade-scale infodemiological analysis and forecast through 2030",
-      "summary": "",
+      "id": "W7203938531",
+      "url": "https://doi.org/10.5281/zenodo.22032647",
+      "pdf": "https://doi.org/10.5281/zenodo.22032647",
+      "title": "ARC — Reflexive Architecture of Consciousness: Dissolving the Hard Problem through Architectural Identity",
+      "summary": "Abstract: The hard problem of consciousness asks why there is something it is like to be a physical system. This paper presents the Reflexive Architecture of Consciousness (ARC), a formal theory that dissolves the hard problem by showing that the question that sustains it arises from an incomplete description. The theory's central claim is the Principle of Architectural Identity (PAI): the quale Q is identical to the reflexive functioning of an embodied architecture A, expressed as Q = f(A). The architecture comprises three components: the Basal Processing Center (BPC), which performs massive ",
       "authors": [
-        "Yakup Kahve",
-        "Tahsin Aydın",
-        "Utku Gürhan",
-        "Erman Ceyhan",
-        "Özdamar Fuad Öken"
+        "Walterson Fontoura  Junior Fontoura Caravajal"
       ],
-      "published": "2026-09-28",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7214564562",
-      "url": "https://doi.org/10.1007/s11701-026-03973-7",
-      "pdf": "",
-      "title": "Comparison of perioperative outcomes between laparoscopy and robotic-assisted surgery in the surgical treatment of endometriosis: a retrospective study",
-      "summary": "",
+      "id": "W7214351722",
+      "url": "https://doi.org/10.5281/zenodo.22967566",
+      "pdf": "https://doi.org/10.5281/zenodo.22967566",
+      "title": "Reproducibility Materials for Domain Recognition Is Not Target Page Attribution in Generative Search",
+      "summary": "This repository contains the frozen protocols, experimental panels, anonymized API-output archives, analysis code, robustness analyses, and SHA-256 integrity manifests supporting the study “Domain Recognition Is Not Target Page Attribution in Generative Search.” The materials cover the W1/W2 analyses, the counterfactual experiment, the 2×2 factorial experiment, technical URL-equivalence audits, semantic-relevance validation, manipulation checks, and top-10 robustness analyses. Records can be linked to their frozen panels by call_id. No API key, credential, or personal identifier is included. T",
       "authors": [
-        "Marina Quaglio Oinegue Fulfaro",
-        "Tatiani Araújo Pandim",
-        "Gustavo Anderman Silva Barison",
-        "Priscila Duarte Pessoa",
-        "Guilherme A. Sampaio",
-        "Júlia Pereira Junho e Silva",
-        "Antonio Phelipe Junior",
-        "Sérgio Podgaec",
-        "Eduardo Zlotnik",
-        "Mariano Tamura Vieira Gomes"
+        "Remzi Başar"
       ],
-      "published": "2026-09-28",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7135083228",
-      "url": "https://doi.org/10.1007/978-3-032-38236-8_42",
-      "pdf": "https://arxiv.org/pdf/2603.10220",
-      "title": "Robotic Ultrasound Makes CBCT Alive",
-      "summary": "",
+      "id": "W7214422574",
+      "url": "https://doi.org/10.1186/s12967-026-09001-4",
+      "pdf": "https://doi.org/10.1186/s12967-026-09001-4",
+      "title": "RAMP3 is associated with macrophage-driven immune exclusion and promotes resistance to PD-1 blockade in breast cancer: integrated in vivo and single-cell transcriptomic analyses",
+      "summary": "Abstract Background Receptor activity-modifying protein 3 (RAMP3) has been implicated in stromal regulation in cancer. However, its role in tumor microenvironment (TME) remodeling and immune checkpoint resistance remains unclear. In this study, we aimed to define the role of RAMP3 in shaping the immunosuppressive TME and evaluate its potential as a therapeutic target to enhance immunotherapy responses. Methods We used syngeneic mouse models of breast cancer with genetic manipulation of RAMP3 to investigate tumor progression, immune remodeling, and response to immune checkpoint blockade in vivo",
       "authors": [
-        "Feng Li",
-        "Ziyuan Li",
-        "Zhongliang Jiang",
-        "Nassir Navab",
-        "Yuan Bi"
+        "Yan Zhang",
+        "Megumu Tanaka",
+        "Takayuki Sakurai",
+        "Akiko Kamiyoshi",
+        "Yuka Ichikawa‐Shindo",
+        "Qianqian Guo",
+        "Ken Hoshiyama",
+        "Peixuan Li",
+        "Jiake Li",
+        "Jun Duan",
+        "Marina Hayashi",
+        "Kensuke Kai",
+        "Yunlu Zhao",
+        "Kun Dai",
+        "Takayuki Shindo"
       ],
-      "published": "2026-09-25",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7138312747",
-      "url": "https://doi.org/10.1007/978-3-032-38236-8_21",
-      "pdf": "https://arxiv.org/pdf/2603.14393",
-      "title": "From Scanning Guidelines to Action: A Robotic Ultrasound Agent with LLM-Based Reasoning",
-      "summary": "",
+      "id": "W7214424246",
+      "url": "https://doi.org/10.57612/js26.jts.05.07",
+      "pdf": "https://www.wtsf.org/ojs/index.php/jts/article/download/53/34",
+      "title": "The Body as a Bridge Between Earth and Mars: Tai Chi Culture and the Human Art of Space Adaptation",
+      "summary": "Long-duration spaceflight raises a human question as well as an engineering one: how can crews maintain physical coordination, emotional steadiness, and supportive relationships when familiar conditions change? This conceptual article introduces the Cosmo-Embodied Adaptation Framework, a research map for connecting Tai Chi (Taijiquan, 太极拳) cultural practices with specific questions about space adaptation. The framework distinguishes cultural meaning, candidate training processes, and outcomes that future studies could assess. Zhenglei Chen’s account of cultivating form, intention, qi (气), and ",
       "authors": [
-        "Yuan Bi",
-        "Yiping Zhou",
-        "Pei Liu",
-        "Feng Li",
-        "Zhongliang Jiang",
-        "Nassir Navab"
+        "Jonathan Jiang",
+        "Zhenglei Chen",
+        "Pauline Jiang"
       ],
-      "published": "2026-09-25",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7151556028",
-      "url": "https://doi.org/10.1007/978-3-032-38236-8_28",
-      "pdf": "https://arxiv.org/pdf/2604.03781",
-      "title": "OpenRC: An Open-Source Robotic Colonoscopy Framework for Multimodal Data Acquisition and Autonomy Research",
-      "summary": "",
+      "id": "W7214424286",
+      "url": "https://doi.org/10.33469/oannes.1930001",
+      "pdf": "https://dergipark.org.tr/en/download/article-file/5911175",
+      "title": "Gossip, Slander and Accusation in Hittite Society",
+      "summary": "In Hittite society, oral communication was a powerful dynamic influencing daily interaction, political structure, and divine order. Hittite cuneiform documents show that words could be unfounded, baseless, and consciously or unconsciously presented as contrary to the truth. This phenomenon, expressed in Hittite texts through the concepts of gossip and slander, played an important role in the circulation of information and the manipulation of perceptions. It is recorded that, particularly in conflicts within the royal family, individuals attempted to undermine or damage the reputation of others",
       "authors": [
-        "Siddhartha Kapuria",
-        "Mohammad Rafiee Javazm",
-        "Naruhiko Ikoma",
-        "Joga Ivatury",
-        "Mohammad Ali Nasseri",
-        "Nassir Navab",
-        "Farshid Alambeigi"
+        "Nermin Atila"
       ],
-      "published": "2026-09-25",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7155718017",
-      "url": "https://doi.org/10.5281/zenodo.19781683",
-      "pdf": "https://doi.org/10.5281/zenodo.19781683",
-      "title": "The Convergence Index: The Mixing Zone of Human Mechanization and AI Humanization",
-      "summary": "Bioethics has debated human enhancement (prosthetics, brain-computer interfaces, cognitive offloading), charting the progressive mechanization of body and mind, while AI ethics has examined AI humanization: robotic embodiment, emotional simulation, legal personhood. These two traditions have developed in isolation. This paper argues that the two trajectories converge along a single axis rather than running parallel, and proposes the Convergence Index (CI) for measuring their mutual approach. CI is defined as CI = 1 − |FRR − AIHR|, where the Functional Residual Ratio (FRR) captures the degree t",
-      "authors": [
-        "Kenji Yamada"
-      ],
-      "published": "2026-09-25",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7214274170",
-      "url": "https://doi.org/10.1002/9781394399222.ch24",
-      "pdf": "",
-      "title": "Next‐Generation Robotic Perception Artificial Intelligence Design, Development, and Real‐World Impacts",
-      "summary": "Artificial intelligence (AI)–driven robotic vision is transforming the domains of autonomous mobility, healthcare, geological research, and space exploration. This work examines the integration of deep learning, sensor fusion, edge AI, and multimodal geospatial intelligence into robotic perception systems. Convolutional neural networks, transformers, LiDAR (light detection and ranging), edge computing, and AI-augmented geospatial analysis exemplify essential technologies. Advancements such as neuromorphic computing, biomimetic vision, autonomous learning, and adaptive reinforcement learning en",
+      "id": "W7214425534",
+      "url": "https://doi.org/10.26437/914mxe07",
+      "pdf": "https://mail.ajaronline.com/index.php/AJAR/article/download/2192/933",
+      "title": "Improving Colour Image Forgery Detection Using Machine Learning Methods",
+      "summary": "Purpose: This study aims to develop an efficient and accurate approach for detecting copy-transfer image forgery, where duplicated image regions are geometrically transformed and inserted elsewhere in an image. The study aims to reduce computational complexity and detection time while maintaining high detection performance. Design/Methodology/Approach: The proposed method combines histogram-based features, Discrete Cosine Transform (DCT) features, and Iterative Closest Point (ICP)-based recurring-point features for copy-transfer forgery detection. The method extracts features from authentic an",
       "authors": [
-        "Martins Olatoye AROWOLO",
-        "Rafiu Mope Isiaka",
-        "Kingsley Theophilus Igulu",
-        "Ayodeji Nurudeen Mohammed",
-        "Adejare Adeyemo",
-        "Marvis Ayoola Arowolo",
-        "Adeola Margaret Olarewaju",
-        "Micheal Olaolu Arowolo"
+        "M. Talib Mahdi",
+        "W. Zaki Mizyad Al – Humadi",
+        "B. Arif Salim",
+        "H. Adil Joudah",
+        "A. Taj-Uldeen"
       ],
-      "published": "2026-09-25",
+      "published": "2026-09-26",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214429665",
+      "url": "https://doi.org/10.20508/80b7hn45",
+      "pdf": "https://ijdigit.org/ijdigit/index.php/ijdigit/article/download/9/29",
+      "title": "Intelligent Threat Detection in Cloud Environments: Integrating Machine Learning with Blockchain for Enhanced Digital Security",
+      "summary": "This paper presents an intelligent threat detection framework for cloud environments by integrating machine learning techniques with blockchain technology to enhance digital security and data integrity. With the rapid adoption of cloud computing, enterprises and users face major concerns from security threats and data breaches. Traditional security mechanisms often fail to provide real-time, tamper-proof threat detection in dynamic cloud environments. Several studies use machine learning models for intrusion detection; however, they face data manipulation risks and centralized vulnerabilities.",
+      "authors": [
+        "Mathiazhagan Mani",
+        "Janani Selvam",
+        "Divya Midhun Chakkaravarthy"
+      ],
+      "published": "2026-09-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
-    },
-    {
-      "id": "W7214546918",
-      "url": "https://doi.org/10.1016/j.aei.2026.105312",
-      "pdf": "",
-      "title": "Velocity adaptive preview path tracking control for autonomous vehicles using deep reinforcement learning with Lyapunov function-based reward shaping",
-      "summary": "",
-      "authors": [
-        "Lie Guo",
-        "Zhengwei Zhao",
-        "Lu Guan",
-        "Linli Xu",
-        "Pingshu Ge"
-      ],
-      "published": "2026-09-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7170191759",
-      "url": "https://doi.org/10.1145/3773078.3831912",
-      "pdf": "https://doi.org/10.1145/3773078.3831912",
-      "title": "Long-term User Engagement Optimization through Model-agnostic Downstream Rewards Learning",
-      "summary": "As recommender systems mature in the past few years, their optimization objectives have evolved from a primary focusing on short-term behavioral signals to a broader emphasis on long-term user engagement and retention. However, directly optimizing retention is difficult because return signals are sparse, delayed, and only partially attributable to earlier recommendations. Prior work has addressed this challenge with sequential modeling and reinforcement learning, but these approaches typically require task specific reward engineering, substantial computational overhead, and surface specific im",
-      "authors": [
-        "Dingsu Wang",
-        "Filip Ryzner",
-        "Kelly He",
-        "Armando Ordorica",
-        "David Woo",
-        "Aditya Mantha",
-        "Liyao Lu",
-        "Usha Nookala",
-        "Haoran Guo",
-        "Jiacong He",
-        "Olafur Gudmundsson",
-        "Matt Chun",
-        "Krystal Benitez",
-        "Dhruvil Badani",
-        "Yijie Dylan Wang"
-      ],
-      "published": "2026-09-25",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7202207971",
-      "url": "https://doi.org/10.1145/3773078.3831929",
-      "pdf": "https://doi.org/10.1145/3773078.3831929",
-      "title": "LLM Reasoning for Subjective Tasks: Failure Modes, Mitigation, and Dynamic Reasoning Routing",
-      "summary": "Recommendation systems thrive on personalization, where “correctness” is rarely a binary truth but a matter of subjective human preference. As Large Language Models (LLMs) are deployed as autonomous verifiers of safety and quality guidelines, they face a distinctive challenge: context-aware preference alignment. Recent gains in Reinforcement Learning with Verifiable Rewards (RLVR) are indexed mostly on objective, mathematical tasks. Through a large-scale study spanning both proprietary and open-source models on four real-world verification tasks from a production recommender platform, we ask w",
-      "authors": [
-        "Juncheng Dong",
-        "童 丁",
-        "Ishan Gupta",
-        "Yuyan Wang"
-      ],
-      "published": "2026-09-25",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 1.5
     }
   ]
 }
