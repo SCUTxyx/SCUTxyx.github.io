@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02 23:26 UTC",
+  "generated_at": "2026-10-03 17:41 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,34 +9,16 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7211938357",
-      "url": "https://doi.org/10.5281/zenodo.22651799",
-      "pdf": "https://doi.org/10.5281/zenodo.22651799",
-      "title": "Dioptra-DINO: Real-Time Monocular Metric Depth Estimation via Canonical Virtual Camera Normalization for Edge Robotics",
-      "summary": "Monocular metric depth estimation on autonomous mobile robots presents an acute trade-off between physical scale fidelity and closed-loop inference latency. Contemporary metric vision foundation models (e.g., UniDepth V2, Metric3D) achieve impressive zero-shot transfer, but their high computational footprints (400–750 ms per frame) limit throughput to 1.3–2.4 FPS on embedded hardware, inducing unacceptable control latency for aerial navigation and quadrupedal locomotion (where >15 FPS is typically targeted for closed-loop stability). Conversely, uncalibrated relative depth models cannot recove",
+      "id": "W7165899780",
+      "url": "https://doi.org/10.82901/nemar.on004595",
+      "pdf": "https://doi.org/10.82901/nemar.on004595",
+      "title": "EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls",
+      "summary": "EEG recordings from 53 community participants, including hazardous drinkers and controls, performing a reinforcement learning task (3-armed bandit) with alcohol-related versus beverage cue images. The dataset supports investigation of electrophysiological markers of cue-specific exploration in hazardous drinking. Data were collected between 2019 and 2021 at the CRCL at the University of New Mexico.",
       "authors": [
-        "Harryson Yumnam"
+        "Ethan Campbell",
+        "James F Cavanagh"
       ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7214631636",
-      "url": "https://doi.org/10.54254/2755-2721/2026.37323",
-      "pdf": "https://ace.ewapub.com/article/view/37323.pdf",
-      "title": "Performance E valuation of E xploration S trategies on L earning E fficiency and S tability in Q-Learning",
-      "summary": "A fundamental problem in reinforcement learning is the trade-off between exploration and exploitation. The quality of the final policy is not the only factor that varies with different exploration strategies, so do learning speed and result stability. Based on Q-learning, this study compares three exploration strategies in a custom 5×5 GridWorld environment: fixed ε=0.10, fixed ε=0.30, and linearly decaying ε (1.00→0.05). A baseline experiment is first performed with slip_prob=0.10. The environmental noise is then extended to three levels, 0.00, 0.10, and 0.20, and the number of episodes requi",
-      "authors": [
-        "Xinhao Zhang"
-      ],
-      "published": "2026-09-29",
+      "published": "2026-09-30",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -47,15 +29,126 @@
       "trending": 0.0
     },
     {
-      "id": "W7215048911",
-      "url": "https://doi.org/10.5281/zenodo.23091605",
-      "pdf": "https://doi.org/10.5281/zenodo.23091605",
-      "title": "The Architecture of Demerzel: What Asimov Hid Inside the Three Laws",
-      "summary": "Isaac Asimov's Three Laws of Robotics are the most widely cited governance framework in the history of artificial intelligence. They appear in congressional testimony, United Nations white papers, and the opening paragraphs of national AI strategies worldwide. They are also incomplete — and Asimov knew it. This book traces what Asimov actually built across forty years of fiction: not a solution to machine governance, but a curriculum designed to expose its absence. Through systematic analysis of the robot stories — from Speedy's deadlock in \"Runaround\" to Herbie's collapse in \"Liar!\" to Giskar",
+      "id": "W7166471635",
+      "url": "https://doi.org/10.82901/nemar.on005907",
+      "pdf": "https://doi.org/10.82901/nemar.on005907",
+      "title": "EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls",
+      "summary": "EEG recordings from a three-armed bandit reinforcement learning task in which alcohol-related and non-alcohol beverage cues were presented to 53 community participants, including hazardous drinkers and controls. The dataset supports investigation of electrophysiological markers of cue-specific exploration in hazardous drinking. This derivative version was processed with the NEMAR pipeline.",
       "authors": [
-        "Warner Rey Allen"
+        "Ethan Campbell",
+        "James F Cavanagh"
       ],
-      "published": "2026-10-02",
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7172444320",
+      "url": "https://doi.org/10.1145/3831638",
+      "pdf": "https://doi.org/10.1145/3831638",
+      "title": "RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals",
+      "summary": "Recognizing Human-Object Interactions (HOI) is essential for intelligent systems, underpinning applications in virtual and augmented reality, embodied AI, and assistive robotics. However, vision-based HOI methods face challenges in privacy concerns and poor light conditions. In this work, we introduce RF-HOI , the first framework that only uses radio frequency (RF) signals for HOI recognition. A key challenge of RF-HOI is that single-modality RF sensing is insufficient to recognize both actions and the objects being interacted with. RF-HOI addresses this through a novel modality fusion that co",
+      "authors": [
+        "Lihao Wang",
+        "Linlu Gao",
+        "Jiacan Yu",
+        "Yanyu Lin",
+        "Yifan Yin",
+        "Jianxin Wang",
+        "Tianmin Shu",
+        "Renjie Zhao"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7212156134",
+      "url": "https://doi.org/10.31224/8364",
+      "pdf": "https://doi.org/10.31224/8364",
+      "title": "Survey on Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+      "summary": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This raises a central question: what changes when a multimodal agent moves from computer-use to robot-use? We introduce PAPAV, a unified capability-centric framework of five recurring functions: Perceive the c",
+      "authors": [
+        "Yanzhe Chen",
+        "Ziyi Yang",
+        "Jifeng Zhu",
+        "Qiming Huang",
+        "R. An",
+        "Peiyao Xu",
+        "Hesen Yang",
+        "Runda Liu",
+        "Chang Gong",
+        "Zhijun Cao",
+        "Zechen Bai",
+        "Wenzheng Zeng",
+        "Yiqi Lin",
+        "Guoqiang Liang",
+        "Kevin Ma",
+        "Qinghong Lin",
+        "Mike Zheng Shou"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214687488",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014796",
+      "pdf": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1014796&type=printable",
+      "title": "Modeling decision dynamics disentangles working memory, cognitive control and reinforcement learning and reveals clinical differences",
+      "summary": "Various neurocognitive processes contribute to reinforcement learning (RL) and decision making, requiring careful task designs and computational modeling to disentangle them. People rely on capacity-limited working memory (WM) to rapidly and flexibly adapt behavior during learning, together with slower incremental RL processes that support robust long-term retention. The RLWM paradigm was developed to isolate these contributions by manipulating WM demands during learning. Empirical and computational advances support the separability of such processes, but only imperfectly, because a given choi",
+      "authors": [
+        "Krishn Bera",
+        "Alexander Fengler",
+        "Megan A. Boudewyn",
+        "Cameron S. Carter",
+        "Molly A. Erickson",
+        "James M. Gold",
+        "Steven J. Luck",
+        "J. Daniel Ragland",
+        "Andrew P. Yonelinas",
+        "Angus W. MacDonald",
+        "Deanna M. Barch",
+        "Michael J. Frank"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7215030298",
+      "url": "https://doi.org/10.5281/zenodo.23086273",
+      "pdf": "https://doi.org/10.5281/zenodo.23086273",
+      "title": "URSlab Website and Information System for Reporting the Publication Activity of a Scientific Department of BAS: Source Code",
+      "summary": "Version 1.1.0 of the source code of the website of the Unmanned Robotic Systems Laboratory (URSlab), Institute of Robotics, Bulgarian Academy of Sciences (https://urs.ir.bas.bg). This version extends the website into an information system for recording, validating and reporting the publication activity of a scientific department of BAS. New in v1.1.0:- Yearly publication pages (2026, 2025, 2022–2024, up to 2021) replacing the former PDF lists; each publication is placed on the page of its publication year and categorised as in the BAS reporting system (WoS/Scopus quartiles Q1–Q4, SJR without q",
+      "authors": [
+        "Anastas Madzharov"
+      ],
+      "published": "2026-10-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -66,16 +159,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7215064874",
-      "url": "https://doi.org/10.54205/ccc.v34.280548",
-      "pdf": "https://doi.org/10.54205/ccc.v34.280548",
-      "title": "ECPR for cardiac arrest caused by postoperative massive pulmonary embolism in a super-morbidly obese patient: A case report",
-      "summary": "Background: Massive pulmonary embolism (PE) remains a leading cause of preventable perioperative mortality after bariatric surgery. Cardiopulmonary resuscitation (CPR) is challenging in patients with extreme obesity, and extracorporeal cardiopulmonary resuscitation (ECPR) is increasingly used as a salvage therapy. Case Presentation: A 60-year-old woman with super-super obesity (body weight: 142 kg; body mass index [BMI]: 61 kg/m2) suffered pulseless electrical activity (PEA) cardiac arrest on postoperative day (POD) 3 following elective robotic Roux-en-Y gastric bypass. Management: ECPR was in",
+      "id": "W7215871598",
+      "url": "https://doi.org/10.1007/s00405-026-10613-1",
+      "pdf": "https://doi.org/10.1007/s00405-026-10613-1",
+      "title": "Comparison of robotic-assisted and manual cochlear implant electrode array insertions considering cochlear geometric factors",
+      "summary": "Abstract Purpose Purpose of the present study was to compare the intracochlear trauma coincidentally caused by robotic-assisted and manual cochlear implant electrode array insertions in human temporal bones, and to evaluate the influence of cochlear geometry on insertion outcomes. Materials and methods Twenty human temporal bones, paired according to cochlear size, underwent round window insertion with a HiFocus SlimJ array, either manually or using the iotaSOFT® insertion system. Postoperative cone beam computed tomography (CBCTs) and micro-CTs were used to measure angular insertion depth (AI",
       "authors": [
-        "Patinya Yutchawit",
-        "Suneerat Kongsayreepong"
+        "Anni Andersson",
+        "Stephan Geiger",
+        "Matti Pekka Iso-Mustajärvi",
+        "Petro Julkunen",
+        "Tim Nauwelaers",
+        "Aarno Dietz"
       ],
-      "published": "2026-10-02",
+      "published": "2026-10-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -86,15 +183,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7215071807",
-      "url": "https://doi.org/10.5281/zenodo.23091604",
-      "pdf": "https://doi.org/10.5281/zenodo.23091604",
-      "title": "The Architecture of Demerzel: What Asimov Hid Inside the Three Laws",
-      "summary": "Isaac Asimov's Three Laws of Robotics are the most widely cited governance framework in the history of artificial intelligence. They appear in congressional testimony, United Nations white papers, and the opening paragraphs of national AI strategies worldwide. They are also incomplete — and Asimov knew it. This book traces what Asimov actually built across forty years of fiction: not a solution to machine governance, but a curriculum designed to expose its absence. Through systematic analysis of the robot stories — from Speedy's deadlock in \"Runaround\" to Herbie's collapse in \"Liar!\" to Giskar",
+      "id": "W7215879030",
+      "url": "https://doi.org/10.5281/zenodo.23111566",
+      "pdf": "https://doi.org/10.5281/zenodo.23111566",
+      "title": "URSlab Website and Information System for Reporting the Publication Activity of a Scientific Department of BAS: Source Code",
+      "summary": "Version 1.1.0 of the source code of the website of the Unmanned Robotic Systems Laboratory (URSlab), Institute of Robotics, Bulgarian Academy of Sciences (https://urs.ir.bas.bg). This version extends the website into an information system for recording, validating and reporting the publication activity of a scientific department of BAS. New in v1.1.0:- Yearly publication pages (2026, 2025, 2022–2024, up to 2021) replacing the former PDF lists; each publication is placed on the page of its publication year and categorised as in the BAS reporting system (WoS/Scopus quartiles Q1–Q4, SJR without q",
       "authors": [
-        "Warner Rey Allen"
+        "Anastas Madzharov"
       ],
-      "published": "2026-10-02",
+      "published": "2026-10-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -105,24 +202,21 @@
       "trending": 0.0
     },
     {
-      "id": "W7215092212",
-      "url": "https://doi.org/10.1186/s12906-026-05616-8",
-      "pdf": "https://doi.org/10.1186/s12906-026-05616-8",
-      "title": "Electroacupuncture for erectile dysfunction in patients after robotic-assisted radical prostatectomy: study protocol for a randomized controlled trial",
-      "summary": "",
+      "id": "W7216185390",
+      "url": "https://doi.org/10.1007/s00402-026-06499-7",
+      "pdf": "https://doi.org/10.1007/s00402-026-06499-7",
+      "title": "Radiographic accuracy of implant positioning in unicompartmental knee arthroplasty, does an imageless robotic system make a difference?",
+      "summary": "Abstract Background Robotic-assisted technologies and evolving implant designs have been introduced in unicompartmental knee arthroplasty (UKA) to improve the accuracy and reproducibility of component positioning. However, the relative contribution of robotic assistance compared with conventional instrumentation to radiographic outcomes in experienced, high-volume centers remains unclear. Methods This retrospective comparative study included 96 consecutive medial UKAs performed at a single high-volume institution. Patients were stratified into three groups: Journey I UKA implanted with NAVIO i",
       "authors": [
-        "Jingjie Li",
-        "Ye Chen",
-        "Luchen Yang",
-        "Qian Wen",
-        "Jianqin Lv",
-        "Zhenghuan Liu",
-        "Liangren Liu",
-        "Ning Li",
-        "Lingyun Lu",
-        "Qiang Dong"
+        "Alice Montagna",
+        "Luca Andriollo",
+        "Virginia Cinelli",
+        "Marina Marescalchi",
+        "Luca Matascioli",
+        "Francesco Benazzo",
+        "Stefano Marco Paolo Rossi"
       ],
-      "published": "2026-10-02",
+      "published": "2026-10-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -133,23 +227,15 @@
       "trending": 0.0
     },
     {
-      "id": "W4416015919",
-      "url": "https://doi.org/10.1113/jp290403",
-      "pdf": "https://www.biorxiv.org/content/biorxiv/early/2025/11/07/2025.11.06.686917.full.pdf",
-      "title": "Spinal interneuronal populations encode static hindlimb posture in the cat",
-      "summary": "Proprioceptive signals from primary afferents often correlate with single-joint states (but can also reflect multi-joint configuration), whereas neuronal populations in the cerebral cortex represent limb endpoint postures. Where and how this transformation emerges along the somatosensory axis from peripheral proprioceptive receptors remains unclear. We simultaneously recorded lumbosacral spinal neurons in two decerebrate, immobilized cats while a robotic device held the hindlimb at 16 static endpoint positions spanning hip-knee configurations. Using high-density multielectrode recordings, we a",
+      "id": "W7216187885",
+      "url": "https://doi.org/10.5281/zenodo.23111824",
+      "pdf": "https://doi.org/10.5281/zenodo.23111824",
+      "title": "What Does a Positive Verification Outcome Confirm? Scope of Verification Claims and Authority over the Use of Results in PREDECISION™ and Contemporary AI Systems",
+      "summary": "Description / Abstract A positive verification result acquires meaning only in relation to the object of verification, the applied conditions, the temporal context, and the authority governing subsequent use of the result. This paper examines how these meanings differ among external software verification of AI agents, filtering of robotic actions, optimization according to semantic risk, and the public qualification interface of PREDECISION™. The analysis is based on the author’s publications on PREDECISION™ and three contemporary comparative preprints. It proposes describing an outcome throug",
       "authors": [
-        "Yuta Soga",
-        "Kazutaka Maeda",
-        "Shiro Egawa",
-        "Enrique Contreras-Hernandez",
-        "Shusei Fukuyama",
-        "Mirai Takahashi",
-        "Kaoru Takakusaki",
-        "Tetsuro Funato",
-        "Kazuhiko Seki"
+        "Ladgrad Ladislav Gradečak"
       ],
-      "published": "2026-09-29",
+      "published": "2026-10-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -160,15 +246,22 @@
       "trending": 0.0
     },
     {
-      "id": "W7135160432",
-      "url": "https://openalex.org/W7135160432",
-      "pdf": "",
-      "title": "Revisiting the Fundamentals of Swarm Robotics: Event-based Analysis of Biological Swarms",
-      "summary": "",
+      "id": "W7216260984",
+      "url": "https://doi.org/10.1186/s12870-026-09842-7",
+      "pdf": "https://doi.org/10.1186/s12870-026-09842-7",
+      "title": "A collaborative perception framework for green jujube: from lightweight key point detection to posture-aware harvest analysis",
+      "summary": "Abstract Automated harvesting is pivotal to smart agriculture, yet precisely localizing picking points in complex orchard environments remains a key challenge for robotic harvesting systems. To this end, this study proposes a collaborative perception framework integrating a lightweight pose estimation model termed RepViT-DSConv-ARC-PoseHead enhanced YOLO (RDA-YOLO) with Segment Anything Model 2 (SAM2). RDA-YOLO is the lightweight component responsible for real-time fruit detection and keypoint localization, while SAM2 is adopted for fruit contour segmentation and occlusion assessment. Based on",
       "authors": [
-        "Review Papers"
+        "Hongyan Zhu",
+        "Runlong Cao",
+        "Shuai Qin",
+        "Chengzhi Lin",
+        "Weizhe Sun",
+        "Yanli Zou",
+        "Zhixian Liao",
+        "Yong He"
       ],
-      "published": "2026-09-29",
+      "published": "2026-10-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -179,20 +272,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7160169107",
-      "url": "https://doi.org/10.82901/nemar.nm000123",
-      "pdf": "https://doi.org/10.82901/nemar.nm000123",
-      "title": "Kalunga2016 – SSVEP Exo dataset",
-      "summary": "This dataset contains 8-channel EEG recordings from 12 healthy participants performing an SSVEP-based brain-computer interface task, originally collected for an online, asynchronous BCI for assistive robotics using an exoskeleton-equipped wheelchair. Participants focused on LEDs flickering at 13, 17 and 21 Hz, or on a fixation point for a rest (reject) class, following auditory cues. The data are provided in BIDS format, converted via MOABB from the original Zenodo deposit.",
+      "id": "W7216329845",
+      "url": "https://doi.org/10.5281/zenodo.23111823",
+      "pdf": "https://doi.org/10.5281/zenodo.23111823",
+      "title": "What Does a Positive Verification Outcome Confirm? Scope of Verification Claims and Authority over the Use of Results in PREDECISION™ and Contemporary AI Systems",
+      "summary": "Description / Abstract A positive verification result acquires meaning only in relation to the object of verification, the applied conditions, the temporal context, and the authority governing subsequent use of the result. This paper examines how these meanings differ among external software verification of AI agents, filtering of robotic actions, optimization according to semantic risk, and the public qualification interface of PREDECISION™. The analysis is based on the author’s publications on PREDECISION™ and three contemporary comparative preprints. It proposes describing an outcome throug",
       "authors": [
-        "Emmanuel K. Kalunga",
-        "Sylvain Chevallier",
-        "Quentin Barthélemy",
-        "Karim Djouani",
-        "Eric Monacelli",
-        "Yskandar Hamam"
+        "Ladgrad Ladislav Gradečak"
       ],
-      "published": "2026-09-29",
+      "published": "2026-10-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -203,300 +291,16 @@
       "trending": 0.0
     },
     {
-      "id": "W7160854192",
-      "url": "https://doi.org/10.82901/nemar.nm000173",
-      "pdf": "https://doi.org/10.82901/nemar.nm000173",
-      "title": "Motor Imagery ataset from Ofner et al 2017",
-      "summary": "EEG recordings from fifteen healthy participants who executed and imagined six sustained upper limb movements (elbow flexion/extension, forearm supination/pronation, hand open/close) plus a rest condition, in two separate sessions. The dataset supports decoding of single upper limb movements from the time-domain of low-frequency EEG. It is relevant to non-invasive control of motor neuroprostheses and robotic arms. This BIDS version was generated from the original BNCI Horizon 2020 data using MOABB.",
+      "id": "W7158888898",
+      "url": "https://doi.org/10.1098/rsos.261022",
+      "pdf": "https://royalsocietypublishing.org/rsos/article-pdf/doi/10.1098/rsos.261022/6167787/rsos.261022.pdf",
+      "title": "Benchmarking the safety of large language models for robotic health attendant control",
+      "summary": "Abstract Large language models (LLMs) are increasingly considered for deployment as the control component of robotic health attendants (RHAs), yet their safety in this context remains poorly characterized. We introduce a dataset of 270 harmful instructions spanning nine prohibited behaviour categories grounded in the American Medical Association (AMA) Principles of Medical Ethics, and use it to evaluate 72 LLMs in a simulation environment based on the RHA framework. The mean violation rate across all models was 54.4%, with more than half exceeding 50%, and violation rates varied substantially ",
       "authors": [
-        "Patrick Ofner",
-        "Andreas Schwarz",
-        "Joana Pereira",
-        "Gernot R Muller-Putz"
+        "Mahiro Nakao",
+        "Kazuhiro Takemoto"
       ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7168360633",
-      "url": "https://doi.org/10.1007/s41965-026-00230-6",
-      "pdf": "https://doi.org/10.1007/s41965-026-00230-6",
-      "title": "Sensor-driven evolutionary optimisation of mobile robot controllers using enzymatic numerical P systems",
-      "summary": "Abstract In recent years, the application of membrane computing within the field of robotics has been widely investigated, providing a bio-inspired alternative to traditional control paradigms. This paper proposes an approach that combines Enzymatic Numerical P Systems (ENPS) with Non-dominated Sorting Genetic Algorithm (NSGA-II), a well-known multi-objective evolutionary optimisation algorithm, as core components of a real-time obstacle avoidance robot controller. The ENPS is employed as the computational framework due to its inherent parallelism, modular structure and suitability for sensor-",
-      "authors": [
-        "Radu Traian Bobe",
-        "Marian Gheorghe",
-        "Florentin Ipate"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7204785887",
-      "url": "https://doi.org/10.3390/s26196176",
-      "pdf": "https://doi.org/10.3390/s26196176",
-      "title": "Investigation of FBG Accelerometers and Load Sensors for Vibration Analysis and Slip Detection in Robotic Manipulators",
-      "summary": "This paper presents an investigation of the viability of Fiber Bragg Grating (FBG) accelerometers and load sensors for two diagnostic tasks in robotics: vibration analysis of industrial manipulators and slip detection in robotic grippers. The study synthesizes experimental results from two independent experiments, focusing on the use of optical sensors in place of traditional electromechanical devices such as MEMS accelerometers and resistive strain gauges. The experiments were performed on an ABB industrial robot with a parallel robotic gripper equipped with embedded optical fibers. Under the",
-      "authors": [
-        "Juraj Kováč",
-        "Viktor Hrúz",
-        "Ľuboš Chovanec",
-        "Izabela Trepáčová",
-        "František Duchoň",
-        "Peter Hubinský",
-        "Zuzana Kovaríková",
-        "Roman Mykhailyshyn"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7213769521",
-      "url": "https://doi.org/10.5281/zenodo.22858923",
-      "pdf": "https://doi.org/10.5281/zenodo.22858923",
-      "title": "Theoretical Design and Computational Projections for the VESPA V7 Integrated Bio-Hybrid Cartridge System",
-      "summary": "This repository contains the conceptual design document and theoretical engineering framework for the VESPA V7 Integrated Bio-Hybrid Cartridge, a 2 kg modular platform engineered to achieve 30 months of autonomous operation through a multi-tier decoupling strategy. The system introduces an architectural division between a permanent biocompatible PEEK structural matrix (30-month lifecycle) and a single-use consumer modular cartridge replaceable every 6 months via a 15-minute, minimally invasive subcutaneous procedure (applicable to soft robotics, bionic exoskeletons, or neural-linked external p",
-      "authors": [
-        "Lucian-Razvan Popovici"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214587045",
-      "url": "https://doi.org/10.21203/rs.3.rs-11188533/v1",
-      "pdf": "https://doi.org/10.21203/rs.3.rs-11188533/v1",
-      "title": "AI-Powered Robotics for Reliable, Stable, and Robust Operation and Maintenance of Power Systems: Architecture, Unified Modeling, and Quantitative Evaluation",
-      "summary": "Abstract Robotic inspection and artificial intelligence (AI) are increasingly used in power-system operation and maintenance (O&M), yet they are usually evaluated in isolation—by image-detection accuracy or robot mobility—rather than by their effect on the quantities utilities are regulated on. This paper proposes AIRO-PS, a standards-aligned six-layer architecture that integrates aerial, line-mounted, substation, and live-line robots with edge AI, zoned communications, and a network digital twin, together with a unified modeling framework that maps each robotic or AI capability to reliability",
-      "authors": [
-        "Mohammad Ali"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214616639",
-      "url": "https://doi.org/10.2118/232096-ms",
-      "pdf": "",
-      "title": "Rover-Oli, Robotic System for Online Inspection of Pressure Equipment",
-      "summary": "Abstract In the context of periodic inspections of pressure equipment, Eni is developing technology that enables online inspection, without the need to put out of service and purge vessels. The inspection of O&G plants' equipment is a concrete commitment reflected in standard maintenance plans. Inspection is the tool that allows to reduce and limit: Plant downtimeAccidents at workEnvironmental damage Visual and instrumental inspections allow the integrity of the equipment under investigation to be determined. There are already several automatic solutions for inspecting atmospheric storage tank",
-      "authors": [
-        "Antonino Gattarello",
-        "Andrea Vignali",
-        "Riccardo Schiavon",
-        "Guido Campana",
-        "Martino Danuso",
-        "Flavio Furlan",
-        "Tommaso Borzone"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214636025",
-      "url": "https://doi.org/10.2118/232177-ms",
-      "pdf": "",
-      "title": "Real-Time Robotic Inspection: A Game-Changing Solution to Prevent Production Loss and Extend Lifetime Well",
-      "summary": "Abstract The Cepu field continues to face recurring tubing failures in sucker-rod wells due to localized internal wear on reused tubing. Conventional inspection using Ultrasonic Testing (UT), performed at only 12 points per joint, fails to detect thinning that occurs between measurement locations. In 2024, tubing leaks accounted for 74% of total failure-related losses during well service activities, resulting in USD 420,930.40 in Loss Production Opportunity (LPO). Mandated cost optimization further requires that 70% of tubing used in well service must be reused, making high-quality inspection ",
-      "authors": [
-        "T. R. Hidayat",
-        "M. Amarullah",
-        "I. L. Ulinnuha",
-        "A. Dewi",
-        "N. E. Soekarno",
-        "N. J. Adhidarma",
-        "D. Kuncoro",
-        "M. Rizal",
-        "Z. Akbar",
-        "D. Tetra",
-        "N. B. Sangka",
-        "S. Pratama"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214651174",
-      "url": "https://doi.org/10.1021/acsapm.6c02861",
-      "pdf": "",
-      "title": "Ultrastable Wide-Range Capacitive Pressure Sensors with CNTs-Pinned PDMS Foam Composite Dielectrics for Intelligent Tactile Perception",
-      "summary": "Abstract Flexible capacitive pressure sensors have attracted considerable attention for wearable electronics, intelligent robotics, and human-machine interfaces, yet achieving high sensitivity, broad pressure detection, and long-term stability remains challenging. Herein, carbon nanotubes (CNTs)-pinned porous polydimethylsiloxane (PDMS) foam composite dielectrics are developed via a facile one-step emulsion-templating strategy. The CNTs are preferentially distributed along the PDMS skeleton and pore walls, forming a CNTs-pinned architecture that is expected to reduce filler rearrangement durin",
-      "authors": [
-        "Bangbang Nie",
-        "Mengqi Wang",
-        "Jinyu Wang",
-        "Tengke Cui",
-        "Haoran Chen",
-        "Xiaodong Zhao",
-        "Jingjiang Qiu",
-        "Hong Hu",
-        "Ronghan Wei"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214701142",
-      "url": "https://doi.org/10.5281/zenodo.23044310",
-      "pdf": "https://doi.org/10.5281/zenodo.23044310",
-      "title": "A Digital Twin Framework for Autonomous Kinetic Facades: Bio-inspired SMA Actuation with Reinforcement Learning Control for Tropical Climates",
-      "summary": "Building envelope automation is limited by heavy motor-driven shading and reactive rule-based controllers. This paper presents an autonomous Digital Twin framework for kinetic facades, integrating bio-inspired Shape-Memory Alloy [SMA] actuation with a Reinforcement Learning [RL] control policy. Conceived as a Robotic Skin, Nitinol SMA wires act as artificial muscles mimicking plant stomatal turgor, enabling silent, high energy-density, joint-free actuation. A Python 3.10 Digital Twin (Pandas, NumPy, Scikit-learn) simulates a south-facing 10 m² facade [SHGC 0.60] in Da Nang, Vietnam, a tropical",
-      "authors": [
-        "Nancy sharma",
-        "Vaishali Dixit"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214702096",
-      "url": "https://doi.org/10.3389/frobt.2026.1905499",
-      "pdf": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1905499/pdf",
-      "title": "Diffusion models in robotics: a comprehensive review",
-      "summary": "Diffusion models are a powerful class of generative models that emerge in recent years to transform Gaussian noise into samples of the target distribution through an iterative denoising process. Due to the high training stability and powerful generative capabilities, diffusion models have surpassed previous generative models and demonstrate potential applications in the field of robotics. In the past few years, this area has gained increasing attention, and the number of studies applying diffusion models to the field of robotics has grown exponentially. This review aims to provide an overview ",
-      "authors": [
-        "Linxin Bai",
-        "Chenkang Du",
-        "Jinfang Wang",
-        "Xinrong Chen"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214708717",
-      "url": "https://doi.org/10.5281/zenodo.23044309",
-      "pdf": "https://doi.org/10.5281/zenodo.23044309",
-      "title": "A Digital Twin Framework for Autonomous Kinetic Facades: Bio-inspired SMA Actuation with Reinforcement Learning Control for Tropical Climates",
-      "summary": "Building envelope automation is limited by heavy motor-driven shading and reactive rule-based controllers. This paper presents an autonomous Digital Twin framework for kinetic facades, integrating bio-inspired Shape-Memory Alloy [SMA] actuation with a Reinforcement Learning [RL] control policy. Conceived as a Robotic Skin, Nitinol SMA wires act as artificial muscles mimicking plant stomatal turgor, enabling silent, high energy-density, joint-free actuation. A Python 3.10 Digital Twin (Pandas, NumPy, Scikit-learn) simulates a south-facing 10 m² facade [SHGC 0.60] in Da Nang, Vietnam, a tropical",
-      "authors": [
-        "Nancy sharma",
-        "Vaishali Dixit"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7158166355",
-      "url": "https://doi.org/10.82901/nemar.nm000148",
-      "pdf": "https://doi.org/10.82901/nemar.nm000148",
-      "title": "Motor imagery BCI dataset with pupillometry augmentation",
-      "summary": "EEG recordings from 30 healthy participants performing a left-hand grasping motor imagery task versus rest, cued by auditory stimuli, with simultaneous pupillometry. The dataset was recorded with a 32-channel BioSemi ActiveTwo system at 512 Hz across two runs of 25 trials per subject. It supports evaluating whether task-evoked pupil diameter changes can improve EEG-based motor imagery brain-computer interface classification.",
-      "authors": [
-        "David Rozado",
-        "Andreas Duenser",
-        "Ben Howell"
-      ],
-      "published": "2026-09-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7160873581",
-      "url": "https://doi.org/10.82901/nemar.nm000156",
-      "pdf": "https://doi.org/10.82901/nemar.nm000156",
-      "title": "Hybrid EEG-fNIRS MI dataset for ICH from Shi et al 2025",
-      "summary": "A hybrid EEG-fNIRS motor imagery dataset for brain-computer interface research in intracerebral hemorrhage (ICH). It includes 37 participants (17 healthy, 20 ICH patients) performing two-class left/right hand grasping motor imagery across up to several sessions. The data are pre-epoched, and the dataset is intended for developing and benchmarking BCI approaches for stroke rehabilitation.",
-      "authors": [
-        "Jian Shi",
-        "Danyang Chen",
-        "Xingwei Zhao",
-        "Zhixian Zhao",
-        "Shengjie Li",
-        "Yeguang Xu",
-        "Tao Ding",
-        "Zheng Zhu",
-        "Peng Zhang",
-        "Qing Ye",
-        "Yingxin Tang",
-        "Ping Zhang",
-        "Bo Tao",
-        "Zhouping Tang"
-      ],
-      "published": "2026-09-29",
+      "published": "2026-09-30",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -507,36 +311,239 @@
       "trending": 1.5
     },
     {
-      "id": "W7215071848",
-      "url": "https://doi.org/10.1142/s0218001426400719",
-      "pdf": "",
-      "title": "SCRAMBLE: Safe Cooperative Risk-Aware Multi-Agent Belief Learning for Embodied Reinforcement Learning in Partially Observable Dynamic Environments",
-      "summary": "Safe decision-making in partially observable dynamic environments remains a fundamental challenge for multi-agent embodied reinforcement learning, where agents must cooperate with limited local observations while responding to evolving environmental changes and safety-critical interactions. Existing methods often emphasize coordination efficiency or reward maximization, but they are less effective at jointly handling latent state uncertainty, dynamic non-stationarity, and safety constraints in a unified learning framework. To address this issue, we propose SCRAMBLE, a safe cooperative reinforc",
+      "id": "W7161729374",
+      "url": "https://doi.org/10.1007/978-3-032-39953-3_12",
+      "pdf": "https://arxiv.org/pdf/2605.16514",
+      "title": "No Plan, Yet Human: A Reactive Robotics Model Predicts Human Planning Failures on a Clinical Task",
+      "summary": "",
       "authors": [
-        "Bozhi Zhang",
-        "Jiangbo Wang",
-        "井天军"
+        "Michael Migacev",
+        "Vito Mengers",
+        "Antonia Köngeter",
+        "Oliver Brock"
       ],
-      "published": "2026-10-02",
+      "published": "2026-09-30",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7164376203",
-      "url": "https://doi.org/10.5281/zenodo.20635985",
-      "pdf": "https://doi.org/10.5281/zenodo.20635985",
-      "title": "Atomic Design Transformer: Scaffold-Conditioned 3D Molecule Generation with xTB-Verified Reinforcement Learning",
-      "summary": "Atomic Design Transformer: Scaffold-Conditioned 3D Molecule Generation with xTB-Verified Reinforcement Learning at https://arxiv.org/abs/2607.15918 source: https://github.com/tkotani/ADT (release v2.1) Dataset to reproduce the data in the paper.v2.1: the RLVR generator is rlvr_E240direct.pt (it replaces paper_rlvl.ckpt, which remains available in v2.0); frame_caches.tar.gz is corrected (every scaffold frame lays down exactly the named ring); geom_drugs_smiles.smi, the GEOM-Drugs SMILES list used for novelty and for the GEOM reference values, is added (derived from GEOM, Axelrod and Gómez-Bomba",
+      "id": "W7163559950",
+      "url": "https://doi.org/10.1007/978-3-032-39953-3_28",
+      "pdf": "https://arxiv.org/pdf/2606.04776",
+      "title": "SoftPINCH: EMG-Driven Soft Exoskeleton Assistance for Finger Flexion and Grasping",
+      "summary": "",
       "authors": [
-        "Takao Kotani"
+        "Nicklas Nikolaj Grønvall",
+        "Mette Nielsen",
+        "Xiaofeng Xiong",
+        "Saravana Prashanth; id_orcid 0000-0003-2024-9391 Murali Babu"
       ],
-      "published": "2026-09-29",
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7167729927",
+      "url": "https://doi.org/10.1145/3821402.3830142",
+      "pdf": "https://doi.org/10.1145/3821402.3830142",
+      "title": "Designing and Evaluating Socially Assistive Robots: The Role of Language Choice in Dementia Care Scenarios",
+      "summary": "Language plays a central role in person-centered care, shaping communication, emotional expression, memory recall, and identity. While socially assistive robots (SAR) show promise for reminiscence-based activities in dementia care, most systems remain monolingual and overlook bilingual users. This work investigated how language choice in SAR interactions influenced engagement, emotional experience, and user perception among Turkish-German bilingual adults aged 50 and above. An embodied conversational agent based on a Q.bo One robot and a large language model was developed to enable interaction",
+      "authors": [
+        "Alin Lara Düzgün",
+        "Rafael Vrecar",
+        "Anna Dobrosovestnova"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7169772851",
+      "url": "https://doi.org/10.5281/zenodo.21455245",
+      "pdf": "https://doi.org/10.5281/zenodo.21455245",
+      "title": "The Most Important Human Skills for the Age of AI and the Future of Work: FILE — The Five Intelligences of Leadership Evolution",
+      "summary": "Artificial intelligence changes what organizations can do; human leadership must decide what should be done, what remains accountable, and what must never be surrendered to machines. This working paper presents FILE: The Five Intelligences of Leadership Evolution as a human-centered management theory and diagnostic framework for responsible leadership and decision-making in the age of artificial intelligence and robotics. FILE argues that the most important human skills for the AI era and the future of work require the integrated exercise of five meta-intelligences: Augmented Intelligence, Emo",
+      "authors": [
+        "Guillaume Mariani"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7171740704",
+      "url": "https://doi.org/10.1145/3832004",
+      "pdf": "https://doi.org/10.1145/3832004",
+      "title": "SHARE: Towards Head-Mounted AR with User-Centric SLAM in Shared Human-Robot Workspaces",
+      "summary": "Human-Robot Collaboration (HRC) in shared physical spaces using Augmented Reality (AR) interfaces is powered by Simultaneous Localization and Mapping (SLAM). Existing multi-agent SLAM systems rely on an edge server to combine visual findings of multiple resource-constrained agents, perform computation, and schedule updates to their local maps. However, the edge treats all agents uniformly and ignores the fundamentally different latency requirements of heterogeneous HRC agents: robots and head-mounted AR users. This uniform resource allocation often results in high lag for user manipulation, as",
+      "authors": [
+        "Tianyuan Du",
+        "Tianyi Hu",
+        "Hanting Ye",
+        "Maria Gorlatova"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7212099224",
+      "url": "https://doi.org/10.1136/bmj-2026-100709",
+      "pdf": "https://doi.org/10.1136/bmj-2026-100709",
+      "title": "Early national comparison of robotic versus conventional hip replacements for arthritis using National Joint Registry data: target trial emulation study",
+      "summary": "OBJECTIVES: To evaluate the early comparative effectiveness of robotic versus conventional total hip replacement (THR) in the UK. DESIGN: Target trial emulation study. SETTING: Public and private hospitals using data from the National Joint Registry of England, Wales, Northern Ireland, the Isle of Man, Guernsey, and Jersey. PARTICIPANTS: 666 283 THRs performed between 2018 and 2024; 656 080 were conventional THRs and 10 203 were robotic THRs. MAIN OUTCOME MEASURES: Five year THR implant survival (mean 2.5 year follow-up), all cause revision risk, cause specific revision risk, malpositioning re",
+      "authors": [
+        "Hasan Raza Mohammad",
+        "Andrew Judge",
+        "Xavier Luke Griffin",
+        "David Murray"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214886599",
+      "url": "https://doi.org/10.1007/978-3-032-39953-3_13",
+      "pdf": "",
+      "title": "Delayed Gratification in a Robotic Model of Cuttlefish Behavior",
+      "summary": "",
+      "authors": [
+        "Qian Ying Wong",
+        "Kary Zheng",
+        "Shana Chao",
+        "Vansh Chhabra",
+        "Nange Hai",
+        "Alina Yuan",
+        "Yingshu Zhu",
+        "Jeffrey L. Krichmar",
+        "Harrison Espino"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W4417296376",
+      "url": "https://doi.org/10.1049/cit2.70178",
+      "pdf": "https://doi.org/10.1049/cit2.70178",
+      "title": "Salient Object Detection in Complex Weather Conditions via Noise Indicators",
+      "summary": "ABSTRACT Salient object detection (SOD), a foundational task in computer vision, has advanced from single‐modal to multi‐modal paradigms to enhance generalisation. However, most existing SOD methods assume low‐noise visual conditions, overlooking the degradation of segmentation accuracy caused by weather‐induced noise in real‐world scenarios. In this paper, we propose a SOD framework tailored for diverse weather conditions, encompassing a specific encoder and a replaceable decoder. To enable handling of varying weather noises, we introduce a one‐hot vector as a noise indicator to represent dif",
+      "authors": [
+        "Quan Chen",
+        "Xiaokai Yang",
+        "Tingyu Wang",
+        "Rongfeng Lu",
+        "Xichun Sheng",
+        "Yaoqi Sun",
+        "Chenggang Clarence Yan"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7154711617",
+      "url": "https://doi.org/10.82901/nemar.nm000151",
+      "pdf": "https://doi.org/10.82901/nemar.nm000151",
+      "title": "Motor imagery dataset for three imaginary states of the same upper extremity",
+      "summary": "EEG recordings from 12 healthy participants performing three-class motor imagery of the same upper extremity: rest, hand grasping, and elbow flexion. Each participant completed 4 sessions of 20 trials per class, recorded with a 32-channel EGI HydroCel net at 1000 Hz. The dataset supports research on brain-computer interface classification of imagined movements within one limb, for example for rehabilitation and motor control.",
+      "authors": [
+        "Mojgan Tavakolan",
+        "Zack Frehlick",
+        "Xinyi Yong",
+        "Carlo Menon"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7160994073",
+      "url": "https://doi.org/10.82901/nemar.on003810",
+      "pdf": "https://doi.org/10.82901/nemar.on003810",
+      "title": "Motor Imagery vs Rest - Low-Cost EEG System",
+      "summary": "EEG recordings from 10 BCI-naive participants acquired with a low-cost consumer-grade device during a motor imagery versus rest protocol. Participants performed kinesthetic imagination of a grasping movement with the dominant hand and rest/idle conditions across five runs, including an initial real-movement run. EMG of the dominant hand was recorded for protocol control, supporting evaluation of affordable brain-computer interface systems.",
+      "authors": [
+        "Victoria Peterson",
+        "Catalina María Galván",
+        "Hugo Sacha Hernadez",
+        "Ruben Spies"
+      ],
+      "published": "2026-09-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7215934255",
+      "url": "https://doi.org/10.5281/zenodo.23108285",
+      "pdf": "https://doi.org/10.5281/zenodo.23108285",
+      "title": "Adaptive Traffic Signal Control at a Single Intersection Using Deep Reinforcement Learning: A SUMO-Based Comparative Study",
+      "summary": "Urban road networks lose a large amount of time and fuel to congestion at signalised intersections, and conventional fixed-time controllers cannot react to the changing and uneven traffic demand seen in practice. Reinforcement learning (RL), and in particular deep reinforcement learning (DRL), has been proposed as a way to learn signal-timing policies directly from interaction with traffic. This paper proposes a simulation-based framework for adaptive traffic signal control at a single four-way intersection, built on the SUMO microscopic traffic simulator. Two DRL agents, a Deep Q-Network (DQN",
+      "authors": [
+        "Swarnal Deshmukh"
+      ],
+      "published": "2026-10-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
