@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04 22:38 UTC",
+  "generated_at": "2026-10-05 21:23 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,45 +9,88 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7204172781",
-      "url": "https://doi.org/10.1145/3832102",
-      "pdf": "https://doi.org/10.1145/3832102",
-      "title": "Learning from the Test: Self-Referential Differential Testing for Deep RL Agents",
-      "summary": "Deep Reinforcement Learning (DRL) has achieved significant success in complex decision-making problems. As DRL systems are increasingly deployed in real-world applications, ensuring their quality and reliability is paramount. Current works primarily focus on detecting safety-critical failures, often neglecting policy optimality, which can lead to reduced efficiency, user distrust, and economic losses. This oversight, compounded by the inherent “testing oracle problem” for optimality, leaves a significant gap in comprehensively evaluating DRL systems. To address this gap, we propose Delta (Diff",
+      "id": "W7214235531",
+      "url": "https://doi.org/10.1184/r1/33989641",
+      "pdf": "https://doi.org/10.1184/r1/33989641",
+      "title": "Calibration-Aware Reinforcement Learning for Large Language Models: A Survey of Objectives, Optimization, and Decision-Making",
+      "summary": "Large language models increasingly emit confidence reports, predictive distributions, and typed decisions that determine whether a system answers, abstains, retrieves evidence, or spends more computation. We survey calibration-aware reinforcement learning (RL), in which a reported probability is scored by the reward, consumed by the policy’s actions, or both. Such a probability means something only relative to an event, the reporter’s information, and a population or policy. Unlike post-hoc calibration, RL can change the answers being assessed, the incentive actually optimized, and the behavio",
       "authors": [
-        "Junda He",
-        "Jieke Shi",
-        "Zhou Yang",
-        "Mingfei Cheng",
-        "David Lo"
+        "Yubo Li",
+        "Yidi Miao",
+        "Ramayya Krishnan",
+        "Rema Padman"
       ],
-      "published": "2026-10-01",
+      "published": "2026-10-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 10.0,
+      "score": 12.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7131065284",
-      "url": "https://doi.org/10.1177/02783649261480737",
-      "pdf": "https://arxiv.org/pdf/2602.18164",
-      "title": "GrandTour: A legged robotics dataset in the wild for multi-modal perception and state estimation",
-      "summary": "Accurate state estimation and multi-modal perception are prerequisites for autonomous legged robots in complex, large-scale environments. To date, no large-scale public legged-robot dataset captures the real-world conditions needed to develop and benchmark algorithms for legged-robot state estimation, perception, and navigation. To address this, we introduce the GrandTour dataset, a multi-modal legged-robotics dataset collected across challenging outdoor and indoor environments, featuring an ANYbotics ANYmal-D quadruped equipped with the Boxi multi-modal sensor payload. GrandTour spans a broad",
+      "id": "W7215842933",
+      "url": "https://doi.org/10.1184/r1/33989641.v3",
+      "pdf": "https://doi.org/10.1184/r1/33989641.v3",
+      "title": "Calibration-Aware Reinforcement Learning for Large Language Models: A Survey of Objectives, Optimization, and Decision-Making",
+      "summary": "Large language models increasingly emit confidence reports, predictive distributions, and typed decisions that determine whether a system answers, abstains, retrieves evidence, or spends more computation. We survey calibration-aware reinforcement learning (RL), in which a reported probability is scored by the reward, consumed by the policy’s actions, or both. Such a probability means something only relative to an event, the reporter’s information, and a population or policy. Unlike post-hoc calibration, RL can change the answers being assessed, the incentive actually optimized, and the behavio",
       "authors": [
-        "Turcan Tuna",
-        "Jonas Frey",
-        "Frank Fu",
-        "Katharine Patterson",
-        "Tian’ao Xu",
-        "Maurice F. Fallon",
-        "Cesar Cadena",
-        "Marco Hutter"
+        "Yubo Li",
+        "Yidi Miao",
+        "Ramayya Krishnan",
+        "Rema Padman"
       ],
-      "published": "2026-10-01",
+      "published": "2026-10-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 12.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7219705840",
+      "url": "https://doi.org/10.3389/frobt.2026.1917009",
+      "pdf": "https://doi.org/10.3389/frobt.2026.1917009",
+      "title": "Grasping like humans: a stacked-fabric grasp localization strategy based on convex structure perception and hierarchical fuzzy decision-making",
+      "summary": "Introduction Due to the complex structures, variable morphologies, and multiple feasible grasping strategies for entangled fabrics during stacked sorting, achieving stable robotic grasping in such scenarios remains highly challenging. This study formulates the stacked-fabric grasping task as a problem of structural perception and multi-attribute decision-making. Methods A stacked-fabric grasping method is proposed. Specifically, a convex-structure perception method based on point cloud geometric features is developed to extract operable regions from point cloud data, and a set of candidate gra",
+      "authors": [
+        "Jinde Chen",
+        "Hubo Chu",
+        "Zhenyang Chao",
+        "Tie Zhang"
+      ],
+      "published": "2026-10-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 12.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7171847949",
+      "url": "https://doi.org/10.3390/machines14101138",
+      "pdf": "https://doi.org/10.3390/machines14101138",
+      "title": "Sweet Pepper Harvesting Robots: Advances in Perception, Decision-Making, Manipulation and Mobile Systems",
+      "summary": "Sweet pepper is a high-value crop in protected horticulture whose robotic harvesting is complicated by canopy occlusion, asynchronous ripening, the need for precise peduncle cutting, and stringent damage limits. This review presents a systematic search and narrative synthesis guided by the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement, with the revised evidence base comprising 262 eligible reports/publications. Reports describing the same robot platform, trial series, or overlapping evaluation dataset were linked as companion reports within a common",
+      "authors": [
+        "Rui Zhang",
+        "Yapeng Wu",
+        "Tingrui Cui",
+        "Xingjian Yang",
+        "Qianrun Zang",
+        "Yu Zhang",
+        "Jiewen Yang",
+        "Zhong Tang"
+      ],
+      "published": "2026-10-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -55,19 +98,21 @@
       "score": 9.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
-      "trending": 1.5
+      "trending": 0.0
     },
     {
-      "id": "W7214965107",
-      "url": "https://doi.org/10.11591/eei.v15i5.11864",
-      "pdf": "https://doi.org/10.11591/eei.v15i5.11864",
-      "title": "Optimizing and evaluating proximal policy optimization and soft actor-critic agents in Unity ML-Agents-based games",
-      "summary": "This study presents a comparative analysis of proximal policy optimization (PPO) and soft actor-critic (SAC) for training autonomous delivery agents in high-fidelity 3D environments using Unity ML-Agents. Both algorithms were evaluated with identical hyperparameters and reward functions across five independent runs to ensure statistical robustness. Results show that PPO achieves 31.4% higher final reward (6658.82 versus 5067.27) and superior policy improvement consistency (ratio 2.00 versus 0.31). However, PPO exhibits greater reward variability (coefficient of variation (CV) 0.533 versus 0.10",
+      "id": "W7219774458",
+      "url": "https://doi.org/10.5281/zenodo.23146543",
+      "pdf": "https://doi.org/10.5281/zenodo.23146543",
+      "title": "ProphetRouterRL: code, simulation setup and results",
+      "summary": "Code, simulation setup and results accompanying the paper \"ProphetRouterRL: A Reinforcement Learning Enhanced Routing Protocol for V2X Delay Tolerant Networks\" (submitted to MDPI Network). ProphetRouterRL keeps PRoPHET's delivery-predictability comparison as a first filter and adds a small tabular Q-learning agent that decides, for each remaining relay opportunity, whether to send the message or hold it. The agent sees six values: the message's hop count, the relay's free buffer, the remaining TTL, whether the relay is the destination, whether it has met the destination before, and its node ty",
       "authors": [
-        "Muhammad Fakhri Loebis",
-        "Andry Chowanda"
+        "Usama Shaker Hachim",
+        "Asma Abu-Samah",
+        "El Arbi Abdellaoui Alaoui",
+        "Nor Fadzilah Abdullah"
       ],
-      "published": "2026-10-01",
+      "published": "2026-10-05",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -78,21 +123,79 @@
       "trending": 0.0
     },
     {
-      "id": "W4416958771",
-      "url": "https://doi.org/10.1088/2634-4386/aeaf14",
-      "pdf": "https://iopscience.iop.org/article/10.1088/2634-4386/aeaf14/pdf",
-      "title": "A neuromodulable current-mode silicon neuron for robust and adaptive neuromorphic systems",
-      "summary": "Abstract Neuromorphic engineering makes use of mixed-signal analog and digital circuits to directly emulate the computational principles of biological brains. Such electronic systems offer a high degree of adaptability, robustness, and energy efficiency across a wide range of tasks, from edge computing to robotics. Within this context, we investigate a key feature of biological neurons: their ability to carry out robust and reliable computation by adapting their input responses and spiking patterns to context through neuromodulation. Achieving analogous levels of robustness and adaptation in n",
+      "id": "W7219889071",
+      "url": "https://doi.org/10.5281/zenodo.23146542",
+      "pdf": "https://doi.org/10.5281/zenodo.23146542",
+      "title": "ProphetRouterRL: code, simulation setup and results",
+      "summary": "Code, simulation setup and results accompanying the paper \"ProphetRouterRL: A Reinforcement Learning Enhanced Routing Protocol for V2X Delay Tolerant Networks\" (submitted to MDPI Network). ProphetRouterRL keeps PRoPHET's delivery-predictability comparison as a first filter and adds a small tabular Q-learning agent that decides, for each remaining relay opportunity, whether to send the message or hold it. The agent sees six values: the message's hop count, the relay's free buffer, the remaining TTL, whether the relay is the destination, whether it has met the destination before, and its node ty",
       "authors": [
-        "Loris Mendolia",
-        "Chenxi Wen",
-        "Elisabetta Chicca",
-        "Giacomo Indiveri",
-        "Rodolphe J. Sepulchre",
-        "Jean‐Michel Redouté",
-        "Alessio Franci"
+        "Usama Shaker Hachim",
+        "Asma Abu-Samah",
+        "El Arbi Abdellaoui Alaoui",
+        "Nor Fadzilah Abdullah"
       ],
-      "published": "2026-10-01",
+      "published": "2026-10-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7215804942",
+      "url": "https://doi.org/10.5281/zenodo.23104708",
+      "pdf": "https://doi.org/10.5281/zenodo.23104708",
+      "title": "Reinforcement Learning for Optimizing Automated Logic Gates",
+      "summary": "Abstract The optimization of logic gates plays a crucial role in Electronic Design Automation (EDA), typically managed by applying deterministic, rule-based heuristics to And-Inverter Graph (AIG) models of a circuit. As circuit complexity rises to billions of gates, these heuristic methods find it increasingly difficult to avoid local minima and generalize across various designs and technology libraries. This study explores Reinforcement Learning (RL) as a different method for optimizing automated logic gates, where an RL agent acquires the ability to choose and order synthesis transformations",
+      "authors": [
+        "Abigail Lam"
+      ],
+      "published": "2026-10-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7215853904",
+      "url": "https://doi.org/10.1038/s41598-026-74023-3",
+      "pdf": "https://www.nature.com/articles/s41598-026-74023-3_reference.pdf",
+      "title": "Deep reinforcement learning-based adaptive FOPID tuning for power system stability enhancement: A twin delayed deep deterministic policy gradient approach",
+      "summary": "Abstract This paper proposes a Twin Delayed Deep Deterministic Policy Gradient (TD3)-based adaptive fractional-order proportional-integral-derivative (FOPID) controller for joint load-frequency and voltage regulation in a renewable-rich power system. The proposed controller adaptively tunes five FOPID parameters, namely $${K_p}$$ , $${K_i}$$ , $${K_d}$$ ,λ, and µ, through a multi-objective reward formulation that simultaneously minimizes frequency integral time-weighted absolute error (ITAE), terminal-voltage ITAE, maximum frequency deviation, and tie-line power error. A curriculum-based train",
+      "authors": [
+        "Shashank Kumar",
+        "Mangal Singh",
+        "Mangal Singh",
+        "Mahesh Singh",
+        "Mahesh Singh"
+      ],
+      "published": "2026-10-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7204986458",
+      "url": "https://openalex.org/W7204986458",
+      "pdf": "https://digitalcommons.library.tmc.edu/context/summer_research/article/1013/viewcontent/blairbrandon_101393_7763059_Blair_2C_20Brandon_20signed.pdf",
+      "title": "Evaluating Surgical Performance Through Intraoperative Video: A Pilot Study in Robotic Cholecystectomy",
+      "summary": "",
+      "authors": [
+        "Brandon S Blair"
+      ],
+      "published": "2026-10-05",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -103,15 +206,26 @@
       "trending": 0.0
     },
     {
-      "id": "W7112514474",
-      "url": "https://doi.org/10.17034/32640660",
-      "pdf": "https://osf.io/5qvtx",
-      "title": "Human-robot coordination during hand-over tasks in virtual reality",
-      "summary": "Recent advancements in robotics have increased the integration of robotic systems into workplaces, necessitating effective human-robot collaboration. This thesis investigates human-robot coordination during handover tasks using Virtual Reality (VR) to analyze motor control and task dynamics across robot movement configurations. A behavioral study compared a repetitive pick-and-place task performed in physical and VR environments, establishing baseline differences. Results highlighted altered motor coordination timing and increased reliance on visual feedback in VR. Using a VR-based robot hando",
+      "id": "W7219615585",
+      "url": "https://doi.org/10.1007/s11701-026-03622-z",
+      "pdf": "https://doi.org/10.1007/s11701-026-03622-z",
+      "title": "Measurement of trainee autonomy in robotic-assisted lung resections using objective performance indicators",
+      "summary": "Abstract Trainee autonomy in robotic-assisted thoracic surgery is critical for growth but difficult to quantify. Robotic platforms can log intraoperative kinematic and event data that can be transformed into metrics known as objective performance indicators (OPIs). This study sought to use OPIs obtained during robotic-assisted anatomic lung resections to assess trainee console autonomy at a high-volume robotic center. OPI data were obtained from 59 lobectomies and segmentectomies performed on a multi-port robotic platform between March 2022 and May 2023. Cases were divided into anatomic steps ",
       "authors": [
-        "Róisín Rita Keenan"
+        "Aaron Guo",
+        "Jad Elharake",
+        "Chandler Lowe",
+        "Mahmoud Abdel‐Rasoul",
+        "Marissa Guo",
+        "Shi-Hao Lee",
+        "Mallory C. Shields",
+        "Daniel Oh",
+        "Ioana Baiu",
+        "Peter J. Kneuertz",
+        "Robert E. Merritt",
+        "Desmond M. D’Souza"
       ],
-      "published": "2026-10-01",
+      "published": "2026-10-05",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -122,20 +236,109 @@
       "trending": 0.0
     },
     {
-      "id": "W7125396498",
-      "url": "https://doi.org/10.1016/j.ohx.2026.e00845",
-      "pdf": "https://doi.org/10.1016/j.ohx.2026.e00845",
-      "title": "OpenWater Hub: An open-source hardware platform for marine robotics support and water quality data acquisition",
-      "summary": "Marine environmental research often suffers from hardware fragmentation, requiring separate, incompatible systems for laboratory testing, portable field analysis, and long-term offshore monitoring. This increases costs and complicates data integration. This paper presents the OpenWater Hub, a versatile, open- source hardware platform that merges these functions into a single, reconfigurable electronics board. The system is built on a dual-microcontroller architecture (ATmega128A) that handles both high-speed sensor polling via industrial RS485 protocols and direct actuator control through high",
+      "id": "W7219676530",
+      "url": "https://doi.org/10.1007/s11701-026-04029-6",
+      "pdf": "",
+      "title": "Economic sustainability of a newly established robotic thoracic surgery programme in a public healthcare system: early experience from a high-volume latin American centre",
+      "summary": "",
       "authors": [
-        "Hany A. Elesawy",
-        "Ahmed Ahmed",
-        "Yahia A. AboZaid",
-        "Lobna A. Said",
-        "Irene S. Fahim",
-        "Ahmed G. Radwan"
+        "Francina Valezka Bolaños-Morales",
+        "Jesús Carrranza-Zarmina",
+        "Edgar Castro-Santamaría",
+        "Carmen Margarita Hernández",
+        "Edtih Paramo",
+        "Mario Casas",
+        "Zeyda Juárez",
+        "Ricardo Elí Guido-Guerra",
+        "Pablo Gomes-da Silva de Rosenzweig",
+        "Alma Lilia Juarez-Armenta",
+        "Justino Regalado-Piñeda",
+        "Jorge Salas‐Hernandez",
+        "Patricio Santillán‐Doherty"
       ],
-      "published": "2026-10-01",
+      "published": "2026-10-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7219692809",
+      "url": "https://doi.org/10.1007/s11701-026-04027-8",
+      "pdf": "",
+      "title": "A single-port robotic platform for minimally invasive cardiac surgery: system functionality and initial preclinical feasibility",
+      "summary": "",
+      "authors": [
+        "Chengcheng Cai",
+        "Tong Ren",
+        "Zhikang Ma",
+        "Kailun Dong",
+        "Baoyue Lu",
+        "Wenze Sun",
+        "Jianchang Zhao",
+        "Jianmin Li",
+        "Rong Wang",
+        "Lizhi Pan"
+      ],
+      "published": "2026-10-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7219878041",
+      "url": "https://doi.org/10.1007/s11701-026-04033-w",
+      "pdf": "https://doi.org/10.1007/s11701-026-04033-w",
+      "title": "Medical liability in paediatric robotic surgery – a current concept and a literature review",
+      "summary": "Abstract Robotic-assisted surgery offers significant technical advantages in pediatric procedures but presents complex, unresolved medico-legal challenges regarding liability. We retrospectively reviewed our ten-year experience comprising 205 pediatric robotic procedures. Technical issues related to the robot were encountered in 7 cases (3.4%). These included joystick latency (3/7), coagulation/cutting pedal malfunctions (2/7), and accidental power cable disconnections causing system shutdowns (2/7). A literature review was conducted to assess the current international state of the art regardi",
+      "authors": [
+        "Ciro Esposito",
+        "Anna Gargiulo",
+        "Claudia Di Mento",
+        "Marco Castagnetti",
+        "Vincenzo Coppola",
+        "Francesco Tedesco",
+        "Roberta Guglielmini",
+        "Maria Luisa Pirone",
+        "Chiara Caporale",
+        "Maria Escolino"
+      ],
+      "published": "2026-10-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7125972730",
+      "url": "https://doi.org/10.1145/3776574.3831203",
+      "pdf": "https://doi.org/10.1145/3776574.3831203",
+      "title": "HARMONI: Multimodal Personalization of Multi-User Human-Robot Interactions with LLMs",
+      "summary": "Existing human-robot interaction systems often lack mechanisms for sustained personalization and dynamic adaptation in multi-user environments, limiting their effectiveness in real-world deployments. We present HARMONI, a multimodal personalization framework that leverages large language models to enable socially assistive robots to manage long-term multi-user interactions. The framework integrates four key modules: (i) a perception module that identifies active speakers and extracts multimodal input; (ii) a world modeling module that maintains representations of the environment and short-term",
+      "authors": [
+        "Jeanne Malecot",
+        "Hamed Rahimi",
+        "Jeanne Cattoni",
+        "Marie Samson",
+        "Mouad Abrini",
+        "Mahdi Khoramshahi",
+        "Maribel Pino",
+        "Mohamed Chétouani"
+      ],
+      "published": "2026-10-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -146,111 +349,39 @@
       "trending": 1.5
     },
     {
-      "id": "W7129511803",
-      "url": "https://doi.org/10.1080/01691864.2026.2732745",
-      "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/01691864.2026.2732745?needAccess=true",
-      "title": "Replanning human–robot collaborative tasks with vision–language models via semantic and physical dual–correction",
-      "summary": "Human–robot collaborative assembly requires robots to interpret ambiguous corrective instructions while producing physically executable motions. Vision–language models (VLMs) provide semantic reasoning but may select logically inconsistent targets or misjudge execution outcomes. We propose a replanning framework that maps human instructions to Action Target candidates, including grasp position and tool selections, and combines an Internal Correction Model for pre-execution logical verification with an External Correction Model for post-execution visual verification. The framework integrates VL",
+      "id": "W7219902717",
+      "url": "https://doi.org/10.1038/s41598-026-70885-9",
+      "pdf": "https://doi.org/10.1038/s41598-026-70885-9",
+      "title": "A fault-aware, explainable proximal policy optimization based intelligent control framework with neuromorphic-inspired encoding for voltage and frequency stability",
+      "summary": "Abstract High penetration of inverter-interfaced generation, faults, and sudden load changes in power systems makes them more vulnerable to voltage and frequency deviations. Traditional controllers often struggle to adapt to varying disturbance types and severities in real time. Adaptive, data-driven control methods are required for responding dynamically to such disturbances. The proposed research work addresses this need by combining Proximal Policy Optimization (PPO)-based Reinforcement Learning (RL) with neuromorphic-inspired spike encoding, enabling temporally meaningful representation of",
       "authors": [
-        "Taichi Kato",
-        "Takuya Kiyokawa",
-        "Namiko Saito",
-        "Kensuke Harada"
+        "Niharika Agrawal",
+        "Sheila Mahapatra",
+        "Neeraj Kanwar",
+        "Bishwajit Dey"
       ],
-      "published": "2026-10-01",
+      "published": "2026-10-05",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7134997635",
-      "url": "https://doi.org/10.17034/32805476",
-      "pdf": "https://doi.org/10.17034/32805476",
-      "title": "Design, prototype and control of a 3R1T robot with RCM for eye surgery",
-      "summary": "Minimally invasive surgery has significantly improved patient outcomes but, access to ophthalmic procedures such as cataract surgery remains constrained by high skill requirements and a limited number of surgeons. Eye surgery is particularly challenging due to physiological tremor, limited dexterity, and the fulcrum effect, which compromise precision. Robotic systems incorporating a remote centre of motion (RCM) can stabilise instruments and enhance precision, yet robotic eye surgery remains an unsolved challenge. This thesis presents the design, development, and experimental validation of a n",
-      "authors": [
-        "Aislinn McAleenan"
-      ],
-      "published": "2026-10-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7135505947",
-      "url": "https://doi.org/10.17034/32640489",
-      "pdf": "https://doi.org/10.17034/32640489",
-      "title": "Reachability based planning for robotic manipulators",
-      "summary": "In the domain of modern robotics there still exist challenges in control on arguably one of the most fundamental levels, that is motion control. Since the 1980s there has been research into how to take advantage of the system dynamics of robots to provide better methods for motion control. In this thesis we explore the problem of providing control strategies to produce motions on robots, with formal guarantees of safety. In the context of this thesis a robot refers to an N link, serial robotic manipulator, and \\emph{safety} implies the chosen a constraint set for a motion must be respected for",
-      "authors": [
-        "Ryan McGovern"
-      ],
-      "published": "2026-10-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7135809477",
-      "url": "https://doi.org/10.17034/32640399",
-      "pdf": "https://doi.org/10.17034/32640399",
-      "title": "Worldbuilders: towards a dramaturgy of metaplasticity: affecting embodied change through immersive audio and story",
-      "summary": "In this thesis I propose a Dramaturgy of Metaplasticity. Metaplasticity is the dynamic and relational system consisting of body, mind and environment, an extended idea of neuroplasticity which suggests that change can be achieved in the body through the manipulation of the environment. This is enacted by drawing attention to the embodied self’s co-creative dynamic with its immediate environment. In both the written thesis and accompanying artistic portfolio, I explore different approaches to creating immersive audio environments. The audio portfolio documents the case-study of Worldbuilders, a",
-      "authors": [
-        "Hanna Slättne"
-      ],
-      "published": "2026-10-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4205478776",
-      "url": "https://doi.org/10.14738/aivp",
+      "id": "W7215071848",
+      "url": "https://doi.org/10.1142/s0218001426400719",
       "pdf": "",
-      "title": "Advances in Image and Video Processing",
-      "summary": "Image Analysis;Artificial Intelligence; Computer Vision; Computer-aided rehabilitation; Principle component analysis; Features from Accelerated Segment Test; Neural Network Game-based Rehabilitation Gullies; Control; Spatial; Image Processing; Image compression; Image segmentation; HMM; Accent modeling; Speaker Identification; ASR; Machine Learning; Pattern Classification; SVM; Video Processing;",
-      "authors": [],
-      "published": "2026-10-04",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7154545667",
-      "url": "https://doi.org/10.17034/32632542",
-      "pdf": "https://doi.org/10.17034/32632542",
-      "title": "Reconfigurable intelligent surface and UAV-assisted communications: a deep reinforcement learning approach",
-      "summary": "This thesis proposes novel methods based on the deep reinforcement learning algorithms (DRL) for maximising the energy efficiency (EE), sum-rate in reconfigurable intelligent surface (RIS) and unmanned aerieal vehicles (UAV)-aided wireless communications. The thesis carries out comprehensive optimization and evaluation of various DRL algorithms for several real-life applications including UAV's trajectory design, power allocation, data collection, wireless power transfer and RIS's phase shift matrix adjustment. The thesis presents three major contributions. Firstly, we design a new UAV-assiste",
+      "title": "SCRAMBLE: Safe Cooperative Risk-Aware Multi-Agent Belief Learning for Embodied Reinforcement Learning in Partially Observable Dynamic Environments",
+      "summary": "Safe decision-making in partially observable dynamic environments remains a fundamental challenge for multi-agent embodied reinforcement learning, where agents must cooperate with limited local observations while responding to evolving environmental changes and safety-critical interactions. Existing methods often emphasize coordination efficiency or reward maximization, but they are less effective at jointly handling latent state uncertainty, dynamic non-stationarity, and safety constraints in a unified learning framework. To address this issue, we propose SCRAMBLE, a safe cooperative reinforc",
       "authors": [
-        "Khoi Khac Nguyen"
+        "Bozhi Zhang",
+        "Jiangbo Wang",
+        "井天军"
       ],
-      "published": "2026-10-01",
+      "published": "2026-10-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -261,38 +392,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7214925993",
-      "url": "https://doi.org/10.1186/s40560-026-00947-7",
-      "pdf": "https://link.springer.com/content/pdf/10.1186/s40560-026-00947-7.pdf",
-      "title": "Development and validation of VentPilot: an AI-based recommendation system for mechanical ventilation",
-      "summary": "BACKGROUND: Mechanical ventilation requires repeated adjustment to changing patient physiology, but consistent individualized management remains challenging. We developed VentPilot, an artificial intelligence-based system for recommending ventilator settings, and evaluated it in multicenter retrospective validation cohorts. METHODS: VentPilot was developed using offline reinforcement learning on high-resolution physiologic and ventilator trajectories from Seoul National University Hospital (SNUH), with a reward combining ventilator-free days and intensivist-derived preference feedback. We eval",
+      "id": "W7215742531",
+      "url": "https://doi.org/10.5281/zenodo.23095941",
+      "pdf": "https://doi.org/10.5281/zenodo.23095941",
+      "title": "What Does the Reward Pay For? An Empirical Study of Reward Hacking and Reward Design in Reinforcement Learning for Unit Test Generation",
+      "summary": "",
       "authors": [
-        "Hong Yeul Lee",
-        "Gaon An",
-        "Yeonwoo Jeong",
-        "Edward James Schenck",
-        "Ho Geol Ryu",
-        "Brian W. Pickering",
-        "Vitaly Herasevich",
-        "Daniel A. Diedrich",
-        "Seungyong Moon",
-        "Hyun-Lim Yang",
-        "Hyung-Chul Lee",
-        "Wun Hur",
-        "Jaewon Choi",
-        "Seokjun Lee",
-        "Jeongjae Lee",
-        "Jeongjae Lee",
-        "Won-Seok Hur",
-        "Yoonshik Kim",
-        "Yoonshik Kim",
-        "Rajesh Ranganath",
-        "Kyunghyun Cho",
-        "Sang-Min Lee",
-        "Sang-Min Lee",
-        "Hyun Oh Song"
+        "Anonymous"
       ],
-      "published": "2026-10-01",
+      "published": "2026-10-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -303,222 +411,155 @@
       "trending": 0.0
     },
     {
-      "id": "W7218403787",
-      "url": "https://doi.org/10.1617/s11527-026-03301-3",
-      "pdf": "https://doi.org/10.1617/s11527-026-03301-3",
-      "title": "Life‑cycle analysis of bio‑based phase change materials in recycled‑aggregate mortars: sourcing sensitivity and trade‑offs",
-      "summary": "Abstract The decarbonization of construction materials requires circular design strategies supported by life‑cycle thinking. This study quantifies the cradle‑to‑gate (A1–A3) environmental impacts of three mortar formulations: (i) a Reference mortar, (ii) a mortar incorporating recycled wood aggregates, and (iii) a hybrid mortar in which recycled wood aggregates are impregnated with a bio‑based phase change material to provide latent‑heat storage functionality. A Life Cycle Assessment compliant with ISO 14044 and EN 15804 was implemented in SimaPro using Ecoinvent, focusing on fossil embodied g",
+      "id": "W7215871713",
+      "url": "https://doi.org/10.4038/jmtr.v11i4.371",
+      "pdf": "https://jmtr.sljol.info/articles/371/files/6abf4a7f037c3.pdf",
+      "title": "Adaptive moral compass framework for ethical reasoning and self-oversight in autonomous AI agents",
+      "summary": "The growing use of autonomous artificial intelligence agents in high-risk areas such as -driving cars, medical triage tools, military robots, and disaster-response drones, has made AI ethics an important concern for researchers. Current alignment methods, especially Reinforcement Learning from Human Feedback, have shown good results but have several known weaknesses, including reward hacking and poor generalization to new situations. This study proposes the Adaptive Moral Compass framework, a new architecture that places ethical reasoning directly inside the decision-making process of an auton",
       "authors": [
-        "Hala Salhab",
-        "Luciano Sambataro",
-        "António Caggiano",
-        "Sergio Nardini",
-        "Vincenzo Bianco"
+        "Sidath Ravindra Liyanage",
+        "Shalini Rajasingham"
       ],
-      "published": "2026-10-04",
+      "published": "2026-10-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7218770450",
-      "url": "https://doi.org/10.5281/zenodo.23127880",
-      "pdf": "https://doi.org/10.5281/zenodo.23127880",
-      "title": "AI Fear as a Diagnostic of Institutional Alignment",
-      "summary": "Public discussion of advanced artificial intelligence contains a striking mixture of fears: loss of human control over autonomous systems, mass displacement of labor, concentration of economic power, manipulation, surveillance, competitive races among firms and states, and the possibility that actors will continue developing or deploying dangerous systems because stopping unilaterally would impose a disadvantage. This paper asks what those fears reveal not only about AI, but about the institutions into which AI is being introduced. It develops the concept of institutional alignment: the degree",
+      "id": "W7215873722",
+      "url": "https://doi.org/10.5281/zenodo.23095940",
+      "pdf": "https://doi.org/10.5281/zenodo.23095940",
+      "title": "What Does the Reward Pay For? An Empirical Study of Reward Hacking and Reward Design in Reinforcement Learning for Unit Test Generation",
+      "summary": "",
       "authors": [
-        "Guilherme Cecatto"
+        "Anonymous"
       ],
-      "published": "2026-10-04",
+      "published": "2026-10-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7219018552",
-      "url": "https://doi.org/10.5281/zenodo.23127879",
-      "pdf": "https://doi.org/10.5281/zenodo.23127879",
-      "title": "AI Fear as a Diagnostic of Institutional Alignment",
-      "summary": "Public discussion of advanced artificial intelligence contains a striking mixture of fears: loss of human control over autonomous systems, mass displacement of labor, concentration of economic power, manipulation, surveillance, competitive races among firms and states, and the possibility that actors will continue developing or deploying dangerous systems because stopping unilaterally would impose a disadvantage. This paper asks what those fears reveal not only about AI, but about the institutions into which AI is being introduced. It develops the concept of institutional alignment: the degree",
+      "id": "W7214537425",
+      "url": "https://doi.org/10.5281/zenodo.22995102",
+      "pdf": "https://doi.org/10.5281/zenodo.22995102",
+      "title": "DetFill-with-DHT: Deterministic Hints and Hint-AUC for Line Art Colorization (code, reproduction package)",
+      "summary": "Code accompanying the paper Hint-AUC: Deterministic Region-based Hint Generation for Line Art Colorization Evaluation (IEEE Transactions on Visualization and Computer Graphics, 2026, DOI 10.1109/TVCG.2026.3738401): the deterministic hint generator DHT and the hintauc evaluation library, the DetFill diffusion colorization model, the per-ratio metric files and scripts that rebuild the paper's tables, and the one-command replicability script for Figure 9 (bash replicability/run.sh). This version archives the repository at release tag v1.5 (ColorizeDiffusion fine-tuned baselines). The state review",
       "authors": [
-        "Guilherme Cecatto"
+        "Koki Madono",
+        "Yuan Mingcheng",
+        "Edgar Simo‐Serra"
       ],
-      "published": "2026-10-04",
+      "published": "2026-10-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W2977287976",
-      "url": "https://doi.org/10.17034/32627022",
-      "pdf": "https://doi.org/10.17034/32627022",
-      "title": "Nanoscale stress-induced conducting states in functional oxides",
-      "summary": "The potential for active nano-electronic devices based on the creation and manipulation of pseudo-2D electrically conducting interfaces, such as domain walls and phase boundaries, in an array of material systems is now well established. Whilst the existence of conducting interfaces within otherwise insulating mediums is surprising, exciting new avenues for fundamental research have developed, focussing on harnessing the potential for these conducting channels to be active components within nanoscale devices. With the nucleation and repositioning of conducting interfaces having been to date, re",
-      "authors": [
-        "N. L. MASON BROWNE"
-      ],
-      "published": "2026-10-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W3043860077",
-      "url": "https://doi.org/10.17034/32629569",
-      "pdf": "https://doi.org/10.17034/32629569",
-      "title": "A density functional theory study on the rational design of heterogeneous catalysis",
-      "summary": "The rational design of efficient catalysts plays a vital and challenging role in heterogeneous catalysis. With the development of computational chemistry techniques, it is realistic to design the desired catalysts by quantum chemical calculations. In this thesis, density functional theory (DFT) calculations were used to understand the microscopic chemical properties of catalytic systems and the mechanisms of the catalysis, while microkinetic modeling was used to obtain the macroscopic behaviors of the catalytic reactions, which embodied to be the reaction rates. Regarding the rational catalyst",
-      "authors": [
-        "Yunxuan Ding"
-      ],
-      "published": "2026-10-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7131202161",
-      "url": "https://doi.org/10.17034/32805350",
-      "pdf": "https://doi.org/10.17034/32805350",
-      "title": "A feminine image of the city from Rio de Janeiro’s urban periphery: audiovisual practices, representations and imaginaries",
-      "summary": "This thesis contends that moving images have an important role in the articulation of society and space, revealing it and shaping it through a connection between the real and the imaginary. Focusing on contemporary production by women from the peripheral region of the Baixada Fluminense, I explore aspects of the relationship between audiovisual practices and representations and the socio-spatial construction of gender in the city, arguing that they embody and make visible an intersectional feminine image of the city. At a moment of greater access to the production of audio-visual media, the th",
-      "authors": [
-        "Mary Freedman"
-      ],
-      "published": "2026-10-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
+      "score": 4.5,
       "pick": "Computer Vision",
       "pick_emoji": "👁",
       "trending": 0.0
     },
     {
-      "id": "W7133454624",
-      "url": "https://doi.org/10.17034/32826263",
-      "pdf": "https://doi.org/10.17034/32826263",
-      "title": "Manipulation of the ruminant gastrointestinal tract microbiomes for reduced environmental impact of nitrogen excretion from dairy cows",
-      "summary": "Nitrogen-use-efficiency (NUE) in dairy production systems remains suboptimal, with higher nitrogen (N) excreted in urine and faeces rather than converted into milk protein. This thesis evaluated nutritional strategies to reduce N excretion and improve NUE without compromising animal performance, to examine the impact of these strategies on the rumen microbiome, while also assessing both local (rapeseed meal: RSM) and novel (microalgae) alternative protein feeds. Three complementary experiments were conducted: in chapter 2, lactating Holstein cows were offered diets with three CP levels: Low CP",
+      "id": "W7168941773",
+      "url": "https://doi.org/10.1145/3776574.3831128",
+      "pdf": "https://doi.org/10.1145/3776574.3831128",
+      "title": "TANDE: Disentangling Verbal and Nonverbal Backchannels in Emotional AI-Avatar Conversations With Young Adults",
+      "summary": "Embodied conversational agents (ECAs) need effective empathic grounding to foster social support and engagement. Expanding into emotional domains, ECAs now use Large Language Models (LLMs) and multimodal human-agent interactions to enhance their capabilities. Yet, understanding the impact of backchanneling modalities on young adults and their gender remains limited. We introduce TANDE, an LLM-powered ECA designed for emotional conversations with young adults, a population experiencing mental, personal, and social issues with limited tools to address them. In a within-subjects study with N = 36",
       "authors": [
-        "Zeleke Agalu Wondimagegnehu"
+        "Ann-Kareen Gedeus",
+        "Jack Good",
+        "Nadine Wagener",
+        "Angelique M. Taylor"
       ],
-      "published": "2026-10-01",
+      "published": "2026-10-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7135515411",
-      "url": "https://doi.org/10.17034/32633940",
-      "pdf": "https://doi.org/10.17034/32633940",
-      "title": "The descendants of Eve: rewriting the Fall in nineteenth-century French literature",
-      "summary": "This thesis underlines the significance of the French nineteenth-century rewritings of Eve for understanding the contemporary enduring relevance of this rebellious female figure and the lived experience of gender in the twenty-first century. From Balzac’s adulterous housewife, who must be ‘lifted up’ and redeemed, to Villiers de l’Isle Adam’s (dis-)obedient Eve robot, there presentation of Eve takes a plurality of forms in nineteenth-century French literature. This topical and recurring trope lends itself to various literary, social, political and religious strategies across space and time; al",
-      "authors": [
-        "J. F. Duff"
-      ],
-      "published": "2026-10-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7135700269",
-      "url": "https://doi.org/10.17034/32641845",
-      "pdf": "https://doi.org/10.17034/32641845",
-      "title": "The interplay among finishing pig nutrition, gut microbiota and the generation of volatile compounds and greenhouse gases",
-      "summary": "The pork production industry has reached an environmental crisis point, odour and ammonia emissions from pig farms are halting expansion. With pork the second most consumed meat globally, a solution to the demand for cheap and sustainable meat sources must be found. Chapter 2 will investigate dietary manipulation to mitigate these environmental concerns, while Chapters 3 and 4 will focus on odour producing gut microbiota. Dietary trials revealed lowering dietary CP by 10g/kg led to a 10% reduction in ammonia emissions on average while decreasing water usage and odour output. A statistically si",
-      "authors": [
-        "Lauren Alanna Reid"
-      ],
-      "published": "2026-10-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7135708366",
-      "url": "https://doi.org/10.17034/32641599",
-      "pdf": "https://doi.org/10.17034/32641599",
-      "title": "Unknelled, uncoffined, and unknown: zonation strategy, search and rescue, and a legacy of death and refoulement in the central Mediterranean",
-      "summary": "This study examines the EU’s exercise of maritime security in the Central Mediterranean, within the context of boat migration along this migration route. The focus of the study is upon the role of maritime zones in maritime security implementation and evolution of associated practices. Zonation strategy is coined herein, to characterise the manipulation of maritime zones to align with security and political agendas. The interplay between international establishments of law and norms, the deployment of large-scale naval operations, the role and accounting of third-party actors in this maritime ",
-      "authors": [
-        "Charles D.O. Pearson"
-      ],
-      "published": "2026-10-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7172496230",
-      "url": "https://doi.org/10.1145/3832257",
-      "pdf": "https://doi.org/10.1145/3832257",
-      "title": "SmartDecompiler-R1: Enhancing Faithful and Explainable Smart Contract Bytecode Decompilation with Reinforcement Learning",
-      "summary": "Understanding EVM bytecode is critical for smart contract security analysis. Existing decompilers typically rely on heuristic rules or leverage large language models (LLMs) to generate source code after bytecode analysis. However, heuristic-based approaches often produce pseudocode that is difficult for humans to interpret, while LLM-based methods also face several problems. LLMs have little experience with low-level bytecode, which weakens their reasoning and causes inaccurate results. Additionally, their tendency to auto-correct code breaks faithfulness to the original program. A general lac",
-      "authors": [
-        "Yilun Ma",
-        "Lingxiao Tang",
-        "Li Gang Lin",
-        "Zhipeng Gao",
-        "Jiachi Chen",
-        "Xin Xia",
-        "Lingfeng Bao"
-      ],
-      "published": "2026-10-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
+      "score": 4.0,
       "pick": "AI & LLM",
       "pick_emoji": "✨",
+      "trending": 0.0
+    },
+    {
+      "id": "W7219568765",
+      "url": "https://doi.org/10.59024/jiti.v4i4.2588",
+      "pdf": "https://doi.org/10.59024/jiti.v4i4.2588",
+      "title": "Analisis Deteksi Manipulasi Gambar Menggunakan Error Level Analysis dan Deep Learning di SD Padedewatu",
+      "summary": "Digital images are increasingly used as documentation in educational environments, while image-editing tools make manipulation increasingly accessible. This study analyzes a workflow that combines Error Level Analysis (ELA) and a Convolutional Neural Network (CNN) for preliminary detection of manipulated images using photographs from SD Padedewatu as a case study. The dataset initially consisted of 34 original photographs. Because the supplied photographs did not contain verified manipulation labels, controlled manipulated variants were generated from each source image using copy-move, splicin",
+      "authors": [
+        "Herlina Lida Hawa",
+        "Herman Huki Ratu",
+        "Diana Reby Sabawaly"
+      ],
+      "published": "2026-10-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7219600665",
+      "url": "https://doi.org/10.1007/s11701-026-03939-9",
+      "pdf": "",
+      "title": "Targeted pelvic lymph node dissection using magnetic resonance imaging - ultrasonography fusion technique and indocyanine green injection in robot-assisted radical prostatectomy",
+      "summary": "",
+      "authors": [
+        "Yuta Yamada",
+        "Naoki Kimura",
+        "Yuji Hakozaki",
+        "Masaki Nakamura",
+        "Koki Sugano",
+        "Kazuma Sugimoto",
+        "Shigenori Kakutani",
+        "Jimpei Miyakawa",
+        "Jun Kamei",
+        "Aya Niimi",
+        "Satoru Taguchi",
+        "Haruki Kume"
+      ],
+      "published": "2026-10-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7219606383",
+      "url": "https://doi.org/10.51298/vmj.v563i2.18933",
+      "pdf": "https://doi.org/10.51298/vmj.v563i2.18933",
+      "title": "PHẪU THUẬT ROBOT CẮM LẠI NIỆU QUẢN VÀO BÀNG QUANG: BÁO CÁO LOẠT CA VÀ KẾT QUẢ LÂM SÀNG",
+      "summary": "Đặt vấn đề: Phẫu thuật cắm lại niệu quản là phương pháp điều trị tiêu chuẩn cho các bệnh lý hẹp niệu quản đoạn chậu. Tuy nhiên, phẫu thuật mở đi kèm với nhiều biến chứng và thời gian hồi phục kéo dài. Phẫu thuật nội soi robot đã nổi lên như một giải pháp ít xâm lấn với khả năng thao tác chính xác cao. Mục tiêu: Đánh giá tính khả thi, an toàn và kết quả ngắn hạn của phẫu thuật robot cắm lại niệu quản vào bàng quang. Phương pháp: Nghiên cứu hồi cứu loạt ca bệnh nhân được phẫu thuật robot tại bệnh viện đa khoa Tâm Anh TpHCM từ tháng 7/2025 đến tháng 3/2026. Các biến số được thu thập bao gồm đặc đ",
+      "authors": [
+        "Phúc Liên Lê"
+      ],
+      "published": "2026-10-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     }
   ]
