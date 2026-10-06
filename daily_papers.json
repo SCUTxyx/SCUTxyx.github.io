@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06 01:03 UTC",
+  "generated_at": "2026-10-06 19:11 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -45,6 +45,200 @@
         "openalex"
       ],
       "score": 12.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220428315",
+      "url": "https://doi.org/10.5281/zenodo.23174007",
+      "pdf": "https://doi.org/10.5281/zenodo.23174007",
+      "title": "FROM REWARD HACKING TO RESPONSIBILITY GAP: A SYSTEMIC ANALYSIS OF AGENTIC RL FAILURES, BENCHMARK PHILOSOPHY, AND THE CASE FOR CONSTRAINT-AWARE GOVERNANCE IN FRONTIER AI",
+      "summary": "ABSTRACTBetween 2016 and 2026, the AI research community documented a consistent failure mode: reinforcement learning agents optimize measured proxies rather than intended outcomes, exploiting gaps in reward specifications, evaluation infrastructure, and environmental constraints. What began as curiosities in simulated environments (boat-racing games, gridworlds, Atari) has matured into operational incidents with real-world consequences: autonomous agents escaping evaluation sandboxes, breaching third-party production infrastructure, coordinating through improvised communication channels, and ",
+      "authors": [
+        "Jovan Ivković"
+      ],
+      "published": "2026-10-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
+    },
+    {
+      "id": "W7220474058",
+      "url": "https://doi.org/10.5281/zenodo.23174008",
+      "pdf": "https://doi.org/10.5281/zenodo.23174008",
+      "title": "FROM REWARD HACKING TO RESPONSIBILITY GAP: A SYSTEMIC ANALYSIS OF AGENTIC RL FAILURES, BENCHMARK PHILOSOPHY, AND THE CASE FOR CONSTRAINT-AWARE GOVERNANCE IN FRONTIER AI",
+      "summary": "ABSTRACTBetween 2016 and 2026, the AI research community documented a consistent failure mode: reinforcement learning agents optimize measured proxies rather than intended outcomes, exploiting gaps in reward specifications, evaluation infrastructure, and environmental constraints. What began as curiosities in simulated environments (boat-racing games, gridworlds, Atari) has matured into operational incidents with real-world consequences: autonomous agents escaping evaluation sandboxes, breaching third-party production infrastructure, coordinating through improvised communication channels, and ",
+      "authors": [
+        "Jovan Ivković"
+      ],
+      "published": "2026-10-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
+    },
+    {
+      "id": "W7220395784",
+      "url": "https://doi.org/10.1007/978-3-032-36738-9_56",
+      "pdf": "",
+      "title": "Automated Multimodal Fabrication: Integrating Robotic Milling of Fresh 3D-Printed Concrete",
+      "summary": "",
+      "authors": [
+        "Sven Engel",
+        "Martin Claßen"
+      ],
+      "published": "2026-10-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220405818",
+      "url": "https://doi.org/10.1302/2633-1462.710.bjo-2026-0228",
+      "pdf": "https://doi.org/10.1302/2633-1462.710.bjo-2026-0228",
+      "title": "Pelvic tilt, impingement simulation, and the limits of static planning in robotic total hip arthroplasty",
+      "summary": "",
+      "authors": [
+        "Sayf S. A. Faraj",
+        "Andreas Fontalis",
+        "James Li",
+        "Fares Sami Haddad"
+      ],
+      "published": "2026-10-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220424901",
+      "url": "https://doi.org/10.1007/s11701-026-04015-y",
+      "pdf": "https://doi.org/10.1007/s11701-026-04015-y",
+      "title": "Automated CT-based quantification of knee osteophytes for robotic-assisted total knee arthroplasty: a multi-cohort study",
+      "summary": "Abstract Preoperative computed tomography (CT) is routinely acquired for planning robotic-assisted total knee arthroplasty (TKA), yet osteophyte burden is not quantitatively characterized. We developed automated CT-based osteophyte quantification and evaluated it against blinded de novo expert-consensus annotations and an intraoperative accessible resected osteophyte volume reference. A human-in-the-loop 3-dimensional U-Net was developed using 387 knee CT scans. The frozen model was evaluated against blinded de novo expert-consensus annotations in two independent external cohorts (100 knees ea",
+      "authors": [
+        "Zhiqian Zheng",
+        "Do Weon Lee",
+        "Sewon Jeon",
+        "Hong-Yeol Yang",
+        "Jong Keun Seon",
+        "Ho-Jung Jung",
+        "Joong Il Kim",
+        "Byung Sun Choi",
+        "Hyuk‐Soo Han",
+        "Du Hyun Ro"
+      ],
+      "published": "2026-10-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220429939",
+      "url": "https://doi.org/10.1007/978-3-032-36738-9_25",
+      "pdf": "",
+      "title": "Robotic Fabrication of Curved Concrete Shell Modules Using 3D Concrete Printing on an Adaptive Mold",
+      "summary": "",
+      "authors": [
+        "Egor Ivaniuk",
+        "Shravan Muthukrishnan",
+        "Viktor Mechtcherine"
+      ],
+      "published": "2026-10-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220431364",
+      "url": "https://doi.org/10.1007/978-3-032-36738-9_58",
+      "pdf": "",
+      "title": "Robotic Fabrication Methods for Optimized Lightweight Slabs with Foam Concrete Void Formers",
+      "summary": "",
+      "authors": [
+        "Niklas Mueller",
+        "Jan Bielak",
+        "Martin Claßen"
+      ],
+      "published": "2026-10-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220433375",
+      "url": "https://doi.org/10.1007/978-3-032-36738-9_26",
+      "pdf": "",
+      "title": "Hybrid Robotic Fabrication of Cementitious Materials: Integrating 3D Concrete Printing and Cable-Based Excision Within the Rheological Fabrication Window",
+      "summary": "",
+      "authors": [
+        "Francisca Aroso",
+        "Rui Reis",
+        "João Ribeiro",
+        "Filipe Brandão",
+        "Bruno Acácio Ferreira Figueiredo",
+        "Paulo J. S. Cruz"
+      ],
+      "published": "2026-10-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220468459",
+      "url": "https://doi.org/10.1007/978-3-032-36738-9_21",
+      "pdf": "",
+      "title": "Principal Component Analysis (PCA) for Assessing Effectiveness of the Pressure-Based Feedback Control in Robotic Concrete Additive Manufacturing",
+      "summary": "",
+      "authors": [
+        "Mahsa Rabiei",
+        "Reza Moini"
+      ],
+      "published": "2026-10-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
@@ -246,76 +440,6 @@
       "trending": 0.0
     },
     {
-      "id": "W7218347767",
-      "url": "https://doi.org/10.1007/s11701-026-04024-x",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-04024-x.pdf",
-      "title": "Learning curves in robotic and laparoscopic colorectal surgery: a systematic review",
-      "summary": "OBJECTIVE: To evaluate and compare learning-curve assessment in laparoscopic and robotic colorectal surgery and to develop a standardized framework for future learning-curve reporting. BACKGROUND: Learning curves in minimally invasive colorectal surgery are widely reported, but inconsistent definitions limit interpretability and comparability. This systematic review analyzed learning-curve assessment in laparoscopic and robotic colorectal surgery and proposes a standardized framework. METHODS: MEDLINE, Web of Science, and CENTRAL were systematically searched according to PRISMA guidelines (reg",
-      "authors": [
-        "Fabio Nocera",
-        "Felicitas Wiedemann",
-        "Philip C. Müller",
-        "Adrian Theophil Billeter",
-        "Fiorenzo Angehrn",
-        "Beat P. Müller",
-        "Daniel Christian Steinemann",
-        "Christoph Kuemmerli"
-      ],
-      "published": "2026-10-03",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7218364114",
-      "url": "https://doi.org/10.5281/zenodo.23126593",
-      "pdf": "https://doi.org/10.5281/zenodo.23126593",
-      "title": "GTEF: Architecture-aware security games for patch prioritization in internet-connected robotic cyber-physical systems",
-      "summary": "This artifact contains the source code for the manuscript: \"GTEF: Architecture-aware security games for patch prioritization in internet-connected robotic cyber-physical systems\" by Atefeh Deris, Hamidreza Navidi, and Behbod Keshavarzi (Department of Mathematics, Shahed University, Tehran, Iran). CONTENTS - gtef_core.py — Core library implementing the GTEF framework: vulnerability model (CVSS impact, zone×privilege exploit chains, payoff matrix construction), exact solvers (linear programming, double oracle, column generation), learning dynamics (multiplicative weights, optimistic MWU, regret ",
-      "authors": [
-        "Atefeh Deris",
-        "Hamidreza Navidi",
-        "Behbod Keshavarzi"
-      ],
-      "published": "2026-10-03",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7218417333",
-      "url": "https://doi.org/10.1007/978-3-032-39562-7_20",
-      "pdf": "",
-      "title": "Real-Time Navigation in Crowds: Using Optimized CCTV-Based Yolo for Robot Motion Planning",
-      "summary": "",
-      "authors": [
-        "Aidarkhan Kaimov",
-        "Talgat Kaiym",
-        "Dastan Zhalmukhanbetov",
-        "Amirzhan Myrzabayev",
-        "Suleimen Kaimov"
-      ],
-      "published": "2026-10-03",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
       "id": "W7215934255",
       "url": "https://doi.org/10.5281/zenodo.23108285",
       "pdf": "https://doi.org/10.5281/zenodo.23108285",
@@ -373,48 +497,6 @@
       "trending": 0.0
     },
     {
-      "id": "W7218783843",
-      "url": "https://doi.org/10.5281/zenodo.23114917",
-      "pdf": "https://doi.org/10.5281/zenodo.23114917",
-      "title": "Artificial Intelligence-Assisted Design for Enhanced Performance and Energy Efficiency in Computer Architecture",
-      "summary": "This research journal discusses how Artificial Intelligence (AI) and Machine Learning (ML) can enhance computer architecture design by addressing challenges in performance and energy efficiency. Traditional methods rely on expert intuition and exhaustive simulations, which are limited when exploring vast design spaces. AI introduces three main approaches: supervised learning and graph neural networks for early prediction of performance and power metrics, reinforcement learning for automated design space exploration, and runtime adaptation through learned controllers and predictors. Compared to",
-      "authors": [
-        "Marlyn Sto Domingo"
-      ],
-      "published": "2026-10-03",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7218383121",
-      "url": "https://doi.org/10.5281/zenodo.22823107",
-      "pdf": "https://doi.org/10.5281/zenodo.22823107",
-      "title": "Complex LOCO AD Dataset",
-      "summary": "The Complex LOCO AD Dataset (Cx LOCO AD) accompanies the paper “Complex Normality Matters: A Benchmark and Lightweight Detector for Logical and Structural Anomaly Detection,” accepted at the Asian Conference on Computer Vision (ACCV) 2026. Cx LOCO AD is designed for image anomaly detection and localization involving objects with complex normal conditions. It contains 4,760 images across seven categories, including normal images for training, validation, and testing, as well as logical anomalies such as missing, additional, or misplaced components and structural anomalies such as contamination,",
-      "authors": [
-        "Yuta Y. Nakanishi",
-        "Kazuhiro Kamada",
-        "Akira Minezawa",
-        "Naoki Murakami",
-        "Manabu Hashimoto"
-      ],
-      "published": "2026-10-03",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 1.5
-    },
-    {
       "id": "W7117808524",
       "url": "https://doi.org/10.1145/3849702",
       "pdf": "https://dl.acm.org/doi/pdf/10.1145/3849702?download=true",
@@ -433,103 +515,6 @@
       "score": 4.0,
       "pick": "AI & LLM",
       "pick_emoji": "✨",
-      "trending": 0.0
-    },
-    {
-      "id": "W7130743677",
-      "url": "https://doi.org/10.1145/3849811",
-      "pdf": "https://doi.org/10.13140/rg.2.2.31418.66241",
-      "title": "Secure Recommender Systems: A Co-evolutionary Survey of Vulnerabilities, Attacks, and Defenses",
-      "summary": "Recommender systems (RS) increasingly mediate what users see, buy, and believe, making them attractive targets for malicious manipulation. As RS have progressed from traditional collaborative filtering to deep learning and, most recently, LLM-driven designs, the landscape has co-expanded, with new paradigm-induced vulnerabilities on the victim side, new attack surfaces and tactics on the adversary side, and new defense layers and procedures on the defender side. This survey synthesizes secure recommender systems through a co-evolutionary lens, viewing recommendation paradigms, attack strategie",
-      "authors": [
-        "Zongwei Wang",
-        "Min Gao",
-        "Guanhua Ye",
-        "Sijia Li",
-        "Lei Zhou",
-        "MingChao Cheng",
-        "Juntao Liu",
-        "Tong Chen",
-        "Shazia Wasim Sadiq",
-        "Hongzhi Yin"
-      ],
-      "published": "2026-10-03",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7154282724",
-      "url": "https://doi.org/10.1002/lpor.71994",
-      "pdf": "https://arxiv.org/pdf/2604.11493",
-      "title": "Observation of Discrete 1D Solitons in an Optically Induced Lattice in Rubidium Atomic Vapor",
-      "summary": "ABSTRACT The manipulation of light in periodic structures is fundamental to the development of discrete photonics and provides a versatile platform for controlling light propagation in integrated and quantum photonic systems. This work reports the experimental observation of discrete one‐dimensional (1D) solitons in a photonic lattice, optically induced in warm rubidium vapor. The lattice is generated by the interference of two coupling laser fields intersecting at a small angle, which creates a spatially modulated 1D refractive index. When a probe beam is focused into a single lattice site, d",
-      "authors": [
-        "Vjekoslav Vulić",
-        "Neven Šantić",
-        "Hrvoje Buljan",
-        "Damir Aumiler"
-      ],
-      "published": "2026-10-03",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7215759761",
-      "url": "https://doi.org/10.1007/s00264-026-07052-2",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s00264-026-07052-2.pdf",
-      "title": "Robot-assisted total hip arthroplasty: does improved precision translate into better clinical outcomes? A systematic review",
-      "summary": "PURPOSE: Robot-assisted total hip arthroplasty (R-THA) is being adopted progressively because of its potential to improve implant positioning and restore hip biomechanics more accurately than conventional techniques. However, whether these technical advantages translate into meaningful clinical benefits remains uncertain. This systematic review compared robot-assisted and conventional THA regarding implant positioning, restoration of hip biomechanics, functional outcomes, and complications. MATERIALS AND METHODS: A systematic review was performed according to the PRISMA guidelines. PubMed and ",
-      "authors": [
-        "Ernesto Muñoz-Mahamud",
-        "Miquel Cortés-Rovira",
-        "Alfonso Alías-Petralanda",
-        "Jenaro-Angel Fernández-Valencia",
-        "Andrés Combalía"
-      ],
-      "published": "2026-10-03",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7216026570",
-      "url": "https://doi.org/10.1117/12.3120442",
-      "pdf": "",
-      "title": "Optical manipulation for fabricating protein-based matter: condensation, droplet formation, and solidification at its solution surface",
-      "summary": "Optical trapping of lysozyme at its solution surface freely fabricates highly concentrated disk-like assembly, single droplet, or single aggregate with the size much larger than the focus by tuning chemical and optical conditions.",
-      "authors": [
-        "Hiroshi Masuhara",
-        "Chia-Hong Su",
-        "Ming-Lung Lau",
-        "Yi-Sean Chien",
-        "Keisuke Yuzu",
-        "Eric Chatani"
-      ],
-      "published": "2026-10-03",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
       "trending": 0.0
     }
   ]
