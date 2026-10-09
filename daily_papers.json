@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09 00:04 UTC",
+  "generated_at": "2026-10-09 19:08 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -8,6 +8,29 @@
   ],
   "count": 24,
   "papers": [
+    {
+      "id": "W7220899538",
+      "url": "https://doi.org/10.1007/s12206-026-0946-x",
+      "pdf": "",
+      "title": "Design of a novel pneumatically actuated wrinkled soft robotic pad for enhanced grasping in soft robotic fingers",
+      "summary": "",
+      "authors": [
+        "Songjie Tang",
+        "Chang Chen",
+        "Shaohui Su",
+        "Yehao Wen",
+        "Pengfei Chen"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 12.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
     {
       "id": "W7215273882",
       "url": "https://openalex.org/W7215273882",
@@ -66,6 +89,389 @@
       "trending": 1.5
     },
     {
+      "id": "W7220668967",
+      "url": "https://doi.org/10.1002/9781394389629.ch4",
+      "pdf": "",
+      "title": "Reinforcement and Deep Learning Approaches to Dynamic Cache Optimization",
+      "summary": "With explosive data-driven application growth and increasing complexity of contemporary computing environments, conventional static cache management methods fall short more and more. This chapter discusses how reinforcement learning (RL) and deep learning (DL) models are disrupting cache optimization by making caching strategies adaptive, predictive, and context-sensitive. It first discusses basic cache structures and their shortcomings in mobile, cloud, and multicore systems. The discussion then goes on to how RL models such as Q-learning and deep Q-networks learn dynamic optimal cache replac",
+      "authors": [
+        "Patel Smit Vasant Kumar",
+        "Kruti Dataram",
+        "Uma Shankar",
+        "Sonam Nagpal",
+        "Himanshu Amritlal Patel"
+      ],
+      "published": "2026-10-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.0
+    },
+    {
+      "id": "W7220959359",
+      "url": "https://doi.org/10.5281/zenodo.23219420",
+      "pdf": "https://doi.org/10.5281/zenodo.23219420",
+      "title": "Autonomous Mobile Manipulators and AI-Driven Cobots: Transforming Human-Robot Collaboration in Next-Generation Smart Factories",
+      "summary": "The rapid evolution of Industry 4.0 and 5.0 demands flexible manufacturing systems that move beyond traditional rigid automation. This paper presents an integrated framework for Autonomous Mobile Manipulators (AMMs) driven by Edge Artificial Intelligence (AI) and advanced computer vision. By combining simultaneous localization and mapping (SLAM) with multi-axis force-torque sensing, the proposed system bridges the gap between autonomous mobility and precise robotic manipulation. Experimental evaluations in a simulated smart-factory environment demonstrate a 31% reduction in component transfer ",
+      "authors": [
+        "Neenu Ann Sunny"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7133272143",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_14",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_14",
+      "title": "Shared Control for Assistive and Collaborative Robotics",
+      "summary": "International audience",
+      "authors": [
+        "Claudio Pacchierotti",
+        "Divyaksh Subhash Chander",
+        "Louise Devigne",
+        "Marie Babel",
+        "Charles Pontonnier"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220898983",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_2",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_2",
+      "title": "Physical Ergonomics in Robotics",
+      "summary": "",
+      "authors": [
+        "Pauline Maurice",
+        "Luka Peternel",
+        "WanSoo Kim",
+        "Simona Crea",
+        "Vineet Vashista",
+        "Giacinto Barresi",
+        "Alberto Ranavolo",
+        "Anna Bucchieri",
+        "Giulia A. Albanese",
+        "Michael Holmes",
+        "Jacopo Zenzeri"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220915591",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_18",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_18",
+      "title": "Future of Anticipatory Robotics in Manufacturing",
+      "summary": "",
+      "authors": [
+        "Marta Lorenzini",
+        "Marta Lagomarsino",
+        "Costanza Messeri",
+        "Arash Ajoudani",
+        "Andrea Maria Zanchettin"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220923980",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_22",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_22",
+      "title": "Robotics and Trust",
+      "summary": "",
+      "authors": [
+        "J. Rabe",
+        "Alessandra Sciutti",
+        "J. Zonca",
+        "D. Pasquali",
+        "F. Rea"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220941674",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_5",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_5",
+      "title": "Ergonomics, Robotics, and Disciplinary Integration",
+      "summary": "",
+      "authors": [
+        "Giacinto Barresi",
+        "Marta Bertolaso",
+        "Tiago H. Falk",
+        "Claudio Castellini",
+        "Patricia H. Rosen",
+        "Sascha Wischniewski"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220942351",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_24",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_24",
+      "title": "Robotics for Aging Populations",
+      "summary": "",
+      "authors": [
+        "Kar Him Mo",
+        "Fei Chen",
+        "Giacinto Barresi"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220959253",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_25",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_25",
+      "title": "HFE Considerations in Sustainability in Robotics",
+      "summary": "",
+      "authors": [
+        "Andrew Thatcher",
+        "Wei Zhang"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220965533",
+      "url": "https://doi.org/10.1007/s00423-026-04230-z",
+      "pdf": "https://doi.org/10.1007/s00423-026-04230-z",
+      "title": "Robotic cholecystectomy as a step-up procedure after 1,000 consecutive laparoscopic cholecystectomies: learning curve and perioperative outcomes",
+      "summary": "",
+      "authors": [
+        "Danilo Coco",
+        "Silvana Leanza"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220968801",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_4",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_4",
+      "title": "Organizational Ergonomics in Robotics",
+      "summary": "",
+      "authors": [
+        "Vivek Kant",
+        "Francesco Rea",
+        "Fabrizio Bracco"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220980014",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2",
+      "title": "Ergonomics in Robotics: Advances and Innovations",
+      "summary": "",
+      "authors": [],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220986333",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_9",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_9",
+      "title": "Human-Centered Robotics for Surgery",
+      "summary": "",
+      "authors": [
+        "Rocco Moccia",
+        "Raffaella Mancino",
+        "Emanuele Ruffaldi",
+        "Massimiliano Simi",
+        "Rossella Onofrio",
+        "Fanny Ficuciello"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221014476",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_8",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_8",
+      "title": "Social Robotics and Human–Robot Communication",
+      "summary": "",
+      "authors": [
+        "Guy Laban",
+        "Emily S. Cross"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221044329",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_3",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_3",
+      "title": "Cognitive Ergonomics in Robotics",
+      "summary": "",
+      "authors": [
+        "Patricia H. Rosen",
+        "Eva Heinold",
+        "Giacinto Barresi",
+        "Sascha Wischniewski"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221051117",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_12",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_12",
+      "title": "Occupational Wearable Robotics",
+      "summary": "",
+      "authors": [
+        "Jesús Ortiz",
+        "Luigi Monica",
+        "Sara Anastasi",
+        "Darwin  Gordon Caldwell"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221051822",
+      "url": "https://doi.org/10.1007/978-3-032-19374-2_10",
+      "pdf": "https://doi.org/10.1007/978-3-032-19374-2_10",
+      "title": "Human Factors in Robotics for Motor Rehabilitation, Assistance, and Prosthetics",
+      "summary": "",
+      "authors": [
+        "Federico Tessari",
+        "Marek Sierotowicz",
+        "Sabine Thuerauf",
+        "Heloisa Seratiuk Flores",
+        "Jonas Grau Thomsen",
+        "Matteo Laffranchi",
+        "Lorenzo De Michieli",
+        "Emanuele Gruppioni",
+        "Satoshi Muraki",
+        "Letizia Leocani",
+        "Giampaolo Brichetto",
+        "Loredana Zollo",
+        "Claudio Castellini",
+        "Giacinto Barresi"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
       "id": "W7214028460",
       "url": "https://doi.org/10.1007/s11370-026-00757-8",
       "pdf": "https://arxiv.org/pdf/2609.22974",
@@ -109,56 +515,6 @@
       "trending": 0.0
     },
     {
-      "id": "W7220405818",
-      "url": "https://doi.org/10.1302/2633-1462.710.bjo-2026-0228",
-      "pdf": "https://boneandjoint.org.uk/article/10.1302/2633-1462.710.BJO-2026-0228/pdf",
-      "title": "Pelvic tilt, impingement simulation, and the limits of static planning in robotic total hip arthroplasty",
-      "summary": "",
-      "authors": [
-        "Sayf S. A. Faraj",
-        "Andreas Fontalis",
-        "James Li",
-        "Fares Sami Haddad"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220424901",
-      "url": "https://doi.org/10.1007/s11701-026-04015-y",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-04015-y.pdf",
-      "title": "Automated CT-based quantification of knee osteophytes for robotic-assisted total knee arthroplasty: a multi-cohort study",
-      "summary": "Abstract Preoperative computed tomography (CT) is routinely acquired for planning robotic-assisted total knee arthroplasty (TKA), yet osteophyte burden is not quantitatively characterized. We developed automated CT-based osteophyte quantification and evaluated it against blinded de novo expert-consensus annotations and an intraoperative accessible resected osteophyte volume reference. A human-in-the-loop 3-dimensional U-Net was developed using 387 knee CT scans. The frozen model was evaluated against blinded de novo expert-consensus annotations in two independent external cohorts (100 knees ea",
-      "authors": [
-        "Zhiqian Zheng",
-        "Do Weon Lee",
-        "Sewon Jeon",
-        "Hong-Yeol Yang",
-        "Jong Keun Seon",
-        "Ho-Jung Jung",
-        "Joong Il Kim",
-        "Byung Sun Choi",
-        "Hyuk‐Soo Han",
-        "Du Hyun Ro"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
       "id": "W7220429939",
       "url": "https://doi.org/10.1007/978-3-032-36738-9_25",
       "pdf": "",
@@ -175,335 +531,6 @@
         "openalex"
       ],
       "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220431364",
-      "url": "https://doi.org/10.1007/978-3-032-36738-9_58",
-      "pdf": "",
-      "title": "Robotic Fabrication Methods for Optimized Lightweight Slabs with Foam Concrete Void Formers",
-      "summary": "",
-      "authors": [
-        "Niklas Mueller",
-        "Jan Bielak",
-        "Martin Claßen"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220433375",
-      "url": "https://doi.org/10.1007/978-3-032-36738-9_26",
-      "pdf": "",
-      "title": "Hybrid Robotic Fabrication of Cementitious Materials: Integrating 3D Concrete Printing and Cable-Based Excision Within the Rheological Fabrication Window",
-      "summary": "",
-      "authors": [
-        "Francisca Aroso",
-        "Rui Reis",
-        "João Ribeiro",
-        "Filipe Brandão",
-        "Bruno Acácio Ferreira Figueiredo",
-        "Paulo J. S. Cruz"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220468459",
-      "url": "https://doi.org/10.1007/978-3-032-36738-9_21",
-      "pdf": "",
-      "title": "Principal Component Analysis (PCA) for Assessing Effectiveness of the Pressure-Based Feedback Control in Robotic Concrete Additive Manufacturing",
-      "summary": "",
-      "authors": [
-        "Mahsa Rabiei",
-        "Reza Moini"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220648818",
-      "url": "https://doi.org/10.1007/s12555-026-00201-8",
-      "pdf": "",
-      "title": "Human-Inspired Gait Generation with Energy Efficiency for Model-Based Biped Robot Locomotion",
-      "summary": "",
-      "authors": [
-        "Shilin Luo",
-        "Yiping Gao",
-        "Qian Xiong",
-        "Xinyu Li",
-        "Liang Gao"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220650667",
-      "url": "https://doi.org/10.66921/oe.ar.8082912343cf",
-      "pdf": "",
-      "title": "SICOT 2026: Kinematic alignment in robotic total knee arthroplasty",
-      "summary": "",
-      "authors": [],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220651327",
-      "url": "https://doi.org/10.5281/zenodo.23178411",
-      "pdf": "https://doi.org/10.5281/zenodo.23178411",
-      "title": "Physical Layer Verification Boundaries and Deterministic Safety Interlocks for Autonomous Physical Systems: A Layer 5 Extension of the SI Autonomous Governance Protocol",
-      "summary": "Abstract To guarantee governance and physical safety when autonomous Artificial Intelligence (AI) handles real-world physical drives (such as autonomous vehicles, robotics, and spacecraft propulsion controls), this paper presents a theoretical framework that extends \"Layer 5 Closed-Loop Execution\" of the SI Autonomous Governance Protocol to the Physical Layer. In conventional autonomous systems, digital computation (probabilistic perception and generation) is directly coupled to physical actuation, raising concerns regarding loss of control and the breakdown of liability attribution during a l",
-      "authors": [
-        "Hideo Kajino"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220660161",
-      "url": "https://doi.org/10.5281/zenodo.23183051",
-      "pdf": "https://doi.org/10.5281/zenodo.23183051",
-      "title": "A Concise Framework for AI-Driven Blockchain: Integrating DRL Consensus and GNN Security Auditing",
-      "summary": "This research introduces a novel, high-performance hybrid framework merging Deep Reinforcement Learning (DRL) for dynamic consensus optimization with Graph Neural Networks (GNN) for advanced smart contract security auditing. Traditional blockchain architectures frequently struggle with balancing scalability and security under volatile transactional loads. By formulating consensus mechanism tuning as a DRL process and utilizing GNNs to model contract execution flows as relational graphs, our proposed approach achieves an impressive throughput of 3,450 TPS, reduces network latency down to 2.06 s",
-      "authors": [
-        "Annu Anuj Sharma"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220649463",
-      "url": "https://doi.org/10.1117/12.3130592",
-      "pdf": "",
-      "title": "SAKD-SAM: efficient breast tumor MRI segmentation via self-attention knowledge distillation and 3D sparse flash attention",
-      "summary": "Segmenting breast tumors in magnetic resonance imaging (MRI) is a critical step in computer-aided diagnosis. Recently, the Segment Anything Model (SAM) has demonstrated remarkable potential in medical image segmentation. However, the immense parameter size and heavy computational burden of SAM's Transformer-based architecture severely restrict its clinical deployment, especially for 3D volumetric data. To address these challenges, we propose a lightweight breast tumor segmentation framework based on a novel Self-Attention Knowledge Distillation (SAKD) strategy. By transferring the rich semanti",
-      "authors": [
-        "Xiangbin Luo"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220655532",
-      "url": "https://doi.org/10.3390/app16199877",
-      "pdf": "https://doi.org/10.3390/app16199877",
-      "title": "A Comparative Analysis of Generative AI for Architectural Visualization: A Quantitative Comparison Using Objective Evaluation Metrics and the Architectural AI Score (AIS)",
-      "summary": "This study presents a quantitative metric-based comparison of four state-of-the-art text-to-image generative AI systems for architectural visualization: OpenAI Image Generation, Imagen 4, Midjourney v8.1, and Stable Image Ultra. The models were evaluated using the Architectural Prompt Dataset (APD-50), a controlled, expert-informed prompt set consisting of 50 architectural prompts across five typologies: Modern Residential Buildings, Public Buildings, Religious and Cultural Architecture, Interior Design, and Facade and Sustainable Architecture. For each prompt, four images were generated per m",
-      "authors": [
-        "Volkan Cantemir",
-        "Minel Kurtuluş",
-        "Ece Cantemir"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 1.5
-    },
-    {
-      "id": "W7128427738",
-      "url": "https://doi.org/10.1167/jov.26.10.6",
-      "pdf": "https://doi.org/10.1167/jov.26.10.6",
-      "title": "The role of retinal flow in walking",
-      "summary": "Both visual direction and optic flow have been implicated in walking toward a goal in experiments that use prisms to alter visual direction. However, prisms bias retinal flow patterns in ways that might affect the path chosen. We used a prism manipulation in virtual reality for goal-directed walking, where we manipulated the location of texture-defined flow as well as the direction of gaze. The addition of texture straightened paths, but primarily when it provided flow on the ground plane. Texture confined to the ground straightened paths similar to full-scene texture, whereas wall-only textur",
-      "authors": [
-        "Nathaniel V. Powell",
-        "Daniel Panfili",
-        "Youjin Oh",
-        "Jonathan Samir Matthis",
-        "Mary Hayhoe"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7152479836",
-      "url": "https://doi.org/10.5281/zenodo.19488667",
-      "pdf": "https://doi.org/10.5281/zenodo.19488667",
-      "title": "Hetero-Isaac: Heterogeneous Quadrupedal Simulation built atop Isaac Lab",
-      "summary": "In this release we can have both heterogeneous humanoids in addition to the quadrupeds. They include: Unitree H1 Unitree H2 Unitree G1 Cassie Digit",
-      "authors": [
-        "Mohamad H. Danesh"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7169852179",
-      "url": "https://doi.org/10.1007/978-3-032-36738-9_20",
-      "pdf": "https://doi.org/10.13140/rg.2.2.11573.23527",
-      "title": "Time-Aware Robot Motion Planning for Non-planar 3D Concrete Printing",
-      "summary": "Non-planar 3D concrete printing (3DCP) improves geometric fidelity for complex optimized structures, but it tightly couples volumetric feedforward velocity with rapid printhead reorientation. With constant pump rate, the required filament geometry sets the feedforward velocity and a fixed traversal time per segment; however, the orientation changes demanded within this time can exceed robot kinematic limits, causing slowdowns and over-extrusion. We present a motion planning framework that addresses this conflict by coupling a volumetric feedforward velocity model with a global $$\\textrm{SO}(3)",
-      "authors": [
-        "Yuxin Lin",
-        "Mania Aghaei Meibodi",
-        "Kira Barton"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7203953738",
-      "url": "https://doi.org/10.21203/rs.3.rs-11068526/v1",
-      "pdf": "https://www.researchsquare.com/article/rs-11068526/latest.pdf",
-      "title": "Learning the Right Abstraction: Neural Reduced Dynamics for Complex Robot Control",
-      "summary": "",
-      "authors": [
-        "Harry Zhang",
-        "Dan Negruţ"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7213440163",
-      "url": "https://doi.org/10.1145/3847353.3847504",
-      "pdf": "https://doi.org/10.1145/3847353.3847504",
-      "title": "RobResilience: Implementing and Evaluating a Resilience Framework for Cyber-Physical Embodied Systems",
-      "summary": "In embodied cyber-physical systems, active cyberattacks pose an immediate threat not just to data, but to physical integrity and human safety. While existing security approaches excel at detection, they lack the runtime mechanisms to determine whether a disruption is tolerable or if performance degradation remains within safe operational bounds. This gap leaves autonomous systems vulnerable to graceful failure paralysis, where they cannot distinguish between a safe, degraded state and a catastrophic hazard during an ongoing attack. This paper presents RobResilience, an implementation of a form",
-      "authors": [
-        "Gysella Imrell",
-        "Emanuele Miotto",
-        "Mahya Mohammadi Kashani",
-        "Mauro Conti",
-        "Alberto Giaretta"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7213565155",
-      "url": "https://doi.org/10.1007/978-3-032-39236-7_3",
-      "pdf": "https://alexandria.unisg.ch/bitstreams/7cce9f8c-e898-4caf-919d-fce9ddee161c/download",
-      "title": "Autonomous Mobile Robots with Business Process Management Systems at the Edge",
-      "summary": "",
-      "authors": [
-        "Ronny Seiger",
-        "Sara Pettinari",
-        "Lukas Malburg"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220369201",
-      "url": "https://doi.org/10.5281/zenodo.23174183",
-      "pdf": "https://doi.org/10.5281/zenodo.23174183",
-      "title": "sbmlutils: Python utilities for SBML",
-      "summary": "sbmlutils is a collection of python utilities for working with SBML models implemented on top of libsbml with source code available from https://github.com/matthiaskoenig/sbmlutils Features include among others model creation, manipulation and annotation validation and unit consistency of models hierarchical models (comp), constraint based models (fbc) and uncertainties (distrib) human readable reports of SBML models at https://sbml4humans.de converters (ODE systems, XPP, antimony, COPASI) The documentation is available at https://matthiaskoenig.github.io/sbmlutils If you have any questions or",
-      "authors": [
-        "Matthias König"
-      ],
-      "published": "2026-10-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
