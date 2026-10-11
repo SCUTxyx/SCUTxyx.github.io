@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10 23:06 UTC",
+  "generated_at": "2026-10-11 18:32 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,198 +9,66 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7201841279",
-      "url": "https://doi.org/10.1145/3832783.3837550",
-      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832783.3837550?download=true",
-      "title": "IcFuzz: Fuzzing Isaac Sim with Semantic Stage Guidance and Multi-level Mutation",
-      "summary": "Robotics simulators serve as a foundational infrastructure for embodied AI, facilitating safe and scalable robotic system development. NVIDIA Isaac Sim has emerged as one of the most popular simulators, distinguished by its GPU-accelerated physics engine and photorealistic rendering, which enable high-fidelity modeling of complex environments. However, its inherent complexity inevitably introduces software bugs that can compromise simulation reliability. Existing fuzzing approaches struggle to test Isaac Sim effectively due to challenges of context-aware object semantics, hierarchical simulati",
+      "id": "W7220909955",
+      "url": "https://doi.org/10.5281/zenodo.23238874",
+      "pdf": "https://doi.org/10.5281/zenodo.23238874",
+      "title": "MO-ADRL: Multi-Objective Adaptive Deep Reinforcement Learning for Intelligent Grids with High Renewable Penetration",
+      "summary": "Source code for the MO-ADRL framework: intelligent-grid simulator, Temporal Transformer forecaster, actor-critic agent with adaptive multi-objective reward weighting, prioritized experience replay and uncertainty-aware exploration, together with rule-based, PSO and GA baselines and convergence-analysis scripts.",
       "authors": [
-        "Zhixiang Chen",
-        "Zhuangbin Chen",
-        "Ruoxi Jia",
-        "Zeqin Liao",
-        "Wei Li",
-        "Jinyang Liu",
-        "Zibin Zheng"
+        "Puneet Sharma",
+        "B.N. Srinivasarao",
+        "Dr. K.Hemachandra Reddy",
+        "Mahendihasan S. Heera",
+        "S. Rama Sree",
+        "Naveen Kumar Rajendran"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 9.0,
+      "score": 12.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220893422",
+      "url": "https://doi.org/10.54254/2755-2721/2026.37566",
+      "pdf": "https://ace.ewapub.com/article/view/37566.pdf",
+      "title": "Robust Navigation and Obstacle Avoidance Control of Inspection Robots in Complex Confined Environments",
+      "summary": "Abstract Inspection robots are usually used in challenging and narrow environments like mines, underground pipe galleries and closed industrial workshops. These areas pose practical difficulties, such as poor lighting, small corridors, and crowded barriers, and the absence of existing maps. To accomplish tasks of inspection safely, robots need to have good obstacle avoidance and powerful navigation. Nevertheless, in constrained spaces, sensors are prone to interference and positioning drift and perception failures can have a direct impact on operational safety. This paper provides a systematic",
+      "authors": [
+        "Ziyao Liu"
+      ],
+      "published": "2026-10-08",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7220678491",
-      "url": "https://doi.org/10.1145/3837358.3837360",
-      "pdf": "https://doi.org/10.1145/3837358.3837360",
-      "title": "ns3-agent: Fostering Integrated Perception-Communication-Computing Research for Agentic AI Services via Cross-Platform Co-Simulations",
-      "summary": "The rapid proliferation of Generative AI (GenAI) has catalyzed the emergence of autonomous agentic AI services, spanning large language model (LLM) or vision-language model (VLM) based digital agents to vision-language-action (VLA) based embodied intelligence. Consequently, tokens and multimodal data streams have emerged as fundamentally new traffic modalities carried by modern wireless networks, actively reshaping next-generation evolutionary standards. Unlike conventional multimedia streaming, the end-to-end quality of experience of agentic AI services is governed by an intricate, bidirectio",
-      "authors": [
-        "Chengxiang Mi",
-        "Ce Wang",
-        "Kai Zhang",
-        "Qiao Lan",
-        "Peng Liu",
-        "Yayu Gao"
-      ],
-      "published": "2026-10-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7220830429",
-      "url": "https://doi.org/10.33012/2026.20725",
+      "id": "W7220900652",
+      "url": "https://doi.org/10.1007/s10999-026-09995-1",
       "pdf": "",
-      "title": "GVG-SLAM: GNSS/VGGT-SLAM Integrated Navigation Method for Outdoor Environments",
-      "summary": "Visual Simultaneous Localization and Mapping (SLAM) is a core technology for autonomous navigation, robotics, and 3D reconstruction. In recent years, learning-based visual models have gained increasing attention because they can provide stronger geometric priors and more robust scene representations than traditional feature-based pipelines. Among these models, the Visual Geometry Grounded Transformer (VGGT) has attracted particular interest, and its SLAM variant, VGGT-SLAM 2.0, has shown promising dense reconstruction and visual tracking performance. However, VGGT-SLAM 2.0 is mainly designed f",
-      "authors": [
-        "Dai Wuran",
-        "Francisco Clemente Braga",
-        "Saurav Uprety",
-        "Naser El-Sheimy",
-        "Hongzhou Yang"
-      ],
-      "published": "2026-10-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220830566",
-      "url": "https://doi.org/10.3390/s26196324",
-      "pdf": "https://doi.org/10.3390/s26196324",
-      "title": "Scooter-Driving Humanoid Robot: Sim-to-Real Transfer Through Deep Reinforcement Learning",
-      "summary": "This paper presents a simulation-to-reality (sim-to-real) transfer process, allowing a full-sized humanoid robot to autonomously balance a two-wheeled scooter and track operator-supplied heading commands through a deep reinforcement learning (DRL) policy, including while carrying a human passenger for the first time. The learned policy governs the coupled balance and steering dynamics only: the heading reference and the target speed are supplied by a human operator, the throttle is set externally, and the initial launch over the first 2 to 3 m and the final stop are performed manually for safe",
-      "authors": [
-        "Ugo Richard Roux",
-        "Saeed Saeedvand",
-        "Jacky Baltes"
-      ],
-      "published": "2026-10-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W4402645297",
-      "url": "https://doi.org/10.1002/rob.70367",
-      "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/rob.70367",
-      "title": "Adaptive Soft Robot for Complex Multiple Scenes: Navigating Pipelines, Valves, and Pressure Vessels",
-      "summary": "ABSTRACT Pipelines, valves, and pressure vessels (PVs) are vital components in nuclear, thermal power, and chemical systems, operating under high temperature and pressure over extended periods, leading to safety risks. Ensuring their safe operation requires regular inspections, which current robotic systems cannot fully address due to the diverse and challenging environments. To address this need, we propose a robotic system featuring a narrow‐waist spring torso, airbag foot supports, and ducted‐fan‐based negative‐pressure adhesion. The robot exhibits three key features: First, the narrow‐wais",
-      "authors": [
-        "Shasha Wang",
-        "Jialin Zang",
-        "Shengyu He",
-        "Yongze Li",
-        "Zhiguang Xing",
-        "Jianwen Zhao"
-      ],
-      "published": "2026-10-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4416551460",
-      "url": "https://doi.org/10.1145/3832783.3837413",
-      "pdf": "https://doi.org/10.1145/3832783.3837413",
-      "title": "ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction",
-      "summary": "Large Language Model (LLM) agents increasingly operate across domains such as robotics, virtual assistants, and web automation. However, their stochastic decision-making introduces safety risks that are difficult to anticipate during execution. Existing runtime monitoring frameworks, such as AgentSpec, primarily rely on reactive safety rules that detect violations only when unsafe behavior is imminent or has already occurred, limiting their ability to handle long-horizon dependencies. We present ProbGuard, a proactive runtime monitoring framework for LLM agents that anticipates safety violatio",
-      "authors": [
-        "Haoyu Wang",
-        "Christopher M. Poskitt",
-        "Jiali Wei",
-        "Jun Sun"
-      ],
-      "published": "2026-10-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7164302053",
-      "url": "https://doi.org/10.1177/21695172261462701",
-      "pdf": "https://doi.org/10.1177/21695172261462701",
-      "title": "The Soft Circuits Toolkit: Teaching Mechano-Fluidic Logic for Soft Robotics",
-      "summary": "As soft robotics gains popularity, novel toolkits and educational systems for soft robotics are emerging. These endeavors focus mainly on teaching the programming or fabrication of soft robots, actuators, and sensors. However, as soft robotics moves toward electronics- and software-free control, it becomes essential to gain hands-on experience in soft fluidic circuit building and physical control. We bridge this gap in the educational landscape through the Soft Circuits Toolkit, a modular system of completely soft components that enables the creation and teaching of fluidic circuits, represent",
-      "authors": [
-        "Catharina van Riet",
-        "Shibo Zou",
-        "Frank L. M. Delbressine",
-        "Anke van Oosterhout",
-        "Bas Overvelde"
-      ],
-      "published": "2026-10-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220652980",
-      "url": "https://doi.org/10.5281/zenodo.23199671",
-      "pdf": "https://doi.org/10.5281/zenodo.23199671",
-      "title": "Paleolithic Somatic Anthropology and Biophysical Architecture of Sensory-Defense: Optical Adaptation of Amber Irises in Ancient East-Eurasian Lineages and Evolutionary Origins of Reactive Interlocks",
-      "summary": "Abstract Contemporary cognitive engineering, autonomous robotics, and biometric surveillance paradigms operate under the chronic delusion that perception and defensive action must be perpetually predictive, computationally intensive, and software-mediated. This monograph establishes a foundational counter-paradigm rooted in Upper Paleolithic somatic anthropology and physical-layer biophysics. By tracing the ancestral lineage of imperial wardens and physical defense groups (\"Hasebe\") beyond the historical horizon of the Kofun and Asuka periods into the Upper Paleolithic stratum (circa 30,000–40",
-      "authors": [
-        "Yoko Hasebe"
-      ],
-      "published": "2026-10-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220656671",
-      "url": "https://doi.org/10.1007/s00264-026-07056-y",
-      "pdf": "",
-      "title": "Robotic assistance reduces operative time variability in reverse shoulder arthroplasty: a retrospective single-surgeon study",
+      "title": "GABP-enabled multi-objective intelligent structural optimization method for soft robotic manipulator",
       "summary": "",
       "authors": [
-        "Matthew Frederickson",
-        "Dilpreet Singh",
-        "Mariano E. Menendez"
+        "Rui Lin",
+        "Shuyou He",
+        "Haoxuan Sun",
+        "Xuesong Wu",
+        "Kangjia Fu",
+        "Qi Zhang",
+        "Sunquan Yu",
+        "Ming Xu",
+        "Xiang Zhang"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -211,15 +79,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7220676732",
-      "url": "https://doi.org/10.5281/zenodo.23199398",
-      "pdf": "https://doi.org/10.5281/zenodo.23199398",
-      "title": "Quantum Intelligent Systems: A Hybrid Quantum-Logic Framework Integrating Physical, Control, and Cognitive Layers Author: Dr. Siamak Noorolahi Affiliation: SBMU Abstract Traditional intelligent systems are built upon the classical von Neumann architecture, which relies on deterministic logic and linear hierarchical processing. This paradigm faces significant limitations when addressing high-dimensional, non-linear, and stochastic environments. This paper proposes a novel framework for Quantum Intelligent Systems (QIS) based on Hybrid Quantum Logic. We introduce a multi-layered architecture comprising the Physical Layer, the Control Layer, and the Cognitive Layer, interconnected through quantum phenomena such as superposition and entanglement. Unlike classical systems where layers are strictly sequential, our framework treats the system as a unified quantum field where information processing, actuation, and cognition occur through the controlled collapse of a system-wide wave function. This approach provides a theoretical basis for achieving unprecedented levels of autonomy and strategic adaptability in complex robotic and autonomous systems. Keywords: Quantum Intelligent Systems (QIS), Hybrid Quantum Logic, Cognitive Layer, Entanglement-based Control, Wave Function Collapse in Decision Making.",
-      "summary": "",
+      "id": "W7220901752",
+      "url": "https://doi.org/10.3390/bioengineering13101172",
+      "pdf": "https://doi.org/10.3390/bioengineering13101172",
+      "title": "Multimodal Feedback-Enhanced Soft Hand Rehabilitation Robot: System Development and Preliminary Clinical Evaluation",
+      "summary": "Soft robotic systems have attracted increasing attention for hand rehabilitation because of their compliance, adaptability, and potential for comfortable human–robot interaction. However, the clinical translation of soft hand rehabilitation robots remains limited by insufficient integration of interactive training, user feedback, and practical wearability. This study presents a multimodal feedback-enhanced soft hand rehabilitation robot based on lattice-structured soft pneumatic actuators (LSPAs), together with a preliminary clinical evaluation. The system integrates a fabric-based soft glove,",
       "authors": [
-        "Noorolahi"
+        "Jianwei Lai",
+        "Aiguo Song",
+        "Xuemei Fan",
+        "Guangyu Sun",
+        "Yaxuan Di",
+        "Ting Wu"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -230,19 +103,17 @@
       "trending": 0.0
     },
     {
-      "id": "W7220721080",
-      "url": "https://doi.org/10.1007/s00264-026-07050-4",
-      "pdf": "",
-      "title": "Five-year implant-related complication rates of total hip arthroplasty performed for osteonecrosis were not improved by robotic-assisted or computer-navigated techniques",
-      "summary": "",
+      "id": "W7220901902",
+      "url": "https://doi.org/10.3389/fresc.2026.1942904",
+      "pdf": "https://www.frontiersin.org/journals/rehabilitation-sciences/articles/10.3389/fresc.2026.1942904/pdf",
+      "title": "Implementing robotic-assisted therapy in stroke rehabilitation: a structured narrative review of evidence and technology adoption barriers in Indonesia",
+      "summary": "Introduction Robotic-assisted therapy (RAT) has emerged as a promising intervention for post-stroke recovery; however, its implementation in developing countries such as Indonesia remains limited by economic, technical, and systemic barriers. This structured narrative review summarizes clinical effect reported by systematics review and meta-analyses and examines implementation consideration and potential economic feasibility within the Indonesian healthcare context. Method A structured review of systematic reviews and meta-analyses (2015–2025) was conducted using PubMed, Scopus, PEDro, and Coc",
       "authors": [
-        "Nils Becker",
-        "Lucas Y. Kim",
-        "Lee Eric Rubin",
-        "Jonathan Newman Grauer",
-        "Daniel Howard Wiznia"
+        "Ezra Bernadus Wijaya",
+        "Phyo-Wai Thu",
+        "Pao‐Chu Chen"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -253,95 +124,35 @@
       "trending": 0.0
     },
     {
-      "id": "W7220830251",
-      "url": "https://doi.org/10.1007/978-981-92-5712-6_31",
-      "pdf": "",
-      "title": "Learning Lifelike Humanoid Locomotion with Semi-Supervised Generative Adversarial Imitation Learning",
-      "summary": "",
+      "id": "W7220892291",
+      "url": "https://doi.org/10.15488/22777",
+      "pdf": "https://repo.uni-hannover.de/bitstreams/0074b7f3-f72a-4835-9b94-e78d06717897/download",
+      "title": "Supporting Multi-Step Workflows with LLM-Based Web Automation using Agentic Context Engineering and Selective Multimodal Reasoning",
+      "summary": "[Background.] Multi-step web workflows, such as comparing offers across portals, cost people much time. Scripts must be written for each site and break when pages change; agents built on large language models can pursue a goal stated in natural language on unseen sites. Current agents depend on site-specific interaction, spend many tokens on large pages and redundant steps, use expensive vision models at every step, do not reuse earlier work, and give users few safeguards. [Objective.] This thesis develops and evaluates a generalized, trustworthy and human-centred web agent for enterprise-rele",
       "authors": [
-        "Yuhao Duan",
-        "石展旭",
-        "Huiqiao Fu",
-        "Bo Xin",
-        "Chunlin Chen"
+        "Amirreza Alasti"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7220830765",
-      "url": "https://doi.org/10.1080/19315260.2026.2743786",
-      "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/19315260.2026.2743786?needAccess=true",
-      "title": "Optimization of pro-tray configuration, substrate composition, and seedling age for chili and brinjal plug seedlings intended for robotic transplanting",
-      "summary": "Labor scarcity has accelerated interest in robotic transplanting, whose reliability depends on seedling geometry and root plug cohesion. This study optimized pro-tray configuration, substrate composition, and seedling age for chili and brinjal plug seedlings. A greenhouse experiment (three replications) evaluated three tray configurations (98 cells, 19 cm3; 72 cells, 38 cm3; 126 cells, 22 cm3), two substrates (coir pith alone and a mixed substrate of coir pith, vermiculite, and perlite, 3:1:1 by volume), and five seedling ages (25–45 days after sowing) at 5-day intervals. All three factors sig",
-      "authors": [
-        "Rohit Gaddamwar",
-        "Pramod Kumar Sahoo",
-        "Dilip Kumar Kushwaha",
-        "Arpita Srivastava",
-        "Susheel Kumar Sarkar",
-        "Aruna TN",
-        "Abhishek Pandey",
-        "Akshay Kinge",
-        "Koduri Madhumalati",
-        "Nrusingh Charan Pradhan",
-        "Rohit Anand"
-      ],
-      "published": "2026-10-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "AI & LLM",
+      "pick_emoji": "✨",
       "trending": 0.0
     },
     {
-      "id": "W7220684545",
-      "url": "https://doi.org/10.1016/j.jag.2026.105632",
-      "pdf": "https://www.sciencedirect.com/science/article/pii/S1569843226005480/pdf",
-      "title": "VLM-Mapper: Multimodal vision-language models for prior guided lane-level HD map construction",
-      "summary": "The automated construction of High-Definition (HD) maps from remote sensing data is essential for modern intelligent transportation systems and spatial data infrastructure. While imagery provides a scalable solution for lane-level HD map construction, traditional discriminative models often struggle in complex scenarios because of their reliance on local visual features and limited use of external geographic context. To address these limitations, this paper introduces VLM-Mapper, a framework that reframes lane-level HD map construction as a multimodal sequence-generation task based on visual–l",
+      "id": "W4416068714",
+      "url": "https://doi.org/10.1038/s41467-026-78295-1",
+      "pdf": "https://www.nature.com/articles/s41467-026-78295-1_reference.pdf",
+      "title": "Reward function compression facilitates goal-dependent reinforcement learning",
+      "summary": "Abstract Humans can uniquely assign value to novel, abstract outcomes to support reinforcement learning. However, this flexibility is cognitively costly and reduces learning efficiency. We propose that goal-dependent learning initially relies on capacity-limited working memory. With consistent experience, learners create a compressed reward function — a simplified rule — that transfers to long-term memory for automatic evaluation upon receiving feedback. This automaticity frees working memory resources, thereby boosting learning efficiency. Across six experiments, we demonstrate that learning ",
       "authors": [
-        "Haofeng Xie",
-        "Huiwei Jiang",
-        "Yibing Xiong",
-        "Pengwei Dong",
-        "Yandi Yang",
-        "Xiangyun Hu"
+        "Gaia Molinaro",
+        "Anne Gabrielle Eva Collins"
       ],
-      "published": "2026-10-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220834480",
-      "url": "https://doi.org/10.1007/s44163-026-02335-4",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s44163-026-02335-4.pdf",
-      "title": "Pre-control scheme generation for extreme-weather power imbalance risk using multi-resource frequency regulation and deep reinforcement learning",
-      "summary": "To address the power imbalance risk between renewable energy output and load demand under extreme weather conditions, this paper proposes a pre-control scheme generation method based on the integration of multiple frequency regulation resources and deep reinforcement learning. First, mechanism models for wind power and photovoltaic output, along with an hourly time-series energy storage model, are established to quantify the supply-demand imbalance risk under extreme weather scenarios. Second, a reward function embedded with active regulation flexibility physical rules is designed and incorpor",
-      "authors": [
-        "Zexin Mu",
-        "Yuanting Hu",
-        "Hongyu Chen",
-        "Jun Zheng",
-        "Zaiwang Wang"
-      ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -352,28 +163,64 @@
       "trending": 0.0
     },
     {
-      "id": "W7220742665",
-      "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.050",
-      "pdf": "https://doi.org/10.1016/j.isprsjprs.2026.09.050",
-      "title": "Remote sensing and deep learning for standing dead-tree detection and mapping: a review of advances, challenges, and future directions",
-      "summary": "Standing dead trees are visible indicators of tree mortality and an important transitional component linking forest disturbance to future lying deadwood, habitat availability, and carbon storage. As drought, insect outbreaks, pathogens, and climate extremes intensify tree mortality worldwide, scalable methods are needed to detect and map standing dead trees consistently across forest landscapes. Recent advances in high-resolution remote sensing and computer-vision-based deep learning, including object detection, semantic segmentation, instance segmentation, and transformer-based models, have i",
+      "id": "W7140680677",
+      "url": "https://doi.org/10.1145/3820783",
+      "pdf": "https://doi.org/10.1145/3820783",
+      "title": "Human, AI, and Hybrid Ensembles for Detection of Adaptive, RL-based Social Bots",
+      "summary": "The use of reinforcement learning to dynamically adapt and evade detection is now well-documented in several cybersecurity settings including Covert Social Influence Operations (CSIOs), in which bots try to spread disinformation. While AI bot detectors have improved greatly, they are largely limited to detecting static bots that do not adapt dynamically. We present the first systematic study comparing the ability of humans, AI models, and hybrid Human-AI ensembles in detecting adaptive bots powered by reinforcement learning (RL) . Using data from a controlled, IRB-approved, five-day experiment",
       "authors": [
-        "Anwarul Islam Chowdhury",
-        "Mirela Beloiu",
-        "Teja Kattenborn",
-        "Clemens Mosig",
-        "Mete Ahishali",
-        "Mikko Vastaranta",
-        "Eetu Puttonen",
-        "Eija Honkavaara",
-        "Langning Huo",
-        "Md. Jamal Uddin",
-        "Verena C. Griess",
-        "Anton Kuzmin",
-        "Yan Pei Cheng",
-        "Samuli Junttila"
+        "Valerio La Gatta",
+        "Nathan Subrahmanian",
+        "Kaitlyn Wang",
+        "Larry Birnbaum",
+        "V. S. Subrahmanian"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220898874",
+      "url": "https://doi.org/10.1145/3843777.3844527",
+      "pdf": "https://doi.org/10.1145/3843777.3844527",
+      "title": "Controller Mimicking for On-the-Fly DES Reachability Control",
+      "summary": "One of the primary challenges in synthesizing controllers for Discrete Event Systems (DES) is the exponential growth of the composed state space. On-the-fly Directed Controller Synthesis (OTF-DCS) mitigates this by incrementally exploring the system, but its performance depends on the quality of the exploration heuristic. Recent reinforcement learning approaches learn effective heuristics but require repeatedly executing the expensive OTF-DCS algorithm during training, making the process computationally heavy.",
+      "authors": [
+        "Florencia Zanollo",
+        "Fuyuki Ishikawa",
+        "Sebastián Uchitel",
+        "Victor A. Braberman"
+      ],
+      "published": "2026-10-08",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W4366303919",
+      "url": "https://doi.org/10.13140/rg.2.2.13759.27048",
+      "pdf": "https://hal.science/hal-04060451/document",
+      "title": "Antcar: Simple Route Following Task with Ants-Inspired Vision and Neural Model",
+      "summary": "The goal of this project is to develop a new method of Route following for mobile robots in a GNSSdenied environment like urban canyons or indoor. We used a robust biologically constrained neural model inspired by ants developed previously in simulation to assess the familiarity index of a panorama. A visual compass algorithm consists in determining the orientation of the maximum familiarity index with respect to the learned panoramas along a path. A car-like robot was equipped with a 220°fisheye camera. The visual compass algorithm used low resolution images of 44x44 pixels (5°/pixel) indoors",
+      "authors": [
+        "Gabriel G Gattaux",
+        "Roxane Vimbert",
+        "Antoine Wystrach",
+        "Julien Serres",
+        "Franck Ruffier"
+      ],
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -384,15 +231,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7220839821",
-      "url": "https://doi.org/10.38124/ijisrt/26sep1189",
-      "pdf": "https://www.ijisrt.com/assets/upload/files/IJISRT26SEP1189.pdf",
-      "title": "An Efficient CNN-Based System for Real-Time Waste Classification Using Computer Vision",
-      "summary": "Automatic waste classification is an important challenge for smart cities and intelligent recycling systems. Traditional manual sorting methods are time-consuming and inefficient, while existing computer vision approaches often require computationally expensive models. This research proposes an efficient convolutional neural network (CNN) framework for automatic waste classification from images. The proposed model learns visual features such as shape, texture, and color patterns to classify different waste categories. A customized dataset containing multiple waste classes is used for training ",
+      "id": "W7220901398",
+      "url": "https://doi.org/10.21227/6a7y-vf13",
+      "pdf": "https://doi.org/10.21227/6a7y-vf13",
+      "title": "\"AUTOMATIC DAMAGE RECOVERY OF OLD PHOTOS IN PAINTING AND RESTORATION \"",
+      "summary": "\"In recent years, motion detection has attracted a great interest from computer vision researchers due to its promising applications in many areas, such as video surveillance. In motion detection the task is to detect a region of interest embodied in a region of awareness, where the region of awareness, or in terms of the camera geometry, the field of view, is defined as the portion of environment being monitored. The region of interest is in the present case the portion of the environment with activity. For the sake of simplicity and generality, recognition-based detection is not assumed. A r",
       "authors": [
-        "Usman Ali"
+        "Kamal Acharya"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -403,18 +250,37 @@
       "trending": 0.0
     },
     {
-      "id": "W7221065646",
-      "url": "https://doi.org/10.5281/zenodo.23269077",
-      "pdf": "https://doi.org/10.5281/zenodo.23269077",
-      "title": "Code and data for: Choosing rooftop photovoltaic designs for Indian households: binding constraints, embodied carbon and the domestic content subsidy",
-      "summary": "Reproducibility package (v13) for a manuscript submitted to Energy for Sustainable Development (Elsevier). It contains the Python pipeline (pvlib hourly simulation of rooftop photovoltaic designs at five Indian sites: PERC, TOPCon, heterojunction and back-contact silicon modules on flush and racked mountings, with a CdTe module and single-axis trackers as a sensitivity set; life-cycle carbon and cost model; decision analysis under binding household constraints; Monte Carlo and Sobol uncertainty analysis), cached public input data, result tables, figures, tests and a reader decision calculator.",
+      "id": "W7131172149",
+      "url": "https://doi.org/10.3389/fdata.2026.1866430",
+      "pdf": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2026.1866430/pdf",
+      "title": "DermArtifactDB: a multi-label dataset for artifact annotation in public dermoscopic image repositories",
+      "summary": "Dermoscopy is a widely adopted, non-invasive imaging technique that plays a crucial role in the early detection and clinical assessment of skin lesions (1). Its effectiveness, however, depends on the quality of the acquired images. In clinical practice, dermoscopic images often contain visual artifacts, such as hair, ruler markings, dark corners, bubbles, or ink traces, which are not part of the lesion itself. These artifacts can affect the visual appearance of the lesion, modifying color and texture patterns and complicating both clinical assessment and automated image analysis (2; 3; 4; 5). ",
       "authors": [
-        "Sunil Gaikwad",
-        "Savvy Gaikwad",
-        "Kishor Shinde",
-        "Hrishikesh Mehta"
+        "Vanesa Gómez-Martínez",
+        "David Chushig-Muzo",
+        "Isabel Polimón Olabarrieta",
+        "Cristina Soguero-Ruíz"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-08",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221358904",
+      "url": "https://doi.org/10.5281/zenodo.23288764",
+      "pdf": "https://doi.org/10.5281/zenodo.23288764",
+      "title": "INTEGRATING ELEMENTARY MATHEMATICAL CONCEPTS AND SENSORY ENVIRONMENTAL EDUCATION IN PRE-SCHOOL CLIL SETTINGS",
+      "summary": "This expanded thesis investigates the dual methodological integration oflogical-mathematical structures and sensory-environmental exploration within earlychildhood English education using the Content and Language Integrated Learning (CLIL)framework. Based on systematic experiments at State Pre-school Educational OrganizationNo. 29, the study demonstrates how combining physical, hands-on micro-experiments andmathematical manipulations with the target language actively reinforces cognitive flexibilityand long-term vocabulary retention in young learners.",
+      "authors": [
+        "Khasanova Odina"
+      ],
+      "published": "2026-10-11",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -425,19 +291,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7221065732",
-      "url": "https://doi.org/10.1021/acs.orglett.6c03819",
-      "pdf": "https://doi.org/10.1021/acs.orglett.6c03819",
-      "title": "Enantioselective Benzylic C–H Insertions with Diazosuccinate Esters",
-      "summary": "Abstract The first enantioselective benzylic C–H insertion using α-alkyl-α-diazoesters, facilitated by a well-established chiral dirhodium(II) catalyst, is presented. This reaction selectively functionalizes primary benzylic C–H bonds with good to excellent enantioselectivity (up to 95% ee), thereby demonstrating the synthetic utility of this previously underexplored class of diazo reagents. The resulting differentiated diester products undergo selective monoester removal, thereby enabling subsequent functional-group manipulation of the liberated carboxylic acid and expanding access to enantio",
+      "id": "W7140259066",
+      "url": "https://doi.org/10.25958/7n60-es25",
+      "pdf": "https://doi.org/10.25958/7n60-es25",
+      "title": "Ancient oceans: Lapetus Ocean and Mirovia Ocean",
+      "summary": "Mirovia is conjectured to be an ancient superocean that surrounded the supercontinent Rodinia in Neoproterozoic Era 1,000 million to 541 million years ago. Like Iapetus Ocean [2020] , the work is intended as a companion to my realtime generative \"Tectonic\" works Rodinia, Vaalbara. It uses the notation developed for Tectonic: Rodinia [2016] and Pannotia, but does not involve any realtime manipulation of musical materials.",
       "authors": [
-        "Nicholas M. Kamuti",
-        "Bijaya Bagale",
-        "Scott D. Bunge",
-        "Albert Ndakala",
-        "Jeffrey D. Mighion"
+        "Lindsay Vickery"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -448,15 +310,26 @@
       "trending": 0.0
     },
     {
-      "id": "W7221122429",
-      "url": "https://doi.org/10.5281/zenodo.23271558",
-      "pdf": "https://doi.org/10.5281/zenodo.23271558",
-      "title": "Code and map data for: Decentralized Multi-Robot Warehouse Surveillance with Orientation-Aware Planning and Hybrid Collision Avoidance",
-      "summary": "All codes realted to Decentralized Multi-Robot Warehouse Surveillance with Orientation-Aware Planning and Hybrid Collision Avoidance",
+      "id": "W7158695356",
+      "url": "https://doi.org/10.1126/science.aei1312",
+      "pdf": "https://doi.org/10.48550/arxiv.2604.25987",
+      "title": "High-fidelity entangling gates and nonlocal circuits with neutral atoms",
+      "summary": "The generation and manipulation of entanglement with low error are essential in quantum information systems. In practice, two-qubit entangling gates constitute a dominant error source, limiting circuit depths and performance in fault-tolerant architectures. Using a neutral-atom quantum processor, we realized entangling controlled- Z gates with a high-Rabi-frequency smooth-amplitude pulse, employing state-selective readout and qubit reuse for fast calibration, and achieved a fidelity of 99.854(4)%, which improved to 99.941(3)% upon loss postselection, with stable performance for 10 hours. We th",
       "authors": [
-        "Praveen Paidi"
+        "Simon J. Evered",
+        "Muqing Xu",
+        "Sophie H. Li",
+        "Alexandra A. Geim",
+        "J. Pablo Bonilla Ataides",
+        "Marcin Kalinowski",
+        "Dolev Bluvstein",
+        "Nishad Maskara",
+        "Christian Kokail",
+        "Markus Greiner",
+        "Vladan Vuletić",
+        "Mikhail D. Lukin"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -467,19 +340,16 @@
       "trending": 0.0
     },
     {
-      "id": "W4401800217",
-      "url": "https://doi.org/10.1177/13591053261486030",
-      "pdf": "http://dx.doi.org/10.21203/rs.3.rs-4762476/v1",
-      "title": "Validation of the Arabic version of the embodied sense of self scale (ESSS) in general population adults",
-      "summary": "Abstract Background Although the concept of the embodied sense of self (ESS) has attracted considerable interest from researchers around the world over the past years, research in this field is yet to be initiated in Arab countries. To address this gap, and owing to the important role the ESS construct plays in psychopathology, this study proposes to adapt and validate the Embodied Sense of Self Scale (ESSS) to the Arabic context and language by examining its factor structure, reliability, validity, and measurement invariance across sex. Methods A cross-sectional study was performed between Ma",
+      "id": "W7169755150",
+      "url": "https://doi.org/10.1145/3843782.3844660",
+      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3843782.3844660?download=true",
+      "title": "Metamorphic Stress Testing of Vision-Language Components for Time-Critical Autonomous Systems",
+      "summary": "Vision-language models (VLMs) are increasingly integrated as perception and decision components in time-critical autonomous systems such as driving advisories and robot control, where a component must return an acceptable decision within an allocated timing budget. Existing adversarial-vision testing asks only whether a VLM returns the correct decision, but a free-form generative VLM that returns a correct answer only after exhausting its timing slack is still unsuitable for a latency-sensitive integration. Semantic-only testing is insufficient: VLM acceptance testing for such systems must ass",
       "authors": [
-        "Feten Fekih‐Romdhane",
-        "Amira Mohammed Ali",
-        "Ghada Amouchi",
-        "Majda Cheour",
-        "Souheil R. Hallit"
+        "Arman Chhetri",
+        "Yinxi Liu"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -490,21 +360,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7172340116",
-      "url": "https://doi.org/10.1098/rspb.2026.1267",
-      "pdf": "https://royalsocietypublishing.org/rspb/article-pdf/doi/10.1098/rspb.2026.1267/6168944/rspb.2026.1267.pdf",
-      "title": "Ecological responses of soil bacteria to rapid and slow temperature fluctuations",
-      "summary": "Fluctuating temperatures profoundly affect microorganisms' coexistence, biogeographic distributions and responses to future climate change. However, how microorganisms respond to fluctuating temperatures with different frequencies in natural communities remains unknown. We conducted a 120-day temperature manipulation experiment with soil-bacterial communities subjected to constant low, medium and high temperatures, as well as fluctuating temperatures with three different frequencies. Four groups of temperature-responsive species were identified, including species favoured by constant high or l",
+      "id": "W7215965154",
+      "url": "https://doi.org/10.1016/j.cognition.2026.106736",
+      "pdf": "https://www.sciencedirect.com/science/article/pii/S0010027726003057/pdf",
+      "title": "Postural configurations as micro-ecological constraints: How embodied arrangements shape the emergence of bodily-visual communication",
+      "summary": "How do embodied configurations shape the emergence of communication? We investigated how bodily-visual communication develops under two interactional arrangements: standing-open and seated-at-table. Seventy dyads (140 participants) created novel speech-free signals for 32 meanings across three rounds of a referential communication task while their movements were recorded using high-resolution motion capture. Across both configurations, dyads showed robust efficiency dynamics: communicative success increased, movement path and volume decreased, articulatory specialisation intensified, and kinem",
       "authors": [
-        "Xin‐Feng Zhao",
-        "Yu-Chen Qiu",
-        "Lin Li",
-        "Chang Yang",
-        "Xu Zheng",
-        "Wen-Sheng Shu",
-        "Yi‐Qi Hao"
+        "Marek Placiński",
+        "Jonas Nölle",
+        "Marta Sibierska",
+        "Bartłomiej Kiljanek",
+        "Klaudia Karkowska",
+        "Przemysław Żywiczyński"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -515,17 +384,93 @@
       "trending": 0.0
     },
     {
-      "id": "W7214510566",
-      "url": "https://doi.org/10.1108/jd-05-2026-0250",
+      "id": "W7220703894",
+      "url": "https://doi.org/10.47191/ijsshr/v9-i10-06",
+      "pdf": "https://ijsshr.in/v9i10/Doc/6.pdf",
+      "title": "The Influence of Parallel Editing on Space and Time in the Film John Wick: Chapter 2",
+      "summary": "John Wick: Chapter 2 is a 2017 action film; it serves as the sequel to the 2014 film John Wick and the prequel to the 2019 film John Wick: Chapter 3 – Parabellum. The film follows John Wick as he carries out an assignment to assassinate a member of the High Table. Several scenes employ parallel editing to link distinct events involving the same protagonist—John Wick—a technique the filmmakers notably utilized in this installment. This study employs a qualitative approach based on the analysis and observation of the film, focusing specifically on spatial shifts and temporal manipulation within ",
+      "authors": [
+        "Danu Murti",
+        " I Nyoman Artayasa",
+        "I Wayan Swandi",
+        "I Nyoman Larry Julianto"
+      ],
+      "published": "2026-10-08",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220891444",
+      "url": "https://doi.org/10.21203/rs.3.rs-10770716/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-10770716/latest.pdf",
+      "title": "Cognitive evolution enables de novo design of untethered millimeter-scale robots",
+      "summary": "",
+      "authors": [
+        "Haiwang Li",
+        "Weizhi Zhao",
+        "Zhi Tao",
+        "Ping Li",
+        "XiZhi Wang",
+        "Qinghong Wang",
+        "Boxian Wang",
+        "Yanxin Zhai",
+        "Wei Wei",
+        "Shitong Wang",
+        "Shuangqi Li",
+        "Tiantong Xu"
+      ],
+      "published": "2026-10-08",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220892978",
+      "url": "https://doi.org/10.1177/03915603261494703",
       "pdf": "",
-      "title": "One foot after the other – embodied information on the West Highland Way",
-      "summary": "Purpose Embodied information is posited to be a rich and novel concept with which to explore information behaviour in serious leisure pursuits (Cox et al., 2017). This research uncovers how embodied information is experienced on the West Highland Way (WHW), a long-distance hiking route in Scotland. Design/methodology/approach Qualitative data were gathered using ethnographic methods, recruiting participants and conducting in situ interviews while the first author walked the route. From this, the interview data were analysed using reflexive thematic analysis and findings emerged related to how ",
+      "title": "Self-removal of suprapubic catheter after retzius sparing robot-assisted radical prostatectomy: A feasibility audit",
+      "summary": "Introduction and objectives: We conducted a prospective audit to evaluate the feasibility of suprapubic catheter self-removal and what factors can interfere with the decision of self-removal, in post RS-RARP patients. Material and methods: Forty-four patients had a SPC inserted following a RS-RARP from January 2024 until May 2024, 36 of them opted for self-removal. Feedback was obtained 4 weeks post operatively regarding catheter related symptoms and the complexity of self-removal procedure. Results: Most patients reported minimal overall pain (median = 2), with penile pain most frequently rat",
       "authors": [
-        "Keith Munro",
-        "Perla Innocenti",
-        "Mark Dunlop"
+        "Eddy Lilly",
+        "Dimitrios Papadopoulos",
+        "Konstantinos Pagonis",
+        "Danny Carbin Joseph Darlington",
+        "Venkata Murthy Kusuma",
+        "Matthew J.A. Perry",
+        "D. Moschonas",
+        "Wissam Abou Chedid"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.0
+    },
+    {
+      "id": "W7220894429",
+      "url": "https://doi.org/10.5281/zenodo.22718980",
+      "pdf": "https://doi.org/10.5281/zenodo.22718980",
+      "title": "Robot-Side Teleoperation Telemetry for Continuous Operator Authentication: Evaluation Playbooks",
+      "summary": "The evaluation bundle behind every number reported in the accompanying study of robot-side teleoperation telemetry as a behavioral biometric. It reads the dataset record (DOI 10.5281/zenodo.20789999): unpack playbooks.zip and dataset.zip into one folder so that playbooks/ and dataset/ sit side by side. Contents. One Jupyter notebook per algorithm, fifteen in all: six one-class detectors (OC-SVM, SGD one-class SVM, isolation forest, Gaussian template, half-space trees, LOF) and nine identification models (two shared Gaussian classifiers, GMM-UBM, MiniRocket, random forest, gradient-boosted tree",
+      "authors": [
+        "Anonymous"
+      ],
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -536,15 +481,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7215025124",
-      "url": "https://openalex.org/W7215025124",
-      "pdf": "",
-      "title": "Het gebruik van qudits voor fouttolerante kwantum computatie",
-      "summary": "Qudits can be described by a state vector in a q-dimensional Hilbert space, enabling a more extensive encoding and manipulation of information compared to qubits. This implies that conducting fault-tolerant quantum computations using qudits rather than qubits might entail less overhead. In this work, I investigate the viability of qudits across three key components of a fault-tolerant quantum computer: hardware control, quantum error-correction codes, and logical gate operations. This includes benchmarking physically decomposed qudit gates against qubit-based implementations for a specific don",
+      "id": "W7220895110",
+      "url": "https://doi.org/10.82901/nemar.nm000297",
+      "pdf": "https://doi.org/10.82901/nemar.nm000297",
+      "title": "WRCC2023_MI_A: WRCC2023 MI-A three-class motor imagery dataset",
+      "summary": "A three-class motor imagery EEG dataset (left hand, right hand, feet) from the MI-A track of the 2023 World Robot Contest BCI competition. It includes recordings from nine participants, two of whom are stroke patients, with 90 cued 4-second imagery trials each (30 per class). Data were acquired at 1000 Hz from 59 EEG channels using a Neuracle wireless system and re-released in BIDS format with HED annotations via MOABB.",
       "authors": [
-        "James Keppens"
+        "WRCC2023"
       ],
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -552,7 +497,50 @@
       "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
-      "trending": 1.5
+      "trending": 0.0
+    },
+    {
+      "id": "W7220896322",
+      "url": "https://doi.org/10.69849/1chwty86",
+      "pdf": "https://www.revistaft.com/ft/article/download/2524/7001",
+      "title": "Treinamento de marcha assistido por robô em pacientes com encefalopatia crônica não progressiva da infância: revisão integrativa.",
+      "summary": "Introduction: Cerebral Palsy (CP), also referred to as Non-Progressive Chronic Encephalopathy of Childhood (ECNPI), presents different levels of motor and functional impairment, which may affect gait and gross motor function. Robot-assisted gait training (RAGT) uses devices that assist lower-limb movements, providing repetitive and controlled stimuli during gait. Objective: The objective of this study was to evaluate the effects of the use of robot-assisted gait training on the motor function of patients with CP. Materials and methods: This is an integrative review, guided by the PICO strategy",
+      "authors": [
+        "Carlos Victor Silva da Cunha",
+        "Nayla Imbiriba de Sousa",
+        "Fabiano Sousa Barbosa"
+      ],
+      "published": "2026-10-08",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220897587",
+      "url": "https://doi.org/10.21203/rs.3.rs-11105152/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-11105152/latest.pdf",
+      "title": "Automated Guided Vehicle Systems: A Comprehensive Review of Navigation, Architecture, and Emerging Integration Challenges",
+      "summary": "",
+      "authors": [
+        "Kavibharathi S",
+        "Sachin P",
+        "Prenesh U S",
+        "Suma Sira Jacob"
+      ],
+      "published": "2026-10-08",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
     }
   ]
 }
