@@ -1,11 +1,551 @@
 {
-  "generated_at": "2026-10-11 23:20 UTC",
+  "generated_at": "2026-10-12 21:55 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
     "cs.LG",
     "cs.AI"
   ],
-  "count": 0,
-  "papers": []
+  "count": 24,
+  "papers": [
+    {
+      "id": "W7221475418",
+      "url": "https://doi.org/10.1007/s10845-026-02987-0",
+      "pdf": "",
+      "title": "Enhanced language-guided robotic grasping via a synergized VLM-based two-stage decoupled policy",
+      "summary": "",
+      "authors": [
+        "Qing Jiao",
+        "Weifei Hu",
+        "Geyu Shao",
+        "Dawei Chen",
+        "Haiyan Zhao",
+        "Haojie Liu",
+        "Jianrong Tan"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 12.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221094065",
+      "url": "https://doi.org/10.26434/chemrxiv.15010145/v1",
+      "pdf": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15010145/v1",
+      "title": "Designing organic photoredox catalysts as a fragment-based puzzle solved by reinforcement learning",
+      "summary": "Reinforcement learning (RL) is a promising strategy for identifying optimal solutions in vast search spaces. We have developed a framework in which the design of organic photoredox catalysts (OPCs) is deliberately formulated as a fragment-based puzzle that is well suited to RL. In this framework, an RL agent sequentially selects and orders molecular fragments and attempts to identify fragment combinations that afford high rewards, as calculated based on the similarity between the properties of the generated molecules and those of 4CzIPN, a well-known OPC. In addition to the rediscovery of a pr",
+      "authors": [
+        "Naoki Noto",
+        "Mayu Hirakata",
+        "Mikito Fujinami",
+        "Yusuke Masuda",
+        "Ryosuke Kojima",
+        "Yasunori Matsui",
+        "Hiroshi Ikeda",
+        "Hiromi Nakai",
+        "Masaya Sawamura",
+        "Susumu Saito"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7111918796",
+      "url": "https://openalex.org/W7111918796",
+      "pdf": "https://osf.io/etk5m",
+      "title": "A study on social inclusion of humanoid robots: a novel embodied adaptation of the Cyberball paradigm",
+      "summary": "",
+      "authors": [
+        "Serena Marchesi",
+        "Agnieszka Wykowska",
+        "Davide De Tommaso",
+        "Cecilia Roselli"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7221075192",
+      "url": "https://doi.org/10.1117/12.3111714",
+      "pdf": "",
+      "title": "Performance evaluation and optimization of a mobile robot path-planning model based on reinforcement learning",
+      "summary": "Autonomous navigation in mobile robotics faces significant challenges in dynamic, unstructured environments, as re-planning strategies often lack time efficiency when recomputing around new obstacles. Traditional path-planning algorithms typically rely on static, pre-mapped environments and rigid geometric rules, which severely limit their adaptability when unexpected obstacles appear. Reinforcement learning provides a powerful, data-driven solution to these limitations by enabling autonomous agents to continuously learn and refine optimal navigation policies through trial-and-error interactio",
+      "authors": [
+        "Luis Angel Castañeda Barron",
+        "Miguel Andres Meillon Ramirez",
+        "Cristóbal Armiñan Ibarra",
+        "Ulises Orozco-Rosas",
+        "Kenia Picos"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221083314",
+      "url": "https://doi.org/10.1002/9781394422395.ch15",
+      "pdf": "",
+      "title": "Resilient Embodied AI for Smart Farming",
+      "summary": "Pest infestations remain a hazard for crop yields around the world, frequently going undetected until after irreversible damage has occurred. Existing pest detection systems and processes typically use fixed position sensors and/or human scouting and are slow to deploy, slow to respond, and poorly fit for dynamic environmental contexts. In this chapter, we present an embodied artificial intelligence (AI) approach that connects bioacoustic pest detection with mobile agro-robotic systems for pest detection and unique pest detection over large and complex agricultural areas in real time. Unlike e",
+      "authors": [
+        "T. Grace Shalini",
+        "Sayed Sayeed Ahmad",
+        "Nayantra Ramakrishnan",
+        "P Bhavesh",
+        "R. Karthick Manoj"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220959359",
+      "url": "https://doi.org/10.5281/zenodo.23219420",
+      "pdf": "https://doi.org/10.5281/zenodo.23219420",
+      "title": "Autonomous Mobile Manipulators and AI-Driven Cobots: Transforming Human-Robot Collaboration in Next-Generation Smart Factories",
+      "summary": "The rapid evolution of Industry 4.0 and 5.0 demands flexible manufacturing systems that move beyond traditional rigid automation. This paper presents an integrated framework for Autonomous Mobile Manipulators (AMMs) driven by Edge Artificial Intelligence (AI) and advanced computer vision. By combining simultaneous localization and mapping (SLAM) with multi-axis force-torque sensing, the proposed system bridges the gap between autonomous mobility and precise robotic manipulation. Experimental evaluations in a simulated smart-factory environment demonstrate a 31% reduction in component transfer ",
+      "authors": [
+        "Neenu Ann Sunny"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220949811",
+      "url": "https://doi.org/10.1016/j.engstruct.2026.123903",
+      "pdf": "https://doi.org/10.1016/j.engstruct.2026.123903",
+      "title": "Mask-guided stereo vision technique for crack depth estimation of concrete bridge deck",
+      "summary": "Durability of reinforced concrete structures depends on early detection and accurate assessment of damage that accelerates reinforcement corrosion and long term deterioration. Cracks on bridge decks allow moisture and chloride ingress, making crack depth an important indicator of deterioration severity that cannot be captured by conventional visual inspection or two dimensional image based methods. Although stereo vision provides a cost effective approach for three dimensional surface reconstruction, reliable depth estimation in narrow cracks remains challenging due to weak texture, low contra",
+      "authors": [
+        "Michael Bekele Maru",
+        "A. H. M. Muntasir Billah"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221090789",
+      "url": "https://doi.org/10.5281/zenodo.23255476",
+      "pdf": "https://doi.org/10.5281/zenodo.23255476",
+      "title": "Reward-Quality Divergence (RQD): Code, Saved Runs and Analysis Scripts (Anonymous Review Artifact)",
+      "summary": "Anonymous review artifact for the paper Reward-Quality Divergence: Telling Judge Gaming from Judge Error in Visual RL. Please do not try to identify the authors. RQD measures the gap between a judge's reward and an anchor-based quality score during reinforcement learning, subtracts the gap that exists before training (the floor), and labels the remaining gap growth as gaming, drift, collapse or none. Contents Code: the measure, the anchor checker, the judge wrapper with its prompt, the control rewards, the second grader and the re-scoring job. Results: the saved answers, rewards and anchor sco",
+      "authors": [
+        "Anonymous"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221435330",
+      "url": "https://doi.org/10.1007/s11701-026-04066-1",
+      "pdf": "",
+      "title": "Beyond individual complications: textbook outcome in elective minimally invasive cholecystectomy and the role of robotic approach",
+      "summary": "",
+      "authors": [
+        "Yau-Ren Chang",
+        "Chih-Ho Hsu",
+        "Keng-Li Lin",
+        "Tiing Foong Siow",
+        "Chia-Ling Kuo",
+        "Heng‐Fu Lin"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221438296",
+      "url": "https://doi.org/10.1007/s11701-026-04045-6",
+      "pdf": "https://doi.org/10.1007/s11701-026-04045-6",
+      "title": "Anesthesiological considerations and complications in robotic surgery: a retrospective analysis",
+      "summary": "Abstract Robotic-assisted surgery has become increasingly prevalent across various surgical disciplines. Understanding anesthesiological factors influencing perioperative outcome is essential for optimizing patient care. This retrospective analysis evaluated 200 patients who underwent robotic surgery across three surgical categories: gastrointestinal (GI, n=60), hepatopancreticobiliary (HPB, n=28), and colorectal (n=112) procedures. We conducted an exploratory analysis of associations between anesthesiological parameters—including fluid management, surgical duration, and blood loss—and clinica",
+      "authors": [
+        "P. Kuhn",
+        "M. Oremek",
+        "A. L. Kuenster",
+        "A. Labonte",
+        "M. Kroeplin",
+        "T. O. Vilz",
+        "J. Kalff",
+        "M. Soehle",
+        "Marcus O. Thudium"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221438751",
+      "url": "https://doi.org/10.59261/bustechno.v7i4.828",
+      "pdf": "https://doi.org/10.59261/bustechno.v7i4.828",
+      "title": "Delivery Accuracy, Robotics, and Logistics Information System Integration in Operational Performance Through Sorting Optimization",
+      "summary": "Background: Logistics transformation at Sentral Pengolahan Pos (SPP) Jakarta, a high-volume mail-processing hub within PT Pos Indonesia (Persero), is taking place amid rising shipment volumes and persistent challenges in national logistics performance. Objective: This study examines the relationships between delivery accuracy, robotic technology implementation, and logistics information system integration and logistics operational performance, with sorting process optimization tested as a mediating variable. Method: The study employed a quantitative explanatory, cross-sectional design using Pa",
+      "authors": [
+        "Iqbal Fahmi",
+        "Agus Purnomo",
+        "Melia Eka Lestiani"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221444511",
+      "url": "https://doi.org/10.1007/s11701-026-04065-2",
+      "pdf": "",
+      "title": "Single-port robotic and conventional multiport laparoscopic colectomy for colon cancer: an overlap-weighted comparison of perioperative and oncologic outcomes",
+      "summary": "",
+      "authors": [
+        "Min Hyeong Jo",
+        "Hye Ah Lee",
+        "Ho Seung Kim",
+        "Soon Sup Chung",
+        "Gyoung Tae Noh"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221448131",
+      "url": "https://doi.org/10.1007/s11701-026-04046-5",
+      "pdf": "",
+      "title": "Force feedback and vocal cord dysfunction after robotic esophagectomy: a comparison of the da Vinci 5 and Xi systems",
+      "summary": "",
+      "authors": [
+        "Cho Eun LEE",
+        "Jiyeon Kim",
+        "Danbee Kang",
+        "Seong Yong Park"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221450344",
+      "url": "https://doi.org/10.1007/s11701-026-04060-7",
+      "pdf": "",
+      "title": "Post-market safety signals of energy-based surgical devices: a cross-specialty disproportionality analysis of the FDA MAUDE database with robotic-platform validation and regulatory triangulation, 2015–2025",
+      "summary": "",
+      "authors": [
+        "Ruifeng Shi"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221451694",
+      "url": "https://doi.org/10.1007/s11701-026-04052-7",
+      "pdf": "",
+      "title": "Robotic colorectal cancer surgery: perioperative and oncological outcomes at a national referral center in Mexico",
+      "summary": "",
+      "authors": [
+        "José M. Aguilar‐Romero",
+        "Itzel Vela Sarmiento",
+        "Javier Melchor-Ruan",
+        "Héctor Martínez‐Said",
+        "Jorge Luis Aguilar-Frasco",
+        "Leonardo Saul Lino-Silva",
+        "Adrian N. Morales Moreno"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221454349",
+      "url": "https://doi.org/10.1007/s11701-026-04037-6",
+      "pdf": "https://doi.org/10.1007/s11701-026-04037-6",
+      "title": "Femoral rotation and medial flexion gap tightness in functional alignment robotic total knee arthroplasty for varus knees",
+      "summary": "Abstract Functional-alignment (FA) robotic total knee arthroplasty (TKA) combines component positioning and soft-tissue management. This study described the association between medial flexion-gap tightness and surgeon-selected femoral rotation, together with release grades and intraoperative gap asymmetry in varus knees. This observational single-surgeon study included the 65 varus knees in an 89-knee database. Medial tightness was defined as lateral minus medial preoperative flexion gap. Correlation and ordinary least-squares regression used 63 complete observations. Recorded preoperative, pl",
+      "authors": [
+        "Eduardo Frois Temponi",
+        "Pedro Henrique Oliveira Gomes",
+        "Alexandre Leite de Andrade",
+        "Miguel Jourdain Alipio do Vale",
+        "Matheus Braga Jacques Soares",
+        "Luiz Fernando Machado Soares",
+        "Lúcio Honório de Carvalho"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221456306",
+      "url": "https://doi.org/10.1007/s11701-026-03923-3",
+      "pdf": "https://doi.org/10.1007/s11701-026-03923-3",
+      "title": "Augmenting colonoscopy with artificial intelligence and robotic assistance: a human-factors scoping review toward a task-based shared autonomy paradigm",
+      "summary": "Abstract Colonoscopy is central to colorectal cancer prevention but remains a high-demand psychomotor and cognitive procedure, characterized by operator dependency, variable performance, and substantial physical and mental workload. Increasing evidence links procedural quality and safety to clinician-related factors, including musculoskeletal strain, fatigue, and non-technical skills. Concurrently, artificial intelligence (AI) and robotic technologies are emerging as potential tools to address these limitations. We conducted a scoping review with narrative synthesis of literature on human fact",
+      "authors": [
+        "Luigi Manfredi",
+        "Alfredo Annicchiarico",
+        "Gianpiero Gravante"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221457669",
+      "url": "https://doi.org/10.1007/s11701-026-04023-y",
+      "pdf": "https://doi.org/10.1007/s11701-026-04023-y",
+      "title": "Comparative operative performance of three robotic platforms in benign gynecologic surgery: a single-surgeon retrospective cohort study",
+      "summary": "",
+      "authors": [
+        "Kim-Seng Law",
+        "Ruri Mineda",
+        "Tze Swen Looi",
+        "Peng-Yu Chen",
+        "Yi-Ching Chen",
+        "Pei-Jhen Wu"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221460867",
+      "url": "https://doi.org/10.37791/2687-0657-2026-20-4-81-116",
+      "pdf": "https://doi.org/10.37791/2687-0657-2026-20-4-81-116",
+      "title": "Technological Trends and Forecasts of the Global Collaborative Robots Market",
+      "summary": "The relevance of this study is driven by the rapid growth of collaborative robotics adoption across various industries and the need to understand long-term trends for developing an effective technological development strategy. The aim of this study is to conduct a comprehensive analysis of the current state and development prospects of the global and Russian collaborative robotics markets, identifying key growth drivers, technological trends, adoption barriers, and assessing their impact on the transformation of industrial automation. To achieve this goal, the paper addresses the following obj",
+      "authors": [
+        "Марат Рашитович Сафиуллин",
+        "Kamilla R. Smolnikova"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221470006",
+      "url": "https://doi.org/10.1007/s11701-026-04058-1",
+      "pdf": "",
+      "title": "Textbook outcome–based performance assessment during transition to the da Vinci SP system in reduced-port robotic gastrectomy",
+      "summary": "",
+      "authors": [
+        "Yerin Lee",
+        "Ji Yoon Jeong",
+        "Seungho Lee",
+        "Jawon Hwang",
+        "Sung Hyun Park",
+        "Minah Cho",
+        "Yoo Min Kim",
+        "Woo Jin Hyung",
+        "Hyoung-il Kim"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221471862",
+      "url": "https://doi.org/10.2118/234348-ms",
+      "pdf": "",
+      "title": "BOTS Unleashed: Exploring the Future of Autonomous System in Wells",
+      "summary": "Abstract Wells operations are increasingly dependent on high-volume, cross-system, evidence-heavy workflows across planning, execution, reporting, cost control, integrity, and closeout. Many of these workflows remain manually intensive, requiring engineers and support teams to retrieve data, validate records, update registers, prepare reports, route exceptions, and retain evidence across multiple enterprise applications. This paper presents a practical automation model for Wells operations in which robotic process automation (RPA) BOTs perform deterministic, rules-based execution while artific",
+      "authors": [
+        "Pankaj L. Bhavnani",
+        "Gargi Chatterjee"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221478410",
+      "url": "https://doi.org/10.37128/2520-6168-2026-3-16",
+      "pdf": "https://doi.org/10.37128/2520-6168-2026-3-16",
+      "title": "SUBSTANTIATION OF PARAMETERS OF A MOBILE CHARGING STATION FOR ELECTRIFIED MACHINERY UNDER AGRICULTURAL PRODUCTION CONDITIONS",
+      "summary": "The article considers the substantiation and selection of the main parameters of a mobile charging station intended to support the operation of electrified machinery under agricultural production conditions. The relevance of the study is determined by the gradual expansion of electric and hybrid machinery in modern agriculture, including compact electric tractors, robotic platforms, unmanned aerial vehicles, battery-powered tools and various types of auxiliary electrical equipment. For agricultural enterprises, an important issue is not only the availability of reliable charging infrastructure",
+      "authors": [
+        "Roman LYPNYTSKYI",
+        "Igor Nishchakov",
+        "Oleksandr POBEREZHNIAK"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W2990064031",
+      "url": "https://doi.org/10.13140/rg.2.2.11727.65449",
+      "pdf": "https://dc.uwm.edu/etd/2252",
+      "title": "Trajectory Tracking of a Four Degree of Freedom Robotic Manipulator",
+      "summary": "A robotic manipulator can be utilized for multiple applications. As there are some expensive and bulky robotic manipulators with multi-functionalities are available in the market but not affordable for many people, a low-cost robotic manipulator, Dobot Magician, available in the market is used in this research to add more features in it. The forward kinematics and inverse kinematics are analyzed in this research besides studying about PID and computed torque control approaches. In this research, alphabets and numbers are coded using an object-oriented programming language (C#) to make the lear",
+      "authors": [
+        "Mohammad Rezwan Sheikh"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7111487603",
+      "url": "https://doi.org/10.17605/osf.io/3ng89",
+      "pdf": "https://osf.io/3ng89",
+      "title": "The Influence of Robot Autonomy on Sense of Control and Trust Towards a Robot",
+      "summary": "Datasets and data analysis scripts from a research study described in the manuscript: Woźniak, M., De Tommaso, D., Knoblich, G., & Wykowska, A. (2026). The influence of robot autonomy on sense of control and trust towards a robot. International Journal of Social Robotics, 18(4), 56.",
+      "authors": [
+        "Mateusz Woźniak",
+        "Agnieszka Wykowska",
+        "Davide De Tommaso",
+        "Günther Knoblich"
+      ],
+      "published": "2026-10-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    }
+  ]
 }
