@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13 01:45 UTC",
+  "generated_at": "2026-10-13 20:00 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -29,23 +29,23 @@
       "trending": 0.0
     },
     {
-      "id": "W7221320488",
-      "url": "https://doi.org/10.5281/zenodo.23287511",
-      "pdf": "https://doi.org/10.5281/zenodo.23287511",
-      "title": "THE EL-RAKHAWI UNIFIED SYSTEM FOR AUTONOMOUS BIO-TECHNOLOGICAL SYMBIOSIS AND OMNI-GRID ENERGY HARMONY (ABT-OGH) Unifying Omni-Grid Energy, Passive Radiative Cooling, Quantum-Base Precision Medicine, World-Model Robotics, and 6G Orbital Networks for a Self-Sustaining Planetary-Cosmic Civilization",
-      "summary": "The El-Rakhawi Unified System for Autonomous Bio-Technological Symbiosis and Omni-Grid Energy Harmony (ABT-OGH) (DOI: 10.5281/zenodo.23287512) proposes a closed-loop planetary-cosmic operating system integrating four pillars: (1) Omni-Grid & Passive Thermal Harmony, combining sodium-ion batteries, everything-to-grid dynamics, and zero-energy radiative cooling metamaterials; (2) Quantum-Base Precision Medicine, leveraging quantum simulation for rapid drug discovery and atomic-level base-editing/mRNA therapies for pre-symptomatic healing; (3) World-Model Humanoid Robotics, deploying agentic AI w",
+      "id": "W7221575755",
+      "url": "https://doi.org/10.54254/2755-2721/2026.37587",
+      "pdf": "",
+      "title": "Compliant Structure Design for Improved Robot Motion Control Performance",
+      "summary": "This narrative review examines how compliant structural design redistributes motion control functions between mechanical bodies and computational controllers. It synthesizes theoretical, experimental, and co-design studies on passive dynamic walking, elastic coupling, self-stabilizing locomotion, soft robots, underactuated grasping, morphological computation, and morphology-control optimization. Across these systems, compliance can store and return energy, couple joint motion, shape attracting dynamics, adapt contact geometry, and transform inputs before feedback intervenes. These mechanisms c",
       "authors": [
-        "mohamed kamal arafa el-rakhawi"
+        "Muhan Yu"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-13",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 9.0,
+      "score": 12.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
-      "trending": 1.5
+      "trending": 0.0
     },
     {
       "id": "W7221317633",
@@ -86,6 +86,74 @@
       "score": 7.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221551448",
+      "url": "https://doi.org/10.1302/2633-1462.710.bjo-2026-0104.r1",
+      "pdf": "https://doi.org/10.1302/2633-1462.710.bjo-2026-0104.r1",
+      "title": "Substantial improvement in short-term survivorship in patients receiving robotic arm-assisted medial unicompartmental knee arthroplasty",
+      "summary": "Aims Robotic arm-assisted unicompartmental knee arthroplasty (R-UKA) has been shown to improve alignment and accuracy of component placement compared with conventional unicompartmental knee arthroplasty (C-UKA). Despite this, there is conflicting evidence for whether this has an impact on revision rates. Methods We performed a retrospective analysis of a prospective database, comparing patients who underwent R-UKA using the Stryker Restoris MCK implant with those who underwent C-UKA using the cemented Oxford Partial Knee implant, between January 2002 and December 2024 at The Prince Charles Hos",
+      "authors": [
+        "Martin Coia",
+        "Kristopher Law",
+        "Julie F Vermeir",
+        "Ruurd Lukas Jaarsma",
+        "Job Nicolaas Doornberg",
+        "Anthony M. Silva"
+      ],
+      "published": "2026-10-13",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221558287",
+      "url": "https://doi.org/10.54254/2755-2721/2026.37591",
+      "pdf": "",
+      "title": "Environmental Perception and Intelligent Navigation for Autonomous Delivery Robots in Complex Scenarios",
+      "summary": "Autonomous delivery robots (ADRs) face perception and navigation challenges in complex scenarios. When operating in real world urban environments, ADRs have trouble negotiating upturned streets, uneven terrain, and moving obstacles. This review covers three key areas: environmental perception, navigation techniques, and mechanical adaptability of delivery vehicles. The reviewed studies show that navigation has evolved beyond avoiding obstacles, to its current state of considering whether the ground can be traversed. ADRs must be able to analyze the ground to navigate. The mechanical structure,",
+      "authors": [
+        "Jiaqi Liu"
+      ],
+      "published": "2026-10-13",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221562052",
+      "url": "https://doi.org/10.5281/zenodo.23319676",
+      "pdf": "https://doi.org/10.5281/zenodo.23319676",
+      "title": "TAVIB: Tactile sensing time series data for robotic object interaction",
+      "summary": "TAVIB (Tactile Vibration) is a curated collection of tactile time series for robotic object interaction. It contains 9,536 CSV recording files sampled at 8 kHz: 1,750 experimental active-touch recordings of manufactured objects, 1,750 simulation files representing 35 unique simulated responses, 6,000 active-touch recordings from 30 strawberries measured over four days, and 36 slippage and sliding recordings covering three materials, four orientations, and three nominal speeds. The active-touch subsets contain transmitter and receiver vibration signals. The slippage subset contains six accelero",
+      "authors": [
+        "Amir Yelenov",
+        "Danissa Sandykbayeva",
+        "Valeriya Zhanuzakova",
+        "Azamat Mukhamediya",
+        "Tengyuan Wan",
+        "Qiang Li",
+        "Zhanat Kappassov"
+      ],
+      "published": "2026-10-13",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
@@ -258,32 +326,18 @@
       "trending": 0.0
     },
     {
-      "id": "W7221319534",
-      "url": "https://doi.org/10.1186/s40648-026-00357-2",
-      "pdf": "https://link.springer.com/content/pdf/10.1186/s40648-026-00357-2.pdf",
-      "title": "Task-priority-aware MPPI control for human–multi-robot collaborative assembly",
-      "summary": "We propose a task-priority-aware motion-control method that links task progress to online modification of model predictive path integral (MPPI) control parameters. Human–robot collaborative assembly with multiple robotic arms requires both task-level coordination and reactive motion generation in a shared workspace. A task planner can determine which robot should proceed first, whereas a motion controller must continuously respond to the positions of the human and the other robot. However, if these functions are designed independently, fixed avoidance settings can cause symmetric yielding, dea",
-      "authors": [
-        "Satoshi Nakamura"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221322349",
-      "url": "https://doi.org/10.13140/rg.2.2.29453.50404",
-      "pdf": "https://doi.org/10.13140/rg.2.2.29453.50404",
-      "title": "Oculomic Affective Robotics: Biophysical Tear Desiccation Topography, Proteogenomic Biosensing, and Closed-Loop Artificial Empathy",
+      "id": "W7221334336",
+      "url": "https://doi.org/10.1016/j.displa.2026.103724",
+      "pdf": "",
+      "title": "HAVEN: A unified monocular RGB vision-and-language navigation framework for wheeled-legged robots",
       "summary": "",
       "authors": [
-        "Noah Ugur Kilinc"
+        "Mingyu Dai",
+        "Chenxi Huang",
+        "Boyuan Zheng",
+        "Zhenqing Cheng",
+        "Wenzhou Dong",
+        "Liang Wu"
       ],
       "published": "2026-10-10",
       "primary_category": "openalex",
@@ -296,22 +350,44 @@
       "trending": 0.0
     },
     {
-      "id": "W7221352689",
-      "url": "https://doi.org/10.5281/zenodo.23285643",
-      "pdf": "https://doi.org/10.5281/zenodo.23285643",
-      "title": "Source Code and Evaluation Data for Adaptive MPC Safety Shield in Microrobot Navigation",
-      "summary": "This repository contains the complete source code, configuration files, and raw evaluation data associated with the study on microrobot navigation. It includes the Python implementation of the Adaptive MPC Safety Shield integrated with DreamerV3 and TQC reinforcement learning algorithms. Additionally, it provides the simulation environment scripts, hyperparameter settings, and the categorical outcome datasets (success, collision, timeout rates) used to generate the figures and results in the accompanying manuscript.",
+      "id": "W7221543588",
+      "url": "https://doi.org/10.54254/2755-2721/2026.ba37690",
+      "pdf": "",
+      "title": "Multi-agent Reinforcement Learning for Coordinated Emergency Building Sweeps",
+      "summary": "We develop a Multi-Agent Deep Deterministic Policy Gradient (MADDPG) framework for coordinating emergency responders during building sweeps. The problem is formulated as a Decentralized Partially Observable Markov Decision Process (Dec-POMDP) that captures building topology, occupant vulnerability, dynamic hazards, and partial observability. In the six-room office baseline, MADDPG reaches a 134-second sweep time after 5,000 episodes, within 6.3% of the 126-second theoretical optimum and outperforming PPO and DQN. Extensions to a two-story school and a U-shaped warehouse achieve 120 seconds wit",
       "authors": [
-        "9922337109"
+        "Lechen Ding",
+        "张云生",
+        "Jiamei Du",
+        "Yuanhang Sun"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-13",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221566316",
+      "url": "https://doi.org/10.5281/zenodo.23311493",
+      "pdf": "https://doi.org/10.5281/zenodo.23311493",
+      "title": "Research artifact for Automatic Generation of Unit Test Cases Based on Program Feedback Reinforcement Learning",
+      "summary": "This research artifact accompanies the manuscript Automatic Generation of Unit Test Cases Based on Program Feedback Reinforcement Learning by WeiDong Zhao. It contains reproducibility materials, not the unpublished manuscript full text. The artifact preserves an actually executed three-seed Qwen2.5-Coder-0.5B-Instruct SFT, scalar pairwise reward-learning, and PPO implementation: 3,072 optimizer updates, before/after adapters, 768 matched holdout generations, and 768 reward cross-evaluation decisions. A subsequent 12-method public-library diagnostic records 144 Java generation, compiler, JUnit ",
+      "authors": [
+        "Weidong Zhao"
+      ],
+      "published": "2026-10-13",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
@@ -336,36 +412,16 @@
       "trending": 0.0
     },
     {
-      "id": "W7221351657",
-      "url": "https://doi.org/10.5281/zenodo.23282365",
-      "pdf": "https://doi.org/10.5281/zenodo.23282365",
-      "title": "THE EL-RAKHAWI GRAND UNIFIED THEORY OF QUANTUM-BIO-COSMIC SYMBIOSIS AND PLANETARY HYPER-REGENERATION With the TQC-AI Framework as the Foundational Engine of Existential Harmony",
-      "summary": "The El-Rakhawi Grand Unified Theory of Quantum-Bio-Cosmic Symbiosis and Planetary Hyper-Regeneration (DOI: 10.5281/zenodo.23282366) proposes a unified, self-sustaining planetary operating system integrating five macro-pillars: a Quantum-Neural Core, Stellar-Terrestrial Energy Matrix, Bio-Exploration, Bio-Digital Interfaces, and a Photonic-Diamond Hyper-Web. It provides a rigorous computational proof-of-principle via the Topological Quantum Control (TQC) framework. By embedding the Uhlmann Robustness Metric (URM) within a PPO reinforcement learning agent to solve the Lindblad master equation, T",
+      "id": "W7221523271",
+      "url": "https://doi.org/10.7467/ksae.2026.34.10.1199",
+      "pdf": "https://doi.org/10.7467/ksae.2026.34.10.1199",
+      "title": "Development of a Multi-Sensor Fusion-Based Pipe Inspection Mobility Robot for 3D Localization and Obstacle Detection",
+      "summary": "",
       "authors": [
-        "mohamed kamal arafa el-rakhawi"
+        "홍석동",
+        "Heung-Shik Lee"
       ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7219733813",
-      "url": "https://doi.org/10.1108/sasbe-03-2026-0209",
-      "pdf": "https://research.tees.ac.uk/en/publications/b4d4e775-ade0-44c0-84a4-0a878fc62d94",
-      "title": "Life cycle environmental and cost analysis of a building insulated with different insulation materials: a British case study",
-      "summary": "Purpose To evaluate the whole-life environmental and economic performance of four insulation materials used in the UK, hemp fibre, wood fibre, glass wool and extruded polystyrene (XPS), by comparing their embodied and operational impacts within a consistent regulatory and modelling framework. Design/methodology/approach A like-for-like assessment was conducted for a representative British single-family dwelling by integrating dynamic energy simulation with life cycle assessment (LCA) and life cycle costing (LCC) within a cradle-to-grave framework aligned with EN 15978 and EN 15804. Operational",
-      "authors": [
-        "Nazanin Moazzen",
-        "Imrose B. Muhit",
-        "Sergio Rodríguez"
-      ],
-      "published": "2026-10-10",
+      "published": "2026-10-13",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -376,19 +432,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7220424908",
-      "url": "https://doi.org/10.1093/pnasnexus/pgag345",
-      "pdf": "https://academic.oup.com/pnasnexus/advance-article-pdf/doi/10.1093/pnasnexus/pgag345/71838201/pgag345.pdf",
-      "title": "How does hard magnetic soft matter deform?",
-      "summary": "Abstract Hard Magnetic Soft Materials, i.e., elastomers seeded with hard magnetic particles, convert magnetic energy into complex motion and have become central to the design of untethered soft robots, biomedical devices, and, in general, for enabling fast, wireless actuation. Their behavior depends critically on how the surrounding soft matrix deforms and transmits torque to each magnetized inclusion, yet there is no consensus on the correct mapping between macroscopic strain and microscopic motion. Competing models predict conflicting particle rotations and magnetic responses under identical",
+      "id": "W7221527292",
+      "url": "https://doi.org/10.54254/2755-2721/2026.ld37608",
+      "pdf": "",
+      "title": "Trajectory Planning and Optimization Methods for Intelligent Robots",
+      "summary": "Trajectory planning and trajectory optimization are the key technologies to realize the autonomous operation of intelligent robots. In order to solve the limitations of traditional manual teaching and offline planning in adapting to complex dynamic environments, insufficient movement smoothness and limited adaptability, this paper systematically summarizes the trajectory planning and optimization methods of intelligent robots. On the basis of introducing the intelligent robot trajectory planning framework, this paper compares and analyzes the characteristics and applicable scenarios of two typ",
       "authors": [
-        "Daniel Katusele",
-        "Carmel Majidi",
-        "Liping Liu",
-        "Pradeep Sharma",
-        "Kaushik Dayal"
+        "Yang Huang"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-13",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -399,18 +451,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7221065646",
-      "url": "https://doi.org/10.5281/zenodo.23269077",
-      "pdf": "https://doi.org/10.5281/zenodo.23269077",
-      "title": "Code and data for: Rooftop photovoltaic design choice under a household's binding constraint: embodied carbon, cost and a domestic content subsidy in India",
-      "summary": "Reproducibility package (v13) for a manuscript submitted to Solar Energy (Elsevier). The code and results are unchanged from v13; only the manuscript title changed. It contains the Python pipeline (pvlib hourly simulation of rooftop photovoltaic designs at five Indian sites: PERC, TOPCon, heterojunction and back-contact silicon modules on flush and racked mountings, with a CdTe module and single-axis trackers as a sensitivity set; life-cycle carbon and cost model; decision analysis under binding household constraints; Monte Carlo and Sobol uncertainty analysis), cached public input data, resul",
+      "id": "W7221531522",
+      "url": "https://doi.org/10.54254/2753-8818/2026.hz37582",
+      "pdf": "",
+      "title": "Advancements in Enhancing Degrees of Freedom for Upper-Limb Prostheses: Mechanisms, Control, and Sensory Feedback",
+      "summary": "Upper-limb amputation seriously affects a person's daily life. Traditional commercial myoelectric prostheses have only 2-6 degrees of freedom (DOFs) and are not yet capable of fine-motor manipulation. This paper reviews representative progress from 2014 to the first half of 2026 in three main directions: mechanism design and actuation, intelligent control and intention decoding, and sensory feedback and closed-loop interaction. The reviewed studies show that advanced mechanical configurations can add more active DOFs while reducing weight; deep learning decoding and shared semi-autonomous cont",
       "authors": [
-        "Sunil Gaikwad",
-        "Savvy Gaikwad",
-        "Kishor Dattatraya Shinde",
-        "Hrishikesh Mehta"
+        "Xuanxi Zhang"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-13",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -421,19 +470,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7221065732",
-      "url": "https://doi.org/10.1021/acs.orglett.6c03819",
-      "pdf": "https://pubs.acs.org/orlef7/article-pdf/doi/10.1021/acs.orglett.6c03819/68809905/acs.orglett.6c03819.pdf",
-      "title": "Enantioselective Benzylic C–H Insertions with Diazosuccinate Esters",
-      "summary": "Abstract The first enantioselective benzylic C–H insertion using α-alkyl-α-diazoesters, facilitated by a well-established chiral dirhodium(II) catalyst, is presented. This reaction selectively functionalizes primary benzylic C–H bonds with good to excellent enantioselectivity (up to 95% ee), thereby demonstrating the synthetic utility of this previously underexplored class of diazo reagents. The resulting differentiated diester products undergo selective monoester removal, thereby enabling subsequent functional-group manipulation of the liberated carboxylic acid and expanding access to enantio",
+      "id": "W7221561538",
+      "url": "https://doi.org/10.54254/2755-2721/2026.ld37676",
+      "pdf": "",
+      "title": "Adaptability of Lightweight AI Models for Embedded Deployment: A Case Study of an Agricultural Monitoring Robot",
+      "summary": "Many artificial intelligence programs require powerful computing hardware, whereas agricultural robots, drones, and smart cameras rely on small embedded devices with limited computing power, battery capacity, and heat dissipation. Lightweight models reduce parameters and computational costs while maintaining acceptable accuracy, enabling AI deployment on resource-constraint network devices. This paper reviews key lightweighting methods, including compact network architectures, model pruning, model quantization, and knowledge distillation. It compares common platforms such as Jetson, Raspberry ",
       "authors": [
-        "Nicholas M. Kamuti",
-        "Bijaya Bagale",
-        "S.D. Bunge",
-        "Albert Ndakala",
-        "Jeffrey D. Mighion"
+        "Jingen Zhou"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-13",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -444,57 +489,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7221122429",
-      "url": "https://doi.org/10.5281/zenodo.23271558",
-      "pdf": "https://doi.org/10.5281/zenodo.23271558",
-      "title": "Code and map data for: Decentralized Multi-Robot Warehouse Surveillance with Orientation-Aware Planning and Hybrid Collision Avoidance",
-      "summary": "All codes realted to Decentralized Multi-Robot Warehouse Surveillance with Orientation-Aware Planning and Hybrid Collision Avoidance",
+      "id": "W7221567637",
+      "url": "https://doi.org/10.54254/2755-2721/2026.ba37691",
+      "pdf": "",
+      "title": "Multi-Robot Collaborative SLAM in Warehouses: A Review",
+      "summary": "With the rapid growth of e-commerce, Automated Guided Vehicles (AGVs) are increasingly deployed in intelligent warehouses, where Simultaneous Localization and Mapping (SLAM) provides the core localization capability. Warehouses differ from domestic or outdoor scenarios in four respects: highly structured regular rack layouts, quasi-static conditions with dynamic goods movement, GPS-denied weak-network communication, and perceptual degradation caused by long corridors and repetitive textures. This paper reviews recent progress in multi-robot collaborative SLAM tailored for warehouse scenarios. ",
       "authors": [
-        "Praveen Paidi"
+        "Wentao Liao"
       ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221306005",
-      "url": "https://doi.org/10.5281/zenodo.23281310",
-      "pdf": "https://doi.org/10.5281/zenodo.23281310",
-      "title": "DEVELOPMENT OF SUSTAINABLE HIGH-PERFORMANCE CONCRETE USING SUPPLEMENTARY CEMENTITIOUS MATERIALS: EVALUATION OF MECHANICAL STRENGTH, DURABILITY, AND ENVIRONMENTAL PERFORMANCE",
-      "summary": "The rapid expansion of the construction sector has increased demand for concrete while intensifying concerns regarding the environmental impact of Portland cement production. High-performance concrete (HPC) provides superior mechanical strength and durability, but its conventional production may require high cement contents, resulting in increased embodied energy and carbon dioxide emissions. The incorporation of supplementary cementitious materials (SCMs), including fly ash, ground granulated blast-furnace slag (GGBFS), silica fume, metakaolin, and other industrial or agricultural by-products",
-      "authors": [
-        "Tosheva Dilbar Farxodovna"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221308783",
-      "url": "https://doi.org/10.1016/j.tmp.2026.101544",
-      "pdf": "https://doi.org/10.1016/j.tmp.2026.101544",
-      "title": "Beyond scenic tea tourism: Reframing therapeutic experience through enabling places",
-      "summary": "This study conceptualizes therapeutic experience in tea tourism as relationally assembled through material, social, and affective enabling resources. Drawing on a constructivist grounded theory study conducted in Wuyishan, China, we identify nine enabling resources and three enabling mechanisms: heterogeneous resource assemblage and placeness emergence, cultural storytelling and symbolic meaning-making, and embodied engagement and interbeing. These mechanisms progressively develop relational agency by connecting tourists with tea plants, local actors, cultural practices, and ecological environ",
-      "authors": [
-        "Yang Yang",
-        "Yinger Xu",
-        "陈正府",
-        "Shengkun Chen",
-        "Zhengxi Wang"
-      ],
-      "published": "2026-10-10",
+      "published": "2026-10-13",
       "primary_category": "openalex",
       "categories": [
         "openalex"
