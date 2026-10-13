@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12 21:55 UTC",
+  "generated_at": "2026-10-13 01:45 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,71 +9,35 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7221475418",
-      "url": "https://doi.org/10.1007/s10845-026-02987-0",
-      "pdf": "",
-      "title": "Enhanced language-guided robotic grasping via a synergized VLM-based two-stage decoupled policy",
-      "summary": "",
+      "id": "W7221343702",
+      "url": "https://doi.org/10.48175/ijarsct-38763",
+      "pdf": "https://doi.org/10.48175/ijarsct-38763",
+      "title": "Reinforcement Learning in Machine Learning",
+      "summary": "Reinforcement Learning (RL) is a machine-learning approach for problems in which decisions are made repeatedly and their quality becomes clear through feedback. Instead of depending on a fixed collection of labelled answers, an RL agent interacts with an environment, observes its changing state, receives rewards or penalties, and improves its decision policy through experience. This review examines the basic RL framework and discusses deep reinforcement learning, offline learning, multi-agent systems, and human-guided learning. Applications in robotics, games, education, finance, healthcare, a",
       "authors": [
-        "Qing Jiao",
-        "Weifei Hu",
-        "Geyu Shao",
-        "Dawei Chen",
-        "Haiyan Zhao",
-        "Haojie Liu",
-        "Jianrong Tan"
+        "Prof. P. P. Chavan Prerna Wayakole",
+        "Dr. H. B. Jadhav Prof. A. J. Shaikh"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221094065",
-      "url": "https://doi.org/10.26434/chemrxiv.15010145/v1",
-      "pdf": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15010145/v1",
-      "title": "Designing organic photoredox catalysts as a fragment-based puzzle solved by reinforcement learning",
-      "summary": "Reinforcement learning (RL) is a promising strategy for identifying optimal solutions in vast search spaces. We have developed a framework in which the design of organic photoredox catalysts (OPCs) is deliberately formulated as a fragment-based puzzle that is well suited to RL. In this framework, an RL agent sequentially selects and orders molecular fragments and attempts to identify fragment combinations that afford high rewards, as calculated based on the similarity between the properties of the generated molecules and those of 4CzIPN, a well-known OPC. In addition to the rediscovery of a pr",
-      "authors": [
-        "Naoki Noto",
-        "Mayu Hirakata",
-        "Mikito Fujinami",
-        "Yusuke Masuda",
-        "Ryosuke Kojima",
-        "Yasunori Matsui",
-        "Hiroshi Ikeda",
-        "Hiromi Nakai",
-        "Masaya Sawamura",
-        "Susumu Saito"
-      ],
-      "published": "2026-10-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
+      "score": 12.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7111918796",
-      "url": "https://openalex.org/W7111918796",
-      "pdf": "https://osf.io/etk5m",
-      "title": "A study on social inclusion of humanoid robots: a novel embodied adaptation of the Cyberball paradigm",
-      "summary": "",
+      "id": "W7221320488",
+      "url": "https://doi.org/10.5281/zenodo.23287511",
+      "pdf": "https://doi.org/10.5281/zenodo.23287511",
+      "title": "THE EL-RAKHAWI UNIFIED SYSTEM FOR AUTONOMOUS BIO-TECHNOLOGICAL SYMBIOSIS AND OMNI-GRID ENERGY HARMONY (ABT-OGH) Unifying Omni-Grid Energy, Passive Radiative Cooling, Quantum-Base Precision Medicine, World-Model Robotics, and 6G Orbital Networks for a Self-Sustaining Planetary-Cosmic Civilization",
+      "summary": "The El-Rakhawi Unified System for Autonomous Bio-Technological Symbiosis and Omni-Grid Energy Harmony (ABT-OGH) (DOI: 10.5281/zenodo.23287512) proposes a closed-loop planetary-cosmic operating system integrating four pillars: (1) Omni-Grid & Passive Thermal Harmony, combining sodium-ion batteries, everything-to-grid dynamics, and zero-energy radiative cooling metamaterials; (2) Quantum-Base Precision Medicine, leveraging quantum simulation for rapid drug discovery and atomic-level base-editing/mRNA therapies for pre-symptomatic healing; (3) World-Model Humanoid Robotics, deploying agentic AI w",
       "authors": [
-        "Serena Marchesi",
-        "Agnieszka Wykowska",
-        "Davide De Tommaso",
-        "Cecilia Roselli"
+        "mohamed kamal arafa el-rakhawi"
       ],
-      "published": "2026-10-09",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -84,100 +48,17 @@
       "trending": 1.5
     },
     {
-      "id": "W7221075192",
-      "url": "https://doi.org/10.1117/12.3111714",
-      "pdf": "",
-      "title": "Performance evaluation and optimization of a mobile robot path-planning model based on reinforcement learning",
-      "summary": "Autonomous navigation in mobile robotics faces significant challenges in dynamic, unstructured environments, as re-planning strategies often lack time efficiency when recomputing around new obstacles. Traditional path-planning algorithms typically rely on static, pre-mapped environments and rigid geometric rules, which severely limit their adaptability when unexpected obstacles appear. Reinforcement learning provides a powerful, data-driven solution to these limitations by enabling autonomous agents to continuously learn and refine optimal navigation policies through trial-and-error interactio",
+      "id": "W7221317633",
+      "url": "https://doi.org/10.1007/s44163-026-02343-4",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s44163-026-02343-4.pdf",
+      "title": "Evaluation of physical training effectiveness for college students based on deep reinforcement learning",
+      "summary": "The physical training of college students can be made more productive with the help of adaptive approaches. Deep reinforcement learning (DRL) offers training policies that are more customized based on performance and physiological measurements and are superior to fixed schedules. The first goal is to make a smart system that will be efficient in physical training optimization with the help of DRL. Research suggests the Hare Escape-Search Functional Dueling Deep Q-Network (HE-FDDQN), which is a DRL algorithm that predicts student states, actions, and rewards in order to maximize training polici",
       "authors": [
-        "Luis Angel Castañeda Barron",
-        "Miguel Andres Meillon Ramirez",
-        "Cristóbal Armiñan Ibarra",
-        "Ulises Orozco-Rosas",
-        "Kenia Picos"
+        "Wang Chen",
+        "Bo An",
+        "Shuang Huang"
       ],
-      "published": "2026-10-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221083314",
-      "url": "https://doi.org/10.1002/9781394422395.ch15",
-      "pdf": "",
-      "title": "Resilient Embodied AI for Smart Farming",
-      "summary": "Pest infestations remain a hazard for crop yields around the world, frequently going undetected until after irreversible damage has occurred. Existing pest detection systems and processes typically use fixed position sensors and/or human scouting and are slow to deploy, slow to respond, and poorly fit for dynamic environmental contexts. In this chapter, we present an embodied artificial intelligence (AI) approach that connects bioacoustic pest detection with mobile agro-robotic systems for pest detection and unique pest detection over large and complex agricultural areas in real time. Unlike e",
-      "authors": [
-        "T. Grace Shalini",
-        "Sayed Sayeed Ahmad",
-        "Nayantra Ramakrishnan",
-        "P Bhavesh",
-        "R. Karthick Manoj"
-      ],
-      "published": "2026-10-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220959359",
-      "url": "https://doi.org/10.5281/zenodo.23219420",
-      "pdf": "https://doi.org/10.5281/zenodo.23219420",
-      "title": "Autonomous Mobile Manipulators and AI-Driven Cobots: Transforming Human-Robot Collaboration in Next-Generation Smart Factories",
-      "summary": "The rapid evolution of Industry 4.0 and 5.0 demands flexible manufacturing systems that move beyond traditional rigid automation. This paper presents an integrated framework for Autonomous Mobile Manipulators (AMMs) driven by Edge Artificial Intelligence (AI) and advanced computer vision. By combining simultaneous localization and mapping (SLAM) with multi-axis force-torque sensing, the proposed system bridges the gap between autonomous mobility and precise robotic manipulation. Experimental evaluations in a simulated smart-factory environment demonstrate a 31% reduction in component transfer ",
-      "authors": [
-        "Neenu Ann Sunny"
-      ],
-      "published": "2026-10-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220949811",
-      "url": "https://doi.org/10.1016/j.engstruct.2026.123903",
-      "pdf": "https://doi.org/10.1016/j.engstruct.2026.123903",
-      "title": "Mask-guided stereo vision technique for crack depth estimation of concrete bridge deck",
-      "summary": "Durability of reinforced concrete structures depends on early detection and accurate assessment of damage that accelerates reinforcement corrosion and long term deterioration. Cracks on bridge decks allow moisture and chloride ingress, making crack depth an important indicator of deterioration severity that cannot be captured by conventional visual inspection or two dimensional image based methods. Although stereo vision provides a cost effective approach for three dimensional surface reconstruction, reliable depth estimation in narrow cracks remains challenging due to weak texture, low contra",
-      "authors": [
-        "Michael Bekele Maru",
-        "A. H. M. Muntasir Billah"
-      ],
-      "published": "2026-10-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221090789",
-      "url": "https://doi.org/10.5281/zenodo.23255476",
-      "pdf": "https://doi.org/10.5281/zenodo.23255476",
-      "title": "Reward-Quality Divergence (RQD): Code, Saved Runs and Analysis Scripts (Anonymous Review Artifact)",
-      "summary": "Anonymous review artifact for the paper Reward-Quality Divergence: Telling Judge Gaming from Judge Error in Visual RL. Please do not try to identify the authors. RQD measures the gap between a judge's reward and an anchor-based quality score during reinforcement learning, subtracts the gap that exists before training (the floor), and labels the remaining gap growth as gaming, drift, collapse or none. Contents Code: the measure, the anchor checker, the judge wrapper with its prompt, the control rewards, the second grader and the re-scoring job. Results: the saved answers, rewards and anchor sco",
-      "authors": [
-        "Anonymous"
-      ],
-      "published": "2026-10-09",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -188,20 +69,80 @@
       "trending": 0.0
     },
     {
-      "id": "W7221435330",
-      "url": "https://doi.org/10.1007/s11701-026-04066-1",
+      "id": "W7221344377",
+      "url": "https://doi.org/10.14445/23488549/ijece-v13i9p102",
+      "pdf": "https://www.internationaljournalssrg.org/../IJECE/2026/Volume13-Issue9/IJECE-V13I9P102.pdf",
+      "title": "A Hybrid Genetic Reinforcement Learning Technique for Intelligent Cluster Head Selection in WSNs",
+      "summary": "In Wireless Sensor Networks (WSNs), selection of Cluster Head (CH) in view of the optimum performance is a difficult task in view of constraints of energy resources, dynamic energy state of the network and dynamic data communication requirements, etc. Here, optimization of these can make better solutions. A Hybrid RL-GA Algorithm is developed to give the optimum solution for this, by combining a Genetic Algorithm (GA) with Q-learning. Optimization of both how CHs are selected and how the data is routed afterward was performed. Genetic Algorithm founds initial global structure, individual nodes",
+      "authors": [
+        "Ruchi Sharma",
+        "Sachin Patel"
+      ],
+      "published": "2026-10-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221306359",
+      "url": "https://doi.org/10.1177/19437676261486171-poster_4-4012",
       "pdf": "",
-      "title": "Beyond individual complications: textbook outcome in elective minimally invasive cholecystectomy and the role of robotic approach",
+      "title": "Inclusion of Robotics Versus Conventional Therapy",
+      "summary": "Date presented: April 24, 2026 Primary Author and Speaker: Kristin Palmiscno, kristin.palmiscno@commonspirit.org",
+      "authors": [
+        "Kristin Palmiscno",
+        "Jeremy Palmiscno",
+        "Trent Maruyama",
+        "Christina M. Kwasnica",
+        "Melissa Nemeth"
+      ],
+      "published": "2026-10-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221306750",
+      "url": "https://doi.org/10.5281/zenodo.23274506",
+      "pdf": "https://doi.org/10.5281/zenodo.23274506",
+      "title": "THE EL-RAKHAWI UNIFIED THEORY OF MARINE BIO-CYBERNETIC REGENERATION Integrating Photonic Neural Computing, Autonomous Swarm Intelligence, and Cross-Domain Tissue Engineering for Planetary Oceanic Immunity",
+      "summary": "The El-Rakhawi Unified Theory of Marine Bio-Cybernetic Regeneration (DOI: 10.5281/zenodo.23274507) presents a groundbreaking paradigm bridging marine biology, photonic AI, autonomous robotics, and regenerative medicine. It proposes a \"Planetary Oceanic Immune System\" where marine-derived bioactive compounds, deployed by AI-driven autonomous swarms, simultaneously reverse marine ecosystem fibrosis and human tissue degeneration. The framework rests on four pillars: Marine Photonic Neural Computing for real-time toxin detection, Dual Metabolic Bio-Regeneration leveraging evolutionary homology for",
+      "authors": [
+        "mohamed kamal arafa el-rakhawi"
+      ],
+      "published": "2026-10-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221310554",
+      "url": "https://doi.org/10.13140/rg.2.2.17499.73763",
+      "pdf": "https://doi.org/10.13140/rg.2.2.17499.73763",
+      "title": "Undersea Robotics and Single-Molecule Gene Combing at Particle States for Lake Tahoe: p-Adic Ultrametric Topology and Optimal Geodesic Placement Theorem 1 (Meniscus Extension Invariance)",
       "summary": "",
       "authors": [
-        "Yau-Ren Chang",
-        "Chih-Ho Hsu",
-        "Keng-Li Lin",
-        "Tiing Foong Siow",
-        "Chia-Ling Kuo",
-        "Heng‐Fu Lin"
+        "Cartik Sharma",
+        "Tahoe Lake",
+        "Robotics Benthic",
+        "Consortium"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -212,67 +153,16 @@
       "trending": 0.0
     },
     {
-      "id": "W7221438296",
-      "url": "https://doi.org/10.1007/s11701-026-04045-6",
-      "pdf": "https://doi.org/10.1007/s11701-026-04045-6",
-      "title": "Anesthesiological considerations and complications in robotic surgery: a retrospective analysis",
-      "summary": "Abstract Robotic-assisted surgery has become increasingly prevalent across various surgical disciplines. Understanding anesthesiological factors influencing perioperative outcome is essential for optimizing patient care. This retrospective analysis evaluated 200 patients who underwent robotic surgery across three surgical categories: gastrointestinal (GI, n=60), hepatopancreticobiliary (HPB, n=28), and colorectal (n=112) procedures. We conducted an exploratory analysis of associations between anesthesiological parameters—including fluid management, surgical duration, and blood loss—and clinica",
-      "authors": [
-        "P. Kuhn",
-        "M. Oremek",
-        "A. L. Kuenster",
-        "A. Labonte",
-        "M. Kroeplin",
-        "T. O. Vilz",
-        "J. Kalff",
-        "M. Soehle",
-        "Marcus O. Thudium"
-      ],
-      "published": "2026-10-12",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221438751",
-      "url": "https://doi.org/10.59261/bustechno.v7i4.828",
-      "pdf": "https://doi.org/10.59261/bustechno.v7i4.828",
-      "title": "Delivery Accuracy, Robotics, and Logistics Information System Integration in Operational Performance Through Sorting Optimization",
-      "summary": "Background: Logistics transformation at Sentral Pengolahan Pos (SPP) Jakarta, a high-volume mail-processing hub within PT Pos Indonesia (Persero), is taking place amid rising shipment volumes and persistent challenges in national logistics performance. Objective: This study examines the relationships between delivery accuracy, robotic technology implementation, and logistics information system integration and logistics operational performance, with sorting process optimization tested as a mediating variable. Method: The study employed a quantitative explanatory, cross-sectional design using Pa",
-      "authors": [
-        "Iqbal Fahmi",
-        "Agus Purnomo",
-        "Melia Eka Lestiani"
-      ],
-      "published": "2026-10-12",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221444511",
-      "url": "https://doi.org/10.1007/s11701-026-04065-2",
+      "id": "W7221313353",
+      "url": "https://doi.org/10.1007/s11701-026-04044-7",
       "pdf": "",
-      "title": "Single-port robotic and conventional multiport laparoscopic colectomy for colon cancer: an overlap-weighted comparison of perioperative and oncologic outcomes",
+      "title": "Body mass index and robotic-assisted total hip arthroplasty: current evidence, technical challenges, and clinical implications—a critical review",
       "summary": "",
       "authors": [
-        "Min Hyeong Jo",
-        "Hye Ah Lee",
-        "Ho Seung Kim",
-        "Soon Sup Chung",
-        "Gyoung Tae Noh"
+        "Ekrem Özdemir",
+        "Esra Demirel"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -283,18 +173,119 @@
       "trending": 0.0
     },
     {
-      "id": "W7221448131",
-      "url": "https://doi.org/10.1007/s11701-026-04046-5",
-      "pdf": "",
-      "title": "Force feedback and vocal cord dysfunction after robotic esophagectomy: a comparison of the da Vinci 5 and Xi systems",
+      "id": "W7221314137",
+      "url": "https://doi.org/10.5281/zenodo.23283979",
+      "pdf": "https://doi.org/10.5281/zenodo.23283979",
+      "title": "THE EL-RAKHAWI DOCTRINE OF BIO-QUANTUM SYMBIOTIC ROBOTICS The Master Protocol for Living Programmable Matter, Ambient Energy Autonomy, and the 13-Layer Sovereign Intellectual Property Fortification Framework",
+      "summary": "The El-Rakhawi Doctrine of Bio-Quantum Symbiotic Robotics (DOI: 10.5281/zenodo.23283980) introduces a radical paradigm shift from mechanical automation to living bio-hybrid entities. The EQSR robot comprises four revolutionary pillars: (1) Active Bio-Programmable Matter using self-healing hydrogels with quantum dots; (2) Ambient Energy Autonomy via piezoelectric joints, photosynthetic membranes, and microbial fuel cells—eliminating batteries entirely; (3) Chemo-Quantum Intelligence combining chemical neural networks with miniaturized quantum processors for adaptive decision-making; and (4) Pla",
+      "authors": [
+        "mohamed kamal arafa el-rakhawi"
+      ],
+      "published": "2026-10-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221314942",
+      "url": "https://doi.org/10.1002/smtd.71102",
+      "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smtd.71102",
+      "title": "A Rapid and Uniform Magnetization Method for Fe 3 O 4 Nanoparticles Assisted by Rotating Magnetic Fields for Microrobots",
+      "summary": "ABSTRACT Micro/nanorobots have garnered significant attention due to their potential applications in biomedical fields such as minimally invasive surgery, targeted drug delivery, and cell manipulation. Magnetic field actuation, as a non‐invasive and highly biocompatible driving method, has become a research hotspot. However, traditional magnetic functionalization methods like magnetron sputtering suffer from complex processes, high costs, and poor biocompatibility. Meanwhile, the mixture method combining magnetic particles with photoresist is constrained by particle dispersion and molding qual",
+      "authors": [
+        "Teng Shen",
+        "Tingting Lin",
+        "陈开鑫 Chen Kaixin",
+        "Jianbo Ren",
+        "Shaonan Zhang",
+        "Zidong Chen",
+        "Lu Chen",
+        "Qindan Zhang",
+        "Chaozhan Chen",
+        "Jianhui Zhang"
+      ],
+      "published": "2026-10-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221317056",
+      "url": "https://doi.org/10.31224/8483",
+      "pdf": "https://engrxiv.org/preprint/download/8483/13768/11984",
+      "title": "Self-Healing Action Verification against Instruction Tampering and Sensor Failures in Humanoid Robots",
+      "summary": "As humanoid robots are increasingly used in complex real-world environments, reliable verification of robot actions becomes more important. Action verification should not only check whether the executed action matches the intended instruction, but also keep reliable performance when motor-sensor observations are affected by failures. Traditional instruction authentication mainly protects the instruction itself and cannot directly verify the final physical action of the robot. In addition, the sensing information used to observe robot execution may also become unreliable. In this paper, we prop",
+      "authors": [
+        "Fuhao Li"
+      ],
+      "published": "2026-10-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7221317295",
+      "url": "https://doi.org/10.5281/zenodo.23281009",
+      "pdf": "https://doi.org/10.5281/zenodo.23281009",
+      "title": "Code and data for \"How Clearance and Smoothing Shape Path Tracking in Sampling-Based Robot Navigation: An Empirical Study\"",
+      "summary": "Code, raw results and figures for an empirical study of how the clearance budget (ε) of a sampling-based planner and the spline-smoothing setting affect LQR and MPC path tracking on a kinematic bicycle model. The package contains the experiment code, the random-map campaigns (20 seeds, 6 values of ε, two smoothing settings), the structured-map campaign (narrow passage and dead end), the scripts that produce the tables and figures, and a script (reproduce.sh) that reruns the experiments from the stated seeds and compares the output with the shipped results. Results depend on the library version",
+      "authors": [
+        "İhsan Ömür Bucak"
+      ],
+      "published": "2026-10-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221319534",
+      "url": "https://doi.org/10.1186/s40648-026-00357-2",
+      "pdf": "https://link.springer.com/content/pdf/10.1186/s40648-026-00357-2.pdf",
+      "title": "Task-priority-aware MPPI control for human–multi-robot collaborative assembly",
+      "summary": "We propose a task-priority-aware motion-control method that links task progress to online modification of model predictive path integral (MPPI) control parameters. Human–robot collaborative assembly with multiple robotic arms requires both task-level coordination and reactive motion generation in a shared workspace. A task planner can determine which robot should proceed first, whereas a motion controller must continuously respond to the positions of the human and the other robot. However, if these functions are designed independently, fixed avoidance settings can cause symmetric yielding, dea",
+      "authors": [
+        "Satoshi Nakamura"
+      ],
+      "published": "2026-10-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221322349",
+      "url": "https://doi.org/10.13140/rg.2.2.29453.50404",
+      "pdf": "https://doi.org/10.13140/rg.2.2.29453.50404",
+      "title": "Oculomic Affective Robotics: Biophysical Tear Desiccation Topography, Proteogenomic Biosensing, and Closed-Loop Artificial Empathy",
       "summary": "",
       "authors": [
-        "Cho Eun LEE",
-        "Jiyeon Kim",
-        "Danbee Kang",
-        "Seong Yong Park"
+        "Noah Ugur Kilinc"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -305,15 +296,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7221450344",
-      "url": "https://doi.org/10.1007/s11701-026-04060-7",
-      "pdf": "",
-      "title": "Post-market safety signals of energy-based surgical devices: a cross-specialty disproportionality analysis of the FDA MAUDE database with robotic-platform validation and regulatory triangulation, 2015–2025",
-      "summary": "",
+      "id": "W7221352689",
+      "url": "https://doi.org/10.5281/zenodo.23285643",
+      "pdf": "https://doi.org/10.5281/zenodo.23285643",
+      "title": "Source Code and Evaluation Data for Adaptive MPC Safety Shield in Microrobot Navigation",
+      "summary": "This repository contains the complete source code, configuration files, and raw evaluation data associated with the study on microrobot navigation. It includes the Python implementation of the Adaptive MPC Safety Shield integrated with DreamerV3 and TQC reinforcement learning algorithms. Additionally, it provides the simulation environment scripts, hyperparameter settings, and the categorical outcome datasets (success, collision, timeout rates) used to generate the figures and results in the accompanying manuscript.",
       "authors": [
-        "Ruifeng Shi"
+        "9922337109"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -324,225 +315,191 @@
       "trending": 0.0
     },
     {
-      "id": "W7221451694",
-      "url": "https://doi.org/10.1007/s11701-026-04052-7",
-      "pdf": "",
-      "title": "Robotic colorectal cancer surgery: perioperative and oncological outcomes at a national referral center in Mexico",
-      "summary": "",
+      "id": "W7221339408",
+      "url": "https://doi.org/10.3390/pr14203242",
+      "pdf": "https://doi.org/10.3390/pr14203242",
+      "title": "Physics-Guided Graph Safe Reinforcement Learning for High-Fidelity and Scalable Alternating Current Optimal Power Flow",
+      "summary": "The alternating current (AC) optimal power flow (AC-OPF) problem is crucial for efficient power system operation, yet it remains challenging due to its nonlinear, nonconvex structure and numerous operational constraints. This paper introduces a Physics-guided Graph Safe Reinforcement Learning (PGSRL) framework that provides accurate, scalable, and physically consistent solutions to AC-OPF. The proposed PGSRL framework first models the power system as a weighted graph, encoding voltage magnitudes, load demands, and transmission line impedances to capture existing spatiotemporal correlations amo",
       "authors": [
-        "José M. Aguilar‐Romero",
-        "Itzel Vela Sarmiento",
-        "Javier Melchor-Ruan",
-        "Héctor Martínez‐Said",
-        "Jorge Luis Aguilar-Frasco",
-        "Leonardo Saul Lino-Silva",
-        "Adrian N. Morales Moreno"
+        "Yash Pratap Singh",
+        "Mohsen Saffari",
+        "‎Arash Asrari"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221351657",
+      "url": "https://doi.org/10.5281/zenodo.23282365",
+      "pdf": "https://doi.org/10.5281/zenodo.23282365",
+      "title": "THE EL-RAKHAWI GRAND UNIFIED THEORY OF QUANTUM-BIO-COSMIC SYMBIOSIS AND PLANETARY HYPER-REGENERATION With the TQC-AI Framework as the Foundational Engine of Existential Harmony",
+      "summary": "The El-Rakhawi Grand Unified Theory of Quantum-Bio-Cosmic Symbiosis and Planetary Hyper-Regeneration (DOI: 10.5281/zenodo.23282366) proposes a unified, self-sustaining planetary operating system integrating five macro-pillars: a Quantum-Neural Core, Stellar-Terrestrial Energy Matrix, Bio-Exploration, Bio-Digital Interfaces, and a Photonic-Diamond Hyper-Web. It provides a rigorous computational proof-of-principle via the Topological Quantum Control (TQC) framework. By embedding the Uhlmann Robustness Metric (URM) within a PPO reinforcement learning agent to solve the Lindblad master equation, T",
+      "authors": [
+        "mohamed kamal arafa el-rakhawi"
+      ],
+      "published": "2026-10-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7219733813",
+      "url": "https://doi.org/10.1108/sasbe-03-2026-0209",
+      "pdf": "https://research.tees.ac.uk/en/publications/b4d4e775-ade0-44c0-84a4-0a878fc62d94",
+      "title": "Life cycle environmental and cost analysis of a building insulated with different insulation materials: a British case study",
+      "summary": "Purpose To evaluate the whole-life environmental and economic performance of four insulation materials used in the UK, hemp fibre, wood fibre, glass wool and extruded polystyrene (XPS), by comparing their embodied and operational impacts within a consistent regulatory and modelling framework. Design/methodology/approach A like-for-like assessment was conducted for a representative British single-family dwelling by integrating dynamic energy simulation with life cycle assessment (LCA) and life cycle costing (LCC) within a cradle-to-grave framework aligned with EN 15978 and EN 15804. Operational",
+      "authors": [
+        "Nazanin Moazzen",
+        "Imrose B. Muhit",
+        "Sergio Rodríguez"
+      ],
+      "published": "2026-10-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221454349",
-      "url": "https://doi.org/10.1007/s11701-026-04037-6",
-      "pdf": "https://doi.org/10.1007/s11701-026-04037-6",
-      "title": "Femoral rotation and medial flexion gap tightness in functional alignment robotic total knee arthroplasty for varus knees",
-      "summary": "Abstract Functional-alignment (FA) robotic total knee arthroplasty (TKA) combines component positioning and soft-tissue management. This study described the association between medial flexion-gap tightness and surgeon-selected femoral rotation, together with release grades and intraoperative gap asymmetry in varus knees. This observational single-surgeon study included the 65 varus knees in an 89-knee database. Medial tightness was defined as lateral minus medial preoperative flexion gap. Correlation and ordinary least-squares regression used 63 complete observations. Recorded preoperative, pl",
+      "id": "W7220424908",
+      "url": "https://doi.org/10.1093/pnasnexus/pgag345",
+      "pdf": "https://academic.oup.com/pnasnexus/advance-article-pdf/doi/10.1093/pnasnexus/pgag345/71838201/pgag345.pdf",
+      "title": "How does hard magnetic soft matter deform?",
+      "summary": "Abstract Hard Magnetic Soft Materials, i.e., elastomers seeded with hard magnetic particles, convert magnetic energy into complex motion and have become central to the design of untethered soft robots, biomedical devices, and, in general, for enabling fast, wireless actuation. Their behavior depends critically on how the surrounding soft matrix deforms and transmits torque to each magnetized inclusion, yet there is no consensus on the correct mapping between macroscopic strain and microscopic motion. Competing models predict conflicting particle rotations and magnetic responses under identical",
       "authors": [
-        "Eduardo Frois Temponi",
-        "Pedro Henrique Oliveira Gomes",
-        "Alexandre Leite de Andrade",
-        "Miguel Jourdain Alipio do Vale",
-        "Matheus Braga Jacques Soares",
-        "Luiz Fernando Machado Soares",
-        "Lúcio Honório de Carvalho"
+        "Daniel Katusele",
+        "Carmel Majidi",
+        "Liping Liu",
+        "Pradeep Sharma",
+        "Kaushik Dayal"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221456306",
-      "url": "https://doi.org/10.1007/s11701-026-03923-3",
-      "pdf": "https://doi.org/10.1007/s11701-026-03923-3",
-      "title": "Augmenting colonoscopy with artificial intelligence and robotic assistance: a human-factors scoping review toward a task-based shared autonomy paradigm",
-      "summary": "Abstract Colonoscopy is central to colorectal cancer prevention but remains a high-demand psychomotor and cognitive procedure, characterized by operator dependency, variable performance, and substantial physical and mental workload. Increasing evidence links procedural quality and safety to clinician-related factors, including musculoskeletal strain, fatigue, and non-technical skills. Concurrently, artificial intelligence (AI) and robotic technologies are emerging as potential tools to address these limitations. We conducted a scoping review with narrative synthesis of literature on human fact",
+      "id": "W7221065646",
+      "url": "https://doi.org/10.5281/zenodo.23269077",
+      "pdf": "https://doi.org/10.5281/zenodo.23269077",
+      "title": "Code and data for: Rooftop photovoltaic design choice under a household's binding constraint: embodied carbon, cost and a domestic content subsidy in India",
+      "summary": "Reproducibility package (v13) for a manuscript submitted to Solar Energy (Elsevier). The code and results are unchanged from v13; only the manuscript title changed. It contains the Python pipeline (pvlib hourly simulation of rooftop photovoltaic designs at five Indian sites: PERC, TOPCon, heterojunction and back-contact silicon modules on flush and racked mountings, with a CdTe module and single-axis trackers as a sensitivity set; life-cycle carbon and cost model; decision analysis under binding household constraints; Monte Carlo and Sobol uncertainty analysis), cached public input data, resul",
       "authors": [
-        "Luigi Manfredi",
-        "Alfredo Annicchiarico",
-        "Gianpiero Gravante"
+        "Sunil Gaikwad",
+        "Savvy Gaikwad",
+        "Kishor Dattatraya Shinde",
+        "Hrishikesh Mehta"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221457669",
-      "url": "https://doi.org/10.1007/s11701-026-04023-y",
-      "pdf": "https://doi.org/10.1007/s11701-026-04023-y",
-      "title": "Comparative operative performance of three robotic platforms in benign gynecologic surgery: a single-surgeon retrospective cohort study",
-      "summary": "",
+      "id": "W7221065732",
+      "url": "https://doi.org/10.1021/acs.orglett.6c03819",
+      "pdf": "https://pubs.acs.org/orlef7/article-pdf/doi/10.1021/acs.orglett.6c03819/68809905/acs.orglett.6c03819.pdf",
+      "title": "Enantioselective Benzylic C–H Insertions with Diazosuccinate Esters",
+      "summary": "Abstract The first enantioselective benzylic C–H insertion using α-alkyl-α-diazoesters, facilitated by a well-established chiral dirhodium(II) catalyst, is presented. This reaction selectively functionalizes primary benzylic C–H bonds with good to excellent enantioselectivity (up to 95% ee), thereby demonstrating the synthetic utility of this previously underexplored class of diazo reagents. The resulting differentiated diester products undergo selective monoester removal, thereby enabling subsequent functional-group manipulation of the liberated carboxylic acid and expanding access to enantio",
       "authors": [
-        "Kim-Seng Law",
-        "Ruri Mineda",
-        "Tze Swen Looi",
-        "Peng-Yu Chen",
-        "Yi-Ching Chen",
-        "Pei-Jhen Wu"
+        "Nicholas M. Kamuti",
+        "Bijaya Bagale",
+        "S.D. Bunge",
+        "Albert Ndakala",
+        "Jeffrey D. Mighion"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221460867",
-      "url": "https://doi.org/10.37791/2687-0657-2026-20-4-81-116",
-      "pdf": "https://doi.org/10.37791/2687-0657-2026-20-4-81-116",
-      "title": "Technological Trends and Forecasts of the Global Collaborative Robots Market",
-      "summary": "The relevance of this study is driven by the rapid growth of collaborative robotics adoption across various industries and the need to understand long-term trends for developing an effective technological development strategy. The aim of this study is to conduct a comprehensive analysis of the current state and development prospects of the global and Russian collaborative robotics markets, identifying key growth drivers, technological trends, adoption barriers, and assessing their impact on the transformation of industrial automation. To achieve this goal, the paper addresses the following obj",
+      "id": "W7221122429",
+      "url": "https://doi.org/10.5281/zenodo.23271558",
+      "pdf": "https://doi.org/10.5281/zenodo.23271558",
+      "title": "Code and map data for: Decentralized Multi-Robot Warehouse Surveillance with Orientation-Aware Planning and Hybrid Collision Avoidance",
+      "summary": "All codes realted to Decentralized Multi-Robot Warehouse Surveillance with Orientation-Aware Planning and Hybrid Collision Avoidance",
       "authors": [
-        "Марат Рашитович Сафиуллин",
-        "Kamilla R. Smolnikova"
+        "Praveen Paidi"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221470006",
-      "url": "https://doi.org/10.1007/s11701-026-04058-1",
-      "pdf": "",
-      "title": "Textbook outcome–based performance assessment during transition to the da Vinci SP system in reduced-port robotic gastrectomy",
-      "summary": "",
+      "id": "W7221306005",
+      "url": "https://doi.org/10.5281/zenodo.23281310",
+      "pdf": "https://doi.org/10.5281/zenodo.23281310",
+      "title": "DEVELOPMENT OF SUSTAINABLE HIGH-PERFORMANCE CONCRETE USING SUPPLEMENTARY CEMENTITIOUS MATERIALS: EVALUATION OF MECHANICAL STRENGTH, DURABILITY, AND ENVIRONMENTAL PERFORMANCE",
+      "summary": "The rapid expansion of the construction sector has increased demand for concrete while intensifying concerns regarding the environmental impact of Portland cement production. High-performance concrete (HPC) provides superior mechanical strength and durability, but its conventional production may require high cement contents, resulting in increased embodied energy and carbon dioxide emissions. The incorporation of supplementary cementitious materials (SCMs), including fly ash, ground granulated blast-furnace slag (GGBFS), silica fume, metakaolin, and other industrial or agricultural by-products",
       "authors": [
-        "Yerin Lee",
-        "Ji Yoon Jeong",
-        "Seungho Lee",
-        "Jawon Hwang",
-        "Sung Hyun Park",
-        "Minah Cho",
-        "Yoo Min Kim",
-        "Woo Jin Hyung",
-        "Hyoung-il Kim"
+        "Tosheva Dilbar Farxodovna"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221471862",
-      "url": "https://doi.org/10.2118/234348-ms",
-      "pdf": "",
-      "title": "BOTS Unleashed: Exploring the Future of Autonomous System in Wells",
-      "summary": "Abstract Wells operations are increasingly dependent on high-volume, cross-system, evidence-heavy workflows across planning, execution, reporting, cost control, integrity, and closeout. Many of these workflows remain manually intensive, requiring engineers and support teams to retrieve data, validate records, update registers, prepare reports, route exceptions, and retain evidence across multiple enterprise applications. This paper presents a practical automation model for Wells operations in which robotic process automation (RPA) BOTs perform deterministic, rules-based execution while artific",
+      "id": "W7221308783",
+      "url": "https://doi.org/10.1016/j.tmp.2026.101544",
+      "pdf": "https://doi.org/10.1016/j.tmp.2026.101544",
+      "title": "Beyond scenic tea tourism: Reframing therapeutic experience through enabling places",
+      "summary": "This study conceptualizes therapeutic experience in tea tourism as relationally assembled through material, social, and affective enabling resources. Drawing on a constructivist grounded theory study conducted in Wuyishan, China, we identify nine enabling resources and three enabling mechanisms: heterogeneous resource assemblage and placeness emergence, cultural storytelling and symbolic meaning-making, and embodied engagement and interbeing. These mechanisms progressively develop relational agency by connecting tourists with tea plants, local actors, cultural practices, and ecological environ",
       "authors": [
-        "Pankaj L. Bhavnani",
-        "Gargi Chatterjee"
+        "Yang Yang",
+        "Yinger Xu",
+        "陈正府",
+        "Shengkun Chen",
+        "Zhengxi Wang"
       ],
-      "published": "2026-10-12",
+      "published": "2026-10-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221478410",
-      "url": "https://doi.org/10.37128/2520-6168-2026-3-16",
-      "pdf": "https://doi.org/10.37128/2520-6168-2026-3-16",
-      "title": "SUBSTANTIATION OF PARAMETERS OF A MOBILE CHARGING STATION FOR ELECTRIFIED MACHINERY UNDER AGRICULTURAL PRODUCTION CONDITIONS",
-      "summary": "The article considers the substantiation and selection of the main parameters of a mobile charging station intended to support the operation of electrified machinery under agricultural production conditions. The relevance of the study is determined by the gradual expansion of electric and hybrid machinery in modern agriculture, including compact electric tractors, robotic platforms, unmanned aerial vehicles, battery-powered tools and various types of auxiliary electrical equipment. For agricultural enterprises, an important issue is not only the availability of reliable charging infrastructure",
-      "authors": [
-        "Roman LYPNYTSKYI",
-        "Igor Nishchakov",
-        "Oleksandr POBEREZHNIAK"
-      ],
-      "published": "2026-10-12",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W2990064031",
-      "url": "https://doi.org/10.13140/rg.2.2.11727.65449",
-      "pdf": "https://dc.uwm.edu/etd/2252",
-      "title": "Trajectory Tracking of a Four Degree of Freedom Robotic Manipulator",
-      "summary": "A robotic manipulator can be utilized for multiple applications. As there are some expensive and bulky robotic manipulators with multi-functionalities are available in the market but not affordable for many people, a low-cost robotic manipulator, Dobot Magician, available in the market is used in this research to add more features in it. The forward kinematics and inverse kinematics are analyzed in this research besides studying about PID and computed torque control approaches. In this research, alphabets and numbers are coded using an object-oriented programming language (C#) to make the lear",
-      "authors": [
-        "Mohammad Rezwan Sheikh"
-      ],
-      "published": "2026-10-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7111487603",
-      "url": "https://doi.org/10.17605/osf.io/3ng89",
-      "pdf": "https://osf.io/3ng89",
-      "title": "The Influence of Robot Autonomy on Sense of Control and Trust Towards a Robot",
-      "summary": "Datasets and data analysis scripts from a research study described in the manuscript: Woźniak, M., De Tommaso, D., Knoblich, G., & Wykowska, A. (2026). The influence of robot autonomy on sense of control and trust towards a robot. International Journal of Social Robotics, 18(4), 56.",
-      "authors": [
-        "Mateusz Woźniak",
-        "Agnieszka Wykowska",
-        "Davide De Tommaso",
-        "Günther Knoblich"
-      ],
-      "published": "2026-10-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
