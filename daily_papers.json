@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13 23:31 UTC",
+  "generated_at": "2026-10-14 18:14 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,313 +9,119 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7221343702",
-      "url": "https://doi.org/10.48175/ijarsct-38763",
-      "pdf": "https://doi.org/10.48175/ijarsct-38763",
-      "title": "Reinforcement Learning in Machine Learning",
-      "summary": "Reinforcement Learning (RL) is a machine-learning approach for problems in which decisions are made repeatedly and their quality becomes clear through feedback. Instead of depending on a fixed collection of labelled answers, an RL agent interacts with an environment, observes its changing state, receives rewards or penalties, and improves its decision policy through experience. This review examines the basic RL framework and discusses deep reinforcement learning, offline learning, multi-agent systems, and human-guided learning. Applications in robotics, games, education, finance, healthcare, a",
+      "id": "W7221456653",
+      "url": "https://doi.org/10.1016/j.aap.2026.108820",
+      "pdf": "https://www.sciencedirect.com/science/article/pii/S000145752600429X/pdf",
+      "title": "Balancing adversariality and naturalness in autonomous vehicle testing scenario generation via multi-objective reinforcement learning",
+      "summary": "Reinforcement learning (RL)-based adversarial scenario generation through dynamic agent-environment interactions has emerged as a promising approach for accelerating autonomous vehicle (AV) testing. However, existing RL approaches struggle to balance adversariality and naturalness because naturalistic driving behaviors avoid risk whereas adversarial behaviors intentionally induce it. The reward-driven nature of RL can further lead to objective polarization under linearly weighted rewards, resulting in scenarios biased toward a limited range of adversariality-naturalness trade-offs. This study ",
       "authors": [
-        "Prof. P. P. Chavan Prerna Wayakole",
-        "Dr. H. B. Jadhav Prof. A. J. Shaikh"
+        "Lijing Cheng",
+        "Yuzhi Chen",
+        "Sixuan Xu",
+        "谢远昌",
+        "Chen Wang"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-11",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 12.5,
+      "score": 10.0,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7221575755",
-      "url": "https://doi.org/10.54254/2755-2721/2026.37587",
-      "pdf": "",
-      "title": "Compliant Structure Design for Improved Robot Motion Control Performance",
-      "summary": "This narrative review examines how compliant structural design redistributes motion control functions between mechanical bodies and computational controllers. It synthesizes theoretical, experimental, and co-design studies on passive dynamic walking, elastic coupling, self-stabilizing locomotion, soft robots, underactuated grasping, morphological computation, and morphology-control optimization. Across these systems, compliance can store and return energy, couple joint motion, shape attracting dynamics, adapt contact geometry, and transform inputs before feedback intervenes. These mechanisms c",
-      "authors": [
-        "Muhan Yu"
-      ],
-      "published": "2026-10-13",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221317633",
-      "url": "https://doi.org/10.1007/s44163-026-02343-4",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s44163-026-02343-4.pdf",
-      "title": "Evaluation of physical training effectiveness for college students based on deep reinforcement learning",
-      "summary": "The physical training of college students can be made more productive with the help of adaptive approaches. Deep reinforcement learning (DRL) offers training policies that are more customized based on performance and physiological measurements and are superior to fixed schedules. The first goal is to make a smart system that will be efficient in physical training optimization with the help of DRL. Research suggests the Hare Escape-Search Functional Dueling Deep Q-Network (HE-FDDQN), which is a DRL algorithm that predicts student states, actions, and rewards in order to maximize training polici",
-      "authors": [
-        "Wang Chen",
-        "Bo An",
-        "Shuang Huang"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221344377",
-      "url": "https://doi.org/10.14445/23488549/ijece-v13i9p102",
-      "pdf": "https://www.internationaljournalssrg.org/../IJECE/2026/Volume13-Issue9/IJECE-V13I9P102.pdf",
-      "title": "A Hybrid Genetic Reinforcement Learning Technique for Intelligent Cluster Head Selection in WSNs",
-      "summary": "In Wireless Sensor Networks (WSNs), selection of Cluster Head (CH) in view of the optimum performance is a difficult task in view of constraints of energy resources, dynamic energy state of the network and dynamic data communication requirements, etc. Here, optimization of these can make better solutions. A Hybrid RL-GA Algorithm is developed to give the optimum solution for this, by combining a Genetic Algorithm (GA) with Q-learning. Optimization of both how CHs are selected and how the data is routed afterward was performed. Genetic Algorithm founds initial global structure, individual nodes",
-      "authors": [
-        "Ruchi Sharma",
-        "Sachin Patel"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221551448",
-      "url": "https://doi.org/10.1302/2633-1462.710.bjo-2026-0104.r1",
-      "pdf": "https://doi.org/10.1302/2633-1462.710.bjo-2026-0104.r1",
-      "title": "Substantial improvement in short-term survivorship in patients receiving robotic arm-assisted medial unicompartmental knee arthroplasty",
-      "summary": "Aims Robotic arm-assisted unicompartmental knee arthroplasty (R-UKA) has been shown to improve alignment and accuracy of component placement compared with conventional unicompartmental knee arthroplasty (C-UKA). Despite this, there is conflicting evidence for whether this has an impact on revision rates. Methods We performed a retrospective analysis of a prospective database, comparing patients who underwent R-UKA using the Stryker Restoris MCK implant with those who underwent C-UKA using the cemented Oxford Partial Knee implant, between January 2002 and December 2024 at The Prince Charles Hos",
-      "authors": [
-        "Martin Coia",
-        "Kristopher Law",
-        "Julie F Vermeir",
-        "Ruurd Lukas Jaarsma",
-        "Job Nicolaas Doornberg",
-        "Anthony M. Silva"
-      ],
-      "published": "2026-10-13",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221558287",
-      "url": "https://doi.org/10.54254/2755-2721/2026.37591",
-      "pdf": "",
-      "title": "Environmental Perception and Intelligent Navigation for Autonomous Delivery Robots in Complex Scenarios",
-      "summary": "Autonomous delivery robots (ADRs) face perception and navigation challenges in complex scenarios. When operating in real world urban environments, ADRs have trouble negotiating upturned streets, uneven terrain, and moving obstacles. This review covers three key areas: environmental perception, navigation techniques, and mechanical adaptability of delivery vehicles. The reviewed studies show that navigation has evolved beyond avoiding obstacles, to its current state of considering whether the ground can be traversed. ADRs must be able to analyze the ground to navigate. The mechanical structure,",
-      "authors": [
-        "Jiaqi Liu"
-      ],
-      "published": "2026-10-13",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221562052",
-      "url": "https://doi.org/10.5281/zenodo.23319676",
-      "pdf": "https://doi.org/10.5281/zenodo.23319676",
-      "title": "TAVIB: Tactile sensing time series data for robotic object interaction",
-      "summary": "TAVIB (Tactile Vibration) is a curated collection of tactile time series for robotic object interaction. It contains 9,536 CSV recording files sampled at 8 kHz: 1,750 experimental active-touch recordings of manufactured objects, 1,750 simulation files representing 35 unique simulated responses, 6,000 active-touch recordings from 30 strawberries measured over four days, and 36 slippage and sliding recordings covering three materials, four orientations, and three nominal speeds. The active-touch subsets contain transmitter and receiver vibration signals. The slippage subset contains six accelero",
-      "authors": [
-        "Amir Yelenov",
-        "Danissa Sandykbayeva",
-        "Valeriya Zhanuzakova",
-        "Azamat Mukhamediya",
-        "Tengyuan Wan",
-        "Qiang Li",
-        "Zhanat Kappassov"
-      ],
-      "published": "2026-10-13",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221306359",
-      "url": "https://doi.org/10.1177/19437676261486171-poster_4-4012",
-      "pdf": "",
-      "title": "Inclusion of Robotics Versus Conventional Therapy",
-      "summary": "Date presented: April 24, 2026 Primary Author and Speaker: Kristin Palmiscno, kristin.palmiscno@commonspirit.org",
-      "authors": [
-        "Kristin Palmiscno",
-        "Jeremy Palmiscno",
-        "Trent Maruyama",
-        "Christina M. Kwasnica",
-        "Melissa Nemeth"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221306750",
-      "url": "https://doi.org/10.5281/zenodo.23274506",
-      "pdf": "https://doi.org/10.5281/zenodo.23274506",
-      "title": "THE EL-RAKHAWI UNIFIED THEORY OF MARINE BIO-CYBERNETIC REGENERATION Integrating Photonic Neural Computing, Autonomous Swarm Intelligence, and Cross-Domain Tissue Engineering for Planetary Oceanic Immunity",
-      "summary": "The El-Rakhawi Unified Theory of Marine Bio-Cybernetic Regeneration (DOI: 10.5281/zenodo.23274507) presents a groundbreaking paradigm bridging marine biology, photonic AI, autonomous robotics, and regenerative medicine. It proposes a \"Planetary Oceanic Immune System\" where marine-derived bioactive compounds, deployed by AI-driven autonomous swarms, simultaneously reverse marine ecosystem fibrosis and human tissue degeneration. The framework rests on four pillars: Marine Photonic Neural Computing for real-time toxin detection, Dual Metabolic Bio-Regeneration leveraging evolutionary homology for",
+      "id": "W7221435810",
+      "url": "https://doi.org/10.5281/zenodo.23300880",
+      "pdf": "https://doi.org/10.5281/zenodo.23300880",
+      "title": "THE EL-RAKHAWI OPEN-SOURCE PHYSICAL CONSCIENCE MODULE (OPCM) From Unchecked Embodied AI to Hardware-Enforced Human Safety A Groundbreaking Engineering Framework for Mandatory, Air-Gapped, Hardware-Level Safety Overrides in Autonomous Robotics and Embodied Artificial Intelligence Systems",
+      "summary": "The El-Rakhawi Open-Source Physical Conscience Module (OPCM): From Unchecked Embodied AI to Hardware-Enforced Human Safety (DOI: 10.5281/zenodo.23300881) presents a groundbreaking engineering framework across six volumes and 30 chapters securing embodied AI systems: (1) Foundations exposing the fallacy of software-only safety in autonomous robots; (2) Hardware Architecture of air-gapped microcontrollers, independent sensor fusion (LiDAR, depth cameras, IMU), physical power-severing relays, and mechanical brake systems; (3) Kinematic Threat Detection implementing Time-to-Collision (TTC) calcula",
       "authors": [
         "mohamed kamal arafa el-rakhawi"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-11",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221310554",
-      "url": "https://doi.org/10.13140/rg.2.2.17499.73763",
-      "pdf": "https://doi.org/10.13140/rg.2.2.17499.73763",
-      "title": "Undersea Robotics and Single-Molecule Gene Combing at Particle States for Lake Tahoe: p-Adic Ultrametric Topology and Optimal Geodesic Placement Theorem 1 (Meniscus Extension Invariance)",
-      "summary": "",
-      "authors": [
-        "Cartik Sharma",
-        "Tahoe Lake",
-        "Robotics Benthic",
-        "Consortium"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221313353",
-      "url": "https://doi.org/10.1007/s11701-026-04044-7",
-      "pdf": "",
-      "title": "Body mass index and robotic-assisted total hip arthroplasty: current evidence, technical challenges, and clinical implications—a critical review",
-      "summary": "",
-      "authors": [
-        "Ekrem Özdemir",
-        "Esra Demirel"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221314137",
-      "url": "https://doi.org/10.5281/zenodo.23283979",
-      "pdf": "https://doi.org/10.5281/zenodo.23283979",
-      "title": "THE EL-RAKHAWI DOCTRINE OF BIO-QUANTUM SYMBIOTIC ROBOTICS The Master Protocol for Living Programmable Matter, Ambient Energy Autonomy, and the 13-Layer Sovereign Intellectual Property Fortification Framework",
-      "summary": "The El-Rakhawi Doctrine of Bio-Quantum Symbiotic Robotics (DOI: 10.5281/zenodo.23283980) introduces a radical paradigm shift from mechanical automation to living bio-hybrid entities. The EQSR robot comprises four revolutionary pillars: (1) Active Bio-Programmable Matter using self-healing hydrogels with quantum dots; (2) Ambient Energy Autonomy via piezoelectric joints, photosynthetic membranes, and microbial fuel cells—eliminating batteries entirely; (3) Chemo-Quantum Intelligence combining chemical neural networks with miniaturized quantum processors for adaptive decision-making; and (4) Pla",
-      "authors": [
-        "mohamed kamal arafa el-rakhawi"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221314942",
-      "url": "https://doi.org/10.1002/smtd.71102",
-      "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smtd.71102",
-      "title": "A Rapid and Uniform Magnetization Method for Fe 3 O 4 Nanoparticles Assisted by Rotating Magnetic Fields for Microrobots",
-      "summary": "ABSTRACT Micro/nanorobots have garnered significant attention due to their potential applications in biomedical fields such as minimally invasive surgery, targeted drug delivery, and cell manipulation. Magnetic field actuation, as a non‐invasive and highly biocompatible driving method, has become a research hotspot. However, traditional magnetic functionalization methods like magnetron sputtering suffer from complex processes, high costs, and poor biocompatibility. Meanwhile, the mixture method combining magnetic particles with photoresist is constrained by particle dispersion and molding qual",
-      "authors": [
-        "Teng Shen",
-        "Tingting Lin",
-        "陈开鑫 Chen Kaixin",
-        "Jianbo Ren",
-        "Shaonan Zhang",
-        "Zidong Chen",
-        "Lu Chen",
-        "Qindan Zhang",
-        "Chaozhan Chen",
-        "Jianhui Zhang"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221317056",
-      "url": "https://doi.org/10.31224/8483",
-      "pdf": "https://engrxiv.org/preprint/download/8483/13768/11984",
-      "title": "Self-Healing Action Verification against Instruction Tampering and Sensor Failures in Humanoid Robots",
-      "summary": "As humanoid robots are increasingly used in complex real-world environments, reliable verification of robot actions becomes more important. Action verification should not only check whether the executed action matches the intended instruction, but also keep reliable performance when motor-sensor observations are affected by failures. Traditional instruction authentication mainly protects the instruction itself and cannot directly verify the final physical action of the robot. In addition, the sensing information used to observe robot execution may also become unreliable. In this paper, we prop",
-      "authors": [
-        "Fuhao Li"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
+      "score": 9.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 1.5
     },
     {
-      "id": "W7221317295",
-      "url": "https://doi.org/10.5281/zenodo.23281009",
-      "pdf": "https://doi.org/10.5281/zenodo.23281009",
-      "title": "Code and data for \"How Clearance and Smoothing Shape Path Tracking in Sampling-Based Robot Navigation: An Empirical Study\"",
-      "summary": "Code, raw results and figures for an empirical study of how the clearance budget (ε) of a sampling-based planner and the spline-smoothing setting affect LQR and MPC path tracking on a kinematic bicycle model. The package contains the experiment code, the random-map campaigns (20 seeds, 6 values of ε, two smoothing settings), the structured-map campaign (narrow passage and dead end), the scripts that produce the tables and figures, and a script (reproduce.sh) that reruns the experiments from the stated seeds and compares the output with the shipped results. Results depend on the library version",
+      "id": "W7221454249",
+      "url": "https://doi.org/10.66901/8aahmz07",
+      "pdf": "",
+      "title": "Comparing Stochastic Training Environments for Deep Reinforcement Learning with Deep Q-network: Learning Stability and Transfer to Real Data",
+      "summary": "The paper investigates how the choice of a generative stochastic model of the training environment affects the numerical stability of the learning and the transfer of the Double DQN policy to real time series. Four environments — GBM, GARCH(1,1)-t, Minimal Neural SDE, and Neural Jump-Diffusion — are compared, created on chronologically previous data of three financial time series: NVDA, SPY, and KO. For each combination of asset and environment, ten training runs are performed, a total of 120, with the architecture, state and action spaces, reward functions, and hyperparameters unchanged. The ",
       "authors": [
-        "İhsan Ömür Bucak"
+        "Sergey Leonov"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221463694",
+      "url": "https://doi.org/10.1080/23335777.2026.2741055",
+      "pdf": "",
+      "title": "DA-RL: decoupled attention-enhanced visual feature reinforcement learning for optimised decision-making in cyber-physical systems",
+      "summary": "In dynamic and complex environments, visual reinforcement learning (Visual RL) agents struggle to extract task-relevant information, achieve stable policy optimisation, and generalise across changing conditions. This paper proposes DA-RL, an attention-enhanced and decoupled reinforcement learning framework for cyber-physical decision-making. An attention-based encoder highlights critical environmental cues, while decoupled feature and policy optimisation improves training stability and convergence efficiency. An adaptive weighting mechanism further enhances robustness under environmental chang",
+      "authors": [
+        "Xiangfeng Jin"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221467974",
+      "url": "https://doi.org/10.5281/zenodo.23296817",
+      "pdf": "https://doi.org/10.5281/zenodo.23296817",
+      "title": "MiguelSantPasc/Code_AdvSSM: v1.0.0 – Adversarial Observations in State-Space Models for Robust RL Copiar",
+      "summary": "Code release – v1.0.0 This release contains the source code accompanying the manuscript \"Adversarial Observations in State-Space Models for Robust Reinforcement Learning\" by M. Santos-Pascual and D. Ríos Insua. The repository provides implementations and experimental scripts for studying adversarial perturbations of observations in probabilistic state-space models and their impact on downstream reinforcement learning. The main experimental components include: Adversarial observation attacks against Kalman filtering and smoothing. Evaluation of adversarial attacks in reinforcement learning envi",
+      "authors": [
+        "Miguel Santos Pascual"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214519310",
+      "url": "https://doi.org/10.3390/su182010327",
+      "pdf": "https://doi.org/10.3390/su182010327",
+      "title": "Digital and Intelligent Technologies for Construction and Demolition Waste Sorting: A Systematic Mapping Review of Research Maturity, Circularity Outcomes, and Industry Gaps",
+      "summary": "Construction and demolition waste (CDW) sorting is increasingly supported by digital and intelligent technologies, yet their functional coverage, maturity, circular economy (CE) contribution and alignment with industrial practice remain fragmented. This review systematically mapped the field using a PRISMA-based search, with 396 publications forming the broader bibliometric corpus. Within this corpus, 204 publications were retained for the scoped review, comprising 185 primary technical studies and 19 review articles. An illustrative ZenRobotics/Kuljetusrinki case was examined separately withi",
+      "authors": [
+        "Shanuka Dodampegama",
+        "Lei Hou",
+        "Ehsan Asadi",
+        "Sk. Reza‐E‐Rabbi",
+        "Sujeeva Setunge",
+        "Guomin Zhang"
+      ],
+      "published": "2026-10-11",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -326,20 +132,19 @@
       "trending": 0.0
     },
     {
-      "id": "W7221334336",
-      "url": "https://doi.org/10.1016/j.displa.2026.103724",
-      "pdf": "",
-      "title": "HAVEN: A unified monocular RGB vision-and-language navigation framework for wheeled-legged robots",
-      "summary": "",
+      "id": "W7221324079",
+      "url": "https://doi.org/10.1007/s42114-026-02119-5",
+      "pdf": "https://doi.org/10.1007/s42114-026-02119-5",
+      "title": "Bio-inspired flexible pressure sensors: morphology-guided structure–function relationships, reliability, and future perspectives",
+      "summary": "Bio-inspired flexible pressure sensors have emerged as a major class of soft sensing systems for wearable electronics, electronic skin, human–machine interfaces, and soft robotics because biological structures provide effective design principles for regulating deformation, contact evolution, and interfacial adaptation. However, the field remains difficult to compare critically because reported performance is often discussed through isolated sensitivity values, while the structural origins of signal generation, the pressure-regime dependence of response, and the reliability limits of the underl",
       "authors": [
-        "Mingyu Dai",
-        "Chenxi Huang",
-        "Boyuan Zheng",
-        "Zhenqing Cheng",
-        "Wenzhou Dong",
-        "Liang Wu"
+        "Mohammed Nabeel",
+        "Ali J. Addie",
+        "Nabil Kadhim Taieh",
+        "László Vanyorek",
+        "Ying Li"
       ],
-      "published": "2026-10-10",
+      "published": "2026-10-11",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -350,78 +155,345 @@
       "trending": 0.0
     },
     {
-      "id": "W7221543588",
-      "url": "https://doi.org/10.54254/2755-2721/2026.ba37690",
+      "id": "W7221434922",
+      "url": "https://doi.org/10.1016/j.rcim.2026.103442",
+      "pdf": "https://www.sciencedirect.com/science/article/pii/S0736584526002632/pdf",
+      "title": "Cross-robot open-set fault detection via normal-only adaptation and residual latent-space alignment",
+      "summary": "Reliable fault detection and health monitoring of industrial robots are important for smart manufacturing in Industry 4.0. However, robotic platforms differ in their mechanical design, sensing characteristics, and operating conditions. These differences make it difficult for data-driven models to generalize to unseen robots and working conditions. To address this challenge, this paper proposes a cross-robot framework for open-set fault detection using only normal data from the target robot. The framework uses a condition-normalized residual adaptation mechanism in the latent space. First, a st",
+      "authors": [
+        "Izaz Raouf",
+        "Heung Soo Kim",
+        "Peng (Edward) Wang"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221437404",
+      "url": "https://doi.org/10.1245/s10434-026-20729-7",
       "pdf": "",
-      "title": "Multi-agent Reinforcement Learning for Coordinated Emergency Building Sweeps",
-      "summary": "We develop a Multi-Agent Deep Deterministic Policy Gradient (MADDPG) framework for coordinating emergency responders during building sweeps. The problem is formulated as a Decentralized Partially Observable Markov Decision Process (Dec-POMDP) that captures building topology, occupant vulnerability, dynamic hazards, and partial observability. In the six-room office baseline, MADDPG reaches a 134-second sweep time after 5,000 episodes, within 6.3% of the 126-second theoretical optimum and outperforming PPO and DQN. Extensions to a two-story school and a U-shaped warehouse achieve 120 seconds wit",
-      "authors": [
-        "Lechen Ding",
-        "张云生",
-        "Jiamei Du",
-        "Yuanhang Sun"
-      ],
-      "published": "2026-10-13",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221566316",
-      "url": "https://doi.org/10.5281/zenodo.23311493",
-      "pdf": "https://doi.org/10.5281/zenodo.23311493",
-      "title": "Research artifact for Automatic Generation of Unit Test Cases Based on Program Feedback Reinforcement Learning",
-      "summary": "This research artifact accompanies the manuscript Automatic Generation of Unit Test Cases Based on Program Feedback Reinforcement Learning by WeiDong Zhao. It contains reproducibility materials, not the unpublished manuscript full text. The artifact preserves an actually executed three-seed Qwen2.5-Coder-0.5B-Instruct SFT, scalar pairwise reward-learning, and PPO implementation: 3,072 optimizer updates, before/after adapters, 768 matched holdout generations, and 768 reward cross-evaluation decisions. A subsequent 12-method public-library diagnostic records 144 Java generation, compiler, JUnit ",
-      "authors": [
-        "Weidong Zhao"
-      ],
-      "published": "2026-10-13",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221339408",
-      "url": "https://doi.org/10.3390/pr14203242",
-      "pdf": "https://doi.org/10.3390/pr14203242",
-      "title": "Physics-Guided Graph Safe Reinforcement Learning for High-Fidelity and Scalable Alternating Current Optimal Power Flow",
-      "summary": "The alternating current (AC) optimal power flow (AC-OPF) problem is crucial for efficient power system operation, yet it remains challenging due to its nonlinear, nonconvex structure and numerous operational constraints. This paper introduces a Physics-guided Graph Safe Reinforcement Learning (PGSRL) framework that provides accurate, scalable, and physically consistent solutions to AC-OPF. The proposed PGSRL framework first models the power system as a weighted graph, encoding voltage magnitudes, load demands, and transmission line impedances to capture existing spatiotemporal correlations amo",
-      "authors": [
-        "Yash Pratap Singh",
-        "Mohsen Saffari",
-        "‎Arash Asrari"
-      ],
-      "published": "2026-10-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221523271",
-      "url": "https://doi.org/10.7467/ksae.2026.34.10.1199",
-      "pdf": "https://doi.org/10.7467/ksae.2026.34.10.1199",
-      "title": "Development of a Multi-Sensor Fusion-Based Pipe Inspection Mobility Robot for 3D Localization and Obstacle Detection",
+      "title": "Robotic versus Conventional Minimally Invasive Esophagectomy for Resectable Esophageal Cancer After Neoadjuvant Therapy: A Dual-Center Retrospective Study",
       "summary": "",
       "authors": [
-        "홍석동",
-        "Heung-Shik Lee"
+        "Tianzheng Shen",
+        "Yingyi Li",
+        "Wenwu He",
+        "Yajie Zhang",
+        "Chengqiang Li",
+        "Yongtao Han",
+        "Chenghao Wang",
+        "Hecheng Li"
       ],
-      "published": "2026-10-13",
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221438120",
+      "url": "https://doi.org/10.1145/3858345",
+      "pdf": "",
+      "title": "Belief-based Risk-Aware Anticipatory Navigation: Modeling Intention and Position Uncertainty for Safe and Efficient Robot Navigation",
+      "summary": "The increasing deployment of Automated Mobile Vehicles (AMVs) in warehouses requires efficient navigation in dynamic environments shared with human workers. Traditional safety strategies, such as stopping or slowing down, often reduce efficiency and do not account for human-robot interaction. To address this, interaction-aware methods have been developed. However, traditional interaction models assume fixed parameters, rely on a single forecast, or use intent labels that are not updated during the interaction, and thus do not explicitly represent intention uncertainty, that is, variability in ",
+      "authors": [
+        "Fengkai Liu",
+        "Yuichi Ohsita",
+        "Nattaon Techasarntikul",
+        "Masayuki Murata"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221443681",
+      "url": "https://doi.org/10.5281/zenodo.23299531",
+      "pdf": "https://doi.org/10.5281/zenodo.23299531",
+      "title": "RSAC: Robotic Surgery Adaptive Curricula",
+      "summary": "Robotic Surgery Adaptive Curricula (RSAC) is software for generating individualised, adaptive training pathways in robotic surgery simulation. After each recorded attempt, it evaluates data sufficiency and performance trajectories relative to predefined proficiency thresholds, then recommends whether the trainee should repeat the current exercise, advance through standard or accelerated progression, move to an exercise of comparable difficulty, or return to a simpler exercise for remediation. Exercise selection follows a predefined curriculum graph that encodes progression, lateral moves, and ",
+      "authors": [
+        "Krishnamurti Matos de Araujo Sarmento"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221447512",
+      "url": "https://doi.org/10.24925/turjaf.v14i10.2860-2869.9031",
+      "pdf": "https://agrifoodscience.com/index.php/TURJAF/article/download/9031/4337",
+      "title": "A Gateway-Based Approach for Integrating Digital Compass Data into Controller Area Network (CAN) in Precision Farming Systems",
+      "summary": "The integration of high precision orientation sensors into resilient communication infrastructures is a key requirement for next-generation autonomous systems. Digital compass sensors typically generate data in the NMEA format, whereas distributed control architectures in mobile robotics predominantly utilize the CAN 2.0B protocol. This study presents the design and implementation of a microcontroller-based hardware-software gateway that enables seamless interoperability between these heterogeneous communication standards within autonomous agricultural platforms. The proposed system operates a",
+      "authors": [
+        "İ̇lker Ünal",
+        "Osman Eceoğlu"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221448512",
+      "url": "https://doi.org/10.1002/admt.71397",
+      "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.71397",
+      "title": "Coaxially 3D‐Printed Dual‐Mode Magnetoelectric Fiber Sensors for Robotic Manipulator Proprioception",
+      "summary": "ABSTRACT Flexible sensors for robotic proprioception are often limited by single transduction pathways and multistep fabrication/assembly strategies, making it difficult to simultaneously achieve integrated static–dynamic motion sensing and structurally continuous deformable devices. Here, we report a coaxially 3D‐printed dual‐mode magnetoelectric fiber sensor (DMEFS) with a helical liquid‐metal core/magnetic‐elastomer sheath architecture. The customized coaxial printing and winding strategy enables direct integration of conductive and magnetic functionalities within one fiber‐like structure. ",
+      "authors": [
+        "Zhipeng Chen",
+        "Zhouming Liu",
+        "Xiaonan Sun",
+        "Jiyang Kuang",
+        "Yuanxi Zhang",
+        "Lelun Jiang",
+        "Jianhua Xiang"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221443810",
+      "url": "https://doi.org/10.1609/aies.v9i4.43325",
+      "pdf": "https://ojs.aaai.org/index.php/AIES/article/download/43325/50885",
+      "title": "Rules or Character? Scaling Laws for AI Safety Design (Extended Abstract)",
+      "summary": "Artificial Intelligence (AI) safety systems combine character shaping (e.g., Reinforcement Learning from Human Feedback [RLHF], Constitutional AI), which modifies behavioral distributions at training time, with rule enforcement (e.g., output filters, safety classifiers), which blocks harmful outputs at inference time, yet little formal analysis exists on how their optimal balance should change as deployment scales increase. We introduce a stylized comparative-statics model that parameterizes safety design as a resource allocation α ∈ [0,1] between these two approaches, incorporating scale-depe",
+      "authors": [
+        "Satoshi Takahashi",
+        "Nobuji Kouno",
+        "Masaaki Komatsu",
+        "Ryuji Hamamoto"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221444399",
+      "url": "https://doi.org/10.1177/09544100261497387",
+      "pdf": "",
+      "title": "Survival-aware self-play reinforcement learning for partially observable beyond visual range air combat",
+      "summary": "We present a recurrent self-play reinforcement learning framework for autonomous beyond-visual-range (BVR) air combat under partial observability. The environment is formulated as a decision-level BVR missile-duel simulator that combines 3-DoF aircraft kinematics, field-of-view radar observation, track-quality decay, flight-envelope action masking, and an energy-aware missile model with boost, coast, drag, and proportional-navigation guidance. To handle intermittent radar contact, the policy uses an LSTM backbone. To stabilize recurrent training, we introduce trajectory-aligned hidden-state ma",
+      "authors": [
+        "Lianqun Zhang",
+        "Jingwei Zhao",
+        "Yu Zhang"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221446550",
+      "url": "https://doi.org/10.1609/aies.v9i4.43368",
+      "pdf": "https://ojs.aaai.org/index.php/AIES/article/download/43368/50928",
+      "title": "Virtue by Observation: Social Reinforcement Learning for Intrinsically Ethical Agents",
+      "summary": "Reinforcement learning is increasingly deployed in settings with ethical stakes, yet rule-based and scalar-reward alignment approaches remain brittle and prone to proxy gaming. I argue that two of their most persistent failures, hallucination and moral drift, share a single structural cause, which I term \\textit{feedback collapse}: the compression of plural human values into a static scalar reward by a fixed evaluation model. My research develops a virtue-centric alternative, Social Reinforcement Learning, in which evaluative authority is distributed across a dynamic population of peer agents.",
+      "authors": [
+        "Majid Ghasemi"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221461669",
+      "url": "https://doi.org/10.1609/aies.v9i2.43204",
+      "pdf": "https://ojs.aaai.org/index.php/AIES/article/download/43204/50764",
+      "title": "AI Alignment Without Representation: From Scalar Rewards to Social Deliberation",
+      "summary": "Despite the widespread adoption of Reinforcement Learning from Human Feedback, state-of-the-art AI systems remain prone to two persistent failures. The first is hallucination, or the production of fluent but false content. The second is moral drift, or the convergence toward exploitative or harmful equilibria under sustained deployment. We argue that these are not distinct pathologies but may arise from a single structural cause that we term feedback collapse. This occurs when complex plural human values are compressed into static scalar rewards by geographically concentrated annotator labor a",
+      "authors": [
+        "Majid Ghasemi",
+        "Mark Crowley"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
+    },
+    {
+      "id": "W7221464477",
+      "url": "https://doi.org/10.5281/zenodo.23294783",
+      "pdf": "https://doi.org/10.5281/zenodo.23294783",
+      "title": "Runtime failure anticipation for frozen reinforcement learning driving policies: latent risk prediction and calibration-free alarm-rate control",
+      "summary": "Source code, configuration, result files, figure and table masters, and the frozen policy checkpoints for the article of the same title. Reproduction: python harness9/tables.py and python harness9/figures.py rebuild every table and figure in the article from the stored result files; the simulator is not re-run. This work was supported by the Ministry of Science, Technological Development and Innovation of the Republic of Serbia [grant number 451-03-34/2026-03/200102] and by the Programme Scientific Research, Innovation and Digitalisation for Smart Transformation [grant number BG16RFPR002-1.014",
+      "authors": [
+        "Miroslav B. Milovanovic",
+        "Jianxun Cui",
+        "Dragan Antić",
+        "Marko T. Milojkovic",
+        "Saša S. Nikolić"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221461423",
+      "url": "https://doi.org/10.64898/2026.10.07.757347",
+      "pdf": "https://www.biorxiv.org/content/biorxiv/early/2026/10/11/2026.10.07.757347.full.pdf",
+      "title": "A representation of the visual environment in the human basolateral amygdala supports learning and choice",
+      "summary": "Animals continuously transform sensory inputs into representations that guide behavior. Although the amygdala is a brain structure critical for learning and choice, how natural sensory experience is represented within this circuit remains unknown. Here, we identify a representation of the visual environment in the human basolateral amygdala (BLA) that contains information relevant for learning and choice. Using image-computable encoding models trained on responses to naturalistic videos, we recover a continuous, low-dimensional representation of visual experience in the BLA. The representation",
+      "authors": [
+        "Grace Jang",
+        "Kierstin M. Riels",
+        "Elias Aberman",
+        "Grace Tao",
+        "Philip A. Kragel"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214774305",
+      "url": "https://doi.org/10.1016/j.gmod.2026.101343",
+      "pdf": "https://doi.org/10.1016/j.gmod.2026.101343",
+      "title": "Superquadric primitive decomposition of 3D point clouds via geometric-aware inlier refinement",
+      "summary": "The decomposition of 3D point clouds into interpretable geometric primitives remains a longstanding challenge in Computer Vision and Computer Graphics. Among the available representations, superquadrics offer a compact and expressive model capable of capturing a wide range of shapes. However, their estimation is inherently challenging, as it requires solving a non-linear optimization problem and is particularly sensitive to noise, outliers, and overlapping structures. While robust estimation methods such as RanSaC and its variants achieve strong performance, they rely primarily on spatial prox",
+      "authors": [
+        "Alessandro Rinaldi",
+        "Edoardo Tedesco",
+        "Andrea Ferraris",
+        "Filippo Leveni",
+        "Daniele Baieri",
+        "Filippo Maggioli",
+        "Simone Melzi",
+        "Luca Magri"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221436490",
+      "url": "https://doi.org/10.32628/cseit2612535",
+      "pdf": "https://ijsrcseit.com/home/article/download/CSEIT2612535/CSEIT2612535",
+      "title": "A Computer Vision-Based Driver Drowsiness Detection System Using Facial Landmarks and Temporal Eye Analysis",
+      "summary": "Driver drowsiness is an important traffic safety problem, as reduced alertness is known to affect visual attention, decision making and reaction time thereby increasing the risk of unsafe driving. Continuous monitoring of driver behavior can help identify visual signals that are associated with drowsiness and provide feedback to the driver in a timely manner. In this paper, we present a web CV driver monitoring system that focuses on drowsiness detection based on facial landmarks and temporal eye behavior. We detect the driver face and obtain 68 facial landmark points to inspect eye part by th",
+      "authors": [
+        "Sri Surya Dharmaraj V",
+        "V. S. Anita Sofia",
+        "L. Thara"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221444518",
+      "url": "https://doi.org/10.5281/zenodo.23298932",
+      "pdf": "https://doi.org/10.5281/zenodo.23298932",
+      "title": "Main Dataset(Gazebo-Based Aerial Target Detection Dataset for UAV Research)",
+      "summary": "Gazebo-Based Aerial Target Detection Dataset This dataset contains 1,344 simulated aerial target images generated by the authors in the Gazebo simulation environment for unmanned aerial vehicle (UAV) object detection research. It includes three aerial vehicle classes: x4_uav, x3_uav, and fixed_wing. The images were collected from different camera perspectives, including side and top views, under varying flight scenarios, target positions, distances, and motion conditions. The dataset was manually annotated using the Computer Vision Annotation Tool (CVAT). Bounding box annotations are provided ",
+      "authors": [
+        "Sumeyya Akbulut"
+      ],
+      "published": "2026-10-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7196988756",
+      "url": "https://doi.org/10.1609/aies.v9i2.43209",
+      "pdf": "https://ojs.aaai.org/index.php/AIES/article/download/43209/50769",
+      "title": "Manipulation-Proof Oblivious Audits Against Deceptive Model Providers",
+      "summary": "Audits have emerged as a critical instrument for algorithmic governance, providing a mechanism for external scrutiny and governance of machine learning models. However, ensuring the integrity of such assessments remains a challenging issue. For instance in regulatory contexts, audits are typically declared or easily detected, thus enabling model providers to manipulate the process, whether intentionally or inadvertently. This vulnerability is particularly acute in the context of fairness evaluations, in which providers can often infer sensitive attributes and strategically equalize allocation ",
+      "authors": [
+        "Augustin Godinot",
+        "Sofiane Azogagh",
+        "Julien Ferry",
+        "Sébastien Gambs"
+      ],
+      "published": "2026-10-11",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -432,72 +504,17 @@
       "trending": 0.0
     },
     {
-      "id": "W7221527292",
-      "url": "https://doi.org/10.54254/2755-2721/2026.ld37608",
-      "pdf": "",
-      "title": "Trajectory Planning and Optimization Methods for Intelligent Robots",
-      "summary": "Trajectory planning and trajectory optimization are the key technologies to realize the autonomous operation of intelligent robots. In order to solve the limitations of traditional manual teaching and offline planning in adapting to complex dynamic environments, insufficient movement smoothness and limited adaptability, this paper systematically summarizes the trajectory planning and optimization methods of intelligent robots. On the basis of introducing the intelligent robot trajectory planning framework, this paper compares and analyzes the characteristics and applicable scenarios of two typ",
+      "id": "W7214327602",
+      "url": "https://doi.org/10.1609/aies.v9i4.43310",
+      "pdf": "https://ojs.aaai.org/index.php/AIES/article/download/43310/50870",
+      "title": "AI-Enabled Human Memory Manipulation: Misleading AI-Generated Summaries Distort Human Memory",
+      "summary": "AI-generated summaries and reports are increasingly used in high-stakes settings, like policing, despite considerable evidence that AI often generates misleading or inaccurate information. This research asked: do errors in AI-generated summaries distort human memory? To answer this question, we adopted two methodological approaches. First, we conducted an analysis of AI summary output, prompting popular large language models to generate summaries of videos. This analysis quantified how often AI summaries contain errors and the categories of these errors (e.g., omission of critical details; hal",
       "authors": [
-        "Yang Huang"
+        "Mattea Sim",
+        "Yael Eiger",
+        "Tadayoshi Kohno"
       ],
-      "published": "2026-10-13",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221531522",
-      "url": "https://doi.org/10.54254/2753-8818/2026.hz37582",
-      "pdf": "",
-      "title": "Advancements in Enhancing Degrees of Freedom for Upper-Limb Prostheses: Mechanisms, Control, and Sensory Feedback",
-      "summary": "Upper-limb amputation seriously affects a person's daily life. Traditional commercial myoelectric prostheses have only 2-6 degrees of freedom (DOFs) and are not yet capable of fine-motor manipulation. This paper reviews representative progress from 2014 to the first half of 2026 in three main directions: mechanism design and actuation, intelligent control and intention decoding, and sensory feedback and closed-loop interaction. The reviewed studies show that advanced mechanical configurations can add more active DOFs while reducing weight; deep learning decoding and shared semi-autonomous cont",
-      "authors": [
-        "Xuanxi Zhang"
-      ],
-      "published": "2026-10-13",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221561538",
-      "url": "https://doi.org/10.54254/2755-2721/2026.ld37676",
-      "pdf": "",
-      "title": "Adaptability of Lightweight AI Models for Embedded Deployment: A Case Study of an Agricultural Monitoring Robot",
-      "summary": "Many artificial intelligence programs require powerful computing hardware, whereas agricultural robots, drones, and smart cameras rely on small embedded devices with limited computing power, battery capacity, and heat dissipation. Lightweight models reduce parameters and computational costs while maintaining acceptable accuracy, enabling AI deployment on resource-constraint network devices. This paper reviews key lightweighting methods, including compact network architectures, model pruning, model quantization, and knowledge distillation. It compares common platforms such as Jetson, Raspberry ",
-      "authors": [
-        "Jingen Zhou"
-      ],
-      "published": "2026-10-13",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221567637",
-      "url": "https://doi.org/10.54254/2755-2721/2026.ba37691",
-      "pdf": "",
-      "title": "Multi-Robot Collaborative SLAM in Warehouses: A Review",
-      "summary": "With the rapid growth of e-commerce, Automated Guided Vehicles (AGVs) are increasingly deployed in intelligent warehouses, where Simultaneous Localization and Mapping (SLAM) provides the core localization capability. Warehouses differ from domestic or outdoor scenarios in four respects: highly structured regular rack layouts, quasi-static conditions with dynamic goods movement, GPS-denied weak-network communication, and perceptual degradation caused by long corridors and repetitive textures. This paper reviews recent progress in multi-robot collaborative SLAM tailored for warehouse scenarios. ",
-      "authors": [
-        "Wentao Liao"
-      ],
-      "published": "2026-10-13",
+      "published": "2026-10-11",
       "primary_category": "openalex",
       "categories": [
         "openalex"
