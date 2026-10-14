@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14 18:14 UTC",
+  "generated_at": "2026-10-14 22:50 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -8,6 +8,25 @@
   ],
   "count": 24,
   "papers": [
+    {
+      "id": "W4414838671",
+      "url": "https://doi.org/10.1201/9781003519348-5",
+      "pdf": "https://arxiv.org/pdf/2502.16195",
+      "title": "Statistical Inference in Reinforcement Learning: A Selective Survey",
+      "summary": "Reinforcement learning (RL) is concerned with how intelligence agents take actions in a given environment to maximize the cumulative reward they receive. In healthcare, applying RL algorithms could assist patients in improving their health status. In ride-sharing platforms, applying RL algorithms could increase drivers' income and customer satisfaction. For large language models, applying RL algorithms could align their outputs with human preferences. Over the past decade, RL has been arguably one of the most vibrant research frontiers in machine learning. Nevertheless, statistics as a field, ",
+      "authors": [
+        "Chengchun Shi"
+      ],
+      "published": "2026-10-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
     {
       "id": "W7221456653",
       "url": "https://doi.org/10.1016/j.aap.2026.108820",
@@ -51,6 +70,27 @@
       "trending": 1.5
     },
     {
+      "id": "W7221665896",
+      "url": "https://doi.org/10.2118/233841-ms",
+      "pdf": "",
+      "title": "Reinforcement Learning for Optimized Well Placement in Underground Hydrogen Storage",
+      "summary": "Abstract Well placement design for underground hydrogen storage (UHS) faces the challenge of balancing hydrogen recovery, costs, and operational constraints. This study develops a rule-guided reinforcement learning (RL) framework to jointly optimize well count and well locations for a depleted gas reservoir in Alberta, Canada. The objective is long-term net present value (NPV), which is normalized as total reward. The problem is formulated as a constructive Markov decision process (MDP) in which a Soft Actor-Critic (SAC) agent sequentially builds a static well pattern. A rule-based feasibility",
+      "authors": [
+        "Xiao Yang",
+        "Qiangqiang Mao",
+        "Shengnan Chen"
+      ],
+      "published": "2026-10-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
       "id": "W7221454249",
       "url": "https://doi.org/10.66901/8aahmz07",
       "pdf": "",
@@ -70,41 +110,67 @@
       "trending": 0.0
     },
     {
-      "id": "W7221463694",
-      "url": "https://doi.org/10.1080/23335777.2026.2741055",
+      "id": "W7221631824",
+      "url": "https://doi.org/10.5302/j.icros.2026.26.0189",
       "pdf": "",
-      "title": "DA-RL: decoupled attention-enhanced visual feature reinforcement learning for optimised decision-making in cyber-physical systems",
-      "summary": "In dynamic and complex environments, visual reinforcement learning (Visual RL) agents struggle to extract task-relevant information, achieve stable policy optimisation, and generalise across changing conditions. This paper proposes DA-RL, an attention-enhanced and decoupled reinforcement learning framework for cyber-physical decision-making. An attention-based encoder highlights critical environmental cues, while decoupled feature and policy optimisation improves training stability and convergence efficiency. An adaptive weighting mechanism further enhances robustness under environmental chang",
+      "title": "YOLOv8-based Intelligent Robotic Harvesting Platform With a Custom 6-DOF Manipulator",
+      "summary": "",
       "authors": [
-        "Xiangfeng Jin"
+        "Wan-young Hong",
+        "Seung-Jun Kwon",
+        "Seung-Jun Ahn",
+        "Bum-Yong Park"
       ],
-      "published": "2026-10-11",
+      "published": "2026-10-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221467974",
-      "url": "https://doi.org/10.5281/zenodo.23296817",
-      "pdf": "https://doi.org/10.5281/zenodo.23296817",
-      "title": "MiguelSantPasc/Code_AdvSSM: v1.0.0 – Adversarial Observations in State-Space Models for Robust RL Copiar",
-      "summary": "Code release – v1.0.0 This release contains the source code accompanying the manuscript \"Adversarial Observations in State-Space Models for Robust Reinforcement Learning\" by M. Santos-Pascual and D. Ríos Insua. The repository provides implementations and experimental scripts for studying adversarial perturbations of observations in probabilistic state-space models and their impact on downstream reinforcement learning. The main experimental components include: Adversarial observation attacks against Kalman filtering and smoothing. Evaluation of adversarial attacks in reinforcement learning envi",
+      "id": "W7221674770",
+      "url": "https://doi.org/10.62713/aic.4714",
+      "pdf": "https://doi.org/10.62713/aic.4714",
+      "title": "Safety and Short-Term Clinical Outcomes of Robot-Assisted Lobectomy Based on the Tubeless Concept for Early-Stage Lung Cancer: A Retrospective Cohort Study",
+      "summary": "AIM: The Tubeless comprehensive management model minimizes iatrogenic trauma by avoiding endotracheal intubation, chest tube placement, and urinary catheterization, while the robot-assisted thoracoscopic surgery system offers precise surgical manipulation and high-definition visualization. However, clinical evidence supporting the combination of these two approaches in early-stage lung cancer surgery remains limited. This study aimed to evaluate the short-term safety and clinical benefits of robot-assisted lobectomy based on the Tubeless concept in patients with early-stage lung cancer.METHODS",
       "authors": [
-        "Miguel Santos Pascual"
+        "Zhenlin Jiang",
+        "Jianhua Yan",
+        "Zuxin Dong",
+        "Junting Chen"
       ],
-      "published": "2026-10-11",
+      "published": "2026-10-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221700821",
+      "url": "https://doi.org/10.5302/j.icros.2026.26.0140",
+      "pdf": "",
+      "title": "Force-based Real-time Inhomogeneity Detection for Robotic Uniform Mixing of Heterogeneous Materials",
+      "summary": "",
+      "authors": [
+        "Eunjung Lee",
+        "Saekwang Nam"
+      ],
+      "published": "2026-10-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
@@ -163,7 +229,7 @@
       "authors": [
         "Izaz Raouf",
         "Heung Soo Kim",
-        "Peng (Edward) Wang"
+        "Peng Edward Wang"
       ],
       "published": "2026-10-11",
       "primary_category": "openalex",
@@ -212,70 +278,6 @@
         "Yuichi Ohsita",
         "Nattaon Techasarntikul",
         "Masayuki Murata"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221443681",
-      "url": "https://doi.org/10.5281/zenodo.23299531",
-      "pdf": "https://doi.org/10.5281/zenodo.23299531",
-      "title": "RSAC: Robotic Surgery Adaptive Curricula",
-      "summary": "Robotic Surgery Adaptive Curricula (RSAC) is software for generating individualised, adaptive training pathways in robotic surgery simulation. After each recorded attempt, it evaluates data sufficiency and performance trajectories relative to predefined proficiency thresholds, then recommends whether the trainee should repeat the current exercise, advance through standard or accelerated progression, move to an exercise of comparable difficulty, or return to a simpler exercise for remediation. Exercise selection follows a predefined curriculum graph that encodes progression, lateral moves, and ",
-      "authors": [
-        "Krishnamurti Matos de Araujo Sarmento"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221447512",
-      "url": "https://doi.org/10.24925/turjaf.v14i10.2860-2869.9031",
-      "pdf": "https://agrifoodscience.com/index.php/TURJAF/article/download/9031/4337",
-      "title": "A Gateway-Based Approach for Integrating Digital Compass Data into Controller Area Network (CAN) in Precision Farming Systems",
-      "summary": "The integration of high precision orientation sensors into resilient communication infrastructures is a key requirement for next-generation autonomous systems. Digital compass sensors typically generate data in the NMEA format, whereas distributed control architectures in mobile robotics predominantly utilize the CAN 2.0B protocol. This study presents the design and implementation of a microcontroller-based hardware-software gateway that enables seamless interoperability between these heterogeneous communication standards within autonomous agricultural platforms. The proposed system operates a",
-      "authors": [
-        "İ̇lker Ünal",
-        "Osman Eceoğlu"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221448512",
-      "url": "https://doi.org/10.1002/admt.71397",
-      "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.71397",
-      "title": "Coaxially 3D‐Printed Dual‐Mode Magnetoelectric Fiber Sensors for Robotic Manipulator Proprioception",
-      "summary": "ABSTRACT Flexible sensors for robotic proprioception are often limited by single transduction pathways and multistep fabrication/assembly strategies, making it difficult to simultaneously achieve integrated static–dynamic motion sensing and structurally continuous deformable devices. Here, we report a coaxially 3D‐printed dual‐mode magnetoelectric fiber sensor (DMEFS) with a helical liquid‐metal core/magnetic‐elastomer sheath architecture. The customized coaxial printing and winding strategy enables direct integration of conductive and magnetic functionalities within one fiber‐like structure. ",
-      "authors": [
-        "Zhipeng Chen",
-        "Zhouming Liu",
-        "Xiaonan Sun",
-        "Jiyang Kuang",
-        "Yuanxi Zhang",
-        "Lelun Jiang",
-        "Jianhua Xiang"
       ],
       "published": "2026-10-11",
       "primary_category": "openalex",
@@ -350,62 +352,16 @@
       "trending": 0.0
     },
     {
-      "id": "W7221461669",
-      "url": "https://doi.org/10.1609/aies.v9i2.43204",
-      "pdf": "https://ojs.aaai.org/index.php/AIES/article/download/43204/50764",
-      "title": "AI Alignment Without Representation: From Scalar Rewards to Social Deliberation",
-      "summary": "Despite the widespread adoption of Reinforcement Learning from Human Feedback, state-of-the-art AI systems remain prone to two persistent failures. The first is hallucination, or the production of fluent but false content. The second is moral drift, or the convergence toward exploitative or harmful equilibria under sustained deployment. We argue that these are not distinct pathologies but may arise from a single structural cause that we term feedback collapse. This occurs when complex plural human values are compressed into static scalar rewards by geographically concentrated annotator labor a",
+      "id": "W7221590379",
+      "url": "https://doi.org/10.2118/234003-ms",
+      "pdf": "",
+      "title": "Spatiotemporal Computer Vision Model for Real-Time Liquid Spill Detection to Mitigate Financial and Environmental Risk in Oil and Gas Facilities",
+      "summary": "Abstract Uncontrolled liquid spills in upstream and midstream facilities represent a significant threat to safety, operational profitability and environmental compliance. Traditional detection methods often suffer from delayed response times, inability to pinpoint the exact leak source, and high rates of false alarms that lead to operator desensitization. This paper quantifies the operational benefits and demonstrates the environmental sustainability value of a real-time Deep Learning and video analytics framework designed to provide immediate spill detection and precise localization across cr",
       "authors": [
-        "Majid Ghasemi",
-        "Mark Crowley"
+        "Jae Yoon Chung",
+        "Mehdi Korjani"
       ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 1.5
-    },
-    {
-      "id": "W7221464477",
-      "url": "https://doi.org/10.5281/zenodo.23294783",
-      "pdf": "https://doi.org/10.5281/zenodo.23294783",
-      "title": "Runtime failure anticipation for frozen reinforcement learning driving policies: latent risk prediction and calibration-free alarm-rate control",
-      "summary": "Source code, configuration, result files, figure and table masters, and the frozen policy checkpoints for the article of the same title. Reproduction: python harness9/tables.py and python harness9/figures.py rebuild every table and figure in the article from the stored result files; the simulator is not re-run. This work was supported by the Ministry of Science, Technological Development and Innovation of the Republic of Serbia [grant number 451-03-34/2026-03/200102] and by the Programme Scientific Research, Innovation and Digitalisation for Smart Transformation [grant number BG16RFPR002-1.014",
-      "authors": [
-        "Miroslav B. Milovanovic",
-        "Jianxun Cui",
-        "Dragan Antić",
-        "Marko T. Milojkovic",
-        "Saša S. Nikolić"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221461423",
-      "url": "https://doi.org/10.64898/2026.10.07.757347",
-      "pdf": "https://www.biorxiv.org/content/biorxiv/early/2026/10/11/2026.10.07.757347.full.pdf",
-      "title": "A representation of the visual environment in the human basolateral amygdala supports learning and choice",
-      "summary": "Animals continuously transform sensory inputs into representations that guide behavior. Although the amygdala is a brain structure critical for learning and choice, how natural sensory experience is represented within this circuit remains unknown. Here, we identify a representation of the visual environment in the human basolateral amygdala (BLA) that contains information relevant for learning and choice. Using image-computable encoding models trained on responses to naturalistic videos, we recover a continuous, low-dimensional representation of visual experience in the BLA. The representation",
-      "authors": [
-        "Grace Jang",
-        "Kierstin M. Riels",
-        "Elias Aberman",
-        "Grace Tao",
-        "Philip A. Kragel"
-      ],
-      "published": "2026-10-11",
+      "published": "2026-10-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -482,18 +438,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7196988756",
-      "url": "https://doi.org/10.1609/aies.v9i2.43209",
-      "pdf": "https://ojs.aaai.org/index.php/AIES/article/download/43209/50769",
-      "title": "Manipulation-Proof Oblivious Audits Against Deceptive Model Providers",
-      "summary": "Audits have emerged as a critical instrument for algorithmic governance, providing a mechanism for external scrutiny and governance of machine learning models. However, ensuring the integrity of such assessments remains a challenging issue. For instance in regulatory contexts, audits are typically declared or easily detected, thus enabling model providers to manipulate the process, whether intentionally or inadvertently. This vulnerability is particularly acute in the context of fairness evaluations, in which providers can often infer sensitive attributes and strategically equalize allocation ",
+      "id": "W7221591162",
+      "url": "https://doi.org/10.5281/zenodo.23350240",
+      "pdf": "https://doi.org/10.5281/zenodo.23350240",
+      "title": "Who Sets the Target? — A Reply to Zwitter on the Embodied Ethics Alignment Problem",
+      "summary": "An open reply to Andrej Zwitter, \"The embodied ethics alignment problem of AI\" (*Discover Artificial Intelligence*, 2026). The original paper grades alignment into **strong** (the machine genuinely *is* moral) and **weak** (the machine only *performs* the part), and concludes that strong alignment is a category error, since moral agency depends on a form of human life that machines lack. This text does not dispute that \"machines cannot do this yet.\" It asks where the origin of the scale has been placed — on \"the human\" — and argues that the same facts, read from a different origin (\"can it bea",
       "authors": [
-        "Augustin Godinot",
-        "Sofiane Azogagh",
-        "Julien Ferry",
-        "Sébastien Gambs"
+        "枣"
       ],
-      "published": "2026-10-11",
+      "published": "2026-10-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -504,17 +457,62 @@
       "trending": 0.0
     },
     {
-      "id": "W7214327602",
-      "url": "https://doi.org/10.1609/aies.v9i4.43310",
-      "pdf": "https://ojs.aaai.org/index.php/AIES/article/download/43310/50870",
-      "title": "AI-Enabled Human Memory Manipulation: Misleading AI-Generated Summaries Distort Human Memory",
-      "summary": "AI-generated summaries and reports are increasingly used in high-stakes settings, like policing, despite considerable evidence that AI often generates misleading or inaccurate information. This research asked: do errors in AI-generated summaries distort human memory? To answer this question, we adopted two methodological approaches. First, we conducted an analysis of AI summary output, prompting popular large language models to generate summaries of videos. This analysis quantified how often AI summaries contain errors and the categories of these errors (e.g., omission of critical details; hal",
+      "id": "W7221596850",
+      "url": "https://doi.org/10.5302/j.icros.2026.26.0176",
+      "pdf": "",
+      "title": "Camera-LiDAR-based Indirect Evaluation of Estimated Driving Trajectories for Aircraft MRO Inspection Robots",
+      "summary": "",
       "authors": [
-        "Mattea Sim",
-        "Yael Eiger",
-        "Tadayoshi Kohno"
+        "Minyoung Jang",
+        "Suji Kim",
+        "Minho Lee",
+        "Hyungsuk Oh",
+        "Sangook Cho",
+        "심인욱"
       ],
-      "published": "2026-10-11",
+      "published": "2026-10-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221599173",
+      "url": "https://doi.org/10.5302/j.icros.2026.26.9004",
+      "pdf": "",
+      "title": "Guest Editorial: Industrial Applications of Physical AI Technology for Robot Vision",
+      "summary": "",
+      "authors": [
+        "Sungho Kim",
+        "황영배",
+        "이왕헌"
+      ],
+      "published": "2026-10-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221600444",
+      "url": "https://doi.org/10.2118/233885-ms",
+      "pdf": "",
+      "title": "Evaluating Casing Wear Risk in a Legacy North Sea Well Repurposed for CCUS: A Case Study",
+      "summary": "Abstract Reusing legacy oil and gas wells as carbon dioxide (CO2) injectors can reduce the cost, schedule and embodied emissions of a carbon capture, utilization and storage (CCUS) development compared with drilling purpose-built injection wells. Legacy wells were, however, designed and constructed for hydrocarbon production, and any casing wear sustained during the original drilling campaign was assessed, if it was assessed at all, against a production design envelope. CO2 injection subjects the same casing string to a different combination of pressure, temperature and load cases, and a wear ",
+      "authors": [
+        "Douglas Gouraly",
+        "Gergana Vanova",
+        "Lingfen Pan"
+      ],
+      "published": "2026-10-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
