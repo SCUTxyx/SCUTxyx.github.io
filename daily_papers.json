@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14 22:50 UTC",
+  "generated_at": "2026-10-15 17:57 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,57 +9,17 @@
   "count": 24,
   "papers": [
     {
-      "id": "W4414838671",
-      "url": "https://doi.org/10.1201/9781003519348-5",
-      "pdf": "https://arxiv.org/pdf/2502.16195",
-      "title": "Statistical Inference in Reinforcement Learning: A Selective Survey",
-      "summary": "Reinforcement learning (RL) is concerned with how intelligence agents take actions in a given environment to maximize the cumulative reward they receive. In healthcare, applying RL algorithms could assist patients in improving their health status. In ride-sharing platforms, applying RL algorithms could increase drivers' income and customer satisfaction. For large language models, applying RL algorithms could align their outputs with human preferences. Over the past decade, RL has been arguably one of the most vibrant research frontiers in machine learning. Nevertheless, statistics as a field, ",
+      "id": "W7134074761",
+      "url": "https://doi.org/10.1117/12.3131439",
+      "pdf": "https://arxiv.org/pdf/2603.05230",
+      "title": "Digital-Twin-driven textile classification and foreign object recognition in automated sorting systems",
+      "summary": "The increasing demand for sustainable textile recycling requires robust automation solutions capable of handling deformable garments and detecting foreign objects in cluttered environments. This work presents a digital twin–driven robotic sorting system that integrates grasp prediction, multi-modal perception, and semantic reasoning for real-world textile classification. A dual-arm robotic cell equipped with RGB-D sensing, capacitive tactile feedback, and collision-aware motion planning autonomously separates garments from an unsorted basket, transfers them to an inspection zone, and classifie",
       "authors": [
-        "Chengchun Shi"
+        "Serkan Ergun",
+        "Tobias Mitterer",
+        "Hubert Zangl"
       ],
-      "published": "2026-10-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221456653",
-      "url": "https://doi.org/10.1016/j.aap.2026.108820",
-      "pdf": "https://www.sciencedirect.com/science/article/pii/S000145752600429X/pdf",
-      "title": "Balancing adversariality and naturalness in autonomous vehicle testing scenario generation via multi-objective reinforcement learning",
-      "summary": "Reinforcement learning (RL)-based adversarial scenario generation through dynamic agent-environment interactions has emerged as a promising approach for accelerating autonomous vehicle (AV) testing. However, existing RL approaches struggle to balance adversariality and naturalness because naturalistic driving behaviors avoid risk whereas adversarial behaviors intentionally induce it. The reward-driven nature of RL can further lead to objective polarization under linearly weighted rewards, resulting in scenarios biased toward a limited range of adversariality-naturalness trade-offs. This study ",
-      "authors": [
-        "Lijing Cheng",
-        "Yuzhi Chen",
-        "Sixuan Xu",
-        "谢远昌",
-        "Chen Wang"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221435810",
-      "url": "https://doi.org/10.5281/zenodo.23300880",
-      "pdf": "https://doi.org/10.5281/zenodo.23300880",
-      "title": "THE EL-RAKHAWI OPEN-SOURCE PHYSICAL CONSCIENCE MODULE (OPCM) From Unchecked Embodied AI to Hardware-Enforced Human Safety A Groundbreaking Engineering Framework for Mandatory, Air-Gapped, Hardware-Level Safety Overrides in Autonomous Robotics and Embodied Artificial Intelligence Systems",
-      "summary": "The El-Rakhawi Open-Source Physical Conscience Module (OPCM): From Unchecked Embodied AI to Hardware-Enforced Human Safety (DOI: 10.5281/zenodo.23300881) presents a groundbreaking engineering framework across six volumes and 30 chapters securing embodied AI systems: (1) Foundations exposing the fallacy of software-only safety in autonomous robots; (2) Hardware Architecture of air-gapped microcontrollers, independent sensor fusion (LiDAR, depth cameras, IMU), physical power-severing relays, and mechanical brake systems; (3) Kinematic Threat Detection implementing Time-to-Collision (TTC) calcula",
-      "authors": [
-        "mohamed kamal arafa el-rakhawi"
-      ],
-      "published": "2026-10-11",
+      "published": "2026-10-12",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -67,61 +27,228 @@
       "score": 9.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
+      "trending": 1.0
+    },
+    {
+      "id": "W7221443607",
+      "url": "https://doi.org/10.5194/ms-2026-165-rc2",
+      "pdf": "https://doi.org/10.5194/ms-2026-165-rc2",
+      "title": "Comment on ms-2026-165",
+      "summary": "Abstract. In unstructured multi-object scenes, unclear target regions and interference from backgrounds and adjacent objects can affect grasp point selection. To address these problems, this paper proposes a visual grasping method for collaborative robots based on improved object detection and grasp pose estimation networks. In the object detection stage, the corresponding convolution and upsampling modules in YOLOv8n are replaced with RFAConv and DySample, respectively, to improve the detection of target boundaries and local features. In the grasp pose estimation stage, a residual attention s",
+      "authors": [
+        "Junxiao Liu",
+        "Jun Qian",
+        "Yunkai Tan",
+        "Rong Zhou"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221438095",
+      "url": "https://doi.org/10.1007/s11370-026-00759-6",
+      "pdf": "",
+      "title": "Gait-parameterized RL for locomotion across morphologies and scales without reward retuning",
+      "summary": "",
+      "authors": [
+        "Sungho Lee",
+        "Jungyeong Kim",
+        "Sangshin Park",
+        "J. H. Kim",
+        "Yonghwan Jeong",
+        "Hyun Jun Cho",
+        "Hyouk Ryeol Choi",
+        "Jungsan Cho"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221795180",
+      "url": "https://doi.org/10.5281/zenodo.23381382",
+      "pdf": "https://doi.org/10.5281/zenodo.23381382",
+      "title": "Packi: demonstrations and LoRA fine-tuning for online 3D bin packing with LLMs",
+      "summary": "Demonstration data and training code for the paper 'Packi: Robotic 3D Bin Packing With Large Language Models Fine-Tuned by Learning From Demonstration' (Journal of Robotics, under revision): the interactive demonstration recorder, human and privileged-expert demonstrations, the data preparation and LoRA training scripts, and the training run log. Trained models: https://huggingface.co/kasramojallal. Companion repository (evaluation): https://github.com/kasramojallal1/llm-robotic-packer.",
+      "authors": [
+        "Kasra Mojallal"
+      ],
+      "published": "2026-10-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221831924",
+      "url": "https://doi.org/10.21203/rs.3.rs-11118236/v1",
+      "pdf": "https://doi.org/10.21203/rs.3.rs-11118236/v1",
+      "title": "Autonomous robotic photography as a creative urban service",
+      "summary": "",
+      "authors": [
+        "Jia Pan",
+        "Chang Chen",
+        "Dawei Wang",
+        "Zhilan Liao",
+        "Hang Xu",
+        "Yipeng Pan",
+        "Ignatius Japar",
+        "Mathieu Chambe",
+        "Xiaofeng Liu",
+        "Hua Chen",
+        "Marc Christie"
+      ],
+      "published": "2026-10-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221833225",
+      "url": "https://doi.org/10.5281/zenodo.23381380",
+      "pdf": "https://doi.org/10.5281/zenodo.23381380",
+      "title": "Packi: evaluation harness, test sequences and run records for online 3D bin packing with LLMs",
+      "summary": "Evaluation code and data for the paper 'Packi: Robotic 3D Bin Packing With Large Language Models Fine-Tuned by Learning From Demonstration' (Journal of Robotics, under revision): the headless evaluation harness, the fixed test sequences of all benchmarks, every run record behind the paper's tables, and the scripts that generate the tables and figures. Trained models: https://huggingface.co/kasramojallal. Companion repository (demonstrations and training): https://github.com/kasramojallal1/learning-from-demonstration.",
+      "authors": [
+        "Kasra Mojallal"
+      ],
+      "published": "2026-10-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 1.5
     },
     {
-      "id": "W7221665896",
-      "url": "https://doi.org/10.2118/233841-ms",
-      "pdf": "",
-      "title": "Reinforcement Learning for Optimized Well Placement in Underground Hydrogen Storage",
-      "summary": "Abstract Well placement design for underground hydrogen storage (UHS) faces the challenge of balancing hydrogen recovery, costs, and operational constraints. This study develops a rule-guided reinforcement learning (RL) framework to jointly optimize well count and well locations for a depleted gas reservoir in Alberta, Canada. The objective is long-term net present value (NPV), which is normalized as total reward. The problem is formulated as a constructive Markov decision process (MDP) in which a Soft Actor-Critic (SAC) agent sequentially builds a static well pattern. A rule-based feasibility",
+      "id": "W7213390664",
+      "url": "https://doi.org/10.48550/arxiv.2610.16411",
+      "pdf": "https://doi.org/10.48550/arxiv.2610.16411",
+      "title": "Estimating the Causal Impact of Social Navigation Signals in Corridor Scenarios",
+      "summary": "Deploying robots in human-shared environments requires deciding not only how to navigate, but also when dedicated social signals are worth emitting. Classic observation-based inference can be misleading in such settings: confounding factors may bias the estimated relationship between a signal and the task outcome, leading to incorrect decisions. Causal inference provides a framework for disentangling these relationships by modelling the mechanisms linking observations, actions, and outcomes, and by estimating interventional effects after accounting for confounding paths. We study a human-robot",
       "authors": [
-        "Xiao Yang",
-        "Qiangqiang Mao",
-        "Shengnan Chen"
+        "Francesco Baldo",
+        "Luca Castri",
+        "Gloria Beraldo",
+        "Nicola Bellotto"
       ],
-      "published": "2026-10-14",
+      "published": "2026-10-12",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221454249",
-      "url": "https://doi.org/10.66901/8aahmz07",
-      "pdf": "",
-      "title": "Comparing Stochastic Training Environments for Deep Reinforcement Learning with Deep Q-network: Learning Stability and Transfer to Real Data",
-      "summary": "The paper investigates how the choice of a generative stochastic model of the training environment affects the numerical stability of the learning and the transfer of the Double DQN policy to real time series. Four environments — GBM, GARCH(1,1)-t, Minimal Neural SDE, and Neural Jump-Diffusion — are compared, created on chronologically previous data of three financial time series: NVDA, SPY, and KO. For each combination of asset and environment, ten training runs are performed, a total of 120, with the architecture, state and action spaces, reward functions, and hyperparameters unchanged. The ",
+      "id": "W7214508493",
+      "url": "https://doi.org/10.1177/21695172261496958",
+      "pdf": "https://spiral.imperial.ac.uk/handle/10044/1/138886",
+      "title": "Synergistic Roles of Hard and Soft Structures in Fingertip Tactile Sensing",
+      "summary": "Touch is often attributed to the skin, but what if hard structures above the contact surface play a larger role than we thought? While most haptic research focuses on soft tissue, we explore how the fingernail and distal phalanx bone contribute to texture perception, combining human exploration data, finite element analysis (FEA), and experiments with a soft robotic fingertip equipped with Hall-effect sensors. Analysis of human exploration revealed a predominant use of lateral movements, which informed the robotic and simulation procedures. FEA showed that adding rigid elements altered interna",
       "authors": [
-        "Sergey Leonov"
+        "Parvathi Sunilkumar",
+        "Ege Cogulu",
+        "Thrishantha Nanayakkara"
       ],
-      "published": "2026-10-11",
+      "published": "2026-10-12",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221631824",
-      "url": "https://doi.org/10.5302/j.icros.2026.26.0189",
+      "id": "W7219942362",
+      "url": "https://openalex.org/W7219942362",
+      "pdf": "https://hal.science/hal-05774868v1",
+      "title": "AMPLIFIED: A Modular Toolchain for Evaluating Deliberative Planning and Verifiable Execution in Robotics",
+      "summary": "The wide catalogue of planners enables mission-planning solutions to be tailored to assumptions made on the environment and user needs.However, in robotics, the execution of plans and policies created by these planners is not always straightforward, because autonomous robots deployed in open and dynamic environments undergo fluctuating environmental conditions, partial information, and uncertain execution times. On top of bare engineering issues, planner integration and usability requires reliable and verifiable execution frameworks. We propose AMPLIFIED, a complete toolchain to plan and execu",
+      "authors": [
+        "Baptiste Pelletier",
+        "Jane Jean Kiam",
+        "Kai Sommer",
+        "Alexandre Albore",
+        "Caroline Ponzoni Carvalho Chanel"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221185257",
+      "url": "https://doi.org/10.4231/r1cq-nc41",
+      "pdf": "https://doi.org/10.4231/r1cq-nc41",
+      "title": "From Field to Pixel: A Deep Learning Pipeline for Automated Image Curation, Leaf Segmentation, and Quantification of Disease and Pest Damage in Maize (Model Data).",
+      "summary": "Field-based RGB phenotyping is hampered by uncontrolled image acquisition (blur, variable illumination, occlusions, and complex backgrounds that bias severity estimates), while manual curation remains slow and unscalable. A reproducible automated workflow is therefore needed to handle multi-source imagery and support quantitative severity estimation across co-occurring phytosanitary conditions. We developed and validated a three-stage deep learning pipeline for maize tar spot, common rust, and fall armyworm damage, using multitemporal RGB images under field conditions from robotic and smartpho",
+      "authors": [
+        "Estefanía Azuero",
+        "Jesús Riera",
+        "Emanuel David Santos-Suárez",
+        "Carlos Cecilio Góngora-Canul",
+        "Christian D. Cruz",
+        "Joaquin Gil"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221435330",
+      "url": "https://doi.org/10.1007/s11701-026-04066-1",
       "pdf": "",
-      "title": "YOLOv8-based Intelligent Robotic Harvesting Platform With a Custom 6-DOF Manipulator",
+      "title": "Beyond individual complications: textbook outcome in elective minimally invasive cholecystectomy and the role of robotic approach",
       "summary": "",
       "authors": [
-        "Wan-young Hong",
-        "Seung-Jun Kwon",
-        "Seung-Jun Ahn",
-        "Bum-Yong Park"
+        "Yau-Ren Chang",
+        "Chih-Ho Hsu",
+        "Keng-Li Lin",
+        "Tiing Foong Siow",
+        "Chia-Ling Kuo",
+        "Heng‐Fu Lin"
       ],
-      "published": "2026-10-14",
+      "published": "2026-10-12",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -132,18 +259,23 @@
       "trending": 0.0
     },
     {
-      "id": "W7221674770",
-      "url": "https://doi.org/10.62713/aic.4714",
-      "pdf": "https://doi.org/10.62713/aic.4714",
-      "title": "Safety and Short-Term Clinical Outcomes of Robot-Assisted Lobectomy Based on the Tubeless Concept for Early-Stage Lung Cancer: A Retrospective Cohort Study",
-      "summary": "AIM: The Tubeless comprehensive management model minimizes iatrogenic trauma by avoiding endotracheal intubation, chest tube placement, and urinary catheterization, while the robot-assisted thoracoscopic surgery system offers precise surgical manipulation and high-definition visualization. However, clinical evidence supporting the combination of these two approaches in early-stage lung cancer surgery remains limited. This study aimed to evaluate the short-term safety and clinical benefits of robot-assisted lobectomy based on the Tubeless concept in patients with early-stage lung cancer.METHODS",
+      "id": "W7221438296",
+      "url": "https://doi.org/10.1007/s11701-026-04045-6",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-04045-6.pdf",
+      "title": "Anesthesiological considerations and complications in robotic surgery: a retrospective analysis",
+      "summary": "Robotic-assisted surgery has become increasingly prevalent across various surgical disciplines. Understanding anesthesiological factors influencing perioperative outcome is essential for optimizing patient care. This retrospective analysis evaluated 200 patients who underwent robotic surgery across three surgical categories: gastrointestinal (GI, n=60), hepatopancreticobiliary (HPB, n=28), and colorectal (n=112) procedures. We conducted an exploratory analysis of associations between anesthesiological parameters-including fluid management, surgical duration, and blood loss-and clinical outcome",
       "authors": [
-        "Zhenlin Jiang",
-        "Jianhua Yan",
-        "Zuxin Dong",
-        "Junting Chen"
+        "P. Kuhn",
+        "M. Oremek",
+        "A. L. Kuenster",
+        "A. Labonte",
+        "M. Kroeplin",
+        "T. O. Vilz",
+        "J. Kalff",
+        "M. Soehle",
+        "Marcus O. Thudium"
       ],
-      "published": "2026-10-14",
+      "published": "2026-10-12",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -154,16 +286,40 @@
       "trending": 0.0
     },
     {
-      "id": "W7221700821",
-      "url": "https://doi.org/10.5302/j.icros.2026.26.0140",
+      "id": "W7221438751",
+      "url": "https://doi.org/10.59261/bustechno.v7i4.828",
+      "pdf": "https://bustechno.polteksci.ac.id/index.php/jbt/article/download/828/429",
+      "title": "Delivery Accuracy, Robotics, and Logistics Information System Integration in Operational Performance Through Sorting Optimization",
+      "summary": "Background: Logistics transformation at Sentral Pengolahan Pos (SPP) Jakarta, a high-volume mail-processing hub within PT Pos Indonesia (Persero), is taking place amid rising shipment volumes and persistent challenges in national logistics performance. Objective: This study examines the relationships between delivery accuracy, robotic technology implementation, and logistics information system integration and logistics operational performance, with sorting process optimization tested as a mediating variable. Method: The study employed a quantitative explanatory, cross-sectional design using Pa",
+      "authors": [
+        "Iqbal Fahmi",
+        "Agus Purnomo",
+        "Melia Eka Lestiani"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221444511",
+      "url": "https://doi.org/10.1007/s11701-026-04065-2",
       "pdf": "",
-      "title": "Force-based Real-time Inhomogeneity Detection for Robotic Uniform Mixing of Heterogeneous Materials",
+      "title": "Single-port robotic and conventional multiport laparoscopic colectomy for colon cancer: an overlap-weighted comparison of perioperative and oncologic outcomes",
       "summary": "",
       "authors": [
-        "Eunjung Lee",
-        "Saekwang Nam"
+        "Min Hyeong Jo",
+        "Hye Ah Lee",
+        "Ho Seung Kim",
+        "Soon Sup Chung",
+        "Gyoung Tae Noh"
       ],
-      "published": "2026-10-14",
+      "published": "2026-10-12",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -174,90 +330,18 @@
       "trending": 0.0
     },
     {
-      "id": "W7214519310",
-      "url": "https://doi.org/10.3390/su182010327",
-      "pdf": "https://doi.org/10.3390/su182010327",
-      "title": "Digital and Intelligent Technologies for Construction and Demolition Waste Sorting: A Systematic Mapping Review of Research Maturity, Circularity Outcomes, and Industry Gaps",
-      "summary": "Construction and demolition waste (CDW) sorting is increasingly supported by digital and intelligent technologies, yet their functional coverage, maturity, circular economy (CE) contribution and alignment with industrial practice remain fragmented. This review systematically mapped the field using a PRISMA-based search, with 396 publications forming the broader bibliometric corpus. Within this corpus, 204 publications were retained for the scoped review, comprising 185 primary technical studies and 19 review articles. An illustrative ZenRobotics/Kuljetusrinki case was examined separately withi",
-      "authors": [
-        "Shanuka Dodampegama",
-        "Lei Hou",
-        "Ehsan Asadi",
-        "Sk. Reza‐E‐Rabbi",
-        "Sujeeva Setunge",
-        "Guomin Zhang"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221324079",
-      "url": "https://doi.org/10.1007/s42114-026-02119-5",
-      "pdf": "https://doi.org/10.1007/s42114-026-02119-5",
-      "title": "Bio-inspired flexible pressure sensors: morphology-guided structure–function relationships, reliability, and future perspectives",
-      "summary": "Bio-inspired flexible pressure sensors have emerged as a major class of soft sensing systems for wearable electronics, electronic skin, human–machine interfaces, and soft robotics because biological structures provide effective design principles for regulating deformation, contact evolution, and interfacial adaptation. However, the field remains difficult to compare critically because reported performance is often discussed through isolated sensitivity values, while the structural origins of signal generation, the pressure-regime dependence of response, and the reliability limits of the underl",
-      "authors": [
-        "Mohammed Nabeel",
-        "Ali J. Addie",
-        "Nabil Kadhim Taieh",
-        "László Vanyorek",
-        "Ying Li"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221434922",
-      "url": "https://doi.org/10.1016/j.rcim.2026.103442",
-      "pdf": "https://www.sciencedirect.com/science/article/pii/S0736584526002632/pdf",
-      "title": "Cross-robot open-set fault detection via normal-only adaptation and residual latent-space alignment",
-      "summary": "Reliable fault detection and health monitoring of industrial robots are important for smart manufacturing in Industry 4.0. However, robotic platforms differ in their mechanical design, sensing characteristics, and operating conditions. These differences make it difficult for data-driven models to generalize to unseen robots and working conditions. To address this challenge, this paper proposes a cross-robot framework for open-set fault detection using only normal data from the target robot. The framework uses a condition-normalized residual adaptation mechanism in the latent space. First, a st",
-      "authors": [
-        "Izaz Raouf",
-        "Heung Soo Kim",
-        "Peng Edward Wang"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221437404",
-      "url": "https://doi.org/10.1245/s10434-026-20729-7",
+      "id": "W7221448131",
+      "url": "https://doi.org/10.1007/s11701-026-04046-5",
       "pdf": "",
-      "title": "Robotic versus Conventional Minimally Invasive Esophagectomy for Resectable Esophageal Cancer After Neoadjuvant Therapy: A Dual-Center Retrospective Study",
+      "title": "Force feedback and vocal cord dysfunction after robotic esophagectomy: a comparison of the da Vinci 5 and Xi systems",
       "summary": "",
       "authors": [
-        "Tianzheng Shen",
-        "Yingyi Li",
-        "Wenwu He",
-        "Yajie Zhang",
-        "Chengqiang Li",
-        "Yongtao Han",
-        "Chenghao Wang",
-        "Hecheng Li"
+        "Cho Eun LEE",
+        "Jiyeon Kim",
+        "Danbee Kang",
+        "Seong Yong Park"
       ],
-      "published": "2026-10-11",
+      "published": "2026-10-12",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -268,18 +352,22 @@
       "trending": 0.0
     },
     {
-      "id": "W7221438120",
-      "url": "https://doi.org/10.1145/3858345",
-      "pdf": "",
-      "title": "Belief-based Risk-Aware Anticipatory Navigation: Modeling Intention and Position Uncertainty for Safe and Efficient Robot Navigation",
-      "summary": "The increasing deployment of Automated Mobile Vehicles (AMVs) in warehouses requires efficient navigation in dynamic environments shared with human workers. Traditional safety strategies, such as stopping or slowing down, often reduce efficiency and do not account for human-robot interaction. To address this, interaction-aware methods have been developed. However, traditional interaction models assume fixed parameters, rely on a single forecast, or use intent labels that are not updated during the interaction, and thus do not explicitly represent intention uncertainty, that is, variability in ",
+      "id": "W7221449918",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116637",
+      "pdf": "https://doi.org/10.1016/j.optlastec.2026.116637",
+      "title": "Fabrication of Conformal FSS Radome Based on MOPSO inverse design and mask spraying",
+      "summary": "Conformal electromagnetic structures play an important role in modern aerospace and communication systems by combining spatial filtering capability with aerodynamic compatibility. However, transferring planar frequency-selective surfaces (FSSs) onto complex curved profiles can induce resonant-frequency drift and geometric distortion, creating challenges for both electromagnetic co-design and precision fabrication. Here, we introduce a closed-loop framework that seamlessly integrates artificial intelligence-driven inverse design with an automated robotic spraying process. By employing a multi-o",
       "authors": [
-        "Fengkai Liu",
-        "Yuichi Ohsita",
-        "Nattaon Techasarntikul",
-        "Masayuki Murata"
+        "Jin-Yang Li",
+        "Jun-Long Liu",
+        "Hao-Bin Su",
+        "Han Ye",
+        "Xuewei Ju",
+        "Bei-Yuan Liang",
+        "Yongzhen Liu",
+        "Xiangfeng Wang"
       ],
-      "published": "2026-10-11",
+      "published": "2026-10-12",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -290,236 +378,178 @@
       "trending": 0.0
     },
     {
-      "id": "W7221443810",
-      "url": "https://doi.org/10.1609/aies.v9i4.43325",
-      "pdf": "https://ojs.aaai.org/index.php/AIES/article/download/43325/50885",
-      "title": "Rules or Character? Scaling Laws for AI Safety Design (Extended Abstract)",
-      "summary": "Artificial Intelligence (AI) safety systems combine character shaping (e.g., Reinforcement Learning from Human Feedback [RLHF], Constitutional AI), which modifies behavioral distributions at training time, with rule enforcement (e.g., output filters, safety classifiers), which blocks harmful outputs at inference time, yet little formal analysis exists on how their optimal balance should change as deployment scales increase. We introduce a stylized comparative-statics model that parameterizes safety design as a resource allocation α ∈ [0,1] between these two approaches, incorporating scale-depe",
-      "authors": [
-        "Satoshi Takahashi",
-        "Nobuji Kouno",
-        "Masaaki Komatsu",
-        "Ryuji Hamamoto"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221444399",
-      "url": "https://doi.org/10.1177/09544100261497387",
+      "id": "W7221450344",
+      "url": "https://doi.org/10.1007/s11701-026-04060-7",
       "pdf": "",
-      "title": "Survival-aware self-play reinforcement learning for partially observable beyond visual range air combat",
-      "summary": "We present a recurrent self-play reinforcement learning framework for autonomous beyond-visual-range (BVR) air combat under partial observability. The environment is formulated as a decision-level BVR missile-duel simulator that combines 3-DoF aircraft kinematics, field-of-view radar observation, track-quality decay, flight-envelope action masking, and an energy-aware missile model with boost, coast, drag, and proportional-navigation guidance. To handle intermittent radar contact, the policy uses an LSTM backbone. To stabilize recurrent training, we introduce trajectory-aligned hidden-state ma",
+      "title": "Post-market safety signals of energy-based surgical devices: a cross-specialty disproportionality analysis of the FDA MAUDE database with robotic-platform validation and regulatory triangulation, 2015–2025",
+      "summary": "",
       "authors": [
-        "Lianqun Zhang",
-        "Jingwei Zhao",
-        "Yu Zhang"
+        "Ruifeng Shi"
       ],
-      "published": "2026-10-11",
+      "published": "2026-10-12",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221446550",
-      "url": "https://doi.org/10.1609/aies.v9i4.43368",
-      "pdf": "https://ojs.aaai.org/index.php/AIES/article/download/43368/50928",
-      "title": "Virtue by Observation: Social Reinforcement Learning for Intrinsically Ethical Agents",
-      "summary": "Reinforcement learning is increasingly deployed in settings with ethical stakes, yet rule-based and scalar-reward alignment approaches remain brittle and prone to proxy gaming. I argue that two of their most persistent failures, hallucination and moral drift, share a single structural cause, which I term \\textit{feedback collapse}: the compression of plural human values into a static scalar reward by a fixed evaluation model. My research develops a virtue-centric alternative, Social Reinforcement Learning, in which evaluative authority is distributed across a dynamic population of peer agents.",
-      "authors": [
-        "Majid Ghasemi"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221590379",
-      "url": "https://doi.org/10.2118/234003-ms",
+      "id": "W7221451694",
+      "url": "https://doi.org/10.1007/s11701-026-04052-7",
       "pdf": "",
-      "title": "Spatiotemporal Computer Vision Model for Real-Time Liquid Spill Detection to Mitigate Financial and Environmental Risk in Oil and Gas Facilities",
-      "summary": "Abstract Uncontrolled liquid spills in upstream and midstream facilities represent a significant threat to safety, operational profitability and environmental compliance. Traditional detection methods often suffer from delayed response times, inability to pinpoint the exact leak source, and high rates of false alarms that lead to operator desensitization. This paper quantifies the operational benefits and demonstrates the environmental sustainability value of a real-time Deep Learning and video analytics framework designed to provide immediate spill detection and precise localization across cr",
+      "title": "Robotic colorectal cancer surgery: perioperative and oncological outcomes at a national referral center in Mexico",
+      "summary": "",
       "authors": [
-        "Jae Yoon Chung",
-        "Mehdi Korjani"
+        "José M. Aguilar‐Romero",
+        "Itzel Vela Sarmiento",
+        "Javier Melchor-Ruan",
+        "Héctor Martínez‐Said",
+        "Jorge Luis Aguilar-Frasco",
+        "Leonardo Saul Lino-Silva",
+        "Adrian N. Morales Moreno"
       ],
-      "published": "2026-10-14",
+      "published": "2026-10-12",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 4.5,
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221454349",
+      "url": "https://doi.org/10.1007/s11701-026-04037-6",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-04037-6.pdf",
+      "title": "Femoral rotation and medial flexion gap tightness in functional alignment robotic total knee arthroplasty for varus knees",
+      "summary": "Functional-alignment (FA) robotic total knee arthroplasty (TKA) combines component positioning and soft-tissue management. This study described the association between medial flexion-gap tightness and surgeon-selected femoral rotation, together with release grades and intraoperative gap asymmetry in varus knees. This observational single-surgeon study included the 65 varus knees in an 89-knee database. Medial tightness was defined as lateral minus medial preoperative flexion gap. Correlation and ordinary least-squares regression used 63 complete observations. Recorded preoperative, planned and",
+      "authors": [
+        "Eduardo Frois Temponi",
+        "Pedro Henrique Oliveira Gomes",
+        "Alexandre Leite de Andrade",
+        "Miguel Jourdain Alipio do Vale",
+        "Matheus Braga Jacques Soares",
+        "Luiz Fernando Machado Soares",
+        "Lúcio Honório de Carvalho"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221456306",
+      "url": "https://doi.org/10.1007/s11701-026-03923-3",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-03923-3.pdf",
+      "title": "Augmenting colonoscopy with artificial intelligence and robotic assistance: a human-factors scoping review toward a task-based shared autonomy paradigm",
+      "summary": "Colonoscopy is central to colorectal cancer prevention but remains a high-demand psychomotor and cognitive procedure, characterized by operator dependency, variable performance, and substantial physical and mental workload. Increasing evidence links procedural quality and safety to clinician-related factors, including musculoskeletal strain, fatigue, and non-technical skills. Concurrently, artificial intelligence (AI) and robotic technologies are emerging as potential tools to address these limitations. We conducted a scoping review with narrative synthesis of literature on human factors, ergo",
+      "authors": [
+        "Luigi Manfredi",
+        "Alfredo Annicchiarico",
+        "Gianpiero G Gravante"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221457669",
+      "url": "https://doi.org/10.1007/s11701-026-04023-y",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-04023-y.pdf",
+      "title": "Comparative operative performance of three robotic platforms in benign gynecologic surgery: a single-surgeon retrospective cohort study",
+      "summary": "This single-surgeon retrospective cohort study compared operative efficiency and perioperative outcomes among the da Vinci Xi, Hugo RAS, and da Vinci SP platforms in 218 women undergoing robotic hysterectomy or myomectomy for benign disease. The primary outcome was console time; secondary outcomes included operative time, estimated blood loss, length of stay, and complications. Hysterectomy models were adjusted for age, obesity, and total specimen weight. Myomectomy models additionally accounted for the number of myomas and maximum myoma diameter. Adjusted hysterectomy console times were 96.3 ",
+      "authors": [
+        "Kim-Seng Law",
+        "Ruri Mineda",
+        "Tze Swen Looi",
+        "Peng-Yu Chen",
+        "Yi-Ching Chen",
+        "Pei-Jhen Wu"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221503641",
+      "url": "https://doi.org/10.5281/zenodo.23310175",
+      "pdf": "https://doi.org/10.5281/zenodo.23310175",
+      "title": "Windmill Problem Explained: 2011 IMO P2 and Garment Folding Robotics — E8 Intelligence Research",
+      "summary": "FINDING: The search results are mostly video titles and abstracts, not actual solutions. The only concrete mathematical content is the 2011 IMO windmill problem (P2) and a robotics paper on garment folding. No IMO 2025/2026 solutions are present. | MATH: Windmill problem (2011 IMO P2): Given a set of \\(n\\) points in general position, a \"windmill\" process rotates a line through a pivot point, switching pivot to the next point hit. The key result: for any initial line, the process eventually cycles, and the pivot visits every point infinitely often. The proof uses a potential function: the numbe",
+      "authors": [
+        "Andrew Stewart Caldin"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221508770",
+      "url": "https://doi.org/10.3390/s26206452",
+      "pdf": "https://doi.org/10.3390/s26206452",
+      "title": "Fault-Diagnosis-Aware Adaptive Policy Switching for Robust Map-Free Mobile Robot Navigation Under Sensor and Control Degradation",
+      "summary": "Heterogeneous sensor and control degradation can destabilize direct sensor-to-action navigation. This study presents a fault-diagnosis-aware adaptive policy-switching framework that combines a calibrated seven-class temporal health-state classifier with hysteretic routing among nominal, robust-fallback, and six fault-specialized proximal policy optimization (PPO) policies. Unlike monolithic robust reinforcement learning, the architecture makes the inferred degradation mode an explicit and auditable control variable and separates health-state inference from behavior selection. Across a large he",
+      "authors": [
+        "Taner Yılmaz",
+        "Ömür Aydoğmuş"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221510852",
+      "url": "https://doi.org/10.1016/j.engstruct.2026.123949",
+      "pdf": "https://doi.org/10.1016/j.engstruct.2026.123949",
+      "title": "Digital design, 3D printing and prefabricated modular assembly of large-scale concrete structures",
+      "summary": "This study validates a closed-loop digital–physical workflow for large-scale 3D-printed concrete (3DPC) structure through the full-scale realisation of a 9-metre-high shell building in the Gobi Desert. The workflow integrates: (1) buildability-constrained, multi-objective form-finding, in which fresh-state stability limits are enforced during geometry generation; (2) reinforcement- and joint-integrated modular assembly, where segmentation is guided by fabrication and logistical constraints while maintaining reinforcement continuity across modules; and (3) full-scale field validation of end-to-",
+      "authors": [
+        "Zhen nan Wu",
+        "Hailong Wang",
+        "Xiqiang Lin",
+        "Xiaoyan Sun"
+      ],
+      "published": "2026-10-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
       "pick": "Computer Vision",
       "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214774305",
-      "url": "https://doi.org/10.1016/j.gmod.2026.101343",
-      "pdf": "https://doi.org/10.1016/j.gmod.2026.101343",
-      "title": "Superquadric primitive decomposition of 3D point clouds via geometric-aware inlier refinement",
-      "summary": "The decomposition of 3D point clouds into interpretable geometric primitives remains a longstanding challenge in Computer Vision and Computer Graphics. Among the available representations, superquadrics offer a compact and expressive model capable of capturing a wide range of shapes. However, their estimation is inherently challenging, as it requires solving a non-linear optimization problem and is particularly sensitive to noise, outliers, and overlapping structures. While robust estimation methods such as RanSaC and its variants achieve strong performance, they rely primarily on spatial prox",
-      "authors": [
-        "Alessandro Rinaldi",
-        "Edoardo Tedesco",
-        "Andrea Ferraris",
-        "Filippo Leveni",
-        "Daniele Baieri",
-        "Filippo Maggioli",
-        "Simone Melzi",
-        "Luca Magri"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221436490",
-      "url": "https://doi.org/10.32628/cseit2612535",
-      "pdf": "https://ijsrcseit.com/home/article/download/CSEIT2612535/CSEIT2612535",
-      "title": "A Computer Vision-Based Driver Drowsiness Detection System Using Facial Landmarks and Temporal Eye Analysis",
-      "summary": "Driver drowsiness is an important traffic safety problem, as reduced alertness is known to affect visual attention, decision making and reaction time thereby increasing the risk of unsafe driving. Continuous monitoring of driver behavior can help identify visual signals that are associated with drowsiness and provide feedback to the driver in a timely manner. In this paper, we present a web CV driver monitoring system that focuses on drowsiness detection based on facial landmarks and temporal eye behavior. We detect the driver face and obtain 68 facial landmark points to inspect eye part by th",
-      "authors": [
-        "Sri Surya Dharmaraj V",
-        "V. S. Anita Sofia",
-        "L. Thara"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221444518",
-      "url": "https://doi.org/10.5281/zenodo.23298932",
-      "pdf": "https://doi.org/10.5281/zenodo.23298932",
-      "title": "Main Dataset(Gazebo-Based Aerial Target Detection Dataset for UAV Research)",
-      "summary": "Gazebo-Based Aerial Target Detection Dataset This dataset contains 1,344 simulated aerial target images generated by the authors in the Gazebo simulation environment for unmanned aerial vehicle (UAV) object detection research. It includes three aerial vehicle classes: x4_uav, x3_uav, and fixed_wing. The images were collected from different camera perspectives, including side and top views, under varying flight scenarios, target positions, distances, and motion conditions. The dataset was manually annotated using the Computer Vision Annotation Tool (CVAT). Bounding box annotations are provided ",
-      "authors": [
-        "Sumeyya Akbulut"
-      ],
-      "published": "2026-10-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221591162",
-      "url": "https://doi.org/10.5281/zenodo.23350240",
-      "pdf": "https://doi.org/10.5281/zenodo.23350240",
-      "title": "Who Sets the Target? — A Reply to Zwitter on the Embodied Ethics Alignment Problem",
-      "summary": "An open reply to Andrej Zwitter, \"The embodied ethics alignment problem of AI\" (*Discover Artificial Intelligence*, 2026). The original paper grades alignment into **strong** (the machine genuinely *is* moral) and **weak** (the machine only *performs* the part), and concludes that strong alignment is a category error, since moral agency depends on a form of human life that machines lack. This text does not dispute that \"machines cannot do this yet.\" It asks where the origin of the scale has been placed — on \"the human\" — and argues that the same facts, read from a different origin (\"can it bea",
-      "authors": [
-        "枣"
-      ],
-      "published": "2026-10-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221596850",
-      "url": "https://doi.org/10.5302/j.icros.2026.26.0176",
-      "pdf": "",
-      "title": "Camera-LiDAR-based Indirect Evaluation of Estimated Driving Trajectories for Aircraft MRO Inspection Robots",
-      "summary": "",
-      "authors": [
-        "Minyoung Jang",
-        "Suji Kim",
-        "Minho Lee",
-        "Hyungsuk Oh",
-        "Sangook Cho",
-        "심인욱"
-      ],
-      "published": "2026-10-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221599173",
-      "url": "https://doi.org/10.5302/j.icros.2026.26.9004",
-      "pdf": "",
-      "title": "Guest Editorial: Industrial Applications of Physical AI Technology for Robot Vision",
-      "summary": "",
-      "authors": [
-        "Sungho Kim",
-        "황영배",
-        "이왕헌"
-      ],
-      "published": "2026-10-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221600444",
-      "url": "https://doi.org/10.2118/233885-ms",
-      "pdf": "",
-      "title": "Evaluating Casing Wear Risk in a Legacy North Sea Well Repurposed for CCUS: A Case Study",
-      "summary": "Abstract Reusing legacy oil and gas wells as carbon dioxide (CO2) injectors can reduce the cost, schedule and embodied emissions of a carbon capture, utilization and storage (CCUS) development compared with drilling purpose-built injection wells. Legacy wells were, however, designed and constructed for hydrocarbon production, and any casing wear sustained during the original drilling campaign was assessed, if it was assessed at all, against a production design envelope. CO2 injection subjects the same casing string to a different combination of pressure, temperature and load cases, and a wear ",
-      "authors": [
-        "Douglas Gouraly",
-        "Gergana Vanova",
-        "Lingfen Pan"
-      ],
-      "published": "2026-10-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
       "trending": 0.0
     }
   ]
