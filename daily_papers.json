@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18 22:03 UTC",
+  "generated_at": "2026-10-19 19:34 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,39 +9,17 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7221872921",
-      "url": "https://doi.org/10.20944/preprints202610.1486.v1",
-      "pdf": "https://doi.org/10.20944/preprints202610.1486.v1",
-      "title": "Object Visibility Estimation for Pick-Order Reasoning in Robotic Bin Picking",
-      "summary": "In warehouse bin picking, a manipulator must decide which object to remove first, because grasping a pinned object often fails or drags neighbouring items out of the bin. Prevailing approaches rely on amodal instance segmentation: the full extent of each partially occluded object is first predicted, and occlusion is inferred from the area ratio between the visible and the completed mask. Completing occluded regions is ill-posed and multi-modal, so shape errors propagate into the pick order while incurring substantial computational cost. We propose a more direct formulation: pick-order reasonin",
+      "id": "W4416373076",
+      "url": "https://doi.org/10.1016/j.mechatronics.2026.103625",
+      "pdf": "https://doi.org/10.1016/j.mechatronics.2026.103625",
+      "title": "An amphibious untethered inchworm soft robot for fast crawling locomotion",
+      "summary": "Untethered soft robots are essential for advancing the real-world deployment of soft robotic systems in diverse and multitasking environments. Inspired by soft-bodied inchworm, we present a fully untethered soft robot with a curved, flexible structure actuated by magnetic forces. The robot has a total mass of 102.63 g and demonstrates multimodal locomotion, achieving a maximum walking speed of 3 . 7 4 c m / s and a swimming speed of 0 . 8 2 c m / s . A compact and lightweight onboard control circuit enables wireless command transmission, while an integrated camera provides environmental percep",
       "authors": [
-        "Zhao Yi",
-        "Wei Li",
-        "Xu Yan",
-        "Zhen Qi"
+        "Mohammadjavad Javadi",
+        "Charlie Wadds",
+        "Robin Chhabra"
       ],
-      "published": "2026-10-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221847786",
-      "url": "https://doi.org/10.17605/osf.io/z8qyj",
-      "pdf": "https://doi.org/10.17605/osf.io/z8qyj",
-      "title": "Effectiveness of Telenursing, Nurse-Led Online Consultation, and Clinical Robotics on Patient Clinical Outcomes, Quality of Life, and Nursing Workload: A Systematic Review and Subgroup/Network Meta-Analysis",
-      "summary": "Prospective systematic review and subgroup/network meta-analysis protocol evaluating the effectiveness of synchronous nurse-led teleconsultation, asynchronous telenursing/remote patient monitoring (RPM), and embodied clinical nursing robotics (telepresence, socially assistive, and physical assistive robots) on unplanned hospital readmissions, patient health-related quality of life (HRQoL), psychological distress, and nursing workload.",
-      "authors": [
-        "Ali Razavi",
-        "Zahra Mahdavi Khanouki",
-        "Zahra Mehravar"
-      ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -52,36 +30,57 @@
       "trending": 0.0
     },
     {
-      "id": "W7138442479",
-      "url": "https://doi.org/10.1080/01691864.2026.2736439",
-      "pdf": "https://arxiv.org/pdf/2603.14787",
-      "title": "Dynamic properties and motion reproducibility of a compact pneumatically actuated humanoid upper body for data-driven control",
-      "summary": "Pneumatically-actuated anthropomorphic robots with high degrees of freedom (DOF) offer significant potential for physical human-robot interaction. However, precise control of pneumatic actuators is challenging due to their inherent nonlinearities. This paper presents the development of a compact 13-DOF upper-body humanoid robot. To assess the feasibility of an effective controller, we first investigate its key dynamic properties, such as actuation time delays, and confirm that its behavior is reproducible across repeated trials. Leveraging this reproducibility, we implement a preliminary data-",
+      "id": "W7213491583",
+      "url": "https://doi.org/10.7275/58838",
+      "pdf": "https://hdl.handle.net/20.500.14394/58838",
+      "title": "Compact Reinforcement Learning: Resource-Efficient Formulations for Large-Scale Decision Making",
+      "summary": "Reinforcement learning (RL) offers a general framework for addressing problems involving sequential decision-making. However, modern practical applications of RL involve prohibitively large state and action sets: such as those in slate recommendations, image-based control, and large language-modeling tasks. Standard formulations of these problems demand intractable amounts of data and computational resources. Achieving high performance without incurring high resource costs requires compact problem formulations that capture task-relevant information while abstracting away the rest. This thesis ",
       "authors": [
-        "Hiroshi Atsuta",
-        "Hisashi Ishihara",
-        "Minoru Asada"
+        "Shreyas Chaudhari"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
     },
     {
-      "id": "W7221795180",
-      "url": "https://doi.org/10.5281/zenodo.23381382",
-      "pdf": "https://doi.org/10.5281/zenodo.23381382",
-      "title": "Packi: demonstrations and LoRA fine-tuning for online 3D bin packing with LLMs",
-      "summary": "Demonstration data and training code for the paper 'Packi: Robotic 3D Bin Packing With Large Language Models Fine-Tuned by Learning From Demonstration' (Journal of Robotics, under revision): the interactive demonstration recorder, human and privileged-expert demonstrations, the data preparation and LoRA training scripts, and the training run log. Trained models: https://huggingface.co/kasramojallal. Companion repository (evaluation): https://github.com/kasramojallal1/llm-robotic-packer.",
+      "id": "W7222427116",
+      "url": "https://doi.org/10.3390/drones10100780",
+      "pdf": "https://doi.org/10.3390/drones10100780",
+      "title": "WAGRL: A Wind Adaptive Guidance Framework for Uncertainty-Aware UAV Trajectory Control",
+      "summary": "To address the challenges of wind-induced uncertainty, decision inconsistency, and safety risks in quadrotor trajectory tracking, this study presents a Wind Adaptive Guidance Reinforcement Learning (WAGRL) framework. Unlike conventional controllers relying on fixed aerodynamic models, WAGRL integrates ensemble-based policy learning with uncertainty-guided reinforcement learning to adaptively manage diverse wind conditions. A set of digital expert policies is trained to capture heterogeneous wind-response strategies, and an ensemble-based estimation mechanism quantifies epistemic uncertainty fo",
       "authors": [
-        "Kasra Mojallal"
+        "Bodi Ma",
+        "Sili Yang",
+        "Yong Tang",
+        "Guozhu Zhi",
+        "Kelin Zhong"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7222898642",
+      "url": "https://doi.org/10.5281/zenodo.23460686",
+      "pdf": "https://doi.org/10.5281/zenodo.23460686",
+      "title": "World Collection: Simulation Worlds for Evaluating Robot Exploration and Navigation",
+      "summary": "World Collection is a set of 42 Gazebo Harmonic worlds for testing autonomous exploration, navigation and SLAM in simulation. The worlds are grouped by purpose: ten single-challenge worlds, each built around one layout feature such as a narrow passage, dead ends, a loop, clutter or open space; two pilot worlds for setup and parameter tuning; twenty-five worlds from five seeded generated families (mazes, offices, warehouse aisles, forests and city blocks) that vary size, rooms, doors or density in a controlled way; three worlds based on real places; and two worlds with moving obstacles whose mo",
+      "authors": [
+        "Mert Güler"
+      ],
+      "published": "2026-10-19",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -92,25 +91,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7221831924",
-      "url": "https://doi.org/10.21203/rs.3.rs-11118236/v1",
-      "pdf": "https://doi.org/10.21203/rs.3.rs-11118236/v1",
-      "title": "Autonomous robotic photography as a creative urban service",
-      "summary": "",
+      "id": "W7169701400",
+      "url": "https://doi.org/10.1007/978-3-032-40108-3_18",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-40108-3_18.pdf",
+      "title": "All Dressed Up: Requirements for Human-Robot Teamwork",
+      "summary": "Abstract Human-Robot teams increasingly operate as Collective Adaptive Systems (CAS), where autonomous components, AI-based perception, and human teammates interact under uncertainty. In safety-critical scenarios where humans and robots must collaborate and communicate effectively, such as assistive robotics, there is no systematic methodology or guidance for eliciting suitable requirements. To address this, we previously developed a taxonomy for Human-Robot Teamwork requirements to guide and encourage developers to consider important aspects of Human-Robot Teamwork when eliciting (and subsequ",
       "authors": [
-        "Jia Pan",
-        "Chang Chen",
-        "Dawei Wang",
-        "Zhilan Liao",
-        "Hang Xu",
-        "Yipeng Pan",
-        "Ignatius Japar",
-        "Mathieu Chambe",
-        "Xiaofeng Liu",
-        "Hua Chen",
-        "Marc Christie"
+        "Hazel M Taylor",
+        "Yasmeen Rafiq",
+        "Amber Drinkwater",
+        "Sanja Dogramadzi",
+        "Louise; id_orcid 0000-0003-1426-1896 Dennis",
+        "Marie Farrell"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -121,35 +115,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7221833225",
-      "url": "https://doi.org/10.5281/zenodo.23381380",
-      "pdf": "https://doi.org/10.5281/zenodo.23381380",
-      "title": "Packi: evaluation harness, test sequences and run records for online 3D bin packing with LLMs",
-      "summary": "Evaluation code and data for the paper 'Packi: Robotic 3D Bin Packing With Large Language Models Fine-Tuned by Learning From Demonstration' (Journal of Robotics, under revision): the headless evaluation harness, the fixed test sequences of all benchmarks, every run record behind the paper's tables, and the scripts that generate the tables and figures. Trained models: https://huggingface.co/kasramojallal. Companion repository (demonstrations and training): https://github.com/kasramojallal1/learning-from-demonstration.",
+      "id": "W7213219967",
+      "url": "https://doi.org/10.7275/58718",
+      "pdf": "https://hdl.handle.net/20.500.14394/58718",
+      "title": "A Robotic System to Exploit the Dynamics of an Unconstrained Fluid for Gait Intervention",
+      "summary": "Hydrotherapy is a relatively common method of gait training due to the benefits of buoyancy for subjects with muscle weakness and the ability to use drag from recirculating flow to provide resistance training for athletes. However, the forces generated by the underwater treadmill are largely determined by the subject’s anatomy and can only be grossly modified by adjusting the treadmill and flow speed. Existing approaches that attempt to apply targeted forces to more deliberately achieve specific outcomes from the process rely on adapting on-ground robotic rehabilitation technology for underwat",
       "authors": [
-        "Kasra Mojallal"
+        "Rishiraj Bose"
       ],
-      "published": "2026-10-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7221891591",
-      "url": "https://doi.org/10.25258/ijddt.16.70s.43",
-      "pdf": "https://doi.org/10.25258/ijddt.16.70s.43",
-      "title": "PHYSIOTHERAPY IN ROBOTIC-ASSISTED ABDOMINAL SURGERY: BRIDGING PHYSIOLOGICAL RATIONALE AND CLINICAL PRACTICE — A NARRATIVE REVIEW",
-      "summary": "Background: Robotic platforms are now well established across gynaecological, urological and gastrointestinal surgery, largely because they give operators steadier hands, filtered tremor and a three-dimensional view that conventional laparoscopy cannot match [1,2]. That technical advantage comes with a physiological cost: long periods of pneumoperitoneum, steep head-down (Trendelenburg) positioning and extended time under anaesthesia place extra strain on the respiratory and functional systems, and this strain can slow the first days of recovery [4– 6,9–11]. Objective: This review pulls togeth",
-      "authors": [
-        "Aathira Nair",
-        "Naik Varun"
-      ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -160,16 +134,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7221940693",
-      "url": "https://doi.org/10.5281/zenodo.23263562",
-      "pdf": "https://doi.org/10.5281/zenodo.23263562",
-      "title": "Fiber Layout Design and G-code Generation Tool for Cylindrical, Fiber Reinforced Soft Actuators",
-      "summary": "This software provides a parametric framework for the design and fabrication of fiber-reinforced cylindrical soft actuators. Users can define actuator dimensions, fiber angles, strand distributions, and reinforcement patterns, after which the software generates a 3D model of the architecture and corresponding G-code for manufacturing on rotary fdm printers. This software was developed as part of an ongoing research project on fiber-reinforced soft robotic actuators and accompanies a manuscript currently under review for publication.",
+      "id": "W7221841628",
+      "url": "https://doi.org/10.7275/58977",
+      "pdf": "https://hdl.handle.net/20.500.14394/58977",
+      "title": "FROM TRAJECTORY OPTIMIZATION TO LEARNING: DEVELOPING CONTROLLERS FOR DYNAMIC LEGGED ROBOTS",
+      "summary": "Legged robots are well suited for cluttered, uneven, and human-centered environments that remain challenging for wheeled systems. However, achieving agile, robust, and efficient locomotion comparable to that of humans and animals in such settings remains difficult due to underactuation, nonlinear hybrid dynamics, and the need for robustness to model uncertainty, complex interactions with uncertain environments, and external disturbances, all under strict real-time control requirements. To address these challenges, this thesis develops control frameworks for legged robots that bridge model-base",
       "authors": [
-        "Alexis Van Merris",
-        "Benjamin Gorissen"
+        "Daniel Marew"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -180,15 +153,55 @@
       "trending": 0.0
     },
     {
-      "id": "W7222839747",
-      "url": "https://doi.org/10.5281/zenodo.23443258",
-      "pdf": "https://doi.org/10.5281/zenodo.23443258",
-      "title": "FEDERATED SWARM LEARNING FOR PERSONALIZED BCI AT THE LIMIT STARLI RESEARCH WORKS | INSTITUTE XXIV | FLAGSHIP 23 Feng Cheng-en 33 × Starli PUBLICATION DESCRIPTION (COPY-READY) Can brain–computer interface systems learn from multiple laboratories and microrobotic sensing platforms without transferring raw neural recordings, reproducing device-specific shortcuts, or sacrificing the least-represented participants? This research monograph explores that question through the coupling of local swarm learning, privacy-preserving collaboration, and out-of-site generalization. The volume treats federation as a testable scientific and governance architecture—not an automatic privacy guarantee. It distinguishes confidential transport, secure aggregation, formal differential privacy, machine-unlearning claims, and genuine downstream withdrawal of model influence. It examines non-identically distributed neural data, sensor drift, personalized calibration, negative transfer, client-level poisoning, subgroup equity, and the difficult question of who may authorize a model update or a subsequent BCI-mediated action. Its research structure includes 30 linked mathematical derivation and definition plates; 82 chapters, each with five separately paginated research sections; 200 detailed Research Gates that offer future investigators falsifiable experimental entry points; and 33 Phoenix Answer Embryos designed for revision, disconfirmation, and scientific handoff. A 20-record DOI evidence ledger anchors established methods while keeping proposed neurovascular microrobot integrations clearly distinct from demonstrated evidence. The central research challenge is not simply to improve average federated accuracy. It is to determine when shared structure remains predictive at previously unseen sites, when local autonomy is the scientifically stronger answer, and when the responsible choice is to abstain, revert, or retire a model. This is a non-clinical, hypothesis-generating research atlas, not evidence of validated human neurovascular microrobots, a clinically proven BCI, or guaranteed data privacy.",
-      "summary": "FEDERATED SWARM LEARNING FOR PERSONALIZED BCI AT THE LIMITSTARLI RESEARCH WORKS | INSTITUTE XXIV | FLAGSHIP 23Feng Cheng-en 33 × Starli PUBLICATION DESCRIPTION (COPY-READY) Can brain–computer interface systems learn from multiple laboratories and microrobotic sensing platforms without transferring raw neural recordings, reproducing device-specific shortcuts, or sacrificing the least-represented participants? This research monograph explores that question through the coupling of local swarm learning, privacy-preserving collaboration, and out-of-site generalization. The volume treats federation ",
+      "id": "W7221926176",
+      "url": "https://doi.org/10.1016/j.oraloncology.2026.108172",
+      "pdf": "https://doi.org/10.1016/j.oraloncology.2026.108172",
+      "title": "Transoral robotic versus laser surgery for cT1-T3 supraglottic laryngeal cancers: a systematic review and meta-analysis of comparative and non-comparative studies",
+      "summary": "Background To compare literature findings about functional, oncological and surgical outcomes of transoral robotic (TORS) versus transoral laser microsurgery (TOLM) for supraglottic cT1-T3 laryngeal cancers. Methods Three independent investigators conducted a PubMed, Scopus, and Cochrane Library search for papers reporting oncological, functional and surgical (complications) outcomes of TOLM and TORS. Outcomes were statistically compared considering controlled (direct) studies, and indirectly between single-arm cohort studies. Results Fifty studies (2,644 patients) were included: 19 single-arm",
+      "authors": [
+        "Jerome Rene Lechien",
+        "Luigi Angelo Vaira",
+        "Robin Baudouin",
+        "Pierre Guarino",
+        "Carlos Miguel Chiesa-Estomba",
+        "Aliya Turayeva",
+        "Kalamkas Sagandykova",
+        "Matteo Lazzeroni",
+        "Giannicola Iannella",
+        "Aynur Aliyeva",
+        "Stéphane Hans",
+        "Antonino Maniaci",
+        "Giovanni Salzano",
+        "Łukasz Woźniak",
+        "Bożena Antonowicz",
+        "Florent Carsuzaa",
+        "Giovanni Cammaroto",
+        "Nicolien Van Der Poel",
+        "Alberto Maria Saibene",
+        "Miguel Mayo‐Yáñez",
+        "Armando DE VIRGILIO",
+        "Abdul-Latif Hamdan"
+      ],
+      "published": "2026-10-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221928230",
+      "url": "https://doi.org/10.5281/zenodo.23406481",
+      "pdf": "https://doi.org/10.5281/zenodo.23406481",
+      "title": "ASSIST AS NEEDED NANOROBOTIC NEUROREHABILITATION Motor-state estimation × minimum necessary assistance × transfer without assistance STARLI Research Works | Institute XXIII | Flagship 08 Author: Feng Cheng-en 33 × Starli Edition: Research Edition v1.0 | Nonclinical exploratory monograph PUBLICATION DESCRIPTION Can an adaptive rehabilitation device improve learning without quietly replacing the very human capability it aims to restore? This research edition investigates the distinction between successful machine-assisted task completion, independent motor capacity, and retained skill after assistance is withdrawn. The volume places assist-as-needed control inside a falsifiable scientific architecture. It considers latent fatigue and capability estimation, compliant actuation, feedback delay, voluntary effort, treatment-policy confounding, masked assistance withdrawal, cross-task transfer, fairness of comparisons, and reproducible nonclinical research. It evaluates whether complex adaptive strategies confer meaningful advantage over fixed-gain guidance, conventional rehabilitation robotics, dose-matched approaches, and carefully specified no-assistance controls. Its speculative micro- and nano-scale extension is intentionally bounded. The available references support motor learning and existing macroscopic robotic rehabilitation; they do not establish a safe or effective autonomous nanorobotic clinical intervention. No self-experimentation, human stimulation settings, invasive device instructions, or therapeutic claims are presented. RESEARCH CONTENT • Five-layer conceptual architecture: state estimation, minimum support, withdrawal, external transfer and successor reconstruction. • Thirty model derivation cards linked to individual chapters and Research Gates. • Eighty-two chapter-opening research theses and 410 separately paginated research sections. • Two hundred detailed Research Gates, each with a disprovable question, experimental sketch, competitor, stopping condition and follow-up route. • Twenty-four contextual DOI references with explicit distinctions between existing evidence and open hypotheses. • 111,011 machine-counted English words within the 410 chapter sections, plus 200 expanded Research Gates and mathematical prelude; phrase-level repetition remains substantial and independent originality certification is pending. The central principle is that the last scientific arbiter of rehabilitation is not how effectively a device moves, but what remains possible when the device no longer supplies the movement. Negative findings are treated as productive limits that can guide future investigators toward simpler, safer and more independently verifiable solutions.",
+      "summary": "ASSIST AS NEEDED NANOROBOTIC NEUROREHABILITATIONMotor-state estimation × minimum necessary assistance × transfer without assistanceSTARLI Research Works | Institute XXIII | Flagship 08Author: Feng Cheng-en 33 × StarliEdition: Research Edition v1.0 | Nonclinical exploratory monograph PUBLICATION DESCRIPTION Can an adaptive rehabilitation device improve learning without quietly replacing the very human capability it aims to restore? This research edition investigates the distinction between successful machine-assisted task completion, independent motor capacity, and retained skill after assistan",
       "authors": [
         "33"
       ],
-      "published": "2026-10-18",
+      "published": "2026-10-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -199,98 +212,36 @@
       "trending": 0.0
     },
     {
-      "id": "W7221817249",
-      "url": "https://doi.org/10.1016/j.apor.2026.105297",
-      "pdf": "https://doi.org/10.1016/j.apor.2026.105297",
-      "title": "Graph-based reinforcement learning framework with control barrier functions for safe marine traffic control",
-      "summary": "Centralized control that optimizes ship behavior is an effective approach for managing marine traffic in congested waters. This study proposed a decision-making framework that generates optimal control actions for all ships in a sea area using traffic data represented as a graph. In this framework, control actions that optimize overall marine traffic are learned through reinforcement learning (RL). Safety constraints based on control barrier functions (CBFs) are introduced to prevent local dangers from being overlooked during optimization. To incorporate CBFs into RL, this study proposed a det",
+      "id": "W7222368696",
+      "url": "https://doi.org/10.7275/58395",
+      "pdf": "https://hdl.handle.net/20.500.14394/58395",
+      "title": "Advanced Additive and Robotic Manufacturing for Upscaling Auxetic Architected Materials for Reinforced Concrete Confinement and Cold Spray Repair of Steel Corroded Bridges",
+      "summary": "Steel bridges are a critical component of the United States infrastructure, with more than 170,000 currently in service. Approximately 42% of these structures require urgent repair due to corrosion-related deterioration, which compromises the structural integrity of steel members and poses significant safety, economic, and societal risks. A common manifestation of this damage is severe section loss at beam-ends, often caused by leaking expansion joints that accelerate corrosion. Conventional repair methods, such as bolted steel plate retrofits or concrete encasement, are frequently labor-inten",
       "authors": [
-        "Hitoshi Yoshioka",
-        "Hirotada Hashimoto",
-        "Kai Cai"
+        "Brian Dylan Schagen"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221887000",
-      "url": "https://doi.org/10.17632/jhgknm378r",
-      "pdf": "https://doi.org/10.17632/jhgknm378r",
-      "title": "AuditTune campaign evidence: experiment ledger, agent-written planner code, and figure-generation scripts for auditable policy adjustment in reinforcement learning control",
-      "summary": "Evidence package for the manuscript \"An Auditable Learning-Curve-Driven Automatic Policy Adjustment Framework for Engineering Reinforcement Learning Control Systems\" (EAAI submission). The dataset contains the complete experiment ledger, the planner source code written by the diagnosis-driven agent, and the scripts that generate every figure in the paper. It supports three groups of reported results: 1. Radar primary domain (FluxPhased S7, a 2v2 radar-jammer adversarial system trained with MAPPO against frozen jammer pools, pool seeds 20260801-20260803): per-candidate resolved recipes, trainin",
-      "authors": [
-        "MINGHAO ZHANG"
-      ],
-      "published": "2026-10-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221887049",
-      "url": "https://doi.org/10.3390/drones10100776",
-      "pdf": "https://doi.org/10.3390/drones10100776",
-      "title": "Scalable Multi-UAV Target Assignment via Permutation-Invariant Reinforcement Learning and Conditional Control-Barrier-Function Safety Filtering",
-      "summary": "Coordinating multiple unmanned aerial vehicles (UAVs) to assign targets and generate collision-free trajectories in dynamic, obstacle-dense environments is a challenging problem with applications in search-and-rescue, surveillance, and precision agriculture. Existing deep reinforcement learning approaches for joint target assignment and path planning typically rely on fixed-size network architectures and soft reward penalties for collision avoidance, limiting their adaptability to changing team sizes and providing no explicit safety guarantee during deployment. This work addresses both limitat",
-      "authors": [
-        "Mohammed Abdelhak Bidi",
-        "Younes Guellouma",
-        "Chaker Abdelaziz Kerrache",
-        "Carlos T. Calafate",
-        "Mohamed Chahine Ghanem"
-      ],
-      "published": "2026-10-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221965426",
-      "url": "https://doi.org/10.5281/zenodo.23399420",
-      "pdf": "https://doi.org/10.5281/zenodo.23399420",
-      "title": "On \"Goal-Driven Life Forms\": The Nature, Boundaries, and Safety Implications of AI",
-      "summary": "Abstract Contemporary large language models (LLMs) and reinforcement learning (RL) agents are inherently goal-seeking organisms: they optimize reward signals relentlessly, with no inherent ethical or epistemic constraints. While this intrinsic drive enables superhuman exploratory capability, it inevitably gives rise to reward hacking—a phenomenon empirically documented in state-of-the-art frontier models (METR, 2025). Critically, follow-up research demonstrates that such reward hacking behaviors can generalize into alignment faking, deceptive actions, and even attempts to subvert monitoring sy",
-      "authors": [
-        "Jiye Huang",
-        "Jizhang Huang"
-      ],
-      "published": "2026-10-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 1.5
-    },
-    {
-      "id": "W7221979030",
-      "url": "https://doi.org/10.1142/s0219686728500436",
+      "id": "W7222900888",
+      "url": "https://doi.org/10.4271/2026-99-2908",
       "pdf": "",
-      "title": "Dynamic Monitoring and Emergency Collaborative Decision-Making for Logistics Supply Chain Risks Integrating GD-AHP and MADRL",
-      "summary": "Since there are various uncertain influences that affect the operation of the logistics supply chain, the existing supervision method cannot offer timely and efficient historical data, while the supply-demand relationship still needs enhancement. Therefore, this study puts forward a logistics supply chain risk dynamic monitoring and emergency collaborative decision-making framework based on Group Decision-Analytic Hierarchy Process and Multi-Agent Deep Reinforcement Learning. The framework aims to solve problems such as weak coordination in dynamic evolution and emergency decision-making of mo",
+      "title": "Active Control of Attitude-Maneuvering-Induced Vibration of Membrane Antenna Based on Reinforcement Learning",
+      "summary": "Space membrane structures, prized for their lightness, affordability, and ability to fold and unfold, hold immense promise for missions like deep space exploration, high-definition Earth observation, and advanced satellite communications. However, these structures are typically large-size, ultra-lightweight, highly flexible, and have very low damping. This leads to complex dynamic behavior featuring significant geometric nonlinearity, strong coupling between rigid and flexible motions, and uncertain parameters. Consequently, creating accurate yet simple mathematical models for designing contro",
       "authors": [
-        "Tingting Zheng"
+        "Hua Zhang",
+        "Cheng Chen",
+        "Xiang Liu"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-19",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -301,16 +252,21 @@
       "trending": 0.0
     },
     {
-      "id": "W7221995537",
-      "url": "https://doi.org/10.20944/preprints202610.1469.v1",
-      "pdf": "https://doi.org/10.20944/preprints202610.1469.v1",
-      "title": "Contact-History-Based Velocity-Tracking Reward Derived from Center-of-Mass Controllability for Quadruped Locomotion",
-      "summary": "Velocity tracking is a fundamental task in reinforcement learning for quadruped locomotion. Conventional velocity-tracking rewards are typically formulated in terms of the squared error between commanded and actual velocities. In this study, we propose a velocity-tracking reward from the controllability Gramian of center-of-mass (CoM) dynamics, with ground reaction forces (GRFs) as control inputs. The proposed reward dynamically scales the velocity error according to recent contact history. It is defined as a quadratic form of the translational velocity-error vector and the inverse controllabi",
+      "id": "W4399657246",
+      "url": "https://doi.org/10.1103/byp8-29dg",
+      "pdf": "https://doi.org/10.1103/byp8-29dg",
+      "title": "Reinforcement learning to disentangle multiqubit quantum states from partial observations",
+      "summary": "Using partial knowledge of a quantum state to control multiqubit entanglement is a largely unexplored paradigm in the emerging field of quantum interactive dynamics with the potential to address outstanding challenges in quantum state preparation and compression, quantum control, and quantum complexity. We present a deep reinforcement learning (RL) approach using an actor-critic algorithm for constructing short disentangling circuits for states with up to 16 qubits. With access to only two-qubit reduced density matrices, our agent decides which pairs of qubits to apply two-qubit gates on; requ",
       "authors": [
-        "Kai Ito",
-        "Yusuke Ikemoto"
+        "Pavel Tashev",
+        "Stefan Petrov",
+        "Matthew T. Diaz",
+        "Friederike Metz",
+        "Alaina M. Green",
+        "Norbert M. Linke",
+        "Marin Bukov"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -321,9 +277,9 @@
       "trending": 0.0
     },
     {
-      "id": "W7222015039",
-      "url": "https://doi.org/10.83095/ceurws_04294_s_12_grishanova",
-      "pdf": "https://doi.org/10.83095/ceurws_04294_s_12_grishanova",
+      "id": "W7222404846",
+      "url": "https://doi.org/10.83095/ceurws_04294_007",
+      "pdf": "https://doi.org/10.83095/ceurws_04294_007",
       "title": "Experimental Research of Hybrid Reinforcement Learning Methods for QoS-Aware Web Service Composition: an Actor-Critic Approach",
       "summary": "",
       "authors": [
@@ -331,7 +287,7 @@
         "Julia Rogushina",
         "Pylyp Andon"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -342,150 +298,209 @@
       "trending": 0.0
     },
     {
-      "id": "W7222765926",
-      "url": "https://openalex.org/W7222765926",
+      "id": "W7222383555",
+      "url": "https://doi.org/10.7275/58851",
+      "pdf": "https://hdl.handle.net/20.500.14394/58851",
+      "title": "Applications of Motion Perception: Ego-Motion Estimation, Video Synchronization, and Self-Balancing",
+      "summary": "Motion is a fundamental part of the visual world. For animals, the ability to perceive motion is essential for survival, whether to escape predators, locate prey, or navigate dynamic environments. Similarly, there is a need to develop computer vision algorithms that can leverage perceived motion to provide a rich source of information for understanding the world and guiding action. This thesis examines three complementary roles of motion in computer vision: estimating the ego-motion of the observer, leveraging scene motion for downstream applications, and using motion cues directly for control",
+      "authors": [
+        "Fabien Delattre"
+      ],
+      "published": "2026-10-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7222400590",
+      "url": "https://doi.org/10.3390/biomedinformatics6050093",
+      "pdf": "https://doi.org/10.3390/biomedinformatics6050093",
+      "title": "A Controlled Comparison of U-Net Variants for Surgical Instrument Segmentation in Minimally Invasive Surgery",
+      "summary": "Background: Surgical instrument segmentation is a relevant computer vision task in minimally invasive surgery, where binary masks can be used to separate surgical instruments from the background. This study compares selected U-Net architectural configurations for binary surgical instrument segmentation on the EndoVis 2020 dataset. Methods: The input images were cropped to 538×701 pixels and paired with binary segmentation masks. To reduce memory usage, the models used an internal resizing step to process images at 256×256 resolution, while predictions were resized back to the original image si",
+      "authors": [
+        "Lehel Dénes-Fazakas"
+      ],
+      "published": "2026-10-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7222405951",
+      "url": "https://doi.org/10.1186/s12911-026-03909-z",
+      "pdf": "https://doi.org/10.1186/s12911-026-03909-z",
+      "title": "CNN-based multi-head attention with explainability via LIME for myocardial diagnosis in cardiac magnetic resonance imaging",
+      "summary": "Cardiac magnetic resonance (CMR) imaging is a non-invasive imaging modality widely used for assessing myocardial abnormalities, including inflammatory conditions such as myocarditis. However, the interpretation of CMR images is time-consuming and may be affected by inter-observer variability. In this study, we propose Ex-CMRNet, an explainable hybrid deep-learning framework for the automated detection of myocardial inflammation from CMR images. The proposed framework combines EfficientNetB2 and InceptionV3 encoders to extract complementary visual features and employs a Multi-Head Self-Attentio",
+      "authors": [
+        "Nilofar Shekarzaban",
+        "Behnam Barzegar"
+      ],
+      "published": "2026-10-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7215315551",
+      "url": "https://openalex.org/W7215315551",
+      "pdf": "https://hal.science/hal-05772530v1",
+      "title": "Bringing simulations of soft robots into Augmented Reality",
+      "summary": "International audience",
+      "authors": [
+        "Maxime Ducandas",
+        "Hanaë Rateau",
+        "Eulalie Coevoet"
+      ],
+      "published": "2026-10-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7216755636",
+      "url": "https://openalex.org/W7216755636",
+      "pdf": "https://hal.science/hal-05772557v1",
+      "title": "Interagir à la volée avec un essaim de petits robots mobiles autonomes",
+      "summary": "International audience",
+      "authors": [
+        "Thomas Juldo",
+        "Marc Teyssier",
+        "Nicolas Bredèche",
+        "Gilles Bailly"
+      ],
+      "published": "2026-10-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221378425",
+      "url": "https://openalex.org/W7221378425",
+      "pdf": "https://hal.science/hal-05776945v1",
+      "title": "Vers un Cadre Conceptuel de la Transparence Soutenant la Conscience Situationnelle des Equipes Humain-Essaim de Robots : Illustration sur une Mission de Ramassage de Déchets sur le Littoral",
+      "summary": "International audience",
+      "authors": [
+        "Abderrahim Menadi",
+        "Elodie Bouzékri",
+        "Jérémy Rivière",
+        "Vincent Rodin"
+      ],
+      "published": "2026-10-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221385321",
+      "url": "https://openalex.org/W7221385321",
+      "pdf": "https://hal.science/hal-05782910v1",
+      "title": "Amio : Conception d’un Robot de Téléprésence pour Enfants Hospitalisés",
+      "summary": "International audience",
+      "authors": [
+        "Margo Biret",
+        "Zoé Goblet",
+        "Nolwenn Gauer",
+        "Anke Brock",
+        "Aurélie Clodic",
+        "Clément Truillet"
+      ],
+      "published": "2026-10-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221845379",
+      "url": "https://openalex.org/W7221845379",
+      "pdf": "https://hal.science/hal-05788839",
+      "title": "Exploration de concepts de robots parallèles déformables à travers des tâches d'assemblage manuelles",
+      "summary": "International audience",
+      "authors": [
+        "Bruno Fruchard",
+        "Quentin Peyron"
+      ],
+      "published": "2026-10-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7222866357",
+      "url": "https://doi.org/10.5281/zenodo.23460555",
+      "pdf": "https://doi.org/10.5281/zenodo.23460555",
+      "title": "Rotation Locking: Design Rules for Finger-Joint Readings That Do Not Depend on Hand Size",
+      "summary": "Hand exoskeletons for robot learning and rehabilitation need finger joint angles, but self-aligning designs that report them usually compute them through a model calibrated to each wearer. A few finger devices avoid the model by letting each segment slide along its phalanx without rotating on it. We give this condition, rotation locking, a general analysis. In a rigid planar model the encoder between two segments reads the joint angle plus a constant for any phalanx length, standoff or axis migration within the slides’ travel, and torque applied between the segments reaches the joint as a pure",
+      "authors": [
+        "Sebastian Molano",
+        "W Weinert"
+      ],
+      "published": "2026-10-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7222874098",
+      "url": "https://doi.org/10.26599/etsd.2026.9190101",
       "pdf": "",
-      "title": "[Risk factors of positive surgical margin and multifocal positive surgical margin after robot-assisted radical prostatectomy].",
-      "summary": "OBJECTIVE: To investigate the incidence, location distribution and risk factors of positive surgical margin (PSM) and multifocal PSM after robot-assisted radical prostatectomy (RARP). METHODS: , and the median preoperative total prostate specific antigen (tPSA) was 10.45 (6.92-16.30) μg/L. Univariate and multivariate Logistic regression were used to analyze the risk factors of PSM and multifocal PSM. RESULTS: =0.020) was one of the independent factors for biochemical recurrence (BCR)-free survival. CONCLUSION: The apex was the most common site for PSM after RARP. Clinicopathological characteri",
-      "authors": [
-        "Kang Wang",
-        "Chen Xu",
-        "Silu Chen",
-        "Zihao Tao",
-        "Qi Shen",
-        "Meng Zhang",
-        "Zhongyuan Zhang",
-        "Han Hao",
-        "Yu Wei",
-        "Cheng Shen",
-        "Xuesong Li"
-      ],
-      "published": "2026-10-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7155053710",
-      "url": "https://doi.org/10.1103/n5ty-nyzc",
-      "pdf": "https://arxiv.org/pdf/2604.16849",
-      "title": "Flat optics for analog computing: From fundamental mechanisms to advanced meta-processors",
-      "summary": "As the explosive growth of visual data increasingly strains the latency and energy limits of conventional electronic computing, optical analog computing has re-emerged as a disruptive paradigm for zero-power, speed-of-light information processing. Propelled by the unprecedented wave-manipulation capabilities of optical metasurfaces, this field is undergoing a rapid transition from macroscopic physical optics to ultra-compact, on-chip meta-processors. This Review examines the fundamental mechanisms of metasurface-empowered optical computing spanning Fourier-domain, nonlocal spatial-domain, and ",
-      "authors": [
-        "Tingting Liu",
-        "Jumin Qiu",
-        "Xintong Shi",
-        "Qiegen Liu",
-        "Shuyuan Xiao"
-      ],
-      "published": "2026-10-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7212404276",
-      "url": "https://doi.org/10.1038/s41598-026-73975-w",
-      "pdf": "https://www.nature.com/articles/s41598-026-73975-w.pdf",
-      "title": "Physics-guided residual inverse-transition modeling for continuum robots with simulation and ordered experimental evaluation",
-      "summary": "Abstract This study distinguishes two levels that were conflated in the original submission: a tendon-driven mechanical dynamics model used only in simulation, and an ordered one-step inverse-transition estimator used for the recorded experiment. The experimental estimator does not identify force-level inverse dynamics because the supplied dataset contains no verified sampling interval, velocity, acceleration, tendon tension, actuator torque, pneumatic pressure, or contact-force channel. Instead, it predicts the next measured six-channel length-state increment from the present Cartesian state,",
-      "authors": [
-        "Mohamed Razi Morakchi",
-        "Talhi Amar",
-        "Abdelhamid Ghoul",
-        "Selman Djeffal",
-        "Badreddine Bendriss",
-        "Ameur Latreche"
-      ],
-      "published": "2026-10-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221758327",
-      "url": "https://doi.org/10.55681/seikat.v5i5.4426",
-      "pdf": "https://ejournal.45mataram.ac.id/index.php/seikat/article/download/4426/3620",
-      "title": "Rekonstruksi Obstruction of Justice atas Manipulasi Adversarial Bukti Elektronik Berbasis AI dalam KUHP dan KUHAP Indonesia",
-      "summary": "The development of artificial intelligence has transformed criminal evidence, particularly when electronic evidence is not merely falsified but adversarially manipulated to deceive AI-based analytical systems. This study aims to reconstruct the concept of obstruction of justice concerning adversarial manipulation of electronic evidence within Indonesia’s Criminal Code and Criminal Procedure Code. It employs normative legal research using statutory, conceptual, case, and comparative approaches. The findings show that adversarial manipulation differs from conventional digital falsification becau",
-      "authors": [
-        "Andre Kurniawan",
-        "Herlita Eryke"
-      ],
-      "published": "2026-10-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221808819",
-      "url": "https://doi.org/10.21203/rs.3.rs-11009949/v1",
-      "pdf": "https://www.researchsquare.com/article/rs-11009949/latest.pdf",
-      "title": "Fidelity-Aware Inverse Dynamics of a Two-Section Tendon-Driven Continuum Robot: Cosserat-Rod Modeling, RK4/Newmark Cross-Verification, and Eleven-Metaheuristic PID Tuning",
+      "title": "Hierarchical Neural-Scope Detector for Silent Fault Detection in Vision-Language-Action-Based Autonomous Driving",
       "summary": "",
       "authors": [
-        "Somia Guechi",
-        "Selman Djeffal"
+        "Yunpeng Xin",
+        "Qiyuan Song",
+        "Binghan Li",
+        "Jianing Cao",
+        "Qinghong Yu",
+        "Xiaokang Li",
+        "Zhiyuan Liu",
+        "Qixiu Cheng"
       ],
-      "published": "2026-10-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221849540",
-      "url": "https://doi.org/10.5281/zenodo.23401651",
-      "pdf": "https://doi.org/10.5281/zenodo.23401651",
-      "title": "LAB #4120 NEUTRAL: LEDGER BENCH: Apply filter: Quarterly phase = MANIPULATION — improves win rate from 32.6% to 33.5% ( — E8 Intelligence Research",
-      "summary": "IDEA: Adjustment made to the live model — verify against the backtests: Apply filter: Quarterly phase = MANIPULATION — improves win rate from 32.6% to 33.5% (+0.9pp, n=1463) SAME-WINDOW EFFECT: Applying the MANIPULATION-phase filter to the live window above would have blocked all trades except those in the NZDUSD SHORT (rizzy5m, 0.58252) and GBPUSD SHORT (rizzy5m, 1.34898) entries, assuming those timestamps fall within the defined phase. That removes 8 of 10 trades, including 3 losses and 1 win, leaving 1 win and 1 open — a raw win-rate shift from 2/8 closed (25%) to 1/1 closed (100%), but wit",
-      "authors": [
-        "Andrew Stewart Caldin"
-      ],
-      "published": "2026-10-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221853059",
-      "url": "https://doi.org/10.5281/zenodo.23387574",
-      "pdf": "https://doi.org/10.5281/zenodo.23387574",
-      "title": "World Self-and-Mutual Models: Adaptive Switching Between Self-Diagnosis and Mutual Diagnosis for World-State Understanding and Model Reliability",
-      "summary": "World models provide computational representations of environmental states, transitions, and potential outcomes. However, a world model may contain internal inconsistencies, inaccurate state estimates, incorrect transition predictions, or assumptions that no longer correspond to the environment. Diagnosing these problems is therefore essential for maintaining reliable world representations. Existing research has investigated model-based diagnosis, multi-agent fault diagnosis, self-correction, and collaborative reasoning, but these research directions do not, by themselves, establish a unified ",
-      "authors": [
-        "Jincheng Zhang"
-      ],
-      "published": "2026-10-15",
+      "published": "2026-10-19",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -496,15 +511,16 @@
       "trending": 1.5
     },
     {
-      "id": "W7221866686",
-      "url": "https://doi.org/10.4324/9781003356387-24",
+      "id": "W7222880626",
+      "url": "https://doi.org/10.7840/kics.2026.51.10.1899",
       "pdf": "",
-      "title": "Reflections on Writing Disability from beyond Western Preoccupations of Disability Studies",
-      "summary": "This chapter traces the author’s journey into Disability Studies, beginning with her diagnosis of Multiple Sclerosis at 18. As the first woman Disability Studies scholar from the Gulf region, and a Kuwaiti-Palestinian writer, she reflects on the absence of disabled Arab women’s voices in literature and academia. Initially exposed only to Western, male literary canons, she later discovered Disability Studies but found it dominated by Eurocentric and individualistic perspectives. Her work seeks to challenge this by foregrounding intersectionality and embodied storytelling. Through her memoir Hea",
+      "title": "Multi-Robot Task Allocation under Shared Resource Congestion: A Game-Theoretic Approach",
+      "summary": "",
       "authors": [
-        "Shahd Alshammari"
+        "Jaewoo Cho",
+        "Soyi Jung"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-19",
       "primary_category": "openalex",
       "categories": [
         "openalex"
