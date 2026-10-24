@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23 22:46 UTC",
+  "generated_at": "2026-10-24 17:04 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,58 +9,17 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7223204469",
-      "url": "https://doi.org/10.7735/ksmte.2026.35.5.381",
-      "pdf": "https://doi.org/10.7735/ksmte.2026.35.5.381",
-      "title": "Depth-Noise-Robust 5-DOF Robotic Grasping of Metallic Objects Using Synthetic Depth Data",
-      "summary": "",
+      "id": "W7223307669",
+      "url": "https://doi.org/10.5281/zenodo.23606698",
+      "pdf": "https://doi.org/10.5281/zenodo.23606698",
+      "title": "Multi-agent reinforcement learning for reservoir cascade release scheduling: a climate-analytics evaluation of downstream low-flow equity under forecast uncertainty",
+      "summary": "Cascade reservoir operators must release water under uncertain inflow forecasts while satisfying competing demands for hydropower, irrigation and downstream environmental flows. The framework is formalised as a constrained Markov game with a lexicographic objective: maximise energy revenue subject to a probabilistic low-flow equity constraint at downstream reaches. A decomposed soft actor-critic architecture with a centralised equity critic is proposed, and a formal analysis establishes conditions under which the learned joint policy satisfies the equity constraint with high probability. The f",
       "authors": [
-        "Minsoo Oh",
-        "Jaehak Lee"
+        "Hiwot Tesfaye Wolde",
+        "Selamawit Gebremedhin Desta",
+        "Mulugeta Assefa"
       ],
-      "published": "2026-10-23",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7222995859",
-      "url": "https://doi.org/10.1108/ir-02-2026-0049",
-      "pdf": "",
-      "title": "Collision-aware and geometry-refined grasp generation for cluttered scenes",
-      "summary": "Purpose This paper aims to develop a robust robotic grasping framework for cluttered scenes under single-view constraints by addressing the challenges of feature efficiency, physical feasibility and perceptual incompleteness. The primary objective is to build a system that integrates multiscale feature fusion, collision-aware reasoning and scene-completion-guided optimization to ensure stable and physically consistent grasp execution. Design/methodology/approach The authors propose a framework integrating three synergetic components. A collision-aware grasp prediction module incorporates colli",
-      "authors": [
-        "Huixuan Yang",
-        "Wenlong Wang",
-        "Wei Song",
-        "Shiqiang Zhu"
-      ],
-      "published": "2026-10-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223008000",
-      "url": "https://doi.org/10.6084/m9.figshare.34710159",
-      "pdf": "https://doi.org/10.6084/m9.figshare.34710159",
-      "title": "Research on Path Planning Method Based on Deep Reinforcement Learning for Autonomous Driving",
-      "summary": "This article introduces a mixed deep reinforcement learning path planning framework (DRL-PP) for self-driving cars. It's designed to be efficient, safe, and verifiable in complex, dynamic settings. The framework is built on layered action representation: the policy network gives out multi-step reference waypoints, and the lower level uses MPC/PID to make sure things are physically possible. The reward function is designed in a combined way and adds a distance-based cubic booster to amplify learning signals when getting close to the goal. The training strategy uses a dual-network setup, experie",
-      "authors": [
-        "Qi Wang",
-        "Liqiong Li"
-      ],
-      "published": "2026-10-20",
+      "published": "2026-10-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -71,84 +30,91 @@
       "trending": 0.0
     },
     {
-      "id": "W7223204357",
-      "url": "https://doi.org/10.53294/ijfetr.2026.11.2.0021",
-      "pdf": "",
-      "title": "Adoption of Automation and Smart Technologies in Modern Textile Production Systems",
-      "summary": "Automation, artificial intelligence, connected sensing technologies, digital twins, robotics, and data-driven control systems are increasingly transforming textile and apparel production systems. However, in existing studies, these technologies have often been analyzed separately or limited to specific factories, countries, or specific stages of the production process. The study created an integrated analytical framework for analyzing the maturity of technology adoption in modern textile production systems, with a new dataset based on data collected from various sources related to technology a",
+      "id": "W7213751945",
+      "url": "https://doi.org/10.1038/s42005-026-02931-x",
+      "pdf": "https://www.nature.com/articles/s42005-026-02931-x_reference.pdf",
+      "title": "Image-based reinforcement learning for robust mode hop recovery in external-cavity diode lasers",
+      "summary": "Abstract Conventional laser frequency stabilization techniques such as table-lookup or heuristic methods have significant limitations due to intrinsic hysteresis and stochastic mode competition. To overcome this challenge, we introduce a simple hysteresis-aware protocol and a tailored image-based reinforcement learning (RL) framework. This approach enables robust mode hop recovery in external-cavity diode lasers (ECDLs). Using a Rainbow deep Q-network (DQN) trained entirely in simulation, our RL agent achieves 100% recovery success rate across all 163 continuous temperature drifts produced und",
       "authors": [
-        "Sheikh Jahid Hasan Prince",
-        "Prince A. M. Arafat",
-        "Noor Md. Adnan"
+        "Jaeick Bae",
+        "Kyoungsik Yu",
+        "Yunheung Song",
+        "Jeong Ho Han",
+        "Jongchul Mun"
       ],
-      "published": "2026-10-23",
+      "published": "2026-10-21",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7140588367",
-      "url": "https://doi.org/10.1007/s00464-026-13435-8",
-      "pdf": "https://osf.io/buqdx",
-      "title": "Unmasking healthcare disparities: the underreporting of gender, race, and ethnicity data in high-impact factor minimally invasive surgery journals",
-      "summary": "BACKGROUND: Diverse representation in clinical research is essential for equitable healthcare. Despite mandates from organizations like the NIH and ICMJE, race and gender remain underreported in surgical research, raising concerns about the generalizability of findings. This study examines demographic reporting trends in minimally invasive surgery (MIS) and advanced endoscopy publications before and after the onset of the COVID-19 pandemic. METHODS: A systematic review of Surgical Endoscopy, Journal of Robotic Surgery, and Surgical Innovation was conducted, analyzing articles published between",
+      "id": "W7223096230",
+      "url": "https://doi.org/10.1038/s41598-026-77136-x",
+      "pdf": "https://www.nature.com/articles/s41598-026-77136-x_reference.pdf",
+      "title": "Multi-criteria prioritized reinforcement learning for autonomous underwater vehicle navigation in 3D multi-node environments",
+      "summary": "Abstract Autonomous underwater vehicles (AUVs) are increasingly used as mobile data collectors in underwater wireless sensor networks, where navigation must balance task completion, obstacle avoidance, communication performance, and energy efficiency. This study develops a Twin Delayed Deep Deterministic Policy Gradient framework with Multi-Criteria Prioritized Experience Replay (MC-PER-TD3). The replay priority combines normalized temporal-difference error with a goal-proximity heuristic; energy consumption is incorporated into the reward and data-collection evaluation rather than the replay ",
       "authors": [
-        "Amber Chen-Goodspeed",
-        "Victoria Ende",
-        "Xiaoyue Ma",
-        "Shahenda Khedr",
-        "Stephen Merola",
-        "Steven Chao"
+        "Yan Luoheng",
+        "Qiongyao Zhang",
+        "Zhongmin Huangfu",
+        "Dachun Shangguan"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-21",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7222932474",
-      "url": "https://doi.org/10.5281/zenodo.23486230",
-      "pdf": "https://doi.org/10.5281/zenodo.23486230",
-      "title": "EL-RAKHAWI DOCTRINE FROM SILICON TO POST-HUMAN A Unified Theory of Quantum-Biological-Civilizational Intelligence Bridging NV Centers, Embodied Cognition, and the Forecast of Cognitive Singularity",
-      "summary": "THE EL-RAKHAWI DOCTRINE by Dr. M.K.A. El-Rakhawi (DOI: 10.5281/zenodo.23486231) presents a unified theory of post-silicon intelligence through the equation I = Φ_quantum ⊗ Φ_biological ⊗ Φ_cognitive, where ⊗ denotes irreducible tensor product interaction. Four pillars structure the work: Cognitive (AGI mirage via world models M:D:T, causal reasoning X_i=f_i(PA_i,U_i) beyond Pearl's ladder, Moravec's paradox K_common=∫F(m,a)dt, creativity I=Novelty×Value×Surprise); Architectural (10 fJ/operation via tri-source Horizon system combining photonic core, bio-thermoelectric harvesting, and RF harvest",
+      "id": "W7223098383",
+      "url": "https://doi.org/10.3390/en19204997",
+      "pdf": "https://doi.org/10.3390/en19204997",
+      "title": "Degradation-Aware Deep Reinforcement Learning for Battery Energy Storage Dispatch in Industrial Microgrids and Its Real-Time Deployment Validation",
+      "summary": "Battery degradation is a non-negligible cost in battery energy storage (BESS) dispatch for industrial microgrids, yet most deep reinforcement learning (DRL) studies optimize only the procurement cost. This paper embeds a rainflow-calibrated cyclic aging cost into the reward of a degradation-aware soft actor-critic (DA-SAC) framework with an adjustable weight λ, making the cost–lifetime trade-off explicit. On one year of 15 min data from an industrial microgrid in Chongqing, the main evaluation is conducted in an offline simulation, and the typical days are validated by hardware-in-the-loop (HI",
       "authors": [
-        "mohamed kamal arafa el-rakhawi"
+        "Lingxu Zhang",
+        "Yiwen He",
+        "Yinjie Ma",
+        "Chaoyu Huang",
+        "E Jiaqiang"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-21",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
     },
     {
-      "id": "W7222947563",
-      "url": "https://doi.org/10.1007/s11701-026-04019-8",
+      "id": "W7223281243",
+      "url": "https://doi.org/10.1007/s11701-026-04105-x",
       "pdf": "",
-      "title": "Comparison of robotic and laparoscopic gastrectomy using textbook oncologic outcome: a matched cohort study",
+      "title": "Uniportal versus multiportal robotic-assisted thoracic surgery for anatomical pulmonary resection: a systematic review and meta-analysis of perioperative recovery and surgical quality",
       "summary": "",
       "authors": [
-        "Eun Young Kim",
-        "Ji Won Seo",
-        "Ki Bum Park",
-        "Seung Taek Lim",
-        "Kyong Hwa Jun",
-        "Hyung Min Chin"
+        "Anas Bassam Barnawi",
+        "Muhanad Sultan Alsharari",
+        "Hamad Saleh Alanazi",
+        "Razan Mohammed Alshehri",
+        "Saja Abdullah Alasiri",
+        "Lamia Alharbi",
+        "Norah Saud Almabkhut",
+        "Nouf Rashed Abuniyan",
+        "Waseem  M Hajjar"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -159,56 +125,22 @@
       "trending": 0.0
     },
     {
-      "id": "W7222958816",
-      "url": "https://doi.org/10.5281/zenodo.23485980",
-      "pdf": "https://doi.org/10.5281/zenodo.23485980",
-      "title": "THE TWELVE ENIGMAS OF INTELLIGENCE A UNIFIED FRAMEWORK FOR THE UNRESOLVED PROBLEMS OF ARTIFICIAL GENERAL INTELLIGENCE From Causal Reasoning to Civilizational Forecasting - Bridging Quantum Biology, Embodied Cognition, and Post-Silicon Architectures",
-      "summary": "THE TWELVE ENIGMAS OF INTELLIGENCE by Dr. M.K.A. El-Rakhawi (DOI: 10.5281/zenodo.23485981) presents a unified framework addressing 12 unresolved problems of AGI across four pillars. Pillar I (Cognitive) tackles the AGI mirage via world models M:D:T, causal reasoning beyond Pearl's ladder using structural causal models X_i=f_i(PA_i,U_i), Moravec's paradox through embodied physics engines, and true creativity beyond algorithmic remix. Pillar II (Architectural) proposes hierarchical consolidation W_f(t+1)=W_f(t)+α∇L_t for continual learning, neural geometry with Riemannian metrics for interpretab",
-      "authors": [
-        "mohamed kamal arafa el-rakhawi"
-      ],
-      "published": "2026-10-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7222964957",
-      "url": "https://doi.org/10.5281/zenodo.23486019",
-      "pdf": "https://doi.org/10.5281/zenodo.23486019",
-      "title": "RECONFIGURABLE ROBOTIC SWARMS AND CONTINUOUS FUNCTIONAL REGENERATION AT THE LIMIT STARLI Research Works | White Rainbow Scientific Library | Flagship 02 Prospective Research Atlas — English Review Edition, October 2026 Can a distributed population of heterogeneous modular robots reconstruct an operationally qualified capability after damage, without treating a newly assembled shape as evidence of restored function? Reconfigurable Robotic Swarms and Continuous Functional Regeneration at the Limit develops an interdisciplinary research program on modular morphology, distributed self-assembly, task-dependent graph structure, mechanical qualification, connector fatigue, recoverable actions, and independent post-reconfiguration verification. Its central proposition is deliberately testable: a swarm may change its topology after losing modules, but it earns the stronger name of functional regeneration only when its restored configuration satisfies the original, independently assessed service requirements and does not conceal emerging hazards or latent joint failures. The monograph distinguishes three often conflated networks: mechanical connections that transmit forces, communication links that transmit information, and power connections that transport energy. It then investigates how graph connectivity, geometric rigidity, elastic stiffness, buckling, frictional contact, thermal dissipation, material fatigue, sensing uncertainty, local negotiation, and safe rollback constrain what an apparently repaired swarm can actually do. A prospective twenty-module testbed provides recurring engineering anchors: bridge, gripping, and sensing-tower tasks, blinded removal of modules, unseen configurations, independent qualification, and strong comparisons with redundant fixed structures and specialist replacement procedures. The research architecture includes thirty mathematically diverse derivation plates, eighty-two chapter-level questions and their five individually paginated study units, two hundred falsifiable Research Gates, and thirty-three Phoenix Answer Embryos. The companion spreadsheet links physical models, chapter topics, prospective study cards, provenance, source DOI records, and page references to support future research and AI-assisted scientific handoff. Published robotics literature supplies a source-grounded context for modular reconfigurable mechanisms and fault-aware planning, including external DOI records for reviews and an existing fault-tolerant modular system. The manuscript separates those precedents from its own unexecuted research designs. Its two STARLI mother volumes are listed as conceptual ancestry, not as independent experimental validation. Biological regeneration functions as an analogy for staged assessment of restoration, not as evidence of biomedical efficacy, autonomous human-tissue repair, or indefinite machine life. This is a prospective research-atlas REVIEW EDITION. The mathematical relations, study proposals, design seeds, and acceptance thresholds are not experimentally validated findings. External mathematical review, whole-text DOI auditing, and a stronger editorial review for chapter-level semantic repetition remain necessary before scholarly publication. Negative findings, conventional method superiority, irreversible module retirement, and scientific abstention are legitimate outcomes within this research program. STARLI | 33 | White Rainbow Scientific Library",
-      "summary": "RECONFIGURABLE ROBOTIC SWARMS AND CONTINUOUS FUNCTIONAL REGENERATION AT THE LIMIT STARLI Research Works | White Rainbow Scientific Library | Flagship 02Prospective Research Atlas — English Review Edition, October 2026 Can a distributed population of heterogeneous modular robots reconstruct an operationally qualified capability after damage, without treating a newly assembled shape as evidence of restored function? Reconfigurable Robotic Swarms and Continuous Functional Regeneration at the Limit develops an interdisciplinary research program on modular morphology, distributed self-assembly, tas",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-10-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7222973913",
-      "url": "https://doi.org/10.3795/ksme-a.2026.50.10.797",
+      "id": "W7223298412",
+      "url": "https://doi.org/10.1007/s11701-026-03977-3",
       "pdf": "",
-      "title": "Classification and Design Guidelines for Robotic Shape Memory Actuators based on Output Motion Type",
-      "summary": "형상기억 합금(SMA)과 형상기억 고분자(SMP)는 소재 자체가 구동기가 되어 로봇 구동계의 부품 수와 질량을 크게 줄이지만, 액추에이터의 동작 범위와 힘, 응답 속도는 소재 물성이 아니라 소자의 기하와 구조 통합 방식에 따라 자릿수 단위로 달라진다. 본 논문은 로봇 설계자의 관점에서 형상기억 액추에이터를 출력 운동 형태에 따라 선형 수축형, 굽힘형, 회전·비틀림형, 직조·패브릭형, 능동 강성 조절형의 다섯 가지로 분류하고, 각 형태의 구조 원리와 대표 사례, 성능의 상충 관계를 검토하였다. 또한 가열 방식, 냉각에 의한 구동 주기 병목, 기능적 피로 등 공통 제약을 정리하고, 보고된 성능을 동작 범위, 힘·토크, 구동 주파수의 공통 지표로 비교하여 요구 사양으로부터 형태와 하위 구조를 좁혀 가는 선정 전략을 제시한다.",
+      "title": "Clinical outcomes and hospital-based cost avoidance of single-port robotic surgery in gynecology: a large comparative cohort study",
+      "summary": "",
       "authors": [
-        "이재현",
-        "Junsoo Bang",
-        "Kwangmin Ko",
-        "Jongwoo Kim"
+        "Chi-Heum Cho",
+        "YuRa Jeon",
+        "Changmin Shin",
+        "Seungmee Lee",
+        "Tae-kyu Jang",
+        "Heywon Chung",
+        "So-jin Shin",
+        "Sang-hoon kwon"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -219,15 +151,22 @@
       "trending": 0.0
     },
     {
-      "id": "W7222992970",
-      "url": "https://doi.org/10.5281/zenodo.23499830",
-      "pdf": "https://doi.org/10.5281/zenodo.23499830",
-      "title": "Immune Compatible Biohybrid Swarms and Self Repairing Interfaces at the Limit English Publication Description STARLI Flagship 10 30 Physicalized Models 82 Chapters 200 Research Gates Immune Compatible Biohybrid Swarms and Self Repairing Interfaces at the Limit is a high-density research monograph on living cellular actuators joined to synthetic microrobotic swarms. It asks whether hybrid agents can perform pumping and local repair while preserving cell identity, immune compatibility, material traceability, independent stop authority, and complete terminal disposition. The book distinguishes recovered motion from recovered compatibility. Biological healing can restore contractile force while antigen burden, inflammatory signaling, interface damage, identity drift, or shed material continues to rise. Every started culture and device remains in the evidence denominator, including failed actuators, immune excursions, lost modules, and incomplete retrievals. Thirty physicalized models connect muscle force velocity, calcium excitation, fatigue and recovery, cardiac synchrony, neuromuscular control, optogenetics, metabolism, active traction, interfacial fracture, antigen presentation, complement, protein corona, macrophage states, fibrosis, cytokine feedback, identity drift, clonal safety, mass closure, degradation, retrieval, controllability, residual detection, and lifecycle reliability. Eighty-two chapters develop the research architecture through five one-page sections per chapter. Two hundred Research Gates specify matched pure synthetic and pure biological baselines, blinded challenges, paired measurements, adversarial explanations, and pass, fail, abstain, or domain-restriction outcomes. No gate can pass on restored force alone. The monograph remains within controlled in vitro and compliant pretransplant research. It does not infer clinical safety from movement, short-term viability, low bulk cytokine levels, or apparent disappearance after retrieval. Its Phoenix Answer Embryo, the Biohybrid Interface Passport, binds cell source, material identity, immune history, actuation, drift, shed mass, withdrawal, and residual evidence into one auditable record. This volume is intended for researchers in biohybrid robotics, biomaterials, immunoengineering, tissue engineering, microrobotics, cellular biomechanics, control, metrology, and translational manufacturing. It is designed for successor research: its models and gates can be executed, falsified, narrowed, or extended without inheriting hidden culture or operator assumptions. Suggested Metadata Subtitle Living actuation, immune dynamics, interface repair, complete retrieval, and residual qualification Primary fields Biohybrid robotics; biomaterials; immunoengineering; microrobotics; tissue engineering Method fields Multiphysics modeling; cell mechanics; distributed control; Bayesian metrology; reliability Core keywords biohybrid swarm; living actuator; immune compatibility; self repair; retrieval; material passport Scientific boundary Controlled in vitro and compliant pretransplant research; no clinical deployment claim Series STARLI Research Institute 27 Flagship 10 Short Catalog Description A research monograph on living cellular actuators integrated with synthetic microrobotic swarms. Thirty governing models, eighty-two chapters, and two hundred Research Gates require repaired function, immune compatibility, stable identity, complete material accounting, independent stop authority, and qualified retirement on the same unselected system. STARLI FLAGSHIP 10 English Publication Description",
-      "summary": "Immune Compatible Biohybrid Swarms and Self Repairing Interfaces at the Limit English Publication Description STARLI Flagship 10 30 Physicalized Models 82 Chapters 200 Research Gates Immune Compatible Biohybrid Swarms and Self Repairing Interfaces at the Limit is a high-density research monograph on living cellular actuators joined to synthetic microrobotic swarms. It asks whether hybrid agents can perform pumping and local repair while preserving cell identity, immune compatibility, material traceability, independent stop authority, and complete terminal disposition. The book distinguishes re",
+      "id": "W7223336619",
+      "url": "https://doi.org/10.21203/rs.3.rs-11164350/v1",
+      "pdf": "https://doi.org/10.21203/rs.3.rs-11164350/v1",
+      "title": "Association of CPAK Phenotypes With Valgus Overcorrection After Robotic-Assisted Total Knee Arthroplasty",
+      "summary": "",
       "authors": [
-        "33"
+        "Hang ZHANG",
+        "Sen He",
+        "何强",
+        "Yunli HE",
+        "Yujun WANG",
+        "Zhe FENG",
+        "Qian Zhang",
+        "Qingliang SUN"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -238,20 +177,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7222994027",
-      "url": "https://doi.org/10.1108/ria-04-2026-0240",
+      "id": "W7223359397",
+      "url": "https://doi.org/10.1007/s11701-026-04106-w",
       "pdf": "",
-      "title": "A novel terrain semantic map building framework for field robots",
-      "summary": "Purpose To address the limitations of existing terrain mapping methods that ignore temporal misalignment, adopt non-adaptive pixel-grid projection and only provide coarse traversability information, this paper aims to propose Terrain Semantic Map Building Framework (TSM-BF) to construct fine-grained terrain semantic maps for more reliable and intelligent navigation of field robots in complex outdoor environments. Design/methodology/approach A TSM-BF is proposed, integrating depth camera and 3D LiDAR data for terrain perception. The framework introduces a timestamp cropping mechanism to handle ",
+      "title": "Robotic vs. laparoscopic IPAA in a high-volume referral centre: a retrospective observational study",
+      "summary": "",
       "authors": [
-        "Haoran Zhang",
-        "Botao Zhang",
-        "Yawen Li",
-        "Tao Hong",
-        "Yun Chen",
-        "Qiang Lu"
+        "Giulia Galletto",
+        "Tommaso Violante",
+        "Stefano Cardelli",
+        "Giacomo Calini",
+        "Dajana Cuicchi",
+        "Matteo Rottoli"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -262,18 +201,75 @@
       "trending": 0.0
     },
     {
-      "id": "W7222995911",
-      "url": "https://doi.org/10.5281/zenodo.23497259",
-      "pdf": "https://doi.org/10.5281/zenodo.23497259",
-      "title": "Swarm Knowledge Exchange: An Edge-Assisted Semantic Communication Framework for Resource-Constrained Multi-Robot Systems",
-      "summary": "Swarm robotics evolved from the study of social insect behaviour, and modern research has shifted its focus toward exchanging structured knowledge instead of raw sensor data. This paper proposes a swarm robotics framework that enables robots to exchange structured knowledge rather than raw sensor data, improving communication efficiency and collective decision-making. Swarm robots must work together to complete complex tasks; however, sharing raw sensor data between robots increases communication overhead. A knowledge-based approach instead allows robots to exchange only meaningful information",
+      "id": "W7223393598",
+      "url": "https://doi.org/10.1007/s11604-026-02104-4",
+      "pdf": "https://doi.org/10.1007/s11604-026-02104-4",
+      "title": "Robots for CT-guided needle insertion: clinical implementation and future perspectives",
+      "summary": "Abstract Robotic systems for computed tomography (CT)-guided needle insertion have been developed to address the limitations of conventional manual needle insertion. Thus far, various robotic systems have been clinically implemented, and accumulating evidence has suggested their clinical utility. The evidence has evolved beyond initial feasibility and early clinical experience to include larger observational and comparative studies. These studies have demonstrated high success rates of robot-assisted needle insertion in various CT-guided interventions, including thermal ablation, biopsy, and p",
       "authors": [
-        "Vishwakarma Deepak Kumar",
-        "Ruchi Sahu",
-        "Ishita Kar",
-        "Tamrakar Dr. Ekta"
+        "Yusuke Matsui",
+        "Takao Hiraki",
+        "Koji Tomita",
+        "Noriyuki Umakoshi",
+        "Kazuaki Munetomo",
+        "Yuta Kimura",
+        "Fumiyo Higaki",
+        "Jun Sakùrai",
+        "Toshihiro Iguchi",
+        "So Shimooka",
+        "Takayuki Matsuno",
+        "Tetsushi Kamegawa"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.0
+    },
+    {
+      "id": "W7223412713",
+      "url": "https://doi.org/10.63158/journalisi.v8i5.1864",
+      "pdf": "https://doi.org/10.63158/journalisi.v8i5.1864",
+      "title": "Evaluating Xception with Multitask Self-Supervised Learning for AI-Generated Image and Deepfake Video Detection",
+      "summary": "This study evaluates an Xception-based Multitask Self-Supervised Learning (MSSL) framework for detecting real and synthetic visual content across image and video modalities. Separate models were developed for CIFAKE images and FaceForensics++ videos. Beyond the primary binary-classification objective, MSSL integrates three auxiliary representation-learning tasks: rotation prediction, patch reconstruction, and artifact-map prediction. These tasks are intended to encourage the model to learn robust semantic and manipulation-related visual features. Experiments used class-balanced subsets of 5,00",
+      "authors": [
+        "Iksan Nur Rochim",
+        "R. Rizal Isnanto",
+        "Aris Sugiharto"
+      ],
+      "published": "2026-10-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W4393284385",
+      "url": "https://doi.org/10.1126/scirobotics.adr9578",
+      "pdf": "https://arxiv.org/pdf/2403.17147",
+      "title": "Hearing the shape of an arena with spectral swarm robotics",
+      "summary": "Swarm robotics relies on robots with minimal sensing and computation that achieve self-organization at the level of the collective to address a variety of tasks. Yet, swarm robotics still struggles with global tasks that require understanding the broader spatial context in which robots operate, such as identifying the shape of the arena in which they are embedded. Here, we introduce spectral swarm robotics, a framework in which robots recover global spectral descriptors of the swarm’s geometric structure through strictly local interactions. To do so, robots emulate diffusion to locally estimat",
+      "authors": [
+        "Léo Cazenille",
+        "Nicolas Lobato‐Dauzier",
+        "Alessia Loi",
+        "Loona Macabre",
+        "Mika Ito",
+        "Olivier Marchal",
+        "Soo Hyeon Kim",
+        "Nathanaël Aubert-Kato",
+        "Nicolas Bredèche",
+        "Anthony J. Genot"
+      ],
+      "published": "2026-10-21",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -284,17 +280,18 @@
       "trending": 0.0
     },
     {
-      "id": "W7222997102",
-      "url": "https://doi.org/10.5281/zenodo.23486830",
-      "pdf": "https://doi.org/10.5281/zenodo.23486830",
-      "title": "Public willingness to use a described humanoid robot for emergency department history taking: a cross-sectional US online vignette survey",
-      "summary": "Preprint of a manuscript currently under consideration at a peer-reviewed journal. This version has not been peer reviewed. Automated medical history collection before clinician evaluation is feasible. Whether the public would accept a humanoid robot for this in an emergency department, or prefer it to a tablet running the same software, is unknown. We measured willingness to choose a described humanoid robot for emergency department history taking, and compared physician, tablet, and robot vignettes. This anonymous cross-sectional survey recruited 254 US adults from the SurveyMonkey Audience ",
+      "id": "W7214779246",
+      "url": "https://doi.org/10.1145/3858343",
+      "pdf": "https://arxiv.org/pdf/2609.32336",
+      "title": "WSM-Aware HRI: An IoT-Enhanced Framework for Early Detection and Norm-Guided Repair of Failures with LLM Guidance",
+      "summary": "Human–robot interaction (HRI) failures remain a major barrier to deploying robots in real-world environments. Prior work often treats failures as isolated technical faults or focuses on post-hoc recovery behaviors. In practice, many breakdowns arise because humans and robots operate under inconsistent assumptions about the current world state. We propose WSM-Aware HRI, an IoT-enhanced modular framework that unifies diverse HRI breakdowns as World-State Mismatches (WSMs) between a human's instruction-implied assumptions and a robot's grounded world model built from multimodal perception and dig",
       "authors": [
-        "Stephen Gormican",
-        "Taylor Rowen",
-        "Hailey Miller"
+        "Hanlin Zhang",
+        "Yuquan Wang",
+        "Tianwei Zhang",
+        "Zhenglong Sun"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-21",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -305,34 +302,15 @@
       "trending": 1.5
     },
     {
-      "id": "W7222997136",
-      "url": "https://doi.org/10.54254/2755-2721/2027.37793",
-      "pdf": "https://ace.ewapub.com/article/view/37793.pdf",
-      "title": "The Role of Edge Computing in Future 6G Wireless Networks: A Literature Review",
-      "summary": "The rapid development of the Internet of Things (IoT), artificial intelligence (AI), autonomous systems, and immersive applications is creating new demands on wireless networks. Although 5G has improved data rates, latency, and device connectivity, applications such as autonomous driving, AI-enabled robotics, virtual reality (VR), augmented reality (AR), and smart healthcare require fast and intelligent processing as well as communication. Traditional cloud computing depends on centralised data centres, which can increase latency and core-network traffic when large amounts of data are produced",
+      "id": "W7223027580",
+      "url": "https://doi.org/10.5281/zenodo.23518394",
+      "pdf": "https://doi.org/10.5281/zenodo.23518394",
+      "title": "Integrated Deterministic Governance and Intellectual Property Defense Architecture for Next-Generation Cyber-Physical Systems: Bridging Probabilistic AI, Sub-12.5 ms Control Barrier Optimization, Post-Quantum Data Sovereignty, and 300 K Subtractive Quantum Infrastructure",
+      "summary": "The direct coupling of probabilistic Large Language Models (LLMs), Vision-Language Models (VLMs), and putative Artificial General Intelligence (AGI) reasoning cores to continuous-time physical actuators introduces existential failure modes across safety-critical Cyber-Physical Systems (CPS), ranging from non-cooperative orbital debris Active Thermal and Trajectory Control Systems (ATCS) to autonomous domestic robotics and smart kitchen infrastructures. Because autoregressive foundation models operate via stochastic sampling over discrete symbolic latent spaces, out-of-distribution (OOD) halluc",
       "authors": [
-        "Zimo Yan"
+        "Yoko(洋子) Hasebe(長谷部)"
       ],
-      "published": "2026-10-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7222997531",
-      "url": "https://doi.org/10.5281/zenodo.23498483",
-      "pdf": "https://doi.org/10.5281/zenodo.23498483",
-      "title": "Ridgeback-UR16e Navigation and Inspection – SAM XL Testbed (Rosbag Files)",
-      "summary": "These are rosbag files recorded during the benchmarking of the trials of letting the robot navigate from the docking station to the inspection cell. It also has the manipulator tf's while the robot is performing inspection. Five runs were performed for both benchmarking and with coresense modules enabled. There are robot tf's, image data, navigation specific topics for the entire run.",
-      "authors": [
-        "Nithish Sanjeev Kumar"
-      ],
-      "published": "2026-10-20",
+      "published": "2026-10-21",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -343,15 +321,116 @@
       "trending": 1.5
     },
     {
-      "id": "W7223230660",
-      "url": "https://doi.org/10.5281/zenodo.23581294",
-      "pdf": "https://doi.org/10.5281/zenodo.23581294",
-      "title": "A Starting Score Is Not a Ceiling: When Accuracy Before Reinforcement Learning Predicts Accuracy After It, Why Each Proposed Replacement Sees a Different Failure, and the Axis Test That Decides Which Proxy to Trust",
-      "summary": "(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Life of Research Reasoning models are usually built in two stages, supervised fine-tuning and then reinforcement learning against a verifier, and the first stage is usually judged by the benchmark accuracy of its checkpoint. An August 2026 study reports that the strategy with by far the lowest accuracy before reinforcement learning finished with the highest accuracy after it, and concludes that pre-RL accuracy is not a reliable indicator of post-RL potential. In this analysis the author reviews and synthesises published results to show tha",
+      "id": "W7223037565",
+      "url": "https://doi.org/10.5281/zenodo.23515697",
+      "pdf": "https://doi.org/10.5281/zenodo.23515697",
+      "title": "Performance Verification Report: Phoenix-UCC v15.4 Control Logic (Altea-Garay HTS Architecture) for Robotics and Smart Materials",
+      "summary": "This technical report presents simulation results for the Phoenix-UCC v15.4 control architecture, an optimized evolution for high-precision robotic environments. This version derives from the original UCC 15.0 control logic (subject to U.S. Provisional Patent Application No. 63/914,860, originally designed for cryogenic modules). The document details critical metrics of latency, data bus efficiency, and system stability under the Dynamic Red protocol. While the core architecture (v15.0) represents the base design, this v15.4 implementation demonstrates superior versatility beyond the cryogenic",
       "authors": [
-        "Pranay M. Mahendrakar"
+        "Gustavo Enrique Garay"
       ],
-      "published": "2026-10-23",
+      "published": "2026-10-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223045509",
+      "url": "https://doi.org/10.12962/jaree.v10i2.440",
+      "pdf": "https://jaree.its.ac.id/jaree/article/download/440/251",
+      "title": "Navigation System for Wheeled Robots Using SLAM GMapping and LiDAR",
+      "summary": "One of the primary challenges in developing autonomous robots is enabling them to operate in dynamic, unstructured environments, where traditional navigation methods often fail. For instance, self-driving cars must continuously adapt to changing road conditions, traffic, and unexpected obstacles. In this context, efficient sensors and computing systems play a vital role. LiDAR (Light Detection and Ranging) technology has proven highly effective for autonomous robots, particularly for environmental mapping and obstacle avoidance. This project utilizes the LiDAR A1 sensor to support the SLAM (Si",
+      "authors": [
+        "Muhammad Fasha Aqillah",
+        "Muhammad Daffa Fadillah",
+        "Sony Sumaryo",
+        "Erwin Susanto"
+      ],
+      "published": "2026-10-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223061516",
+      "url": "https://doi.org/10.17587/it.32.525-533",
+      "pdf": "",
+      "title": "Traditional methods for hand gesture recognition in video streams: overview and comparative characteristics",
+      "summary": "Hand gesture recognition is a relevant and promising field of research at the intersection of computer vision, robotics, and human-computer interaction. The article examines the key challenges faced by modern machine learning and computer vision algorithms in the analysis and classification of gestures. The paper provides a comparative analysis of traditional methods for describing gesture shapes, with a systematization of their advantages and disadvantages presented in tabular form.",
+      "authors": [
+        "K. Sh. Gurbanova"
+      ],
+      "published": "2026-10-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7170991194",
+      "url": "https://openalex.org/W7170991194",
+      "pdf": "https://hal.science/hal-05687540v1",
+      "title": "Semantically Grounded Explainability for Pedestrian Detection Using Anatomical Proportions and Grid-Based Visualization",
+      "summary": "Explainable computer vision aims to understand how and why complex vision systems make decisions. However, existing explainability methods often highlight relevant image regions without providing semantically meaningful explanations for human users. In this work, we analyze the behavior of a pedestrian detector under semantically meaningful image perturbations. To overcome the interpretability limitations of existing explainability approaches, pedestrian occlusions are defined according to anatomical proportions derived from Leonardo da Vinci's golden ratio, enabling a human-understandable dec",
+      "authors": [
+        "Chiara Galdi",
+        "Romain Giot"
+      ],
+      "published": "2026-10-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223082740",
+      "url": "https://doi.org/10.5281/zenodo.23535519",
+      "pdf": "https://doi.org/10.5281/zenodo.23535519",
+      "title": "A Multimodal Framework for English-to-Indian Sign Language Translation from Online Video Using a Transition-Aware 3D Avatar with Adjustable Signing Speed",
+      "summary": "This research presents a proposed multimodal framework for continuous Indian Sign Language (ISL) translation and avatar-based sign production. The framework aims to improve communication accessibility by connecting sign-language recognition, language translation, and visual sign generation within a unified system. The proposed approach combines visual and temporal information, including hand gestures, body posture, facial expressions, and movement sequences, to support the interpretation of continuous signing. It also explores translating recognized sign sequences into meaningful text and repr",
+      "authors": [
+        "Shweta Vairal",
+        "Divya Phawade"
+      ],
+      "published": "2026-10-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223276961",
+      "url": "https://doi.org/10.5281/zenodo.23602735",
+      "pdf": "https://doi.org/10.5281/zenodo.23602735",
+      "title": "From Games to Frictional Markets: How Experience Organization Governs the Transfer of a Self-Evolving RL Model",
+      "summary": "Learning from experience in the real world requires reinforcement-learning rules that remain effective when environments change and actions incur economic costs. Disco103, a state-of-the-art self-discovered RL rule from games, provides a strong starting point for this transfer problem. Motivated by the era of experience and the big world hypothesis, we investigate how the organization of target-domain experience shapes adaptation under finite learning capacity. We separate experience organization from source-rule initialization using structured volatility-by-momentum tasks, a random-initialize",
+      "authors": [
+        "Haomin Luo",
+        "李尔沙"
+      ],
+      "published": "2026-10-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -362,16 +441,17 @@
       "trending": 1.5
     },
     {
-      "id": "W7222998164",
-      "url": "https://doi.org/10.20944/preprints202610.1802.v1",
-      "pdf": "https://doi.org/10.20944/preprints202610.1802.v1",
-      "title": "Automated Dense Reward Function Design for Reinforcement Learning in Autonomous Driving",
-      "summary": "Crafting reward functions remains a challenge in reinforcement learning, particularly in autonomous driving (AD), where safety, efficiency, and task completion must be balanced. We introduce a GPT-5.6-based revision of AD Reward Designer, a framework for generating interpretable dense reward functions from natural language goals and concise Pythonic environment descriptions. The initial reward generation requires no expert demonstrations or model fine-tuning. GPT-5.6 translates task requirements into executable reward code, which is checked before being used by a reinforcement learning algorit",
+      "id": "W7223300136",
+      "url": "https://doi.org/10.5281/zenodo.23606768",
+      "pdf": "https://doi.org/10.5281/zenodo.23606768",
+      "title": "Multi-agent reinforcement learning for coordinated reservoir releases under conflicting hydropower and irrigation mandates: a climate-analytics evaluation of Pareto-regret and downstream equity",
+      "summary": "Reservoir operators in transboundary basins face a structural conflict: hydropower revenue is maximised by releasing water when electricity prices peak, while irrigation mandates require deliveries timed to crop water demand. Multi-agent reinforcement learning (MARL) has been proposed as a coordination mechanism for such settings, but its evaluation has relied on aggregate reward, which conceals the distribution of regret across agents and the equity consequences for downstream users. The framework defines Pareto-regret as the vector of per-agent deviations from the Pareto frontier of feasible",
       "authors": [
-        "Guanren Qiao",
-        "Yijie Weng"
+        "Aïchatou Djibo-Boubacar",
+        "Mariama Hama Abdou",
+        "Issoufou Soumana Oumarou"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -382,129 +462,91 @@
       "trending": 0.0
     },
     {
-      "id": "W7222994275",
-      "url": "https://doi.org/10.64898/2026.10.18.759932",
-      "pdf": "https://doi.org/10.64898/2026.10.18.759932",
-      "title": "3D-bioprinted skeletal muscle with tailored myofibre architecture",
-      "summary": "Engineered skeletal muscle tissue (eSMT) contractile function strongly depends on the alignment and orientation of its myofibres, as force generation and transmission are intrinsically linked to its microstructural architecture. However, fabricating truly functional eSMT with controlled myofibre architecture remains a major challenge. Here, we present a method that combines extrusion-based 3D bioprinting with custom multi-pillar anchoring systems to guide myofibre orientation. Using this approach, we successfully fabricated functional eSMTs with parallel, fusiform, bipennate, and circular arch",
-      "authors": [
-        "María Florencia Lezcano",
-        "Marina Rovira",
-        "Judith Fuentes",
-        "Serxio Álvarez-Olcina",
-        "Samuel Sánchez"
-      ],
-      "published": "2026-10-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7222995278",
-      "url": "https://doi.org/10.4108/eetsis.15183",
-      "pdf": "https://publications.eai.eu/index.php/sis/article/download/15183/4472",
-      "title": "From disruption narratives to visual scenario cards: A design-prior-guided AIGC framework for manufacturing resilience communication",
-      "summary": "INTRODUCTION: In discrete and process manufacturing and their upstream supply networks, disruptions (natural hazards, cyber incidents, logistics blockages, geopolitical actions, facility failures, and demand shocks) reach decisionmakers as fragmented text narratives, slowing shared understanding across roles, while direct text-to-image generation leaves causal structure visually undifferentiated and design knowledge tacit. The research object is information-design knowledge (an art and design discipline) applied to manufacturing-disruption communication; it is not art manufacturing. OBJECTIVES",
-      "authors": [
-        "Yuxuan Mao",
-        "Liyao Xiao"
-      ],
-      "published": "2026-10-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7222997033",
-      "url": "https://doi.org/10.1002/ima.70460",
+      "id": "W7223014360",
+      "url": "https://doi.org/10.1016/j.trc.2026.106090",
       "pdf": "",
-      "title": "Adaptive Deep Video Frame Interpolation for Robust Laparoscopic Visualization: A Comparative Evaluation",
-      "summary": "ABSTRACT High‐quality temporal visualization is essential in laparoscopic surgery, where rapid instrument motion, nonrigid tissue deformation, illumination variation, and partial occlusions can reduce the quality of surgical video sequences and hinder accurate visual interpretation. Although deep learning‐based video frame interpolation (VFI) has achieved remarkable performance on natural image benchmarks, its applicability to laparoscopic surgical videos remains insufficiently investigated. This study presents a comprehensive evaluation of four state‐of‐the‐art deep learning‐based VFI models,",
-      "authors": [
-        "Shujaat Ali Zaidi",
-        "Ali Turab",
-        "Chailert Phongnarisorn"
-      ],
-      "published": "2026-10-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 1.5
-    },
-    {
-      "id": "W7223001996",
-      "url": "https://doi.org/10.17632/64spkbzxfw",
-      "pdf": "https://doi.org/10.17632/64spkbzxfw",
-      "title": "PavementSense: A benchmark dataset for road surface damage severity classification",
-      "summary": "The proposed road-surface dataset was developed for automated road-surface condition assessment, road-damage classification, and computer vision applications for infrastructure monitoring. It contains three classes: Major Damage, Minor Damage, and Normal, representing different levels of road-surface conditions. The images were collected in Barishal district, Bangladesh, under natural road and weather conditions. They capture diverse surface textures, lighting conditions, viewpoints, and road surroundings. Each image was visually inspected and labeled according to the dominant road-surface con",
-      "authors": [
-        "Fnu Israfil",
-        "Md. Azizul Hakim Tashin",
-        "A. F. M. Shah Arafin Atiq",
-        "Md. Faruk Hosen"
-      ],
-      "published": "2026-10-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 1.5
-    },
-    {
-      "id": "W7223211362",
-      "url": "https://doi.org/10.1007/s10798-026-10138-y",
-      "pdf": "",
-      "title": "From dialogue to design: a Bakhtinian perspective on young children’s emerging understandings of robots",
+      "title": "Decision intelligence for electric bus charging scheduling through LLM-driven reward shaping and reinforcement learning",
       "summary": "",
       "authors": [
-        "Eunji Cho"
+        "Jiahao Zhan",
+        "Ying Yang",
+        "Zhe Zhang",
+        "Yang Liu",
+        "Yiming Bie",
+        "Mingyang Pei",
+        "Xiaobo Qu"
       ],
-      "published": "2026-10-23",
+      "published": "2026-10-21",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7223215197",
-      "url": "https://doi.org/10.53941/jaia.2026.100018",
-      "pdf": "https://doi.org/10.53941/jaia.2026.100018",
-      "title": "Robust Deep Long-Term Correlation Filter Tracking",
-      "summary": "Long-term object tracking is an essential task for developing robust vision ability for intelligent robots and vehicles. To cope with various challenges in the dynamic driving environment, existing methods usually maintain a target appearance model and update it in an online manner. However, the errors may accumulate during the updating process when the target suffers from the problems caused by such issues as long-term occlusion and out-of-view, thus resulting in tracking failures. This work proposes a Robust Deep Long-term Tracking (RDLT) method, which can alleviate the impact of erroneous u",
+      "id": "W7223094363",
+      "url": "https://doi.org/10.1108/jcms-12-2025-0194",
+      "pdf": "https://www.emerald.com/jcms/article-pdf/doi/10.1108/JCMS-12-2025-0194/11922778/jcms-12-2025-0194en.pdf",
+      "title": "AI-driven forecasting and portfolio optimization under ESG and uncertainty regimes: evidence from global equity indices",
+      "summary": "Purpose This study investigates how advanced machine learning (ML) and deep reinforcement learning (DRL) models can enhance forecasting accuracy and portfolio decision-making under environmental, social, and governance (ESG)-driven and uncertainty-sensitive market conditions. The objective is to compare the predictive efficiency of state-of-the-art ML architectures with policy-based portfolio strategies to uncover the role of sustainability indicators in shaping market dynamics. Design/methodology/approach We analyze daily data for major ESG and conventional market indices across the USA, Euro",
       "authors": [
-        "Hao Dou",
-        "Xiwang Guo",
-        "Qiangqiang Wu"
+        "Yesser Drira",
+        "Hayet Soltani",
+        "Dr. Mouna Boujelbene"
       ],
-      "published": "2026-10-23",
+      "published": "2026-10-21",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
+    },
+    {
+      "id": "W7223098165",
+      "url": "https://doi.org/10.5281/zenodo.23544114",
+      "pdf": "https://doi.org/10.5281/zenodo.23544114",
+      "title": "Sparse-Reward Reinforcement Learning for Computer Agriculture Autonomous Weeding Under Delayed Crop-Injury Feedback: An Artificial Intelligence Safety-Constrained Regret Evaluation",
+      "summary": "Autonomous mechanical weeding in computer agriculture must learn from sparse, delayed crop-injury signals, yet the safety cost of exploratory actions is borne by the crop rather than the learner. the present analysis formalises the problem as a constrained regret minimisation over a safety-constrained Markov decision process in which injury feedback arrives with a lag and the injury budget is finite. A Lagrangian safety-constrained regret bound is derived that separates the statistical cost of sparse rewards from the safety cost of delayed feedback, and the bound is evaluated through a replica",
+      "authors": [
+        "Khadija Aït Lahcen Ouhaddou",
+        "Younes Bouziane Tazi"
+      ],
+      "published": "2026-10-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223281878",
+      "url": "https://doi.org/10.63158/journalisi.v8i5.1882",
+      "pdf": "https://doi.org/10.63158/journalisi.v8i5.1882",
+      "title": "A Computer Vision-Based Framework for Multilevel Egg Fertility Classification Using L*a*b* Color Segmentation, Wavelet Texture Features, and Support Vector Machine",
+      "summary": "Egg fertility assessment is essential for improving hatchery efficiency, reducing incubation costs, and minimizing resource waste caused by infertile eggs. This study aims to develop a computer vision-based framework for three-level egg fertility classification, namely Highly Fertile, Fertile, and Infertile. A balanced dataset consisting of 1,500 manually collected candling images (500 images per class) was validated by three poultry experts. The proposed method involves L*a*b* color-space transformation, K-Means clustering for region-of-interest segmentation, Discrete Wavelet Transform (DWT) ",
+      "authors": [
+        "Sriyadi",
+        "Jufriadif Na’am",
+        "Mochamad Wahyudi",
+        "Sumanto"
+      ],
+      "published": "2026-10-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
       "trending": 0.0
     }
   ]
