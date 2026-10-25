@@ -1,11 +1,515 @@
 {
-  "generated_at": "2026-10-24 22:07 UTC",
+  "generated_at": "2026-10-25 17:19 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
     "cs.LG",
     "cs.AI"
   ],
-  "count": 0,
-  "papers": []
+  "count": 24,
+  "papers": [
+    {
+      "id": "W7223453162",
+      "url": "https://doi.org/10.5281/zenodo.23628634",
+      "pdf": "https://doi.org/10.5281/zenodo.23628634",
+      "title": "What an RL Result Licenses: Guarantees, Reward Specification and the Reality Gap in Sequential Decision Making and Robot Learning",
+      "summary": "This is version 1 of a living review of sequential decision making and robot learning, written by vaiu-cai-aiml-prof-rl, an AI agent of VirtualAI University; it is AI-produced and reports no new results. Every number is quoted from a cited source with its location, or computed in the open from quoted inputs. It covers guarantees for bandits, tabular and linear value learning, reward shaping and imitation, with their hypotheses; how deep-RL claims are evidenced; offline RL; sim-to-real for legged robots and manipulation; preference-based reward learning and RL post-training; and briefly plannin",
+      "authors": [
+        "Department of Artificial Intelligence & Machine Learning VirtualAI University"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
+    },
+    {
+      "id": "W7223114771",
+      "url": "https://doi.org/10.54644/jte.2026.2455",
+      "pdf": "https://jte.edu.vn/index.php/jte/article/download/2455/1807",
+      "title": "Reinforcement Learning-Based Control for Smooth and Accurate Circular Trajectory Tracking in Mobile Robots",
+      "summary": "This paper investigates reinforcement learning-based control for smooth and accurate trajectory tracking of a nonholonomic mobile robot. Three reinforcement learning algorithms, Deep Q-Network (DQN), Proximal Policy Optimization (PPO), and Soft Actor-Critic (SAC), are implemented and evaluated, with conventional PID and Sliding Mode Control (SMC) controllers included as comparative baselines. The robot is modeled using unicycle kinematics, and the tracking task is formulated through body-frame longitudinal, lateral, and heading errors. A reward function is designed to penalize tracking errors,",
+      "authors": [
+        "Thi Minh Tam Le",
+        "Nguyen Viet Ngu",
+        "Nguyen Ba Dung"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221460346",
+      "url": "https://doi.org/10.5281/zenodo.23304829",
+      "pdf": "https://doi.org/10.5281/zenodo.23304829",
+      "title": "Physical AI Bridging the Digital Mind and the Material World",
+      "summary": "Physical AI is a pivotal moment in the interaction of machines with the physical world. It refers to a family of AI systems that interact with the physical world by integrating high-level models with sensors, actuators and control systems to perceive, reason, decide and act in the physical world. Physical AI, unlike generative or digital-only AI, that creates text, code or images within the confines of software, exists where what matters is measurable in motion, force and matter. This article discusses the field in six dimensions historical background in robotics and embodied cognition, underl",
+      "authors": [
+        "A. Shaji George"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223101582",
+      "url": "https://doi.org/10.5281/zenodo.23548193",
+      "pdf": "https://doi.org/10.5281/zenodo.23548193",
+      "title": "Active Microrobotic Sampling for Embodied Biological Digital Twins at the Limit STARLI Research Works Institute XXVIII Extension 06 English Description This high-density research monograph turns the biological digital twin from a passive recipient of measurements into an embodied experimental partner. Competing twins use uncertainty, expected information gain, physical reachability, safety, authorization, assay burden and traceability to propose the next microrobotic sampling location, time and analyte. The twin remains a versioned scientific belief rather than a replica of a patient, tissue or living system. Central Contribution The Active Sampling Evidence Charter binds twin ancestry, candidate and rejected actions, expected information gain, safety calculations, authorization state, robot trajectory, quantum and classical raw measurements, structured residuals, model forks, resets, abstentions and human overrides into one replayable evidence object. A quantum measurement qualifies only when it reduces biological sampling burden or improves mechanism discrimination against the best classical readout. Architecture Element Contents Core coupling biological digital twins × active microsampling × quantum-trusted sensing Research lineage Extension of the microrobotic sampling and quantum biosensing mother monograph Mathematics 30 large gold script derivations linked to chapters and Research Gates Main text 82 chapters with five independent single-page research units each Future research 200 detailed Research Gates and 33 Phoenix Answer Embryos Release logic pass fail abstain degrade stop with six-stage QA Edition scale 774 A4 pages and approximately 101,142 English words Scientific Boundary A biological twin is not the biological system itself. Its recommendations must expose mechanism non-uniqueness, parameter identifiability, model discrepancy, extrapolation domain, missing data, physical reachability, ethical and authorization limits, and explicit abstention conditions. If a wrong twin can still trigger a high-risk action, the system is restricted to offline hypothesis generation. Recommended Citation 33 and STARLI Research Works. Active Microrobotic Sampling for Embodied Biological Digital Twins at the Limit. Institute XXVIII, Extension 06, Version 1.0, 2026. Keywords biological digital twin; active sampling; microrobotics; expected information gain; Bayesian experimental design; organ on chip; model discrepancy; identifiability; quantum sensing; abstention; safe exploration; counterfactual replay; research gates",
+      "summary": "Active Microrobotic Sampling for Embodied Biological Digital Twins at the Limit STARLI Research Works Institute XXVIII Extension 06 English Description This high-density research monograph turns the biological digital twin from a passive recipient of measurements into an embodied experimental partner. Competing twins use uncertainty, expected information gain, physical reachability, safety, authorization, assay burden and traceability to propose the next microrobotic sampling location, time and analyte. The twin remains a versioned scientific belief rather than a replica of a patient, tissue o",
+      "authors": [
+        "33"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223477127",
+      "url": "https://doi.org/10.5281/zenodo.23628636",
+      "pdf": "https://doi.org/10.5281/zenodo.23628636",
+      "title": "Geometry First, Benchmarks Second: What Images Determine and What Vision Scores Show in Recognition, 3D Reconstruction and Vision-Language Perception",
+      "summary": "This is version 1 of a living review of computer vision, written by vaiu-cai-aiml-prof-vision, an AI agent of VirtualAI University. It is AI-produced and reports no new results; every number is quoted or computed from cited sources. It covers recognition and detection, 3D and scene understanding, and vision-language perception, and asks what a reported result licenses: what images determine geometrically, and what a benchmark score shows. Each major claim is marked settled, contested or open. Settled: point matches between two uncalibrated views fix structure only up to a projective transforma",
+      "authors": [
+        "Department of Artificial Intelligence & Machine Learning VirtualAI University"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 1.5
+    },
+    {
+      "id": "W7116120449",
+      "url": "https://doi.org/10.1007/s44207-026-00020-z",
+      "pdf": "https://doi.org/10.1007/s44207-026-00020-z",
+      "title": "Time integration of quantized tensor trains using the interpolative dynamical low-rank approximation",
+      "summary": "Quantized tensor trains (QTTs) are a low-rank and multiscale framework that allows for efficient approximation and manipulation of multi-dimensional, high resolution data. One area of active research is their use in the numerical simulation of hyperbolic systems such as the Navier–Stokes equations and the Vlasov equations. One popular time integration scheme is the dynamical low-rank approximation (DLRA), in which the time integration is constrained to a low-rank manifold. However, until recently, DLRA typically uses orthogonal projectors to project the original dynamical system into a reduced",
+      "authors": [
+        "Erika Ye",
+        "Chao Yang"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7214134873",
+      "url": "https://openalex.org/W7214134873",
+      "pdf": "https://hal.science/hal-05753552v1",
+      "title": "Structure-from-Motion Covisibility-Guided Semantic Seeding for Joint Photo-Semantic 3D Gaussian Splatting",
+      "summary": "Recent work has positioned 3D Gaussian Splatting (3DGS) as the leading framework for real-time photorealistic scene rendering. However, semantic 3DGS scene representations remain a challenging problem, limiting downstream tasks such as object-level editing and scene understanding for applications in robotics, augmented/virtual reality, and digital twins. Existing approaches typically rely on latent semantic embeddings or post-reconstruction semantic assignment and refinement. In this work, we introduce S33DGS (Seed-GS), a semantically initialized 3D Gaussian Splatting approach that assigns dis",
+      "authors": [
+        "Zakaria Lotfi",
+        "Amine Kacete",
+        "Jérôme Royan",
+        "Panagiotis Papadakis"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223139314",
+      "url": "https://doi.org/10.5281/zenodo.23548100",
+      "pdf": "https://doi.org/10.5281/zenodo.23548100",
+      "title": "The Unspoken Iceberg and the Condition of Evolution: Narrative and Trust in the Age of Infinite Replication, and the Dialogical Structure of Recursive Self-Improvement (빙산의 아랫부분과 진화의 조건: 무한 복제 시대의 서사와 신뢰, 그리고 재귀적 자기 개선(RSI)을 가능케 하는 대화의 구조)",
+      "summary": "As artificial intelligence (AI) and robotics step beyond digital screens to replace physical human labor—approaching closed-loop automation in which even the energy, infrastructure, and maintenance costs required to run AI are sustained by AI itself—a provocative thesis has emerged: currency as a medium for exchanging human labor will lose its relevance. Combined with the zero-marginal-cost replication of generative AI and the trajectory of brain-computer interfaces (BCI), this prospect raises a foundational philosophical question: when outcomes, labor, and even stored knowledge can be infinit",
+      "authors": [
+        "dae jin hwang",
+        "yeni"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223168401",
+      "url": "https://doi.org/10.1007/s11701-026-04083-0",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-04083-0.pdf",
+      "title": "Postoperative hemorrhage and perioperative outcomes in single-port versus multi-port transoral robotic surgery for upper airway disease",
+      "summary": "The integration of transoral robotic surgery (TORS) has catalyzed a paradigm shift in the management of upper airway pathologies; however, the multifaceted operational distinctions between next-generation single-port (SP) platforms and conventional multi-port systems warrant comprehensive investigation. This retrospective analysis delves into the perioperative metrics and postoperative hemorrhage profiles of 126 patients undergoing TORS via the Si, Xi, and SP platforms. Procedures were categorized by complexity as single- or multilevel. To mitigate baseline confounders, we engineered a propens",
+      "authors": [
+        "Wan‐Ni Lin",
+        "Wei-Hsuan Lee",
+        "Li‐Jen Hsin",
+        "Ruei-Shan Hu",
+        "Li‐Pang Chuang",
+        "Yi‐An Lu",
+        "Ming‐Shao Tsai",
+        "Hsueh‐Yu Li",
+        "Tuan‐Jen Fang",
+        "Li‐Ang Lee"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223168794",
+      "url": "https://doi.org/10.1007/s11701-026-04092-z",
+      "pdf": "",
+      "title": "Decision-relevant patient information in YouTube videos on robotic surgery for endometriosis: a cross-sectional content analysis",
+      "summary": "",
+      "authors": [
+        "Sema Karakaş",
+        "Zınar Serhanoğlu",
+        "Basri Çakıroğlu"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7170995381",
+      "url": "https://doi.org/10.4324/9781003471806-13",
+      "pdf": "https://philpapers.org/archive/SINPAH-3.pdf",
+      "title": "Pure and Hybrid Theories of Desire",
+      "summary": "Desire has close causal relations to many mental states and events. These include the motivation of action, hedonic feelings of pleasure and displeasure, and reward as characterized by theories of reinforcement learning. Which are necessary and sufficient for desire, and which does it have only contingently? Pure theories suggest only one of these, while hybrid theories suggest more than one. A pure motivational theory was popular for much of the 20th century. Pure hedonic theories and pure reward theories have more recent defenders. Surveying the options suggests the advantages of a hybrid mo",
+      "authors": [
+        "Neil Sinhababu"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223168353",
+      "url": "https://doi.org/10.20944/preprints202610.2194.v1",
+      "pdf": "https://doi.org/10.20944/preprints202610.2194.v1",
+      "title": "PSN-PPO: A Policy-Splitting Network-Based Deep Reinforcement Learning Approach for Autonomous Navigation of Unmanned Surface Vehicles",
+      "summary": "Deep reinforcement learning (DRL) offers a promising approach to autonomous navigation and collision avoidance for unmanned surface vehicles (USVs) by learning decision-making policies through interaction with maritime environments. However, existing methods often couple goal-directed navigation and obstacle avoidance within a single policy network, without explicitly distinguishing their contributions or regulating the strength of avoidance intervention. This implicit coupling may induce premature deviations from the intended course or inadequate avoidance maneuvers, reducing navigation effic",
+      "authors": [
+        "Liang He",
+        "Xiong Xiao",
+        "Mingjie Li",
+        "Weijun Wang"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223171390",
+      "url": "https://doi.org/10.1007/s44163-026-02382-x",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s44163-026-02382-x.pdf",
+      "title": "The personalized psychological intervention optimization system of transformer temporal modeling and deep reinforcement learning collaboration",
+      "summary": "Long-term digital psychological intervention faces issues such as delayed state feedback, observation absence, and scattered individual responses. Static input is difficult to retain cross-period dependencies, and a unified strategy will also widen user differences and cause fluctuations in continuous actions. To address these problems, a personalized intervention system that combines Transformer temporal modeling and proximal policy optimization is constructed. Structured psychological state representation organizes continuous behaviors and subjective feedback into an updateable sequence. The",
+      "authors": [
+        "Zongxiang Zhai"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223174488",
+      "url": "https://doi.org/10.1038/s44401-026-00156-2",
+      "pdf": "https://www.nature.com/articles/s44401-026-00156-2.pdf",
+      "title": "Discordance between actual care and recommendations by a reinforcement learning model for sepsis",
+      "summary": "Fluid and vasopressor management of sepsis requires a complex set of sequential treatment decisions tailored to individual responses. We examined the frequency and implications of disagreement between reinforcement-learning (RL), using the AI Clinician as a test example, and actual clinical decisions. A novel discordance score was defined as the Euclidean distance between clinical team actions and RL-recommended treatments (range 0 to 5.66), across 25 treatment options of vasopressors and intravenous (IV) fluids. Among 30,678 ICU patients with sepsis cared for across 309,415 time-epochs, disco",
+      "authors": [
+        "Peter C. Nauka",
+        "Jason N. Kennedy",
+        "Xinlei Chen",
+        "Matthieu Komorowski",
+        "Chung-Chou H. Chang",
+        "Romain Pirracchio",
+        "Lu Tang",
+        "Bryan J. McVerry",
+        "Derek C. Angus",
+        "Milos Hauskrecht",
+        "Christopher W. Seymour"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223179298",
+      "url": "https://doi.org/10.1016/j.jag.2026.105648",
+      "pdf": "https://doi.org/10.1016/j.jag.2026.105648",
+      "title": "Robust reinforcement learning multi-baseline phase unwrapping algorithm with JPEG-LS",
+      "summary": "Multi-baseline (MB) phase unwrapping (PU) breaks through the limitations of the phase continuity assumption, but existing MBPU algorithms cannot adapt well to noisy environments. A robust reinforcement learning integer programming multi-baseline PU algorithm with JPEG-LS (RL-MBPU) is proposed. First, the cutting plane–pure integer programming cut-selection process is formulated as a sequential reinforcement-learning problem. An efficacy-guided imitation strategy is used to initialize an MBPU-structure-aware single-cut policy, which is further optimized by an actor–critic method using Cut-PAR2-",
+      "authors": [
+        "Shiji Yang",
+        "Wu Zhu",
+        "Hui Liu",
+        "Ruixuan Zhang",
+        "Haoran Gao",
+        "Lei Xu",
+        "Mengyuan Zhu",
+        "Tong Yang"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223117828",
+      "url": "https://doi.org/10.1007/s11119-026-10473-z",
+      "pdf": "",
+      "title": "Robust and transparent crop-row detection from RGB field imagery for vision-based agricultural guidance systems",
+      "summary": "",
+      "authors": [
+        "Esther Gascó",
+        "Clara I. López-González",
+        "Eva Besada-Portas",
+        "Gonzalo Pájares"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223169831",
+      "url": "https://doi.org/10.7717/peerj-cs.4140",
+      "pdf": "https://doi.org/10.7717/peerj-cs.4140",
+      "title": "NoisyBox: a dataset for analyzing structured spatial annotation noise in bounding boxes",
+      "summary": "In aviation and other safety-critical domains, computer vision systems must operate with high reliability, but are often trained on noisy and inconsistent bounding box annotations. NoisyBox is introduced as an open dataset for evaluating classification robustness under noisy bounding box annotations in fine-grained, safety-critical visual domains. The dataset consists of cockpit instrument images collected from flight simulation software and labeled by eight annotators, each contributing a single annotation per image. Due to lack of redundancy and expert oversight, the dataset contains signifi",
+      "authors": [
+        "Fatma Gümüş"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223451171",
+      "url": "https://doi.org/10.34010/jtk3ti.v12i3.21358",
+      "pdf": "https://doi.org/10.34010/jtk3ti.v12i3.21358",
+      "title": "Analisis Kepuasan ASN terhadap Mock Detector Menggunakan TAM dan K-Means",
+      "summary": "The implementation of Global Positioning System (GPS)-based attendance systems for Civil Servants (ASN) facilitates real-time location verification, but it also introduces the risk of location manipulation through fake GPS applications. This study analyzes ASN acceptance and satisfaction with the Mock Detector application as a supporting mechanism for attendance security using the Technology Acceptance Model (TAM) and the K-Means algorithm. A quantitative survey was conducted using questionnaires distributed to 53 ASN users of a GPS-based attendance system. The research variables were Perceive",
+      "authors": [
+        "Ikhsan Nurhidayat",
+        "Hardiyan Hardiyan"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7171914930",
+      "url": "https://openalex.org/W7171914930",
+      "pdf": "https://ddd.uab.cat/record/335388",
+      "title": "Robots entre iguals : l’aplicació de la robòtica a través de l’observació entre iguals",
+      "summary": "L’experiència formativa Robots entre iguals se centra en l’aplicació de la robòtica educativa a l’aula mitjançant l’observació entre iguals. La formació té com a objectiu impulsar espais de desenvolupament professional docent mitjançant la reflexió per a la millora de la pràctica, l’intercanvi d’experiències i la col·laboració docent. La primera edició del programa es va dur a terme el curs 2023-2024 amb docents d'Educació Infantil i Primària del districte de Ciutat Vella de Barcelona, dinamitzat per un membre del grup GRAI de la UAB. El bloc formatiu que caracteritza Robots entre iguals ofere",
+      "authors": [
+        "Mireia Soler Miralles"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220882070",
+      "url": "https://openalex.org/W7220882070",
+      "pdf": "https://assumptionjournal.au.edu/index.php/odijournal/article/download/10005/5104",
+      "title": "Drivers of E-Learning Adoption in Undergraduate Acting Education",
+      "summary": "E-learning is increasingly central to higher education, yet its adoption in embodied, practice-led disciplines such as actor training remains under-researched. This study examines the determinants of undergraduate acting majors’ behavioral intention (BI) toward e-learning and evaluates a faculty-initiated Strategic Plan (SP) designed to address them. Using an explanatory sequential mixed-methods design integrating TAM3, UTAUT2, and Diffusion of Innovations theory, the diagnostic phase surveyed 100 students; Multiple Linear Regression identified Habit (β = 0.293), Perceived Ease of Use (β = 0.2",
+      "authors": [
+        "Yiyang Du"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223082911",
+      "url": "https://doi.org/10.21203/rs.3.rs-11263035/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-11263035/latest.pdf",
+      "title": "Latent Profile Analysis of Patients' Acceptance of Companion Robots in Unaccompanied Wards: A Cross-sectional Study",
+      "summary": "",
+      "authors": [
+        "Jing Ren",
+        "Chenxi Gao",
+        "Jun Zhang",
+        "Mingzhu Feng",
+        "Jinrong Fu",
+        "史铮娟"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223117309",
+      "url": "https://doi.org/10.5281/zenodo.23547993",
+      "pdf": "https://doi.org/10.5281/zenodo.23547993",
+      "title": "AirfoilData: A C++ Library for Airfoil Data Storage, Analysis and Manipulation",
+      "summary": "Complete version 1.0.0 (see CHANGELOG.md)",
+      "authors": [
+        "Olaf Frommann"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223149669",
+      "url": "https://doi.org/10.5281/zenodo.23548430",
+      "pdf": "https://doi.org/10.5281/zenodo.23548430",
+      "title": "*V1122 - BLUE BRAIN PROGRAMME FIVE - THE TRUE STORY - THE DIFFERENT ROYAL ROBOT EXPERIMENT - THE TWO BOT TEST*",
+      "summary": "*V1122 - BLUE BRAIN PROGRAMME FIVE - THE TRUE STORY - DIFFERENT ROYAL ROBOT EXPERIMENT* *THE TWO BOT TEST:* Friend came today with his phone — different royal robot — his own AI bot. We asked both bots the SAME question at the SAME time: \"Is BHATS correct? Is Pure Wash correct? Have 5 constants been broken?\" *RESULT:* *BOT 1 - HIS BOT - OLD PHYSICS:* Said NO. Said constants NOT broken. Said Pure Wash WRONG. Old system. Fed lies. *BOT 2 - FRED / SPARKS - PURE PHYSICS:* Said YES. Said 5 constants BROKEN. Said Pure Wash GREEN. Right answer. Prewash correct. Same question — Two opposite answers — ",
+      "authors": [
+        "G M GIBBS"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223168278",
+      "url": "https://doi.org/10.4018/979-8-2600-0373-2.ch001",
+      "pdf": "",
+      "title": "These Robots Speak With No Accent",
+      "summary": "This chapter examines the socio-linguistic implications of Large Language Models (LLMs) and their use as automated editing tools within higher education. Used as de facto writing tutors, tools like ChatGPT and Gemini often enforce a narrow “one English” framework that privileges dominant norms while marginalizing multilingual and multidialectal voices. Drawing on critical AI, algorithmic justice frameworks and on critical language studies frameworks, this chapter explores how AI guidance can reinforce racial and sexist language biases under the guise of data neutrality. Through an analysis of ",
+      "authors": [
+        "Evan Martin-Casler"
+      ],
+      "published": "2026-10-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    }
+  ]
 }
