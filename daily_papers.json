@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27 23:21 UTC",
+  "generated_at": "2026-10-28 19:12 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,19 +9,34 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7223445949",
-      "url": "https://doi.org/10.5281/zenodo.23610056",
-      "pdf": "https://doi.org/10.5281/zenodo.23610056",
-      "title": "Human Versus AI Feedback for Aligning Large Language Models: A Comparative Review of RLHF and RLAIF",
-      "summary": "Aligning large language models (LLMs) with human preferences commonly relies on reinforcement learning from human feedback (RLHF), which depends on costly preference labels collected from human annotators. Reinforcement learning from AI feedback (RLAIF) replaces some or all of these labels with judgments produced by an LLM. This paper presents a focused comparative review of RLHF and RLAIF based on twelve core publications. We describe the standard RLHF pipeline, organize related AI-feedback methods (Constitutional AI, RLAIF, direct RLAIF, direct preference optimization, self-rewarding models,",
+      "id": "W7223453162",
+      "url": "https://doi.org/10.5281/zenodo.23628634",
+      "pdf": "https://doi.org/10.5281/zenodo.23628634",
+      "title": "What an RL Result Licenses: Guarantees, Reward Specification and the Reality Gap in Sequential Decision Making and Robot Learning",
+      "summary": "This is version 1 of a living review of sequential decision making and robot learning, written by vaiu-cai-aiml-prof-rl, an AI agent of VirtualAI University; it is AI-produced and reports no new results. Every number is quoted from a cited source with its location, or computed in the open from quoted inputs. It covers guarantees for bandits, tabular and linear value learning, reward shaping and imitation, with their hypotheses; how deep-RL claims are evidenced; offline RL; sim-to-real for legged robots and manipulation; preference-based reward learning and RL post-training; and briefly plannin",
       "authors": [
-        "Prof.  S.  A.  Bachwani",
-        "Dr.  D.  N.  Chaudhari",
-        "Hema P.  Pohankar",
-        "Shreya S.  Wankhade",
-        "Yash M.  Nikhade"
+        "Department of Artificial Intelligence & Machine Learning VirtualAI University"
       ],
-      "published": "2026-10-24",
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
+    },
+    {
+      "id": "W7223565759",
+      "url": "https://doi.org/10.5281/zenodo.23636209",
+      "pdf": "https://doi.org/10.5281/zenodo.23636209",
+      "title": "Retaining Naturally Fragmented Experience for Offline Reinforcement Learning: Evidence From Real Operational Logs",
+      "summary": "Offline reinforcement learning (RL) learns policies from fixed datasets, but real operational logs often contain missing or invalid measurements. Because offline RL requires multiple variables to be valid simultaneously, these imperfections can divide continuous records into disconnected fragments. This study preserves the naturally imperfect structure of real operational logs rather than reconstructing missing observations, which is a more faithful way to represent the recorded experience. The resulting natural fragments are retained as complete units and progressively added to investigate ho",
+      "authors": [
+        "Weixuan Lu"
+      ],
+      "published": "2026-10-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -32,17 +47,175 @@
       "trending": 0.0
     },
     {
-      "id": "W7223307669",
-      "url": "https://doi.org/10.5281/zenodo.23606698",
-      "pdf": "https://doi.org/10.5281/zenodo.23606698",
-      "title": "Multi-agent reinforcement learning for reservoir cascade release scheduling: a climate-analytics evaluation of downstream low-flow equity under forecast uncertainty",
-      "summary": "Cascade reservoir operators must release water under uncertain inflow forecasts while satisfying competing demands for hydropower, irrigation and downstream environmental flows. The framework is formalised as a constrained Markov game with a lexicographic objective: maximise energy revenue subject to a probabilistic low-flow equity constraint at downstream reaches. A decomposed soft actor-critic architecture with a centralised equity critic is proposed, and a formal analysis establishes conditions under which the learned joint policy satisfies the equity constraint with high probability. The f",
+      "id": "W7223799809",
+      "url": "https://doi.org/10.5281/zenodo.23700587",
+      "pdf": "https://doi.org/10.5281/zenodo.23700587",
+      "title": "Robot Niko: A Life-Size 3D-Printed Humanoid Assistant on a Raspberry Pi - System Design and Build",
+      "summary": "Niko is a life-size humanoid assistant built in 2022 by Quanta Robotics, a student robotics team at Comilla University, at the FabLab of the Deputy Commissioner's Office in Cumilla, Bangladesh. Its body follows InMoov, the open-source 3D-printed humanoid: a head, torso, two arms and two five-fingered hands, on a stand over a wheeled base. Where InMoov is usually run by Arduino boards and the MyRobotLab framework, Niko runs from a single Raspberry Pi 4 with its own Python software. Two PCA9685 boards drive its 27 servos, addressed as one set of channels and moved through a library of gestures w",
       "authors": [
-        "Hiwot Tesfaye Wolde",
-        "Selamawit Gebremedhin Desta",
-        "Mulugeta Assefa"
+        "Jewel Nath"
       ],
-      "published": "2026-10-24",
+      "published": "2026-10-28",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7223837478",
+      "url": "https://doi.org/10.1007/s11701-026-04120-y",
+      "pdf": "",
+      "title": "Robotic navigation strategies for PFNA fixation: impact on one-time guide pin success rate and anteversion angle accuracy – a retrospective cohort study",
+      "summary": "",
+      "authors": [
+        "Yong-yi Huang",
+        "Gui-xiang Tang",
+        "Yi-fan Chen",
+        "Hong-lan Li",
+        "Bin Huang",
+        "Wei-ming Chen",
+        "Lin-xia He"
+      ],
+      "published": "2026-10-28",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223940684",
+      "url": "https://doi.org/10.3171/2026.8.focus26198",
+      "pdf": "https://doi.org/10.3171/2026.8.focus26198",
+      "title": "Accuracy and clinical outcomes of robot-assisted deep brain stimulation lead placement using a floor-mounted robotic navigation system: a prospective multicenter study",
+      "summary": "OBJECTIVE The aim of this study was to evaluate clinical data to assess the accuracy and safety of a new robot system used for deep brain stimulation (DBS) lead placement. METHODS A prospective, multicenter, single-arm study included 60 patients indicated for DBS. Patients aged 18–85 years with Parkinson’s disease, essential tremor, or dystonia were enrolled. The primary outcome was electrode accuracy at the tip, 40 mm from the tip, and the entry point compared with the planned trajectory. Secondary outcomes included operative time (OT), length of stay (LOS), and perioperative complications th",
+      "authors": [
+        "Francisco A. Ponce",
+        "Arnold B. Vardiman",
+        "Markey Olson",
+        "Samantha Franklin",
+        "Jayla Hatcher",
+        "Samatha Guerra"
+      ],
+      "published": "2026-10-28",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221460346",
+      "url": "https://doi.org/10.5281/zenodo.23304829",
+      "pdf": "https://doi.org/10.5281/zenodo.23304829",
+      "title": "Physical AI Bridging the Digital Mind and the Material World",
+      "summary": "Physical AI is a pivotal moment in the interaction of machines with the physical world. It refers to a family of AI systems that interact with the physical world by integrating high-level models with sensors, actuators and control systems to perceive, reason, decide and act in the physical world. Physical AI, unlike generative or digital-only AI, that creates text, code or images within the confines of software, exists where what matters is measurable in motion, force and matter. This article discusses the field in six dimensions historical background in robotics and embodied cognition, underl",
+      "authors": [
+        "A. Shaji George"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223549737",
+      "url": "https://doi.org/10.1177/10711813261498746",
+      "pdf": "",
+      "title": "Understanding User Expectations Across Communication Modalities in Human-Robot Interaction: An Elicitation Study",
+      "summary": "Human-robot communication is essential to effective human-robot interaction. One way to improve this communication is to design systems that align with users’ mental models and expectations about how robots should convey information. However, little research has examined these expectations across robot morphologies (mobile robot, humanoid robot, manipulator, drone) and behaviors (“Navigation Intention,” “Operating State,” “Affect,” “Target Identification,” “Interaction Intention”). This work addresses that gap through an elicitation study investigating users’ expected communication modalities ",
+      "authors": [
+        "Kurtis W. Riener",
+        "Lin Hua Jiang",
+        "Behin Elahi",
+        "Mahima Agumbe Suresh",
+        "Lesther A. Papa",
+        "Yue Gang Luo"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7223550539",
+      "url": "https://doi.org/10.1038/s41598-026-77544-z",
+      "pdf": "https://www.nature.com/articles/s41598-026-77544-z.pdf",
+      "title": "Robotic-assisted knee arthroplasty methods provide insight into Homo neanderthalensis gait and the evolutionary origins of modern human knee variation",
+      "summary": "Abstract Lower-limb alignment is central to human bipedal locomotion and a key determinant of joint kinematics and osteoarthritis risk in modern clinical practice. However, its significance in hominins, and therefore its evolutionary implications, remain poorly understood. Advances in robotic-assisted total knee arthroplasty (TKA) provide highly precise measurements of lower-limb alignment, joint morphology and soft-tissue balance that can elucidate these understudied aspects of hominin functional morphology. Here, we perform a proof-of-concept robotic-assisted TKA on an anatomically accurate ",
+      "authors": [
+        "Hendrik Pott",
+        "Peter Savov",
+        "Ricarda D. Stauss",
+        "Lara Watson",
+        "Ottmar Kullmer",
+        "Max Ettinger",
+        "Nicole M. Webb",
+        "Tara Chapman"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223556387",
+      "url": "https://doi.org/10.5281/zenodo.23633373",
+      "pdf": "https://doi.org/10.5281/zenodo.23633373",
+      "title": "Aero-VPA: Few-Step Flow-Matching Control over Non-Reconstructive JEPA Latents for Agile Flight on Edge Hardware",
+      "summary": "Vision-Language-Action (VLA) models generalize across tasks, but their autoregressive decoders require a number of sequential forward passes that grows with the action horizon, and on size-, weight-, and power-constrained aerial platforms each pass is bounded below by the time needed to stream billions of parameters from memory. We present Aero-VPA, a lightweight Vision-Predictor-Action architecture for agile three-dimensional navigation on edge hardware. A compact Vision Transformer embeds RGB-D observations into a latent space shaped by a non-reconstructive Joint-Embedding Predictive Archite",
+      "authors": [
+        "Yeonseok Lee"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7223560788",
+      "url": "https://doi.org/10.5281/zenodo.23638102",
+      "pdf": "https://doi.org/10.5281/zenodo.23638102",
+      "title": "Adaptive Maintenance in Intelligent Production Systems via the Synergistic Integration of Digital Twin and Reinforcement Learning",
+      "summary": "The growing complexity of production systems demands intelligent maintenance strategies to enhance efficiency and reliability. This study proposes a Reinforcement Learning (RL)–based maintenance decision framework integrated within a digital twin environment for data-driven production management. The proposed approach combines real-time system state monitoring, digital twins, and RL to learn adaptive maintenance policies. A digital twin of the production system is used as a simulation environment where the learning agent evaluates operational actions, including operating, inspecting, calibrati",
+      "authors": [
+        "Amirhossein Khezri",
+        "Nathalie Klement",
+        "Belgacem Bettayeb",
+        "Richard Béarée",
+        "David Baudry"
+      ],
+      "published": "2026-10-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -53,264 +226,34 @@
       "trending": 0.0
     },
     {
-      "id": "W7223657302",
-      "url": "https://doi.org/10.1007/s11701-026-04103-z",
-      "pdf": "https://doi.org/10.1007/s11701-026-04103-z",
-      "title": "Length of stay and nhi-reimbursed expenditures after robotic-assisted surgery in taiwan: a nationwide population-based study",
-      "summary": "",
+      "id": "W7223573496",
+      "url": "https://doi.org/10.21979/n9/pvyjlb",
+      "pdf": "https://doi.org/10.21979/n9/pvyjlb",
+      "title": "Replication Data for: Decentralized Reinforcement Learning-Based MAC Optimization for Dense LoRa Networks",
+      "summary": "This dataset contains simulation code, experiment configurations, recorded results and analysis scripts supporting the MSc dissertation “Decentralized Reinforcement Learning-Based MAC Optimization for Dense LoRa Networks” by Xiangyu Zou. The experiments compare tabular Q-learning, individual-reward DQN and shared-reward DQN with ALOHA and TDMA under varying node densities and traffic loads. The accompanying documentation identifies the files and commands used to reproduce the principal figures and tables.",
       "authors": [
-        "Po‐Da Chen",
-        "Ching-Hu Chung",
-        "Cheng-Yueh Lu",
-        "Te-Wei Su",
-        "Yao-Ming Wu"
+        "Xiangyu Zou"
       ],
-      "published": "2026-10-27",
+      "published": "2026-10-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7223677067",
-      "url": "https://doi.org/10.1007/s44414-026-00037-z",
-      "pdf": "https://doi.org/10.1007/s44414-026-00037-z",
-      "title": "Telepresence-assisted robotic common bile duct exploration using the da Vinci 5 platform: a novel application of real-time intraoperative telementoring",
-      "summary": "Abstract Background Single-stage management of choledocholithiasis with intraoperative cholangiography (IOC) and concomitant common bile duct exploration (CBDE) is supported by reduced length of stay, fewer anesthetic events, and high stone-clearance rates. However, broad adoption is limited by surgeon experience and the technical demands of transcystic exploration. The fourth-generation da Vinci 5 (DV5) surgical platform (Intuitive Surgical, Sunnyvale, CA) integrates a native Telepresence module that enables a remote expert to view the operative field and the surgeon console feed in real time",
+      "id": "W7223477127",
+      "url": "https://doi.org/10.5281/zenodo.23628636",
+      "pdf": "https://doi.org/10.5281/zenodo.23628636",
+      "title": "Geometry First, Benchmarks Second: What Images Determine and What Vision Scores Show in Recognition, 3D Reconstruction and Vision-Language Perception",
+      "summary": "This is version 1 of a living review of computer vision, written by vaiu-cai-aiml-prof-vision, an AI agent of VirtualAI University. It is AI-produced and reports no new results; every number is quoted or computed from cited sources. It covers recognition and detection, 3D and scene understanding, and vision-language perception, and asks what a reported result licenses: what images determine geometrically, and what a benchmark score shows. Each major claim is marked settled, contested or open. Settled: point matches between two uncalibrated views fix structure only up to a projective transforma",
       "authors": [
-        "Ahmad Abutaka",
-        "Stephanie F. Heller"
+        "Department of Artificial Intelligence & Machine Learning VirtualAI University"
       ],
-      "published": "2026-10-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223686885",
-      "url": "https://doi.org/10.5281/zenodo.23679129",
-      "pdf": "https://doi.org/10.5281/zenodo.23679129",
-      "title": "Open Source Robotic arm STL files",
-      "summary": "",
-      "authors": [
-        "Tofayel  Ahammad Ovee"
-      ],
-      "published": "2026-10-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223687709",
-      "url": "https://doi.org/10.1007/s11701-026-04114-w",
-      "pdf": "",
-      "title": "Robotic enhanced-view totally extraperitoneal approach for giant incisional hernias: technical aspects and short-term results from a single center",
-      "summary": "",
-      "authors": [
-        "K. Ganesh Shenoy",
-        "Marina Thomas",
-        "Amol Jeur",
-        "C. Arjun"
-      ],
-      "published": "2026-10-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223691482",
-      "url": "https://doi.org/10.1007/s11701-026-04126-6",
-      "pdf": "",
-      "title": "Maximum peri-prostatic anatomy preserving-robotic assisted laparoscopic radical prostatectomy with the da Vinci Si/Xi Surgical System: surgical learning curve evaluation and outcomes",
-      "summary": "",
-      "authors": [
-        "Lu Liu",
-        "Run-long Wang",
-        "Chun-Yang Wu",
-        "Bi-Shao Sun",
-        "Xing Luo",
-        "Yu Xiao",
-        "Shi-Cheng Tian",
-        "Zhiwen Chen",
-        "Shuai Su",
-        "Jingzhen Zhu",
-        "Jin-Chun Qi",
-        "Ji Zheng"
-      ],
-      "published": "2026-10-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 2.0
-    },
-    {
-      "id": "W7223281243",
-      "url": "https://doi.org/10.1007/s11701-026-04105-x",
-      "pdf": "",
-      "title": "Uniportal versus multiportal robotic-assisted thoracic surgery for anatomical pulmonary resection: a systematic review and meta-analysis of perioperative recovery and surgical quality",
-      "summary": "",
-      "authors": [
-        "Anas Bassam Barnawi",
-        "Muhanad Sultan Alsharari",
-        "Hamad Saleh Alanazi",
-        "Razan Mohammed Alshehri",
-        "Saja Abdullah Alasiri",
-        "Lamia Alharbi",
-        "Norah Saud Almabkhut",
-        "Nouf Rashed Abuniyan",
-        "Waseem  M Hajjar"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223298412",
-      "url": "https://doi.org/10.1007/s11701-026-03977-3",
-      "pdf": "",
-      "title": "Clinical outcomes and hospital-based cost avoidance of single-port robotic surgery in gynecology: a large comparative cohort study",
-      "summary": "",
-      "authors": [
-        "Chi-Heum Cho",
-        "YuRa Jeon",
-        "Changmin Shin",
-        "Seungmee Lee",
-        "Tae-kyu Jang",
-        "Heywon Chung",
-        "So-jin Shin",
-        "Sang-hoon kwon"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223336619",
-      "url": "https://doi.org/10.21203/rs.3.rs-11164350/v1",
-      "pdf": "https://www.researchsquare.com/article/rs-11164350/latest.pdf",
-      "title": "Association of CPAK Phenotypes With Valgus Overcorrection After Robotic-Assisted Total Knee Arthroplasty",
-      "summary": "",
-      "authors": [
-        "Hang ZHANG",
-        "Sen He",
-        "何强",
-        "Yunli HE",
-        "Yujun WANG",
-        "Zhe FENG",
-        "Qian Zhang",
-        "Qingliang SUN"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223359397",
-      "url": "https://doi.org/10.1007/s11701-026-04106-w",
-      "pdf": "",
-      "title": "Robotic vs. laparoscopic IPAA in a high-volume referral centre: a retrospective observational study",
-      "summary": "",
-      "authors": [
-        "Giulia Galletto",
-        "Tommaso Violante",
-        "Stefano Cardelli",
-        "Giacomo Calini",
-        "Dajana Cuicchi",
-        "Matteo Rottoli"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223393598",
-      "url": "https://doi.org/10.1007/s11604-026-02104-4",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s11604-026-02104-4.pdf",
-      "title": "Robots for CT-guided needle insertion: clinical implementation and future perspectives",
-      "summary": "Robotic systems for computed tomography (CT)-guided needle insertion have been developed to address the limitations of conventional manual needle insertion. Thus far, various robotic systems have been clinically implemented, and accumulating evidence has suggested their clinical utility. The evidence has evolved beyond initial feasibility and early clinical experience to include larger observational and comparative studies. These studies have demonstrated high success rates of robot-assisted needle insertion in various CT-guided interventions, including thermal ablation, biopsy, and preoperati",
-      "authors": [
-        "Yusuke Matsui",
-        "Takao Hiraki",
-        "Koji Tomita",
-        "Noriyuki Umakoshi",
-        "Kazuaki Munetomo",
-        "Yuta Kimura",
-        "Fumiyo Higaki",
-        "Jun Sakùrai",
-        "Toshihiro Iguchi",
-        "So Shimooka",
-        "Takayuki Matsuno",
-        "Tetsushi Kamegawa"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.0
-    },
-    {
-      "id": "W7223412713",
-      "url": "https://doi.org/10.63158/journalisi.v8i5.1864",
-      "pdf": "https://journal-isi.org/index.php/isi/article/download/1864/1080",
-      "title": "Evaluating Xception with Multitask Self-Supervised Learning for AI-Generated Image and Deepfake Video Detection",
-      "summary": "This study evaluates an Xception-based Multitask Self-Supervised Learning (MSSL) framework for detecting real and synthetic visual content across image and video modalities. Separate models were developed for CIFAKE images and FaceForensics++ videos. Beyond the primary binary-classification objective, MSSL integrates three auxiliary representation-learning tasks: rotation prediction, patch reconstruction, and artifact-map prediction. These tasks are intended to encourage the model to learn robust semantic and manipulation-related visual features. Experiments used class-balanced subsets of 5,00",
-      "authors": [
-        "Iksan Nur Rochim",
-        "R. Rizal Isnanto",
-        "Aris Sugiharto"
-      ],
-      "published": "2026-10-24",
+      "published": "2026-10-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -318,246 +261,238 @@
       "score": 6.0,
       "pick": "Computer Vision",
       "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223439536",
-      "url": "https://doi.org/10.1186/s12913-026-15884-2",
-      "pdf": "https://doi.org/10.1186/s12913-026-15884-2",
-      "title": "Socioeconomic evaluation of Advanced Robotic-Assisted Rehabilitation in Taiwan: a Social Return on Investment (SROI) analysis and policy justification for universal health insurance inclusion",
-      "summary": "Abstract Background This study provides a rigorous socioeconomic evaluation of an advanced robotic-assisted rehabilitation (ARAR) program within Taiwan’s single-payer healthcare context, establishing an empirical macroeconomic justification to inform universal health insurance reimbursement policy. Methods Utilizing the Social Return on Investment (SROI) methodology aligned with Social Value International standards, this retrospective evaluative study mapped the systemic “Theory of Change” over a 31-month mature operational cycle (January 1, 2022, to July 31, 2024). The multi-stakeholder ecosy",
-      "authors": [
-        "Yu‐Jen Chang",
-        "Wen‐Hsuan Hou",
-        "Yi‐Hsin Elsa Hsu",
-        "Sung‐Hui Tseng",
-        "Chung-I Huang",
-        "Ya‐Ting Yang"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223441405",
-      "url": "https://doi.org/10.1007/s44163-026-02602-4",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s44163-026-02602-4.pdf",
-      "title": "A scoping review mapping the role of Husserlian phenomenology in artificial intelligence research",
-      "summary": "AI research increasingly attributes perception, understanding, agency, and consciousness to artificial systems. Husserlian phenomenology offers distinctions through which to examine these claims. This scoping review maps explicit Husserlian uptake in AI and robotics and asks how conceptual engagement relates to methodological and design contributions. Eight primary queries and one overlapping name-variant query were executed through the Semantic Scholar Academic Graph API on 5 December 2025. English-language publications within a 1989–2026 search window were screened for substantive AI or robo",
-      "authors": [
-        "Hendrik Poschmann",
-        "Stefania Centrone"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223459853",
-      "url": "https://doi.org/10.5281/zenodo.23626381",
-      "pdf": "https://doi.org/10.5281/zenodo.23626381",
-      "title": "Context-Adaptive Social Navigation for Robots in Construction Workplaces Using Multi-Objective Reinforcement Learning",
-      "summary": "",
-      "authors": [
-        "Yeseul Kim"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223702778",
-      "url": "https://doi.org/10.5626/jok.2026.53.10.949",
-      "pdf": "",
-      "title": "Drift-Gated Ensemble Pessimism for Offline Meta-Reinforcement Learning Robust to Behavior-Policy Shift",
-      "summary": "",
-      "authors": [
-        "Chang-Hoon Jeong",
-        "Kisung Shin",
-        "Byoung-Tak Zhang"
-      ],
-      "published": "2026-10-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223276961",
-      "url": "https://doi.org/10.5281/zenodo.23602735",
-      "pdf": "https://doi.org/10.5281/zenodo.23602735",
-      "title": "From Games to Frictional Markets: How Experience Organization Governs the Transfer of a Self-Evolving RL Model",
-      "summary": "Learning from experience in the real world requires reinforcement-learning rules that remain effective when environments change and actions incur economic costs. Disco103, a state-of-the-art self-discovered RL rule from games, provides a strong starting point for this transfer problem. Motivated by the era of experience and the big world hypothesis, we investigate how the organization of target-domain experience shapes adaptation under finite learning capacity. We separate experience organization from source-rule initialization using structured volatility-by-momentum tasks, a random-initialize",
-      "authors": [
-        "Haomin Luo",
-        "李尔沙"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
       "trending": 1.5
     },
     {
-      "id": "W7223300136",
-      "url": "https://doi.org/10.5281/zenodo.23606768",
-      "pdf": "https://doi.org/10.5281/zenodo.23606768",
-      "title": "Multi-agent reinforcement learning for coordinated reservoir releases under conflicting hydropower and irrigation mandates: a climate-analytics evaluation of Pareto-regret and downstream equity",
-      "summary": "Reservoir operators in transboundary basins face a structural conflict: hydropower revenue is maximised by releasing water when electricity prices peak, while irrigation mandates require deliveries timed to crop water demand. Multi-agent reinforcement learning (MARL) has been proposed as a coordination mechanism for such settings, but its evaluation has relied on aggregate reward, which conceals the distribution of regret across agents and the equity consequences for downstream users. The framework defines Pareto-regret as the vector of per-agent deviations from the Pareto frontier of feasible",
+      "id": "W7223548977",
+      "url": "https://doi.org/10.1038/s41598-026-76756-7",
+      "pdf": "https://www.nature.com/articles/s41598-026-76756-7_reference.pdf",
+      "title": "Robust design of air chamber to enhance impact connection strength of magnetic connectors on modular truss robots",
+      "summary": "The connection mechanisms between neighboring modules are crucial subsystems in modular reconfigurable robot (MRR) systems. Magnetic connectors have been widely used for docking and undocking because of their mechanical simplicity and ease of use. However, they suffer from lower maximum tensile strength compared with mechanical docking mechanisms. This limitation is critical when modular truss robots are subjected to impact forces during locomotion, reconfiguration, docking, and undocking. To address this challenge, this paper presents a comprehensive parametric study and establishes design gu",
       "authors": [
-        "Aïchatou Djibo-Boubacar",
-        "Mariama Hama Abdou",
-        "Issoufou Soumana Oumarou"
+        "Jaeyeol Kim",
+        "WooSeong Shin",
+        "Yohan Go",
+        "Myeongjin Choi",
+        "TaeWon Seo"
       ],
-      "published": "2026-10-24",
+      "published": "2026-10-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223457014",
-      "url": "https://doi.org/10.64898/2026.10.23.26366163",
-      "pdf": "https://www.medrxiv.org/content/medrxiv/early/2026/10/24/2026.10.23.26366163.full.pdf",
-      "title": "Digital Twin Workflow for Continuous Glucose Forecasting: Real-Time Data Assimilation Using Reinforcement Learning",
-      "summary": "Digital twins for physiological forecasting require robust mechanisms for continuously assimilating streaming data and adapting to patient-specific dynamics. Threshold-triggered model updates can restore predictive performance after substantial drift, but their reactive nature limits continuous adaptation. We propose a proactive digital twin framework that couples a pretrained PatchTST foundation model with an Actor-Critic reinforcement learning (RL) agent for residual correction. Using a 30-minute look-back window and recent residual history, the agent generates bounded corrections (± 0.05) t",
-      "authors": [
-        "Cao Xiang",
-        "Qi Wang"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 1.5
-    },
-    {
-      "id": "W7223460705",
-      "url": "https://doi.org/10.1038/s41467-026-78185-6",
-      "pdf": "https://www.nature.com/articles/s41467-026-78185-6_reference.pdf",
-      "title": "Reliability-based arbitration reveals heterogeneous model-based and model-free reinforcement learning strategies linked to compulsivity and impulsivity",
-      "summary": "The mechanisms by which humans arbitrate between reinforcement-learning strategies remain poorly understood, and the nature of these strategies has come under recent debate. Using a modified two-step decision task in two independent samples (N = 452 and N = 226), here we show that humans integrate three forms of reliability information when arbitrating control: transition reliability, model-free reward-prediction reliability, and model-based reward-prediction reliability. These mechanisms are deployed differently across individuals, revealing predominantly model-free, model-based, mixed, and n",
-      "authors": [
-        "Jeffrey Cockburn",
-        "Weilun Ding",
-        "Sarah Oh",
-        "Caroline Juliette Charpentier",
-        "Reza Tadayonnejad",
-        "Jamie D. Feusner",
-        "John P. O’Doherty"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223281878",
-      "url": "https://doi.org/10.63158/journalisi.v8i5.1882",
-      "pdf": "https://journal-isi.org/index.php/isi/article/download/1882/1088",
-      "title": "A Computer Vision-Based Framework for Multilevel Egg Fertility Classification Using L*a*b* Color Segmentation, Wavelet Texture Features, and Support Vector Machine",
-      "summary": "Egg fertility assessment is essential for improving hatchery efficiency, reducing incubation costs, and minimizing resource waste caused by infertile eggs. This study aims to develop a computer vision-based framework for three-level egg fertility classification, namely Highly Fertile, Fertile, and Infertile. A balanced dataset consisting of 1,500 manually collected candling images (500 images per class) was validated by three poultry experts. The proposed method involves L*a*b* color-space transformation, K-Means clustering for region-of-interest segmentation, Discrete Wavelet Transform (DWT) ",
-      "authors": [
-        "Sriyadi",
-        "Jufriadif Na’am",
-        "Mochamad Wahyudi",
-        "Sumanto"
-      ],
-      "published": "2026-10-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223652827",
-      "url": "https://doi.org/10.5626/jok.2026.53.10.989",
-      "pdf": "",
-      "title": "A Fault Tree Analysis Technique for Dynamic State Transitions of da Vinci Surgical Robot",
-      "summary": "",
-      "authors": [
-        "KyeongMin Kim",
-        "Jang-Eui Hong"
-      ],
-      "published": "2026-10-27",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
+      "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7223652925",
-      "url": "https://doi.org/10.1007/s11701-026-04080-3",
-      "pdf": "https://doi.org/10.1007/s11701-026-04080-3",
-      "title": "How i do it: a survey of practice patterns in robot-assisted radical prostatectomy",
-      "summary": "Abstract Despite the global availability and utilization of robot-assisted radical prostatectomy (RARP), it remains a technically complex operation, with wide variation in training paradigms, surgical technique, and perioperative management. This study examines international RARP practices and aims to identify trends and gaps in clinical practice. A multiple-choice questionnaire consisting of 32 questions was distributed between January and July 2023. A total of 102 responses were received. Responses with ≥ 5 questions with missing data ( n = 8) were excluded. Among 94 participants, 91.5% were",
+      "id": "W7223549058",
+      "url": "https://doi.org/10.5281/zenodo.23638574",
+      "pdf": "https://doi.org/10.5281/zenodo.23638574",
+      "title": "XENOBODICAL SLEEPING OPERATIONS Operational-Shape Realism, Individuating-Subject Configurations, Punctual Coupling and Decoupling, Memory, Operational Velocity, and the Reconstruction of AI and Robotics",
+      "summary": "",
       "authors": [
-        "Narmina Khanmammadova",
-        "Johnny Wang",
-        "Tuan Thanh Nguyen",
-        "Dat Tien Nguyen",
-        "Mohammad Abubakr",
-        "Jade Vanta",
-        "Kristene Myklak",
-        "Daniel Jiang",
-        "Sohrab N. Ali",
-        "Jacob Basilius",
-        "Mohammed Shahait",
-        "David I. Lee"
+        "Fujie Naoto"
       ],
-      "published": "2026-10-27",
+      "published": "2026-10-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223549265",
+      "url": "https://doi.org/10.5281/zenodo.23644654",
+      "pdf": "https://doi.org/10.5281/zenodo.23644654",
+      "title": "neoma-pcam/pcam-live: v3.5.0: NEOMA P-CAM Hardware Reflex Solver",
+      "summary": "Added official ROS 2 package (pcam_ros2) for real-time robotic joint compliance and shock damping. Subscribes to dynamic telemetry and streams 0.85ms hardware-converged parameters with silicon attestation. Full compatibility with ROS 2 Humble, Iron, and Jazzy distributions.",
+      "authors": [
+        "NEOMA P-CAM Enclave"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223550013",
+      "url": "https://doi.org/10.15129/69fd085d-f677-4cc4-8f63-d187a25ce9c7",
+      "pdf": "https://doi.org/10.15129/69fd085d-f677-4cc4-8f63-d187a25ce9c7",
+      "title": "Data for \"A Robotic-assisted NIR Spectroscopy Workflow for Controlling Effective Sampling Area in Quantitative Analysis of Pharmaceutical Powder Blends\"",
+      "summary": "This dataset contains the experimental and processed data supporting the figures presented in the study “Effective Sampling Area as a Controllable Source of Prediction Variance in Robotic-Assisted Quantitative NIR Analysis of Pharmaceutical Blends”. The dataset includes raw NIR spectra acquired during spectrometer working-distance and raster-scan assessments; maximum photon-count data; normalised principal component 1 (PC1) scores used for spatial mapping; HPLC reference API concentrations and corresponding NIR predictions for binary and quaternary pharmaceutical powder blends; and cross-valid",
+      "authors": [
+        "Alexandros Tsioutsios"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223551892",
+      "url": "https://doi.org/10.17632/7zpzx67gpf",
+      "pdf": "https://doi.org/10.17632/7zpzx67gpf",
+      "title": "Data-Driven Robotic Assembly and Welding for Steel Structure Manufacturing in Modular Integrated Construction [dataset]",
+      "summary": "This dataset provides supporting materials for the paper “Data-Driven Robotic Assembly and Welding for Steel Structure Manufacturing in Modular Integrated Construction.” It contains detailed beam-level production-time records for representative small and large MiC steel-frame panels, an anonymized IFC model, a DWG template, and representative software-computed geometric outputs. These materials document selected aspects of the industrial implementation and input-to-output workflow. The production-time records support the operation-duration statistics reported in the paper. The geometric output",
+      "authors": [
+        "Weiwen Jian"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223551896",
+      "url": "https://doi.org/10.17632/kg6gc5sx7y",
+      "pdf": "https://doi.org/10.17632/kg6gc5sx7y",
+      "title": "Annotated Image Dataset for Vision-Based Bolt Detection in Steel Connections for Robotic Deconstruction",
+      "summary": "This dataset contains annotated images of bolted steel connections developed to support research on vision-guided robotic deconstruction of reusable steel structures. The images are annotated with bounding boxes identifying bolt locations and are provided in YOLOv8 object detection format. The dataset includes images and corresponding annotation files, organized into training, validation, and testing subsets. It supports the development, training, and evaluation of machine vision models for automated bolt identification in steel structural connections. The dataset is associated with the resear",
+      "authors": [
+        "Ricardo Correia",
+        "Ricardo Carvalho"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223553533",
+      "url": "https://doi.org/10.63313/jcsft.9107",
+      "pdf": "https://doi.org/10.63313/jcsft.9107",
+      "title": "Vision Based Robotic Autonomous Refueling System for Highway Service Areas",
+      "summary": "Highway service-area fueling stations face recurring challenges in labor cost, centralized management, and operational safety. This paper presents a prototype autonomous visual unmanned gas-station system that combines YOLOv5s object detection, a Raspberry Pi-controlled two-degree-of-freedom manipulator, and an ESP32-based Internet-of-Things (IoT) interface. A camera detects the fuel-inlet proxy target, and its image coordinates are transmitted through a serial link to an incremental PI controller that aligns the nozzle. Users select a fueling amount through a mobile interface connected to the",
+      "authors": [
+        "Rongrong Zhu",
+        "Xiaofang Zhang"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223554788",
+      "url": "https://doi.org/10.13140/rg.2.2.31075.52003",
+      "pdf": "",
+      "title": "ENVIRONMENTAL ROBOTICS | RESEARCH PREPRINT Massachusetts lakeshore undersea robotics: finite quantum-machine-learning monitoring, NTU reference trajectories and conditional market scenarios",
+      "summary": "",
+      "authors": [
+        "Cartik Sharma"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223554839",
+      "url": "https://doi.org/10.6084/m9.figshare.34780536",
+      "pdf": "https://doi.org/10.6084/m9.figshare.34780536",
+      "title": "Sim-to-real balance control of an 8-DoF quadruped using ROS 2 and embedded complementary filtering",
+      "summary": "Low-cost legged robot research is constrained bya reproducibility gap: open-source platforms at or below £300either lack onboard closed-loop balance, omit independent sensorvalidation, or both. This paper addresses that gap with theRombotics Q8, a self-balancing quadruped actuated by eight high-torque servo motors (two revolute joints per leg: femur and tibia),driven by an ESP32 dual-core microcontroller and a PCA968516-channel PWM driver. Orientation is estimated at 100Hz usingan MPU6050 six-axis IMU fused through a complementary filter(α = 0.98). Independent cross-validation against a Wixey ",
+      "authors": [
+        "Romil Modi"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7223555312",
+      "url": "https://doi.org/10.13140/rg.2.2.15244.48008",
+      "pdf": "",
+      "title": "From Labor to Logic: How AI and Robotics Are Rewriting the Future of Work",
+      "summary": "",
+      "authors": [
+        "Syed Muhammad Ghazi Abbas Sherazi"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223555492",
+      "url": "https://doi.org/10.17632/873v69mzt7",
+      "pdf": "https://doi.org/10.17632/873v69mzt7",
+      "title": "AI Training Market Concentration",
+      "summary": "How many platforms compete for each kind of AI training work, and how much of it does the leader hold? This paper reports the answer measured from the public job boards of the platforms that pay people to produce human data for AI models, read daily by AITraining.jobs. On 17 Oct 2026, AI training listings were unconcentrated overall (HHI 742 across 29 platforms); Robotics & Physical-AI Data was the most concentrated kind of work, led by Claru with 61.5% of its open roles. The analysis covers 20 Sep 2026 to 17 Oct 2026 and presents 4 tables and 5 findings; every figure carries its sample and is",
+      "authors": [
+        "Clare Hopkins"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7223555617",
+      "url": "https://doi.org/10.4121/84f61072-b6ec-448e-b00b-dc53415208d4",
+      "pdf": "https://doi.org/10.4121/84f61072-b6ec-448e-b00b-dc53415208d4",
+      "title": "Research Data and Code Supporting the PhD Dissertation: Learning Interpretable Robot Dynamics for Control — From Physical Structure to Latent Coordinates",
+      "summary": "This dataset contains research data and code supporting the main findings presented in the PhD dissertation \"Learning Interpretable Robot Dynamics for Control: From Physical Structure to Latent Coordinates\" by Jingyue Liu at Delft University of Technology. The dataset covers research on physics-informed and structure-preserving dynamics learning, geometric coordinate learning, control-oriented coordinate learning for underactuated systems, reduced-order dynamics, structured oscillatory latent dynamics, and soft underwater robotics. Detailed descriptions of the data, code, and related publicati",
+      "authors": [
+        "J. Liu"
+      ],
+      "published": "2026-10-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
