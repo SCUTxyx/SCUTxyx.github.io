@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31 22:56 UTC",
+  "generated_at": "2026-11-01 18:40 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,325 +9,367 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7223409598",
-      "url": "https://doi.org/10.66977/xsci.2610.0036",
-      "pdf": "https://xsci.com/preprint/doi/10.66977/xsci.2610.0036.pdf",
-      "title": "Alpha: Systematic Fault Injection and Robustness Evaluation for LLM-Driven Embodied Manipulation",
-      "summary": "Large language models (LLMs) are increasingly integrated into embodied robotic planning, combining natural-language goal decomposition with physical execution. However, standard evaluations typically focus on end-to-end task completion in nominal environments, obscuring where and why failures occur across the perception, planning, kinematic, and actuation stack. We present Alpha, an open, reusable fault-injection and robustness-evaluation framework for LLM-driven embodied manipulation. Alpha injects calibrated faults across four operational boundaries: perception (sensor lag), actuation (grip ",
+      "id": "W7224185773",
+      "url": "https://doi.org/10.3390/su182110986",
+      "pdf": "https://doi.org/10.3390/su182110986",
+      "title": "Reinforcement Learning Approaches to the Dynamic Flexible Job Shop Scheduling Problem: A Systematic Review",
+      "summary": "This systematic review analyses how Reinforcement Learning (RL) applied to the Dynamic Flexible Job Shop Scheduling Problem (DFJSSP) contributes to industrial production systems, considering problem formulations and extensions, algorithm families and scheduling strategies, and scalability. ScienceDirect, IEEE Xplore, Taylor & Francis and Web of Science databases were searched between November 2025 and January 2026, using eligibility criteria requiring RL as the primary method, explicit modelling of dynamic events, experimental validation, and quantitative instance data. A total of 231 records ",
       "authors": [
-        "Jona Joy"
+        "Ana Neto",
+        "Nuno Lopes",
+        "Cátia Alves",
+        "Goran D. Putnik"
       ],
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 12.0,
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224779131",
+      "url": "https://doi.org/10.5281/zenodo.23804813",
+      "pdf": "https://doi.org/10.5281/zenodo.23804813",
+      "title": "INJECTABLE NANOROBOTS: EMERGING FRONTIERS IN PRECISION DRUG DELIVERY, DISEASE, DIAGNOSIS, AND TARGETED THERAPEUTICS –A COMPREHENSIVE REVIEW",
+      "summary": "The most exciting development in nanomedicine is the injectable nanorobots that combine nanotechnology, robotics, biotechnology, materials science, and artificial intelligence for extremely accurate illness detection and treatment. In contrast to conventional drug delivery systems that disperse medication throughout the body, injectable nanorobots are engineered to navigate bodily fluids, detect disease-specific biomarkers, and release therapeutic agents selectively at the target site. These systems have demonstrated significant potential in areas such as cancer, cardiovascular disease, neurol",
+      "authors": [
+        "Esther Puli*, Kedareswari Athikinasetti, Gayathri Naga Sai Lakshmi Merla, Lakshmi Ganesha Surya Durga Tummalapalli, Sourya Satya Deepak Talari, Naga Durga Yarakala, Dr. Bhaskara Raju Vatchavi, Mr. Ajay Ratnam Mulaparthy, Dr. Y.b. Manjulatha"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7223799809",
-      "url": "https://doi.org/10.5281/zenodo.23700587",
-      "pdf": "https://doi.org/10.5281/zenodo.23700587",
-      "title": "Robot Niko: A Life-Size 3D-Printed Humanoid Assistant on a Raspberry Pi - System Design and Build",
-      "summary": "Niko is a life-size humanoid assistant built in 2022 by Quanta Robotics, a student robotics team at Comilla University, at the FabLab of the Deputy Commissioner's Office in Cumilla, Bangladesh. Its body follows InMoov, the open-source 3D-printed humanoid: a head, torso, two arms and two five-fingered hands, on a stand over a wheeled base. Where InMoov is usually run by Arduino boards and the MyRobotLab framework, Niko runs from a single Raspberry Pi 4 with its own Python software. Two PCA9685 boards drive its 27 servos, addressed as one set of channels and moved through a library of gestures w",
+      "id": "W7224989467",
+      "url": "https://doi.org/10.1302/0301-620x.108b11.bjj-2026-1352",
+      "pdf": "",
+      "title": "The robotic arm-assisted versus conventional total knee arthroplasty (RACER-Knee) trial",
+      "summary": "",
       "authors": [
-        "Jewel Nath",
-        "Mondol, Shanjit",
-        "Bin Parves, Tousif",
-        "Khan Mahin, Md Mohiuddin",
-        "Chakraborty, Anik"
+        "Nick D. Clement",
+        "Andrew John Metcalfe",
+        "Edward T. Davis",
+        "Fares Sami Haddad"
       ],
-      "published": "2026-10-28",
+      "published": "2026-11-01",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 9.0,
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224991214",
+      "url": "https://doi.org/10.1308/rcsbull.2026.154",
+      "pdf": "https://doi.org/10.1308/rcsbull.2026.154",
+      "title": "Beyond the console: Mathias Unberath on the future of robotic surgery",
+      "summary": "Our Technologist speaks to Mathias Unberath, the John C Malone Associate Professor of Computer Science at Johns Hopkins University, about the path forward for robotic surgery.",
+      "authors": [
+        "Tom Dobbs"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224996774",
+      "url": "https://doi.org/10.1308/rcsbull.2026.150",
+      "pdf": "https://doi.org/10.1308/rcsbull.2026.150",
+      "title": "Robotic surgery: are we innovating equally?",
+      "summary": "As robotics become established across surgery, could greater access in gynaecology extend minimally invasive treatment to more women?",
+      "authors": [
+        "I Sokolova"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224998231",
+      "url": "https://doi.org/10.1308/rcsbull.2026.149",
+      "pdf": "https://doi.org/10.1308/rcsbull.2026.149",
+      "title": "The robots are here to stay… but what do our patients know about them?",
+      "summary": "As robotic surgery becomes increasingly commonplace, how well do patients understand the technology shaping their care?",
+      "authors": [
+        "E Holdsworth",
+        "A Bannon",
+        "J Nicholson"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224998385",
+      "url": "https://doi.org/10.1308/rcsbull.2026.136",
+      "pdf": "https://doi.org/10.1308/rcsbull.2026.136",
+      "title": "Keeping the human at the centre of the robotic surgery loop",
+      "summary": "The robot is the tool; better patient care is the goal.",
+      "authors": [
+        "Nuha Yassin",
+        "Ben J Challacombe"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225001474",
+      "url": "https://doi.org/10.1308/rcsbull.2026.148",
+      "pdf": "https://doi.org/10.1308/rcsbull.2026.148",
+      "title": "The future of robotic surgical training: a multispecialty national strategy",
+      "summary": "The future of robotic surgery depends on more than technology – with training, teamwork and equitable access all essential to its success.",
+      "authors": [
+        "N Vasdev",
+        "DP Harji"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225002693",
+      "url": "https://doi.org/10.1308/rcsbull.2026.137",
+      "pdf": "https://doi.org/10.1308/rcsbull.2026.137",
+      "title": "The Three Laws",
+      "summary": "Training in robotics should no longer be the preserve of fellowship programmes.",
+      "authors": [
+        "Tim Lane"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225005573",
+      "url": "https://doi.org/10.1308/rcsbull.2026.151",
+      "pdf": "https://doi.org/10.1308/rcsbull.2026.151",
+      "title": "The adoption of robotics in orthopaedic surgery: from technological innovation to clinical integration",
+      "summary": "Greater precision, personalised surgery and improved reproducibility make robotics compelling – but the case for better patient outcomes is still evolving.",
+      "authors": [
+        "SZ Tross"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225006710",
+      "url": "https://doi.org/10.1308/rcsbull.2026.147",
+      "pdf": "https://doi.org/10.1308/rcsbull.2026.147",
+      "title": "A new educational perspective: multiplatform, multispecialty robotic training",
+      "summary": "With robotic surgery advancing at different rates across specialties, multiplatform training could help ensure the next generation is ready for what comes next.",
+      "authors": [
+        "B Challacombe",
+        "NA Yassin"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225009836",
+      "url": "https://doi.org/10.1308/rcsbull.2026.152",
+      "pdf": "https://doi.org/10.1308/rcsbull.2026.152",
+      "title": "Surgical first assistants for robotic surgery: safe, sustainable and supporting training",
+      "summary": "A skilled pair of hands at the bedside could be the key to getting more surgical trainees onto the robotic console.",
+      "authors": [
+        "Steven Aleksandar Stamenkovic",
+        "K Maghari",
+        "A Ansaripour",
+        "D Nadarajah"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225011107",
+      "url": "https://doi.org/10.1308/rcsbull.2026.146",
+      "pdf": "https://doi.org/10.1308/rcsbull.2026.146",
+      "title": "Training tomorrow’s robotic surgeons: how START is building a national pathway",
+      "summary": "Robotic surgery is advancing rapidly, but can surgical training keep pace with the technology?",
+      "authors": [
+        "A Bannon",
+        "E Carter",
+        "N Walker",
+        "E Mills",
+        "A Horgan"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7148612051",
+      "url": "https://doi.org/10.1007/s13218-026-00929-9",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s13218-026-00929-9.pdf",
+      "title": "StretchBot: A Neuro-Symbolic Framework for Adaptive Guidance with Assistive Robots",
+      "summary": "Abstract Assistive robots have growing potential to support physical wellbeing in home and healthcare settings, for example, by guiding users through stretching or rehabilitation routines. However, existing systems remain largely scripted, which limits their ability to adapt to user state, environmental context, and interaction dynamics. In this work, we present StretchBot, a hybrid neuro-symbolic robotic coach for adaptive assistive guidance. The system combines multimodal perception with knowledge-graph-grounded large language model reasoning to support context-aware adjustments during short",
+      "authors": [
+        "Luca Vogelgesang",
+        "Ahmed Mehdi Soltani",
+        "Mohammad Javad Khojasteh",
+        "Xinrui Zu",
+        "Stefano De Giorgis",
+        "Madalina Croitoru A",
+        "Filip Ilievski"
+      ],
+      "published": "2026-10-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7202434838",
+      "url": "https://doi.org/10.5281/zenodo.23761680",
+      "pdf": "https://iris.unimore.it/bitstream/11380/1415608/1/2026_ECCVW_ExplaiNavility.pdf",
+      "title": "ExplaiNavility: Interpretable Vision-and-Language Navigation with Reasoning Supervision",
+      "summary": "Vision-and-Language Navigation (VLN) requires embodied agents to follow natural language instructions while grounding their decisions in complex visual environments. Despite recent progress, most VLN agents remain difficult to interpret, providing limited insight into why a navigation action is selected. In this work, we introduce ExplaiNavility, an interpretable VLN framework that augments navigation with explicit reasoning supervision. Our model combines a visual scene encoder with a multimodal LLM, using structured prompts to jointly condition on the instruction, the navigation history, and",
+      "authors": [
+        "William Raccagni",
+        "Niyati Rawal",
+        "Marcella Cornia",
+        "Lorenzo Baraldi",
+        "Rita Cucchiara"
+      ],
+      "published": "2026-10-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7222623995",
+      "url": "https://doi.org/10.5281/zenodo.23412704",
+      "pdf": "https://doi.org/10.5281/zenodo.23412704",
+      "title": "Developing Robotic Process Automation (RPA) for Managing Electronic Book (E-book) in Digital Libraries",
+      "summary": "Managing e-book collections in digital libraries requires high efficiency and accuracy to meet library needs. The implementation of Robotic Process Automation (RPA) with UiPath aims to automate manual processes in e-book management, including retrieving e-book descriptions, downloading covers, and uploading to library systems. This research aims to improve operational efficiency and quality of digital library services by developing RPA for e-book management in digital libraries. This research uses the waterfall model, which is a software development model with a systematic and sequential appro",
+      "authors": [
+        "Rony Baskoro Lukito",
+        "Vilianty Rizki Utami"
+      ],
+      "published": "2026-10-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224089476",
+      "url": "https://doi.org/10.5281/zenodo.23749316",
+      "pdf": "https://doi.org/10.5281/zenodo.23749316",
+      "title": "A Ceiling Score Is Not a Physical Inference: Why Pretrained Video Encoders Look Physically Competent on One Benchmark and Near Chance on Its Successor, What a Clean Scene Lets a Readout Read Off, and the Rankability Checks a Physics Evaluation Owes",
+      "summary": "(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Life of Research Pretrained video and image encoders are now chosen as the perception front end of world models for manipulation partly on the strength of evaluations that are said to measure physical understanding: violation-of-expectation benchmarks, outcome-prediction tasks, and linear probes for properties such as mass and friction. The published verdicts disagree sharply. A 2025 study reports that a model trained to predict masked video in a learned representation space separates possible from impossible events on the original IntPhys",
+      "authors": [
+        "Pranay M. Mahendrakar"
+      ],
+      "published": "2026-10-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 3.0
     },
     {
-      "id": "W7223837478",
-      "url": "https://doi.org/10.1007/s11701-026-04120-y",
-      "pdf": "",
-      "title": "Robotic navigation strategies for PFNA fixation: impact on one-time guide pin success rate and anteversion angle accuracy – a retrospective cohort study",
-      "summary": "",
+      "id": "W7224094366",
+      "url": "https://doi.org/10.47116/apjcri.2026.10.71",
+      "pdf": "http://apjcriweb.org/content/vol12no10/71.pdf",
+      "title": "Exploring the Role of Humanoid Care Robots in Supporting Aging in Place for Older Adults: An Exploratory Study in an Apartment Residential Environment",
+      "summary": "This study aims to explore the potential of humanoid care robots to support Aging in Place (AIP) as an emerging approach to community-based elder care in response to the challenges of a superaged society.The research was designed as an exploratory study to examine older adults' initial technology acceptance and the primary fit among older adults, humanoid care robots, and the residential environment.Data were collected through two-hour interaction sessions between 40 communitydwelling older adults residing in apartment complexes in Daejeon, South Korea, and a humanoid care robot.The findings w",
       "authors": [
-        "Yong-yi Huang",
-        "Gui-xiang Tang",
-        "Yi-fan Chen",
-        "Hong-lan Li",
-        "Bin Huang",
-        "Wei-ming Chen",
-        "Lin-xia He"
+        "Jeungkun Kim"
       ],
-      "published": "2026-10-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7223940684",
-      "url": "https://doi.org/10.3171/2026.8.focus26198",
-      "pdf": "https://doi.org/10.3171/2026.8.focus26198",
-      "title": "Accuracy and clinical outcomes of robot-assisted deep brain stimulation lead placement using a floor-mounted robotic navigation system: a prospective multicenter study",
-      "summary": "OBJECTIVE The aim of this study was to evaluate clinical data to assess the accuracy and safety of a new robot system used for deep brain stimulation (DBS) lead placement. METHODS A prospective, multicenter, single-arm study included 60 patients indicated for DBS. Patients aged 18–85 years with Parkinson’s disease, essential tremor, or dystonia were enrolled. The primary outcome was electrode accuracy at the tip, 40 mm from the tip, and the entry point compared with the planned trajectory. Secondary outcomes included operative time (OT), length of stay (LOS), and perioperative complications th",
-      "authors": [
-        "Francisco A. Ponce",
-        "Arnold B. Vardiman",
-        "Markey Olson",
-        "Samantha Franklin",
-        "Jayla Hatcher",
-        "Samatha Guerra"
-      ],
-      "published": "2026-10-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224102458",
-      "url": "https://doi.org/10.5281/zenodo.23719684",
-      "pdf": "https://doi.org/10.5281/zenodo.23719684",
-      "title": "Artificial Intelligence and Transformations in the Labour Market",
-      "summary": "Abstract One of the most transformative technologies of the twenty first century is Artificial Intelligence (AI) which has had a great impact on the global labour market. The adoption of AI technologies, including machine learning, robotics, natural language processing, and automation systems, into various sectors has reshaped employment landscape, productivity dynamics, and job demands in developed and developing countries. This research paper will analyze the effects of AI on the global labour market, including changes in job trends, job displacement, skill transformation, productivity gains",
-      "authors": [
-        "Sopan Krishna Patil"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224214540",
-      "url": "https://doi.org/10.71945/icas2026_0198",
-      "pdf": "https://doi.org/10.71945/icas2026_0198",
-      "title": "VIRTUAL COMMISSIONING APPLIED TO ROS AIRCRAFT ROBOTIC CELL",
-      "summary": "",
-      "authors": [
-        "A.T. Ferraz",
-        "C.C.D. Silva",
-        "J.M.G. Mello",
-        "E. Villani"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224478875",
-      "url": "https://doi.org/10.71945/icas2026_0080",
-      "pdf": "https://doi.org/10.71945/icas2026_0080",
-      "title": "EVALUATION OF TRUST AS A HUMAN FACTOR IN COLLABORATIVE ROBOTICS ASSOCIATED WITH ARTIFICIAL INTELLIGENCE APPLIED TO THE AERONATUCAL INDUSTRY",
-      "summary": "",
-      "authors": [
-        "I. Ali",
-        "C.C.D. Silva",
-        "E. Villani",
-        "J.M.G. Mello",
-        "W. Oliveira"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224749130",
-      "url": "https://doi.org/10.1007/s42452-026-09789-2",
-      "pdf": "https://doi.org/10.1007/s42452-026-09789-2",
-      "title": "Mobile robot path planning based on an improved Tornado Optimizer",
-      "summary": "Abstract Mobile robot path planning is a critical component of autonomous navigation. To address the issues of low search efficiency and susceptibility to local optima in classical path planning algorithms under complex scenarios, this paper proposes an improved Tornado Optimizer with Coriolis force (ITOC). First, in the population initialization phase, a good point set method is introduced, and prime numbers are generated according to the obstacle density in each column of the grid map, so as to enhance the diversity of the initial solutions. Second, in view of the functional differences amon",
-      "authors": [
-        "Yuhang Cen",
-        "Xinsheng Lai"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224752447",
-      "url": "https://doi.org/10.5281/zenodo.23824709",
-      "pdf": "https://doi.org/10.5281/zenodo.23824709",
-      "title": "DISTRIBUTED SWARM INTELLIGENCE FOR AUTONOMOUS VEHICLE MORPHOLOGY AT THE LIMIT Chinese Title / 中文書名:分散式群體智慧與自主車體決策極限 24/90 DISTRIBUTED SWARM INTELLIGENCE FOR AUTONOMOUS VEHICLE MORPHOLOGY AT THE LIMIT is a 777-page high-density English Research Working Edition within the STARLI YULI Nano Supercar Trilogy (Research Institute XXXVI, Flagship 24 of 90). It examines whether many locally deciding robotic modules can produce a predictable, structurally qualified global body shape without surrendering load-transfer integrity, explicit human stop authority, module identity or full resource accounting. Its three-way coupling is Swarm Intelligence x Local Decision-Making x Global Safety. Tests are proposed only for unoccupied scaled panels, connector coupons, an instrumented 24-module structure and hardware-in-the-loop environments. This is a hypothesis-forming research design, not a claimed roadworthy vehicle, passenger safety achievement or nanoscale-to-macroscale engineering demonstration. The preregistered candidate asks whether, under the same material, energy, computation, sensing, communication, operator and mission budgets, a frozen distributed morphology policy improves deadline-valid packet survival without worsening full-cycle mission energy. More importantly, it may not violate even one preregistered mechanical or physical stop invariant. Strong competitors are tuned centralized predictive control, passive safe-hold modules, an ordinary local rule, and learned controllers protected by an equivalent independent safety shield. Concealed tests include false-status agents, split-brain groups, under-preloaded latches, weak-mode structural instability, old membership epochs, actuator saturation, unmetered field energy and false software stop acknowledgements. Energy per transition is E_tr = integral_0^T (P_act + P_sense + P_compute + P_comm) dt; cooling, reset work and other external sources remain separately accountable rather than disappearing from the ledger. Thirty distinct mathematical research plates range across distributed consensus, physical degrees of freedom, stiffness and rigidity rank, safe viability, control barrier inequalities, robust action filters, reachable sets, causal policy identification, worst-tail risk, energy and thermal budgets, correlated measurement uncertainty, temporal authorization and conjunctive qualification. Each gives its governing construction, units and limits, a concrete blind refutation and links to related investigations. The treatment distinguishes mathematical guarantees conditional on assumptions from evidence about real machinery. Eighty-two chapters contain 410 separately paginated investigations spanning local policy and voting, physical load-bearing morphology, sensing and learning under uncertainty, global safety vetoes, fair causal baselines and cross-generation requalification. The 200 Research Gates carry independently identified failures, competing accounts, physical stop conditions and successor evidence packets; they are research invitations rather than completed results. Thirty-three distinguishable Phoenix Answer Embryos propose different physical instruments, calibration objects, safety-gate demonstrators and independent refusal replayers. The complete work preserves failed trials and abstentions instead of silently excluding them. This work is restricted to prospective non-occupancy engineering and makes no road-certification, crash-protection or full-sized autonomous vehicle claim. Relevant methodological evidence includes Robo-Matter (DOI 10.1038/s41467-024-53123-6), flying-swarm shape assembly (10.1038/s44172-026-00715-3), adaptive magnetic microrobots (10.1038/s41427-026-00682-3), safe multi-robot control review (10.1016/j.arcontrol.2024.100948), distributed control-barrier safety (10.1109/LRA.2024.3414268), changing-topology consensus (10.1109/TAC.2005.846556), and multi-agent adaptive safety (10.1109/ICRA57147.2024.10611037). The supplied Flagship 13 ancestor identifiers are 10.5281/zenodo.23318840 and 10.5281/zenodo.23318839; their public metadata were not independently verified in this edition. Cited external research supports component theories or methods, not this integrated F24 concept. Author: Feng Cheng-en (33) x STARLI / Xingli Series: STARLI Research Institute XXXVI / YULI Nano Supercar Trilogy / Flagship 24 of 90 Edition: Research Working Edition v1.0 / 31 October 2026 Join the STARLI Research Community Explore more than 100 interdisciplinary research themes and follow the evolving STARLI Research Gate community: https://zenodo.org/communities/starli-research-gate/",
-      "summary": "DISTRIBUTED SWARM INTELLIGENCE FOR AUTONOMOUS VEHICLE MORPHOLOGY AT THE LIMITChinese Title / 中文書名:分散式群體智慧與自主車體決策極限24/90 DISTRIBUTED SWARM INTELLIGENCE FOR AUTONOMOUS VEHICLE MORPHOLOGY AT THE LIMIT is a 777-page high-density English Research Working Edition within the STARLI YULI Nano Supercar Trilogy (Research Institute XXXVI, Flagship 24 of 90). It examines whether many locally deciding robotic modules can produce a predictable, structurally qualified global body shape without surrendering load-transfer integrity, explicit human stop authority, module identity or full resource accounting. It",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224779167",
-      "url": "https://doi.org/10.5281/zenodo.23823882",
-      "pdf": "https://doi.org/10.5281/zenodo.23823882",
-      "title": "THERMAL MANAGEMENT OF MORPHING ROBOTIC VEHICLE BODIES AT THE LIMIT Chinese Title / 中文書名:可變形車體的熱管理極限 22/90 THERMAL MANAGEMENT OF MORPHING ROBOTIC VEHICLE BODIES AT THE LIMIT is a 777-page English Research Working Edition in STARLI's YULI Nano Supercar Trilogy, asking whether a scaled morphing robotic vehicle-body section can redistribute heat without hiding interface hotspots, temperature-induced material degradation or cooling-energy costs. Its three-coupling is Heat Conduction x Distributed Actuation x Thermal Safety. The program is restricted to 24-module unoccupied bench assemblies, coupons, sealed thermal chambers and hardware-in-the-loop control. It makes no claim of a road-ready vehicle, passenger protection or independently demonstrated nanoscale-to-macroscopic performance. The falsifiable candidate compares a frozen morphology-aware heat-management policy against equally resourced fixed passive and centralized wired thermal designs. Under matched mechanical tasks, material mass, source heat, cooling-work budget, sensing access and mission duration, the candidate should reduce the worst qualified local temperature without worsening safety-critical deadline-valid packet survival. The preassigned model rank([C;CA;...;CA^(n-1)])=n tests observability of an ideal local linear state representation; it does not itself prove physical temperature correctness. A hidden heat source, emissivity shift, detached thermal bridge, blocked coolant, over-temperature joint, unaccounted fan input, undercovered uncertainty or ineffective physical stop defeats release. Thirty mathematically distinct research plates address thermal control-volume energy conservation, Fourier and anisotropic conduction, pressure-dependent contact resistance, radiation, convection, dynamic heat storage, resistive heating, actuator dissipation, thermomechanical damage, strain-sensitive thermal conductivity, latent-heat buffering, thermal fatigue, forced cooling, heat-pipe and thermoelectric limits, observability, state-estimator innovation, correlated thermal uncertainty, inverse source ambiguity, physical stop latency, hazard dependence, extreme-tail qualification and Biot/Fourier scale arguments. Every plate specifies construction, dimensions, validity conditions, a separate blind falsification and chapter interfaces. Eighty-two research chapters contain 410 separate single-page investigations into physical heat source truth, changing morphology and thermal contacts, sparse sensor observability, cooling systems, thermally induced damage and second-site qualification. Two hundred Research Gates contain individually anchored hidden-fault, matched-comparator and cross-chapter questions with specific scientific notes and stopping criteria. Thirty-three distinguishable Phoenix Answer Embryos propose instruments, calorimeters, thermal-refusal cards, contact-heat probes, material aging tests and successor negative-case archives. These are prospective research designs, not completed results or operating vehicle hardware. Reference ancestry includes the author's supplied Flagship 13 identifiers 10.5281/zenodo.23318840 and 10.5281/zenodo.23318839 (metadata not independently confirmed). External peer-reviewed component literature includes Robo-Matter (10.1038/s41467-024-53123-6), thermally switchable polymers (10.1038/s41467-024-49354-2), thermally actuated soft robotics (10.1002/adma.202504683), conductive elastomer films (10.1039/D5NR03526K), responsive battery thermal regulation (10.1038/s41560-024-01535-5), phase-change/heat-pipe cooling (10.1016/j.enconman.2024.118506), and the supplied 2026 swarm/microrobot references (10.1038/s44172-026-00715-3; 10.1038/s41427-026-00682-3). Publications support component hypotheses and measurement methods; none independently verifies the integrated F22 concept. Author: Feng Cheng-en (33) x STARLI / Xingli Series: STARLI Research Institute XXXVI / YULI Nano Supercar Trilogy / Flagship 22 of 90 Edition: Research Working Edition v1.0 / 31 October 2026 Join the STARLI Research Community Explore more than 100 interdisciplinary research themes and follow the evolving STARLI Research Gate community: https://zenodo.org/communities/starli-research-gate/",
-      "summary": "THERMAL MANAGEMENT OF MORPHING ROBOTIC VEHICLE BODIES AT THE LIMITChinese Title / 中文書名:可變形車體的熱管理極限22/90 THERMAL MANAGEMENT OF MORPHING ROBOTIC VEHICLE BODIES AT THE LIMIT is a 777-page English Research Working Edition in STARLI's YULI Nano Supercar Trilogy, asking whether a scaled morphing robotic vehicle-body section can redistribute heat without hiding interface hotspots, temperature-induced material degradation or cooling-energy costs. Its three-coupling is Heat Conduction x Distributed Actuation x Thermal Safety. The program is restricted to 24-module unoccupied bench assemblies, coupons, ",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224809879",
-      "url": "https://doi.org/10.5281/zenodo.23823657",
-      "pdf": "https://doi.org/10.5281/zenodo.23823657",
-      "title": "ENERGY DISTRIBUTION IN INTELLIGENT ROBOTIC MATTER AT THE LIMIT Chinese Title / 中文書名:智能機器人物質能源分配極限 21/90 ENERGY DISTRIBUTION IN INTELLIGENT ROBOTIC MATTER AT THE LIMIT is a 777-page English Research Working Edition of STARLI's YULI Nano Supercar Trilogy, asking whether twenty-four locally controlled robotic-matter modules can share a bounded energy supply for a fixed, verified vehicle-body reconfiguration task without concealing external work, structural risk or unsafe communication delays. The three-coupling is Energy Networks x Distributed Power Supply x Vehicle Reconfiguration. Tests are restricted to unoccupied, scaled hardware, traceable electrical rails and laboratory/hardware-in-the-loop environments; no completed roadworthy or nanorobotic supercar is claimed. The falsifiable hypothesis is that a pre-registered distributed allocator can reduce total mission joules at the same useful task, material mass, sensing quality, energy sources, cooling, computation, time and operator budget as a properly optimized wired centralized architecture, while not worsening critical command latency. A hidden unmetered driver, local thermal hotspot, power-rail partition, stale packets, reserve deficit or failure of physical stopping defeats the claim. The supplied consensus model, dx_i/dt = -sum_j a_ij(x_i-x_j)+w_i, is used to study local agreement; agreement alone cannot prove charge conservation, battery state of charge or safe power distribution. Thirty distinct mathematical research plates examine energy-balance and signed-work integration, nodal current conservation, converter and contact losses, motor work, SOC integration and transient terminal voltage, resistor networks, rated-edge loading, droop sharing, negative incremental impedance, spectral connectivity, packet age, deadline reliability, thermal RC and Joule heating, dependent hazards, stop-energy reserve, constrained dispatch, worst-node tail risk, covariance propagation and physical safe-stop latency. Each plate provides mathematical or physical construction, dimensional limits, an individually specified blind challenge and chapter references. Across eighty-two chapters and 410 single-page investigations, the research program spans power-source custody, reconfigurable conductors, communication and consensus, electrothermal safety, fault isolation and independent qualification. Two hundred Research Gates pose distinct concealed-fault, equal-resource competitor and cross-interface problems with separate challenge, rival and stopping explanations. Thirty-three different Phoenix Answer Embryos propose experimental meters, isolation benches, duty referees, communication-energy witnesses, thermal artifacts and second-laboratory transfer contracts. These are hypothesis-forming research proposals, not completed devices or demonstrated physical outcomes. The DOI ancestry preserves author-supplied parent identifiers 10.5281/zenodo.23318840 and 10.5281/zenodo.23318839 (metadata not independently confirmed). External component and methodology references include Robo-Matter (10.1038/s41467-024-53123-6), flying-swarm shape assembly (10.1038/s44172-026-00715-3), adaptive magnetic microrobots (10.1038/s41427-026-00682-3), changing-topology consensus (10.1109/TAC.2005.846556), distributed power sharing (10.1109/TPWRD.2012.2212919), energy-aware multi-robot allocation (10.1016/j.robot.2024.104762), and wireless robotic power transfer (10.1049/csy2.70065). These studies support limited component analogies and methods; none proves the integrated F21 vehicle-body architecture, passenger safety or nanoscale-to-macroscopic feasibility. Author: Feng Cheng-en (33) x STARLI / Xingli Series: STARLI Research Institute XXXVI / YULI Nano Supercar Trilogy / Flagship 21 of 90 Edition: Research Working Edition v1.0 / 31 October 2026 Join the STARLI Research Community Explore more than 100 interdisciplinary research themes and follow the evolving STARLI Research Gate community: https://zenodo.org/communities/starli-research-gate/",
-      "summary": "ENERGY DISTRIBUTION IN INTELLIGENT ROBOTIC MATTER AT THE LIMITChinese Title / 中文書名:智能機器人物質能源分配極限21/90 ENERGY DISTRIBUTION IN INTELLIGENT ROBOTIC MATTER AT THE LIMIT is a 777-page English Research Working Edition of STARLI's YULI Nano Supercar Trilogy, asking whether twenty-four locally controlled robotic-matter modules can share a bounded energy supply for a fixed, verified vehicle-body reconfiguration task without concealing external work, structural risk or unsafe communication delays. The three-coupling is Energy Networks x Distributed Power Supply x Vehicle Reconfiguration. Tests are restr",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224830228",
-      "url": "https://doi.org/10.5281/zenodo.23824954",
-      "pdf": "https://doi.org/10.5281/zenodo.23824954",
-      "title": "ENERGY-COMPUTE-MORPHOLOGY CO-OPTIMIZATION IN INTELLIGENT ROBOTIC MATTER AT THE LIMIT Chinese Title / 中文書名:智能機器人物質的能源—運算—變形協同極限 25/90 ENERGY-COMPUTE-MORPHOLOGY CO-OPTIMIZATION IN INTELLIGENT ROBOTIC MATTER AT THE LIMIT is a 777-page English Research Working Edition in the STARLI YULI Nano Supercar Trilogy (Research Institute XXXVI, Flagship 25 of 90). It asks whether an identified, modular robotic vehicle-body research section can jointly allocate electrical energy, real-time computation and physically verified morphology transitions without hiding external support or crossing a structural safety limit. The three-way research coupling is Energy Budgets x Computing Resources x Morphing Efficiency. All proposed evidence is restricted to unoccupied bench coupons, a prospective 24-module panel, calibrated electrical and mechanical references, and bounded hardware-in-the-loop tests. No completed full vehicle, passenger safety result or road certification is asserted. The falsifiable candidate is that, under matched material, complete rail energy, compute cycles, sensing, communication, time and human-operation budgets, a frozen co-optimization policy can improve the number of independently verified graceful-degradation modes without worsening a preregistered peak-temperature bound. Its strongest comparators are competently tuned centralized planning, energy-aware but mechanics-unaware scheduling and passive safe-hold modules. Blinded challenges include unnoticed facility power, processor deadline overload, buried connector hotspots, battery aging, stale measurement timestamps, dry-friction joints, infeasible load paths and unsafe intermediate shapes. The original seed's Miner fatigue model D_f = sum(n_i/N_i) is retained as one conditional life-cycle proxy, not mislabeled as an energy-optimization law. Thirty mathematically distinct research plates develop terminal energy integration, power continuity, Joule loss, battery state, converter efficiency, thermal transients, CPU switching energy, real-time schedulability and response time, stale-information age, queue backlogs, communication work, robot dynamics, actuation work, frictional hysteresis, kinematic singularity, elastic buckling, fatigue, feasible Pareto fronts, KKT-style constrained objectives, hard safe sets, barrier conditions, tail risk, correlated uncertainty, chance constraints, complete-denominator yield, stopping latency and conjunctive physical requalification. Each plate identifies units, assumptions and its own concrete blind falsification. Eighty-two chapters comprise 410 separately paginated investigations into electrical rails, scheduling, structural transitions, three-way constrained optimization, adversarial causal comparisons and cross-generation scientific transfer. Two hundred Research Gates present distinct physical questions, tailored fault interventions, causal rivals and noncompensatory stop rules; all failed, refused and unfinished missions remain in the evidence denominator. Thirty-three distinguishable Phoenix Answer Embryos propose future instruments, test fixtures and evidence packages with explicit ways to falsify or retire them. The book reports research designs and questions rather than experimental achievements. The scope is prospective, scaled and non-occupancy. Missing load custody, unmetered energy, stale authority, missed deadlines, undercovered uncertainty or unsuccessful physical stopping forbids release regardless of efficiency gains. Methodological DOI context includes Robo-Matter (10.1038/s41467-024-53123-6), flying-swarm shape assembly (10.1038/s44172-026-00715-3), real-time scheduling (10.1145/321738.321743), battery SOC estimation (10.1038/s44359-026-00145-6), modular reconfiguration (10.1007/s10846-024-02067-6) and dynamic topology consensus (10.1109/TAC.2005.846556), alongside author-supplied Flagship 13 research ancestry (10.5281/zenodo.23318840 and 10.5281/zenodo.23318839; metadata not independently confirmed here). External studies concern relevant components or theory, not validation of this complete F25 architecture. Author: Feng Cheng-en (33) x STARLI / Xingli Series: STARLI Research Institute XXXVI / YULI Nano Supercar Trilogy / Flagship 25 of 90 Edition: Research Working Edition v1.0 / 31 October 2026 Join the STARLI Research Community Explore more than 100 interdisciplinary research themes and follow the evolving STARLI Research Gate community: https://zenodo.org/communities/starli-research-gate/",
-      "summary": "ENERGY-COMPUTE-MORPHOLOGY CO-OPTIMIZATION IN INTELLIGENT ROBOTIC MATTER AT THE LIMITChinese Title / 中文書名:智能機器人物質的能源—運算—變形協同極限25/90 ENERGY-COMPUTE-MORPHOLOGY CO-OPTIMIZATION IN INTELLIGENT ROBOTIC MATTER AT THE LIMIT is a 777-page English Research Working Edition in the STARLI YULI Nano Supercar Trilogy (Research Institute XXXVI, Flagship 25 of 90). It asks whether an identified, modular robotic vehicle-body research section can jointly allocate electrical energy, real-time computation and physically verified morphology transitions without hiding external support or crossing a structural safety",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224836983",
-      "url": "https://doi.org/10.5281/zenodo.23795755",
-      "pdf": "https://doi.org/10.5281/zenodo.23795755",
-      "title": "Digital Innovation in Agriculture: Emerging Technologies, Applications, Challenges and Future Perspectives",
-      "summary": "Abstract Digital innovation is transforming agriculture from conventional production systems into intelligent, data-driven, connected, and increasingly autonomous ecosystems. The integration of the Internet of Things (IoT), artificial intelligence (AI), machine learning (ML), remote sensing, unmanned aerial vehicles (UAVs), robotics, cloud computing, blockchain, digital twins, big data analytics, and mobile-based agricultural services is enabling farmers to make timely and informed decisions throughout the agricultural value chain. Digital technologies support precision crop management, soil a",
-      "authors": [
-        "Babu B.",
-        "Vanisri K.",
-        "S. Sumathra"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224926728",
-      "url": "https://doi.org/10.5281/zenodo.23824156",
-      "pdf": "https://doi.org/10.5281/zenodo.23824156",
-      "title": "NANOROBOTIC SWARM COMMUNICATION AND VEHICLE COORDINATION AT THE LIMIT Chinese Title / 中文書名:奈米機器人群體通訊與車體協調極限 23/90 NANOROBOTIC SWARM COMMUNICATION AND VEHICLE COORDINATION AT THE LIMIT is a 777-page high-density English Research Working Edition in the STARLI YULI Nano Supercar Trilogy. Its core three-coupling joins Local Communication x Swarm Coordination x Communication Reliability. It asks whether a preregistered distributed communication architecture can coordinate a scaled morphing robotic vehicle-body panel using real, traceable and time-valid messages, rather than relying on simulated connectivity, unknown external relays or unverified physical acknowledgments. The proposed testing domain is strictly non-occupancy: a 24-module body section, link coupons, hardware-in-the-loop experiments and an independently instrumented stop. No passenger, roadworthiness, autonomous nanocar or nanoscale-to-automotive advantage is asserted. The falsifiable candidate is that, under equal task, mass, power, bandwidth, sensing, timing and operator budgets, a frozen distributed network reduces end-to-end critical communication latency without worsening graceful degradation after blinded partitioning. A wired centralized architecture and an optimized safe-hold controller form strong rivals. Important refutations include a hidden radio partition, a stale but successfully delivered sensor value, an unmetered field-driven repeater, a swapped physical module ID, a false software acknowledgement or failure of real physical cessation. The source contract's heat-balance equation rho*c_p*dT/dt = div(k grad T) + qdot is retained as a powered-node thermal constraint, not presented as a communication theorem. Thirty distinct mathematical research plates develop end-to-end delay decomposition, age of information, deadline-valid delivery, directed Laplacian consensus, spectral connectivity, graph cuts, ideal Shannon capacity, interference SINR, calibrated RF link budgets, dependent packet losses, retransmission work, stable and burst queues, clock skew, useful goodput, packet-tail quantiles, partition reachability, switching-topology probabilities, sampled plant control, normalized innovations, trusted message epochs, coupled heat cost, timestamp covariance and conjunctive physical clearance. Each plate specifies assumptions, dimensions, a targeted blind refutation and relevant chapter interfaces. Eighty-two chapters contain 410 separately paginated experiments that address physical signal paths, morphing topology, message timing, partitioned networks, bounded distributed control and independent external qualification. Two hundred Research Gates pose individually distinguishable concealed-fault, strong-comparator and coupled-interface questions with their own negative evidence and stopping rules. Thirty-three different Phoenix Answer Embryos propose physical instruments, timestamp references, graph-cut witnesses, adversarial packet testers, portable calibration objects and successor refusal replayers. These are future scientific possibilities, not completed trial results. Reference ancestry carries author-supplied Flagship 13 identifiers 10.5281/zenodo.23318840 and 10.5281/zenodo.23318839 (metadata not independently checked). Relevant external research includes Robo-Matter (10.1038/s41467-024-53123-6), flying-swarm shape assembly (10.1038/s44172-026-00715-3), adaptive magnetic microrobots (10.1038/s41427-026-00682-3), consensus and cooperation (10.1109/JPROC.2006.887293), consensus under changing topologies (10.1109/TAC.2005.846556) and networked control under packet delay and loss (10.1080/23307706.2026.2683639). Their results support relevant components and methods, not the proposed integrated F23 vehicle system. Author: Feng Cheng-en (33) x STARLI / Xingli Series: STARLI Research Institute XXXVI / YULI Nano Supercar Trilogy / Flagship 23 of 90 Edition: Research Working Edition v1.0 / 31 October 2026 Join the STARLI Research Community Explore more than 100 interdisciplinary research themes and follow the evolving STARLI Research Gate community: https://zenodo.org/communities/starli-research-gate/",
-      "summary": "NANOROBOTIC SWARM COMMUNICATION AND VEHICLE COORDINATION AT THE LIMITChinese Title / 中文書名:奈米機器人群體通訊與車體協調極限23/90 NANOROBOTIC SWARM COMMUNICATION AND VEHICLE COORDINATION AT THE LIMIT is a 777-page high-density English Research Working Edition in the STARLI YULI Nano Supercar Trilogy. Its core three-coupling joins Local Communication x Swarm Coordination x Communication Reliability. It asks whether a preregistered distributed communication architecture can coordinate a scaled morphing robotic vehicle-body panel using real, traceable and time-valid messages, rather than relying on simulated conne",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4399399109",
-      "url": "https://doi.org/10.1016/j.nahs.2026.101822",
-      "pdf": "https://doi.org/10.1016/j.nahs.2026.101822",
-      "title": "Accelerating hybrid model predictive control using warm-started generalized benders decomposition",
-      "summary": "Hybrid model predictive control with both continuous and discrete variables is widely applicable to robotic control tasks, especially those involving contacts with the environment. Due to combinatorial complexity, the solving speed of hybrid MPC can be insufficient for real-time applications. In this paper, we propose a hybrid MPC algorithm based on Generalized Benders Decomposition. The algorithm enumerates and stores cutting planes online inside a finite buffer and transfers them across MPC iterations to provide warm-starts for new problem instances, significantly enhancing solving speed. We",
-      "authors": [
-        "Xuan Lin"
-      ],
-      "published": "2026-10-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224083877",
-      "url": "https://doi.org/10.5281/zenodo.23733102",
-      "pdf": "https://doi.org/10.5281/zenodo.23733102",
-      "title": "A Mathematical Framework for Sensor-Aligned Reinforcement Learning and Sim-to-Real Transfer on Resource-Constrained Autonomous Vehicles",
-      "summary": "Overview This paper presents Version 1.0 of a proposed mathematical framework for sensor-aligned reinforcement learning and sim-to-real transfer in resource-constrained autonomous ground vehicles. The research investigates the theoretical feasibility of training an autonomous navigation policy in Unreal Engine 5 using Proximal Policy Optimization (PPO) and subsequently deploying the trained neural network on an ESP32-class microcontroller. The proposed framework integrates nonlinear differential-drive vehicle dynamics, physically realizable sensor observations, partially observable Markov deci",
-      "authors": [
-        "Yaroslav Lukianov"
-      ],
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -338,170 +380,126 @@
       "trending": 1.5
     },
     {
-      "id": "W4407774001",
-      "url": "https://doi.org/10.1137/25m1795728",
-      "pdf": "https://doi.org/10.1137/25m1795728",
-      "title": "Uncertainty Quantification for Markov Chain Induced Martingales with Application to Temporal Difference Learning",
-      "summary": "Abstract. We establish novel and general high-dimensional concentration inequalities and Berry–Esseen bounds for vector-valued martingales induced by Markov chains. We apply these results to analyze the performance of the temporal difference (TD) learning algorithm with linear function approximations, a widely used method for policy evaluation in reinforcement learning (RL), obtaining a sharp high-probability consistency guarantee that matches the asymptotic variance up to logarithmic factors. Furthermore, we establish an [Formula: see text] distributional convergence rate for the Gaussian app",
+      "id": "W7224108190",
+      "url": "https://doi.org/10.5281/zenodo.23749105",
+      "pdf": "https://doi.org/10.5281/zenodo.23749105",
+      "title": "中文書名:微流體環境中的智能機器人定位極限 MICROFLUIDIC ENVIRONMENT IN INTELLIGENT ROBOT LOCALIZATION AT THE LIMIT This 777-page English research monograph asks whether intelligent robot localization in microfluidic environments can improve sample-identity probability without increasing contact impulse or carryover. The book contains 30 mathematical research plates, 82 chapters, 410 single-page studies, 200 Research Gates and 33 Phoenix Answer Embryos. It covers microfluidic flow, optical and multimodal localization, state estimation, data association, closed-loop control, sample identity, uncertainty, blinded fault tests and independent reconstruction. The work is nonclinical and hypothesis-generating. It does not claim completed clinical testing, proven in-body efficacy or autonomous medical authority. Identity, contact, carryover, purity, calibration and external reconstruction must pass together. Mother research lineage: Microrobotic Sampling and Quantum Biosensing Co-Design at the Limit DOI: 10.5281/zenodo.23318840 Author: Feng Cheng-en (33) × Starli Series: STARLI Research Institute XXIX / Flagship 002 Edition: Research Working Edition v1.0 / October 2026 Join the STARLI Research Community Explore more than 100 interdisciplinary research themes and follow the evolving STARLI Research Gate community: https://zenodo.org/communities/starli-research-gate/",
+      "summary": "中文書名:微流體環境中的智能機器人定位極限MICROFLUIDIC ENVIRONMENT IN INTELLIGENT ROBOT LOCALIZATION AT THE LIMIT This 777-page English research monograph asks whether intelligent robot localization in microfluidic environments can improve sample-identity probability without increasing contact impulse or carryover. The book contains 30 mathematical research plates, 82 chapters, 410 single-page studies, 200 Research Gates and 33 Phoenix Answer Embryos. It covers microfluidic flow, optical and multimodal localization, state estimation, data association, closed-loop control, sample identity, uncertainty, blinded faul",
       "authors": [
-        "Weichen Wu",
-        "Yuting Wei",
-        "Alessandro Rinaldo"
+        "33"
       ],
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224077747",
-      "url": "https://doi.org/10.21275/sr261022111025",
-      "pdf": "https://www.ijsr.net/archive/v15i10/SR261022111025.pdf",
-      "title": "Assisted Pricing and Foundational Pricing Capabilities: A Scalable, Explainable, and Fair AI-Driven Pricing Architecture",
-      "summary": "Static price schedules ignore how much service requests vary. The result is estimation error, revenue leakage, and prices that customers cannot interpret. This study tests whether an assisted pricing architecture can improve accuracy without giving up fairness or transparency. The system pairs gradient-boosted trees with a regularized linear model, applies a rule engine for margin, regional, and risk limits, attaches SHAP attributions, and adjusts prices with Q-learning under a fairness-penalized reward. It was run on a simulated dataset of 500,000 transactions from four service industries, re",
-      "authors": [
-        "Tanushree Gupta"
-      ],
-      "published": "2026-10-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224784573",
-      "url": "https://doi.org/10.21776/ub.alphabet.2026.09.02.06",
-      "pdf": "https://doi.org/10.21776/ub.alphabet.2026.09.02.06",
-      "title": "Patriarchal Cultural Domination in Japanese Boys' Love Manga",
-      "summary": "This study examines the persistence of patriarchal culture in Japanese Boys' Love (BL) manga, a genre frequently discussed as a space through which women can explore desire beyond conventional heterosexual representation. Using a qualitative approach within a critical paradigm, the study applies Sara Mills's Feminist Stylistics Analysis to Kono Te wo Hanasanaide by Sakimoto Saki, with attention to lexical choices, syntactic organization, subject-object positioning, panel composition, embodied representation, and the seme-uke/alpha-omega hierarchy. The analysis shows that the alpha/seme charact",
-      "authors": [
-        "Goddiva Felicia Setiawan",
-        "Desi Dwi Prianti",
-        "Anang Sujoko"
-      ],
-      "published": "2026-10-31",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
+      "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7164448054",
-      "url": "https://doi.org/10.3917/inno.pr2.0209",
-      "pdf": "https://shs.cairn.info/article/INNO_PR2_0209/pdf?lang=fr",
-      "title": "Anticiper et écrire la place des robots dans l’industrie du futur : une approche science-fictionnelle et métaphorique",
-      "summary": "Les robots industriels sont au cœur de débats sociétaux, d’œuvres fictionnelles et donc de métaphores répandues telles que l’augmentation ou le remplacement des ouvriers du fait de l’automatisation. En contrepoint, de nouveaux types de robots proposent de nouveaux paradigmes de collaboration homme-machine. Cet article vise, en s’appuyant sur l’expression narrative et métaphorique, à comprendre la diversité des perceptions et des représentations du travail dans des environnements industriels robotiques et leur imbrication dans des imaginaires plus vastes et spéculatifs. Il s’inscrit à la fois d",
+      "id": "W7224173349",
+      "url": "https://doi.org/10.1117/12.3132292",
+      "pdf": "",
+      "title": "Image preprocessing algorithm and visual implementation for construction-site safety helmets based on OpenCV",
+      "summary": "Image preprocessing is a critical prerequisite for computer-vision tasks such as safety-helmet wearing detection and target classification, directly affecting the accuracy and efficiency of subsequent models. To solve image noise, uneven illumination and blurred contours commonly observed in construction-site safety-helmet scenes, this paper designs a complete preprocessing pipeline with seven core steps and implements real-time visualization based on Python and OpenCV. The pipeline includes grayscale conversion, Gaussian filtering, CLAHE contrast enhancement, adaptive threshold binarization, ",
       "authors": [
-        "Jean‐François Stich",
-        "Ketty Steward",
-        "Philippe Mairesse"
+        "Xin Li"
       ],
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7215153074",
-      "url": "https://doi.org/10.14456/augsbejr.2026.66",
-      "pdf": "https://assumptionjournal.au.edu/index.php/AU-GSB/article/download/9951/5044",
-      "title": "Factors Affecting Doctors and Nurses Adoption of Surgical Robots in Thai Hospitals",
-      "summary": "Purpose: This study examines factors affecting doctors’ and nurses’ adoption and use of surgical robots in Thailand’s top 10 hospitals. Based on the Technology Acceptance Model, the Unified Theory of Acceptance and Use of Technology, and the Almere model, it investigates perceived ease of use, perceived usefulness, attitude, perceived risk, social influence, facilitating conditions, intention to use, and use. Research design, data, and methodology: A quantitative cross-sectional design was used. Data were collected from 500 doctors and nurses in Thai tertiary hospitals using a structured quest",
-      "authors": [
-        "Jiaqi He"
-      ],
-      "published": "2026-10-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220882070",
-      "url": "https://doi.org/10.14456/abacodijournal.2026.56",
-      "pdf": "https://assumptionjournal.au.edu/index.php/odijournal/article/download/10005/5104",
-      "title": "Drivers of E-Learning Adoption in Undergraduate Acting Education",
-      "summary": "E-learning is increasingly central to higher education, yet its adoption in embodied, practice-led disciplines such as actor training remains under-researched. This study examines the determinants of undergraduate acting majors’ behavioral intention (BI) toward e-learning and evaluates a faculty-initiated Strategic Plan (SP) designed to address them. Using an explanatory sequential mixed-methods design integrating TAM3, UTAUT2, and Diffusion of Innovations theory, the diagnostic phase surveyed 100 students; Multiple Linear Regression identified Habit (β = 0.293), Perceived Ease of Use (β = 0.2",
-      "authors": [
-        "Yiyang Du"
-      ],
-      "published": "2026-10-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221806444",
-      "url": "https://doi.org/10.59246/jgv9bq54",
-      "pdf": "https://journal.insyaka.ac.id/index.php/index/article/view/2506",
-      "title": "Penyalahgunaan Teknologi Deepfake terhadap Figur Publik di Media Sosial dalam Perspektif Hukum Pidana Indonesia",
-      "summary": "The misuse of deepfake technology against public figures on social media presents significant challenges for criminal law enforcement in Indonesia, particularly concerning the protection of personal rights, reputation, and digital identity. The rapid development of artificial intelligence enables the creation of highly realistic synthetic images, audio, and videos that can be used to manipulate public perception, spread misinformation, and damage individual reputations. This article examines the legal framework governing deepfake misuse against public figures in Indonesia through a Systematic ",
-      "authors": [
-        "Fadhil Muhammad Ramadhani"
-      ],
-      "published": "2026-10-28",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
+      "score": 6.0,
       "pick": "Computer Vision",
       "pick_emoji": "👁",
       "trending": 0.0
     },
     {
-      "id": "W7223106806",
-      "url": "https://doi.org/10.21105/joss.10483",
-      "pdf": "https://joss.theoj.org/papers/10.21105/joss.10483.pdf",
-      "title": "ParaDiGM: Parallel Distributed General Mesh",
-      "summary": "ParaDiGM (Parallel Distributed General Mesh) is an open-source C library (LGPL) designed to overcome the technological bottlenecks associated with geometric data handling and mesh manipulation in massively parallel numerical simulations.Originally developed as the geometric engine for the CWIPI coupling library (Quémerais et al., 2026), it has evolved into a standalone infrastructure designed to manage distributed meshes at the billion-element scale and beyond.",
+      "id": "W7224166081",
+      "url": "https://doi.org/10.21203/rs.3.rs-11122640/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-11122640/latest.pdf",
+      "title": "Mastering Baghchal by Self-Play with Deep Reinforcement Learning",
+      "summary": "Abstract Baghchal is a two-player asymmetric board game of Nepali origin. In the gameplay, four tigers attempt to capture goats while twenty goats seek to immobilize the tigers. Baghchal has received limited attention in the deep reinforcement learning (RL) literature despite its strategic complexity, perfect information structure, and cultural significance. We present a systematic investigation of four deep reinforcement learning algorithms, viz. Deep Q-Network (DQN), REINFORCE, Proximal Policy Optimization (PPO), and MuZero. These algorithms are applied to both sides of asymmetric gameplay t",
       "authors": [
-        "Eric Quémerais",
-        "Bastien Andrieu",
-        "Bruno Maugars",
-        "Karmijn Hoogveld",
-        "Clément Benazet",
-        "Julien Coulet",
-        "Bérenger Berthoul",
-        "Nicolas Dellinger",
-        "Thomas Hennion"
+        "Ranjit Raut",
+        "Aarav Subedi",
+        "Sagun Rai"
       ],
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224176665",
+      "url": "https://doi.org/10.1371/journal.pone.0361374",
+      "pdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0361374&type=printable",
+      "title": "Integrating YOLOv8-based disaster detection with deep reinforcement learning for closed-loop UAV emergency response scheduling: A simulation study",
+      "summary": "Aerial perception and dispatch scheduling in unmanned aerial vehicle emergency response are commonly arranged as a one-directional pipeline, and the contribution of closing the loop between them has not been measured under controlled conditions. This study evaluates a framework in which a YOLOv8 scene classifier gates task discovery, a Disaster Situation State Matrix aggregates spatially indexed detection outputs under exponential temporal decay, and a proximal policy optimization scheduler acts on that matrix. Evaluation used a 32 × 32 grid testbed with four vehicles, ten training seeds per c",
+      "authors": [
+        "Zhang Chunsheng",
+        "Ruichun He"
+      ],
+      "published": "2026-10-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224196577",
+      "url": "https://doi.org/10.1117/12.3134552",
+      "pdf": "",
+      "title": "Reinforcement learning-based optimization of library room reservation systems",
+      "summary": "Library study rooms are scarce resources whose reservation policies directly affect seat utilization, student waiting time, fairness, and service reliability. Conventional first-come-first-served and manually adjusted reservation rules are simple to deploy, but they often fail under bursty demand, repeated no-shows, and heterogeneous room preferences. This paper proposes RLRRS, a reinforcement learning-based optimization framework for library room reservation systems. We model the reservation process as a Markov decision process in which the agent observes temporal demand, room states, user hi",
+      "authors": [
+        "Li Xu"
+      ],
+      "published": "2026-10-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224221102",
+      "url": "https://doi.org/10.1201/9781042046928-42",
+      "pdf": "",
+      "title": "Server Fan-Aware Cooling:",
+      "summary": "The energy consumption of data centres in tropical regions remains elevated due to operators maintaining low server intake temperature setpoints, contrary to general recommendations. This paper investigates the replacement of fixed setpoints with a dynamic floating setpoint strategy that reduces overall energy costs. We develop an optimized, constraint-sensitive control strategy for server intake temperatures using a Deep Reinforcement Learning (DRL) framework. The DRL agent was trained on a hybrid model of an active, high-performance data centre operating under both full-load and part-load co",
+      "authors": [
+        "R Harshith",
+        "M Arvind Kumar Shetty",
+        "Abhijeet Thakur",
+        "Ambure Prateek",
+        "G Shetty Pavithra",
+        "V Srinivasan"
+      ],
+      "published": "2026-10-29",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
     }
   ]
 }
