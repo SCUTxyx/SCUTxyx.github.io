@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01 23:15 UTC",
+  "generated_at": "2026-11-02 22:32 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,18 +9,85 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7224185773",
-      "url": "https://doi.org/10.3390/su182110986",
-      "pdf": "https://doi.org/10.3390/su182110986",
-      "title": "Reinforcement Learning Approaches to the Dynamic Flexible Job Shop Scheduling Problem: A Systematic Review",
-      "summary": "This systematic review analyses how Reinforcement Learning (RL) applied to the Dynamic Flexible Job Shop Scheduling Problem (DFJSSP) contributes to industrial production systems, considering problem formulations and extensions, algorithm families and scheduling strategies, and scalability. ScienceDirect, IEEE Xplore, Taylor & Francis and Web of Science databases were searched between November 2025 and January 2026, using eligibility criteria requiring RL as the primary method, explicit modelling of dynamic events, experimental validation, and quantitative instance data. A total of 231 records ",
+      "id": "W7117159154",
+      "url": "https://doi.org/10.1145/3842721.3849636",
+      "pdf": "https://doi.org/10.1145/3842721.3849636",
+      "title": "MEO: Mining Reliable Expert Signals for Offline Reinforcement Learning in Wireless Networks",
+      "summary": "The operation of next-generation wireless networks increasingly hinges on Deep Reinforcement Learning (DRL) to optimize critical network decisions. Offline RL trains agents using accessible datasets and thus eliminates costly online interactions, rendering it particularly advantageous in dynamic wireless environments that demand low latency and high safety. However, its capability remains under-explored in wireless settings, where offline data are often limited and subject to partial observability. As a result, the learned policy fails to fully capture the informative decision patterns hidden ",
       "authors": [
-        "Ana Neto",
-        "Nuno Lopes",
-        "Cátia Alves",
-        "Goran D. Putnik"
+        "Lipeng Zu",
+        "Hansong Zhou",
+        "Yu Qian",
+        "Shayok Chakraborty",
+        "Yukun Yuan",
+        "Linke Guo",
+        "Xiaonan Zhang"
       ],
-      "published": "2026-10-29",
+      "published": "2026-10-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 12.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225058884",
+      "url": "https://doi.org/10.5281/zenodo.23871371",
+      "pdf": "https://doi.org/10.5281/zenodo.23871371",
+      "title": "Localizing and Editing the Goal Representation of a Vision-Language-Action Model: code",
+      "summary": "Code and analysis outputs for the paper Localizing and Editing the Goal Representation of a Vision-Language-Action Model (SPAIS Workshop at the 10th Conference on Robot Learning, CoRL 2026). The code studies OpenVLA-7B fine-tuned on LIBERO-Goal. It labels the goal that each closed-loop rollout executes, tests negated and redirected instructions, localizes the goal with activation patching, edits it with patches and steering vectors, and evaluates goal read-outs as runtime monitors.",
+      "authors": [
+        "Sudhanshu Srivastava"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7224329985",
+      "url": "https://doi.org/10.47852/bonviewswt620210799",
+      "pdf": "https://ojs.bonviewpress.com/index.php/SWT/article/download/10799/2295",
+      "title": "Proof-of-Concept End-to-End EEG-BCI Pipeline for Grasp-and-Release Decoding and Low-Cost Tendon-Driven Actuation",
+      "summary": "Stroke is a leading cause of long-term motor disability, inspiring research in the design of assistive and rehabilitation technologies that work in situations with limited residual muscle activity. Brain–computer interfaces (BCIs) offer a promising non-muscular pathway to translate brain activity into BCI commands. This paper presents the proof-of-concept end-to-end pipeline for the use of binary grasp-and-release Electroencephalography-Brain Computer Interface (EEG-BCI) decoding in conjunction with low-cost tendon-driven robotic hand actuation. The classification part of our pipeline has been",
+      "authors": [
+        "Krishnakumar Sankar",
+        "Kanimozhi Gowtheman",
+        "Keerthivasan Sundararajan",
+        "Naresh Moorthi"
+      ],
+      "published": "2026-10-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220996997",
+      "url": "https://doi.org/10.1145/3842721.3849640",
+      "pdf": "https://arxiv.org/pdf/2610.07550",
+      "title": "Foundation Model-Aided Multi-Agent Reinforcement Learning for Wireless Random Access Network Optimization",
+      "summary": "Random access (RA) is one of the most foundational medium access control (MAC) layer scheduling schemes for handling unpredictable data traffic from multiple terminals. While multi-agent reinforcement learning (MARL) has been explored to optimize RA-based wireless networks, its reliance on experience-driven, distributed policy learning incurs significant training overhead for each optimization task, limiting its feasibility in real-world applications. In this work, we propose to leverage a foundation model (FM) to improve MARL efficiency across diverse RA network optimization tasks. Specifical",
+      "authors": [
+        "Myeung Suk Oh",
+        "Zhiyao Zhang",
+        "Alvaro Velasquez",
+        "Nathaniel D. Bastian",
+        "Jia Liu"
+      ],
+      "published": "2026-10-30",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -28,40 +95,27 @@
       "score": 7.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
-      "trending": 0.0
+      "trending": 1.5
     },
     {
-      "id": "W7224779131",
-      "url": "https://doi.org/10.5281/zenodo.23804813",
-      "pdf": "https://doi.org/10.5281/zenodo.23804813",
-      "title": "INJECTABLE NANOROBOTS: EMERGING FRONTIERS IN PRECISION DRUG DELIVERY, DISEASE, DIAGNOSIS, AND TARGETED THERAPEUTICS –A COMPREHENSIVE REVIEW",
-      "summary": "The most exciting development in nanomedicine is the injectable nanorobots that combine nanotechnology, robotics, biotechnology, materials science, and artificial intelligence for extremely accurate illness detection and treatment. In contrast to conventional drug delivery systems that disperse medication throughout the body, injectable nanorobots are engineered to navigate bodily fluids, detect disease-specific biomarkers, and release therapeutic agents selectively at the target site. These systems have demonstrated significant potential in areas such as cancer, cardiovascular disease, neurol",
-      "authors": [
-        "Esther Puli*, Kedareswari Athikinasetti, Gayathri Naga Sai Lakshmi Merla, Lakshmi Ganesha Surya Durga Tummalapalli, Sourya Satya Deepak Talari, Naga Durga Yarakala, Dr. Bhaskara Raju Vatchavi, Mr. Ajay Ratnam Mulaparthy, Dr. Y.b. Manjulatha"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224989467",
-      "url": "https://doi.org/10.1302/0301-620x.108b11.bjj-2026-1352",
+      "id": "W7225034900",
+      "url": "https://doi.org/10.2118/236241-ms",
       "pdf": "",
-      "title": "The robotic arm-assisted versus conventional total knee arthroplasty (RACER-Knee) trial",
-      "summary": "",
+      "title": "Revolutionising Asset Performance Management Through Autonomous Robotics and Integrated Digital Platform Intelligence: First Deployment of an ATEX/IECEX-Rated Quadruped Robot in Kuwait",
+      "summary": "Abstract Reliability engineers in operating facilities are increasingly burdened by the manual aggregation of asset health data from disparate sources — process historians, ERP systems, and periodic inspection records — leaving limited capacity for higher-value analysis and decision-making. This paper presents the design and first deployment of an integrated autonomous inspection and asset performance management solution at a Kuwait Oil Company (KOC) facility, delivered through a tripartite collaboration between KOC, SLB and ANYbotics. The core objective was to demonstrate that continuous, rob",
       "authors": [
-        "Nick D. Clement",
-        "Andrew John Metcalfe",
-        "Edward T. Davis",
-        "Fares Sami Haddad"
+        "Muzahidin Muhamed Salim",
+        "Juan Alvarez",
+        "Ines Graa",
+        "Ian Traboulay",
+        "Mohamed Moinuddin",
+        "Mohammad Al Bishara",
+        "Salem Faisal Al-Omairi",
+        "Murali Krishna Guntuku",
+        "Murali Krishna",
+        "Purnendu Kushwaha"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -72,15 +126,16 @@
       "trending": 0.0
     },
     {
-      "id": "W7224991214",
-      "url": "https://doi.org/10.1308/rcsbull.2026.154",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.154",
-      "title": "Beyond the console: Mathias Unberath on the future of robotic surgery",
-      "summary": "Our Technologist speaks to Mathias Unberath, the John C Malone Associate Professor of Computer Science at Johns Hopkins University, about the path forward for robotic surgery.",
+      "id": "W7225038513",
+      "url": "https://doi.org/10.2118/236207-ms",
+      "pdf": "",
+      "title": "A Hybrid Positioning Solution for Machine Control in GPS-Denied Environments: Combining Robotic Total Stations and Gyro Compasses",
+      "summary": "Abstract Modern machine control systems rely on GNSS-based positioning integrated with onboard tilt and inertial sensors to enable high-precision excavation, grading, dredging, and earthmoving operations. However, dependence on satellite-derived position and heading limits operational continuity in environments where GNSS signals are degraded or unavailable. The objective of this work is to develop a GNSS- independent machine control architecture capable of maintaining real-time guidance using existing survey and machine control infrastructure without modification of core machine systems. A hy",
       "authors": [
-        "Tom Dobbs"
+        "Navoranjan Ghosh",
+        "Muhammad Faraz Arshad"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -91,15 +146,18 @@
       "trending": 0.0
     },
     {
-      "id": "W7224996774",
-      "url": "https://doi.org/10.1308/rcsbull.2026.150",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.150",
-      "title": "Robotic surgery: are we innovating equally?",
-      "summary": "As robotics become established across surgery, could greater access in gynaecology extend minimally invasive treatment to more women?",
+      "id": "W7225042451",
+      "url": "https://doi.org/10.2118/236402-ms",
+      "pdf": "",
+      "title": "Advanced Tank Maintenance Technologies in Oil and Gas – Upstream: Robotic De-Sludging, Robotic Coating Removal, Dehumidification, and Drone-Based Inspection for Storage Tank Maintenance",
+      "summary": "Abstract Extended tank outages remain a persistent constraint on upstream field economics, since a drained storage tank that cannot be returned to service quickly translates directly into lost or deferred production. This paper evaluates four maintenance technologies that Petroleum Development Oman PDO introduced to shorten outage windows and reduce confined-space risk during tank cleaning, surface preparation, coating, and inspection: a remotely piloted hydraulic dozer for bottom-sludge removal, a magnetically mounted climbing robot for coating and Glass-Reinforced Epoxy (GRE) stripping, a co",
       "authors": [
-        "I Sokolova"
+        "A. Al Jahwari",
+        "M. Al Hakmani",
+        "H. Al Ghafri",
+        "Z. S. Al Habsi"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -110,17 +168,18 @@
       "trending": 0.0
     },
     {
-      "id": "W7224998231",
-      "url": "https://doi.org/10.1308/rcsbull.2026.149",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.149",
-      "title": "The robots are here to stay… but what do our patients know about them?",
-      "summary": "As robotic surgery becomes increasingly commonplace, how well do patients understand the technology shaping their care?",
+      "id": "W7225044878",
+      "url": "https://doi.org/10.2118/236090-ms",
+      "pdf": "",
+      "title": "Next-Gen Smart Robotic Repair for Aging Subsea Pipelines",
+      "summary": "Abstract Offshore operators worldwide are managing subsea pipeline networks that are advancing well into the latter stages of their design lives, where corrosion-driven wall loss competes directly with the cost and disruption of full replacement. This paper reports an application by ADNOC Offshore of an autonomous, diver-free robotic composite repair on a live 20-in. crude oil pipeline, completed with the line in full operation and without a single diver entering the water. Deployed and operated from surface through remotely operated vehicle (ROV) support, the system formed a controlled habita",
       "authors": [
-        "E Holdsworth",
-        "A Bannon",
-        "J Nicholson"
+        "S. Kallinkil",
+        "N. Al Shehhi",
+        "Azza Alshhehi",
+        "B. Alkatheeri"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -131,16 +190,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7224998385",
-      "url": "https://doi.org/10.1308/rcsbull.2026.136",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.136",
-      "title": "Keeping the human at the centre of the robotic surgery loop",
-      "summary": "The robot is the tool; better patient care is the goal.",
+      "id": "W7225051180",
+      "url": "https://doi.org/10.2118/235488-ms",
+      "pdf": "",
+      "title": "Transforming UWILD Through Asset-Deployed Robotic Phased Array Corrosion Mapping",
+      "summary": "Abstract Underwater Inspection in Lieu of Dry Docking (UWILD) enables floating offshore assets to satisfy structural-integrity requirements while remaining in operation. Conventional UWILD ultrasonic examinations, however, commonly depend on diver-deployed point thickness measurements or remotely operated vehicle systems supported by specialized offshore infrastructure. These methods can constrain inspection coverage, positional repeatability, data density, and campaign flexibility. This paper presents the development and validation of an asset-deployed magnetic crawler integrating encoded pha",
       "authors": [
-        "Nuha Yassin",
-        "Ben J Challacombe"
+        "Dheeraj P. R.",
+        "Bernardo Ouverney",
+        "Carlos Marinho",
+        "Luiz dos Anjos Cristiano Marino",
+        "Alexandre T. Oshiro",
+        "Júlio Endress Ramos"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -151,16 +214,27 @@
       "trending": 0.0
     },
     {
-      "id": "W7225001474",
-      "url": "https://doi.org/10.1308/rcsbull.2026.148",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.148",
-      "title": "The future of robotic surgical training: a multispecialty national strategy",
-      "summary": "The future of robotic surgery depends on more than technology – with training, teamwork and equitable access all essential to its success.",
+      "id": "W7225057573",
+      "url": "https://doi.org/10.2118/236352-ms",
+      "pdf": "",
+      "title": "Reinventing TRSV Intervention: How Rigless E-Line Robotics Eliminated an Expensive Workover, A Case Study",
+      "summary": "Abstract Maintaining well integrity throughout the life of a well is essential to preventing uncontrolled flow, enabling the longevity of mature assets, protecting the environment, and safeguarding personnel. Tubing-Retrievable Safety Valves (TRSVs) constitute a primary well-integrity barrier, and malfunction can lead to immediate production impairment and elevated operational risk. These concepts are emphasized through this case study, where a case of failed TRSV in a well was successfully restored using a fully rigless, e-line–deployed robotic intervention. The advanced diagnostic and actuat",
       "authors": [
-        "N Vasdev",
-        "DP Harji"
+        "Wanod Perkash",
+        "S. Al Badi",
+        "M. Siddiqui",
+        "A. Al Zarooni",
+        "Mohamed Abdulla Al Bloushi",
+        "Mohammed Ibrahim Al Janahi",
+        "K. Alkindi",
+        "Jaber Abdulmajeed Abdulla",
+        "E. Omara",
+        "M. Alhammadi",
+        "M. Alali",
+        "A. Alnaqbi",
+        "M. Farhan"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -171,205 +245,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7225002693",
-      "url": "https://doi.org/10.1308/rcsbull.2026.137",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.137",
-      "title": "The Three Laws",
-      "summary": "Training in robotics should no longer be the preserve of fellowship programmes.",
+      "id": "W7225059606",
+      "url": "https://doi.org/10.5281/zenodo.23870860",
+      "pdf": "https://doi.org/10.5281/zenodo.23870860",
+      "title": "Flagship 59/60 Does microrobotic manufacture reduce cradle-to-disposal resources per independently function-qualified tissue unit rather than shifting burdens to computing or consumables? LIFECYCLE AND SUSTAINABILITY ENGINEERING FOR NANOROBOT-ASSISTED REGENERATIVE MANUFACTURING AT THE LIMIT This 777-page Research Design Working Edition in the STARLI Nano Regenerative Biomanufacturing series investigates functional-unit normalized whole-system material and energy accounting. Its scientific coupling is biomanufacturing x resource efficiency x life-cycle governance. The evidence perimeter is prospective and nonclinical, using closed in-vitro systems, organ-on-chip platforms or authorized ex-vivo material; neither clinical efficacy nor autonomous human intervention is claimed. The falsifiable question is: Does microrobotic manufacture reduce cradle-to-disposal resources per independently function-qualified tissue unit rather than shifting burdens to computing or consumables? The proposed minimum demonstration is: Meter complete energy and consumables for a small-batch robotic and conventional tissue manufacturing comparison. Strong comparators include conventional bioprinting and centralized regulated-grade benchmark workflows. The central competing explanation is hidden reagent, compute or cold-chain displacement beyond the declared factory boundary. The noncompensatory stop rule is: material boundary is incomplete or advantage disappears per qualified functional unit. Every eligible, stopped, refused and unsuccessful experiment belongs to the full denominator. Thirty conditional mathematical plates specify different analytic roles, measurements, units and blind failure tests. Eighty-two chapters contain 410 individual research investigations. Two hundred Research Gates organize twenty causal challenge families across ten primary physical observables, each with an independently read companion, concealed intervention, matched comparator, explicit rival and refusal gate. Thirty-three Phoenix Answer Embryos propose future experimental and evidence instruments. All are experimental plans rather than executed observations. The source Atlas and methodology ancestors provide reference architecture but do not establish the new integrated candidate. Source-supplied ancestry includes 10.5281/zenodo.23046134 and 10.5281/zenodo.23486020; source-associated external DOI candidates must be bibliographically checked before citation. Research Gate lexical differentiation is not proof of scientific originality. The PDF is English-only and a separate QA record states outstanding independent physics, biology and DOI verification. Author: Feng Cheng-en (33) x STARLI / Xingli Series: STARLI Nano Regenerative Biomanufacturing / Flagship 59 of 60 Edition: Research Design Working Edition v1.2 / 2 November 2026 Join the STARLI Research Community Explore more than 100 interdisciplinary research themes and follow the evolving STARLI Research Gate community: https://zenodo.org/communities/starli-research-gate/",
+      "summary": "Flagship 59/60Does microrobotic manufacture reduce cradle-to-disposal resources per independently function-qualified tissue unit rather than shifting burdens to computing or consumables? LIFECYCLE AND SUSTAINABILITY ENGINEERING FOR NANOROBOT-ASSISTED REGENERATIVE MANUFACTURING AT THE LIMIT This 777-page Research Design Working Edition in the STARLI Nano Regenerative Biomanufacturing series investigates functional-unit normalized whole-system material and energy accounting. Its scientific coupling is biomanufacturing x resource efficiency x life-cycle governance. The evidence perimeter is prosp",
       "authors": [
-        "Tim Lane"
+        "33"
       ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225005573",
-      "url": "https://doi.org/10.1308/rcsbull.2026.151",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.151",
-      "title": "The adoption of robotics in orthopaedic surgery: from technological innovation to clinical integration",
-      "summary": "Greater precision, personalised surgery and improved reproducibility make robotics compelling – but the case for better patient outcomes is still evolving.",
-      "authors": [
-        "SZ Tross"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225006710",
-      "url": "https://doi.org/10.1308/rcsbull.2026.147",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.147",
-      "title": "A new educational perspective: multiplatform, multispecialty robotic training",
-      "summary": "With robotic surgery advancing at different rates across specialties, multiplatform training could help ensure the next generation is ready for what comes next.",
-      "authors": [
-        "B Challacombe",
-        "NA Yassin"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225009836",
-      "url": "https://doi.org/10.1308/rcsbull.2026.152",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.152",
-      "title": "Surgical first assistants for robotic surgery: safe, sustainable and supporting training",
-      "summary": "A skilled pair of hands at the bedside could be the key to getting more surgical trainees onto the robotic console.",
-      "authors": [
-        "Steven Aleksandar Stamenkovic",
-        "K Maghari",
-        "A Ansaripour",
-        "D Nadarajah"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225011107",
-      "url": "https://doi.org/10.1308/rcsbull.2026.146",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.146",
-      "title": "Training tomorrow’s robotic surgeons: how START is building a national pathway",
-      "summary": "Robotic surgery is advancing rapidly, but can surgical training keep pace with the technology?",
-      "authors": [
-        "A Bannon",
-        "E Carter",
-        "N Walker",
-        "E Mills",
-        "A Horgan"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7148612051",
-      "url": "https://doi.org/10.1007/s13218-026-00929-9",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s13218-026-00929-9.pdf",
-      "title": "StretchBot: A Neuro-Symbolic Framework for Adaptive Guidance with Assistive Robots",
-      "summary": "Abstract Assistive robots have growing potential to support physical wellbeing in home and healthcare settings, for example, by guiding users through stretching or rehabilitation routines. However, existing systems remain largely scripted, which limits their ability to adapt to user state, environmental context, and interaction dynamics. In this work, we present StretchBot, a hybrid neuro-symbolic robotic coach for adaptive assistive guidance. The system combines multimodal perception with knowledge-graph-grounded large language model reasoning to support context-aware adjustments during short",
-      "authors": [
-        "Luca Vogelgesang",
-        "Ahmed Mehdi Soltani",
-        "Mohammad Javad Khojasteh",
-        "Xinrui Zu",
-        "Stefano De Giorgis",
-        "Madalina Croitoru A",
-        "Filip Ilievski"
-      ],
-      "published": "2026-10-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7202434838",
-      "url": "https://doi.org/10.5281/zenodo.23761680",
-      "pdf": "https://iris.unimore.it/bitstream/11380/1415608/1/2026_ECCVW_ExplaiNavility.pdf",
-      "title": "ExplaiNavility: Interpretable Vision-and-Language Navigation with Reasoning Supervision",
-      "summary": "Vision-and-Language Navigation (VLN) requires embodied agents to follow natural language instructions while grounding their decisions in complex visual environments. Despite recent progress, most VLN agents remain difficult to interpret, providing limited insight into why a navigation action is selected. In this work, we introduce ExplaiNavility, an interpretable VLN framework that augments navigation with explicit reasoning supervision. Our model combines a visual scene encoder with a multimodal LLM, using structured prompts to jointly condition on the instruction, the navigation history, and",
-      "authors": [
-        "William Raccagni",
-        "Niyati Rawal",
-        "Marcella Cornia",
-        "Lorenzo Baraldi",
-        "Rita Cucchiara"
-      ],
-      "published": "2026-10-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7222623995",
-      "url": "https://doi.org/10.5281/zenodo.23412704",
-      "pdf": "https://doi.org/10.5281/zenodo.23412704",
-      "title": "Developing Robotic Process Automation (RPA) for Managing Electronic Book (E-book) in Digital Libraries",
-      "summary": "Managing e-book collections in digital libraries requires high efficiency and accuracy to meet library needs. The implementation of Robotic Process Automation (RPA) with UiPath aims to automate manual processes in e-book management, including retrieving e-book descriptions, downloading covers, and uploading to library systems. This research aims to improve operational efficiency and quality of digital library services by developing RPA for e-book management in digital libraries. This research uses the waterfall model, which is a software development model with a systematic and sequential appro",
-      "authors": [
-        "Rony Baskoro Lukito",
-        "Vilianty Rizki Utami"
-      ],
-      "published": "2026-10-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224089476",
-      "url": "https://doi.org/10.5281/zenodo.23749316",
-      "pdf": "https://doi.org/10.5281/zenodo.23749316",
-      "title": "A Ceiling Score Is Not a Physical Inference: Why Pretrained Video Encoders Look Physically Competent on One Benchmark and Near Chance on Its Successor, What a Clean Scene Lets a Readout Read Off, and the Rankability Checks a Physics Evaluation Owes",
-      "summary": "(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Life of Research Pretrained video and image encoders are now chosen as the perception front end of world models for manipulation partly on the strength of evaluations that are said to measure physical understanding: violation-of-expectation benchmarks, outcome-prediction tasks, and linear probes for properties such as mass and friction. The published verdicts disagree sharply. A 2025 study reports that a model trained to predict masked video in a learned representation space separates possible from impossible events on the original IntPhys",
-      "authors": [
-        "Pranay M. Mahendrakar"
-      ],
-      "published": "2026-10-29",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7224094366",
-      "url": "https://doi.org/10.47116/apjcri.2026.10.71",
-      "pdf": "http://apjcriweb.org/content/vol12no10/71.pdf",
-      "title": "Exploring the Role of Humanoid Care Robots in Supporting Aging in Place for Older Adults: An Exploratory Study in an Apartment Residential Environment",
-      "summary": "This study aims to explore the potential of humanoid care robots to support Aging in Place (AIP) as an emerging approach to community-based elder care in response to the challenges of a superaged society.The research was designed as an exploratory study to examine older adults' initial technology acceptance and the primary fit among older adults, humanoid care robots, and the residential environment.Data were collected through two-hour interaction sessions between 40 communitydwelling older adults residing in apartment complexes in Daejeon, South Korea, and a humanoid care robot.The findings w",
-      "authors": [
-        "Jeungkun Kim"
-      ],
-      "published": "2026-10-29",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -380,15 +264,17 @@
       "trending": 1.5
     },
     {
-      "id": "W7224108190",
-      "url": "https://doi.org/10.5281/zenodo.23749105",
-      "pdf": "https://doi.org/10.5281/zenodo.23749105",
-      "title": "中文書名:微流體環境中的智能機器人定位極限 MICROFLUIDIC ENVIRONMENT IN INTELLIGENT ROBOT LOCALIZATION AT THE LIMIT This 777-page English research monograph asks whether intelligent robot localization in microfluidic environments can improve sample-identity probability without increasing contact impulse or carryover. The book contains 30 mathematical research plates, 82 chapters, 410 single-page studies, 200 Research Gates and 33 Phoenix Answer Embryos. It covers microfluidic flow, optical and multimodal localization, state estimation, data association, closed-loop control, sample identity, uncertainty, blinded fault tests and independent reconstruction. The work is nonclinical and hypothesis-generating. It does not claim completed clinical testing, proven in-body efficacy or autonomous medical authority. Identity, contact, carryover, purity, calibration and external reconstruction must pass together. Mother research lineage: Microrobotic Sampling and Quantum Biosensing Co-Design at the Limit DOI: 10.5281/zenodo.23318840 Author: Feng Cheng-en (33) × Starli Series: STARLI Research Institute XXIX / Flagship 002 Edition: Research Working Edition v1.0 / October 2026 Join the STARLI Research Community Explore more than 100 interdisciplinary research themes and follow the evolving STARLI Research Gate community: https://zenodo.org/communities/starli-research-gate/",
-      "summary": "中文書名:微流體環境中的智能機器人定位極限MICROFLUIDIC ENVIRONMENT IN INTELLIGENT ROBOT LOCALIZATION AT THE LIMIT This 777-page English research monograph asks whether intelligent robot localization in microfluidic environments can improve sample-identity probability without increasing contact impulse or carryover. The book contains 30 mathematical research plates, 82 chapters, 410 single-page studies, 200 Research Gates and 33 Phoenix Answer Embryos. It covers microfluidic flow, optical and multimodal localization, state estimation, data association, closed-loop control, sample identity, uncertainty, blinded faul",
+      "id": "W7225063239",
+      "url": "https://doi.org/10.2118/235610-ms",
+      "pdf": "",
+      "title": "Digitalizing the Human Asset: Scaling Technical Competency Through RPA-Driven Analytics",
+      "summary": "Abstract Technical competency is paramount within the energy industry for safe and reliable operations. However, many companies still rely on manual and fragmented systems for competency management, thus hindering visibility and making decision-making slower. To solve this challenge, Petroleum Development Oman created \"Rawan\" – a digital solution based on Robotic Process Automation (RPA). Rawan digitizes the complete lifecycle of competency management – from assessment to tracking progress and reporting. It captures real-time data and provides one consistent view on the capabilities of the wor",
       "authors": [
-        "33"
+        "F. Al Kalbani",
+        "Ahmed Al Abri",
+        "I. Hinai"
       ],
-      "published": "2026-10-29",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -399,15 +285,105 @@
       "trending": 0.0
     },
     {
-      "id": "W7224173349",
-      "url": "https://doi.org/10.1117/12.3132292",
-      "pdf": "",
-      "title": "Image preprocessing algorithm and visual implementation for construction-site safety helmets based on OpenCV",
-      "summary": "Image preprocessing is a critical prerequisite for computer-vision tasks such as safety-helmet wearing detection and target classification, directly affecting the accuracy and efficiency of subsequent models. To solve image noise, uneven illumination and blurred contours commonly observed in construction-site safety-helmet scenes, this paper designs a complete preprocessing pipeline with seven core steps and implements real-time visualization based on Python and OpenCV. The pipeline includes grayscale conversion, Gaussian filtering, CLAHE contrast enhancement, adaptive threshold binarization, ",
+      "id": "W7116849279",
+      "url": "https://doi.org/10.3389/frobt.2026.1937649",
+      "pdf": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1937649/pdf",
+      "title": "The impact of gait pattern personalization on the perception of rigid robotic guidance: a pilot user experience evaluation",
+      "summary": "Introduction Robot-aided gait rehabilitation facilitates high-intensity and repeatable therapy. However, most exoskeletons rely on pre-recorded, non-personalized gait trajectories constrained to the sagittal plane, potentially limiting movement naturalness and user comfort. Methods We present a data-driven gait personalization framework for an exoskeleton that supports multi-planar motion, including hip abduction/adduction and pelvic translation and rotation. Personalized trajectories to individual participants were generated using regression models trained on anthropometric, demographic, and ",
       "authors": [
-        "Xin Li"
+        "Beatrice Luciani",
+        "Katherine L. Poggensee",
+        "Heike Vallery",
+        "Alex van den Berg",
+        "Severin David Woernle",
+        "Mostafa Mogharabi",
+        "Stefano Dalla Gasperina",
+        "Laura Marchal-Crespo"
       ],
-      "published": "2026-10-29",
+      "published": "2026-10-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7164501958",
+      "url": "https://doi.org/10.14744/anatoljcardiol.2026.6150",
+      "pdf": "https://anatoljcardiol.com/storage/upload/pdfs/1781182535-en.pdf",
+      "title": "Permanent Pacemaker Implantation After Minimally Invasive Robotic Cardiac Surgery and Long-Term Pacemaker Dependence Rates",
+      "summary": "BACKGROUND: The role of minimally invasive robotic heart surgery in the surgical field is swiftly expanding due to technological advancements and the acknowledgment that its safety is comparable to conventional cardiac surgery. The aim of this study was to evaluate permanent pacemaker (PPM) implantation rates, associated perioperative determinants, and the course of pacing rates during follow-up in a single-center cohort undergoing minimally invasive robotic cardiac surgery. METHODS: This retrospective study was conducted on 276 patients who received robotic heart surgery utilizing the da Vinc",
+      "authors": [
+        "Özkan Eravcı",
+        "Salim Yaşar",
+        "Hatice Taşkan",
+        "Tuna Demirkıran",
+        "Ahmet Arslan",
+        "Alperen Çomoğlu",
+        "Ahmet Faruk Yagci",
+        "Cemal Dinç",
+        "Furkan Kırık",
+        "Suat Görmel",
+        "Serdar Fırtına",
+        "Serkan Asıl",
+        "Mehmet Sadık Karpat",
+        "Ender Murat",
+        "Yusuf Öztürk",
+        "Ayşe Saatçı Yaşar",
+        "Erkan Yıldırım",
+        "Barış Buğan",
+        "Murat Kadan",
+        "Cem Barçın",
+        "Uygar Çağdaş Yüksel",
+        "Murat Çeli̇k",
+        "Hasan Kutsi Kabul"
+      ],
+      "published": "2026-10-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220955823",
+      "url": "https://doi.org/10.1145/3842721.3850090",
+      "pdf": "https://doi.org/10.1145/3842721.3850090",
+      "title": "Demo: Closed-Loop Sionna-Isaac Sim Co-Simulation Framework for Wireless-Aware Robot Navigation over ROS 2",
+      "summary": "A robot that offloads its control loop to the network carries the receiver with it, so link quality is decided by where it goes. Simulating this requires both a physics engine and a site-specific propagation model at once; to our knowledge no simulator natively unifies both, with existing couplings of the two limited to offline analyses. We demonstrate a real-time co-simulation framework coupling NVIDIA Isaac Sim and NVIDIA Sionna over ROS 2 that closes the perception-action-communication (PAC) loop between them. Sionna ray-traces the base-station-to-robot channel over the exact geometry Isaac",
+      "authors": [
+        "Yi Shen Lim",
+        "Seungeun Oh",
+        "Jihong Park"
+      ],
+      "published": "2026-10-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225052792",
+      "url": "https://doi.org/10.51878/vocational.v7i1.16394",
+      "pdf": "https://doi.org/10.51878/vocational.v7i1.16394",
+      "title": "INTEGRASI GENERATIVE VIDEO DALAM WORKFLOW PRODUKSI VFX FILM PENDEK “SPLIT//SECOND”",
+      "summary": "The rapid advancement of generative video technology presents novel opportunities for visual effects (VFX) asset generation, yet full reliance on artificial intelligence often creates visual inconsistencies, reduced artistic control, and integration barriers with live-action footage. This article aims to analyze the integration of generative video into the VFX post-production workflow of the short film “SPLIT//SECOND” and evaluate its effectiveness relative to conventional computer-generated imagery (CGI) practices. Employing a practice-based research methodology, the production applied a hybr",
+      "authors": [
+        "Audie Jonathan Prawira",
+        "Aprilina Dwi Astuti",
+        "Isnaeni Nurrohmah"
+      ],
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -418,17 +394,36 @@
       "trending": 0.0
     },
     {
-      "id": "W7224166081",
-      "url": "https://doi.org/10.21203/rs.3.rs-11122640/v1",
-      "pdf": "https://www.researchsquare.com/article/rs-11122640/latest.pdf",
-      "title": "Mastering Baghchal by Self-Play with Deep Reinforcement Learning",
-      "summary": "Abstract Baghchal is a two-player asymmetric board game of Nepali origin. In the gameplay, four tigers attempt to capture goats while twenty goats seek to immobilize the tigers. Baghchal has received limited attention in the deep reinforcement learning (RL) literature despite its strategic complexity, perfect information structure, and cultural significance. We present a systematic investigation of four deep reinforcement learning algorithms, viz. Deep Q-Network (DQN), REINFORCE, Proximal Policy Optimization (PPO), and MuZero. These algorithms are applied to both sides of asymmetric gameplay t",
+      "id": "W7165283860",
+      "url": "https://doi.org/10.3103/s1060992x26601764",
+      "pdf": "https://cyberleninka.ru/article/n/detektirovanie-i-raspoznavanie-dorozhnyh-znakov-sistemoy-tehnicheskogo-zreniya-ispolzuyuschey-svyortochnuyu-neyronnuyu-set-yolo/pdf",
+      "title": "Detection and Recognition of Road Signs by a Computer Vision System Using the YOLO Convolutional Neural Network",
+      "summary": "Abstract A new version of a neural network model for detecting and recognizing road signs in images and video files using the YOLO convolutional neural network is presented. Based on an analysis of literature sources, the choice was made in favor of using the YOLOv11m convolutional neural network, developed by Ultralytics, in the created system. The article provides a comparative analysis of current YOLO architectures for object detection based on performance and detection accuracy criteria. The YOLOv11m architecture is 2.5 times faster than the most accurate YOLOv11x version, while losing in ",
       "authors": [
-        "Ranjit Raut",
-        "Aarav Subedi",
-        "Sagun Rai"
+        "Nikita Klepikov"
       ],
-      "published": "2026-10-29",
+      "published": "2026-10-30",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W4409481188",
+      "url": "https://doi.org/10.3390/jrfm19110855",
+      "pdf": "https://doi.org/10.3390/jrfm19110855",
+      "title": "Dynamic Asset Allocation with Direct Policy Optimization: Evidence from a US Public-Market Multi-Asset Universe",
+      "summary": "This manuscript considers an asset allocation problem where funds must be allocated to 6 broad classes of assets: equity, corporate bonds, government bonds, real estate, gold, and other commodities. We use a simple reinforcement learning model to solve the problem, capitalizing on the time-separability of the problem and the fact that for a pricetaking investor, the state of the world is independent of her prior actions. In a 4-asset scenario without bonds, our model outperforms both Markowitz's Modern Portfolio Theory and an equally-weighted portfolio out of sample, in terms of both total ret",
+      "authors": [
+        "Simon A. Broda",
+        "Gianluca De Nard",
+        "Patrick S. Walker"
+      ],
+      "published": "2026-10-30",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -439,16 +434,16 @@
       "trending": 0.0
     },
     {
-      "id": "W7224176665",
-      "url": "https://doi.org/10.1371/journal.pone.0361374",
-      "pdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0361374&type=printable",
-      "title": "Integrating YOLOv8-based disaster detection with deep reinforcement learning for closed-loop UAV emergency response scheduling: A simulation study",
-      "summary": "Aerial perception and dispatch scheduling in unmanned aerial vehicle emergency response are commonly arranged as a one-directional pipeline, and the contribution of closing the loop between them has not been measured under controlled conditions. This study evaluates a framework in which a YOLOv8 scene classifier gates task discovery, a Disaster Situation State Matrix aggregates spatially indexed detection outputs under exponential temporal decay, and a proximal policy optimization scheduler acts on that matrix. Evaluation used a 32 × 32 grid testbed with four vehicles, ten training seeds per c",
+      "id": "W7151602128",
+      "url": "https://doi.org/10.1145/3842721.3849662",
+      "pdf": "https://doi.org/10.1145/3842721.3849662",
+      "title": "Restless Bandits with Individual Penalty Constraints: Near-Optimal Indices and Deep Reinforcement Learning",
+      "summary": "This paper investigates the Restless Multi-Armed Bandit (RMAB) framework under individual penalty constraints to address resource allocation challenges in dynamic wireless networked environments. Unlike conventional RMAB models, our model allows each user (arm) to have distinct and stringent performance constraints, such as energy limits, activation limits, or age of information minimums, enabling the capture of diverse objectives including fairness and efficiency. To find the optimal resource allocation policy, we propose a new Penalty-Optimal Whittle (POW) index policy. The POW index of an u",
       "authors": [
-        "Zhang Chunsheng",
-        "Ruichun He"
+        "Nida Zamir",
+        "I-Hong Hou"
       ],
-      "published": "2026-10-29",
+      "published": "2026-10-30",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -459,15 +454,17 @@
       "trending": 0.0
     },
     {
-      "id": "W7224196577",
-      "url": "https://doi.org/10.1117/12.3134552",
+      "id": "W7224414571",
+      "url": "https://doi.org/10.4271/2026-99-2338",
       "pdf": "",
-      "title": "Reinforcement learning-based optimization of library room reservation systems",
-      "summary": "Library study rooms are scarce resources whose reservation policies directly affect seat utilization, student waiting time, fairness, and service reliability. Conventional first-come-first-served and manually adjusted reservation rules are simple to deploy, but they often fail under bursty demand, repeated no-shows, and heterogeneous room preferences. This paper proposes RLRRS, a reinforcement learning-based optimization framework for library room reservation systems. We model the reservation process as a Markov decision process in which the agent observes temporal demand, room states, user hi",
+      "title": "Adaptive Regulation of Micro Closed-Loop Space Station Ecosystems Using Proximal Policy Optimization",
+      "summary": "Long-term orbital missions require highly independent life-support systems, maintaining ecological stability under limited external support and subsystem attenuation. Conventional strategies are typically based on fixed threshold rules or deterministic mass-balance models and cannot adapt to disturbances or multi-objective trade-offs between resource safety and environmental load. This paper proposes a reinforcement learning framework for managing micro closed-loop ecological systems under reliability decay and environmental constraints. A reinforcement learning controller based on Proximal Po",
       "authors": [
-        "Li Xu"
+        "Heyang Zhang",
+        "Meixin Wu",
+        "Junze Xie"
       ],
-      "published": "2026-10-29",
+      "published": "2026-10-30",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -478,27 +475,87 @@
       "trending": 0.0
     },
     {
-      "id": "W7224221102",
-      "url": "https://doi.org/10.1201/9781042046928-42",
+      "id": "W7225037022",
+      "url": "https://doi.org/10.2118/235300-ms",
       "pdf": "",
-      "title": "Server Fan-Aware Cooling:",
-      "summary": "The energy consumption of data centres in tropical regions remains elevated due to operators maintaining low server intake temperature setpoints, contrary to general recommendations. This paper investigates the replacement of fixed setpoints with a dynamic floating setpoint strategy that reduces overall energy costs. We develop an optimized, constraint-sensitive control strategy for server intake temperatures using a Deep Reinforcement Learning (DRL) framework. The DRL agent was trained on a hybrid model of an active, high-performance data centre operating under both full-load and part-load co",
+      "title": "Edge AI Vision Camera Intelligence and Autonomous Mobile Robots (AMRs) for Real-Time Industrial Safety Monitoring in Oil & Gas Facilities",
+      "summary": "Abstract Objectives/Scope Oil & gas operations require continuous monitoring of safety compliance and high risk anomalies; however, conventional supervision and manual CCTV monitoring are constrained by limited coverage, delayed detection, and inconsistent enforcement. This paper presents an AI-based industrial safety monitoring framework for edge computer vision analytics and Autonomous Mobile Robots (AMRs) to enable real-time detection of safety violations and hazardous conditions. Methods, Procedures, Process The proposed solution integrates deep learning-based video analytics with existing",
       "authors": [
-        "R Harshith",
-        "M Arvind Kumar Shetty",
-        "Abhijeet Thakur",
-        "Ambure Prateek",
-        "G Shetty Pavithra",
-        "V Srinivasan"
+        "A. B. V. Dilip"
       ],
-      "published": "2026-10-29",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225043373",
+      "url": "https://doi.org/10.2118/235777-ms",
+      "pdf": "",
+      "title": "From Passive Video Surveillance to Scalable HSE Intelligence: Field Lessons from AI-CCTV Validation in a Harsh Desert Oil Field",
+      "summary": "Abstract At remote oil and gas facilities, closed-circuit television still relies on a person watching live views and searching stored footage after an event. As camera counts rise, that arrangement misses brief, distant, partly hidden, or visually ambiguous events more easily. This paper examines field validation of an artificial intelligence (AI)-enabled closed-circuit television (CCTV) system, referred to here as AI-CCTV, in a large onshore field exposed to intense sunlight, glare, dust, long viewing distances, low-light conditions, sparse infrastructure, and a mix of fixed optical and movi",
+      "authors": [
+        "Jiafeng Xu",
+        "Xing Zhao",
+        "Shuisheng Zhou",
+        "Wei Xiao",
+        "Lian Wang",
+        "Benchao Li",
+        "Rui Deng"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225049833",
+      "url": "https://doi.org/10.2118/235661-ms",
+      "pdf": "",
+      "title": "AI-Driven Video Analytics and Behavioral Safety Intelligence: Enhancing Human-Centered Operational Adaptation in Offshore Support Vessels",
+      "summary": "Computer vision and artificial intelligence (AI) are increasingly used in industrial Health, Safety, and Environment (HSE) management to detect missing personal protective equipment (PPE), restricted-zone entries, and line-of-fire exposure. Early offshore and industrial deployments established the technical feasibility of real-time edge processing and automated safety monitoring (Almadhoun et al. 2020; Tamaazousti et al. 2022). A practical challenge emerges when these systems are scaled across multiple assets: large volumes of detections must be converted into operationally meaningful informat",
+      "authors": [
+        "Piani Raquel",
+        "Oliveira Luís"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224902608",
+      "url": "https://doi.org/10.1097/j.pain.0000000000004054",
+      "pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13714776/pdf/jop-167-s050.pdf",
+      "title": "Spontaneous neuropathic pain",
+      "summary": "Spontaneous pain is a highly prevalent and disabling consequence of neuropathic disorders, yet it remains mechanistically underdefined and therapeutically underserved. Historically, preclinical animal models and clinical trials have been overwhelmingly biased toward stimulus-evoked hypersensitivity, relegating spontaneous pain to a secondary manifestation. Emerging evidence now challenges this view. Converging data from pharmacology, neural recordings, and systems-level causal manipulations indicate that spontaneous and stimulus-evoked pain arise from substantially dissociable molecular, cellu",
+      "authors": [
+        "Xiangsunze Zeng",
+        "Clifford J. Woolf"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     }
   ]
