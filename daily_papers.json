@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04 00:18 UTC",
+  "generated_at": "2026-11-04 20:36 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -26,25 +26,6 @@
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 1.5
-    },
-    {
-      "id": "W7225036130",
-      "url": "https://doi.org/10.5281/zenodo.23856699",
-      "pdf": "https://doi.org/10.5281/zenodo.23856699",
-      "title": "THE EL-RAKHAWI FRAMEWORK FOR TOPOLOGICAL REINFORCEMENT LEARNING ON RIEMANNIAN MANIFOLDS INTELLIGENT AGENTS LEARNING AND DECISION-MAKING IN NON-EUCLIDEAN SPACES",
-      "summary": "\"The El-Rakhawi Framework for Topological Reinforcement Learning on Riemannian Manifolds\" shatters the Euclidean bottleneck of modern AI, enabling agents to learn in non-Euclidean spaces. It integrates three pillars: (1) Riemannian Policy Optimization, using geodesic flows and parallel transport to respect manifold geometry; (2) Topologically-Guided Exploration, employing persistent homology and Betti numbers to analyze state space topology, reducing sample complexity by 70%; and (3) Symmetry-Aware Learning, leveraging group theory to exploit conserved quantities. Performance is quantified by ",
-      "authors": [
-        "m el-rakhawi"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
     },
     {
       "id": "W7202209877",
@@ -89,9 +70,66 @@
       "trending": 0.0
     },
     {
+      "id": "W7225036130",
+      "url": "https://doi.org/10.5281/zenodo.23856699",
+      "pdf": "https://doi.org/10.5281/zenodo.23856699",
+      "title": "THE EL-RAKHAWI FRAMEWORK FOR TOPOLOGICAL REINFORCEMENT LEARNING ON RIEMANNIAN MANIFOLDS INTELLIGENT AGENTS LEARNING AND DECISION-MAKING IN NON-EUCLIDEAN SPACES",
+      "summary": "\"The El-Rakhawi Framework for Topological Reinforcement Learning on Riemannian Manifolds\" shatters the Euclidean bottleneck of modern AI, enabling agents to learn in non-Euclidean spaces. It integrates three pillars: (1) Riemannian Policy Optimization, using geodesic flows and parallel transport to respect manifold geometry; (2) Topologically-Guided Exploration, employing persistent homology and Betti numbers to analyze state space topology, reducing sample complexity by 70%; and (3) Symmetry-Aware Learning, leveraging group theory to exploit conserved quantities. Performance is quantified by ",
+      "authors": [
+        "m el-rakhawi"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225156421",
+      "url": "https://doi.org/10.5281/zenodo.23933565",
+      "pdf": "https://doi.org/10.5281/zenodo.23933565",
+      "title": "How Long Can a Humanoid Robot Hold a Box? Joint Torque, Motor Heat and Battery Limits on Five Open Robot Models",
+      "summary": "Research article: How Long Can a Humanoid Robot Hold a Box? Joint Torque, Motor Heat and Battery Limits on Five Open Robot Models",
+      "authors": [
+        "Oleh Ivchenko"
+      ],
+      "published": "2026-11-04",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7225178957",
+      "url": "https://doi.org/10.4097/kja.261232",
+      "pdf": "https://doi.org/10.4097/kja.261232",
+      "title": "Commentary: from enhanced recovery toward patient-centered recovery—the role of ERAS in robotic gynecological surgery",
+      "summary": "",
+      "authors": [
+        "Yoon Ji Choi"
+      ],
+      "published": "2026-11-04",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
       "id": "W7161435419",
       "url": "https://doi.org/10.1007/s44443-026-01350-w",
-      "pdf": "https://doi.org/10.1007/s44443-026-01350-w",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s44443-026-01350-w.pdf",
       "title": "TinyML and Edge AI for indoor positioning and navigation systems: a systematic review across compute scales",
       "summary": "Abstract The absence of Global Positioning System signals indoors has spurred extensive research on indoor positioning and navigation systems (IPNSs) over the past decade. Growing applications such as robot localization, asset tracking, industrial automation, and assistance for the visually impaired drive this demand. While machine learning improves IPNS accuracy, cloud-based approaches face latency, power, and privacy challenges. Consequently, research has shifted toward Tiny Machine Learning (TinyML) and Edge Artificial Intelligence (AI), which better suit resource-constrained IPNS devices b",
       "authors": [
@@ -328,48 +366,22 @@
       "trending": 0.0
     },
     {
-      "id": "W7225011107",
-      "url": "https://doi.org/10.1308/rcsbull.2026.146",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.146",
-      "title": "Training tomorrow’s robotic surgeons: how START is building a national pathway",
-      "summary": "Robotic surgery is advancing rapidly, but can surgical training keep pace with the technology?",
+      "id": "W7225155115",
+      "url": "https://doi.org/10.5281/zenodo.23925644",
+      "pdf": "https://doi.org/10.5281/zenodo.23925644",
+      "title": "Data and code for Lag-Aware Tension Allocation for Cable-Driven Parallel Robot Tracking With Differentiable Reinforcement Learning",
+      "summary": "Recorded data and source code accompanying Lag-Aware Tension Allocation for Cable-Driven Parallel Robot Tracking With Differentiable Reinforcement Learning, by Jing Zhu (Hohai University; ORCID 0009-0007-1297-3677). The archive includes 2,376 primary simulation episodes, 4,644 dynamic-allocation comparison episodes, 11,340 CPU allocator-call timing measurements, training histories for five seeds, 25 policy state dictionaries, boundary/derivative diagnostics, Python training and analysis scripts, and editable Blender/Draw.io figure assets. The README provides installation and reproduction comma",
       "authors": [
-        "A Bannon",
-        "E Carter",
-        "N Walker",
-        "E Mills",
-        "A Horgan"
+        "Jing Zhu"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-04",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225034897",
-      "url": "https://doi.org/10.1021/acsami.6c13009",
-      "pdf": "",
-      "title": "High-Performance Planar Ni/Si Photothermoelectric Photodetectors Enabled by MnO2 Nanosheets",
-      "summary": "Photodetectors are the key component of modern communication systems, surveillance applications, robotics, and scientific research. The photothermoelectric effect offers opportunity to fabricate broadband and self-driven photodetectors utilizing thermally energized charge carriers. Unfortunately, photothermoelectric photodetectors are facing the challenge of large dark current, leading to low detectivity, linear dynamic range, and on-off ratio. Herein, we design a planar Ni/n-Si device structure with the help of a monolayer of MnO2 nanosheets for contact engineering. The demonstrated device sh",
-      "authors": [
-        "Nasir Ali",
-        "Wanqing Wu",
-        "Di Wu",
-        "Huiyu Yuan"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
@@ -417,6 +429,27 @@
       "trending": 0.0
     },
     {
+      "id": "W7135402623",
+      "url": "https://doi.org/10.1016/j.jhydrol.2026.136748",
+      "pdf": "https://doi.org/10.1016/j.jhydrol.2026.136748",
+      "title": "Bedload dynamics under river ice: Eulerian bedload flux from image-derived particle mass and large-scale particle image velocimetry",
+      "summary": "Bedload transport rate describes the amount of sediment moving within the active layer of a riverbed. Traditional mechanical sampling methods are labor-intensive, provide limited spatial and temporal resolution, and may introduce substantial uncertainty by disturbing local hydraulic conditions. Although computer vision–based image velocimetry methods have shown promise for quantifying bedload transport from video data, their use in ice-covered field conditions remains largely unexplored.This study aimed to (A) quantify bedload transport rates and improve process understanding by comparing trad",
+      "authors": [
+        "Juha‐Matti Välimäki",
+        "Tuure L.H. Takala",
+        "Eliisa Lotsari"
+      ],
+      "published": "2026-11-01",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
       "id": "W7225034292",
       "url": "https://doi.org/10.21203/rs.3.rs-11148776/v1",
       "pdf": "https://www.researchsquare.com/article/rs-11148776/latest.pdf",
@@ -439,69 +472,19 @@
       "trending": 0.0
     },
     {
-      "id": "W7225043573",
-      "url": "https://doi.org/10.64971/cijdas.v1.i1.5.2026",
-      "pdf": "https://chendurpublishinghouse.com/index.php/CIJDAS/admin/uploads/10.64971cijdas.v1.i1.5.2026.pdf",
-      "title": "AI Privacy Shield: Protecting Digital Identity from Intelligent Systems",
-      "summary": "The rapid advancement of computer vision and deep learning has enabled facial recognition, automated profiling, and deepfake generation at scale, exposing personal images shared online to surveillance, data scraping, and manipulation without user consent.Encryption and access control offer little protection once an image is public.This paper presents AI Privacy Shield, a proactive, multi-layered digital identity protection platform that integrates adversarial machine learning, deepfake immunization, invisible watermarking, AI-based facial profiling, and anti-scraping defences in one web applic",
+      "id": "W7225154861",
+      "url": "https://doi.org/10.21203/rs.3.rs-11596035/v1",
+      "pdf": "https://doi.org/10.21203/rs.3.rs-11596035/v1",
+      "title": "Developmental perturbation of Purkinje cell function induces male-biased core and associated autism spectrum disorder–like phenotypes in adulthood",
+      "summary": "Abstract Autism spectrum disorder (ASD) is a prevalent neurodevelopmental condition whose etiology remains incompletely understood. Human epidemiological studies have implicated the cerebellum in ASD pathogenesis, and studies in mouse models have provided evidence for a causal contribution of cerebellar dysfunction. However, previous animal studies have largely focused on males and cerebellar manipulations at later developmental stages, with associated features of ASD remaining less explored. To address these gaps, we chemogenetically perturbed Purkinje cell function during early postnatal dev",
       "authors": [
-        "Priya E"
+        "Hideki Miwa",
+        "Satoshi Kamijo",
+        "Kei Hori",
+        "Mikio Hoshino",
+        "Kazutaka Ikeda"
       ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7109957073",
-      "url": "https://doi.org/10.1016/j.jacbts.2026.101753",
-      "pdf": "https://doi.org/10.1016/j.jacbts.2026.101753",
-      "title": "Human Living Myocardial Slice Model for Load-Dependent Pharmacologic Testing in Hypertrophic Cardiomyopathy",
-      "summary": "Background: Disease modifying therapies for hypertrophic cardiomyopathy (HCM) remain a prevailing unmet need. Human-based experimental platforms capable of controlled manipulation of preload and afterload can distinguish direct myocardial and systemic effects and facilitate development of targeted cardiac therapeutics. Sodium glucose cotransporter inhibitors (SGLTi) may directly affect cardiac contractility, potentially related to increased ketone availability. These effects have not been adequately studied in human HCM myocardium under defined loading conditions. Aims: We sought to establish ",
-      "authors": [
-        "Rebecca B. Taichman",
-        "Julia N. Smolyak",
-        "Jesse Chittams",
-        "Kelly Gallagher",
-        "Christopher M. McAllister",
-        "Jaime M. Yob",
-        "Kenneth C. Bedi",
-        "Michael P. Morley",
-        "Trisha T. Phan",
-        "Sapna N. Patel",
-        "Shawnaleh Cada",
-        "Christopher Petucci",
-        "Kenneth B. Margulies",
-        "Sharlene M. Day",
-        "Benjamin W. Lee"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7133570095",
-      "url": "https://doi.org/10.1016/j.robot.2026.105842",
-      "pdf": "https://doi.org/10.2139/ssrn.6340202",
-      "title": "A Mechanical Model Coupling Yarn Tension and Robot Pose for Ring Spinning towards Automated Splicing Using Robots",
-      "summary": "",
-      "authors": [
-        "Yueshun Zhang",
-        "Chunfang Guo",
-        "Xinhou Wang"
-      ],
-      "published": "2026-11-01",
+      "published": "2026-11-04",
       "primary_category": "openalex",
       "categories": [
         "openalex"
