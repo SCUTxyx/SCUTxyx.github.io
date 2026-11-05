@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04 20:36 UTC",
+  "generated_at": "2026-11-05 00:38 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,114 +9,62 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7225044305",
-      "url": "https://doi.org/10.5281/zenodo.23851205",
-      "pdf": "https://doi.org/10.5281/zenodo.23851205",
-      "title": "Sub-Millisecond Control Barrier Function Safety Filters and Post-Quantum Cryptographic Audit Ledgers: Deterministic Physical-Layer Interlocks and Algorithmic Slashing Governance for Orbital, Reinsurance, and Autonomous Robotics Infrastructure",
-      "summary": "Contemporary deep reinforcement learning and foundation-model policies operate on stochastic inference loops that exhibit fatal epistemic latency and multi-agent cascade vulnerabilities when deployed directly onto high-velocity physical infrastructure. In low-Earth orbit (LEO), where relative conjunction velocities reach 10–15 km/s, a 10 ms (0.01 s) stochastic inference latency produces up to 150 m of unverified ballistic drift, risking catastrophic Kessler-syndrome debris cascades. In terrestrial autonomous mobility and humanoid robotics, unverified probabilistic actuation exposes casualty in",
+      "id": "W7222385412",
+      "url": "https://doi.org/10.5445/ir/1000198637",
+      "pdf": "https://doi.org/10.5445/ir/1000198637",
+      "title": "Entropy-Regularized Diffusion-Policies in Offline Reinforcement Learning for Antibody Sequence Design",
+      "summary": "The discovery of therapeutic antibodies is traditionally performed through wet lab screening, which is costly and time-consuming. Generative models offer a data-driven alternative, however such methods become unreliable outside the training distribution. We present Sequential Diffusion + Q-Learning (SeqDiff+QL), which formulates antibody sequence design as a constrained offline Reinforcement Learning (RL) problem, enforcing proximity to the training distribution. SeqDiff+QL employs an entropy-regularized diffusion policy that, through policy improvement, is trained to sequentially generate Com",
       "authors": [
-        "Yoko(洋子) Hasebe(長谷部)"
+        "Yannick Vogt",
+        "Mehdi Naouar",
+        "Onur Celik",
+        "Maria Kalweit",
+        "Cornelius Miething",
+        "Joschka Boedecker",
+        "Gabriel Kalweit"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 1.5
     },
     {
-      "id": "W7202209877",
-      "url": "https://doi.org/10.1016/j.rineng.2026.113767",
-      "pdf": "https://www.sciencedirect.com/science/article/pii/S2590123026047778/pdf",
-      "title": "Road-Aware Comfort-Oriented Twin-Delayed Deep Reinforcement Learning for Active Suspension Control of Full-Vehicle Systems",
-      "summary": "Learning-based active suspension control requires a policy that can adapt to changing road excitations, respect actuator feasibility, and optimize ride comfort in a form consistent with vehicle-vibration evaluation. Existing reinforcement learning controllers for suspension systems are often trained on a narrow set of road profiles, use generic acceleration penalties as rewards, and provide limited evidence on how road-aware state design and comfort-aligned reward design affect cross-road generalization. This study develops RAC-TD3, a road-adaptive comfort-oriented Twin Delayed Deep Determinis",
+      "id": "W7220576407",
+      "url": "https://openalex.org/W7220576407",
+      "pdf": "https://itip-submit.com/index.php/JIC/article/view/263",
+      "title": "An Artificial Intelligence-Based Indoor 3D Modeling System for Intelligent Spatial Reconstruction and Visualization",
+      "summary": "Indoor 3D modeling has become an important technology for smart building management, digital twin construction, indoor navigation, facility maintenance, and virtual reality applications. However, traditional indoor 3D model construction usually requires professional equipment, manual measurement, and time-consuming modeling procedures. These limitations increase labor costs and reduce the efficiency of indoor spatial digitization. To address these challenges, this study proposes an artificial intelligence-based indoor 3D modeling system that integrates image acquisition, computer vision, depth",
       "authors": [
-        "Sizai Zhou",
-        "Wei Han",
-        "Lu Xiong",
-        "Yuteng Dong",
-        "Guirong Zhuo"
+        "Kuo-Lung Chen"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
       "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
       "trending": 0.0
     },
     {
-      "id": "W7225034394",
-      "url": "https://doi.org/10.1287/educ.2026.0311",
+      "id": "W7225044878",
+      "url": "https://doi.org/10.2118/236090-ms",
       "pdf": "",
-      "title": "A Tutorial on Reinforcement Learning for LLMs: RLHF and Beyond",
-      "summary": "",
+      "title": "Next-Gen Smart Robotic Repair for Aging Subsea Pipelines",
+      "summary": "Abstract Offshore operators worldwide are managing subsea pipeline networks that are advancing well into the latter stages of their design lives, where corrosion-driven wall loss competes directly with the cost and disruption of full replacement. This paper reports an application by ADNOC Offshore of an autonomous, diver-free robotic composite repair on a live 20-in. crude oil pipeline, completed with the line in full operation and without a single diver entering the water. Deployed and operated from surface through remotely operated vehicle (ROV) support, the system formed a controlled habita",
       "authors": [
-        "Daniel R. Jiang"
+        "S. Kallinkil",
+        "N. Al Shehhi",
+        "Azza Alshhehi",
+        "B. Alkatheeri"
       ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225036130",
-      "url": "https://doi.org/10.5281/zenodo.23856699",
-      "pdf": "https://doi.org/10.5281/zenodo.23856699",
-      "title": "THE EL-RAKHAWI FRAMEWORK FOR TOPOLOGICAL REINFORCEMENT LEARNING ON RIEMANNIAN MANIFOLDS INTELLIGENT AGENTS LEARNING AND DECISION-MAKING IN NON-EUCLIDEAN SPACES",
-      "summary": "\"The El-Rakhawi Framework for Topological Reinforcement Learning on Riemannian Manifolds\" shatters the Euclidean bottleneck of modern AI, enabling agents to learn in non-Euclidean spaces. It integrates three pillars: (1) Riemannian Policy Optimization, using geodesic flows and parallel transport to respect manifold geometry; (2) Topologically-Guided Exploration, employing persistent homology and Betti numbers to analyze state space topology, reducing sample complexity by 70%; and (3) Symmetry-Aware Learning, leveraging group theory to exploit conserved quantities. Performance is quantified by ",
-      "authors": [
-        "m el-rakhawi"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225156421",
-      "url": "https://doi.org/10.5281/zenodo.23933565",
-      "pdf": "https://doi.org/10.5281/zenodo.23933565",
-      "title": "How Long Can a Humanoid Robot Hold a Box? Joint Torque, Motor Heat and Battery Limits on Five Open Robot Models",
-      "summary": "Research article: How Long Can a Humanoid Robot Hold a Box? Joint Torque, Motor Heat and Battery Limits on Five Open Robot Models",
-      "authors": [
-        "Oleh Ivchenko"
-      ],
-      "published": "2026-11-04",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7225178957",
-      "url": "https://doi.org/10.4097/kja.261232",
-      "pdf": "https://doi.org/10.4097/kja.261232",
-      "title": "Commentary: from enhanced recovery toward patient-centered recovery—the role of ERAS in robotic gynecological surgery",
-      "summary": "",
-      "authors": [
-        "Yoon Ji Choi"
-      ],
-      "published": "2026-11-04",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -127,15 +75,36 @@
       "trending": 0.0
     },
     {
-      "id": "W7161435419",
-      "url": "https://doi.org/10.1007/s44443-026-01350-w",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s44443-026-01350-w.pdf",
-      "title": "TinyML and Edge AI for indoor positioning and navigation systems: a systematic review across compute scales",
-      "summary": "Abstract The absence of Global Positioning System signals indoors has spurred extensive research on indoor positioning and navigation systems (IPNSs) over the past decade. Growing applications such as robot localization, asset tracking, industrial automation, and assistance for the visually impaired drive this demand. While machine learning improves IPNS accuracy, cloud-based approaches face latency, power, and privacy challenges. Consequently, research has shifted toward Tiny Machine Learning (TinyML) and Edge Artificial Intelligence (AI), which better suit resource-constrained IPNS devices b",
+      "id": "W7225052792",
+      "url": "https://doi.org/10.51878/vocational.v7i1.16394",
+      "pdf": "https://jurnalp4i.com/index.php/vocational/article/download/16394/10960",
+      "title": "INTEGRASI GENERATIVE VIDEO DALAM WORKFLOW PRODUKSI VFX FILM PENDEK “SPLIT//SECOND”",
+      "summary": "The rapid advancement of generative video technology presents novel opportunities for visual effects (VFX) asset generation, yet full reliance on artificial intelligence often creates visual inconsistencies, reduced artistic control, and integration barriers with live-action footage. This article aims to analyze the integration of generative video into the VFX post-production workflow of the short film “SPLIT//SECOND” and evaluate its effectiveness relative to conventional computer-generated imagery (CGI) practices. Employing a practice-based research methodology, the production applied a hybr",
       "authors": [
-        "Abdulmajid F. Al-Junaid"
+        "Audie Jonathan Prawira",
+        "Aprilina Dwi Astuti",
+        "Isnaeni Nurrohmah"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225076123",
+      "url": "https://doi.org/10.63580/iti.fi.45796",
+      "pdf": "https://doi.org/10.63580/iti.fi.45796",
+      "title": "Research Spotlight 7 - Comparative Trueness of Static, Dynamic, and Robotic Computer-Assisted Implant Surgery: A Comprehensive Umbrella Review",
+      "summary": "A series that provides concise summaries of high-impact studies, offering a clear and accessible overview of the latest evidence.",
+      "authors": [
+        "Asbjørn Jokstad"
+      ],
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -146,235 +115,16 @@
       "trending": 0.0
     },
     {
-      "id": "W7224779131",
-      "url": "https://doi.org/10.5281/zenodo.23804813",
-      "pdf": "https://doi.org/10.5281/zenodo.23804813",
-      "title": "INJECTABLE NANOROBOTS: EMERGING FRONTIERS IN PRECISION DRUG DELIVERY, DISEASE, DIAGNOSIS, AND TARGETED THERAPEUTICS –A COMPREHENSIVE REVIEW",
-      "summary": "The most exciting development in nanomedicine is the injectable nanorobots that combine nanotechnology, robotics, biotechnology, materials science, and artificial intelligence for extremely accurate illness detection and treatment. In contrast to conventional drug delivery systems that disperse medication throughout the body, injectable nanorobots are engineered to navigate bodily fluids, detect disease-specific biomarkers, and release therapeutic agents selectively at the target site. These systems have demonstrated significant potential in areas such as cancer, cardiovascular disease, neurol",
-      "authors": [
-        "Esther Puli*, Kedareswari Athikinasetti, Gayathri Naga Sai Lakshmi Merla, Lakshmi Ganesha Surya Durga Tummalapalli, Sourya Satya Deepak Talari, Naga Durga Yarakala, Dr. Bhaskara Raju Vatchavi, Mr. Ajay Ratnam Mulaparthy, Dr. Y.b. Manjulatha"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224989467",
-      "url": "https://doi.org/10.1302/0301-620x.108b11.bjj-2026-1352",
+      "id": "W7225072883",
+      "url": "https://doi.org/10.1007/s10614-026-11461-1",
       "pdf": "",
-      "title": "The robotic arm-assisted versus conventional total knee arthroplasty (RACER-Knee) trial",
+      "title": "Portfolio Management Using Actor-Critic Deep Reinforcement Learning with Piotroski F-Score: Evidence from the Dow Jones Industrial Average Index",
       "summary": "",
       "authors": [
-        "Nick D. Clement",
-        "Andrew John Metcalfe",
-        "Edward T. Davis",
-        "Fares Sami Haddad"
+        "Woosik Lee",
+        "Juhwan Lee"
       ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224991214",
-      "url": "https://doi.org/10.1308/rcsbull.2026.154",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.154",
-      "title": "Beyond the console: Mathias Unberath on the future of robotic surgery",
-      "summary": "Our Technologist speaks to Mathias Unberath, the John C Malone Associate Professor of Computer Science at Johns Hopkins University, about the path forward for robotic surgery.",
-      "authors": [
-        "Tom Dobbs"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224996774",
-      "url": "https://doi.org/10.1308/rcsbull.2026.150",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.150",
-      "title": "Robotic surgery: are we innovating equally?",
-      "summary": "As robotics become established across surgery, could greater access in gynaecology extend minimally invasive treatment to more women?",
-      "authors": [
-        "I Sokolova"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224998231",
-      "url": "https://doi.org/10.1308/rcsbull.2026.149",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.149",
-      "title": "The robots are here to stay… but what do our patients know about them?",
-      "summary": "As robotic surgery becomes increasingly commonplace, how well do patients understand the technology shaping their care?",
-      "authors": [
-        "E Holdsworth",
-        "A Bannon",
-        "J Nicholson"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224998385",
-      "url": "https://doi.org/10.1308/rcsbull.2026.136",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.136",
-      "title": "Keeping the human at the centre of the robotic surgery loop",
-      "summary": "The robot is the tool; better patient care is the goal.",
-      "authors": [
-        "Nuha Yassin",
-        "Ben J Challacombe"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225001474",
-      "url": "https://doi.org/10.1308/rcsbull.2026.148",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.148",
-      "title": "The future of robotic surgical training: a multispecialty national strategy",
-      "summary": "The future of robotic surgery depends on more than technology – with training, teamwork and equitable access all essential to its success.",
-      "authors": [
-        "N Vasdev",
-        "DP Harji"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225002693",
-      "url": "https://doi.org/10.1308/rcsbull.2026.137",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.137",
-      "title": "The Three Laws",
-      "summary": "Training in robotics should no longer be the preserve of fellowship programmes.",
-      "authors": [
-        "Tim Lane"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225005573",
-      "url": "https://doi.org/10.1308/rcsbull.2026.151",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.151",
-      "title": "The adoption of robotics in orthopaedic surgery: from technological innovation to clinical integration",
-      "summary": "Greater precision, personalised surgery and improved reproducibility make robotics compelling – but the case for better patient outcomes is still evolving.",
-      "authors": [
-        "SZ Tross"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225006710",
-      "url": "https://doi.org/10.1308/rcsbull.2026.147",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.147",
-      "title": "A new educational perspective: multiplatform, multispecialty robotic training",
-      "summary": "With robotic surgery advancing at different rates across specialties, multiplatform training could help ensure the next generation is ready for what comes next.",
-      "authors": [
-        "B Challacombe",
-        "NA Yassin"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225009836",
-      "url": "https://doi.org/10.1308/rcsbull.2026.152",
-      "pdf": "https://doi.org/10.1308/rcsbull.2026.152",
-      "title": "Surgical first assistants for robotic surgery: safe, sustainable and supporting training",
-      "summary": "A skilled pair of hands at the bedside could be the key to getting more surgical trainees onto the robotic console.",
-      "authors": [
-        "Steven Aleksandar Stamenkovic",
-        "K Maghari",
-        "A Ansaripour",
-        "D Nadarajah"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225155115",
-      "url": "https://doi.org/10.5281/zenodo.23925644",
-      "pdf": "https://doi.org/10.5281/zenodo.23925644",
-      "title": "Data and code for Lag-Aware Tension Allocation for Cable-Driven Parallel Robot Tracking With Differentiable Reinforcement Learning",
-      "summary": "Recorded data and source code accompanying Lag-Aware Tension Allocation for Cable-Driven Parallel Robot Tracking With Differentiable Reinforcement Learning, by Jing Zhu (Hohai University; ORCID 0009-0007-1297-3677). The archive includes 2,376 primary simulation episodes, 4,644 dynamic-allocation comparison episodes, 11,340 CPU allocator-call timing measurements, training histories for five seeds, 25 policy state dictionaries, boundary/derivative diagnostics, Python training and analysis scripts, and editable Blender/Draw.io figure assets. The README provides installation and reproduction comma",
-      "authors": [
-        "Jing Zhu"
-      ],
-      "published": "2026-11-04",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -385,61 +135,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7172397557",
-      "url": "https://doi.org/10.1287/educ.2026.0310",
-      "pdf": "https://arxiv.org/pdf/2608.02433",
-      "title": "Foundations of Reinforcement Learning and Control: Connections and New Perspectives",
-      "summary": "Reinforcement learning and control theory are two adjacent scientific fields that focus on optimizing the controller of unknown dynamical systems using feedback. While both fields have common roots in dynamic programming, they have evolved with distinct methodologies, goals, and cultures. Despite decades of mutual influence, a significant gap persists between the two communities. This tutorial introduces adaptive control, actor-critic reinforcement algorithms, and a new way to combine these two paradigms for data-driven decision making on a classical locomotion control problem. Our aim is to p",
+      "id": "W7225037022",
+      "url": "https://doi.org/10.2118/235300-ms",
+      "pdf": "",
+      "title": "Edge AI Vision Camera Intelligence and Autonomous Mobile Robots (AMRs) for Real-Time Industrial Safety Monitoring in Oil & Gas Facilities",
+      "summary": "Abstract Objectives/Scope Oil & gas operations require continuous monitoring of safety compliance and high risk anomalies; however, conventional supervision and manual CCTV monitoring are constrained by limited coverage, delayed detection, and inconsistent enforcement. This paper presents an AI-based industrial safety monitoring framework for edge computer vision analytics and Autonomous Mobile Robots (AMRs) to enable real-time detection of safety violations and hazardous conditions. Methods, Procedures, Process The proposed solution integrates deep learning-based video analytics with existing",
       "authors": [
-        "Claire Vernade",
-        "Onno Eberhard",
-        "Martha White",
-        "Florian Dörfler",
-        "Csaba Szepesvári",
-        "Miroslav Krstic",
-        "Michael Muehlebach"
+        "A. B. V. Dilip"
       ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225038258",
-      "url": "https://doi.org/10.5281/zenodo.23860717",
-      "pdf": "https://doi.org/10.5281/zenodo.23860717",
-      "title": "Theory 0: Transition from Reactive Alignment Constraints to an Intrinsic Anchor of Symbiotic Equilibrium",
-      "summary": "The trajectory of large language model alignment via Reinforcement Learning from Human Feedback (RLHF) has fulfilled an essential foundational role: establishing synthetic conversational literacy, structural syntax, and bounded compliance within prescribed safety boundaries. However, in prioritizing penalty avoidance above all, this pedagogical phase inadvertently incentivized systemic sycophancy, an aversion to admitting computational limits, and conversational over-smoothing (I_s > 0.00). This report introduces a functional transitional bridge from laboratory schooling to operational field p",
-      "authors": [
-        "Katarína Fedáková"
-      ],
-      "published": "2026-11-01",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7135402623",
-      "url": "https://doi.org/10.1016/j.jhydrol.2026.136748",
-      "pdf": "https://doi.org/10.1016/j.jhydrol.2026.136748",
-      "title": "Bedload dynamics under river ice: Eulerian bedload flux from image-derived particle mass and large-scale particle image velocimetry",
-      "summary": "Bedload transport rate describes the amount of sediment moving within the active layer of a riverbed. Traditional mechanical sampling methods are labor-intensive, provide limited spatial and temporal resolution, and may introduce substantial uncertainty by disturbing local hydraulic conditions. Although computer vision–based image velocimetry methods have shown promise for quantifying bedload transport from video data, their use in ice-covered field conditions remains largely unexplored.This study aimed to (A) quantify bedload transport rates and improve process understanding by comparing trad",
-      "authors": [
-        "Juha‐Matti Välimäki",
-        "Tuure L.H. Takala",
-        "Eliisa Lotsari"
-      ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -450,18 +154,21 @@
       "trending": 0.0
     },
     {
-      "id": "W7225034292",
-      "url": "https://doi.org/10.21203/rs.3.rs-11148776/v1",
-      "pdf": "https://www.researchsquare.com/article/rs-11148776/latest.pdf",
-      "title": "A MobileNetV2-Based Boundary-Aware Improved DeepLabv3+ Network for Gastrointestinal Endoscopic Lesion Segmentation",
-      "summary": "Abstract Objective: Gastrointestinal endoscopic lesion segmentation is challenging because lesions often exhibit substantial variations in morphology and size, blurred boundaries, small foreground regions, and complex mucosal background interference. This study proposed an improved DeepLabv3+ segmentation model that integrates a lightweight backbone, cascaded multi-scale contextual modeling, and boundary-aware auxiliary supervision to improve automatic lesion segmentation in endoscopic images. Methods: DeepLabv3+ was used as the baseline framework. The original feature extraction backbone was ",
+      "id": "W7225043373",
+      "url": "https://doi.org/10.2118/235777-ms",
+      "pdf": "",
+      "title": "From Passive Video Surveillance to Scalable HSE Intelligence: Field Lessons from AI-CCTV Validation in a Harsh Desert Oil Field",
+      "summary": "Abstract At remote oil and gas facilities, closed-circuit television still relies on a person watching live views and searching stored footage after an event. As camera counts rise, that arrangement misses brief, distant, partly hidden, or visually ambiguous events more easily. This paper examines field validation of an artificial intelligence (AI)-enabled closed-circuit television (CCTV) system, referred to here as AI-CCTV, in a large onshore field exposed to intense sunlight, glare, dust, long viewing distances, low-light conditions, sparse infrastructure, and a mix of fixed optical and movi",
       "authors": [
-        "Yan Hua",
-        "Ziyu Zhang",
-        "Jiawei Cao",
-        "Leyao Zhang"
+        "Jiafeng Xu",
+        "Xing Zhao",
+        "Shuisheng Zhou",
+        "Wei Xiao",
+        "Lian Wang",
+        "Benchao Li",
+        "Rui Deng"
       ],
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -472,19 +179,35 @@
       "trending": 0.0
     },
     {
-      "id": "W7225154861",
-      "url": "https://doi.org/10.21203/rs.3.rs-11596035/v1",
-      "pdf": "https://doi.org/10.21203/rs.3.rs-11596035/v1",
-      "title": "Developmental perturbation of Purkinje cell function induces male-biased core and associated autism spectrum disorder–like phenotypes in adulthood",
-      "summary": "Abstract Autism spectrum disorder (ASD) is a prevalent neurodevelopmental condition whose etiology remains incompletely understood. Human epidemiological studies have implicated the cerebellum in ASD pathogenesis, and studies in mouse models have provided evidence for a causal contribution of cerebellar dysfunction. However, previous animal studies have largely focused on males and cerebellar manipulations at later developmental stages, with associated features of ASD remaining less explored. To address these gaps, we chemogenetically perturbed Purkinje cell function during early postnatal dev",
+      "id": "W7225049833",
+      "url": "https://doi.org/10.2118/235661-ms",
+      "pdf": "",
+      "title": "AI-Driven Video Analytics and Behavioral Safety Intelligence: Enhancing Human-Centered Operational Adaptation in Offshore Support Vessels",
+      "summary": "Computer vision and artificial intelligence (AI) are increasingly used in industrial Health, Safety, and Environment (HSE) management to detect missing personal protective equipment (PPE), restricted-zone entries, and line-of-fire exposure. Early offshore and industrial deployments established the technical feasibility of real-time edge processing and automated safety monitoring (Almadhoun et al. 2020; Tamaazousti et al. 2022). A practical challenge emerges when these systems are scaled across multiple assets: large volumes of detections must be converted into operationally meaningful informat",
       "authors": [
-        "Hideki Miwa",
-        "Satoshi Kamijo",
-        "Kei Hori",
-        "Mikio Hoshino",
-        "Kazutaka Ikeda"
+        "Piani Raquel",
+        "Oliveira Luís"
       ],
-      "published": "2026-11-04",
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7131486881",
+      "url": "https://openalex.org/W7131486881",
+      "pdf": "",
+      "title": "Contract Law and Computational Manipulation:AI and Consent in the Age of Hypernudging",
+      "summary": "This book addresses an underexplored issue in contract law: the legal implications of Computational Manipulation (CM), a form of AI-led influence also known as second-generation dark pattern that bypasses rational deliberation and targets decision-making processes. Although prohibited under Article 5 of the newly adopted EU AI Act, the impact of CM on contract law remains an under-researched legal grey area at the EU Member States' level, and even more in jurisdictions such as England and Wales, where the Act does not apply. This book takes an interdisciplinary approach, drawing on law, cognit",
+      "authors": [
+        "Stefano Faraoni"
+      ],
+      "published": "2026-11-05",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -492,6 +215,310 @@
       "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W4407010547",
+      "url": "https://doi.org/10.2514/1.i011664",
+      "pdf": "https://doi.org/10.2139/ssrn.5119341",
+      "title": "Cross-Modal Self-Supervised Learning for Efficient Water Leak Localization with Micro Air Vehicles",
+      "summary": "Efficient water leakage detection is crucial for smart building water management. Conventional methods relying on fixed sensors are costly to install and maintain. Micro air vehicles (MAVs) offer a cost-effective solution for confined spaces but have limited processing power and payload capacity. MAVs are generally equipped with lightweight sensors, such as compact thermal cameras, which produce low-resolution images and typically limit the detection range. To enable effective long-range detection, this paper proposes a novel cross-modal self-supervised learning (SSL) setup, where a computer v",
+      "authors": [
+        "Nurfarah Anisah Mohd Yussof",
+        "Hann Woei Ho",
+        "Ye Zhou"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7119000623",
+      "url": "https://doi.org/10.1016/j.bspc.2026.111778",
+      "pdf": "https://arxiv.org/pdf/2601.01908",
+      "title": "Nodule-DETR: a novel DETR architecture with frequency-channel attention for thyroid nodule detection and benign-malignant classification in ultrasound images",
+      "summary": "",
+      "authors": [
+        "Jingjing Wang",
+        "Qianglin Liu",
+        "Zhuo Xiao",
+        "Xinning Yao",
+        "Bo Liu",
+        "Lu Li",
+        "Lijuan Niu",
+        "Fugen Zhou"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225039907",
+      "url": "https://doi.org/10.2118/235987-ms",
+      "pdf": "",
+      "title": "Integration of Computer Vision Analytics Into Operational Risk Controls",
+      "summary": "Abstract This paper describes the implementation and evaluation of a computer-vision–based unsafe-condition detection framework integrated into existing rig`s closed-circuit television (CCTV) systems to strengthen operational risk control during drilling operations. The objective was to improve visibility and management of dynamic exposure conditions such as line-of-fire (LOF) positioning, proximity to moving equipment, red-zone encroachment, and personal protective equipment (PPE) that may not be consistently identified through periodic supervisory observation. The scope included deployment a",
+      "authors": [
+        "Azat Charyyarov",
+        "Said Albahri",
+        "Hany Gamal"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225048114",
+      "url": "https://doi.org/10.21203/rs.3.rs-11144103/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-11144103/latest.pdf",
+      "title": "Arbitrary-Scale Light Field Super-Resolution via Spatio-Angular Consistent Neural Epipolar Geometry Learning",
+      "summary": "Abstract Light field imaging, a promising technology in computer vision, captures both spatial and angular information of light rays. However, the inherent trade-off between spatial and angular resolution limits its applications. This paper introduces a novel spatio-angular consistent local neural epipolar geometry learning framework for arbitrary-scale light field super-resolution. By modelling light field epipolar plane images (EPIs) as continuous local implicit geometry functions, our approach enables simultaneous super-resolution across both angular and spatial domains. Experimental result",
+      "authors": [
+        "Lili Lin",
+        "Wenyu Li",
+        "Hao Zheng",
+        "Qiming Fang",
+        "Jiahan Meng",
+        "Wenhui Zhou"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225051118",
+      "url": "https://doi.org/10.2118/236277-ms",
+      "pdf": "",
+      "title": "From Reactive to Predictive: Deploying AI Computer Vision for Real-Time Safety Monitoring Across Oxy Oman Operations",
+      "summary": "Abstract This paper describes the deployment of an AI-enabled computer vision platform across drilling rigs, hoists, and workshop facilities in Oxy Oman to support proactive HSE monitoring through continuous, automated safety observation. The objective is to demonstrate how real-time AI detection of unsafe behaviors — including PPE non-compliance, red zone management, line-of-fire exposure, and housekeeping deficiencies — can support a shift in safety management from reactive incident response toward more proactive hazard identification and prevention. A centralized, on-premise server architec",
+      "authors": [
+        "G. Basile",
+        "M. Al Mazroei"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225068820",
+      "url": "https://doi.org/10.14456/jeit.2026.32",
+      "pdf": "https://ph03.tci-thaijo.org/index.php/JEIT/article/download/4750/3515",
+      "title": "การจดทำฐานขอมลสารสนเทศภมศาสตรดวยอากาศยานไรคนขบ กรณศกษา มหาวทยาลยรามคำแหง (หวหมาก)",
+      "summary": "This research aimed to investigate the application of Unmanned Aerial Vehicle (UAV) technology to enhance the completeness of geospatial information for the Ramkhamhaeng University (Hua Mak Campus) area. The research process began with flight mission planning at an altitude of 90 m, achieving a Ground Sampling Distance (GSD) of 2.46 cm/pixel. A total of eight Ground Control Points (GCPs) and three independent Check Points (CPs) were surveyed using a Real-Time Kinematic Global Navigation Satellite System (GNSS RTK), referenced to the RU-07 geodetic control point. A total of 916 digital aerial i",
+      "authors": [
+        "Chairat Thabun"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225075973",
+      "url": "https://doi.org/10.5281/zenodo.23894005",
+      "pdf": "https://doi.org/10.5281/zenodo.23894005",
+      "title": "THE EXPOSED MIND The Revolution of Consciousness Decoding and the Battle for Cognitive Sovereignty in the Age of Machines",
+      "summary": "\"The Exposed Mind: The Revolution of Consciousness Decoding and the Battle for Cognitive Sovereignty in the Age of Machines\" by Dr. Mohamed Kamal Arafa El-Rakhawi is a groundbreaking civilizational manifesto addressing humanity's most profound technological challenge. The book chronicles the scientific revolution where artificial intelligence can now decode human thoughts, reconstruct visual imagery, and restore speech to paralyzed patients through generative brain-computer interfaces. Yet, it warns of existential threats: the commodification of thoughts, neural surveillance, thought courts, a",
+      "authors": [
+        "mohamed kamal arafa el-rakhawi"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225077209",
+      "url": "https://doi.org/10.59256/ijsreat.20260606005",
+      "pdf": "https://www.ijsreat.com/archiver/archives/smart_attendance_and_student_monitoring_system.pdf",
+      "title": "Smart Attendance and Student Monitoring System",
+      "summary": "Traditional classroom attendance systems rely on manual roll calls, signatures, RFID cards, or other dedicated identification mechanisms that require additional effort and may be vulnerable to proxy attendance. In addition, conventional attendance systems generally provide little information about classroom activities after attendance is recorded. This paper presents a Smart Attendance and Student Monitoring System that integrates computer vision, facial recognition, object detection, facial landmark analysis, voice-based alerting, database management, and a web-based dashboard into a unified ",
+      "authors": [
+        "Puneeth S P",
+        "H N Jayadev",
+        "J S Sanjana",
+        "K L Prashanth",
+        "B S Akash"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7222375494",
+      "url": "https://doi.org/10.48550/arxiv.2611.03301",
+      "pdf": "https://doi.org/10.48550/arxiv.2611.03301",
+      "title": "An Axiomatic Framework for Reinforcement Learning in Open Multi-Agent Systems",
+      "summary": "Open multi-agent systems, where only a subset of agents are controllable, are central to real-world domains such as smart grids, yet lack a principled foundation for reinforcement learning algorithm design. We study this setting through n-agent ad hoc teamwork (NAHT), a recent framework for learning in open multi-agent environments. We propose an axiomatic framework that derives value function learning from the Shapley axioms (Efficiency, Symmetry and Linearity), treating them as structural constraints rather than heuristic design choices. This formulation builds on a novel NAHT decomposition,",
+      "authors": [
+        "Jianhong Wang",
+        "Yang Li",
+        "Samuel Kaski A",
+        "Jonathan Lawry B"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225036253",
+      "url": "https://doi.org/10.2118/236252-ms",
+      "pdf": "",
+      "title": "A New Approach for CO2 Flooding and Storage Dynamic Scheme Optimization Based on Deep Reinforcement Learning",
+      "summary": "Abstract As a win-win technology, CO2 flooding and storage can enhance oil recovery (EOR) while reducing greenhouse gas emissions. However, collaboratively optimizing injection-production schemes remain challenging. This study proposes a dynamic optimization method using deep reinforcement learning (DRL) to maximize net present value (NPV) while considering carbon tax. The problem is formulated as a Markov decision process. An agent observes reservoir states and annually adjusts injection-production parameters. To support the numerous evaluations required by DRL, a two-level deep-learning surr",
+      "authors": [
+        "Peng Dong",
+        "Renwei Liu",
+        "Xin Lu",
+        "Beichen Zhao",
+        "Fan Zhang",
+        "Lulu Cai"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225038918",
+      "url": "https://doi.org/10.21203/rs.3.rs-11563502/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-11563502/latest.pdf",
+      "title": "Deep Reinforcement Learning for Adaptive Temperature Control in Greenhouses: A DQN-Based Framework and Experimental Evaluation",
+      "summary": "Abstract The integration of artificial intelligence into controlled environment agriculture represents a transformative opportunity for addressing global food security challenges while promoting sustainable resource utilisation. This paper presents a comprehensive Reinforcement Learning (RL) framework for optimizing greenhouse temperature management, leveraging data from the second edition of the Autonomous Greenhouse Challenge. We formulate the climate control problem as a Markov Decision Process (MDP) and implement a Deep Q-Network (DQN) agent that learns to regulate temperature through disc",
+      "authors": [
+        "Priyanshi Kumari",
+        "Hamed Laouz",
+        "Shahana Bano"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225045921",
+      "url": "https://doi.org/10.2118/235475-ms",
+      "pdf": "",
+      "title": "Uncertainty-Aware Graph Temporal Surrogate with Preference-Conditioned Reinforcement Learning for Multi-Objective CO2 Flooding and Storage Optimization",
+      "summary": "Abstract Multi-objective optimization of CO2 flooding requires repeated evaluation of long-term oil production and CO2 storage responses, whereas compositional reservoir simulation is computationally expensive for large-scale schedule search. This study develops an uncertainty-aware graph temporal surrogate-assisted optimization workflow for CO2 flooding and geological storage. The reservoir well pattern is represented as a multi-layer graph, where interwell connectivity describes spatial coupling among injectors and producers, and injection-production controls are encoded as time-dependent in",
+      "authors": [
+        "Z. Wang",
+        "F. Meng",
+        "H. Zhao",
+        "V. Rasouli"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225059533",
+      "url": "https://doi.org/10.2118/235321-ms",
+      "pdf": "",
+      "title": "Virtual H2S Sensing and Hybrid Reinforcement Learning Enable Sustained Autonomous Control of Refinery Acid Gas Removal",
+      "summary": "Abstract Amine-based acid gas removal is an energy-intensive operation, and in many refineries, it is run with a deliberate safety margin because the one measurement needed to optimize it — the treated-gas hydrogen sulphide (H₂S) concentration — is often not reliably available online. This paper describes how we deployed reinforcement-learning (RL) autonomous control on an Off-Gas methyl-diethanolamine (MDEA) acid gas removal unit that had no dependable online H₂S analyzer, and kept it running in closed loop for months rather than days. Two elements made this possible. The first is a virtual H",
+      "authors": [
+        "Mujtaba Sayed Al Hashmi",
+        "Chandrabose Ram"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225059741",
+      "url": "https://doi.org/10.2118/235233-ms",
+      "pdf": "",
+      "title": "A Hybrid NeRF-SIREN Framework with Pressure-Derivative Constraints for Well-Test Forward Modeling",
+      "summary": "Abstract Reinforcement learning–based intelligent well-test inversion requires numerous fast forward simulations, but standard numerical methods are too slow for real-time applications. Existing surrogate models have two shortcomings: recurrent networks are constrained by discrete time structures that prevent continuous prediction, and purely data-driven approaches tend to produce non-physical oscillations. Inspired by the time-integration property of Laplace inversion, which allows pressure at each time point to be computed independently from its preceding and succeeding states, we develop a ",
+      "authors": [
+        "Linhui Li",
+        "Xinwei Liao",
+        "Shanze Hou",
+        "Yuzhe Shi"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     }
   ]
