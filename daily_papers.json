@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05 00:38 UTC",
+  "generated_at": "2026-11-05 20:53 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -8,6 +8,29 @@
   ],
   "count": 24,
   "papers": [
+    {
+      "id": "W7225251889",
+      "url": "https://doi.org/10.1016/j.optlaseng.2026.110232",
+      "pdf": "",
+      "title": "Geometry-aware depth completion of transparent objects in RGB-D optical sensing systems for robotic manipulation",
+      "summary": "",
+      "authors": [
+        "Ling Tong",
+        "Zhaokun Yue",
+        "Junyu Wang",
+        "Xudong Ma",
+        "Kun Qian"
+      ],
+      "published": "2026-11-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
     {
       "id": "W7222385412",
       "url": "https://doi.org/10.5445/ir/1000198637",
@@ -50,6 +73,274 @@
       "score": 7.5,
       "pick": "Computer Vision",
       "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7152606835",
+      "url": "https://doi.org/10.5281/zenodo.19484071",
+      "pdf": "https://doi.org/10.5281/zenodo.19484071",
+      "title": "Nonlinear Industrial Robot Stabilization Based on Differential Topology",
+      "summary": "This study presents a nonlinear stabilization framework for industrial robotic systems based on differential topology and geometric control theory. System dynamics are modeled on smooth manifolds, where stabilization is achieved through topological invariants and non-smooth feedback control laws. The approach extends classical nonlinear control by incorporating global geometric structures, enabling stabilization of non-triangular and highly coupled systems. Stability analysis is conducted using global asymptotic and finite-time convergence criteria, supported by Lyapunov-topological equivalenc",
+      "authors": [
+        "ÖZTÜRK SEDAT"
+      ],
+      "published": "2026-11-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225226505",
+      "url": "https://doi.org/10.1007/978-3-032-43170-7_3",
+      "pdf": "",
+      "title": "Neuromechanical Control of Robotic Limbs Using Conformable Fractional Dynamics and Spiking Neural Networks",
+      "summary": "",
+      "authors": [
+        "Basem Ajarmah",
+        "Mohammed Saleh",
+        "Bahgat Ayasi"
+      ],
+      "published": "2026-11-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225230993",
+      "url": "https://doi.org/10.1145/3841560.3841565",
+      "pdf": "https://doi.org/10.1145/3841560.3841565",
+      "title": "Bridging VLA Policies and Industrial Robot Controllers via Non-Blocking Action Streaming",
+      "summary": "",
+      "authors": [
+        "Long Chen",
+        "CHI Jinxuan",
+        "Yongxi Huang",
+        "Cong Zhang",
+        "Yi Ching Chou",
+        "Hao Fang",
+        "Haoyuan Zhao"
+      ],
+      "published": "2026-11-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7225231295",
+      "url": "https://doi.org/10.21203/rs.3.rs-10171453/v1",
+      "pdf": "https://doi.org/10.21203/rs.3.rs-10171453/v1",
+      "title": "Robotic versus laparoscopic primary metabolic and bariatric surgery: a propensity score–matched analysis of the German StuDoQ/MBE registry",
+      "summary": "Abstract Background: Real-world data on perioperative outcomes after robotic-assisted metabolic bariatric surgery (MBS) remain vastly heterogeneous. In this study, short-term perioperative outcomes of robotic-assisted and laparoscopic primary MBS were compared at the national level in Germany. Methods: Data from the national prospective German clinical quality registry (StuDoQ/MBE) were analyzed. Patients undergoing robotic-assisted or laparoscopic primary MBS between 2014 and 2025 were compared after 1:1 propensity score matching. Matching variables were age, sex, body mass index, ASA classif",
+      "authors": [
+        "Miljana Vladimirov",
+        "Antoniya Dineva",
+        "Annika Hoyer",
+        "Jens Hoeppner",
+        "Sven Flemming",
+        "Carsten Klinger",
+        "Zsolt Madarasz",
+        "Florian Seyfried"
+      ],
+      "published": "2026-11-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225276222",
+      "url": "https://doi.org/10.1145/3846374.3846394",
+      "pdf": "https://doi.org/10.1145/3846374.3846394",
+      "title": "Design Exploration for Context-Based Access Control of Vision-Language-Action Model-Based Embodied Agents",
+      "summary": "",
+      "authors": [
+        "Krutyanjay Shinde",
+        "Dongha Kim",
+        "Hokeun Kim"
+      ],
+      "published": "2026-11-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7162686841",
+      "url": "https://doi.org/10.3390/diagnostics16213623",
+      "pdf": "https://doi.org/10.3390/diagnostics16213623",
+      "title": "Indocyanine Green and Technetium-99m: CT-Guided Marking of Lung Nodules Before Robotic-Assisted Lung Resection",
+      "summary": "Background/Objectives: For stage I non-small cell lung cancer, surgery remains the cornerstone of treatment and the use of minimally invasive techniques is desirable. The lack of tactile feedback in RATS is a well-known drawback of this approach, so precise identification of the disease is crucial for performing lung resection. Methods: We present our retrospective case history, accounting for 83 patients, which were divided into two groups based on marking technique: 99mTc-MAA (99mTechnetium Albumin Macroaggregates) only (Tech group) (22 cases, 26.5%) and 99mTc-MAA + Indocyanine Green (Tech +",
+      "authors": [
+        "Francesco Ferrante",
+        "Serena Ricciardi",
+        "Guido Ventroni",
+        "Alessandro Semprebene",
+        "Enrico Pampana",
+        "Luca Bertaccini",
+        "Enrico Melis",
+        "Maria Cristina Macciomei",
+        "Andrea Tornese",
+        "Giuseppe Cardillo"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7170267910",
+      "url": "https://doi.org/10.3390/industries1020012",
+      "pdf": "https://doi.org/10.3390/industries1020012",
+      "title": "Preliminary Evaluation on the Operational Use of Magnetic Connections in the Deployment of a Rapid-Deployment Amphibious Robotic Chassis",
+      "summary": "Project CIPACTLI (Compact Integrated Polymer Amphibian for Coastal and Littoral Investigation) evaluates the operational limits of rare-earth magnetic connections in a cannon-inserted amphibious robotic chassis designed for search-and-rescue (SAR) and environmental monitoring. Two prototype iterations were systematically compared across movement speed, structural loading, and ballistic survivability under combustion-cannon deployment. The first prototype employed a tensegrity-inspired, serpentine soft robot with segmented inflatable buoyancy modules connected via magnetic couplings. A 2³ facto",
+      "authors": [
+        "John LaRocco"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220555940",
+      "url": "https://openalex.org/W7220555940",
+      "pdf": "https://itip-submit.com/index.php/JIC/article/view/283",
+      "title": "From Robots to Readable Learning Signals: RoboUDL for Inclusive Computational Thinking and STEM Problem-Solving in Greek Classrooms",
+      "summary": "Educational robotics can make STEM reasoning visible, but less is known about how inclusive robotics platforms can combine UDL scaffolding, learning analytics, and teacher-facing interpretation to support computational thinking and STEM problem-solving in mixed classrooms. This study designs and evaluates RoboUDL, a learning analytics-enhanced educational robotics platform for Greek classrooms. Using design science and a quasi-experimental evaluation of matched intervention and waitlist classes, the study analyzed learning outcomes and student perceptions from 288 students, 1,641 mission logs,",
+      "authors": [
+        "Άγγελος Καράμπελας"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224982929",
+      "url": "https://doi.org/10.25206/2588-0373-2026-10-3-67-77",
+      "pdf": "https://doi.org/10.25206/2588-0373-2026-10-3-67-77",
+      "title": "Effect of adhesive-layer thickness and curing time on the specific breaking force of the adhesive joint in a space debris capture system",
+      "summary": "The article analyses studies on capture systems for large-scale space debris objects based on traditional contact methods, including robotic manipulators, harpoons and nets, as well as on adhesion, dry adhesive materials and adhesive compounds. The paper considers space debris objects with kinetic moments close to zero. For experimental investigation, a class of adhesion-based capture systems using adhesive compounds is selected. The study examines the staging of the process, the selection of adhesive compound characteristics, the formation of efficiency criteria, the surface properties of adh",
+      "authors": [
+        "Кленин Данила Андреевич",
+        "Кленина Екатерина Дмитриевна"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225034900",
+      "url": "https://doi.org/10.2118/236241-ms",
+      "pdf": "",
+      "title": "Revolutionising Asset Performance Management Through Autonomous Robotics and Integrated Digital Platform Intelligence: First Deployment of an ATEX/IECEX-Rated Quadruped Robot in Kuwait",
+      "summary": "Abstract Reliability engineers in operating facilities are increasingly burdened by the manual aggregation of asset health data from disparate sources — process historians, ERP systems, and periodic inspection records — leaving limited capacity for higher-value analysis and decision-making. This paper presents the design and first deployment of an integrated autonomous inspection and asset performance management solution at a Kuwait Oil Company (KOC) facility, delivered through a tripartite collaboration between KOC, SLB and ANYbotics. The core objective was to demonstrate that continuous, rob",
+      "authors": [
+        "Muzahidin Muhamed Salim",
+        "Juan Alvarez",
+        "Ines Graa",
+        "Ian Traboulay",
+        "Mohamed Moinuddin",
+        "Mohammad Al Bishara",
+        "Salem Faisal Al-Omairi",
+        "Murali Krishna Guntuku",
+        "Murali Krishna",
+        "Purnendu Kushwaha"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225038513",
+      "url": "https://doi.org/10.2118/236207-ms",
+      "pdf": "",
+      "title": "A Hybrid Positioning Solution for Machine Control in GPS-Denied Environments: Combining Robotic Total Stations and Gyro Compasses",
+      "summary": "Abstract Modern machine control systems rely on GNSS-based positioning integrated with onboard tilt and inertial sensors to enable high-precision excavation, grading, dredging, and earthmoving operations. However, dependence on satellite-derived position and heading limits operational continuity in environments where GNSS signals are degraded or unavailable. The objective of this work is to develop a GNSS- independent machine control architecture capable of maintaining real-time guidance using existing survey and machine control infrastructure without modification of core machine systems. A hy",
+      "authors": [
+        "Navoranjan Ghosh",
+        "Muhammad Faraz Arshad"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225042451",
+      "url": "https://doi.org/10.2118/236402-ms",
+      "pdf": "",
+      "title": "Advanced Tank Maintenance Technologies in Oil and Gas – Upstream: Robotic De-Sludging, Robotic Coating Removal, Dehumidification, and Drone-Based Inspection for Storage Tank Maintenance",
+      "summary": "Abstract Extended tank outages remain a persistent constraint on upstream field economics, since a drained storage tank that cannot be returned to service quickly translates directly into lost or deferred production. This paper evaluates four maintenance technologies that Petroleum Development Oman PDO introduced to shorten outage windows and reduce confined-space risk during tank cleaning, surface preparation, coating, and inspection: a remotely piloted hydraulic dozer for bottom-sludge removal, a magnetically mounted climbing robot for coating and Glass-Reinforced Epoxy (GRE) stripping, a co",
+      "authors": [
+        "A. Al Jahwari",
+        "M. Al Hakmani",
+        "H. Al Ghafri",
+        "Z. S. Al Habsi"
+      ],
+      "published": "2026-11-02",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
@@ -112,6 +403,28 @@
       "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225273745",
+      "url": "https://doi.org/10.1186/s44147-026-01293-z",
+      "pdf": "https://doi.org/10.1186/s44147-026-01293-z",
+      "title": "Model-based graph reinforcement learning for robust cyber-attack defense in active distribution systems with high DER penetration",
+      "summary": "Abstract This paper presents a model-based graph reinforcement learning (MBGRL) framework for defending active distribution systems with high penetrations of distributed energy resources (DERs) against cyber-physical threats, particularly false data injection attacks (FDIAs). The proposed approach integrates a learned power-flow surrogate model with a graph neural network (GNN) policy to accelerate convergence, reduce simulator dependence, and capture the spatial structure of distribution networks. Adversarial scenario training further enhances robustness under coordinated load-altering attack",
+      "authors": [
+        "Lili Mou",
+        "Zhaona Wang",
+        "Lining Wang",
+        "Xuepeng Li"
+      ],
+      "published": "2026-11-05",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
@@ -215,310 +528,6 @@
       "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4407010547",
-      "url": "https://doi.org/10.2514/1.i011664",
-      "pdf": "https://doi.org/10.2139/ssrn.5119341",
-      "title": "Cross-Modal Self-Supervised Learning for Efficient Water Leak Localization with Micro Air Vehicles",
-      "summary": "Efficient water leakage detection is crucial for smart building water management. Conventional methods relying on fixed sensors are costly to install and maintain. Micro air vehicles (MAVs) offer a cost-effective solution for confined spaces but have limited processing power and payload capacity. MAVs are generally equipped with lightweight sensors, such as compact thermal cameras, which produce low-resolution images and typically limit the detection range. To enable effective long-range detection, this paper proposes a novel cross-modal self-supervised learning (SSL) setup, where a computer v",
-      "authors": [
-        "Nurfarah Anisah Mohd Yussof",
-        "Hann Woei Ho",
-        "Ye Zhou"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7119000623",
-      "url": "https://doi.org/10.1016/j.bspc.2026.111778",
-      "pdf": "https://arxiv.org/pdf/2601.01908",
-      "title": "Nodule-DETR: a novel DETR architecture with frequency-channel attention for thyroid nodule detection and benign-malignant classification in ultrasound images",
-      "summary": "",
-      "authors": [
-        "Jingjing Wang",
-        "Qianglin Liu",
-        "Zhuo Xiao",
-        "Xinning Yao",
-        "Bo Liu",
-        "Lu Li",
-        "Lijuan Niu",
-        "Fugen Zhou"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225039907",
-      "url": "https://doi.org/10.2118/235987-ms",
-      "pdf": "",
-      "title": "Integration of Computer Vision Analytics Into Operational Risk Controls",
-      "summary": "Abstract This paper describes the implementation and evaluation of a computer-vision–based unsafe-condition detection framework integrated into existing rig`s closed-circuit television (CCTV) systems to strengthen operational risk control during drilling operations. The objective was to improve visibility and management of dynamic exposure conditions such as line-of-fire (LOF) positioning, proximity to moving equipment, red-zone encroachment, and personal protective equipment (PPE) that may not be consistently identified through periodic supervisory observation. The scope included deployment a",
-      "authors": [
-        "Azat Charyyarov",
-        "Said Albahri",
-        "Hany Gamal"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225048114",
-      "url": "https://doi.org/10.21203/rs.3.rs-11144103/v1",
-      "pdf": "https://www.researchsquare.com/article/rs-11144103/latest.pdf",
-      "title": "Arbitrary-Scale Light Field Super-Resolution via Spatio-Angular Consistent Neural Epipolar Geometry Learning",
-      "summary": "Abstract Light field imaging, a promising technology in computer vision, captures both spatial and angular information of light rays. However, the inherent trade-off between spatial and angular resolution limits its applications. This paper introduces a novel spatio-angular consistent local neural epipolar geometry learning framework for arbitrary-scale light field super-resolution. By modelling light field epipolar plane images (EPIs) as continuous local implicit geometry functions, our approach enables simultaneous super-resolution across both angular and spatial domains. Experimental result",
-      "authors": [
-        "Lili Lin",
-        "Wenyu Li",
-        "Hao Zheng",
-        "Qiming Fang",
-        "Jiahan Meng",
-        "Wenhui Zhou"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225051118",
-      "url": "https://doi.org/10.2118/236277-ms",
-      "pdf": "",
-      "title": "From Reactive to Predictive: Deploying AI Computer Vision for Real-Time Safety Monitoring Across Oxy Oman Operations",
-      "summary": "Abstract This paper describes the deployment of an AI-enabled computer vision platform across drilling rigs, hoists, and workshop facilities in Oxy Oman to support proactive HSE monitoring through continuous, automated safety observation. The objective is to demonstrate how real-time AI detection of unsafe behaviors — including PPE non-compliance, red zone management, line-of-fire exposure, and housekeeping deficiencies — can support a shift in safety management from reactive incident response toward more proactive hazard identification and prevention. A centralized, on-premise server architec",
-      "authors": [
-        "G. Basile",
-        "M. Al Mazroei"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225068820",
-      "url": "https://doi.org/10.14456/jeit.2026.32",
-      "pdf": "https://ph03.tci-thaijo.org/index.php/JEIT/article/download/4750/3515",
-      "title": "การจดทำฐานขอมลสารสนเทศภมศาสตรดวยอากาศยานไรคนขบ กรณศกษา มหาวทยาลยรามคำแหง (หวหมาก)",
-      "summary": "This research aimed to investigate the application of Unmanned Aerial Vehicle (UAV) technology to enhance the completeness of geospatial information for the Ramkhamhaeng University (Hua Mak Campus) area. The research process began with flight mission planning at an altitude of 90 m, achieving a Ground Sampling Distance (GSD) of 2.46 cm/pixel. A total of eight Ground Control Points (GCPs) and three independent Check Points (CPs) were surveyed using a Real-Time Kinematic Global Navigation Satellite System (GNSS RTK), referenced to the RU-07 geodetic control point. A total of 916 digital aerial i",
-      "authors": [
-        "Chairat Thabun"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225075973",
-      "url": "https://doi.org/10.5281/zenodo.23894005",
-      "pdf": "https://doi.org/10.5281/zenodo.23894005",
-      "title": "THE EXPOSED MIND The Revolution of Consciousness Decoding and the Battle for Cognitive Sovereignty in the Age of Machines",
-      "summary": "\"The Exposed Mind: The Revolution of Consciousness Decoding and the Battle for Cognitive Sovereignty in the Age of Machines\" by Dr. Mohamed Kamal Arafa El-Rakhawi is a groundbreaking civilizational manifesto addressing humanity's most profound technological challenge. The book chronicles the scientific revolution where artificial intelligence can now decode human thoughts, reconstruct visual imagery, and restore speech to paralyzed patients through generative brain-computer interfaces. Yet, it warns of existential threats: the commodification of thoughts, neural surveillance, thought courts, a",
-      "authors": [
-        "mohamed kamal arafa el-rakhawi"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225077209",
-      "url": "https://doi.org/10.59256/ijsreat.20260606005",
-      "pdf": "https://www.ijsreat.com/archiver/archives/smart_attendance_and_student_monitoring_system.pdf",
-      "title": "Smart Attendance and Student Monitoring System",
-      "summary": "Traditional classroom attendance systems rely on manual roll calls, signatures, RFID cards, or other dedicated identification mechanisms that require additional effort and may be vulnerable to proxy attendance. In addition, conventional attendance systems generally provide little information about classroom activities after attendance is recorded. This paper presents a Smart Attendance and Student Monitoring System that integrates computer vision, facial recognition, object detection, facial landmark analysis, voice-based alerting, database management, and a web-based dashboard into a unified ",
-      "authors": [
-        "Puneeth S P",
-        "H N Jayadev",
-        "J S Sanjana",
-        "K L Prashanth",
-        "B S Akash"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7222375494",
-      "url": "https://doi.org/10.48550/arxiv.2611.03301",
-      "pdf": "https://doi.org/10.48550/arxiv.2611.03301",
-      "title": "An Axiomatic Framework for Reinforcement Learning in Open Multi-Agent Systems",
-      "summary": "Open multi-agent systems, where only a subset of agents are controllable, are central to real-world domains such as smart grids, yet lack a principled foundation for reinforcement learning algorithm design. We study this setting through n-agent ad hoc teamwork (NAHT), a recent framework for learning in open multi-agent environments. We propose an axiomatic framework that derives value function learning from the Shapley axioms (Efficiency, Symmetry and Linearity), treating them as structural constraints rather than heuristic design choices. This formulation builds on a novel NAHT decomposition,",
-      "authors": [
-        "Jianhong Wang",
-        "Yang Li",
-        "Samuel Kaski A",
-        "Jonathan Lawry B"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 2.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225036253",
-      "url": "https://doi.org/10.2118/236252-ms",
-      "pdf": "",
-      "title": "A New Approach for CO2 Flooding and Storage Dynamic Scheme Optimization Based on Deep Reinforcement Learning",
-      "summary": "Abstract As a win-win technology, CO2 flooding and storage can enhance oil recovery (EOR) while reducing greenhouse gas emissions. However, collaboratively optimizing injection-production schemes remain challenging. This study proposes a dynamic optimization method using deep reinforcement learning (DRL) to maximize net present value (NPV) while considering carbon tax. The problem is formulated as a Markov decision process. An agent observes reservoir states and annually adjusts injection-production parameters. To support the numerous evaluations required by DRL, a two-level deep-learning surr",
-      "authors": [
-        "Peng Dong",
-        "Renwei Liu",
-        "Xin Lu",
-        "Beichen Zhao",
-        "Fan Zhang",
-        "Lulu Cai"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 2.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225038918",
-      "url": "https://doi.org/10.21203/rs.3.rs-11563502/v1",
-      "pdf": "https://www.researchsquare.com/article/rs-11563502/latest.pdf",
-      "title": "Deep Reinforcement Learning for Adaptive Temperature Control in Greenhouses: A DQN-Based Framework and Experimental Evaluation",
-      "summary": "Abstract The integration of artificial intelligence into controlled environment agriculture represents a transformative opportunity for addressing global food security challenges while promoting sustainable resource utilisation. This paper presents a comprehensive Reinforcement Learning (RL) framework for optimizing greenhouse temperature management, leveraging data from the second edition of the Autonomous Greenhouse Challenge. We formulate the climate control problem as a Markov Decision Process (MDP) and implement a Deep Q-Network (DQN) agent that learns to regulate temperature through disc",
-      "authors": [
-        "Priyanshi Kumari",
-        "Hamed Laouz",
-        "Shahana Bano"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 2.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225045921",
-      "url": "https://doi.org/10.2118/235475-ms",
-      "pdf": "",
-      "title": "Uncertainty-Aware Graph Temporal Surrogate with Preference-Conditioned Reinforcement Learning for Multi-Objective CO2 Flooding and Storage Optimization",
-      "summary": "Abstract Multi-objective optimization of CO2 flooding requires repeated evaluation of long-term oil production and CO2 storage responses, whereas compositional reservoir simulation is computationally expensive for large-scale schedule search. This study develops an uncertainty-aware graph temporal surrogate-assisted optimization workflow for CO2 flooding and geological storage. The reservoir well pattern is represented as a multi-layer graph, where interwell connectivity describes spatial coupling among injectors and producers, and injection-production controls are encoded as time-dependent in",
-      "authors": [
-        "Z. Wang",
-        "F. Meng",
-        "H. Zhao",
-        "V. Rasouli"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 2.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225059533",
-      "url": "https://doi.org/10.2118/235321-ms",
-      "pdf": "",
-      "title": "Virtual H2S Sensing and Hybrid Reinforcement Learning Enable Sustained Autonomous Control of Refinery Acid Gas Removal",
-      "summary": "Abstract Amine-based acid gas removal is an energy-intensive operation, and in many refineries, it is run with a deliberate safety margin because the one measurement needed to optimize it — the treated-gas hydrogen sulphide (H₂S) concentration — is often not reliably available online. This paper describes how we deployed reinforcement-learning (RL) autonomous control on an Off-Gas methyl-diethanolamine (MDEA) acid gas removal unit that had no dependable online H₂S analyzer, and kept it running in closed loop for months rather than days. Two elements made this possible. The first is a virtual H",
-      "authors": [
-        "Mujtaba Sayed Al Hashmi",
-        "Chandrabose Ram"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 2.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225059741",
-      "url": "https://doi.org/10.2118/235233-ms",
-      "pdf": "",
-      "title": "A Hybrid NeRF-SIREN Framework with Pressure-Derivative Constraints for Well-Test Forward Modeling",
-      "summary": "Abstract Reinforcement learning–based intelligent well-test inversion requires numerous fast forward simulations, but standard numerical methods are too slow for real-time applications. Existing surrogate models have two shortcomings: recurrent networks are constrained by discrete time structures that prevent continuous prediction, and purely data-driven approaches tend to produce non-physical oscillations. Inspired by the time-integration property of Laplace inversion, which allows pressure at each time point to be computed independently from its preceding and succeeding states, we develop a ",
-      "authors": [
-        "Linhui Li",
-        "Xinwei Liao",
-        "Shanze Hou",
-        "Yuzhe Shi"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 2.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
       "trending": 0.0
     }
   ]
