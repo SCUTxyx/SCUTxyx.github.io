@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05 20:53 UTC",
+  "generated_at": "2026-11-06 00:39 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,19 +9,133 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7225251889",
-      "url": "https://doi.org/10.1016/j.optlaseng.2026.110232",
-      "pdf": "",
-      "title": "Geometry-aware depth completion of transparent objects in RGB-D optical sensing systems for robotic manipulation",
-      "summary": "",
+      "id": "W7204946010",
+      "url": "https://doi.org/10.1145/3799682.3839929",
+      "pdf": "https://doi.org/10.1145/3799682.3839929",
+      "title": "Learning from What You Retrieve: Online RL Fine-Tuning for Semantic Retrieval",
+      "summary": "In large-scale e-commerce retrieval, dual-encoder retrievers are optimized for contrastive similarity, whereas downstream rerankers capture finer-grained relevance preferences; this objective mismatch limits end-to-end retrieval quality. Reinforcement Learning offers a way to use reward-model feedback for retriever adaptation, but we observe that standard policy-gradient updates can degrade embedding geometry, especially when the document index must remain frozen due to industrial constraints. To address this, we propose PAO (Positive-Advantage-Only) , a selective RL optimization method. Our a",
       "authors": [
-        "Ling Tong",
-        "Zhaokun Yue",
-        "Junyu Wang",
-        "Xudong Ma",
-        "Kun Qian"
+        "Shaowei Wei",
+        "Chong Huang",
+        "Songtao Fang",
+        "Jin Zhang",
+        "Zhuojun Wang",
+        "Chengfu Huo"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-03",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 15.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7150914366",
+      "url": "https://doi.org/10.1146/annurev-statistics-042925-123430",
+      "pdf": "https://arxiv.org/pdf/2604.02507",
+      "title": "Reinforcement Learning from Human Feedback: A Statistical Perspective",
+      "summary": "Reinforcement learning from human feedback (RLHF) has emerged as a central framework for aligning large language models (LLMs) with human preferences. Despite its practical success, RLHF raises fundamental statistical questions because it relies on noisy, subjective, and heterogeneous feedback to learn reward models and optimize policies. This review provides a statistical perspective on RLHF, focusing primarily on LLM alignment. We introduce the main components of RLHF, including supervised fine-tuning, reward modeling, and policy optimization, and relate them to familiar statistical concepts",
+      "authors": [
+        "Pangpang Liu",
+        "Chengchun Shi",
+        "Will Wei Sun"
+      ],
+      "published": "2026-11-03",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 12.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220439560",
+      "url": "https://doi.org/10.1145/3799682.3841077",
+      "pdf": "https://doi.org/10.1145/3799682.3841077",
+      "title": "EVOL: Simulator-Guided Evolutionary Expert Synthesis for Deployment-Free Learning Path Recommendation",
+      "summary": "Reinforcement learning (RL) for learning path recommendation (LPR) faces two coupled obstacles. First, the policy must commit to a sequence of L concepts without intermediate feedback, producing a combinatorial search space that grows super-exponentially with L and provides reward only at the final step. Second, expert learning paths would be the natural cure for sparse-reward RL, but they do not exist in educational data, because student logs record what learners did, not what they should have done. We address both obstacles by importing a recipe from simulator-based demonstration learning in",
+      "authors": [
+        "Geonwoo Bang",
+        "Dongho Kim",
+        "Moohong Min"
+      ],
+      "published": "2026-11-03",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7163033840",
+      "url": "https://doi.org/10.1145/3799682.3840144",
+      "pdf": "https://doi.org/10.1145/3799682.3840144",
+      "title": "Graph-GRPO: Dependency-Aware Credit Assignment for Generative E-commerce Search Relevance",
+      "summary": "Search relevance modeling is a core task in e-commerce search systems, assessing how well a user query matches candidate products. Rather than relying on a single holistic matching signal, relevance judgment often requires structured reasoning over query understanding, product understanding, and facet-level matching. With large language models (LLMs), this process is increasingly formulated as chain-of-thought (CoT) reasoning and optimized with reinforcement learning (RL). However, existing RL methods mainly rely on outcome-level rewards and treat the entire reasoning chain as a single optimiz",
+      "authors": [
+        "Jiarui Che",
+        "Yifei Chen",
+        "Zhixing Tian",
+        "Chenyang Wang",
+        "Ziguang Cheng"
+      ],
+      "published": "2026-11-03",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225075616",
+      "url": "https://doi.org/10.1145/3799682.3841154",
+      "pdf": "https://doi.org/10.1145/3799682.3841154",
+      "title": "A Hierarchical Reinforcement Learning Framework for Formulaic Alpha Factor Generation and Adaptive Composition",
+      "summary": "Alpha factor mining aims to automatically construct predictive signals from raw market features and is fundamental to stock return forecasting. Recent reinforcement learning (RL) approaches formulate formulaic alpha discovery as a sequential decision problem yet face three key challenges. First, factor generation suffers from delayed and sparse rewards: informative feedback is typically available only after a complete expression is generated, making credit assignment for intermediate decisions difficult and limiting exploration efficiency. Second, overly rapid policy convergence limits the div",
+      "authors": [
+        "Yu Liu",
+        "Cen Chen",
+        "Yue Wang",
+        "Hua Wei",
+        "Junjun Zhang"
+      ],
+      "published": "2026-11-03",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7166180287",
+      "url": "https://doi.org/10.1038/s41598-026-77959-8",
+      "pdf": "https://www.nature.com/articles/s41598-026-77959-8.pdf",
+      "title": "Reinforcement learning enables autonomous microrobot navigation and intervention in simulated blood capillaries",
+      "summary": "Abstract Autonomous microrobots navigating biological vasculature could enable targeted drug delivery and thrombolysis, yet training control policies for physiologically complex environments remains an open challenge. Prior reinforcement learning (RL) studies of microrobotic navigation have largely used idealized geometries lacking realistic flow in confined branching, and dense cellular obstacles. Here, we develop a physically grounded, deliberately idealized two-dimensional capillary simulation, with resolved flow fields, explicit red blood cell dynamics, and schematic-derived branching geom",
+      "authors": [
+        "Jannik Drotleff",
+        "Paul Hohenberger",
+        "Samuel Tovey",
+        "Christoph Lohrmann",
+        "Julian Hoßbach",
+        "Konstantin Nikolaou",
+        "Christian Holm"
+      ],
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -32,21 +146,16 @@
       "trending": 0.0
     },
     {
-      "id": "W7222385412",
-      "url": "https://doi.org/10.5445/ir/1000198637",
-      "pdf": "https://doi.org/10.5445/ir/1000198637",
-      "title": "Entropy-Regularized Diffusion-Policies in Offline Reinforcement Learning for Antibody Sequence Design",
-      "summary": "The discovery of therapeutic antibodies is traditionally performed through wet lab screening, which is costly and time-consuming. Generative models offer a data-driven alternative, however such methods become unreliable outside the training distribution. We present Sequential Diffusion + Q-Learning (SeqDiff+QL), which formulates antibody sequence design as a constrained offline Reinforcement Learning (RL) problem, enforcing proximity to the training distribution. SeqDiff+QL employs an entropy-regularized diffusion policy that, through policy improvement, is trained to sequentially generate Com",
+      "id": "W4415233432",
+      "url": "https://doi.org/10.1007/s10614-026-11464-y",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s10614-026-11464-y.pdf",
+      "title": "From Individual Learning to Market Equilibrium: Correcting Structural and Parametric Biases in RL Simulations of Economic Models",
+      "summary": "Abstract Applying Reinforcement Learning (RL) to economic modeling reveals a fundamental tension: standard RL agents do not behave as competitive price-takers. While macroeconomic models typically assume agents take aggregate conditions as given, a naive single-agent RL algorithm learns to internalize its impact on the environment, effectively exerting market power. We illustrate this divergence in a search-and-matching model with concave production, showing that a standard RL agent converges to a monopsonistic allocation rather than the competitive equilibrium. Furthermore, we show that RL’s ",
       "authors": [
-        "Yannick Vogt",
-        "Mehdi Naouar",
-        "Onur Celik",
-        "Maria Kalweit",
-        "Cornelius Miething",
-        "Joschka Boedecker",
-        "Gabriel Kalweit"
+        "Ruxin Chen",
+        "Zeqiang Zhang"
       ],
-      "published": "2026-11-02",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -54,37 +163,85 @@
       "score": 7.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
-      "trending": 1.5
+      "trending": 0.0
     },
     {
-      "id": "W7220576407",
-      "url": "https://openalex.org/W7220576407",
-      "pdf": "https://itip-submit.com/index.php/JIC/article/view/263",
-      "title": "An Artificial Intelligence-Based Indoor 3D Modeling System for Intelligent Spatial Reconstruction and Visualization",
-      "summary": "Indoor 3D modeling has become an important technology for smart building management, digital twin construction, indoor navigation, facility maintenance, and virtual reality applications. However, traditional indoor 3D model construction usually requires professional equipment, manual measurement, and time-consuming modeling procedures. These limitations increase labor costs and reduce the efficiency of indoor spatial digitization. To address these challenges, this study proposes an artificial intelligence-based indoor 3D modeling system that integrates image acquisition, computer vision, depth",
+      "id": "W7212215394",
+      "url": "https://doi.org/10.1145/3799682.3840782",
+      "pdf": "https://doi.org/10.1145/3799682.3840782",
+      "title": "ViSalRec: Visual and Saliency-Informed Reward Augmentation for Sequential Recommender Systems",
+      "summary": "In Reinforcement Learning (RL)-based sequential recommendation, offline training often reduces user feedback to sparse binary rewards, weakening credit assignment and limiting policy optimisation. In visual recommendation settings, user choices are also shaped by product appearance, visual attention, and semantic impressions, which provide preference cues that binary outcomes cannot capture. However, how to transform such visual cues into reward supervision and how they impact recommendation performance remains underexplored. Therefore, we introduce ViSalRec, a unified visual-feedback reward a",
       "authors": [
-        "Kuo-Lung Chen"
+        "Georgios Koutroumpas",
+        "Jie Wang",
+        "Sergi Abadal",
+        "Joemon M. Jose",
+        "Ioannis Arapakis"
       ],
-      "published": "2026-11-02",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
       "score": 7.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7152606835",
-      "url": "https://doi.org/10.5281/zenodo.19484071",
-      "pdf": "https://doi.org/10.5281/zenodo.19484071",
-      "title": "Nonlinear Industrial Robot Stabilization Based on Differential Topology",
-      "summary": "This study presents a nonlinear stabilization framework for industrial robotic systems based on differential topology and geometric control theory. System dynamics are modeled on smooth manifolds, where stabilization is achieved through topological invariants and non-smooth feedback control laws. The approach extends classical nonlinear control by incorporating global geometric structures, enabling stabilization of non-triangular and highly coupled systems. Stability analysis is conducted using global asymptotic and finite-time convergence criteria, supported by Lyapunov-topological equivalenc",
+      "id": "W7220666200",
+      "url": "https://doi.org/10.1145/3799682.3840057",
+      "pdf": "https://doi.org/10.1145/3799682.3840057",
+      "title": "Ontology Concept Overlap as a Training Signal: Knowledge-Grounded Reinforcement Learning for Clinical Question Answering",
+      "summary": "Reinforcement learning post-training for language models relies on two reward designs: human preferences (RLHF, DPO) and binary verifiers (RLVR). Clinical question answering fits neither. Near-correct answers differ by a single substituted entity, and no executable check decides clinical correctness. We instantiate a soft verifier from a maintained controlled vocabulary: UMLS Concept Unique Identifier overlap (via scispaCy, set-level F1) gives a graded, externally specified reward computed without a model in the loop. We combine it inside GRPO with an entropy-normalised LLM judge, which covers",
       "authors": [
-        "ÖZTÜRK SEDAT"
+        "Aditya Tanna",
+        "Abhishek Jindal"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-03",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225075264",
+      "url": "https://doi.org/10.1145/3799682.3841057",
+      "pdf": "https://doi.org/10.1145/3799682.3841057",
+      "title": "POLAR: Policy Optimization through Larger Reasoners",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) is a practical way to improve the reasoning and decision-making abilities of large language models, but its training signal is often sparse. When a policy faces prompts beyond its current ability, every sampled trajectory in a group may fail the verifier, resulting in an all-zero group. In this case, group-relative policy optimization gives little useful gradient even when the prompt contains valuable learning content. This capacity-difficulty mismatch is especially costly for smaller models used in knowledge-intensive and web-interaction t",
+      "authors": [
+        "Ye Yuan",
+        "Zhiping Xiao",
+        "Ming Zhang"
+      ],
+      "published": "2026-11-03",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7171880391",
+      "url": "https://doi.org/10.1145/3831296",
+      "pdf": "https://doi.org/10.1145/3831296",
+      "title": "Hakka Kitchen: Engagement with Culinary Cultural Heritage Through Immersive Game Play",
+      "summary": "Intangible Cultural Heritage (ICH) experiences are difficult to share with the public because they are essentially processes that rely on physical interactions with embodied, tacit, and situated phenomena in specific cultural contexts. We consume non-interactive media such as videos and books to learn about culinary ICH experiences, but they do not allow us to grasp actual interactive procedures that embody the cultural knowledge. To engage people in a traditional cooking experience, we created a gamified VR experience Hakka Kitchen, where players are guided by a chef of Hakka cuisine through ",
+      "authors": [
+        "J. Huang",
+        "Yuyao Zhang",
+        "Ruyan Chen",
+        "Ray Lc"
+      ],
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -95,17 +252,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7225226505",
-      "url": "https://doi.org/10.1007/978-3-032-43170-7_3",
-      "pdf": "",
-      "title": "Neuromechanical Control of Robotic Limbs Using Conformable Fractional Dynamics and Spiking Neural Networks",
-      "summary": "",
+      "id": "W7216790888",
+      "url": "https://openalex.org/W7216790888",
+      "pdf": "https://jcclls.org/index.php/index/article/view/14",
+      "title": "Criminal Liability in the Age of Autonomous Systems",
+      "summary": "The rapid integration of autonomous systems into everyday life has transformed multiple sectors, including transportation, healthcare, manufacturing, defense, and public administration. These systems—powered by artificial intelligence (AI), machine learning, robotics, and advanced sensors—are capable of making decisions with minimal or no human intervention. While they promise efficiency, safety improvements, and economic growth, they also raise profound legal and ethical questions, particularly regarding criminal liability when harm occurs. Traditional criminal law is built on human intent (m",
       "authors": [
-        "Basem Ajarmah",
-        "Mohammed Saleh",
-        "Bahgat Ayasi"
+        "Dr. Peter Novak"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -116,21 +271,55 @@
       "trending": 0.0
     },
     {
-      "id": "W7225230993",
-      "url": "https://doi.org/10.1145/3841560.3841565",
-      "pdf": "https://doi.org/10.1145/3841560.3841565",
-      "title": "Bridging VLA Policies and Industrial Robot Controllers via Non-Blocking Action Streaming",
-      "summary": "",
+      "id": "W7217612929",
+      "url": "https://openalex.org/W7217612929",
+      "pdf": "https://ijmrias.org/index.php/ijmrias/article/download/52/137",
+      "title": "Robotic Process Automation in Pharmacy Management and Inventory Control",
+      "summary": "Pharmacies operate under constant pressure to deliver safe, timely, and cost-effective services while maintaining strict regulatory compliance and resilient supply chains. Manual, repetitive back-office work—such as purchase order creation, invoice matching, stock reconciliation, expiry tracking, and dispensing documentation—consumes significant pharmacist time and is prone to error. Robotic Process Automation (RPA) offers a pragmatic pathway to streamline these high-volume, rule-based tasks without replacing core pharmacy information systems (PIS), hospital information systems (HIS), or enter",
       "authors": [
-        "Long Chen",
-        "CHI Jinxuan",
-        "Yongxi Huang",
-        "Cong Zhang",
-        "Yi Ching Chou",
-        "Hao Fang",
-        "Haoyuan Zhao"
+        "Nicole Berger"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-03",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224608868",
+      "url": "https://doi.org/10.31224/8690",
+      "pdf": "https://engrxiv.org/preprint/download/8690/14093/12296",
+      "title": "Physical AI Security: A Unified Five-Layer Taxonomy for a Systematic Survey from Silicon to Semantics",
+      "summary": "Collaborative robots, autonomous mobile robots (AMRs), and edge inference nodes inside Industrial Control Systems (ICS) now let AI models drive physical actuators. For these systems a cyberattack is no longer only a data problem: a successful exploit can disrupt infrastructure, halt production, or injure people. Research on Physical AI Security (PAIS) is split across hardware trust, artificial intelligence, robotics, operational technology, and cyber-physical systems, which makes it hard to see how risks and defenses depend on one another across the cycle of AI-driven sensing, decision-making,",
+      "authors": [
+        "Ahmed M. Elmisery",
+        "Nabil Moukafih",
+        "Suga Junichi"
+      ],
+      "published": "2026-11-03",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225082880",
+      "url": "https://doi.org/10.1145/3799682.3839254",
+      "pdf": "https://doi.org/10.1145/3799682.3839254",
+      "title": "Edge-Native Agentic AI for Scalable Knowledge Systems in Industrial Applications",
+      "summary": "Large-scale foundation models and language models provide strong general-purpose reasoning and generation capabilities, but enterprise deployment introduces additional system-level constraints beyond model accuracy. In domains such as healthcare, robotics-based automation, finance, data is heterogeneous, high-dimensional, temporally evolving, and tightly coupled with domain-specific policies and compliance constraints. Decision workflows are high-stakes and require consistency, privacy-preserving, and context-aware reasoning. Furthermore, these environments demand continuous personalization ov",
+      "authors": [
+        "Arijit Ukil"
+      ],
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -141,22 +330,20 @@
       "trending": 1.5
     },
     {
-      "id": "W7225231295",
-      "url": "https://doi.org/10.21203/rs.3.rs-10171453/v1",
-      "pdf": "https://doi.org/10.21203/rs.3.rs-10171453/v1",
-      "title": "Robotic versus laparoscopic primary metabolic and bariatric surgery: a propensity score–matched analysis of the German StuDoQ/MBE registry",
-      "summary": "Abstract Background: Real-world data on perioperative outcomes after robotic-assisted metabolic bariatric surgery (MBS) remain vastly heterogeneous. In this study, short-term perioperative outcomes of robotic-assisted and laparoscopic primary MBS were compared at the national level in Germany. Methods: Data from the national prospective German clinical quality registry (StuDoQ/MBE) were analyzed. Patients undergoing robotic-assisted or laparoscopic primary MBS between 2014 and 2025 were compared after 1:1 propensity score matching. Matching variables were age, sex, body mass index, ASA classif",
+      "id": "W7225092094",
+      "url": "https://doi.org/10.21203/rs.3.rs-11039492/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-11039492/latest.pdf",
+      "title": "Robotic Ventral Rectopexy and Sacrocolpopexy with Biologic Mesh in an 88-Year-Old Woman with Crohn’s Disease: A Case Report",
+      "summary": "Abstract Background: There is a paucity of data on the surgical management of multicompartment prolapse in elderly patients with a history of inflammatory bowel disease. Biologic grafts represent an interesting modality to augment these repairs by providing structural support, but mitigating the inherent risks associated with synthetic meshes in these high-risk populations. Case presentation: An 88-year-old white female presented with full thickness rectal prolapse. This was initially managed with robotic-assisted laparoscopic suture rectopexy; however, the patient subsequently developed an is",
       "authors": [
-        "Miljana Vladimirov",
-        "Antoniya Dineva",
-        "Annika Hoyer",
-        "Jens Hoeppner",
-        "Sven Flemming",
-        "Carsten Klinger",
-        "Zsolt Madarasz",
-        "Florian Seyfried"
+        "Jared Bradshaw",
+        "Melissa Hamrick",
+        "Mirelle M Dawoud",
+        "Emily S. Huang",
+        "Lisa C. Hickman",
+        "Lisa A. Cunningham"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -167,17 +354,37 @@
       "trending": 0.0
     },
     {
-      "id": "W7225276222",
-      "url": "https://doi.org/10.1145/3846374.3846394",
-      "pdf": "https://doi.org/10.1145/3846374.3846394",
-      "title": "Design Exploration for Context-Based Access Control of Vision-Language-Action Model-Based Embodied Agents",
-      "summary": "",
+      "id": "W7225097290",
+      "url": "https://doi.org/10.21203/rs.3.rs-11344147/v1",
+      "pdf": "https://www.researchsquare.com/article/rs-11344147/latest.pdf",
+      "title": "Robotic-Assisted Bronchoscopic Lung Cryobiopsy Is Associated With Higher Diagnostic Yield in Diffuse Parenchymal Lung Disease: A Multicenter Retrospective Cohort Study",
+      "summary": "Abstract Background Transbronchial lung cryobiopsy (TBLC) is increasingly used to obtain tissue for the diagnosis of diffuse parenchymal lung disease (DPLD). However, diagnostic performance and complication rates vary with procedural technique and institutional experience. Robotic-assisted bronchoscopy (RAB) with cone-beam computed tomography (CBCT) may improve target localization and parenchymal sampling. Methods We conducted a multicenter retrospective cohort study of 65 adults who underwent TBLC for suspected DPLD at three Mayo Clinic sites between January 2025 and June 2026. Patients under",
       "authors": [
-        "Krutyanjay Shinde",
-        "Dongha Kim",
-        "Hokeun Kim"
+        "JEHAD J AZAR",
+        "Georges Khattar",
+        "Joe Zein",
+        "Muhammad Naeem",
+        "Michael B. Gotway",
+        "Natalya Azadeh",
+        "Roberto P. Benzo",
+        "Yasmeen M. Butt",
+        "Sebastián Fernández-Bussy",
+        "Brandon T. Larsen",
+        "Augustine S. Lee",
+        "Michal M. Reid",
+        "Shehabaldin Alqalyoobi",
+        "Jay Hoon Ryu",
+        "András Khoór",
+        "Eunhee S. Yi",
+        "Maxwell L. Smith",
+        "Karen L. Swanson",
+        "Henry D. Tazelaar",
+        "Laszlo T. Vaszar",
+        "Mohamed Ibraheem",
+        "Hesham Mohamed",
+        "Kenneth K. Sakata"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -185,198 +392,22 @@
       "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
-      "trending": 1.5
+      "trending": 1.0
     },
     {
-      "id": "W7162686841",
-      "url": "https://doi.org/10.3390/diagnostics16213623",
-      "pdf": "https://doi.org/10.3390/diagnostics16213623",
-      "title": "Indocyanine Green and Technetium-99m: CT-Guided Marking of Lung Nodules Before Robotic-Assisted Lung Resection",
-      "summary": "Background/Objectives: For stage I non-small cell lung cancer, surgery remains the cornerstone of treatment and the use of minimally invasive techniques is desirable. The lack of tactile feedback in RATS is a well-known drawback of this approach, so precise identification of the disease is crucial for performing lung resection. Methods: We present our retrospective case history, accounting for 83 patients, which were divided into two groups based on marking technique: 99mTc-MAA (99mTechnetium Albumin Macroaggregates) only (Tech group) (22 cases, 26.5%) and 99mTc-MAA + Indocyanine Green (Tech +",
+      "id": "W4321276740",
+      "url": "https://doi.org/10.1016/j.cosrev.2026.101084",
+      "pdf": "https://doi.org/10.1016/j.cosrev.2026.101084",
+      "title": "Spectral 3D computer vision: A survey of acquisition, representations, learning, and applications",
+      "summary": "Spectral 3D computer vision combines wavelength-resolved measurements with geometric information to support material-aware reconstruction, perception, and scene analysis. However, the literature remains fragmented across hyperspectral and multispectral sensing, cross-spectral depth and pose estimation, spectral point clouds, LiDAR–hyperspectral fusion, and neural scene representations. This survey provides a structured review of the field, covering spectral and geometric acquisition, data representations, calibration and registration, spectral 3D reconstruction, integrated spectral 3D acquisit",
       "authors": [
-        "Francesco Ferrante",
-        "Serena Ricciardi",
-        "Guido Ventroni",
-        "Alessandro Semprebene",
-        "Enrico Pampana",
-        "Luca Bertaccini",
-        "Enrico Melis",
-        "Maria Cristina Macciomei",
-        "Andrea Tornese",
-        "Giuseppe Cardillo"
+        "Ali Zia",
+        "Ali Zia",
+        "Usman Ali",
+        "Charissa Yu",
+        "Jun Wei Zhou"
       ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7170267910",
-      "url": "https://doi.org/10.3390/industries1020012",
-      "pdf": "https://doi.org/10.3390/industries1020012",
-      "title": "Preliminary Evaluation on the Operational Use of Magnetic Connections in the Deployment of a Rapid-Deployment Amphibious Robotic Chassis",
-      "summary": "Project CIPACTLI (Compact Integrated Polymer Amphibian for Coastal and Littoral Investigation) evaluates the operational limits of rare-earth magnetic connections in a cannon-inserted amphibious robotic chassis designed for search-and-rescue (SAR) and environmental monitoring. Two prototype iterations were systematically compared across movement speed, structural loading, and ballistic survivability under combustion-cannon deployment. The first prototype employed a tensegrity-inspired, serpentine soft robot with segmented inflatable buoyancy modules connected via magnetic couplings. A 2³ facto",
-      "authors": [
-        "John LaRocco"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7220555940",
-      "url": "https://openalex.org/W7220555940",
-      "pdf": "https://itip-submit.com/index.php/JIC/article/view/283",
-      "title": "From Robots to Readable Learning Signals: RoboUDL for Inclusive Computational Thinking and STEM Problem-Solving in Greek Classrooms",
-      "summary": "Educational robotics can make STEM reasoning visible, but less is known about how inclusive robotics platforms can combine UDL scaffolding, learning analytics, and teacher-facing interpretation to support computational thinking and STEM problem-solving in mixed classrooms. This study designs and evaluates RoboUDL, a learning analytics-enhanced educational robotics platform for Greek classrooms. Using design science and a quasi-experimental evaluation of matched intervention and waitlist classes, the study analyzed learning outcomes and student perceptions from 288 students, 1,641 mission logs,",
-      "authors": [
-        "Άγγελος Καράμπελας"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7224982929",
-      "url": "https://doi.org/10.25206/2588-0373-2026-10-3-67-77",
-      "pdf": "https://doi.org/10.25206/2588-0373-2026-10-3-67-77",
-      "title": "Effect of adhesive-layer thickness and curing time on the specific breaking force of the adhesive joint in a space debris capture system",
-      "summary": "The article analyses studies on capture systems for large-scale space debris objects based on traditional contact methods, including robotic manipulators, harpoons and nets, as well as on adhesion, dry adhesive materials and adhesive compounds. The paper considers space debris objects with kinetic moments close to zero. For experimental investigation, a class of adhesion-based capture systems using adhesive compounds is selected. The study examines the staging of the process, the selection of adhesive compound characteristics, the formation of efficiency criteria, the surface properties of adh",
-      "authors": [
-        "Кленин Данила Андреевич",
-        "Кленина Екатерина Дмитриевна"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225034900",
-      "url": "https://doi.org/10.2118/236241-ms",
-      "pdf": "",
-      "title": "Revolutionising Asset Performance Management Through Autonomous Robotics and Integrated Digital Platform Intelligence: First Deployment of an ATEX/IECEX-Rated Quadruped Robot in Kuwait",
-      "summary": "Abstract Reliability engineers in operating facilities are increasingly burdened by the manual aggregation of asset health data from disparate sources — process historians, ERP systems, and periodic inspection records — leaving limited capacity for higher-value analysis and decision-making. This paper presents the design and first deployment of an integrated autonomous inspection and asset performance management solution at a Kuwait Oil Company (KOC) facility, delivered through a tripartite collaboration between KOC, SLB and ANYbotics. The core objective was to demonstrate that continuous, rob",
-      "authors": [
-        "Muzahidin Muhamed Salim",
-        "Juan Alvarez",
-        "Ines Graa",
-        "Ian Traboulay",
-        "Mohamed Moinuddin",
-        "Mohammad Al Bishara",
-        "Salem Faisal Al-Omairi",
-        "Murali Krishna Guntuku",
-        "Murali Krishna",
-        "Purnendu Kushwaha"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225038513",
-      "url": "https://doi.org/10.2118/236207-ms",
-      "pdf": "",
-      "title": "A Hybrid Positioning Solution for Machine Control in GPS-Denied Environments: Combining Robotic Total Stations and Gyro Compasses",
-      "summary": "Abstract Modern machine control systems rely on GNSS-based positioning integrated with onboard tilt and inertial sensors to enable high-precision excavation, grading, dredging, and earthmoving operations. However, dependence on satellite-derived position and heading limits operational continuity in environments where GNSS signals are degraded or unavailable. The objective of this work is to develop a GNSS- independent machine control architecture capable of maintaining real-time guidance using existing survey and machine control infrastructure without modification of core machine systems. A hy",
-      "authors": [
-        "Navoranjan Ghosh",
-        "Muhammad Faraz Arshad"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225042451",
-      "url": "https://doi.org/10.2118/236402-ms",
-      "pdf": "",
-      "title": "Advanced Tank Maintenance Technologies in Oil and Gas – Upstream: Robotic De-Sludging, Robotic Coating Removal, Dehumidification, and Drone-Based Inspection for Storage Tank Maintenance",
-      "summary": "Abstract Extended tank outages remain a persistent constraint on upstream field economics, since a drained storage tank that cannot be returned to service quickly translates directly into lost or deferred production. This paper evaluates four maintenance technologies that Petroleum Development Oman PDO introduced to shorten outage windows and reduce confined-space risk during tank cleaning, surface preparation, coating, and inspection: a remotely piloted hydraulic dozer for bottom-sludge removal, a magnetically mounted climbing robot for coating and Glass-Reinforced Epoxy (GRE) stripping, a co",
-      "authors": [
-        "A. Al Jahwari",
-        "M. Al Hakmani",
-        "H. Al Ghafri",
-        "Z. S. Al Habsi"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225044878",
-      "url": "https://doi.org/10.2118/236090-ms",
-      "pdf": "",
-      "title": "Next-Gen Smart Robotic Repair for Aging Subsea Pipelines",
-      "summary": "Abstract Offshore operators worldwide are managing subsea pipeline networks that are advancing well into the latter stages of their design lives, where corrosion-driven wall loss competes directly with the cost and disruption of full replacement. This paper reports an application by ADNOC Offshore of an autonomous, diver-free robotic composite repair on a live 20-in. crude oil pipeline, completed with the line in full operation and without a single diver entering the water. Deployed and operated from surface through remotely operated vehicle (ROV) support, the system formed a controlled habita",
-      "authors": [
-        "S. Kallinkil",
-        "N. Al Shehhi",
-        "Azza Alshhehi",
-        "B. Alkatheeri"
-      ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225052792",
-      "url": "https://doi.org/10.51878/vocational.v7i1.16394",
-      "pdf": "https://jurnalp4i.com/index.php/vocational/article/download/16394/10960",
-      "title": "INTEGRASI GENERATIVE VIDEO DALAM WORKFLOW PRODUKSI VFX FILM PENDEK “SPLIT//SECOND”",
-      "summary": "The rapid advancement of generative video technology presents novel opportunities for visual effects (VFX) asset generation, yet full reliance on artificial intelligence often creates visual inconsistencies, reduced artistic control, and integration barriers with live-action footage. This article aims to analyze the integration of generative video into the VFX post-production workflow of the short film “SPLIT//SECOND” and evaluate its effectiveness relative to conventional computer-generated imagery (CGI) practices. Employing a practice-based research methodology, the production applied a hybr",
-      "authors": [
-        "Audie Jonathan Prawira",
-        "Aprilina Dwi Astuti",
-        "Isnaeni Nurrohmah"
-      ],
-      "published": "2026-11-02",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -387,37 +418,22 @@
       "trending": 0.0
     },
     {
-      "id": "W7225076123",
-      "url": "https://doi.org/10.63580/iti.fi.45796",
-      "pdf": "https://doi.org/10.63580/iti.fi.45796",
-      "title": "Research Spotlight 7 - Comparative Trueness of Static, Dynamic, and Robotic Computer-Assisted Implant Surgery: A Comprehensive Umbrella Review",
-      "summary": "A series that provides concise summaries of high-impact studies, offering a clear and accessible overview of the latest evidence.",
+      "id": "W7161280307",
+      "url": "https://doi.org/10.1145/3799682.3840110",
+      "pdf": "https://doi.org/10.1145/3799682.3840110",
+      "title": "Efficient Generative Retrieval for E-commerce Search with Semantic Cluster IDs and Expert-Guided RL",
+      "summary": "Generative retrieval offers a promising alternative by unifying the multi-stage retrieval process into a single end-to-end model. However, its practical adoption in industrial e-commerce search remains challenging, given the massive and dynamic product catalogs, strict latency requirements, and the need to align retrieval with downstream ranking goals. In this work, we propose a retrieval framework tailored for real-world recall scenarios, positioning generative retrieval as a recall-stage supplement rather than an end-to-end replacement. Our method, CQ-SID (Category-and-Query constrained Sema",
       "authors": [
-        "Asbjørn Jokstad"
+        "Jianbo Zhu",
+        "Xing Fang",
+        "Jing Wang",
+        "Mingmin Jin",
+        "Bokang Wang",
+        "Guangxin Song",
+        "Zhenyu Xie",
+        "Junjie Bai"
       ],
-      "published": "2026-11-02",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225273745",
-      "url": "https://doi.org/10.1186/s44147-026-01293-z",
-      "pdf": "https://doi.org/10.1186/s44147-026-01293-z",
-      "title": "Model-based graph reinforcement learning for robust cyber-attack defense in active distribution systems with high DER penetration",
-      "summary": "Abstract This paper presents a model-based graph reinforcement learning (MBGRL) framework for defending active distribution systems with high penetrations of distributed energy resources (DERs) against cyber-physical threats, particularly false data injection attacks (FDIAs). The proposed approach integrates a learned power-flow surrogate model with a graph neural network (GNN) policy to accelerate convergence, reduce simulator dependence, and capture the spatial structure of distribution networks. Adversarial scenario training further enhances robustness under coordinated load-altering attack",
-      "authors": [
-        "Lili Mou",
-        "Zhaona Wang",
-        "Lining Wang",
-        "Xuepeng Li"
-      ],
-      "published": "2026-11-05",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -428,16 +444,18 @@
       "trending": 0.0
     },
     {
-      "id": "W7225072883",
-      "url": "https://doi.org/10.1007/s10614-026-11461-1",
-      "pdf": "",
-      "title": "Portfolio Management Using Actor-Critic Deep Reinforcement Learning with Piotroski F-Score: Evidence from the Dow Jones Industrial Average Index",
-      "summary": "",
+      "id": "W7171544101",
+      "url": "https://doi.org/10.1145/3799682.3840145",
+      "pdf": "https://doi.org/10.1145/3799682.3840145",
+      "title": "Label-free Industrial Fault Detection via Adversarial Inverse Reinforcement Learning: A System for Run-to-Failure Prognostics",
+      "summary": "Machinery fault detection (MFD) remains heavily reliant on supervised learning, which struggles with the scarcity of fault labels in real-world settings. While reinforcement learning (RL) offers a framework to model the sequential nature of degradation, current ''RL-based'' MFD methods reduce the problem to a static contextual bandit (CB) formulation: by ignoring state transitions and discarding the temporal discount factor, they collapse to standard supervised classification. We propose an adversarial inverse reinforcement learning (AIRL) framework that treats MFD as an offline IRL problem. U",
       "authors": [
-        "Woosik Lee",
-        "Juhwan Lee"
+        "Dhiraj Neupane",
+        "Mohamed Reda Bouadjenek",
+        "Richard Dazeley",
+        "Sunil Aryal"
       ],
-      "published": "2026-11-02",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -448,86 +466,109 @@
       "trending": 0.0
     },
     {
-      "id": "W7225037022",
-      "url": "https://doi.org/10.2118/235300-ms",
-      "pdf": "",
-      "title": "Edge AI Vision Camera Intelligence and Autonomous Mobile Robots (AMRs) for Real-Time Industrial Safety Monitoring in Oil & Gas Facilities",
-      "summary": "Abstract Objectives/Scope Oil & gas operations require continuous monitoring of safety compliance and high risk anomalies; however, conventional supervision and manual CCTV monitoring are constrained by limited coverage, delayed detection, and inconsistent enforcement. This paper presents an AI-based industrial safety monitoring framework for edge computer vision analytics and Autonomous Mobile Robots (AMRs) to enable real-time detection of safety violations and hazardous conditions. Methods, Procedures, Process The proposed solution integrates deep learning-based video analytics with existing",
+      "id": "W7202395206",
+      "url": "https://doi.org/10.1145/3799682.3840842",
+      "pdf": "https://doi.org/10.1145/3799682.3840842",
+      "title": "Learning from Unreachable Rewards: Hint-Conditioned Reinforcement Learning for Generative Recommendation",
+      "summary": "Semantic-ID generative recommenders represent each item as a short sequence of discrete semantic tokens and predict the next item by autoregressively generating this token sequence. This paradigm enables a unified generation interface for item IDs, histories, and item text, but it also creates a structured optimization bottleneck during reward-based post-training: when an early semantic token enters the wrong branch of the item-token space, finite rollout groups rarely reach the ground-truth item, so group-relative optimization receives identical zero rewards and produces no useful advantage. ",
       "authors": [
-        "A. B. V. Dilip"
+        "Kangning Zhang",
+        "Haotian Fang",
+        "Xukun Luo",
+        "Hao Yin",
+        "Yang Gao",
+        "Peng Yan",
+        "Weiwen Liu",
+        "Weinan Zhang",
+        "Yong Yu"
       ],
-      "published": "2026-11-02",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7225043373",
-      "url": "https://doi.org/10.2118/235777-ms",
-      "pdf": "",
-      "title": "From Passive Video Surveillance to Scalable HSE Intelligence: Field Lessons from AI-CCTV Validation in a Harsh Desert Oil Field",
-      "summary": "Abstract At remote oil and gas facilities, closed-circuit television still relies on a person watching live views and searching stored footage after an event. As camera counts rise, that arrangement misses brief, distant, partly hidden, or visually ambiguous events more easily. This paper examines field validation of an artificial intelligence (AI)-enabled closed-circuit television (CCTV) system, referred to here as AI-CCTV, in a large onshore field exposed to intense sunlight, glare, dust, long viewing distances, low-light conditions, sparse infrastructure, and a mix of fixed optical and movi",
+      "id": "W7203867589",
+      "url": "https://doi.org/10.1145/3799682.3840101",
+      "pdf": "https://doi.org/10.1145/3799682.3840101",
+      "title": "SSR-GRPO: Integrating Supervision and Semantic IDs into Reinforcement Learning for Dense Retrieval in E-commerce",
+      "summary": "Embedding-based retrieval (EBR) is a prevailing method in modern e-commerce search, retrieving relevant items from billions of candidates in response to users' queries. While recent methods often fine-tune large language models (LLMs) for representation learning, they typically lack robust mechanisms for handling complex and implicit semantics. To address this, Retrieval-GRPO (R-GRPO) was recently proposed as a multi-objective Reinforcement Learning (RL) framework for dense retrieval. It computes rewards using top- K items dynamically retrieved per query. While this approach partially mitigate",
       "authors": [
-        "Jiafeng Xu",
-        "Xing Zhao",
-        "Shuisheng Zhou",
-        "Wei Xiao",
-        "Lian Wang",
-        "Benchao Li",
-        "Rui Deng"
+        "Guangxin Song",
+        "Xing Fang",
+        "Mingmin Jin",
+        "Jing Wang",
+        "Bokang Wang",
+        "Zhentao Song",
+        "Junjie Bai",
+        "Jianbo Zhu"
       ],
-      "published": "2026-11-02",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7225049833",
-      "url": "https://doi.org/10.2118/235661-ms",
-      "pdf": "",
-      "title": "AI-Driven Video Analytics and Behavioral Safety Intelligence: Enhancing Human-Centered Operational Adaptation in Offshore Support Vessels",
-      "summary": "Computer vision and artificial intelligence (AI) are increasingly used in industrial Health, Safety, and Environment (HSE) management to detect missing personal protective equipment (PPE), restricted-zone entries, and line-of-fire exposure. Early offshore and industrial deployments established the technical feasibility of real-time edge processing and automated safety monitoring (Almadhoun et al. 2020; Tamaazousti et al. 2022). A practical challenge emerges when these systems are scaled across multiple assets: large volumes of detections must be converted into operationally meaningful informat",
+      "id": "W7212144472",
+      "url": "https://doi.org/10.1145/3799682.3840882",
+      "pdf": "https://doi.org/10.1145/3799682.3840882",
+      "title": "Hierarchical and Permutation-Invariant Feature Transformation Learning via Policy-Guided Embedding Search",
+      "summary": "Feature transformation improves predictive performance on tabular data by constructing informative abstractions from raw features. Recent generative approaches encode transformation knowledge into continuous embedding spaces for efficient exploration of candidate strategies, but face three key limitations: 1) overlooking hierarchical relationships between low-level features, operations, and high-level abstractions; 2) enforcing order-sensitive embeddings on inherently permutation-invariant transformation sequences, introducing systematic bias; and 3) relying on gradient-based search ill-suited",
       "authors": [
-        "Piani Raquel",
-        "Oliveira Luís"
+        "Rui Liu",
+        "Tao Zhe",
+        "Yanyong Huang",
+        "Sankha Narayan Guria",
+        "Xiao Luo",
+        "Wei Fan",
+        "Yanjie Fu",
+        "Dongjie Wang"
       ],
-      "published": "2026-11-02",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7131486881",
-      "url": "https://openalex.org/W7131486881",
-      "pdf": "",
-      "title": "Contract Law and Computational Manipulation:AI and Consent in the Age of Hypernudging",
-      "summary": "This book addresses an underexplored issue in contract law: the legal implications of Computational Manipulation (CM), a form of AI-led influence also known as second-generation dark pattern that bypasses rational deliberation and targets decision-making processes. Although prohibited under Article 5 of the newly adopted EU AI Act, the impact of CM on contract law remains an under-researched legal grey area at the EU Member States' level, and even more in jurisdictions such as England and Wales, where the Act does not apply. This book takes an interdisciplinary approach, drawing on law, cognit",
+      "id": "W7225076091",
+      "url": "https://doi.org/10.1145/3799682.3840154",
+      "pdf": "https://doi.org/10.1145/3799682.3840154",
+      "title": "TUGB: A Two-stage Uncertainty-aware Generative Auto-Bidding Framework",
+      "summary": "Generative modeling, particularly Decision Transformers, shows promise in auto-bidding strategies. However, it struggles with limited exploration in static offline datasets, vulnerability to dynamic environmental shifts, and a reliance on heuristic return-to-go (RTG) specifications that may yield suboptimal performance on unseen traffic. To address these challenges, we propose the Two-stage Uncertainty-aware Generative Auto-Bidding (TUGB) framework. TUGB integrates generative sequence modeling with Reinforcement Learning (RL). It employs a two-stage pipeline where a pre-trained Generative Bidd",
       "authors": [
-        "Stefano Faraoni"
+        "Luzhan Yuan",
+        "Chao Mi",
+        "Xiahao Shi",
+        "Yi Mao",
+        "Shengsheng Niu",
+        "Xin Zhu",
+        "Jie He",
+        "Zhangang Lin",
+        "Ching Law"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-03",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     }
   ]
