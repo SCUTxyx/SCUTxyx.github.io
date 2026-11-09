@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 23:18 UTC",
+  "generated_at": "2026-11-09 23:13 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,33 +9,132 @@
   "count": 24,
   "papers": [
     {
-      "id": "W4417291118",
-      "url": "https://doi.org/10.1002/aisy.70594",
-      "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aisy.70594",
-      "title": "A Hierarchical, Model‐Based System for High‐Performance Humanoid Soccer",
-      "summary": "The development of athletic humanoid robots has gained increasing attention as advances in actuation, sensing, and control enable increasingly dynamic and practical capabilities. RoboCup, an international competition for fully autonomous robotic systems, provides a challenging benchmark for embodied intelligence, requiring robots to perceive, decide, and act in uncertain and dynamic scenarios. This paper presents the hardware and software innovations underlying an open‐source humanoid platform validated in RoboCup 2024. The hardware features lightweight structural components, quasi‐direct‐driv",
+      "id": "W7154511410",
+      "url": "https://doi.org/10.1145/3767308.3835078",
+      "pdf": "https://doi.org/10.1145/3767308.3835078",
+      "title": "Robotic Manipulation is Vision-to-Geometry Mapping: Vision-Geometry Backbones over Language and Video Models",
+      "summary": "At its core, robotic manipulation is a problem of vision-to-geometry mapping (f(v) \\rightarrow G). Physical actions—such as reaching, grasping, and orienting—are fundamentally defined by geometric properties like 3D positions, rotations, and spatial relationships. Consequently, we argue that the foundation for generalizable robotic control should be a vision-geometry backbone, rather than the widely adopted vision-language or video models. Conventional Vision-Language-Action (VLA) and video-predictive models rely on backbones pretrained on large-scale 2D image-text or temporal pixel data. Whil",
       "authors": [
-        "Quanyou Wang",
-        "Mingzhang Zhu",
-        "Ruochen Hou",
-        "Kay Gillespie",
-        "Alvin Zhu",
-        "Shiqi Wang",
-        "Yicheng Wang",
-        "Gabriel I. Fernandez",
-        "Yeting Liu",
-        "Colin Togashi",
-        "Hyunwoo Nam",
-        "Aditya Navghare",
-        "Alex Xu",
-        "Taoyuanmin Zhu",
-        "Min Sung Ahn",
-        "Arturo Flores Alvarez",
-        "Justin J. Quan",
-        "Ethan Hong",
-        "Dennis W. Hong"
+        "Zijian Song",
+        "Qiaobo Li",
+        "Jiawei Zhou",
+        "Zhenlong Yuan",
+        "Tianshui Chen",
+        "Liang Lin",
+        "Guangrun Wang"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 21.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7128511099",
+      "url": "https://doi.org/10.1145/3767308.3835436",
+      "pdf": "https://doi.org/10.1145/3767308.3835436",
+      "title": "TwinRL: Digital Twin–Driven Reinforcement Learning for Real-World Robotic Manipulation",
+      "summary": "Despite strong generalization capabilities, Vision-Language-Action (VLA) models remain constrained by the high cost of expert demonstrations and limited real-world interaction. While online reinforcement learning (RL) has shown promise, its application to real-world VLA manipulation is hindered by low exploration efficiency and restricted exploration coverage. Through systematic real-world experiments, we observe that the effective exploration space of online RL is largely constrained by the trajectory distribution induced during supervised fine-tuning (SFT). Motivated by this observation, we ",
+      "authors": [
+        "Qinwen Xu",
+        "Jiaming Liu",
+        "Rui Zhou",
+        "Shaojun Shi",
+        "Nuowei Han",
+        "Zhuoyang Liu",
+        "Chenyang Gu",
+        "Shuo Gu",
+        "Yang Yue",
+        "Gao Huang",
+        "Wenzhao Zheng",
+        "Sirui Han",
+        "Peng Jia",
+        "Shanghang Zhang"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 15.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7138486001",
+      "url": "https://doi.org/10.1145/3767308.3835774",
+      "pdf": "https://doi.org/10.1145/3767308.3835774",
+      "title": "Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models",
+      "summary": "Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for robotic manipulation, in which reliable action prediction critically depends on accurately interpreting and integrating visual observations conditioned on language instructions. Although recent works have sought to enhance the visual capabilities of VLA models, most approaches treat the LLM backbone as a black box, providing limited insight into how visual information is grounded into action generation. Therefore, we perform a systematic analysis of multiple VLA models across different action-generation parad",
+      "authors": [
+        "Yulin Luo",
+        "Hao Chen",
+        "Zhuangzhe Wu",
+        "Bowen Sui",
+        "Jiaming Liu Jiaming Liu",
+        "Chenyang Gu",
+        "Zhuoyang Liu",
+        "Peng Jia",
+        "Pheng‐Ann Heng",
+        "Shanghang Zhang"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 15.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7148888202",
+      "url": "https://doi.org/10.1145/3767308.3835133",
+      "pdf": "https://doi.org/10.1145/3767308.3835133",
+      "title": "Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models",
+      "summary": "Vision-language-action (VLA) models have shown strong performance in robotic manipulation, yet their robustness to physically realizable adversarial attacks remains underexplored. Existing studies reveal vulnerabilities through language perturbations and 2D visual attacks, but these attack surfaces are either less representative of real deployment or limited in physical realism. In contrast, adversarial 3D textures pose a more physically plausible and damaging threat, as they are naturally attached to manipulated objects and are easier to deploy in physical environments. Bringing adversarial 3",
+      "authors": [
+        "Jiawei Chen",
+        "Simin Huang",
+        "Jiawei Du",
+        "Shuaihang Chen",
+        "Yu Tian",
+        "Mingjie Wei",
+        "Chao Yu",
+        "Zhaoxia Yin"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 15.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7151001705",
+      "url": "https://doi.org/10.1145/3767308.3835299",
+      "pdf": "https://doi.org/10.1145/3767308.3835299",
+      "title": "Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA",
+      "summary": "Vision-Language-Action (VLA) models, as large foundation models for embodied control, have shown strong performance in manipulation tasks. However, their performance comes at high inference cost. To improve efficiency, recent methods adopt action chunking, which predicts a sequence of future actions for open-loop execution. Although effective for reducing computation, open-loop execution is sensitive to environmental changes and prone to error accumulation due to the lack of close-loop feedback. To address this limitation, we propose Speculative Verification for VLA Control (SV-VLA), a framewo",
+      "authors": [
+        "Zihua Wang",
+        "Zhitao Lin",
+        "Ruibo Li",
+        "Yu Zhang",
+        "Xu Yang",
+        "Siya Mi",
+        "Xiu-Shen Wei"
+      ],
+      "published": "2026-11-06",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -43,502 +142,366 @@
       "score": 12.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
+      "trending": 4.5
+    },
+    {
+      "id": "W7128383130",
+      "url": "https://doi.org/10.1371/journal.pdig.0001801",
+      "pdf": "https://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0001801&type=printable",
+      "title": "The impact of temporal resampling on the safety of clinical reinforcement learning: A simulated trial",
+      "summary": "Reinforcement learning (RL) is a type of artificial intelligence for making optimal choices. In healthcare, researchers generally use offline RL (ORL), where models are trained and evaluated from retrospective observational data. To accommodate naturally irregular clinical records, researchers often resample the data into uniform time intervals before training (known as binning). However, binning may create counterfactual trajectories that do not represent clinical practice. We first quantified these distortions in patients receiving continuous insulin infusions in the MIMIC-IV intensive care ",
+      "authors": [
+        "Thomas Frost",
+        "Hrisheekesh Jayant Vaidya",
+        "Steve Harris"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7164810449",
+      "url": "https://doi.org/10.1145/3767308.3835276",
+      "pdf": "https://doi.org/10.1145/3767308.3835276",
+      "title": "HPSv3++: Scaling Reward Models Across the Full Spectrum of Diffusion Model Capabilities",
+      "summary": "Reward models guide text-to-image (T2I) systems toward outputs aligned with human preferences. However, typical reward models such as HPSv3 are trained on pre-annotated data from earlier T2I models, without accounting for quality discriminative shifts arising from evolving model capabilities and reinforcement learning (RL) iterations, limiting their broader applicability. In this work, we propose HPSv3++, a reward model framework that elevates the HPSv3 model for varying T2I model capabilities and their RL iteration changes across the full capability-iteration spectrum. Specifically, we first ",
+      "authors": [
+        "Yijun Liu",
+        "J W Huang",
+        "Zeyue Xue",
+        "Yuming Li",
+        "Ruizhe He",
+        "Siming Fu"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7202150354",
+      "url": "https://doi.org/10.1145/3767308.3835227",
+      "pdf": "https://doi.org/10.1145/3767308.3835227",
+      "title": "Explore or Converge? Stage-Guided Per-Step Optimization for Diffusion Models",
+      "summary": "Diffusion models have strong generative capabilities. However, their maximum likelihood training objective only focuses on reconstructing the data distribution, making it difficult to align with specific preferences. Reinforcement learning (RL) for preference alignment in diffusion models is promising but limited by reward sparsity. Since a single reward cannot support optimization, existing RL methods usually backpropagate the final reward to all previous steps. However, denoising is stage-wise, with distinct semantics and controllability. Repeating the final reward across all steps creates a",
+      "authors": [
+        "Renye Yan",
+        "Jikang Cheng",
+        "You Wu",
+        "Wei Peng",
+        "Zongwei Wang",
+        "Ling Liang",
+        "Yimao Cai"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7164026271",
+      "url": "https://doi.org/10.1145/3767308.3835362",
+      "pdf": "https://doi.org/10.1145/3767308.3835362",
+      "title": "Dream-Tac: A Unified Tactile World Action Model for Contact-Rich Robot Manipulation",
+      "summary": "World action models inherit the predictive capability of world models, enabling action generation to be guided by anticipated future observations. However, they rely primarily on vision and often fail in contact-rich manipulation, where critical cues arise from physical interaction. In this paper, we propose Dream-Tac, a unified Tactile-World Action Model that jointly models actions, future visual observations, and tactile dynamics. Specifically, Dream-Tac introduces (i) contact-gated visuotactile fusion to selectively integrate tactile signals and (ii) a contact-aware attention bias to better",
+      "authors": [
+        "Yunfan Lou",
+        "Yifan Ye",
+        "Yankai Fu",
+        "Jun Cen",
+        "Xiaowei Chi",
+        "Yaoxu Lyu",
+        "Peidong Jia",
+        "Sirui Han",
+        "Zhihe Lu",
+        "Shanghang Zhang"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7169782381",
+      "url": "https://doi.org/10.1145/3767308.3835547",
+      "pdf": "https://doi.org/10.1145/3767308.3835547",
+      "title": "Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision-Language guided Egocentric 3D Hand Pose Forecasting",
+      "summary": "Perceiving multimodal cues and forecasting fine-grained actions from an egocentric (Ego) perspective is vital for applications like robot manipulation. However, previous studies either rely mainly on under-informed visual inputs to predict coarse human motions or follow the VRM/VLA paradigm, which suffers from insufficient robot data and the gap between human and robot embodiments. We observe that 3D hand pose naturally serves as a unified representation to bridge human-robot actions. Hence, we investigate an under-explored Vision-Language guided Egocentric 3D Hand Pose Forecasting (VL-EHPF) t",
+      "authors": [
+        "Zhaofeng Shi",
+        "Heqian Qiu",
+        "Lanxiao Wang",
+        "Xiang Li",
+        "Hongliang Li"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7225321508",
+      "url": "https://doi.org/10.1186/s42836-026-00444-0",
+      "pdf": "https://link.springer.com/content/pdf/10.1186/s42836-026-00444-0.pdf",
+      "title": "Distinguishing artificial intelligence from robotic execution in total knee arthroplasty: a narrative review and evidence map",
+      "summary": "PURPOSE: Artificial intelligence (AI) and machine-learning methods are increasingly discussed in relation to robotic-assisted total knee arthroplasty (TKA). However, robotic assistance, computer navigation, and AI-based prediction represent distinct functions that are often conflated under the single label \"AI-assisted robotic TKA,\" obscuring the state of evidence for each. This review clarifies these distinctions and maps the current evidence for AI-related functions across the TKA pathway, keeping AI prediction evidence analytically separate from robotic execution evidence at the level of ea",
+      "authors": [
+        "Muhammad Adil Malik",
+        "Song Wu",
+        "Wenxiu Zhang",
+        "Junjie Huang",
+        "Xu Cao"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7152883686",
+      "url": "https://doi.org/10.1145/3767308.3835275",
+      "pdf": "https://doi.org/10.1145/3767308.3835275",
+      "title": "MAR-GRPO: Stabilized GRPO for AR-diffusion Hybrid Image Generation",
+      "summary": "Reinforcement learning (RL) has been successfully applied to autoregressive (AR) and diffusion models. However, extending RL to hybrid AR--diffusion frameworks remains challenging due to interleaved inference and noisy log-probability estimation. In this work, we study masked autoregressive models (MAR) and show that the diffusion head plays a critical role in training dynamics, often introducing noisy gradients that lead to instability and early performance saturation. To address this issue, we propose a stabilized RL framework for MAR. We introduce multi-trajectory expectation (MTE), which e",
+      "authors": [
+        "Xiaoxiao Ma",
+        "Jiachen Lei",
+        "Tianfei Ren",
+        "Jie Huang",
+        "Siming Fu",
+        "Aiming Hao",
+        "Jiahong Wu",
+        "Xiangxiang Chu",
+        "Feng Zhao"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225326063",
+      "url": "https://doi.org/10.4271/2026-99-0620",
+      "pdf": "",
+      "title": "Run Time Assurance Filter Framework for Collision Avoidance of Unmanned Aerial Vehicles Using Reinforcement Learning",
+      "summary": "In recent years, Reinforcement Learning (RL) has been increasingly applied to the collision avoidance systems of Unmanned Aerial Vehicles (UAVs) due to its high performance in complex tasks and relatively low online computational cost. Despite these advantages, the lack of interpretability in RL and decision-making processes poses significant challenges to safety verification, which severely limits the practical deployment of RL-based autonomous flight systems in safety-critical scenarios. Ensuring safety during both training and testing remains the key for real-world applications. To address ",
+      "authors": [
+        "Zan Ma",
+        "Liqin Yan",
+        "Jie Bai",
+        "Yubin Liu",
+        "Shuguang Sun"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225573268",
+      "url": "https://doi.org/10.5370/kiee.2026.75.11.3090",
+      "pdf": "",
+      "title": "Derivation and Verification of Minimum Design Requirements for an Evaluation Treadmill Based on Humanoid Robot Specifications Analysis",
+      "summary": "",
+      "authors": [
+        "Hyun-Bin Lim",
+        "Seok-Min Hong",
+        "Hyo-Seok Oh",
+        "Tae-Hyun Lee",
+        "Ji-Won Hwang",
+        "Jae-Won Lim",
+        "No-Geon Jung"
+      ],
+      "published": "2026-11-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7225595311",
+      "url": "https://doi.org/10.1007/s11701-026-04173-z",
+      "pdf": "",
+      "title": "Correction: Maximum peri-prostatic anatomy preserving-robotic assisted laparoscopic radical prostatectomy with the da Vinci Si/Xi Surgical System: surgical learning curve evaluation and outcomes",
+      "summary": "",
+      "authors": [
+        "Lu Liu",
+        "Run-long Wang",
+        "Chun-Yang Wu",
+        "Bi-Shao Sun",
+        "Xing Luo",
+        "Yu Xiao",
+        "Shi-Cheng Tian",
+        "Zhiwen Chen",
+        "Shuai Su",
+        "Jingzhen Zhu",
+        "Jin-Chun Qi",
+        "Ji Zheng"
+      ],
+      "published": "2026-11-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 2.0
+    },
+    {
+      "id": "W7225600029",
+      "url": "https://doi.org/10.1007/s11701-026-04140-8",
+      "pdf": "",
+      "title": "Robotic-assisted total knee arthroplasty: a narrative review of resection accuracy and individualized soft-tissue balance",
+      "summary": "",
+      "authors": [
+        "Lei Shen",
+        "Chenjun Zhai",
+        "Tao Jiang",
+        "Yong Wang"
+      ],
+      "published": "2026-11-09",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W4407308519",
+      "url": "https://doi.org/10.1145/3767308.3835627",
+      "pdf": "https://doi.org/10.1145/3767308.3835627",
+      "title": "EmoBench-M: Benchmarking Emotional Intelligence for Multimodal Large Language Models",
+      "summary": "With the integration of multimodal large language models (MLLMs) into robotic systems and AI applications, embedding emotional intelligence (EI) capabilities is essential for enabling these models to perceive, interpret, and respond to human emotions effectively in real-world scenarios. Existing static, text-based, or text-image benchmarks overlook the multimodal complexities of real interactions and fail to capture the dynamic, context-dependent nature of emotional expressions, rendering them inadequate for evaluating MLLMs' EI capabilities. To address these limitations, we introduce EmoBench",
+      "authors": [
+        "He Hu",
+        "Lianzhong You",
+        "Hongbo Xu",
+        "Qianning Wang",
+        "Fei Richard Yu",
+        "Fei Ma",
+        "Zebang Cheng",
+        "Zheng Lian",
+        "Yucheng Zhou",
+        "Laizhong Cui"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W4416946806",
+      "url": "https://doi.org/10.1145/3767308.3835132",
+      "pdf": "https://doi.org/10.1145/3767308.3835132",
+      "title": "CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving",
+      "summary": "Vision-Language-Action (VLA) models have recently attracted growing attention in end-to-end (E2E) autonomous driving. While recent works have begun exploring Chain-of-Thought (CoT) reasoning to decompose complex driving tasks, they predominantly rely on purely textual reasoning. Driving, however, is an inherently spatial and physical task. Textual-only CoT struggles to capture dynamic geometric changes, frequently leading to numerical hallucinations and unreliable trajectory planning. To bridge the gap between semantic reasoning and the physical action space, we propose CoT4AD, a novel VLA fra",
+      "authors": [
+        "Zhaohui Wang",
+        "Tengbo Yu",
+        "Hao Tang"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 3.0
     },
     {
-      "id": "W7133330820",
-      "url": "https://doi.org/10.1145/3767308.3836459",
-      "pdf": "https://doi.org/10.1145/3767308.3836459",
-      "title": "Non-Markovian Long-Horizon Robot Manipulation via Keyframe Chaining",
-      "summary": "Existing Vision-Language-Action (VLA) models often struggle to generalize to long-horizon tasks due to their heavy reliance on immediate observations. While recent studies incorporate retrieval mechanisms or extend context windows to handle procedural tasks, they often struggle to capture Non-Markovian dependencies, where optimal actions cannot be determined solely by the current observation, but rely on specific past states. To address this, we introduce Keyframe-Chaining VLA, a framework that extracts and links key historical frames to model long-horizon dependencies. Specifically, we propos",
+      "id": "W4417152681",
+      "url": "https://doi.org/10.1145/3767308.3835005",
+      "pdf": "https://doi.org/10.1145/3767308.3835005",
+      "title": "ARFlow: Real-time Human Action-Reaction Synthesis with Reprojection Guidance",
+      "summary": "Human action-reaction synthesis, a fundamental challenge in modeling online causal human interactions, plays a critical role in applications ranging from virtual reality to social robotics. While diffusion-based models have demonstrated promising performance, they exhibit two key limitations for interaction synthesis: reliance on complex noise-to-reaction generators with intricate conditional mechanisms, thus limiting to unidirectional generation, and frequent body penetrations in generated motions. To address these issues, we propose Action-Reaction Flow Matching (\\methodname), a novel paradi",
       "authors": [
-        "Yipeng Chen",
-        "Wentao Tan",
-        "Lei Zhu (16642)",
+        "Wentao Jiang",
+        "Jingya Wang",
+        "Kaiyang Ji",
+        "Baoxiong Jia",
+        "Siyuan Huang",
+        "Ye Shi"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7106700227",
+      "url": "https://doi.org/10.1145/3767308.3835716",
+      "pdf": "https://doi.org/10.1145/3767308.3835716",
+      "title": "ActDistill: General Action-Guided Self-Derived Distillation for Efficient Vision-Language-Action Models",
+      "summary": "Recent Vision-Language-Action (VLA) models have shown impressive flexibility and generalization, yet their practical deployment remains limited by substantial computational overhead and inference latency. In this work, we present ActDistill, a general action-guided self-derived distillation framework that transfers the action prediction capability of a full-scale VLA model to a lightweight counterpart. Unlike previous efficiency approaches that primarily focus on vision-language correlations, ActDistill explicitly leverages action priors to guide knowledge transfer and model compression, achie",
+      "authors": [
+        "Wencheng Ye",
+        "Tianshi Wang",
         "Fengling Li",
-        "Guoli Yang",
-        "Lei Zhu"
+        "Lei Zhu",
+        "Heng Tao Shen"
       ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7225463825",
-      "url": "https://doi.org/10.5281/zenodo.24045871",
-      "pdf": "https://doi.org/10.5281/zenodo.24045871",
-      "title": "Offline RL: From Theory to Industrial Practice",
-      "summary": "Applied notes on offline reinforcement learning, in English and Russian: behavioral cloning, off-policy evaluation, conservative and implicit value learning, policy constraints, Decision Transformers, model-based methods, physics-informed control, an industrial case study with multi-seed ablations, explainability, and tool-using LLM agents, with runnable PyTorch code for every chapter. This archive contains the book's Markdown and HTML sources in both languages, the code, the saved experiment results and, attached to the release, the PDF of the English edition. Text and figures are licensed un",
-      "authors": [
-        "Artem Zvyagintsev"
-      ],
-      "published": "2026-11-08",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7117974136",
-      "url": "https://doi.org/10.1145/3767308.3836406",
-      "pdf": "https://doi.org/10.1145/3767308.3836406",
-      "title": "Evolving, Not Training: Training-Free Reasoning Segmentation via Evolutionary Prompting",
-      "summary": "Reasoning Segmentation requires models to interpret complex, context-dependent linguistic queries to achieve pixel-level localization. Current dominant approaches rely heavily on Supervised Fine-Tuning (SFT) or Reinforcement Learning (RL). However, SFT suffers from catastrophic forgetting and domain dependency, while RL is often hindered by training instability and rigid reliance on predefined reward functions. To break the bottleneck of static inference paradigms, we propose EVOL-SAM3, a zero-shot framework that reformulates reasoning segmentation as a dynamic inference-time optimization prob",
-      "authors": [
-        "Kai Ye",
-        "Xiaotong You",
-        "Jianghang Lin",
-        "Jiayi Ji",
-        "Pingyang Dai",
-        "Liujuan Cao"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7155358834",
-      "url": "https://doi.org/10.1145/3767308.3836276",
-      "pdf": "https://doi.org/10.1145/3767308.3836276",
-      "title": "SSL-R1: Self-Supervised Visual Reinforcement Post-Training for Multimodal Large Language Models",
-      "summary": "Reinforcement learning (RL) with verifiable rewards (RLVR) has demonstrated the great potential of enhancing the reasoning abilities in multimodal large language models (MLLMs). However, the reliance on language-centric priors and expensive manual annotations prevents MLLMs' intrinsic visual understanding and scalable reward designs. In this work, we introduce SSL-R1, a generic self-supervised RL framework that derives verifiable rewards directly from images. To this end, we revisit self-supervised learning (SSL) in visual domains and reformulate widely-used SSL tasks into a set of verifiable ",
-      "authors": [
-        "Jiahao Xie",
-        "Alessio Tonioni",
-        "Nathalie Rauschmayr",
-        "Federico Tombari",
-        "Bernt Schiele"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7129420311",
-      "url": "https://doi.org/10.1145/3767308.3836083",
-      "pdf": "https://doi.org/10.1145/3767308.3836083",
-      "title": "HiST-VLA: A Hierarchical Spatio-Temporal Vision-Language-Action Model for Embodied and Interpretable Autonomous Driving",
-      "summary": "Contemporary embodied multimedia systems demand agents capable of seamlessly bridging high-dimensional sensory streams, complex natural language instructions, and precise physical interactions. While Vision-Language-Action (VLA) models show promise in this direction, their deployment in safety-critical, real-time scenarios like autonomous driving is constrained by inefficient processing of redundant visual tokens, weak 3D spatial grounding, and an opaque semantic-to-control gap. We propose HiST-VLA, a hierarchical and spatio-temporal VLA framework specifically designed to handle the rigorous m",
-      "authors": [
-        "Yiru Wang",
-        "Zichong Gu",
-        "Yu Gao",
-        "An-Qing Jiang",
-        "Shuo Wang",
-        "Yuwen Heng",
-        "Hao Sun"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 5.0
-    },
-    {
-      "id": "W7141396159",
-      "url": "https://doi.org/10.1145/3767308.3836069",
-      "pdf": "https://doi.org/10.1145/3767308.3836069",
-      "title": "MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation",
-      "summary": "Vision-Language-Action (VLA) models map visual observations and natural-language instructions to robot actions; however, hierarchical and autoregressive paradigms often incur architectural overhead, accumulate long-horizon errors, and require auxiliary modules to capture environment dynamics. To this end, we present MMaDA-VLA, a fully native, pretrained discrete diffusion VLA that unifies multi-modal understanding and generation. Specifically, MMaDA-VLA uses a shared discrete token space to jointly denoise a future goal observation and an action chunk, grounding actions in predicted visual out",
-      "authors": [
-        "Yang Liu",
-        "Pengxiang Ding",
-        "Tengyue Jiang",
-        "Xudong Wang",
-        "Wenxuan Song",
-        "Minghui Lin",
-        "Han Zhao",
-        "Hongyin Zhang",
-        "Zifeng Zhuang",
-        "Wei Zhao",
-        "Siteng Huang",
-        "Jinkui Shi",
-        "Donglin Wang"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7162807701",
-      "url": "https://doi.org/10.1145/3767308.3836261",
-      "pdf": "https://doi.org/10.1145/3767308.3836261",
-      "title": "Embodied3DBench: Benchmarking Low-Level Embodied Spatial Intelligence of Vision Language Models",
-      "summary": "Are current Vision Language Models (VLMs) ready to comprehend and reason about complex embodied interactions in 3D environments? We introduce Embodied3DBench, a robot-centric benchmark targeting low-level spatial intelligence in embodied 3D environments. To systematically evaluate these foundational perceptual capabilities, the benchmark includes 6 task categories divided into two core groups: Spatial Structural Understanding (Grounding, Spatial Relation Prediction, and Multi-view Correspondence) and Interaction-Oriented Perception (Affordance Prediction, Grasp Point Prediction, and Trajectory",
-      "authors": [
-        "Jiyao Zhang",
-        "Mingxu Zhang",
-        "Yitong Peng",
-        "Haoxuan Liu",
-        "Chenshuo Wang",
-        "Yuxing Long",
-        "Haoyang Huang",
-        "Dongjiang Li",
-        "Nan Duan",
-        "Hui Shen",
-        "Hao Dong"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7168140577",
-      "url": "https://doi.org/10.1145/3767308.3836369",
-      "pdf": "https://doi.org/10.1145/3767308.3836369",
-      "title": "TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation",
-      "summary": "Tactile feedback is fundamental to Hand-Object Interaction (HOI), governing contact formation, force regulation, and stable manipulation, making it essential for achieving true human-like dexterous manipulation. Yet, current human-to-robot dexterous transfer pipelines primarily rely on kinematic trajectories, resulting in motion imitation without physically grounded interaction. To address this, we introduce TactiDex, a real-world tactile-guided benchmark specifically designed to move dexterous manipulation beyond kinematic mimicry toward contact-level human-likeness. TactiDex provides a compr",
-      "authors": [
-        "suting ni",
-        "Hanbing Zhang",
-        "Zhenyu Wei",
-        "Guo Chen",
-        "张驰璇",
-        "Y Shi",
-        "Jingya Wang"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7203720580",
-      "url": "https://doi.org/10.1145/3767308.3836343",
-      "pdf": "https://doi.org/10.1145/3767308.3836343",
-      "title": "US-VLA: An Ultrasound Vision-Language-Action Model for Embodied Abdominal Scanning",
-      "summary": "Artificial intelligence–assisted ultrasound scanning enhances diagnostic reliability and efficiency by providing real-time guidance for standardized image acquisition and reducing operator dependence. However, existing reinforcement learning and learning-assisted ultrasound scanning methods typically rely on carefully designed reward functions or extensive interaction data, which limits their generalization ability and stability across different devices, patient populations, and complex clinical scenarios. To address these challenges, we propose an ultrasound vision-language-action model (US-V",
-      "authors": [
-        "Cheng Zhang",
-        "Xingzheng Wu",
-        "Gu Yan",
-        "Xifeng Hu",
-        "Zhi Liu",
-        "Mei Wu",
-        "Qing Cai"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7225244149",
-      "url": "https://doi.org/10.1145/3841560.3841564",
-      "pdf": "https://doi.org/10.1145/3841560.3841564",
-      "title": "Towards Untethered Industrial Physical AI: Profiling Cloud–Edge VLA over O-RAN",
-      "summary": "Industrial Physical AI requires untethered robots to access computationally intensive multimodal intelligence while maintaining responsive physical execution. We study a cloud-edge deployment that runs Vision-Language-Action (VLA) inference on a GPU-equipped central server in an Open Radio Access Network (O-RAN) testbed, while a robot-side edge computer handles sensing, request construction, action processing, and command execution. Using an IMETA Y1 manipulator, dual cameras, and a central VLA server, we profile the complete observation-to-command latency under wired and O-RAN deployments. Ac",
-      "authors": [
-        "Kaiwei Gao",
-        "Chuhua Hu",
-        "Jianxin Shi",
-        "Xinjing Yuan",
-        "Lingjun Pu"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W4416550760",
-      "url": "https://doi.org/10.1145/3767308.3836541",
-      "pdf": "https://doi.org/10.1145/3767308.3836541",
-      "title": "Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization",
-      "summary": "Developing a versatile embodied brain is fundamentally challenged by severe task heterogeneity, where discrete reasoning and continuous numerical perception tasks coexist with radically different data densities, creating imbalanced training distributions that resist straightforward scaling solutions. Conventional post-training pipelines that apply SFT sequentially before RL are not architected for this regime: their uniform treatment of task distributions suppresses underrepresented capabilities and exacerbates catastrophic forgetting in data-sparse tasks. In response, we introduce Deliberate ",
-      "authors": [
-        "Yi Jun Zhang",
-        "Che Liu",
-        "Xiaolu Ren",
-        "Hanchu Ni",
-        "Yingji Zhang",
-        "Shuai Zhang",
-        "Zeyuan Ding",
-        "Jiayu Hu",
-        "Haozhe Shan",
-        "Junbo Qi",
-        "Yan Bai",
-        "Dengjie Li",
-        "Jiachen Luo",
-        "Yidong Wang",
-        "Yong Dai",
-        "Zenglin Xu",
-        "Bin Shen",
-        "Qifan Wang",
-        "Jian Tang",
-        "Xiaozhu Ju"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7110785998",
-      "url": "https://doi.org/10.1017/s026357472610410x",
-      "pdf": "https://arxiv.org/pdf/2512.06486",
-      "title": "Entropy-controlled intrinsic-motivation reinforcement learning for quadruped robot locomotion in complex terrains",
-      "summary": "Abstract Learning is the basis of both biological and artificial systems when it comes to mimicking intelligent behaviors. From the classical PPO (proximal policy optimization), there is a series of deep reinforcement learning algorithms which are widely used in training locomotion policies for quadrupedal robots because of their stability and sample efficiency. In this paper, we introduce entropy-controlled intrinsic-motivation (ECIM), an entropy-based reinforcement learning algorithm in contrast with the PPO series, that can reduce premature convergence by combining intrinsic motivation with",
-      "authors": [
-        "Wanru Gong",
-        "Xinyi Zheng",
-        "Yuan Hui",
-        "Zhongjun Li",
-        "Weiqiang Wang",
-        "Xiaoqing Zhu"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7161952694",
-      "url": "https://doi.org/10.1145/3767308.3836070",
-      "pdf": "https://doi.org/10.1145/3767308.3836070",
-      "title": "PhysOmni: Physics-Grounded Multi-Object Scene Generation from a Single Image with Real-Time Interaction",
-      "summary": "Recent generative video models achieve impressive visual quality but remain constrained by limited physical consistency and controllability. Existing video generation methods provide minimal physical control, and single-image-to-3D conversion approaches often suffer from object interpenetration. Furthermore, physics-based scene-level 3D generation methods exhibit spatial misalignment, stylized artifacts, and inconsistencies with the input data, restricting their use in realistic interactive video synthesis. We propose PhysOmni, a training-free framework that converts a single image into a phys",
-      "authors": [
-        "Xin Zhang",
-        "Yabo Chen",
-        "Yijie Fang",
-        "Wanying Qu",
-        "Haibin Huang",
-        "Chi Zhang",
-        "Feng Xu",
-        "Xuelong Li"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7168963557",
-      "url": "https://doi.org/10.1145/3767308.3836256",
-      "pdf": "https://doi.org/10.1145/3767308.3836256",
-      "title": "SPyCE: Skill-Policy Co-evolution for Multimodal Agents",
-      "summary": "Multimodal agents that think with images iteratively manipulate visual evidence and invoke tools across many steps. Existing reinforcement learning methods reduce trajectories to scalar rewards, forcing the policy to discover reusable tool-use patterns from scratch on every new task; memory-based alternatives retain past experience, yet they rely on test-time retrieval, without updating the policy to absorb reusable patterns from that experience. Our key insight is that multimodal reasoning trajectories should be distilled into reusable skills that co-evolve with the policy during training, ra",
-      "authors": [
-        "Ru Zhang",
-        "Weijie Qiu"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7172452037",
-      "url": "https://doi.org/10.1145/3767308.3836469",
-      "pdf": "https://doi.org/10.1145/3767308.3836469",
-      "title": "DocPO: Advancing Document Policy Optimization via Tailored Step-Aware Rewards",
-      "summary": "Reinforcement learning (RL) for document parsing often relies on reference-based rewards rooted in edit distance (e.g., tree edit distance), yet it remains hard to optimize in the high-accuracy regime because such rewards become weakly discriminative: near-correct outputs receive very similar scores, providing limited learning signal for hard cases. We propose Step-Aware Annealing (SAA), a plug-and-play reward sharpening mechanism that progressively increases reward curvature during training, amplifying subtle quality differences among high-scoring samples while preserving stability in early l",
-      "authors": [
-        "Yunhao Wang",
-        "Binghong Wu",
-        "Zhenyu Huang",
-        "Jiacheng Shi",
-        "Shuo Huang",
-        "Tinghao Yu",
-        "Feng Zhang"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7211896151",
-      "url": "https://doi.org/10.1145/3767308.3835988",
-      "pdf": "https://doi.org/10.1145/3767308.3835988",
-      "title": "Step Back to Move Forward: Reflection-Aware Preference Optimization for Visual Generation",
-      "summary": "Diffusion models have become the mainstream paradigm for modern visual generation and have substantially advanced multimedia content synthesis, especially in text-to-image and text-to-video tasks. To further align such generative models with human preferences, reinforcement learning (RL) has recently shown strong potential as a post-training strategy. Nevertheless, existing policy gradient-based methods often explore inefficiently, making them vulnerable to local optima that may degrade semantic faithfulness and visual realism. To address these challenges, we present Reflection-Aware GRPO (RA-",
-      "authors": [
-        "Junlong Wu",
-        "Jiuzhou Lin",
-        "Jia Sun",
-        "Boheng Zhang",
-        "Huaiqing Wang",
-        "Dewen Fan",
-        "Houde Liu",
-        "Qianqian Gan",
-        "Fan Yang",
-        "Tingting Gao"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W4416361004",
-      "url": "https://doi.org/10.1145/3767308.3836286",
-      "pdf": "https://doi.org/10.1145/3767308.3836286",
-      "title": "ArtiWorld: LLM-Driven Articulation of 3D Objects in Scenes",
-      "summary": "Building interactive simulators and scalable robot-learning environments requires a large number of articulated assets. However, most existing 3D assets used in simulation are rigid, and manually converting them into articulated objects with executable kinematic structures is highly labor-intensive, time-consuming, and expensive. This limitation significantly restricts the scalability of simulator construction and downstream embodied AI research. To address this challenge, we present ArtiWorld, a scene-aware pipeline that automatically localizes rigid objects in 3D environments and converts th",
-      "authors": [
-        "Yixuan Yang",
-        "Luyang Xie",
-        "Zhen Luo",
-        "Zixiang Zhao",
-        "Tongsheng Ding",
-        "Xudong Xu",
-        "Mingqi Gao",
-        "Feng Zheng"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7152606835",
-      "url": "https://doi.org/10.5281/zenodo.19484071",
-      "pdf": "https://doi.org/10.5281/zenodo.19484071",
-      "title": "Nonlinear Industrial Robot Stabilization Based on Differential Topology",
-      "summary": "This study presents a nonlinear stabilization framework for industrial robotic systems based on differential topology and geometric control theory. System dynamics are modeled on smooth manifolds, where stabilization is achieved through topological invariants and non-smooth feedback control laws. The approach extends classical nonlinear control by incorporating global geometric structures, enabling stabilization of non-triangular and highly coupled systems. Stability analysis is conducted using global asymptotic and finite-time convergence criteria, supported by Lyapunov-topological equivalenc",
-      "authors": [
-        "ÖZTÜRK SEDAT"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7154743354",
-      "url": "https://doi.org/10.3390/biomimetics11110810",
-      "pdf": "https://doi.org/10.3390/biomimetics11110810",
-      "title": "Measurements and Modeling of Swimming Speed Dependence on Stroke Frequency in Electrically Stimulated Scyphozoan Jellyfish",
-      "summary": "Scyphozoan jellyfish exhibit the highest locomotive efficiency in the animal kingdom, making them of particular interest in fluid dynamics and bioinspired robotics. Despite this, prevalent analytical models of jellyfish swimming have been based on the swimming traits of hydrozoan jellyfish, which utilize jet propulsion, rather than scyphozoan jellyfish, which utilize paddling propulsive methods. Additionally, while stroke frequency is a driving variable in speeds achieved by undulatory swimmers, a similar dependence has not been thoroughly demonstrated for jellyfish. This work investigates the",
-      "authors": [
-        "Noa Yoder",
-        "John O. Dabiri"
-      ],
-      "published": "2026-11-05",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7157261871",
-      "url": "https://doi.org/10.1145/3767308.3836126",
-      "pdf": "https://doi.org/10.1145/3767308.3836126",
-      "title": "CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies",
-      "summary": "Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: multi-step inference is required to recover action structure from uninformative Gaussian noise, leading to a poor efficiency–quality trade-off under real-time constraints. We address this issue by rethinking the role of the starting point in generative action modeling. Instead of shortening the sampling trajectory, we propose CF-VLA, a coarse-to-fine two-stage formulation that restructures action generation into a coarse initialization step that construc",
-      "authors": [
-        "Fan Du",
-        "Feng Yan",
-        "Jianxiong Wu",
-        "Xinrun Xu",
-        "Weiye Zhang",
-        "Weinong Wang",
-        "Yu Guo",
-        "Bin Qian",
-        "Zhihai He",
-        "Fei Wang",
-        "Heng Yang"
-      ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -549,24 +512,19 @@
       "trending": 3.0
     },
     {
-      "id": "W7159668938",
-      "url": "https://doi.org/10.1145/3767308.3835980",
-      "pdf": "https://doi.org/10.1145/3767308.3835980",
-      "title": "SpaAct: Spatially-Activated Transition Learning with Curriculum Adaptation for Vision-Language Navigation",
-      "summary": "Vision-and-Language Navigation (VLN) aims to enable an embodied agent to follow natural-language instructions and navigate to a target location in unseen 3D environments. Recent VLN methods increasingly build on general vision-language models (VLMs) and directly learn an end-to-end mapping from instructions and egocentric observations to low-level actions. While effective, this paradigm still suffers from a key limitation: VLMs tend to learn priors that favor semantic understanding, making direct observation-to-action learning prone to learn shallow pattern matching rather than the dynamic spa",
+      "id": "W7134184881",
+      "url": "https://doi.org/10.1016/j.dibe.2026.101104",
+      "pdf": "https://www.sciencedirect.com/science/article/pii/S2666165926002620/pdf",
+      "title": "Evaluating augmented reality evacuation guidance system for sustaining compliance under social interference in virtual environment",
+      "summary": "Evacuation guidance systems provide routes during emergencies, but occupants do not always comply when social cues compete with guidance. Limited research has examined attention allocation and sustained compliance across multiple decision points. This study compared environment-embedded cues (CON), AR navigation (AR-NAV), and a socially embodied AR virtual safety manager (AR-VSM) in an immersive VR evacuation experiment under competing environmental and social cues. Both AR conditions were simulated through a virtual smartphone interface. These conditions showed lower attention to surrounding ",
       "authors": [
-        "Pengna Li",
-        "Kangyi Wu",
-        "Shaoqing Xu",
-        "Fang Li",
-        "Hanbing Li",
-        "Lin Zhao",
-        "Kailin Lyu",
-        "Long Chen (315739)",
-        "Zhi-Xin Yang",
-        "Nanning Zheng"
+        "Junyoung Kim",
+        "Jeongjun Park",
+        "MoonSeo Park",
+        "Changbum R. Ahn",
+        "Ilhwa Lee"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -577,20 +535,19 @@
       "trending": 0.0
     },
     {
-      "id": "W7203693916",
-      "url": "https://doi.org/10.1145/3767308.3836346",
-      "pdf": "https://doi.org/10.1145/3767308.3836346",
-      "title": "ForceU-VLA: A Force-Aware Vision–Language–Action Model for Embodied Ultrasound Scanning",
-      "summary": "Embodied intelligent ultrasound scanning enables the automation and standardization of the ultrasound examination process by integrating perception, decision-making, and execution capabilities. However, existing methods suffer from loosely coupled modeling between force and ultrasound modalities and lack awareness of scanning stages, which limits their ability to capture dynamic probe–tissue interactions. To address these issues, we propose ForceU-VLA, a force-aware Vision–Language–Action model for autonomous embodied ultrasound scanning, which leverages force signals and ultrasound image feed",
+      "id": "W7152420946",
+      "url": "https://doi.org/10.1145/3767308.3835046",
+      "pdf": "https://doi.org/10.1145/3767308.3835046",
+      "title": "PhyEdit: Towards Real-World Object Manipulation via Physically-Grounded Image Editing",
+      "summary": "Achieving physically accurate object manipulation in image editing is essential for its potential applications in interactive world models. However, existing visual generative models often fail at precise spatial manipulation, resulting in incorrect scaling and positioning of objects. This limitation primarily stems from the lack of explicit mechanisms to incorporate 3D geometry and perspective projection. To achieve accurate manipulation, we develop PhyEdit, an image editing framework that leverages explicit geometric simulation as contextual 3D-aware visual guidance. By combining this plug-a",
       "authors": [
-        "Xingzheng Wu",
-        "Cheng Zhang",
-        "Gu Yan",
-        "Xifeng Hu",
-        "Zhi Liu",
-        "Qing Cai"
+        "Ruihang Xu",
+        "Dewei Zhou",
+        "Xiaolong Shen",
+        "Fan Ma",
+        "Yi Yang"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -601,25 +558,51 @@
       "trending": 1.5
     },
     {
-      "id": "W7203718188",
-      "url": "https://doi.org/10.1145/3767308.3836246",
-      "pdf": "https://doi.org/10.1145/3767308.3836246",
-      "title": "VTInstructor: Visual Trajectory Prompting for Navigation Instruction Generation in Continuous Environments",
-      "summary": "Navigation instruction generation from ego-centric RGB video in continuous environments is an important yet challenging task for human--robot interaction and scalable dataset construction. Prior instruction generators assume discrete viewpoint graphs with panoramic observations, where trajectory structure is explicit; in continuous environments, however, the agent receives only a dense RGB stream, making trajectory cues difficult to recover. We propose VTInstructor, the first VLN instruction generation framework for continuous environments. Our key idea is to convert implicit trajectory geomet",
+      "id": "W7154016775",
+      "url": "https://doi.org/10.1145/3767308.3835463",
+      "pdf": "https://doi.org/10.1145/3767308.3835463",
+      "title": "VISOR: Agentic Visual Retrieval-Augmented Generation via Iterative Search and Over-horizon Reasoning",
+      "summary": "Visual Retrieval-Augmented Generation (VRAG) empowers Vision-Language Models to retrieve and reason over visually rich documents. To tackle complex queries requiring multi-step reasoning, agentic VRAG systems interleave reasoning with iterative retrieval. However, existing agentic VRAG faces two critical bottlenecks. (1) Visual Evidence Sparsity: key evidence is scattered across pages yet processed in isolation, hindering cross-page reasoning; moreover, fine-grained intra-image evidence often requires precise visual actions, whose misuse degrades retrieval quality; (2) Search Drift in Long Hor",
       "authors": [
-        "Haolin Yang",
-        "Yuxing Long",
-        "Zihan Yang",
-        "Hao Dong"
+        "Yi Shen",
+        "Jiulong Wu",
+        "Jizhou Huang",
+        "Dawei Yin",
+        "Lingyong Yan",
+        "Min Cao"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
       "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7160247668",
+      "url": "https://doi.org/10.1145/3767308.3835475",
+      "pdf": "https://doi.org/10.1145/3767308.3835475",
+      "title": "TT4D: A Pipeline and Dataset for Table Tennis 4D Reconstruction From Monocular Videos",
+      "summary": "We present TT4D, a large-scale, high-fidelity table tennis dataset. It provides 140+ hours of reconstructed singles and doubles gameplay from monocular broadcast videos, featuring annotations like high-quality camera calibrations, precise 3D ball positions, ball spin, time segmentation, and 3D human meshes over time. This rich data provides a new foundation for virtual replay, in-depth player analysis, and robot learning. The dataset's combination of scale and precision is achieved through a novel reconstruction pipeline. Prior methods first partition a game sequence into individual shot segme",
+      "authors": [
+        "Nima Rahmanian",
+        "Daniel Kienzle",
+        "Thomas Gossard",
+        "Dvij Kalaria",
+        "Rainer Lienhart",
+        "Shankar Sastry"
+      ],
+      "published": "2026-11-06",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
       "trending": 0.0
     }
   ]
