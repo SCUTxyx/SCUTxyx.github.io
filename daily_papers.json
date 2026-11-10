@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10 02:29 UTC",
+  "generated_at": "2026-11-10 20:40 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -25,6 +25,27 @@
         "openalex"
       ],
       "score": 12.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225644782",
+      "url": "https://doi.org/10.21203/rs.3.rs-11671045/v1",
+      "pdf": "https://doi.org/10.21203/rs.3.rs-11671045/v1",
+      "title": "Risk-Aware Self-Play Reinforcement Learning for Secure and Capable Code-Generating Agents",
+      "summary": "Abstract We study risk-aware self-play in finite-action code repair, separating functional success from test-integrity and forbidden-call violations. From 591 MBPP/HumanEval programs, 395 mutation tasks yield 4,527 candidates. On 133 external HumanEval tasks, the full policy reduces expected violations from 68.55% to 0.64% versus public-test-only RL, but fixed multiobjective rewards achieve slightly higher joint success, 72.78% versus 72.37%. Additional experiments execute 5,296 alias/data-flow probes and matched controls, investigate selected-action sparse verification, and test 30 functions ",
+      "authors": [
+        "Yan-Cheng Hsu",
+        "Duo Xu",
+        "Ziwei Wang"
+      ],
+      "published": "2026-11-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
       "trending": 0.0
@@ -120,6 +141,31 @@
       "trending": 0.0
     },
     {
+      "id": "W7202080022",
+      "url": "https://doi.org/10.1186/s42836-026-00449-9",
+      "pdf": "https://doi.org/10.1186/s42836-026-00449-9",
+      "title": "Comparison of joint laxity measured using 60- and 80-N distraction forces and manual stress during robot-assisted total knee arthroplasty",
+      "summary": "Abstract Background Appropriate intraoperative soft-tissue balance is essential for achieving successful outcomes following total knee arthroplasty (TKA). However, the optimal distraction force for evaluating joint laxity remains unclear. This study aimed to compare joint laxities measured using specific distraction forces with those obtained under manual varus–valgus stress and assess the interobserver variability. Methods A total of 55 bi-cruciate-stabilized TKAs were performed using a robotic system. Medial and lateral joint laxities were evaluated using a force-controlled tensioner device ",
+      "authors": [
+        "Hiroshi Inui",
+        "Haruhiko Nakamura",
+        "Ryota Takei",
+        "Masaki Uchida",
+        "Kei Satou",
+        "Tetsu Yamashita",
+        "Risa Matsumoto"
+      ],
+      "published": "2026-11-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
       "id": "W7225385625",
       "url": "https://doi.org/10.5281/zenodo.23994960",
       "pdf": "https://doi.org/10.5281/zenodo.23994960",
@@ -191,6 +237,56 @@
       "authors": [
         "Pedro Araujo-Gómez",
         "Diógenes González"
+      ],
+      "published": "2026-11-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225650279",
+      "url": "https://doi.org/10.62713/aic.4747",
+      "pdf": "",
+      "title": "Efficacy and Prognostic Analysis of Neuro-Navigation Robot-Assisted Puncture Drainage for Thalamic Hemorrhage: A Comparison With Neuro-Endoscopy and External Ventricular Drainage",
+      "summary": "AIM: This study aims to compare the clinical efficacy of three surgical techniques—robot-assisted neuro-navigation, external ventricular drainage (EVD), and neuro-endoscopy—in evacuating intracranial hematomas in patients with thalamic hemorrhage. METHODS: This retrospective study included 110 patients, divided into three groups based on the surgical method: robot group (n = 30), EVD group (n = 37), and neuro-endoscopy group (n = 43). Baseline characteristics, perioperative parameters, neurological function, inflammatory response, complications, and functional outcomes were compared and analyz",
+      "authors": [
+        "罗科辉",
+        "Liyang Sun",
+        "Fang Tong",
+        "郭熙雄",
+        "Xiaolong Xia",
+        "Yuan Hong",
+        "Yujun Han"
+      ],
+      "published": "2026-11-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225658104",
+      "url": "https://doi.org/10.5281/zenodo.24093817",
+      "pdf": "https://doi.org/10.5281/zenodo.24093817",
+      "title": "Teknologiskolen robotics camp surveys 2024: de-identified data and analysis code",
+      "summary": "De-identified data and analysis code for the 2024 surveys of Teknologiskolen's summer robotics camps in Denmark: pre-camp (96 records, 94 in the primary analysis), post-camp (67), helper (13) and approximately three-month follow-up (26) surveys. The files support the article \"Supporting learner independence and participation in robotics camps: an exploratory two-cohort study at Teknologiskolen, Denmark\" (Frontiers in Education, manuscript 2056684, under review). reproduce.py reproduces the survey results reported in the article. Variables, de-identification and instructions are described in RE",
+      "authors": [
+        "Josephina Mikka-Muntuumo",
+        "Michelle Victoria Weber Larsen",
+        "Jacob Nielsen",
+        "Simone Emma Frank Pedersen",
+        "Ilkka Jormanainen",
+        "Markku Tukiainen",
+        "Gabriel Tuhafeni Nhinda"
       ],
       "published": "2026-11-10",
       "primary_category": "openalex",
@@ -347,68 +443,6 @@
       "trending": 3.0
     },
     {
-      "id": "W7225450476",
-      "url": "https://doi.org/10.59992/ijci.2026.v5n11p4",
-      "pdf": "https://vsrp.co.uk/index.php/ijci/article/download/2055/2016",
-      "title": "Design and Experimental Evaluation of a Low-Cost Autonomous Medical Rescue Robot for Hazardous and Conflict-Affected Environments",
-      "summary": "Emergency rescue operations in hazardous, unstable, and conflict-affected environments expose medical teams and first responders to serious risks, including structural collapse, fire, debris, toxic exposure, communication failure, and restricted access to victims. Robotic systems can reduce direct human exposure by performing early reconnaissance, detecting possible human presence, transmitting visual information, and supporting rescue planning. However, many advanced rescue robots are expensive, complex, and difficult to reproduce in low-resource settings. This paper presents the design, impl",
-      "authors": [
-        "Mays Sedeeq"
-      ],
-      "published": "2026-11-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225451172",
-      "url": "https://doi.org/10.55197/qjssh.v7si5.1759",
-      "pdf": "https://www.qjssh.com/index.php/qjssh/article/download/1759/1141",
-      "title": "WARMTH, COMPETENCE, OR BOTH? DUAL-PATHWAY CONCEPTUALISATION OF ROBOTIC RESTAURANT ENCOUNTER AND CUSTOMER REVISIT INTENTION",
-      "summary": "Service robots have become a routine presence in restaurants across Asia, yet customer responses to them remain ambivalent. Studies of service robots in hospitality typically bundle the attributes of the machine into a single quality score and regress satisfaction on it. Social cognition research suggests a different structure. People judge any agent, human or artificial, along two largely independent dimensions, competence and warmth, and these dimensions carry different emotional and behavioural consequences. This paper applies that logic to the robotic restaurant encounter and proposes a du",
-      "authors": [
-        "NUR EMELIEYANA NOR HASIM",
-        "MUHAMMAD AFIF HAZIM ROSLI",
-        "DAHLAN ABDULLAH",
-        "Anderson Ngelambong",
-        "Azita Aboo Bakar",
-        "I KETUT SURATA"
-      ],
-      "published": "2026-11-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225452443",
-      "url": "https://doi.org/10.5281/zenodo.24030058",
-      "pdf": "https://doi.org/10.5281/zenodo.24030058",
-      "title": "Chinese Smart Agriculture, Crop Genetics & Precision Farming Open Intelligence Catalog",
-      "summary": "Curated open intelligence catalog providing structured English abstracts, empirical benchmarks, and verified DOIs of peer-reviewed Chinese scientific breakthroughs in Smart Agriculture, Crop Genetics, CRISPR Gene Editing, Agricultural Robotics, and Precision Farming. Official Portal: https://sinoagritech.com",
-      "authors": [
-        "SinoAgriTech Editorial Office"
-      ],
-      "published": "2026-11-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
       "id": "W7225240374",
       "url": "https://doi.org/10.5281/zenodo.23965071",
       "pdf": "https://doi.org/10.5281/zenodo.23965071",
@@ -448,6 +482,26 @@
       "trending": 0.0
     },
     {
+      "id": "W7221995537",
+      "url": "https://doi.org/10.3390/robotics15110231",
+      "pdf": "https://doi.org/10.3390/robotics15110231",
+      "title": "Contact-History-Based Velocity-Tracking Reward Derived from Center-of-Mass Controllability for Quadruped Locomotion",
+      "summary": "Velocity tracking is a fundamental task in reinforcement learning for quadruped locomotion. Conventional velocity-tracking rewards are typically formulated in terms of the squared error between commanded and actual velocities. In this study, we propose a velocity-tracking reward from the controllability Gramian of center-of-mass (CoM) dynamics, with ground reaction forces (GRFs) as control inputs. The proposed reward dynamically scales the velocity error according to recent contact history. It is defined as a quadratic form of the translational velocity-error vector and the inverse controllabi",
+      "authors": [
+        "Kai Ito",
+        "Yusuke Ikemoto"
+      ],
+      "published": "2026-11-07",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
       "id": "W7225417444",
       "url": "https://doi.org/10.5281/zenodo.24017590",
       "pdf": "https://doi.org/10.5281/zenodo.24017590",
@@ -483,54 +537,6 @@
       "score": 4.5,
       "pick": "Computer Vision",
       "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7214135711",
-      "url": "https://openalex.org/W7214135711",
-      "pdf": "",
-      "title": "Evaluating Collaborative Picker–Robot Routing Solutions underHuman Factors and Congestion: An Integrated Optimization andSimulation Framework",
-      "summary": "",
-      "authors": [
-        "Sidi Lamine Sahko",
-        "Serena Finco",
-        "Mohammed-Amine Abdous",
-        "Arnaud Doniec"
-      ],
-      "published": "2026-11-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4411015573",
-      "url": "https://doi.org/10.1145/3861077",
-      "pdf": "https://osf.io/mr78s_v2/download",
-      "title": "Validation and Evacuee Modeling of Virtual Robot-guided Emergency Evacuation Experiments",
-      "summary": "Virtual Reality (VR) is an increasingly common tool for investigating human responses to emergency situations. Nonetheless, studies validating and comparing human subject behavior during real world emergencies to their responses in VR are notably rare, and no prior studies have validated whether human emergency responses to guidance from a robot are comparable in VR versus the real world. In the present pre-registered study, we used VR to replicate a previous robot-guided emergency evacuation study conducted in the real world and compared human subject behavior in matched physical and virtual ",
-      "authors": [
-        "Yinxuan Yin",
-        "Mollik Nayyar",
-        "Daniel Holman",
-        "Ghanghoon Paik",
-        "Savanna Spazak",
-        "Gale Lucas",
-        "Colin Holbrook",
-        "Alan Richard Wagner"
-      ],
-      "published": "2026-11-07",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
       "trending": 0.0
     }
   ]
