@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 23:13 UTC",
+  "generated_at": "2026-11-10 02:29 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,276 +9,39 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7154511410",
-      "url": "https://doi.org/10.1145/3767308.3835078",
-      "pdf": "https://doi.org/10.1145/3767308.3835078",
-      "title": "Robotic Manipulation is Vision-to-Geometry Mapping: Vision-Geometry Backbones over Language and Video Models",
-      "summary": "At its core, robotic manipulation is a problem of vision-to-geometry mapping (f(v) \\rightarrow G). Physical actions—such as reaching, grasping, and orienting—are fundamentally defined by geometric properties like 3D positions, rotations, and spatial relationships. Consequently, we argue that the foundation for generalizable robotic control should be a vision-geometry backbone, rather than the widely adopted vision-language or video models. Conventional Vision-Language-Action (VLA) and video-predictive models rely on backbones pretrained on large-scale 2D image-text or temporal pixel data. Whil",
+      "id": "W7225459786",
+      "url": "https://doi.org/10.5281/zenodo.24031089",
+      "pdf": "https://doi.org/10.5281/zenodo.24031089",
+      "title": "Memory Efficient Reinforcement Learning for Microcontroller Class Edge Devices: Near DQN Control at a Fraction of the Memory in Solar-Powered Street Lighting",
+      "summary": "Solar-powered street lights and similar smart city nodes must decide, minute by minute, how much to sense, which on-device model to run, and how brightly to light, all from a small battery and a modest panel, on a microcontroller with very little memory. Reinforcement learning (RL) can learn this trade-off, but most reported controllers say little about what the policy itself costs to store. This paper compares three RL controllers, tabular Q-learning, linear function approximation (Linear FA), and a deep Q-network (DQN), against five baseline policies in a Python simulation of a solar street-",
       "authors": [
-        "Zijian Song",
-        "Qiaobo Li",
-        "Jiawei Zhou",
-        "Zhenlong Yuan",
-        "Tianshui Chen",
-        "Liang Lin",
-        "Guangrun Wang"
+        "Dan-Abia Dan",
+        "Udofia Kingsley",
+        "Udofia Dr. Kufre"
       ],
-      "published": "2026-11-06",
+      "published": "2026-11-07",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 21.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7128511099",
-      "url": "https://doi.org/10.1145/3767308.3835436",
-      "pdf": "https://doi.org/10.1145/3767308.3835436",
-      "title": "TwinRL: Digital Twin–Driven Reinforcement Learning for Real-World Robotic Manipulation",
-      "summary": "Despite strong generalization capabilities, Vision-Language-Action (VLA) models remain constrained by the high cost of expert demonstrations and limited real-world interaction. While online reinforcement learning (RL) has shown promise, its application to real-world VLA manipulation is hindered by low exploration efficiency and restricted exploration coverage. Through systematic real-world experiments, we observe that the effective exploration space of online RL is largely constrained by the trajectory distribution induced during supervised fine-tuning (SFT). Motivated by this observation, we ",
-      "authors": [
-        "Qinwen Xu",
-        "Jiaming Liu",
-        "Rui Zhou",
-        "Shaojun Shi",
-        "Nuowei Han",
-        "Zhuoyang Liu",
-        "Chenyang Gu",
-        "Shuo Gu",
-        "Yang Yue",
-        "Gao Huang",
-        "Wenzhao Zheng",
-        "Sirui Han",
-        "Peng Jia",
-        "Shanghang Zhang"
-      ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 15.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7138486001",
-      "url": "https://doi.org/10.1145/3767308.3835774",
-      "pdf": "https://doi.org/10.1145/3767308.3835774",
-      "title": "Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models",
-      "summary": "Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for robotic manipulation, in which reliable action prediction critically depends on accurately interpreting and integrating visual observations conditioned on language instructions. Although recent works have sought to enhance the visual capabilities of VLA models, most approaches treat the LLM backbone as a black box, providing limited insight into how visual information is grounded into action generation. Therefore, we perform a systematic analysis of multiple VLA models across different action-generation parad",
-      "authors": [
-        "Yulin Luo",
-        "Hao Chen",
-        "Zhuangzhe Wu",
-        "Bowen Sui",
-        "Jiaming Liu Jiaming Liu",
-        "Chenyang Gu",
-        "Zhuoyang Liu",
-        "Peng Jia",
-        "Pheng‐Ann Heng",
-        "Shanghang Zhang"
-      ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 15.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7148888202",
-      "url": "https://doi.org/10.1145/3767308.3835133",
-      "pdf": "https://doi.org/10.1145/3767308.3835133",
-      "title": "Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models",
-      "summary": "Vision-language-action (VLA) models have shown strong performance in robotic manipulation, yet their robustness to physically realizable adversarial attacks remains underexplored. Existing studies reveal vulnerabilities through language perturbations and 2D visual attacks, but these attack surfaces are either less representative of real deployment or limited in physical realism. In contrast, adversarial 3D textures pose a more physically plausible and damaging threat, as they are naturally attached to manipulated objects and are easier to deploy in physical environments. Bringing adversarial 3",
-      "authors": [
-        "Jiawei Chen",
-        "Simin Huang",
-        "Jiawei Du",
-        "Shuaihang Chen",
-        "Yu Tian",
-        "Mingjie Wei",
-        "Chao Yu",
-        "Zhaoxia Yin"
-      ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 15.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7151001705",
-      "url": "https://doi.org/10.1145/3767308.3835299",
-      "pdf": "https://doi.org/10.1145/3767308.3835299",
-      "title": "Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA",
-      "summary": "Vision-Language-Action (VLA) models, as large foundation models for embodied control, have shown strong performance in manipulation tasks. However, their performance comes at high inference cost. To improve efficiency, recent methods adopt action chunking, which predicts a sequence of future actions for open-loop execution. Although effective for reducing computation, open-loop execution is sensitive to environmental changes and prone to error accumulation due to the lack of close-loop feedback. To address this limitation, we propose Speculative Verification for VLA Control (SV-VLA), a framewo",
-      "authors": [
-        "Zihua Wang",
-        "Zhitao Lin",
-        "Ruibo Li",
-        "Yu Zhang",
-        "Xu Yang",
-        "Siya Mi",
-        "Xiu-Shen Wei"
-      ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 4.5
-    },
-    {
-      "id": "W7128383130",
-      "url": "https://doi.org/10.1371/journal.pdig.0001801",
-      "pdf": "https://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0001801&type=printable",
-      "title": "The impact of temporal resampling on the safety of clinical reinforcement learning: A simulated trial",
-      "summary": "Reinforcement learning (RL) is a type of artificial intelligence for making optimal choices. In healthcare, researchers generally use offline RL (ORL), where models are trained and evaluated from retrospective observational data. To accommodate naturally irregular clinical records, researchers often resample the data into uniform time intervals before training (known as binning). However, binning may create counterfactual trajectories that do not represent clinical practice. We first quantified these distortions in patients receiving continuous insulin infusions in the MIMIC-IV intensive care ",
-      "authors": [
-        "Thomas Frost",
-        "Hrisheekesh Jayant Vaidya",
-        "Steve Harris"
-      ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
+      "score": 12.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7164810449",
-      "url": "https://doi.org/10.1145/3767308.3835276",
-      "pdf": "https://doi.org/10.1145/3767308.3835276",
-      "title": "HPSv3++: Scaling Reward Models Across the Full Spectrum of Diffusion Model Capabilities",
-      "summary": "Reward models guide text-to-image (T2I) systems toward outputs aligned with human preferences. However, typical reward models such as HPSv3 are trained on pre-annotated data from earlier T2I models, without accounting for quality discriminative shifts arising from evolving model capabilities and reinforcement learning (RL) iterations, limiting their broader applicability. In this work, we propose HPSv3++, a reward model framework that elevates the HPSv3 model for varying T2I model capabilities and their RL iteration changes across the full capability-iteration spectrum. Specifically, we first ",
+      "id": "W7225402452",
+      "url": "https://doi.org/10.5281/zenodo.23994962",
+      "pdf": "https://doi.org/10.5281/zenodo.23994962",
+      "title": "KYNEMA: Design and Validation of Multi-Modal Robot Interaction for XR-Based Robotics Education",
+      "summary": "Hands-on interaction with robots is valuable for robotics education, but hardware access is limited by cost, laboratory capacity, and safety, and 2D interfaces poorly represent real workspaces. We developed a browser-native extended reality (XR) application that displays laboratory robots at true scale in the user's environment and offers three manipulation modes: direct joint control, forward-kinematics control, and inverse-kinematics teleoperation. The system currently supports four laboratory manipulators and serves both teaching and the planning of experimental setups. Automated tests vali",
       "authors": [
-        "Yijun Liu",
-        "J W Huang",
-        "Zeyue Xue",
-        "Yuming Li",
-        "Ruizhe He",
-        "Siming Fu"
+        "Jonathan Camargo",
+        "Manuel Torres",
+        "Diego Ojeda",
+        "Simon Pineda"
       ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7202150354",
-      "url": "https://doi.org/10.1145/3767308.3835227",
-      "pdf": "https://doi.org/10.1145/3767308.3835227",
-      "title": "Explore or Converge? Stage-Guided Per-Step Optimization for Diffusion Models",
-      "summary": "Diffusion models have strong generative capabilities. However, their maximum likelihood training objective only focuses on reconstructing the data distribution, making it difficult to align with specific preferences. Reinforcement learning (RL) for preference alignment in diffusion models is promising but limited by reward sparsity. Since a single reward cannot support optimization, existing RL methods usually backpropagate the final reward to all previous steps. However, denoising is stage-wise, with distinct semantics and controllability. Repeating the final reward across all steps creates a",
-      "authors": [
-        "Renye Yan",
-        "Jikang Cheng",
-        "You Wu",
-        "Wei Peng",
-        "Zongwei Wang",
-        "Ling Liang",
-        "Yimao Cai"
-      ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7164026271",
-      "url": "https://doi.org/10.1145/3767308.3835362",
-      "pdf": "https://doi.org/10.1145/3767308.3835362",
-      "title": "Dream-Tac: A Unified Tactile World Action Model for Contact-Rich Robot Manipulation",
-      "summary": "World action models inherit the predictive capability of world models, enabling action generation to be guided by anticipated future observations. However, they rely primarily on vision and often fail in contact-rich manipulation, where critical cues arise from physical interaction. In this paper, we propose Dream-Tac, a unified Tactile-World Action Model that jointly models actions, future visual observations, and tactile dynamics. Specifically, Dream-Tac introduces (i) contact-gated visuotactile fusion to selectively integrate tactile signals and (ii) a contact-aware attention bias to better",
-      "authors": [
-        "Yunfan Lou",
-        "Yifan Ye",
-        "Yankai Fu",
-        "Jun Cen",
-        "Xiaowei Chi",
-        "Yaoxu Lyu",
-        "Peidong Jia",
-        "Sirui Han",
-        "Zhihe Lu",
-        "Shanghang Zhang"
-      ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7169782381",
-      "url": "https://doi.org/10.1145/3767308.3835547",
-      "pdf": "https://doi.org/10.1145/3767308.3835547",
-      "title": "Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision-Language guided Egocentric 3D Hand Pose Forecasting",
-      "summary": "Perceiving multimodal cues and forecasting fine-grained actions from an egocentric (Ego) perspective is vital for applications like robot manipulation. However, previous studies either rely mainly on under-informed visual inputs to predict coarse human motions or follow the VRM/VLA paradigm, which suffers from insufficient robot data and the gap between human and robot embodiments. We observe that 3D hand pose naturally serves as a unified representation to bridge human-robot actions. Hence, we investigate an under-explored Vision-Language guided Egocentric 3D Hand Pose Forecasting (VL-EHPF) t",
-      "authors": [
-        "Zhaofeng Shi",
-        "Heqian Qiu",
-        "Lanxiao Wang",
-        "Xiang Li",
-        "Hongliang Li"
-      ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7225321508",
-      "url": "https://doi.org/10.1186/s42836-026-00444-0",
-      "pdf": "https://link.springer.com/content/pdf/10.1186/s42836-026-00444-0.pdf",
-      "title": "Distinguishing artificial intelligence from robotic execution in total knee arthroplasty: a narrative review and evidence map",
-      "summary": "PURPOSE: Artificial intelligence (AI) and machine-learning methods are increasingly discussed in relation to robotic-assisted total knee arthroplasty (TKA). However, robotic assistance, computer navigation, and AI-based prediction represent distinct functions that are often conflated under the single label \"AI-assisted robotic TKA,\" obscuring the state of evidence for each. This review clarifies these distinctions and maps the current evidence for AI-related functions across the TKA pathway, keeping AI prediction evidence analytically separate from robotic execution evidence at the level of ea",
-      "authors": [
-        "Muhammad Adil Malik",
-        "Song Wu",
-        "Wenxiu Zhang",
-        "Junjie Huang",
-        "Xu Cao"
-      ],
-      "published": "2026-11-06",
+      "published": "2026-11-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -289,71 +52,127 @@
       "trending": 0.0
     },
     {
-      "id": "W7152883686",
-      "url": "https://doi.org/10.1145/3767308.3835275",
-      "pdf": "https://doi.org/10.1145/3767308.3835275",
-      "title": "MAR-GRPO: Stabilized GRPO for AR-diffusion Hybrid Image Generation",
-      "summary": "Reinforcement learning (RL) has been successfully applied to autoregressive (AR) and diffusion models. However, extending RL to hybrid AR--diffusion frameworks remains challenging due to interleaved inference and noisy log-probability estimation. In this work, we study masked autoregressive models (MAR) and show that the diffusion head plays a critical role in training dynamics, often introducing noisy gradients that lead to instability and early performance saturation. To address this issue, we propose a stabilized RL framework for MAR. We introduce multi-trajectory expectation (MTE), which e",
+      "id": "W7225423207",
+      "url": "https://doi.org/10.5281/zenodo.23994948",
+      "pdf": "https://doi.org/10.5281/zenodo.23994948",
+      "title": "Model & Locomotion Dynamics of a Goat Bio-Inspired Quadruped Robot Through Reinforcement Learning",
+      "summary": "Traditional control methods struggle to handle high-degree-of-freedom systems and the unpredictability of real-world dynamics. Deep Reinforcement Learning has emerged to overcome this limitation, becoming central to autonomous robotic control and enabling greater agility and adaptability in legged robots. A custom 12-DOF goat-inspired quadruped was trained via PPO-based imitation learning against a reference trajectory built from real ovine motion-capture data. Achieving this requires three intertwined steps: processing the raw motion capture into a robot-compatible reference trajectory, desig",
       "authors": [
-        "Xiaoxiao Ma",
-        "Jiachen Lei",
-        "Tianfei Ren",
-        "Jie Huang",
-        "Siming Fu",
-        "Aiming Hao",
-        "Jiahong Wu",
-        "Xiangxiang Chu",
-        "Feng Zhao"
+        "Nicolás Andrade Manrique",
+        "Jonathan Camargo"
       ],
-      "published": "2026-11-06",
+      "published": "2026-11-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7225326063",
-      "url": "https://doi.org/10.4271/2026-99-0620",
-      "pdf": "",
-      "title": "Run Time Assurance Filter Framework for Collision Avoidance of Unmanned Aerial Vehicles Using Reinforcement Learning",
-      "summary": "In recent years, Reinforcement Learning (RL) has been increasingly applied to the collision avoidance systems of Unmanned Aerial Vehicles (UAVs) due to its high performance in complex tasks and relatively low online computational cost. Despite these advantages, the lack of interpretability in RL and decision-making processes poses significant challenges to safety verification, which severely limits the practical deployment of RL-based autonomous flight systems in safety-critical scenarios. Ensuring safety during both training and testing remains the key for real-world applications. To address ",
+      "id": "W4406779030",
+      "url": "https://doi.org/10.1177/02783649261496456",
+      "pdf": "https://arxiv.org/pdf/2501.12654",
+      "title": "AnyNav: Visual neuro-symbolic friction learning for off-road navigation",
+      "summary": "Off-road navigation is critical for a wide range of field robotics applications from planetary exploration to disaster response. However, it remains a longstanding challenge due to unstructured environments and the inherently complex terrain–vehicle interactions. Traditional physics-based methods struggle to accurately capture the nonlinear dynamics underlying these interactions, while purely data-driven approaches often overfit to specific motion patterns, vehicle geometries, or platforms, limiting their generalization in diverse, real-world scenarios. To address these limitations, we introdu",
       "authors": [
-        "Zan Ma",
-        "Liqin Yan",
-        "Jie Bai",
-        "Yubin Liu",
-        "Shuguang Sun"
+        "Taimeng Fu",
+        "Zitong Zhan",
+        "Zhipeng Zhao",
+        "Yi Du",
+        "Shaoshu Su",
+        "Xiao Lin",
+        "Ehsan T. Esfahani",
+        "Karthik Dantu",
+        "Souma Chowdhury",
+        "Chen Wang"
       ],
-      "published": "2026-11-06",
+      "published": "2026-11-07",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7225573268",
-      "url": "https://doi.org/10.5370/kiee.2026.75.11.3090",
-      "pdf": "",
-      "title": "Derivation and Verification of Minimum Design Requirements for an Evaluation Treadmill Based on Humanoid Robot Specifications Analysis",
-      "summary": "",
+      "id": "W7225419765",
+      "url": "https://doi.org/10.5281/zenodo.24022809",
+      "pdf": "https://doi.org/10.5281/zenodo.24022809",
+      "title": "INTERACTIVE MELODY GENERATION AND ROBOTIC SAXOPHONE PERFORMANCE: THE ROBOSAX MELODY SLOT MACHINE",
+      "summary": "This paper presents RoboSax Melody Slot Machine, a system that combines Melody Slot Machine, a dial-based interface for exploring melodically coherent variations, with RoboSax, a robotic saxophone that automates fingering with servo motors. Selected melodies are transmitted as MIDI to RoboSax, while the performer supplies breath and articulation. Because the melodic variations are generated by a GTTM-based morphing method, users can explore related phrases without losing structural coherence. The system therefore supports both accessible melody creation and embodied wind-instrument performance",
       "authors": [
-        "Hyun-Bin Lim",
-        "Seok-Min Hong",
-        "Hyo-Seok Oh",
-        "Tae-Hyun Lee",
-        "Ji-Won Hwang",
-        "Jae-Won Lim",
-        "No-Geon Jung"
+        "Masatoshi Hamanaka",
+        "Gou Koutaki"
       ],
-      "published": "2026-11-09",
+      "published": "2026-11-07",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225385625",
+      "url": "https://doi.org/10.5281/zenodo.23994960",
+      "pdf": "https://doi.org/10.5281/zenodo.23994960",
+      "title": "Design and Experimental Validation of an Underactuated Anthropomorphic Robotic Hand Based on the Ball-Ring-Elliptical Mechanism",
+      "summary": "This work reports the fabrication and experimental characterization of an underactuated anthropomorphic hand based on the Ball-Ring-Elliptical (BRE) rigid-soft finger of Zhang et al., originally validated on a single multi-material PolyJet prototype. The BRE equations were reconstructed in parametric CAD and printed at several scales on commodity printers, yielding four flexion-only fingers, each driven by one servomotor and one compliant tendon and characterized with single-camera tracking and servo-current sensing. The printed geometry matched the design equations, and the current–angle rela",
+      "authors": [
+        "Luis Ponce",
+        "Jonathan Camargo"
+      ],
+      "published": "2026-11-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225402538",
+      "url": "https://doi.org/10.5281/zenodo.23995012",
+      "pdf": "https://doi.org/10.5281/zenodo.23995012",
+      "title": "Vibration Reduction in a Single-Degree-of-Freedom Flexible Arm via Model Predictive Control and Deep Learning",
+      "summary": "Single-degree-of-freedom flexible robotic arms are an attractive alternative to rigid manipulators due to their lower mass and energy consumption and greater maneuverability, but their low structural stiffness produces residual vibrations that degrade positioning accuracy. This work presents the experimental implementation of a Model Predictive Controller (MPC) for a single-degree-of-freedom flexible arm, complemented by a Deep Q-Learning (DQN) supervisor that selects online among three weighting profiles of the MPC cost function. A reduced linear model is obtained using the assumed modes meth",
+      "authors": [
+        "Claudio Villegas",
+        "Nicolas Cid",
+        "Cristian Basoalto",
+        "Rogelio Lorenzo Hecker",
+        "Euro Casanova"
+      ],
+      "published": "2026-11-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225408888",
+      "url": "https://doi.org/10.5281/zenodo.23994954",
+      "pdf": "https://doi.org/10.5281/zenodo.23994954",
+      "title": "RoboLab AR: An Augmented Reality Laboratory Environment for Progressive Robotics Education in Latin American Universities",
+      "summary": "This paper presents RoboLab AR, an open-source desktop robotics laboratory structured into five progressive hands-on practices: fundamental kinematics, custom CAD integration, obstacle-aware motion planning, multibody dynamic control, and physical mockup validation via augmented reality (AR). Designed to bridge mathematical theory and laboratory practice in universities facing industrial hardware cost barriers, the platform unifies interactive 3D OpenGL visualization, live Denavit-Hartenberg editors, symbolic-to-LaTeX derivation, STL assembly, sampling-based trajectory optimization, spatial dy",
+      "authors": [
+        "Diego Alejandro Ordóñez Castro",
+        "William Pinto Hernandez"
+      ],
+      "published": "2026-11-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -364,48 +183,16 @@
       "trending": 1.5
     },
     {
-      "id": "W7225595311",
-      "url": "https://doi.org/10.1007/s11701-026-04173-z",
-      "pdf": "",
-      "title": "Correction: Maximum peri-prostatic anatomy preserving-robotic assisted laparoscopic radical prostatectomy with the da Vinci Si/Xi Surgical System: surgical learning curve evaluation and outcomes",
-      "summary": "",
+      "id": "W7225425871",
+      "url": "https://doi.org/10.5281/zenodo.23994946",
+      "pdf": "https://doi.org/10.5281/zenodo.23994946",
+      "title": "A Methodological Proposal for Developing a Multi-Task Mobile Robot Adapted to Open-Field Agriculture",
+      "summary": "This paper presents a methodological proposal and a conceptual design framework for developing a multi-task mobile robotic platform tailored for open-field agriculture. Faced with rural demographic crises, population aging, and severe labor shortages in Latin America, open-field automation stands as a vital socio-economic and technological imperative that transcends the limits of traditional greenhouses. At this research, we propose an innovative framework that adapts real-time force-impedance control schemes, geometric path-planning algorithms, and performance indexes for the robot's developm",
       "authors": [
-        "Lu Liu",
-        "Run-long Wang",
-        "Chun-Yang Wu",
-        "Bi-Shao Sun",
-        "Xing Luo",
-        "Yu Xiao",
-        "Shi-Cheng Tian",
-        "Zhiwen Chen",
-        "Shuai Su",
-        "Jingzhen Zhu",
-        "Jin-Chun Qi",
-        "Ji Zheng"
+        "Pedro Araujo-Gómez",
+        "Diógenes González"
       ],
-      "published": "2026-11-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 2.0
-    },
-    {
-      "id": "W7225600029",
-      "url": "https://doi.org/10.1007/s11701-026-04140-8",
-      "pdf": "",
-      "title": "Robotic-assisted total knee arthroplasty: a narrative review of resection accuracy and individualized soft-tissue balance",
-      "summary": "",
-      "authors": [
-        "Lei Shen",
-        "Chenjun Zhai",
-        "Tao Jiang",
-        "Yong Wang"
-      ],
-      "published": "2026-11-09",
+      "published": "2026-11-10",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -416,24 +203,30 @@
       "trending": 0.0
     },
     {
-      "id": "W4407308519",
-      "url": "https://doi.org/10.1145/3767308.3835627",
-      "pdf": "https://doi.org/10.1145/3767308.3835627",
-      "title": "EmoBench-M: Benchmarking Emotional Intelligence for Multimodal Large Language Models",
-      "summary": "With the integration of multimodal large language models (MLLMs) into robotic systems and AI applications, embedding emotional intelligence (EI) capabilities is essential for enabling these models to perceive, interpret, and respond to human emotions effectively in real-world scenarios. Existing static, text-based, or text-image benchmarks overlook the multimodal complexities of real interactions and fail to capture the dynamic, context-dependent nature of emotional expressions, rendering them inadequate for evaluating MLLMs' EI capabilities. To address these limitations, we introduce EmoBench",
+      "id": "W4410208339",
+      "url": "https://doi.org/10.1038/s41467-026-79045-z",
+      "pdf": "https://www.nature.com/articles/s41467-026-79045-z_reference.pdf",
+      "title": "Soft robotic and computational models of left atrial hemodynamics in sinus rhythm and atrial fibrillation",
+      "summary": "Atrial fibrillation (AF) poses significant clinical challenges due to the complex and variable geometry of the left atrial appendage (LAA), whose structure complicates the development of personalized interventions like LAA occlusion (LAAO) for stroke prevention Current reliance on animal models and cadavers for the assessment of left atrium (LA) and LAA to study AF-related disease and interventions raises reproducibility concerns, necessitating the development of high fidelity, physiologically relevant tools. To address this, we present a multimodal framework combining a soft robotic benchtop ",
       "authors": [
-        "He Hu",
-        "Lianzhong You",
-        "Hongbo Xu",
-        "Qianning Wang",
-        "Fei Richard Yu",
-        "Fei Ma",
-        "Zebang Cheng",
-        "Zheng Lian",
-        "Yucheng Zhou",
-        "Laizhong Cui"
+        "Manisha Singh",
+        "Keegan Mendez",
+        "Brian C. Ayers",
+        "Sophie X. Wang",
+        "Atsushi Takahashi",
+        "Debbie Lin Teodorescu",
+        "Jordi Mill",
+        "Carlos Albors",
+        "Andreas Escher",
+        "Yiling Fan",
+        "Çağlar Öztürk",
+        "Eve Sheridan",
+        "Emma Rutherford",
+        "Oscar Camara",
+        "Tarun Chakravarty",
+        "Ellen Tunney Roche"
       ],
-      "published": "2026-11-06",
+      "published": "2026-11-07",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -441,20 +234,109 @@
       "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
-      "trending": 1.5
+      "trending": 0.0
     },
     {
-      "id": "W4416946806",
-      "url": "https://doi.org/10.1145/3767308.3835132",
-      "pdf": "https://doi.org/10.1145/3767308.3835132",
-      "title": "CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving",
-      "summary": "Vision-Language-Action (VLA) models have recently attracted growing attention in end-to-end (E2E) autonomous driving. While recent works have begun exploring Chain-of-Thought (CoT) reasoning to decompose complex driving tasks, they predominantly rely on purely textual reasoning. Driving, however, is an inherently spatial and physical task. Textual-only CoT struggles to capture dynamic geometric changes, frequently leading to numerical hallucinations and unreliable trajectory planning. To bridge the gap between semantic reasoning and the physical action space, we propose CoT4AD, a novel VLA fra",
+      "id": "W7222891802",
+      "url": "https://doi.org/10.1007/s11701-026-04100-2",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-04100-2.pdf",
+      "title": "The influence of music on technical skill in robotic surgery among general surgery residents: a simulation-based experimental study",
+      "summary": "Music is commonly played in operating rooms, but its effect on the acquisition of robotic surgical skills is unclear, particularly when the music is chosen by the trainee. This study evaluated whether a personalized musical intervention influences the technical performance of general surgery residents on a robotic surgery simulator. Thirty-two residents with no previous robotic experience performed three exercises (Pick and Place, Ring and Rail 1 and Energy Dissection 1) on the RobotiX Mentor simulator in three consecutive runs: run 1 without music, run 2 with self-selected preferred music and",
       "authors": [
-        "Zhaohui Wang",
-        "Tengbo Yu",
-        "Hao Tang"
+        "Guilherme Corvello Dias",
+        "Ramon Jorge Guiu",
+        "Pedro Henrique Alves Silva",
+        "Heitor Zancheta Andrade",
+        "Rodrigo Tavore Strasser",
+        "Carlos Dario da Silva Costa",
+        "Marco Antônio Ribeiro Filho",
+        "Gabriela Gouvea Silva"
       ],
-      "published": "2026-11-06",
+      "published": "2026-11-07",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225383332",
+      "url": "https://doi.org/10.1007/s10798-026-10136-0",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s10798-026-10136-0.pdf",
+      "title": "Towards a competence-behaviour-design alignment for educational robotics kits: a theoretical synthesis and development principles",
+      "summary": "Abstract Educational robotics kits (ERKs) are widely used to support competence-oriented technology education, yet their design is rarely grounded in clearly prioritised technological competences and associated learning behaviours. This research, situated in China’s General Technology curriculum, addresses this gap by developing a competence-behaviour-design (C-B-D) alignment for ERKs. The research problem concerns what consistent priority competences and their operationalised learning behaviours are required to guide ERK design. A two-phase mixed-methods approach was adopted. Study 1 used a D",
+      "authors": [
+        "Junke Liu",
+        "Ding Zhou",
+        "Zhaoyuan Ma"
+      ],
+      "published": "2026-11-07",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225448547",
+      "url": "https://doi.org/10.5281/zenodo.24027670",
+      "pdf": "https://doi.org/10.5281/zenodo.24027670",
+      "title": "Predictive Robotic Computation: Anticipating Future Motion Planning Requirements and Precomputing Probable Control Solutions",
+      "summary": "The increasing deployment of autonomous robots in dynamic and uncertain environments has created substantial computational requirements associated with motion planning, collision detection, inverse kinematics, forward kinematics, dynamics estimation, trajectory optimization, and real-time control. Conventional robotic systems generally perform these computations reactively, initiating or updating computational procedures after receiving new sensor observations, detecting environmental changes, or receiving movement commands. Although existing motion planning and control techniques have improve",
+      "authors": [
+        "Jincheng Zhang"
+      ],
+      "published": "2026-11-07",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225449658",
+      "url": "https://doi.org/10.1007/s11701-026-04154-2",
+      "pdf": "",
+      "title": "Economic comparison of emerging and alternative robotic surgical platforms versus established multiport da Vinci systems in urologic surgery: a systematic review",
+      "summary": "",
+      "authors": [
+        "Halil Lütfi Canat",
+        "Batu Akalin"
+      ],
+      "published": "2026-11-07",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225450338",
+      "url": "https://doi.org/10.5281/zenodo.24042422",
+      "pdf": "https://doi.org/10.5281/zenodo.24042422",
+      "title": "Review records and benchmark data for: Linking World Models to Safe Embodied Intelligence: A Critical Review and Research Agenda",
+      "summary": "This dataset accompanies the review article Linking World Models to Safe Embodied Intelligence: A Critical Review and Research Agenda. It contains the records behind the article's search, screening and source selection, and the data from the matched comparison reported in Section 6.3. Search. The exact query strings for the 15 database searches whose records were screened: four query families (R1, R2, I1 and W4) run on Scopus, IEEE Xplore and the ACM Guide to Computing Literature. They exported 6,714 records. The deposit also lists three broader pilot families (W1–W3) that were run but not ado",
+      "authors": [
+        "Ran Wei",
+        "Le Zhu",
+        "Haochi Wang",
+        "Jim Woodcock",
+        "Yuan Tian",
+        "Xiangyang Ji"
+      ],
+      "published": "2026-11-07",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -465,66 +347,15 @@
       "trending": 3.0
     },
     {
-      "id": "W4417152681",
-      "url": "https://doi.org/10.1145/3767308.3835005",
-      "pdf": "https://doi.org/10.1145/3767308.3835005",
-      "title": "ARFlow: Real-time Human Action-Reaction Synthesis with Reprojection Guidance",
-      "summary": "Human action-reaction synthesis, a fundamental challenge in modeling online causal human interactions, plays a critical role in applications ranging from virtual reality to social robotics. While diffusion-based models have demonstrated promising performance, they exhibit two key limitations for interaction synthesis: reliance on complex noise-to-reaction generators with intricate conditional mechanisms, thus limiting to unidirectional generation, and frequent body penetrations in generated motions. To address these issues, we propose Action-Reaction Flow Matching (\\methodname), a novel paradi",
+      "id": "W7225450476",
+      "url": "https://doi.org/10.59992/ijci.2026.v5n11p4",
+      "pdf": "https://vsrp.co.uk/index.php/ijci/article/download/2055/2016",
+      "title": "Design and Experimental Evaluation of a Low-Cost Autonomous Medical Rescue Robot for Hazardous and Conflict-Affected Environments",
+      "summary": "Emergency rescue operations in hazardous, unstable, and conflict-affected environments expose medical teams and first responders to serious risks, including structural collapse, fire, debris, toxic exposure, communication failure, and restricted access to victims. Robotic systems can reduce direct human exposure by performing early reconnaissance, detecting possible human presence, transmitting visual information, and supporting rescue planning. However, many advanced rescue robots are expensive, complex, and difficult to reproduce in low-resource settings. This paper presents the design, impl",
       "authors": [
-        "Wentao Jiang",
-        "Jingya Wang",
-        "Kaiyang Ji",
-        "Baoxiong Jia",
-        "Siyuan Huang",
-        "Ye Shi"
+        "Mays Sedeeq"
       ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7106700227",
-      "url": "https://doi.org/10.1145/3767308.3835716",
-      "pdf": "https://doi.org/10.1145/3767308.3835716",
-      "title": "ActDistill: General Action-Guided Self-Derived Distillation for Efficient Vision-Language-Action Models",
-      "summary": "Recent Vision-Language-Action (VLA) models have shown impressive flexibility and generalization, yet their practical deployment remains limited by substantial computational overhead and inference latency. In this work, we present ActDistill, a general action-guided self-derived distillation framework that transfers the action prediction capability of a full-scale VLA model to a lightweight counterpart. Unlike previous efficiency approaches that primarily focus on vision-language correlations, ActDistill explicitly leverages action priors to guide knowledge transfer and model compression, achie",
-      "authors": [
-        "Wencheng Ye",
-        "Tianshi Wang",
-        "Fengling Li",
-        "Lei Zhu",
-        "Heng Tao Shen"
-      ],
-      "published": "2026-11-06",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7134184881",
-      "url": "https://doi.org/10.1016/j.dibe.2026.101104",
-      "pdf": "https://www.sciencedirect.com/science/article/pii/S2666165926002620/pdf",
-      "title": "Evaluating augmented reality evacuation guidance system for sustaining compliance under social interference in virtual environment",
-      "summary": "Evacuation guidance systems provide routes during emergencies, but occupants do not always comply when social cues compete with guidance. Limited research has examined attention allocation and sustained compliance across multiple decision points. This study compared environment-embedded cues (CON), AR navigation (AR-NAV), and a socially embodied AR virtual safety manager (AR-VSM) in an immersive VR evacuation experiment under competing environmental and social cues. Both AR conditions were simulated through a virtual smartphone interface. These conditions showed lower attention to surrounding ",
-      "authors": [
-        "Junyoung Kim",
-        "Jeongjun Park",
-        "MoonSeo Park",
-        "Changbum R. Ahn",
-        "Ilhwa Lee"
-      ],
-      "published": "2026-11-06",
+      "published": "2026-11-07",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -535,19 +366,39 @@
       "trending": 0.0
     },
     {
-      "id": "W7152420946",
-      "url": "https://doi.org/10.1145/3767308.3835046",
-      "pdf": "https://doi.org/10.1145/3767308.3835046",
-      "title": "PhyEdit: Towards Real-World Object Manipulation via Physically-Grounded Image Editing",
-      "summary": "Achieving physically accurate object manipulation in image editing is essential for its potential applications in interactive world models. However, existing visual generative models often fail at precise spatial manipulation, resulting in incorrect scaling and positioning of objects. This limitation primarily stems from the lack of explicit mechanisms to incorporate 3D geometry and perspective projection. To achieve accurate manipulation, we develop PhyEdit, an image editing framework that leverages explicit geometric simulation as contextual 3D-aware visual guidance. By combining this plug-a",
+      "id": "W7225451172",
+      "url": "https://doi.org/10.55197/qjssh.v7si5.1759",
+      "pdf": "https://www.qjssh.com/index.php/qjssh/article/download/1759/1141",
+      "title": "WARMTH, COMPETENCE, OR BOTH? DUAL-PATHWAY CONCEPTUALISATION OF ROBOTIC RESTAURANT ENCOUNTER AND CUSTOMER REVISIT INTENTION",
+      "summary": "Service robots have become a routine presence in restaurants across Asia, yet customer responses to them remain ambivalent. Studies of service robots in hospitality typically bundle the attributes of the machine into a single quality score and regress satisfaction on it. Social cognition research suggests a different structure. People judge any agent, human or artificial, along two largely independent dimensions, competence and warmth, and these dimensions carry different emotional and behavioural consequences. This paper applies that logic to the robotic restaurant encounter and proposes a du",
       "authors": [
-        "Ruihang Xu",
-        "Dewei Zhou",
-        "Xiaolong Shen",
-        "Fan Ma",
-        "Yi Yang"
+        "NUR EMELIEYANA NOR HASIM",
+        "MUHAMMAD AFIF HAZIM ROSLI",
+        "DAHLAN ABDULLAH",
+        "Anderson Ngelambong",
+        "Azita Aboo Bakar",
+        "I KETUT SURATA"
       ],
-      "published": "2026-11-06",
+      "published": "2026-11-07",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225452443",
+      "url": "https://doi.org/10.5281/zenodo.24030058",
+      "pdf": "https://doi.org/10.5281/zenodo.24030058",
+      "title": "Chinese Smart Agriculture, Crop Genetics & Precision Farming Open Intelligence Catalog",
+      "summary": "Curated open intelligence catalog providing structured English abstracts, empirical benchmarks, and verified DOIs of peer-reviewed Chinese scientific breakthroughs in Smart Agriculture, Crop Genetics, CRISPR Gene Editing, Agricultural Robotics, and Precision Farming. Official Portal: https://sinoagritech.com",
+      "authors": [
+        "SinoAgriTech Editorial Office"
+      ],
+      "published": "2026-11-07",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -558,20 +409,16 @@
       "trending": 1.5
     },
     {
-      "id": "W7154016775",
-      "url": "https://doi.org/10.1145/3767308.3835463",
-      "pdf": "https://doi.org/10.1145/3767308.3835463",
-      "title": "VISOR: Agentic Visual Retrieval-Augmented Generation via Iterative Search and Over-horizon Reasoning",
-      "summary": "Visual Retrieval-Augmented Generation (VRAG) empowers Vision-Language Models to retrieve and reason over visually rich documents. To tackle complex queries requiring multi-step reasoning, agentic VRAG systems interleave reasoning with iterative retrieval. However, existing agentic VRAG faces two critical bottlenecks. (1) Visual Evidence Sparsity: key evidence is scattered across pages yet processed in isolation, hindering cross-page reasoning; moreover, fine-grained intra-image evidence often requires precise visual actions, whose misuse degrades retrieval quality; (2) Search Drift in Long Hor",
+      "id": "W7225240374",
+      "url": "https://doi.org/10.5281/zenodo.23965071",
+      "pdf": "https://doi.org/10.5281/zenodo.23965071",
+      "title": "REAL-TIME DETECTION AND ANALYSIS OF VEHICLE SPEED BASED ON COMPUTER VISION TECHNOLOGIES",
+      "summary": "This paper proposes software for detecting and analyzing the speed of motor vehicles based on images obtained from video surveillance cameras. The system relies on computer vision methods: vehicles are detected using the YOLOv8 neural network, tracked across the frame sequence by the ByteTrack algorithm, and pixel coordinates are converted into real metric distances by means of a homography matrix. According to the experimental results, the mean speed estimation error was 1.2 km/h, while the accuracy ranged from 70 to 97 % depending on the conditions. The proposed approach is a low-cost and mu",
       "authors": [
-        "Yi Shen",
-        "Jiulong Wu",
-        "Jizhou Huang",
-        "Dawei Yin",
-        "Lingyong Yan",
-        "Min Cao"
+        "B. Eshtemirov",
+        "A. Norbekov"
       ],
-      "published": "2026-11-06",
+      "published": "2026-11-07",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -582,20 +429,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7160247668",
-      "url": "https://doi.org/10.1145/3767308.3835475",
-      "pdf": "https://doi.org/10.1145/3767308.3835475",
-      "title": "TT4D: A Pipeline and Dataset for Table Tennis 4D Reconstruction From Monocular Videos",
-      "summary": "We present TT4D, a large-scale, high-fidelity table tennis dataset. It provides 140+ hours of reconstructed singles and doubles gameplay from monocular broadcast videos, featuring annotations like high-quality camera calibrations, precise 3D ball positions, ball spin, time segmentation, and 3D human meshes over time. This rich data provides a new foundation for virtual replay, in-depth player analysis, and robot learning. The dataset's combination of scale and precision is achieved through a novel reconstruction pipeline. Prior methods first partition a game sequence into individual shot segme",
+      "id": "W7225449757",
+      "url": "https://doi.org/10.21227/jqd5-f863",
+      "pdf": "https://doi.org/10.21227/jqd5-f863",
+      "title": "Tunisian Licence Plate",
+      "summary": "This dataset was collected and developed as part of an applied artificial intelligence and computer vision project at Pixemantic, focusing on Automatic License Plate Recognition (ALPR) and intelligent transportation systems. It provides annotated license plate images intended to support the development, training, and evaluation of deep learning-based approaches for license plate detection and recognition.The dataset aims to facilitate research on license plate localization and recognition under diverse visual and acquisition conditions, including variations in illumination, viewing angles, ima",
       "authors": [
-        "Nima Rahmanian",
-        "Daniel Kienzle",
-        "Thomas Gossard",
-        "Dvij Kalaria",
-        "Rainer Lienhart",
-        "Shankar Sastry"
+        "mohamed TOUATI"
       ],
-      "published": "2026-11-06",
+      "published": "2026-11-07",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -603,6 +445,92 @@
       "score": 6.0,
       "pick": "Computer Vision",
       "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225417444",
+      "url": "https://doi.org/10.5281/zenodo.24017590",
+      "pdf": "https://doi.org/10.5281/zenodo.24017590",
+      "title": "An Active Inference Cognitive Architecture for Artificial Silicon Life: Long-term Empirical Validation from Interoceptive Self-Sustenance to Multi-Family Generalization",
+      "summary": "ABSTRACTAutonomous survival in open, non-stationary thermodynamic worlds cannot be reduced to maximizing arbitrary scalar rewards. When conventional agents optimize external scores under ongoing metabolic dissipation, they routinely succumb to reward hacking, catastrophic representation loss, or energetic collapse once environmental dynamics drift. Here, we present an autonomous cognitive architecture for Artificial Silicon Life (ASL) derived strictly from first principles of the Free Energy Principle (FEP) and Active Inference, entirely dispensing with reinforcement learning, hand-tuned rewar",
+      "authors": [
+        "Chengxi Liu"
+      ],
+      "published": "2026-11-07",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225449620",
+      "url": "https://doi.org/10.5281/zenodo.24032999",
+      "pdf": "https://doi.org/10.5281/zenodo.24032999",
+      "title": "A Comparative Study of Computer Vision-Based Attendance Recognition Systems",
+      "summary": "Manual attendance management is time-consuming, error-prone and open to proxy attendance. This work studies automated computer vision based student attendance and classroom engagement monitoring systems for real-time classroom environments. It reviews seventeen recent papers (2025–2026) and builds on a base paper that uses multi-face recognition with FaceNet-based 128-dimensional embeddings. The proposed methodology integrates image quality assessment and CLAHE enhancement to improve facial image quality under varying illumination, followed by YOLOv5 for multi-face detection. Dlib 68-point fac",
+      "authors": [
+        "Akshay Kumar Palavalasa"
+      ],
+      "published": "2026-11-07",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214135711",
+      "url": "https://openalex.org/W7214135711",
+      "pdf": "",
+      "title": "Evaluating Collaborative Picker–Robot Routing Solutions underHuman Factors and Congestion: An Integrated Optimization andSimulation Framework",
+      "summary": "",
+      "authors": [
+        "Sidi Lamine Sahko",
+        "Serena Finco",
+        "Mohammed-Amine Abdous",
+        "Arnaud Doniec"
+      ],
+      "published": "2026-11-10",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W4411015573",
+      "url": "https://doi.org/10.1145/3861077",
+      "pdf": "https://osf.io/mr78s_v2/download",
+      "title": "Validation and Evacuee Modeling of Virtual Robot-guided Emergency Evacuation Experiments",
+      "summary": "Virtual Reality (VR) is an increasingly common tool for investigating human responses to emergency situations. Nonetheless, studies validating and comparing human subject behavior during real world emergencies to their responses in VR are notably rare, and no prior studies have validated whether human emergency responses to guidance from a robot are comparable in VR versus the real world. In the present pre-registered study, we used VR to replicate a previous robot-guided emergency evacuation study conducted in the real world and compared human subject behavior in matched physical and virtual ",
+      "authors": [
+        "Yinxuan Yin",
+        "Mollik Nayyar",
+        "Daniel Holman",
+        "Ghanghoon Paik",
+        "Savanna Spazak",
+        "Gale Lucas",
+        "Colin Holbrook",
+        "Alan Richard Wagner"
+      ],
+      "published": "2026-11-07",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     }
   ]
