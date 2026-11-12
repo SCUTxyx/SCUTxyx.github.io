@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12 01:45 UTC",
+  "generated_at": "2026-11-12 21:13 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -95,6 +95,120 @@
       "score": 7.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225184976",
+      "url": "https://doi.org/10.1007/s11701-026-04157-z",
+      "pdf": "https://www.researchsquare.com/article/rs-11393296/latest.pdf",
+      "title": "Navigated robotic guidance for minimally invasive bertolotti resection technical feasibility and workflow evaluation",
+      "summary": "Abstract Bertolotti syndrome is characterized by symptomatic lumbosacral transitional vertebral anatomy in which an enlarged transverse process articulates or fuses with the sacrum or ilium. Diagnosis can be difficult because transitional anatomy is common, symptoms may overlap with other spinal disorders, and the pain generator may arise from the pseudoarticulation, adjacent disc or facet, instability, or nerve compression. When targeted nonoperative treatment fails, surgical options include resection, nerve decompression, or fusion depending on anatomy and the dominant pain mechanism. Publis",
+      "authors": [
+        "Christopher R. Good",
+        "Zachary R. Good"
+      ],
+      "published": "2026-11-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225775988",
+      "url": "https://doi.org/10.63822/9jjmwm50",
+      "pdf": "https://ojs.indopublishing.or.id/index.php/iej/article/download/1480/1222",
+      "title": "Production Cost Efficiency, Profit Maximization, and Input Substitution in the Manufacturing Industry: A Narrative Review",
+      "summary": "Global manufacturing industries face profound structural transformations driven by robotic automation, relative factor-price volatility, rising product-market markups, and stringent decarbonization mandates. Although extensive empirical and theoretical literatures have investigated production cost efficiency, profit maximization, and input substitution individually, these research streams remain largely fragmented across industrial organization, macroeconomics, and productivity econometrics. This article presents a comprehensive narrative review synthesizing foundational duality axioms and rec",
+      "authors": [
+        "Lintang Dwi Mayanti",
+        "Wuku Astuti",
+        "Bhenu Artha"
+      ],
+      "published": "2026-11-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225782261",
+      "url": "https://doi.org/10.1007/978-3-031-49620-2_83-1",
+      "pdf": "",
+      "title": "Lymph Node Dissection in Robotic-Assisted Laparoscopic Radical Prostatectomy (RALP)",
+      "summary": "",
+      "authors": [
+        "Shirin Razdan",
+        "Erena Pradhan",
+        "Ashutosh Kumar Tewari"
+      ],
+      "published": "2026-11-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225796106",
+      "url": "https://doi.org/10.1617/s11527-026-03336-6",
+      "pdf": "",
+      "title": "Integrated digital design and robotic construction of a large-scale freeform 3D-printed concrete landscape bridge",
+      "summary": "",
+      "authors": [
+        "Songlin Bai",
+        "Shilong Liu",
+        "Yingxin Hui",
+        "Shengjun Liu",
+        "Sheng Yan",
+        "Min Yang",
+        "Xiaofei Yao",
+        "Jianzhuang Xiao",
+        "Yamei Zhang",
+        "Xiyuan Fu",
+        "Qing Wu",
+        "Yishuang Liang"
+      ],
+      "published": "2026-11-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225823451",
+      "url": "https://doi.org/10.1007/s11701-026-04174-y",
+      "pdf": "",
+      "title": "Transoral robotic surgery for head and neck tumours: a critical systematic review of patient selection and outcome reporting",
+      "summary": "",
+      "authors": [
+        "Benjamin Clay",
+        "Peter Crabtree",
+        "Evie Banham",
+        "Rahul Jayaram"
+      ],
+      "published": "2026-11-12",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
@@ -271,26 +385,6 @@
       "trending": 0.0
     },
     {
-      "id": "W7225609502",
-      "url": "https://doi.org/10.5281/zenodo.24078240",
-      "pdf": "https://doi.org/10.5281/zenodo.24078240",
-      "title": "Tomato Plant Disease Modeling and Simulation Library for Robotic Simulators and Agricultural Digital Twins",
-      "summary": "",
-      "authors": [
-        "Luigi Biagiotti",
-        "Paolo Falcone"
-      ],
-      "published": "2026-11-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
       "id": "W7225614898",
       "url": "https://doi.org/10.1007/s00170-026-19491-7",
       "pdf": "https://link.springer.com/content/pdf/10.1007/s00170-026-19491-7.pdf",
@@ -316,7 +410,7 @@
     {
       "id": "W4400341335",
       "url": "https://doi.org/10.22144/ctujoisd.2026.055",
-      "pdf": "https://doi.org/10.22144/ctujoisd.2026.055",
+      "pdf": "https://ctujs.ctu.edu.vn/index.php/ctujs/article/download/3151/876",
       "title": "Multi-agent training for Pommerman: Curriculum learning and population-based self-play approach",
       "summary": "Pommerman is a multi-agent environment that has received considerable attention from researchers in recent years. This environment is an ideal benchmark for multi-agent training, providing a battleground for two teams with communication capabilities among allied agents. Pommerman poses significant challenges for model-free reinforcement learning due to delayed action effects, sparse rewards, and false positives, where opponents can lose because of their own mistakes. This study introduces a system designed to train multi-agent systems to play Pommerman using a combination of curriculum learnin",
       "authors": [
@@ -476,88 +570,6 @@
       "score": 4.5,
       "pick": "Computer Vision",
       "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7164199517",
-      "url": "https://doi.org/10.5281/zenodo.20634301",
-      "pdf": "https://doi.org/10.5281/zenodo.20634301",
-      "title": "Data-Driven Estimation of Ship Manoeuvring Hydrodynamic Derivatives using a Hybrid MARUS–PINN Framework with LLM-Guided Symbolic Discovery",
-      "summary": "Identification of hydrodynamic derivatives that govern ship manoeuvring behaviour for autonomous vessels such as unmanned surface vehicles (USVs) is essential for diverse maritime purposes including oceanographic research, environmental monitoring, and autonomous navigation. However, conventional hydrodynamic modelling approaches, such as classical manoeuvring models, experimental methods, and high-fidelity computational fluid dynamics (CFD), are often labour-intensive, costly, and time-consuming, and their estimated parameters may not fully capture real-world operating conditions due to nonli",
-      "authors": [
-        "Paria Rezayan",
-        "Konstantinos Domdouzis",
-        "Yogang Singh"
-      ],
-      "published": "2026-11-12",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7213375395",
-      "url": "https://openalex.org/W7213375395",
-      "pdf": "",
-      "title": "Ecological Storytelling",
-      "summary": "This chapter provides an overview of the contemporary application of oral storytelling to people’s relations with ecology. Defining a “story” as a perceived sequence of causally related events, the chapter examines how embodied in-person storytelling can support the direct sensory awareness and empathetic responsivity that are essential to changes in motivation productive of changes in behavior with respect to ecological needs. Storytelling can sustain a dialectic between inner change and the social negotiation of beliefs and values because the experience takes you inwards in your imagination ",
-      "authors": [
-        "Anthony Nanson"
-      ],
-      "published": "2026-11-12",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4402386466",
-      "url": "https://doi.org/10.1007/s12369-026-01443-6",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s12369-026-01443-6.pdf",
-      "title": "Dancing with REEM-C: A Robot-To-Human Physical-Social Communication Study",
-      "summary": "Humans often work closely together and relay a wealth of information through physical interaction. Robots, on the other hand, are not yet able to work similarly closely with humans and to effectively convey information when engaging in physical-social human-robot interaction (psHRI). This currently limits the potential of human-robot collaboration to solve real-world problems. This paper investigates how to establish clear and intuitive robot-to-human communication, while considering human comfort during psHRI. We approach this question from the perspective of a leader-follower dancing scenari",
-      "authors": [
-        "Marie Charbonneau",
-        "Francisco Javier Andrade Chavez",
-        "Katja Mombaur"
-      ],
-      "published": "2026-11-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4402717393",
-      "url": "https://doi.org/10.1145/3847352.3848095",
-      "pdf": "https://doi.org/10.1145/3847352.3848095",
-      "title": "Rag n' Roll: A Framework to Evaluate Indirect Prompt Manipulation Attacks against RAG-based Applications",
-      "summary": "Retrieval Augmented Generation (RAG) is a technique commonly used to equip LLMs with out-of-distribution knowledge by collecting, indexing, retrieving, and providing to the model specific information useful to answer user questions. The knowledge is often collected from public document repositories, providing a gateway for indirect prompt injections: attackers may craft documents specifically optimized to control the generated answer. In this paper, we investigate the practical performance of optimization techniques in hijacking the outputs of RAG pipelines. First, we review the frameworks com",
-      "authors": [
-        "Gianluca De Stefano",
-        "Lea Schönherr",
-        "Giancarlo Pellegrino"
-      ],
-      "published": "2026-11-09",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
       "trending": 0.0
     }
   ]
