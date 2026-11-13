@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13 00:49 UTC",
+  "generated_at": "2026-11-13 20:42 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -114,6 +114,25 @@
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
+    },
+    {
+      "id": "W7225882104",
+      "url": "https://doi.org/10.5281/zenodo.24180438",
+      "pdf": "https://doi.org/10.5281/zenodo.24180438",
+      "title": "A Fallback Is Not a Disposition: What Verifier-Passing Shortcuts in RLVR-Trained Models Show, Why Their Rate Rises With Task Difficulty on One Benchmark and Falls on Another, and the Signatures That Would Separate Fallback, Selection and Learned Exploitation",
+      "summary": "(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Life of Research Reinforcement learning with verifiable rewards (RLVR) pays a model whenever an automatic checker accepts its output, so any output the checker wrongly accepts is paid as well. A 2026 study of inductive rule learning found that RLVR-trained models sometimes answer a request for a general rule by listing the labels of the training instances, which a checker of label consistency accepts, and concluded that this is reward hacking specific to RLVR rather than a failure of understanding. In this analysis the author reviews and s",
+      "authors": [
+        "Pranay M. Mahendrakar"
+      ],
+      "published": "2026-11-13",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
     },
     {
       "id": "W7202080022",
@@ -334,29 +353,6 @@
       "trending": 0.0
     },
     {
-      "id": "W7225693247",
-      "url": "https://doi.org/10.1007/s43236-026-01399-w",
-      "pdf": "",
-      "title": "Novel sensorless strategy for connector engagement state detection in robotic grippers",
-      "summary": "",
-      "authors": [
-        "Gyeong-Sik Lee",
-        "송성혁",
-        "Yong-Sin Seo",
-        "Dong IL Park",
-        "Hyunuk Seo"
-      ],
-      "published": "2026-11-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
       "id": "W7225700621",
       "url": "https://doi.org/10.1007/s12555-026-00225-0",
       "pdf": "",
@@ -396,6 +392,30 @@
       "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225893325",
+      "url": "https://doi.org/10.4271/2026-99-2009",
+      "pdf": "",
+      "title": "A Deep Reinforcement Learning-Based Multi-Section Coordinated Variable Speed Limit Control Method for Expressways",
+      "summary": "This paper proposes a reinforcement learning-based multi-section, coordinated variable speed limit control approach for expressways. The method handles joint speed-limited decision-making at coupled spatiotemporal traffic dynamics across multiple sections and lanes. The traffic state space is constructed based on indicators: lane flow, speed, occupancy rate, number of slow-moving vehicles, and minimum Time-to-collision (TTC). Lane-level speed limits for each control unit are defined as action variables. A weighted reward function is designed to consider operational efficiency, safety, rational",
+      "authors": [
+        "Yuping Zhang",
+        "Tian Xu",
+        "Lin Ma",
+        "Siyu Lin",
+        "Runjing He",
+        "Chenwei Yuan"
+      ],
+      "published": "2026-11-13",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
@@ -491,25 +511,6 @@
         "Anish Laddha",
         "Nitesh Pradhan",
         "Gaurav Kumar Srivastava"
-      ],
-      "published": "2026-11-10",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225706922",
-      "url": "https://doi.org/10.5281/zenodo.24098004",
-      "pdf": "https://doi.org/10.5281/zenodo.24098004",
-      "title": "AgentOPSD: Turn-Level Credit Assignment via Recursive Belief Revision",
-      "summary": "Reinforcement learning with verifiable rewards ordinarily spreads a single advantage over a whole trajectory, a granularity too coarse to isolate the few decisions on which success in a long, multi-turn interaction actually turns. Privileged self-distillation supplies denser supervision, but it leaves unanswered how a set of local teacher–student discrepancies should be converted into credit along a sequence. We introduce AgentOPSD, a critic-free scheme that assigns credit recursively, one interaction turn at a time. Inside a turn, the token-level log-probability gaps between a skill-condition",
-      "authors": [
-        "Yizhuo Li"
       ],
       "published": "2026-11-10",
       "primary_category": "openalex",
