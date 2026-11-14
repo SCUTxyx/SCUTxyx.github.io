@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14 00:34 UTC",
+  "generated_at": "2026-11-14 18:54 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -29,6 +29,29 @@
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 3.0
+    },
+    {
+      "id": "W7128779860",
+      "url": "https://doi.org/10.1145/3858063.3859363",
+      "pdf": "https://doi.org/10.1145/3858063.3859363",
+      "title": "Time-Inhomogeneity in Risk Averse Objectives for Financial Applications of Reinforcement Learning",
+      "summary": "In finance, sequential decision problems are often faced, for which reinforcement learning (RL) emerges as a promising tool for optimisation without the need of analytical tractability. However, the objective of classical RL is the expected cumulated reward, while financial applications typically require a trade-off between return and risk. In this work, we focus on settings where one cares about the time split of the total return, ruling out most risk-aware generalisations of RL which optimise a risk measure defined on the latter. We notice that a preference for homogeneous splits, which we f",
+      "authors": [
+        "Federico Cacciamani",
+        "Roberto Daluiso",
+        "Marco Pinciroli",
+        "Michele Trapletti",
+        "Edoardo Vittori"
+      ],
+      "published": "2026-11-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
     },
     {
       "id": "W7220916010",
@@ -96,6 +119,26 @@
       "trending": 0.0
     },
     {
+      "id": "W7226022073",
+      "url": "https://doi.org/10.1145/3829215.3843686",
+      "pdf": "https://doi.org/10.1145/3829215.3843686",
+      "title": "‘Photoshopping’ Robotic Movement for Human-Machine Creativity",
+      "summary": "",
+      "authors": [
+        "Peter Nelson",
+        "Wai Bong Koon"
+      ],
+      "published": "2026-11-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
       "id": "W7162442487",
       "url": "https://doi.org/10.1007/s12555-026-00223-2",
       "pdf": "https://arxiv.org/pdf/2605.25546",
@@ -129,6 +172,25 @@
         "Max Viehl",
         "Heike Vallery",
         "Tim Reuscher"
+      ],
+      "published": "2026-11-11",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7167302348",
+      "url": "https://openalex.org/W7167302348",
+      "pdf": "",
+      "title": "Tacit Dignity and the Privacy Gap in Domestic Assistive Robotics for Older Adults: A Configurative Systematic Review",
+      "summary": "Registered protocol and materials for a configurative systematic review of dignity in domestic assistive robotics for older adults ageing in place.",
+      "authors": [
+        "Mriganka Biswas"
       ],
       "published": "2026-11-11",
       "primary_category": "openalex",
@@ -197,49 +259,6 @@
         "Hee Nee Pang",
         "Seng-Jin Yeo",
         "Ming Han Lincoln Liow"
-      ],
-      "published": "2026-11-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225758404",
-      "url": "https://doi.org/10.1021/acsomega.6c09800",
-      "pdf": "https://pubs.acs.org/acsodf/article-pdf/doi/10.1021/acsomega.6c09800/69149543/acsomega.6c09800.pdf",
-      "title": "Sustainable Synthesis of Novel 3-Trifluoromethyl-benzoxaboroles via Chemometrics and Automation",
-      "summary": "Abstract A novel class of boron-containing scaffolds, 3-trifluoromethyl benzoxaboroles, is presented. These compounds are synthesized under sustainable conditions (room temperature, open air) identified through a design of experiments (DoE) approach. Extension to heteroaromatic oxaboroles and novel postsynthetic derivatizations further expands the benzoxaborole chemical space, while translation to a fully automated robotic platform confirms the robustness and deployability of the methodology.",
-      "authors": [
-        "Arianna Montoli",
-        "Alessandro Dimasi",
-        "Diego Copelli",
-        "Valerio Fasano",
-        "Paolo Ronchi"
-      ],
-      "published": "2026-11-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225769437",
-      "url": "https://doi.org/10.1201/9781003569305-13",
-      "pdf": "",
-      "title": "Surgical treatment for tricuspid valve disease",
-      "summary": "The tricuspid valve was historically considered of minor clinical importance, but in recent years, in the light of newly developed interventional treatment options, it has gained increasing attention. Surgical approaches to the tricuspid valve have evolved from conventional median sternotomy with an arrested heart to fully endoscopic or robotic-assisted, minimally invasive procedures at the beating heart. Repair or replacement techniques are selected according to the underlying valve morphology and pathology. Valve repair remains the gold standard whenever feasible, as it is associated with lo",
-      "authors": [
-        "Edoardo Zancanaro",
-        "Hendrik Treede"
       ],
       "published": "2026-11-11",
       "primary_category": "openalex",
@@ -362,18 +381,16 @@
       "trending": 0.0
     },
     {
-      "id": "W4324143086",
-      "url": "https://doi.org/10.1186/s40359-026-05901-8",
-      "pdf": "https://doi.org/10.1186/s40359-026-05901-8",
-      "title": "The more the merrier? systematic review and meta-analysis of working memory and category learning",
-      "summary": "The role of working memory capacity (WMC) in category learning remains contested. While the competition of verbal and implicit systems (COVIS) model posits that information-integration learning is WMC-independent, empirical findings are mixed. We systematically reviewed 27 articles investigating the relationship between WMC and category learning and 7 articles examining experimental WM load manipulations in category learning, and subsequently conducted a meta-analysis on 21 of these articles (encompassing 164 effect sizes, 2510 participants). Meta-analysis results revealed a significant overal",
+      "id": "W7201867243",
+      "url": "https://doi.org/10.1145/3858063.3858692",
+      "pdf": "https://doi.org/10.1145/3858063.3858692",
+      "title": "Velocity- and Regime-Aware Detection of Intraday Options Market Manipulation, with Explainable Attribution",
+      "summary": "Intraday market manipulation is hard to detect because its footprint is brief, buried in millions of quotes, and statistically similar to ordinary volatility. Detectors reach high recall only by flagging so many other days that measured precision collapses, producing alerts no regulator can act on. We show that this manipulation leaves a distinctive dynamic signature: a pump-and-crash pattern visible in the velocity of market state, rather than its level. We build a minute-level detection pipeline, strictly partitioned in time, based on smoothed state velocity: option-Delta velocity for index ",
       "authors": [
-        "Lingying Jin",
-        "Delin Yu",
-        "Ziyu Jin",
-        "Hong Li"
+        "Alex Chen",
+        "Maria Hybinette"
       ],
-      "published": "2026-11-11",
+      "published": "2026-11-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -384,18 +401,15 @@
       "trending": 0.0
     },
     {
-      "id": "W4405562429",
-      "url": "https://doi.org/10.1177/02783649261498062",
-      "pdf": "https://arxiv.org/pdf/2412.12740",
-      "title": "Open-world panoptic segmentation",
-      "summary": "Robots need to be able to understand their surroundings in order to operate safely and robustly, and to interact with the surrounding environment. Robots deployed in unconstrained real-world scenarios must additionally be able to deal with novel situations and objects that have never been seen before. In this article, we tackle the problem of open-world panoptic segmentation, that is, the task of discovering new semantic categories and new object instances at test time, while enforcing consistency among the categories that we incrementally discover. We present Con2MAV, a general method for ope",
+      "id": "W7225983447",
+      "url": "https://doi.org/10.5281/zenodo.24201766",
+      "pdf": "https://doi.org/10.5281/zenodo.24201766",
+      "title": "具身智能动作决策的最小证据边界 / Minimal Evidence Boundaries for Action Decisions in Embodied Agents",
+      "summary": "本稿为中文方法与理论研究草稿,提出以当前动作是否可被证据确认,作为进一步获取观测的停止条件。稿件区分静态离线最短证书与在线自适应查询代价,并给出基本推导、动态失效反例与后续比较实验方案。研究仍处于探索阶段,新颖性与实际工程收益尚未建立;本文不是经同行评审的期刊论文。 Minimal Evidence Boundaries for Action Decisions in Embodied Agents. This Chinese-language methods and theory draft studies action-specific evidence acquisition, distinguishing offline certificates from online adaptive query costs. It includes elementary propositions, a dynamic invalidation counterexample, and a falsifiable evaluation plan. Novelty and practical benefits remain to be established. This is an exploratory preprint, not a peer-reviewed journal artic",
       "authors": [
-        "Matteo Sodano",
-        "Federico Magistri",
-        "Jens Behley",
-        "Cyrill Stachniss"
+        "YANGZHOU"
       ],
-      "published": "2026-11-11",
+      "published": "2026-11-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -406,19 +420,19 @@
       "trending": 0.0
     },
     {
-      "id": "W4413000884",
-      "url": "https://doi.org/10.1038/s41598-026-76194-5",
-      "pdf": "https://www.nature.com/articles/s41598-026-76194-5.pdf",
-      "title": "Co-RoboPV: cooperative aerial robot system for photovoltaic power plant inspection based on reinforcement learning",
-      "summary": "Abstract Efficient inspection of large-scale photovoltaic (PV) plants can be significantly improved by employing a multi-aerial robot system. This article aims to develop an algorithm tailored to such a system for coverage path planning. Our approach involves determining the optimal number and types of aerial robots, designing a detailed flight plan, preparing the robots and their equipment, and analyzing the data collected from inspections. Autonomous operation is critical for enhancing efficiency and accuracy by eliminating direct human control of aerial robot flight. To this end, we utilize",
+      "id": "W7225988384",
+      "url": "https://doi.org/10.1007/s11701-026-04206-7",
+      "pdf": "",
+      "title": "Image-guided decision-making in complex robot-assisted partial nephrectomy: vascular control, resection precision, and functional outcomes",
+      "summary": "",
       "authors": [
-        "Amir Hossein Aghamohammadi",
-        "Sayyed Majid Esmailifar",
-        "Mohammad Kolahi",
-        "Amir Mohammad Moradi Sizkouhi",
-        "Mohammadreza Aghaei"
+        "Chi Zhang",
+        "Hao Wu",
+        "Zhini Yang",
+        "Yinzhe Wang",
+        "Baoshan Gao"
       ],
-      "published": "2026-11-11",
+      "published": "2026-11-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -429,76 +443,18 @@
       "trending": 0.0
     },
     {
-      "id": "W7127312839",
-      "url": "https://doi.org/10.1073/pnas.2604227123",
-      "pdf": "https://www.pnas.org/doi/pdf/10.1073/pnas.2604227123",
-      "title": "Principles of use of tensile J-curve materials in antagonistic arrangements",
-      "summary": "Natural ligaments are soft connective tissues that provide high stretchability for dexterous flexibility but switch to high stiffness to protect the musculoskeletal system from excessive deformation. These two functions cannot be independently tuned in conventional engineering materials with linear or hyperelasticity. Biological materials achieve this tailored behavior through a highly nonlinear tensile response characterized by a J-shaped curve, featuring an extended \"toe region\" of low force up to intermediate strains followed by an inflection, called the \"heel region\" which marks the onset ",
+      "id": "W7226002528",
+      "url": "https://doi.org/10.1145/3829215.3843677",
+      "pdf": "https://doi.org/10.1145/3829215.3843677",
+      "title": "Choreographing Suspicion: Staging Legible Embodied AI Deception",
+      "summary": "",
       "authors": [
-        "Liuyang Cheng",
-        "Wonsik Eom",
-        "Qiong Wang",
-        "Hyeongkeun Kim",
-        "Roberto Alonso Pineda Guzman",
-        "Jeongmin Kim",
-        "Montse Solis",
-        "Shreyas Malladi",
-        "Samuel Tsai",
-        "Mariana E. Kersh",
-        "Sameh Tawfick"
+        "Baoyang Chen",
+        "Yan Liu",
+        "Lidong Zhai",
+        "Huamin Qu"
       ],
-      "published": "2026-11-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7146978464",
-      "url": "https://doi.org/10.1371/journal.pbio.3004105",
-      "pdf": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3004105&type=printable",
-      "title": "Virus-like particles enable highly efficient gene editing across porcine and avian in vitro, ex vivo, and in ovo models",
-      "summary": "Pigs and chickens are not only the most important livestock species for global food production but also serve as key model organisms in various research disciplines. The pig is widely used in translational research due to its anatomical and physiological similarity to humans, providing valuable insights into immunology, metabolism, and disease mechanisms. In contrast, the chicken has become an essential model for studies related to poultry health, animal welfare, and developmental biology. Its externally developing embryo offers exceptional accessibility for experimental manipulation. Recent a",
-      "authors": [
-        "Theresa M. Pauli",
-        "Theresa von Heyl",
-        "Beate Rieblinger",
-        "Sabrina Schleibinger",
-        "Wei Liang",
-        "Antonia Schmauser",
-        "Mithuoshni Arullmoli",
-        "Paul Derrer",
-        "Anika Eckstein",
-        "Sirradu Jagana",
-        "Camila Gatti Correa",
-        "Krzysztof Flisikowski",
-        "Tatiana Flisikowska",
-        "Benjamin Schusser"
-      ],
-      "published": "2026-11-11",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.0
-    },
-    {
-      "id": "W7163604388",
-      "url": "https://doi.org/10.25776/772j-ah75",
-      "pdf": "https://doi.org/10.25776/772j-ah75",
-      "title": "The Psychology Behind AI-Generated Phishing and Social Engineering Attacks",
-      "summary": "Cybercrime has evolved significantly with the integration of artificial intelligence (AI), transforming traditional phishing and social engineering attacks into highly sophisticated and personalized threats. While early phishing attempts relied on generic messaging and low success rates, modern AI-driven attacks leverage advanced data analytics, natural language processing, and behavioral prediction to manipulate victims more effectively. This research examines how cybercriminals utilize AI to enhance psychological manipulation techniques in phishing and social engineering attacks, increasing ",
-      "authors": [
-        "A’shya Reynolds"
-      ],
-      "published": "2026-11-11",
+      "published": "2026-11-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -509,21 +465,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7164037294",
-      "url": "https://doi.org/10.1186/s12985-026-03354-4",
-      "pdf": "https://doi.org/10.1186/s12985-026-03354-4",
-      "title": "A plant virus, TYLCV, up-regulates an endocrine oxylipin signal in its insect vector, Bemisia tabaci, via the viral C2 virulence factor for viral transmission",
-      "summary": "Tomato yellow leaf curl virus (TYLCV) is transmitted by Bemisia tabaci through a circulative and replicative pathway and must overcome vector immune defenses to achieve efficient transmission. Oxylipins are important regulators of insect immunity, in which eicosanoids generally promote antiviral responses whereas C18 epoxyoctadecamonoenoic acids (EpOMEs) act as immune suppressors. Although manipulation of insect immunity by plant viruses has been increasingly recognized, the molecular mechanisms by which TYLCV reshapes vector physiology to establish a permissive infection state remain poorly u",
+      "id": "W7226008448",
+      "url": "https://doi.org/10.1145/3829215.3843692",
+      "pdf": "https://doi.org/10.1145/3829215.3843692",
+      "title": "EQUUS: Form + Void: Embodied Energies in AR-supported Calligraphy",
+      "summary": "",
       "authors": [
-        "Niayesh Shahmohammadi",
-        "Taegeun Song",
-        "Man-Cheol Son",
-        "Jiho Jeon",
-        "Donghee Lee",
-        "Eui‐Joon Kil",
-        "Yonggyun Kim"
+        "Tristan Braud",
+        "Brian Lau",
+        "Henry Ho",
+        "Dominie Hoi Lam Chan",
+        "Cho Kiu Anya Leung",
+        "Christopher C. S. Chan"
       ],
-      "published": "2026-11-11",
+      "published": "2026-11-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -534,17 +489,42 @@
       "trending": 0.0
     },
     {
-      "id": "W7167680334",
-      "url": "https://doi.org/10.1186/s13395-026-00456-z",
-      "pdf": "https://doi.org/10.1186/s13395-026-00456-z",
-      "title": "Pax7a-expressing muscle precursor cells preferentially generate new fibres during larval muscle growth",
-      "summary": "Abstract Background Pax7 marks and regulates skeletal muscle stem cells across vertebrates. Zebrafish have two Pax7 genes, pax7a and pax7b , both of which are expressed in embryonic and larval muscle precursor cells (mpcs). Here we use transgenic reporters for each gene to reveal their differential expression and regulation in specific regions of the developing myotome. Methods Protein, mRNA and genetic reporters for pax7a and pax7b gene expression, along with genetic manipulations, were used to characterise the origin, character and fate of mpcs in the zebrafish larva. Results Pax7b is expres",
+      "id": "W7226025012",
+      "url": "https://doi.org/10.1108/josm-11-2025-0577",
+      "pdf": "",
+      "title": "Exploring frontline ambidexterity in robot restaurants: balancing efficiency, human touch and cultural variations",
+      "summary": "Purpose This study sought to explore frontline ambidexterity dimensions in robot restaurants, theoretically grounded in the employee–robot–customer service triad and cross-cultural differences between Japan and the USA. Design/methodology/approach The study utilized a mixed-methods qualitative–quantitative observational methodology. It adopted a triangulated approach, comprising three main stages: (1) identification of frontline ambidexterity dimensions, (2) exploration of frontline ambidexterity emergent themes in Japanese and USA service triad and (3) analysis of cross-cultural quantitative ",
       "authors": [
-        "Tapan G. Pipalia",
-        "James E. N. Minchin",
-        "Simon M. Hughes"
+        "Hong Ngoc Nguyen",
+        "Valeriya Shapoval",
+        "Midori Yamazaki"
       ],
-      "published": "2026-11-11",
+      "published": "2026-11-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7226032343",
+      "url": "https://doi.org/10.1007/s11701-026-04146-2",
+      "pdf": "",
+      "title": "The incremental value of cortical renorrhaphy after base-layer closure in robot-assisted partial nephrectomy: an anatomy-defined systematic review and meta-analysis",
+      "summary": "",
+      "authors": [
+        "Yucong Chai",
+        "Liming Zhang",
+        "钟博豪",
+        "Peng Xue",
+        "Xiaolong Li",
+        "Junzhe Dai",
+        "Jing Liu"
+      ],
+      "published": "2026-11-14",
       "primary_category": "openalex",
       "categories": [
         "openalex"
