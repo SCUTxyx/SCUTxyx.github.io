@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17 02:43 UTC",
+  "generated_at": "2026-11-17 21:58 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -74,60 +74,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7226038404",
-      "url": "https://doi.org/10.1145/3858063.3858904",
-      "pdf": "https://doi.org/10.1145/3858063.3858904",
-      "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
-      "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment. Existing neurosymbolic methods such as Probabilistic Logic Policy Gradient (PLPG) offer constraint-satisfying reinforcement learning (RL) via differentiable symbolic supervision but assume a finite, discrete action space. We present a PLPG-inspired continuous allocati",
+      "id": "W7234463010",
+      "url": "https://doi.org/10.3760/cma.j.cn112137-20260202-00377",
+      "pdf": "",
+      "title": "[Intelligent cervical spine surgery: current status, clinical value, and future perspectives across the perioperative continuum].",
+      "summary": "Cervical spine surgery, particularly procedures involving the atlantoaxial region and craniovertebral junction, is characterized by intricate anatomy, substantial anatomical variation, and close proximity to critical structures such as the spinal cord and vertebral arteries, leaving a limited margin for surgical safety. Recent advances in three-dimensional image reconstruction, digital preoperative planning, intraoperative navigation and robotic assistance, and novel fusion implants have gradually shifted several vital steps from predominantly experience-based practice toward quantitative and ",
       "authors": [
-        "Zeynep Yıldız",
-        "Satchit Chatterji",
-        "Ercan Atam",
-        "Marcel Boersma"
+        "F Z Ai",
+        "J Xu",
+        "S D Mo",
+        "B L Liu",
+        "R Guo",
+        "X Deng"
       ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7226885968",
-      "url": "https://doi.org/10.1177/02783649261504038",
-      "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/02783649261504038?download=true",
-      "title": "Autonomous navigation of multiple reconfigurable ferrofluid droplet robots in complex environments",
-      "summary": "Ferrofluid-based soft robots with extreme deformability have emerged as promising manipulation tools for diverse biomedical applications. Their unique properties to navigate irregular terrains and access otherwise unreachable regions within confined spaces have enabled new opportunities in targeted drug delivery, microfluidic logistics, and lab/organ on-a-chip. However, achieving dynamic motion planning and intelligent behavior for multiple reconfigurable ferrofluid droplet robots (FDRs) is still one of the major challenges yet to be solved. In this paper, we develop a novel framework that int",
-      "authors": [
-        "Guangming Cui",
-        "Xianrui Zhang",
-        "Zhenping Yu",
-        "Ang Liu",
-        "Juntian Qu"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7227031665",
-      "url": "https://doi.org/10.5281/zenodo.24223730",
-      "pdf": "https://doi.org/10.5281/zenodo.24223730",
-      "title": "4D MICROROBOT SAFETY AND TRANSLATION F156-F160 | FAMILY 32 | FIVE-FLAGSHIP SCIENTIFIC TECHNICAL NOTEBOOK 33 × STARLI | The companion to the 819-page nonclinical research monograph EVIDENCE BOUNDARY: all analytic 3D maps are synthetic nonclinical candidates. No human specimens, certified material biocompatibility, surgical implantation, patient trial, regulatory authorization, stroke-recovery outcome, or quantum advantage is reported. A LETTER FROM THE THIRTY-SECOND RESEARCH FAMILY A passing extract screen is not certification of biological compatibility. The first flagship tests whether the chemical and assay witness actually identifies the material response. The second follows invisible fragments and unresolved mass. The third asks what a nonliving phantom can and cannot validate. The fourth demands physical power-off independent of the command interface. The fifth separates evidence registration from ethical, regulatory and clinical permission. The common nonclinical platform contains sealed microfluidic extraction modules, nonliving gel phantoms, fragment mass collectors, an isolated dummy-load robotic controller and an independently auditable evidence dossier. None of these tests establishes direct biological contact compatibility, permission to intervene with humans or improvement after stroke. The companion PDF preserves the 819-page research architecture: 30 dimensionally specified equations, 42 fully recomputable 3D analytic sensitivity grids, 82 chapters of six progressive Mechanism–Measurement–Refutation pages, 200 Research Gates and 33 unbuilt Phoenix prototypes. This notebook opens with nine title-led scientific descriptions and all five official 4D F156–F160 titles for accurate publication discovery. The research workflow couples extractables and recovered mass, nonliving phantom measurements, independently timed actuator isolation, risk control and third-party reconstruction. FAMILY 32 OFFICIAL 4D FLAGSHIP TITLES / PUBLICATION DISCOVERY F156 | Biocompatibility of 4D Biomedical Microrobot Materials at the Limit Core research mechanism: material extractables, leachables, assay interference and biological-contact classification. Independent counterworld: apparently decreased viability is an optical/chemical assay interference or a changed extraction ratio rather than a biological material response. Proposed blind test: blind the pH, extraction dwell and polymer batch, introduce a known assay interferent, and independently measure analyte concentration and viability-proxy calibration. Evidential limit: a sealed nonliving extraction bench and optional independently authorized ex-vivo or cell-free analytical standards, never a device cleared for human contact. F157 | Fragment Generation and Recovery in 4D Microrobots at the Limit Core research mechanism: particle shedding, size-dependent recovery and a closed mass-fate ledger. Independent counterworld: apparently perfect retrieval is a consequence of size-limited imaging, wall adhesion, precipitation or uncounted dissolved fractions. Proposed blind test: seed blind subvisible reference particles with known mass, reverse flow and deformation histories, then independently assay chamber walls, filters and effluent. Evidential limit: sealed microfluidic test rigs with nonliving surrogate 4D fragments and no in-vivo navigation. F158 | Nonclinical Tissue-Phantom Validation of 4D Microrobots at the Limit Core research mechanism: phantom-specific deformation, transport, exposure and nonexchangeable validation domains. Independent counterworld: a visually convincing tool motion is caused by phantom composition tuning or shared calibration while tissue-equivalent mechanics and exposure remain unmeasured. Proposed blind test: randomize elastic modulus, diffusion coefficient and phantom age while withholding phantom material identity from the simulator and scoring contact stress and solute flux externally. Evidential limit: nonliving gels and authorized laboratory phantoms; never human tissue safety or treatment conclusions. F159 | Autonomy Boundaries and Risk Control in 4D Stroke Rehabilitation Robotics at the Limit Core research mechanism: time-bounded authority, independent energy isolation and hazardous-state refusal. Independent counterworld: a graphical software STOP indicator may conceal residual powered output, stale authorization, delayed network packets or a shared-clock audit failure. Proposed blind test: blindly issue expired tokens, replay delayed messages, corrupt the system clock and cut the controller while independent shunt and load-cell instruments measure physical output. Evidential limit: isolated controller and resistive/mechanical dummy load, not a patient-connected rehabilitation device. F160 | Evidence Thresholds from 4D Engineering Validation to Clinical Research at the Limit Core research mechanism: evidence maturity, traceable risk controls and nonclinical-to-clinical boundary refusal. Independent counterworld: a high engineering su",
-      "summary": "",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-11-14",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -186,44 +146,6 @@
       "trending": 0.0
     },
     {
-      "id": "W7226255694",
-      "url": "https://doi.org/10.5281/zenodo.24212201",
-      "pdf": "https://doi.org/10.5281/zenodo.24212201",
-      "title": "Reinforcement learning as a comparative framework for the science of agency",
-      "summary": "Agency is attributed to a wide range of organisms across the tree of life. However, there is currently no systematic approach by which to investigate and compare agential phenomena and the diversity of agenthood. In this paper, I explore reinforcement learning (RL) as a candidate comparative framework for the science of agency. In Section 2, I introduce the history of RL and trace its roots in experimental research on animal learning before turning to its integration with computational methods and usage across disciplines. In Section 3, I consider what is needed of a cross-species framework fo",
-      "authors": [
-        "Liberty Severs"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7227079967",
-      "url": "https://doi.org/10.5281/zenodo.24229242",
-      "pdf": "https://doi.org/10.5281/zenodo.24229242",
-      "title": "QuantumRL-dissection: component-based evaluation of parametrized quantum circuits in reinforcement learning, from PPO to DQN",
-      "summary": "Code, configurations and per-run results of a master's thesis that ports the component analysis of a hybrid quantum-classical reinforcement learning agent (output reuse, data reuploading, entanglement) from PPO to DQN on CartPole and FrozenLake, compares it with classical controls matched in parameters and in information, and tests whether a classical model can represent what the circuit represents. The code is released with the thesis \"A Component-Based Evaluation of Parametrized Quantum Circuits: from Proximal Policy Optimization to Deep Q-Learning Across Configurations and Environments\" (R.",
-      "authors": [
-        "Roger Mas Bosch"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
       "id": "W7233527112",
       "url": "https://openalex.org/W7233527112",
       "pdf": "",
@@ -241,6 +163,44 @@
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
+    },
+    {
+      "id": "W7233885305",
+      "url": "https://doi.org/10.6084/m9.figshare.35032222",
+      "pdf": "https://doi.org/10.6084/m9.figshare.35032222",
+      "title": "Smart Agriculture Robot for Sowing Seed",
+      "summary": "Abstract: In the recent trend of Smart Agriculture making use of Robots plays a very important role. Scarcity of skilled laborers and environmental changes have made man to replace with machines. The automation in forming process is mainly for time saving, energy efficiency of repeated work in farming fields and increased productivity of crop and market trends. The main prerequisite for a good crop yielding is its seeding procedure. In this paper a Robotic vehicle is designed for Seeding in the form using an Arduino controlled by Bluetooth/RF. Certain types of sensors are also used. Agricultur",
+      "authors": [
+        "Prakash Kanade"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7234475586",
+      "url": "https://doi.org/10.5281/zenodo.24294911",
+      "pdf": "https://doi.org/10.5281/zenodo.24294911",
+      "title": "7 Open Source Humanoid Robots Pushed in Simulation: Feet Beat Torque",
+      "summary": "Research article: 7 Open Source Humanoid Robots Pushed in Simulation: Feet Beat Torque",
+      "authors": [
+        "Oleh Ivchenko"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
     },
     {
       "id": "W4400444684",
@@ -415,7 +375,7 @@
         "Nicholas Joseph Lima",
         "Ahmed Elsahhar",
         "Hanzhou Li",
-        "John T. Moon",
+        "John Timothy Moon",
         "Amir Pourmorteza",
         "David Prologo",
         "Junman Kim",
@@ -451,62 +411,27 @@
       "trending": 0.0
     },
     {
-      "id": "W7226644213",
-      "url": "https://doi.org/10.1145/3822517.3849893",
-      "pdf": "https://doi.org/10.1145/3822517.3849893",
-      "title": "Mixed Reality Teleoperation with Object-Aware Digital Twins",
-      "summary": "Remote robot teleoperation often relies on direct visual access to the physical workspace, limiting collaboration in hazardous or restricted environments. While Mixed Reality (MR) interfaces and Digital Twins (DTs) improve robot visualization, manipulable objects are rarely synchronized, preventing fully remote interaction. We present an object-aware DT that integrates multi-camera fiducial tracking with a shared MR interface for collaborative teleoperation of a four-arm robotic platform. The proposed DT continuously synchronizes robot and object states, enabling multiple users to manipulate p",
+      "id": "W7234077473",
+      "url": "https://doi.org/10.5281/zenodo.24295123",
+      "pdf": "https://doi.org/10.5281/zenodo.24295123",
+      "title": "Reward-Driven Point Selection for One-Shot Segmentation with SAM",
+      "summary": "Source code for behavioral cloning and proximal policy optimization point selection with a frozen Segment Anything Model. Results and learned weights are distributed separately at https://doi.org/10.5281/zenodo.24226833.",
       "authors": [
-        "Saúl Alexis Heredia Pérez",
-        "Hung-Ching Huang",
-        "Kanako Harada"
+        "Xeerak Muhammad",
+        "J.C. Vaught",
+        "Jacob Whisenant",
+        "Douglas Cahl",
+        "Yan Tong",
+        "Yi Wang"
       ],
-      "published": "2026-11-14",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7226741166",
-      "url": "https://doi.org/10.5281/zenodo.24211590",
-      "pdf": "https://doi.org/10.5281/zenodo.24211590",
-      "title": "Supplementary Code and Simulation Data for Resilient Online Scheduling in Robotic Mobile Fulfillment Systems under Stochastic Robot Failures",
-      "summary": "This repository contains supplementary source code and simulation data associated with a study on resilient online scheduling for integrated order picking and replenishment in Robotic Mobile Fulfillment Systems (RMFS) under stochastic robot failures. The study investigates event-driven scheduling, response-oriented task dispatching, variable neighborhood search, robot failure recovery, task takeover, and local schedule adjustment. Repository Contents Source code for simulation, scheduling, and comparative algorithms. Experimental summaries and numerical results for different system scales and ",
-      "authors": [
-        "Anonymous"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7227031721",
-      "url": "https://doi.org/10.5281/zenodo.24223953",
-      "pdf": "https://doi.org/10.5281/zenodo.24223953",
-      "title": "FOUR-DIMENSIONAL NANOROBOTICS AND QUANTUM SENSING CLOSED LOOPS AT THE LIMIT Five flagships · Nine title-led research DNA sections · 30 candidate equations · 42 synthetic 3D models · 82 progressive research chapters · 200 Research Gates · 33 Phoenix prototypes Authors: 33 x STARLI / White Rainbow Era | English research working edition 1.0 | 14 November 2026 SCIENTIFIC STATUS: Prospective, nonclinical, falsifiable and reproducible. The models below are synthetic engineering sensitivity exercises. Neither quantum advantage, human safety, implantation readiness nor post-stroke functional efficacy has been established. OFFICIAL 4D FLAGSHIP RESEARCH TITLES | FAMILY 37 F181: Closed-Loop Architectures for 4D Nanorobotics and Quantum Sensing at the Limit F182: Quantum-Sensing Feedback Control of 4D Nanorobots at the Limit F183: Quantum Sensor Drift Compensation in 4D Nanorobotics at the Limit F184: Energy and Communication Limits of 4D Nano-Quantum Closed Loops at the Limit F185: Failure Detection and Safe Recovery of 4D Nano-Quantum Closed Loops at the Limit Publication-ready thematic umbrella: 4D Biomedical Nano/Microrobotics, Quantum Sensing Closed-Loop Control, Sensor Drift, Telemetry Energy Limits, Safety Recovery and Brain–Computer Interfaces for Prospective Stroke Rehabilitation Research. NINE TITLE-LED RESEARCH DNA ESSAYS | PUBLICATION AND ZENODO USE 01 | Four-Dimensional Nanorobotics and Quantum Sensing Closed Loops: Scientific Identity and Research Position The Family 37 program is a prospective experimental architecture, not a report of deployed neural therapy. Its five formal flagships follow the causal chain from field-source isolation to observable geometry, bounded controller authority, sensor drift calibration, communication cost and physical recovery. The relevant engineering object is an isolated magnetic-sensing and 4D microarm bench, not a human nervous system. Claims of nonclinical tracking or controlled deformation are not portable to a stroke-rehabilitation endpoint without entirely separate evidence. The scientific identity of this notebook is the independent construction of refutations that future laboratories can reproduce. Research link for F181: the controlled domain is field isolation and independent 3D localization. Its main independent observations are position error [um] and control-field leakage [nT], contrasted with field-off sensing and a calibrated classical Hall-probe tracker. A predeclared antagonist is shared actuation fields masquerading as robot localization; the blinded intervention is to blindly swap actuation-field shielding and conceal an independent optical trajectory. The investigation must stop for unobserved field source, unreconstructable position, or unauthorized actuation. This flagship-specific design keeps the title from being an empty keyword bundle and ensures that future discoverability points readers to an actual falsifiable method. 02 | Core Three-Way Coupling: 4D Morphological Change, Quantum-Sensor Readout and Independent Physical Localization The central coupling is not three ambitious words. A 4D surrogate changes shape under a governed actuation field; a candidate quantum-sensitive readout estimates a magnetic state; and a separate optical or field-isolated witness measures the physical location. The system gains knowledge only when these channels make different predictions under blinded disturbances. A field source shared by the controller and sensor can manufacture apparent accuracy without localizing a robot. Control delay, material history and baseline drift therefore enter the same experimentally auditable causal graph rather than being calibrated independently after success. Research link for F182: the controlled domain is feedback delay, command validity and deformable actuator hysteresis. Its main independent observations are tip tracking error [um], closed-loop latency [ms], contrasted with tuned classical PID and model-predictive control at equal sensor and energy budgets. A predeclared antagonist is smoother logged trajectories concealing delayed physical response; the blinded intervention is to secretly inject late measurement packets, then independently video-track the 4D tip. The investigation must stop for stale state, overshoot, residual force after withdrawal, or timeout. This flagship-specific design keeps the title from being an empty keyword bundle and ensures that future discoverability points readers to an actual falsifiable method. 03 | Identifiable Questions, Physical Authority and Strictly Nonclinical Boundaries in 4D Nano-Quantum Systems Family 37 asks whether field-isolated sensing and safe feedback yield an independently reconstructable advantage under equal instrument, time, power and computational budgets. Five separate subquestions test localization, feedback delay, drift, telemetry and recovery. Only sealed or isolated phantoms and offline traces are in scope. A successful visual trajectory does not justify implanted-",
-      "summary": "",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
@@ -541,6 +466,89 @@
       "score": 5.0,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7226009741",
+      "url": "https://doi.org/10.1145/3858063.3858689",
+      "pdf": "https://doi.org/10.1145/3858063.3858689",
+      "title": "Same Mean, Opposite Outcomes: Parameter Sharing among Heterogeneous Traders in Multi-Agent Reinforcement Learning",
+      "summary": "A growing share of trading decisions is made by algorithmic agents, and reinforcement learning (RL) is an increasingly common way to build them. When many such agents are trained together, a common design choice is parameter sharing: a single policy for all of them. We study what this choice does when agents differ in a trait the policies do not explicitly observe: the quality of their private information. In a synthetic market, agents receive noisy private signals about asset value. We vary how strongly the population splits into well- and poorly-informed traders, keeping average signal quali",
+      "authors": [
+        "Jan Lisicki"
+      ],
+      "published": "2026-11-14",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233930420",
+      "url": "https://doi.org/10.26179/cqp3-h572",
+      "pdf": "https://doi.org/10.26179/cqp3-h572",
+      "title": "Drone derived orthomosaics of Robinson Ridge including supporting images, DEM, point cloud and 3D model (30/01/2026).",
+      "summary": "",
+      "authors": [
+        "REBECCA MCWATTERS",
+        "GWILYM PRICE",
+        "Melanie D. Borup",
+        "Tim Spedding",
+        "DANIEL WILKINS",
+        "J. Mets"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233990744",
+      "url": "https://doi.org/10.7273/000008754",
+      "pdf": "https://doi.org/10.7273/000008754",
+      "title": "2D IMAGE SEGMENTATION AND 3D VOLUMETRIC ANALYSIS FOR AUTOMATED PROGRESS TRACKING OF ROAD MAINTENANCE AND CONSTRUCTION",
+      "summary": "Road infrastructure construction projects play a vital role in economic development, regional connectivity, and social mobility. However, those projects face several challenges, such as schedule delays, cost overrun, and loss of productivity due to delayed decisions. An automated construction progress monitoring (ACPM) framework facilitates a project manager assessing the site conditions and taking decisions quickly. To develop an automated progress monitoring pipeline, this study has completed two major tasks. In task 1, we conducted a comprehensive mix-method literature review to investigate",
+      "authors": [
+        "Jewel Rana"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7234213712",
+      "url": "https://doi.org/10.65106/apubs.2026.3299",
+      "pdf": "https://doi.org/10.65106/apubs.2026.3299",
+      "title": "Watching is not doing: Understanding self-directed learning with video for physical skill development",
+      "summary": "Much of the development of a physical skill occurs outside formal instruction, and practitioners often turn to resources such as video to guide their own learning. Yet how practitioners move from watching a technique to performing it, and where that process breaks down, has received little attention. This paper examines self-directed embodied learning in Brazilian jiu-jitsu, a grappling sport where technique is learned through physical practice against a resisting partner. Through semi-structured interviews with ten experienced practitioners, analysed using reflexive thematic analysis, we cont",
+      "authors": [
+        "謙之助 清水",
+        "Joshua Newn",
+        "Michael Cowling"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     }
   ]
