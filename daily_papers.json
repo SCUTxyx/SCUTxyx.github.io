@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17 21:58 UTC",
+  "generated_at": "2026-11-18 01:58 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,499 +9,44 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7214409375",
-      "url": "https://openalex.org/W7214409375",
-      "pdf": "https://hal.science/hal-05750482v1",
-      "title": "RobPiCFM: A Training-Free Target-Conditioned Method with Foundation Models for Robotic Picking in Clutter",
-      "summary": "Picking objects from clutter remains a challenging problem in robotic manipulation, as it requires connecting object-level perception, grasp generation, collision-aware selection, and robot motion execution in unstructured scenes. In this paper, we present RobPiCFM, an open-source, trainingfree method for target-conditioned picking in cluttered scenes. The proposed method combines pretrained foundation-modelbased perception with RGB-D geometry, 6D object pose estimation and tracking, grasp candidate generation, constraintbased grasp filtering, and motion planning. Unlike end-toend manipulation",
+      "id": "W7118279389",
+      "url": "https://doi.org/10.3390/electronics15225308",
+      "pdf": "https://doi.org/10.3390/electronics15225308",
+      "title": "GenCAMO: Scene-Graph Contextual Decoupling for Environment-Aware and Mask-Free Camouflage Image–Dense Annotation Generation",
+      "summary": "Concealed dense prediction (CDP), including camouflaged object detection, RGB-D camouflaged object detection, and open-vocabulary camouflaged object segmentation, requires reasoning about objects whose appearance closely resembles their surroundings. Progress is constrained by the scarcity of diverse camouflage images with consistent pixel-level and multimodal annotations. Although generative models offer a promising source of training data, synthesizing useful camouflage supervision requires preserving object identity and scene geometry while adapting foreground appearance to the environment.",
       "authors": [
-        "Dorian Baudu",
-        "Carlos Manuel Mateo",
-        "Michael Rondiere",
-        "Cédric Demonceaux"
+        "Shaojiang Yuan",
+        "Xiaoxue Lu",
+        "Chenglizhao Chen",
+        "Mengke Song"
       ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 12.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7128779860",
-      "url": "https://doi.org/10.1145/3858063.3859363",
-      "pdf": "https://doi.org/10.1145/3858063.3859363",
-      "title": "Time-Inhomogeneity in Risk Averse Objectives for Financial Applications of Reinforcement Learning",
-      "summary": "In finance, sequential decision problems are often faced, for which reinforcement learning (RL) emerges as a promising tool for optimisation without the need of analytical tractability. However, the objective of classical RL is the expected cumulated reward, while financial applications typically require a trade-off between return and risk. In this work, we focus on settings where one cares about the time split of the total return, ruling out most risk-aware generalisations of RL which optimise a risk measure defined on the latter. We notice that a preference for homogeneous splits, which is s",
-      "authors": [
-        "Federico Cacciamani",
-        "Roberto Daluiso",
-        "Marco Pinciroli",
-        "Michele Trapletti",
-        "Edoardo Vittori"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7226002473",
-      "url": "https://doi.org/10.1145/3858063.3858848",
-      "pdf": "https://doi.org/10.1145/3858063.3858848",
-      "title": "Making Tail Constraints Bind: Two Silent Failure Modes in CVaR-Constrained Portfolio RL",
-      "summary": "A portfolio allocator trained by reinforcement learning (RL) to maximise return has no reason to avoid large losses. The usual safeguard caps Conditional Value-at-Risk (CVaR), the average loss in the worst weeks, through a Lagrangian penalty. We show that this safeguard can fail silently in two ways. First, when the penalty and the reward sit on different scales, through an unstandardised cost advantage or a dual step mis-scaled to the CVaR excess, the penalty weight stays at zero and the budget is never enforced, even as tail metrics keep improving. Second, the evaluation protocol can decide ",
-      "authors": [
-        "Nigel Li",
-        "Yutong Han"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 10.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7234463010",
-      "url": "https://doi.org/10.3760/cma.j.cn112137-20260202-00377",
-      "pdf": "",
-      "title": "[Intelligent cervical spine surgery: current status, clinical value, and future perspectives across the perioperative continuum].",
-      "summary": "Cervical spine surgery, particularly procedures involving the atlantoaxial region and craniovertebral junction, is characterized by intricate anatomy, substantial anatomical variation, and close proximity to critical structures such as the spinal cord and vertebral arteries, leaving a limited margin for surgical safety. Recent advances in three-dimensional image reconstruction, digital preoperative planning, intraoperative navigation and robotic assistance, and novel fusion implants have gradually shifted several vital steps from predominantly experience-based practice toward quantitative and ",
-      "authors": [
-        "F Z Ai",
-        "J Xu",
-        "S D Mo",
-        "B L Liu",
-        "R Guo",
-        "X Deng"
-      ],
-      "published": "2026-11-17",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7163141910",
-      "url": "https://doi.org/10.1145/3828523.3857100",
-      "pdf": "https://doi.org/10.1145/3828523.3857100",
-      "title": "PrefixFlow: Training-Time KV Caching for Schedule-Level Prefix Reuse in LLM RL Training",
-      "summary": "In reinforcement learning (RL) post-training, one prompt fans out into N trajectories, yet standard trainers replay the shared prefix’s forward and backward pass N times; in long-context retrieval-augmented generation (RAG) and multimodal workloads, this repetition dominates training compute. Existing designs reuse the prefix within one computation graph (a packed sequence, fused kernel, or tree traversal); under the trainer’s memory limits and parallelism, their compute savings do not reliably become shorter steps. We present PrefixFlow , which takes the prefix out of that graph and into the ",
-      "authors": [
-        "Pengbo Li",
-        "Feiyuan Zhang",
-        "Guangming Sheng",
-        "G. He",
-        "Di Chai",
-        "Ziniu Li",
-        "Taiqiang Wu",
-        "Tian Han",
-        "Wenyu Mao",
-        "Binhang Yuan",
-        "Kai Chen"
-      ],
-      "published": "2026-11-14",
+      "published": "2026-11-15",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
       "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225740736",
-      "url": "https://doi.org/10.66977/xsci.2611.0026",
-      "pdf": "https://xsci.com/preprint/doi/10.66977/xsci.2611.0026.pdf",
-      "title": "Primitives and Paths: Predicting What Post-Training Can Do from What the Base Model Already Has",
-      "summary": "Does reinforcement learning teach language models new capabilities, or merely amplify ones acquired during pre-training? The literature offers evidence for both: pass@$k$ studies suggest RL reweights latent behaviours while some controlled composition studies demonstrate gains beyond simple amplification. We argue that this question has no answer independent of the capability state of the base model, and propose a two-dimensional state space for post-trainability. The first axis, \\(\\emph{effective full-solution support}\\), measures whether successful trajectories can be sampled under a feasibl",
-      "authors": [
-        "Anqi Qu"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7233527112",
-      "url": "https://openalex.org/W7233527112",
-      "pdf": "",
-      "title": "Modulair verstevigde actuatoren voor functionele zachte robots",
-      "summary": "In order to design a whole robotic system where smart building blocks interact with each other to create intelligence on a system level, it is paramount that the nonlinear input-output properties of a single structure can be designed for. To design these nonlinear structures, we will employ metamaterial technology that is known for being highly tunable. The metamaterials that will be used in this thesis consist of periodically arranged unit cells, that show non-linear mechanical properties as a result of their structure rather than the material they are made out of. When the unit cell is compo",
-      "authors": [
-        "Imran Qayyum Mundial"
-      ],
-      "published": "2026-11-17",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7233885305",
-      "url": "https://doi.org/10.6084/m9.figshare.35032222",
-      "pdf": "https://doi.org/10.6084/m9.figshare.35032222",
-      "title": "Smart Agriculture Robot for Sowing Seed",
-      "summary": "Abstract: In the recent trend of Smart Agriculture making use of Robots plays a very important role. Scarcity of skilled laborers and environmental changes have made man to replace with machines. The automation in forming process is mainly for time saving, energy efficiency of repeated work in farming fields and increased productivity of crop and market trends. The main prerequisite for a good crop yielding is its seeding procedure. In this paper a Robotic vehicle is designed for Seeding in the form using an Arduino controlled by Bluetooth/RF. Certain types of sensors are also used. Agricultur",
-      "authors": [
-        "Prakash Kanade"
-      ],
-      "published": "2026-11-17",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7234475586",
-      "url": "https://doi.org/10.5281/zenodo.24294911",
-      "pdf": "https://doi.org/10.5281/zenodo.24294911",
-      "title": "7 Open Source Humanoid Robots Pushed in Simulation: Feet Beat Torque",
-      "summary": "Research article: 7 Open Source Humanoid Robots Pushed in Simulation: Feet Beat Torque",
-      "authors": [
-        "Oleh Ivchenko"
-      ],
-      "published": "2026-11-17",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W4400444684",
-      "url": "https://doi.org/10.1080/13682199.2026.2754668",
-      "pdf": "http://doi.org/10.2139/ssrn.4889704",
-      "title": "MQViT-OSR: geometric-aware vision transformer for omnidirectional super resolution with multiquadric interpolation",
-      "summary": "Omnidirectional images (ODIs) are capable of showing the entire 360° of real-world scenes used in immersive fields of surveillance, robotics, and virtual reality. Most ODIs are obtained at low resolutions, which cause blurred edges, geometric distortions. To handle these problems, MQViT-OSR is proposed that captures long-range spatial dependencies and efficiently reconstructs panoramic images with a high level of fidelity and resolution. The MQViT-OSR generator to capture worldwide spatial relationships and retain spherical geometric structure of ODIs. Multiquadric interpolation is used as pre",
-      "authors": [
-        "Prathibha S Nair",
-        "K. Maharajan"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7127999136",
-      "url": "https://doi.org/10.1145/3822517.3848728",
-      "pdf": "https://doi.org/10.1145/3822517.3848728",
-      "title": "Dream-Butterfly: Configuring Embodied Conversational Guidance for Public Outdoor Mixed Reality Exhibitions",
-      "summary": "Public outdoor mixed reality (MR) exhibitions make guidance a spatial interaction problem: visitors need timely explanations while roaming open sites, attending to virtual artworks, hazards, bystanders, and route choices. We present Dream-Butterfly, a field-deployed embodied conversational guide for campus-scale outdoor MR exhibitions. Visitors explicitly summon the lightweight non-humanoid guide; it returns visibly to a hand-relative dialogue position and answers using retrieval-augmented responses scoped by the MR runtime to the artwork currently encountered. Within the resulting mixed guida",
-      "authors": [
-        "Dongyijie Primo Pan",
-        "Shuyue Li",
-        "Yawei Zhao",
-        "Junkun Long",
-        "Hao Li",
-        "Pan Hui"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7225279162",
-      "url": "https://openalex.org/W7225279162",
-      "pdf": "https://hal.science/hal-05848075v1",
-      "title": "Constrained Homography Estimation and Geometric Target Recovery for Vision-Based Mobile Robot Navigation",
-      "summary": "This paper addresses vision-based navigation when a planar visual target completely leaves the camera field of view during obstacle circumnavigation. Two geometric components are proposed. First, the planar motion of a ground robot and the vertical orientation of the target are exploited to derive a constrained plane-induced homography with four effective degrees of freedom. A minimal solver requiring only two point correspondences is embedded in RANSAC, thereby reducing the number of random samples required in the presence of mismatches and partial occlusions. Second, when the target becomes ",
-      "authors": [
-        "Wenhao Fu",
-        "Hicham Hadj-Abdelkader",
-        "Lamri Nehaoua",
-        "Hichem Arioui"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225986394",
-      "url": "https://doi.org/10.1145/3829215.3843690",
-      "pdf": "https://doi.org/10.1145/3829215.3843690",
-      "title": "Comb Machine: Mediated Intimacy in Telerobotics",
-      "summary": "Comb Machine: Almost Intimate (2025) is a teleoperated robotic installation in which a human comber remotely combs participants’ hair through a robot arm. Through delayed disclosure, participants first encounter the robot as seemingly autonomous and later discover the human labor behind the gesture. This mechanism changes the perceived agency and meaning of the experienced touch while heightening attention to hidden human labor behind automation. Through hair combing as an intimate, culturally charged form of bodily contact, the work explores how intimacy is reconfigured when a social gesture ",
-      "authors": [
-        "Zoe Qi-Jing Li",
-        "Yifan Liu",
-        "Fangzheng Yan",
-        "Clea T. Waite"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7226022073",
-      "url": "https://doi.org/10.1145/3829215.3843686",
-      "pdf": "https://doi.org/10.1145/3829215.3843686",
-      "title": "‘Photoshopping’ Robotic Movement for Human-Machine Creativity",
-      "summary": "This paper explores manipulating images through robotic motion rather than pixels. We used a motion capture system to record the trajectory of a calligraphy brush as an artist painted the classical Chinese orchid subject matter. We used this recording to recreate the painting with a robotic arm fitted with the same brush, then parametrically transformed the data to create new variations and experiments. This paper explores the creative agency of the artist, the motion editor, the robot and the physical materials, and how we might think of robotics as a domain for digital image editing.",
-      "authors": [
-        "Peter Nelson",
-        "Wai Bong Koon"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7226031156",
-      "url": "https://doi.org/10.1145/3829215.3843684",
-      "pdf": "https://doi.org/10.1145/3829215.3843684",
-      "title": "Reflecting on Future Human-AI Society through Along the River During the Qingming Festival",
-      "summary": "How can a historical city image help us reflect on possible futures of human-AI society? This project proposes a creative process that uses historical imagery as a starting point for translating interpretations of past social life into AI-related visual refigurations. Based on this process, we developed an AI-assisted interactive system using Along the River During the Qingming Festival. The system guides users from observing details in the scroll to constructing AI-related visual speculations. Through historical interpretation, visual rhetoric, and image and video generation, scenes of river ",
-      "authors": [
-        "Lingyu Peng",
-        "Ray Lc",
-        "Yuhao He",
-        "Qingchuan Li"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
       "pick": "Computer Vision",
       "pick_emoji": "👁",
       "trending": 0.0
     },
     {
-      "id": "W7226352760",
-      "url": "https://doi.org/10.1016/j.oceaneng.2026.129367",
-      "pdf": "",
-      "title": "Stationary-body effects, dynamic responses and wake-convection-based phase matching in tandem manta ray-inspired robotic fish",
-      "summary": "",
+      "id": "W7154461826",
+      "url": "https://doi.org/10.24272/j.issn.2095-8137.2025.568",
+      "pdf": "https://www.zoores.ac.cn/en/article/pdf/preview/10.24272/j.issn.2095-8137.2025.568.pdf",
+      "title": "鸽子外纹体中颜色选择性神经元群体的神经表征",
+      "summary": "Understanding how birds encode object color is fundamental to elucidating the neural mechanisms of color vision. Although behavioral studies have shown high color-discrimination accuracy in birds, it remains unclear whether higher-order visual areas organize color information in a structured manner. Here, we performed multi-site multi-unit activity recordings from the pigeon entopallium while presenting multi-category images that systematically varied in hue, luminance, and saturation. Many entopallium sites exhibited robust hue selectivity that remained stable across luminance and saturation ",
       "authors": [
-        "Yilin Xian",
-        "段碧雯 DUAN Biwen",
-        "Bo Li",
-        "Yan Li",
-        "Geng Zhao",
-        "Zeping Liu",
-        "Xiaofeng Wang",
-        "Li Xin’ao",
-        "Ao Liu",
-        "Yiwei Hao",
-        "Mutong Tan",
-        "Yilong Xiao",
-        "Yonghui Cao",
-        "Yong Cao"
+        "HE Qing-zhi",
+        "Juncai Zhu",
+        "Niu Xiao-Ke",
+        "Wu Peng",
+        "Zhang Ru-Peng",
+        "Li Bo",
+        "Zhizhong WANG",
+        "Zhizhong Wang"
       ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7226546946",
-      "url": "https://doi.org/10.6084/m9.figshare.c.8839318",
-      "pdf": "https://doi.org/10.6084/m9.figshare.c.8839318",
-      "title": "Portable endovascular disposable robotic assistant (PEDRA) for image-guided peripheral endovascular interventions: technical feasibility, safety, and future implications",
-      "summary": "Abstract Background Traditional fixed-console endovascular robots face barriers due to high capital costs and infrastructure requirements. This study evaluates the technical feasibility and safety of the LIBERTY® Endovascular Robotic System—a portable, disposable platform—across diverse Interventional Radiology procedures and vascular access sites. Materials and methods A single-center retrospective review was conducted on 20 consecutive outpatient procedures performed by five operators. Cases included prostate artery embolization, uterine fibroid embolization, renal/gonadal venography, genicu",
-      "authors": [
-        "Joe E. Khoury",
-        "Nicholas Joseph Lima",
-        "Ahmed Elsahhar",
-        "Hanzhou Li",
-        "John Timothy Moon",
-        "Amir Pourmorteza",
-        "David Prologo",
-        "Junman Kim",
-        "Zachary Bercu"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7226595692",
-      "url": "https://doi.org/10.5281/zenodo.24215590",
-      "pdf": "https://doi.org/10.5281/zenodo.24215590",
-      "title": "Dal robot al risultato. Tecnologia, organizzazione e produttività nell'industria italiana",
-      "summary": "L'Italia dispone di una base manifatturiera tra le più automatizzate d'Europa, ma continua a registrare una crescita debole della produttività. La compresenza dei due fenomeni non dimostra l'inefficacia della tecnologia. Mostra piuttosto che il capitale tecnico produce risultati soltanto quando viene integrato nei processi, sostenuto da dati affidabili, accompagnato da competenze e trasformato in una prestazione ripetibile lungo il turno di lavoro. Il saggio esamina questo passaggio utilizzando la robotica collaborativa come caso concreto e collegandolo alle evidenze più recenti di ISTAT, CNEL",
-      "authors": [
-        "Marco Belardi"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7234077473",
-      "url": "https://doi.org/10.5281/zenodo.24295123",
-      "pdf": "https://doi.org/10.5281/zenodo.24295123",
-      "title": "Reward-Driven Point Selection for One-Shot Segmentation with SAM",
-      "summary": "Source code for behavioral cloning and proximal policy optimization point selection with a frozen Segment Anything Model. Results and learned weights are distributed separately at https://doi.org/10.5281/zenodo.24226833.",
-      "authors": [
-        "Xeerak Muhammad",
-        "J.C. Vaught",
-        "Jacob Whisenant",
-        "Douglas Cahl",
-        "Yan Tong",
-        "Yi Wang"
-      ],
-      "published": "2026-11-17",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7128624946",
-      "url": "https://doi.org/10.1145/3828523.3857118",
-      "pdf": "https://doi.org/10.1145/3828523.3857118",
-      "title": "FlexMARL: Graph-Driven Rollout-Training Co-Design for LLM-Based Multi-Agent Reinforcement Learning",
-      "summary": "Despite algorithm-level innovations for multi-agent reinforcement learning (MARL), the underlying infrastructure for large-scale MARL remains underexplored. Existing training frameworks primarily optimize for single-agent scenarios and fail to capture the graph-structured nature of MARL. This fundamental mismatch leads to three MARL-specific challenges: topology-induced rollout skew, critical path synchronization barriers, and dynamic training demand. To bridge this gap, we propose FlexMARL, a graph-driven rollout-training co-designed framework for large-scale LLM-based MARL. FlexMARL introduc",
-      "authors": [
-        "Zhida Jiang",
-        "Zhaolong Xing",
-        "Jiawei Lu",
-        "Yipei Niu",
-        "Qingyuan Sang",
-        "Liangxu Zhang",
-        "Wenquan Dai",
-        "Junhua Shu",
-        "Jiaxing Wang",
-        "Qiangyu Pei",
-        "Qiong Chen",
-        "Xinyu Liu",
-        "Fangming Liu",
-        "Han Ai",
-        "Zhen Chen",
-        "Ke Zhang"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7226009741",
-      "url": "https://doi.org/10.1145/3858063.3858689",
-      "pdf": "https://doi.org/10.1145/3858063.3858689",
-      "title": "Same Mean, Opposite Outcomes: Parameter Sharing among Heterogeneous Traders in Multi-Agent Reinforcement Learning",
-      "summary": "A growing share of trading decisions is made by algorithmic agents, and reinforcement learning (RL) is an increasingly common way to build them. When many such agents are trained together, a common design choice is parameter sharing: a single policy for all of them. We study what this choice does when agents differ in a trait the policies do not explicitly observe: the quality of their private information. In a synthetic market, agents receive noisy private signals about asset value. We vary how strongly the population splits into well- and poorly-informed traders, keeping average signal quali",
-      "authors": [
-        "Jan Lisicki"
-      ],
-      "published": "2026-11-14",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7233930420",
-      "url": "https://doi.org/10.26179/cqp3-h572",
-      "pdf": "https://doi.org/10.26179/cqp3-h572",
-      "title": "Drone derived orthomosaics of Robinson Ridge including supporting images, DEM, point cloud and 3D model (30/01/2026).",
-      "summary": "",
-      "authors": [
-        "REBECCA MCWATTERS",
-        "GWILYM PRICE",
-        "Melanie D. Borup",
-        "Tim Spedding",
-        "DANIEL WILKINS",
-        "J. Mets"
-      ],
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -512,15 +57,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7233990744",
-      "url": "https://doi.org/10.7273/000008754",
-      "pdf": "https://doi.org/10.7273/000008754",
-      "title": "2D IMAGE SEGMENTATION AND 3D VOLUMETRIC ANALYSIS FOR AUTOMATED PROGRESS TRACKING OF ROAD MAINTENANCE AND CONSTRUCTION",
-      "summary": "Road infrastructure construction projects play a vital role in economic development, regional connectivity, and social mobility. However, those projects face several challenges, such as schedule delays, cost overrun, and loss of productivity due to delayed decisions. An automated construction progress monitoring (ACPM) framework facilitates a project manager assessing the site conditions and taking decisions quickly. To develop an automated progress monitoring pipeline, this study has completed two major tasks. In task 1, we conducted a comprehensive mix-method literature review to investigate",
+      "id": "W7166166681",
+      "url": "https://doi.org/10.7759/s44389-026-00369-4",
+      "pdf": "https://doi.org/10.7759/s44389-026-00369-4",
+      "title": "Social-AgriNet: A Multimodal Vision Transformer Framework for Explainable Banana Disease Detection under Real-World Conditions",
+      "summary": "Banana diseases cause significant crop losses worldwide and threaten food security in many tropical and subtropical regions. Accurate disease diagnosis remains challenging under real-world field conditions characterized by cluttered backgrounds, conditions far removed from laboratory-controlled environments. This paper presents Social-AgriNet, an explainable multimodal deep learning framework for robust banana disease detection from field-acquired imagery. The proposed architecture integrates a Vision Transformer (ViT-Base/16) backbone, an EfficientNet-B2 auxiliary branch, an image-derived met",
       "authors": [
-        "Jewel Rana"
+        "Moïse Kambale Kasambya"
       ],
-      "published": "2026-11-17",
+      "published": "2026-11-15",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -531,17 +76,97 @@
       "trending": 0.0
     },
     {
-      "id": "W7234213712",
-      "url": "https://doi.org/10.65106/apubs.2026.3299",
-      "pdf": "https://doi.org/10.65106/apubs.2026.3299",
-      "title": "Watching is not doing: Understanding self-directed learning with video for physical skill development",
-      "summary": "Much of the development of a physical skill occurs outside formal instruction, and practitioners often turn to resources such as video to guide their own learning. Yet how practitioners move from watching a technique to performing it, and where that process breaks down, has received little attention. This paper examines self-directed embodied learning in Brazilian jiu-jitsu, a grappling sport where technique is learned through physical practice against a resisting partner. Through semi-structured interviews with ten experienced practitioners, analysed using reflexive thematic analysis, we cont",
+      "id": "W7225844157",
+      "url": "https://openalex.org/W7225844157",
+      "pdf": "https://discovery.ucl.ac.uk/id/eprint/10232801/1/ID_611.pdf",
+      "title": "From Concept to Shape: An Analogue-AI Framework for Architectural Synthesis",
+      "summary": "Current applications of Generative Artificial Intelligence (GenAI) in architectural design education emphasize open-ended ideation and image production, offering limited support for architectural synthesis. This paper proposes a hybrid analogue-AI framework for integrating Generative AI (GenAI) into the architectural design studio, employing GenAI across three stages — problem framing, solution generation, and informed refinement within which the design space repeatedly expands and contracts. Building on Author´s (2025a) AI-assisted workflow and Author’s (2025b) decomposition of the design pro",
       "authors": [
-        "謙之助 清水",
-        "Joshua Newn",
-        "Michael Cowling"
+        "Bárbara Ruschel Lorenzoni",
+        "Angélica Paiva Ponzio",
+        "Ava Fatah gen. Schieck"
       ],
-      "published": "2026-11-17",
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W4402025898",
+      "url": "https://doi.org/10.1016/j.compind.2026.104565",
+      "pdf": "http://dx.doi.org/10.2139/ssrn.4940092",
+      "title": "A novel iron ore mass measurement method based on 3D point cloud",
+      "summary": "",
+      "authors": [
+        "Fei Li",
+        "Xiaoyan Liu",
+        "Yufeng Yin",
+        "Cong Li"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7226789131",
+      "url": "https://doi.org/10.29250/sead.1778884",
+      "pdf": "https://dergipark.org.tr/en/download/article-file/5217872",
+      "title": "Rethinking Plagiarism in the Age of AI: Types, Causes, and Emerging Approaches to Safeguarding Academic Integrity",
+      "summary": "The increasing use of artificial intelligence technologies in academic writing has reopened debates on the definition and boundaries of plagiarism. This study examines different types of plagiarism—direct plagiarism, mosaic plagiarism, self-plagiarism, data/image plagiarism, translation plagiarism, and AI-assisted plagiarism—and analyzes their underlying causes across individual, institutional, cultural, and technological dimensions. Furthermore, it evaluates global prevention strategies, including university policies, detection software, educational programs, the role of publishers and profes",
+      "authors": [
+        "Cumhur Sancaktar Selamet"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7227661764",
+      "url": "https://doi.org/10.5281/zenodo.24235057",
+      "pdf": "https://doi.org/10.5281/zenodo.24235057",
+      "title": "Code and results: Comparing Four Explanation Methods for Melanoma Classification: Mask Agreement, Faithfulness and Error Discrimination Against Reference Maps",
+      "summary": "Code, notebooks and saved results for the article \"Comparing Four Explanation Methods for Melanoma Classification: Mask Agreement, Faithfulness and Error Discrimination Against Reference Maps\" (Discover Computer Vision, revised version). The deposit contains the Kaggle training and explanation notebook (EfficientNet-B0 on HAM10000 with a lesion-level split; Grad-CAM, Integrated Gradients, LIME and occlusion), the revision notebook (reference maps, sign conventions, deletion and insertion, ROAD, randomisation check, repeat training runs), all per-image outputs for four training runs, Python scr",
+      "authors": [
+        "Okoi Michael Obeten",
+        "Christiana Uchenna Ezeanya"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7230457672",
+      "url": "https://doi.org/10.5281/zenodo.24235855",
+      "pdf": "https://doi.org/10.5281/zenodo.24235855",
+      "title": "STARLI | FAMILY 11 LIGHT-CONTROLLED NANO-ACUPUNCTURE An English Scientific and Technical Notebook / F051-F055 / Forty-Family Acupuncture Research Program Edited as a distinct, prospective nonclinical research notebook. This is not an experiment, a verified therapeutic intervention, or a claim of clinical safety. Synthetic model surfaces and the independent phantom tests remain analytically separate. The five official flagship identities F051 | Photoresponsive Nano-Acupuncture Materials at the Limit / 光響應奈米針灸材料極限 F052 | Photothermal Nanostimulation and Local Heating at the Limit / 光熱奈米刺激與局部溫升極限 F053 | Low-Energy Optical Microrobot Actuation at the Limit / 光控微機器人低能量驅動極限 F054 | Optical Localization and Nano-Acupuncture Tracking at the Limit / 光學定位與奈米針灸追蹤極限 F055 | Thermal Safety Boundaries in Light-Controlled Nano-Acupuncture at the Limit / 光控奈米針灸熱安全邊界極限 Argument and research architecture Prologue 01 | A light-driven question is not yet an acupuncture intervention Family 11 investigates photoresponsive nano-acupuncture materials at the limit through nonclinical optical benches. A light-driven question is not yet an acupuncture intervention is framed as an experimental obligation. The common test object is a light-responsive phantom with an independent temperature probe; the shared constraint is not to mistake instrument agreement for causation. All outputs are hypotheses, analytic relationships or explicitly synthetic illustrations. This preface on a light-driven question is not yet an acupuncture intervention follows flagship F051, which brings photoresponsive material identity into contact with spectrally resolved absorptance [1]. Its strong rival is absorber-drift and passive-layer mimicry. Measurements must preserve delivered irradiance, absorbed power, wavelength, detector calibration, source lot and the timestamps of rejected experiments. A false picture may arise from sensor response, geometry and operator selection even when optical motion is technically possible elsewhere in the literature. In a light-driven question is not yet an acupuncture intervention, the philosophical language of restraint and responsive action is used only to formulate questions: when should a system remain still, and what does evidence authorize? It neither verifies meridians nor establishes clinical efficacy. The experimental lineage is reversible: every chapter points to a negative case, rival explanation and independently executable condition of defeat. Prologue 02 | Why a thermal witness is more important than a compelling image Family 11 investigates photothermal nanostimulation and local heating at the limit through nonclinical optical benches. Why a thermal witness is more important than a compelling image is framed as an experimental obligation. The common test object is a light-responsive phantom with an independent temperature probe; the shared constraint is not to mistake instrument agreement for causation. All outputs are hypotheses, analytic relationships or explicitly synthetic illustrations. This preface on why a thermal witness is more important than a compelling image follows flagship F052, which brings heat-source identification into contact with independently calibrated temperature increment [K]. Its strong rival is emissivity error and missed local hot spots. Measurements must preserve delivered irradiance, absorbed power, wavelength, detector calibration, source lot and the timestamps of rejected experiments. A false picture may arise from sensor response, geometry and operator selection even when optical motion is technically possible elsewhere in the literature. In why a thermal witness is more important than a compelling image, the philosophical language of restraint and responsive action is used only to formulate questions: when should a system remain still, and what does evidence authorize? It neither verifies meridians nor establishes clinical efficacy. The experimental lineage is reversible: every chapter points to a negative case, rival explanation and independently executable condition of defeat. Prologue 03 | Five flagships, one accountable optical bench Family 11 investigates low-energy optical microrobot actuation at the limit through nonclinical optical benches. Five flagships, one accountable optical bench is framed as an experimental obligation. The common test object is a light-responsive phantom with an independent temperature probe; the shared constraint is not to mistake instrument agreement for causation. All outputs are hypotheses, analytic relationships or explicitly synthetic illustrations. This preface on five flagships, one accountable optical bench follows flagship F053, which brings light-to-motion transduction into contact with optical trajectory displacement [um]. Its strong rival is passive convection and thermophoretic drift. Measurements must preserve delivered irradiance, absorbed power, wavelength, detector calibration, source lot and the timestamps of rejecte",
+      "summary": "",
+      "authors": [
+        "33"
+      ],
+      "published": "2026-11-15",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -549,6 +174,437 @@
       "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7231089038",
+      "url": "https://doi.org/10.5281/zenodo.24235236",
+      "pdf": "https://doi.org/10.5281/zenodo.24235236",
+      "title": "Subpixel Camera-Based Structural Damage Identification with Physics-Guided Deep Learning",
+      "summary": "This independent technical research report presents a simulation-based framework for structural damage detection and localization using computer vision, finite element modeling, vibration analysis, and deep learning. The study integrates Euler–Bernoulli beam modeling, synthetic camera recordings, subpixel displacement tracking, natural-frequency and mode-shape estimation, and TensorFlow neural networks. The research comprises 35 computational experiments investigating hidden stiffness damage, camera measurement noise, motion magnification, environmental uncertainty, and damage identification. ",
+      "authors": [
+        "Toufik Al Hajj"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7232205277",
+      "url": "https://doi.org/10.1186/s12885-026-16557-3",
+      "pdf": "https://link.springer.com/content/pdf/10.1186/s12885-026-16557-3.pdf",
+      "title": "Preoperative prediction of lymphovascular space invasion in early-stage cervical cancer using a deep learning-based 3D super-resolution MRI radiomics model",
+      "summary": "BACKGROUND: Lymphovascular space invasion (LVSI) is a critical prognostic factor guiding adjuvant therapy in early-stage cervical cancer, yet its preoperative assessment is often limited by the spatial resolution of standard MRI. This study aimed to investigate the value of a deep learning-based 3D super-resolution (SR) MRI radiomics model in predicting LVSI and to evaluate how SR reconstruction impacts image quality and radiomic feature robustness. METHODS: This retrospective study included 117 patients with early-stage cervical cancer (training cohort: n = 81; validation cohort: n = 36). A 3",
+      "authors": [
+        "Yan Guo",
+        "Yongqing Ye",
+        "Qinglin Mu",
+        "Wenguang Huang",
+        "Shigang Luo"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7166272107",
+      "url": "https://openalex.org/W7166272107",
+      "pdf": "",
+      "title": "Suivi précis in situ de la diffusion d’électrolytes en phase aqueuse dans des milieux nanoconfinants modèles par réflectométrie des rayons X durs",
+      "summary": "",
+      "authors": [
+        "Diane Rébiscoul",
+        "Samuel Tardif",
+        "Zijie Lu",
+        "Hassan Khoder",
+        "Markus Baum",
+        "F. Rieutord",
+        "Rachel Rodriguez Lama",
+        "Vincent Larrey",
+        "Alejandro Fernández-Martínez",
+        "Kunyu Wang",
+        "Bertrand Siboulet"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7172368554",
+      "url": "https://openalex.org/W7172368554",
+      "pdf": "https://hal.science/hal-05704718v1",
+      "title": "Prédire l'occupation des sols pour estimer l'exposition historique aux pesticides: une analyse critique",
+      "summary": "In the context of environmental epidemiology, we aim to estimate exposure to pesticides using historical aerial photographs over the French territory. Such images are available in very high spatial resolution since 1950 and offer a unique opportunity for environmental-oriented studies through multiple decades. We leverage the existence of sparse labels to train DeepGouramic, a deep learning classification model, according to six land cover classes chosen for pesticide exposure studies. We replicate a study linking birth pesticide exposure to testicular cancer. The results are exploited to asse",
+      "authors": [
+        "Léopold Jouffroy",
+        "Lény Grassot",
+        "Astrid Coste",
+        "Clément Mallet"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225483680",
+      "url": "https://openalex.org/W7225483680",
+      "pdf": "",
+      "title": "IEW Celebration Video Premiere",
+      "summary": "Be Featured in Our Celebration Video - Send us a photo or short video of yourself, your family, your cultural traditions, or a special place that represents your heritage; your submission may be featured in our International Education Week celebration video! Video Submission - A short video of yourself or your family highlighting where you're from and your favorite cultural tradition. If you're an F-1 student, please state which site location you attend and the respective Site Director. Photo Submission - A photo of yourself or a photo of yourself with your family that represents your cultural",
+      "authors": [
+        "Department of Student Engagement"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233672034",
+      "url": "https://openalex.org/W7233672034",
+      "pdf": "https://hal.science/hal-05863025",
+      "title": "Towards Intelligent and Sustainable Structural Health Monitoring",
+      "summary": "Reliable defect detection and characterisation are essential for improving the safety, durability and sustainability of engineering structures. This study investigates a guided-wave scattering approach for characterising structural defects through the frequency-dependent amplitude and phase of scattered Lamb waves. Using finite element simulations of aluminium plates containing circular through-holes of different sizes, a beamforming-based imaging method [1,2] is employed to localise defects and extract two complementary descriptors: the scattering cross-section, which quantifies the strength ",
+      "authors": [
+        "Elie Farha",
+        "Lynda Chehami",
+        "Emmanuel Moulin",
+        "Amadou Sall DIA",
+        "Nikolay Smagin"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W4226165704",
+      "url": "https://doi.org/10.1038/s41598-026-74112-3",
+      "pdf": "https://www.nature.com/articles/s41598-026-74112-3_reference.pdf",
+      "title": "The brain tumor sequence registration (BraTS-Reg) challenge for establishing correspondence between pre-operative and follow-up MRI scans of diffuse glioma patients",
+      "summary": "Abstract Registration of longitudinal brain MRI scans containing pathologies remains a challenging problem, due to substantial changes in tissue appearance. While medical image registration methods have advanced considerably, they often lack the required precision and robustness. To address this gap, we introduced the brain tumor sequence registration (BraTS-Reg) challenge, the first public benchmark specifically designed for deformable registration between pre-operative and follow-up scans of patients with adult-type diffuse gliomas. Conducted in conjunction with ISBI-2022 and MICCAI-2022, Br",
+      "authors": [
+        "Bhakti Baheti",
+        "Satrajit Chakrabarty",
+        "Hamed Akbari",
+        "Michel Bilello",
+        "Benedikt Wiestler",
+        "Julian Schwarting",
+        "Evan Calabrese",
+        "Jeffrey D. Rudie",
+        "Syed Abidi",
+        "Mina S. Mousa",
+        "Javier E. Villanueva-Meyer",
+        "Brandon K. K. Fields",
+        "Florian Kofler",
+        "Russell Takeshi Shinohara",
+        "Juan Eugenio Iglesias",
+        "Tony C. W. Mok",
+        "Albert C. S. Chung",
+        "Marek Wodziński",
+        "Artur Jurgas",
+        "Niccolò Marini",
+        "Manfredo Atzori",
+        "Henning Müller",
+        "Christoph Großbröhmer",
+        "Hanna Siebert",
+        "Lasse Hansen",
+        "Mattias P. Heinrich",
+        "Luca Canalini",
+        "Jan Klein",
+        "Annika Gerken",
+        "Stefan Heldmann",
+        "Alessa Hering",
+        "Horst K. Hahn",
+        "Mingyuan Meng",
+        "Lei Bi",
+        "Dagan Feng",
+        "Jinman Kim",
+        "Ramy A. Zeineldin",
+        "Mohamed E. Karar",
+        "Franziska Mathis-Ullrich",
+        "Oliver Burgert",
+        "Javid Abderezaei",
+        "Aymeric Pionteck",
+        "Agamdeep Chopra",
+        "Mehmet Kurt",
+        "Kewei Yan",
+        "Yonghong Yan",
+        "Zhe Tang",
+        "Jianqiang Ma",
+        "Sahar Almahfouz Nasser",
+        "Nikhil Cherian Kurian",
+        "Mohit Meena",
+        "Saqib Shamsi",
+        "Amit Sethi",
+        "Nicholas James Tustison",
+        "Brian Avants",
+        "Philip Cook",
+        "James C. Gee",
+        "Lin Tian",
+        "Hastings Greer",
+        "Marc Niethammer",
+        "Andrew Hoopes",
+        "Malte Hoffmann",
+        "Adrian V. Dalca",
+        "Stergios Christodoulidis",
+        "Théo Estienne",
+        "Maria Vakalopoulou",
+        "Nikos Paragios",
+        "Daniel S. Marcus",
+        "Christos A. Davatzikos",
+        "Aristeidis Sotiras",
+        "Bjoern H. Menze",
+        "Spyridon Bakas",
+        "Diana Waldmannstetter"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 2.5
+    },
+    {
+      "id": "W7139913190",
+      "url": "https://doi.org/10.1016/j.aei.2026.105441",
+      "pdf": "https://doi.org/10.2139/ssrn.6447960",
+      "title": "Semantic enhanced multi-object action modeling benchmark and LVLM prompt optimization for airport visual surveillance",
+      "summary": "",
+      "authors": [
+        "ShengJie Zhang",
+        "Yang Yang",
+        "Yufan Hu",
+        "Zhuojian Zhang",
+        "Kaiquan Cai"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 1.5
+    },
+    {
+      "id": "W7141176924",
+      "url": "https://doi.org/10.1016/j.engappai.2026.116756",
+      "pdf": "https://doi.org/10.2139/ssrn.6478737",
+      "title": "Gradient-consistent conditional generative augmentation for small-sample defect detection on the inner surface of artillery barrels",
+      "summary": "",
+      "authors": [
+        "Zhenkai SUN",
+        "Mingchi Ju",
+        "Tailin Han",
+        "Xuesong Yang",
+        "Xinghan Lu",
+        "Xue-song YANG"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7154594930",
+      "url": "https://doi.org/10.1186/s13019-026-04796-1",
+      "pdf": "https://doi.org/10.1186/s13019-026-04796-1",
+      "title": "Clinical application of CT-guided lung nodule localization needles in preoperative localization of small pulmonary nodules",
+      "summary": "Abstract Background To investigate the safety and efficacy of CT-guided lung nodule localization needles for the preoperative localization of small pulmonary nodules. Methods A retrospective study was conducted on 102 patients with a total of 113 small pulmonary nodules who underwent preoperative localization at Jinan Fourth People’s Hospital from January 2024 to December 2025. Nodule diameter and depth, localization time, the number of pleural punctures, the localization success rate, and postoperative complications (hook dislodgement, hemorrhage, and pneumothorax) were recorded. All patients",
+      "authors": [
+        "Rongxue Xu",
+        "Hengli Dou",
+        "Meng Zhang",
+        "Zhenming Liu"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7160101374",
+      "url": "https://doi.org/10.34133/csbj.0296",
+      "pdf": "https://doi.org/10.34133/csbj.0296",
+      "title": "InVitroGap: an open-source tool for automated quantification of wound closure in the in vitro scratch assay",
+      "summary": "Abstract Background Scratch assays are widely used to study wound closure in vitro, but quantitative image analysis remains constrained by manual variability, proprietary workflows, and tools requiring programming expertise. We developed InVitroGap, a Python-based application with a browser-accessible interface for automated quantification of scratch assay closure from sequential microscopy images. Methods RCC-ER and Renca cells were seeded in 96-well ImageLock plates and scratched using a WoundMaker device for uniform linear wounds or a 200 µL pipette tip for crisscross wounds. Phase-contrast",
+      "authors": [
+        "Rakesh K. Arya",
+        "Mohit Sindhani",
+        "Sahab Ram Dewala",
+        "Christopher Weight",
+        "Laura Bukavina"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 1.5
+    },
+    {
+      "id": "W7203564648",
+      "url": "https://doi.org/10.1016/j.cma.2026.119554",
+      "pdf": "https://doi.org/10.1016/j.cma.2026.119554",
+      "title": "Canonical minimization principles for Cahn–Hilliard diffusion and associated coupled problems based on flux interpolations with a higher-order continuity",
+      "summary": "A variational-based framework for the description of coupled Cahn–Hilliard diffusion problems with a higher-order continuity requirement for the primary field is introduced which in this work is accomplished by the use of isogeometric analysis but the proposed scheme could also be incorporated into other discretization strategies such as discontinuous Galerkin methods. Contrary to established approaches, a representation is derived where an inverse Fickian diffusion law is deduced from the minimization principle which results in a method that uses the species-flux vector as a degree of freedom",
+      "authors": [
+        "Basavesh Yaraguntappa",
+        "Marc‐André Keip",
+        "Andreas Krischok"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7216097305",
+      "url": "https://doi.org/10.1080/01431161.2026.2761082",
+      "pdf": "https://doi.org/10.5281/zenodo.23059018",
+      "title": "Genetic optimization of super-resolution for structural enhancement of Sentinel-2 imagery using comparative feature matching for floating offshore wind monitoring",
+      "summary": "Free optical Earth-observation missions such as Sentinel-2 provide frequent coverage of offshore wind farms, but their 10 m spatial resolution limits the analysis of floating platforms, which often occupy only a few pixels. This study presents a cluster-conditioned enhancement framework that maps Sentinel-2 RGB imagery to a nominal 0.75 m grid using a fixed WDSR super-resolution model and a genetic algorithm that optimizes interpolation, filtering, contrast, sharpening, and post-processing parameters. GEOSAT-2 imagery at 0.75 m resolution is used to define appearance-based clusters, validate t",
+      "authors": [
+        "Mário Vieira",
+        "Leonardo Viegas Filipe"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221082402",
+      "url": "https://doi.org/10.64131/fununarabiyyah.v2i1.56",
+      "pdf": "https://journal.mutiarahatimoeslem.id/index.php/fununarabiyyah/article/download/56/43",
+      "title": "The Role of Visual, Auditory, and Kinesthetic Learning Styles in Optimizing Arabic Language Learning",
+      "summary": "Learning style is one of the supporting factors for students in obtaining learning material. However, each individual has a different learning style, including visual, auditory and kinesthetic. Therefore, a teacher is required to be active and innovative in creating learning, so that students can maximize learning in their own way. To answer the problem formulation of what are the characteristics of visual, auditory and kinesthetic learning styles in Arabic language learning? The research uses qualitative methods with a literature study approach to theoretically examine the characteristics of ",
+      "authors": [
+        "Nur Azizah",
+        "Adelia Irsyadillah Al Hidjaz",
+        "Alma Idatun Nahlah",
+        "Rewan Khalil Abd-elsalam Elhewy"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225990470",
+      "url": "https://doi.org/10.5281/zenodo.19377260",
+      "pdf": "https://doi.org/10.5281/zenodo.19377260",
+      "title": "Dataset for: Rapid Radial Protoplanetary Disk Evolution and Debris Disk Formation in Taurus–Auriga",
+      "summary": "This dataset includes all fits images and associated measurements sets fot the all sources observed with the SMA as part of the SMA Class III survey, as published in \"Rapid Protoplanetary Disk Evolution and Debris Disk Formation in Taurus–Auriga\" (ApJ). Note the file limit for Zenodo means that these are stored as zipped files (allFitsFiles.zip). There are two types of file ID in this zip: fits images and measurement sets.Images have the following naming convention: {source_ID}.allObsID.nat.im.image.fits -- for sources that included multiple measurement sets; and {source_ID}.{obs_ID}.nat.im.im",
+      "authors": [
+        "Joshua Bennett Lovell",
+        "Sean M. Andrews",
+        "Grant M. Kennedy",
+        "David J. Wilner",
+        "Richard D. Alexander",
+        "Adam L. Kraus",
+        "Daniel M. Krolikowski",
+        "Luca Matrà",
+        "Mark C. Wyatt",
+        "Jonathan P. Williams"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7226352995",
+      "url": "https://doi.org/10.5281/zenodo.24235727",
+      "pdf": "https://doi.org/10.5281/zenodo.24235727",
+      "title": "Performance Comparison of SAR Image Formation Algorithms",
+      "summary": "",
+      "authors": [
+        "Brenda Micaelle Santos Figueiredo",
+        "Renato Machado",
+        "Paulo Ricardo Branco da Silva",
+        "Marina Gonçalves Moreira"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 1.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
       "trending": 0.0
     }
   ]
