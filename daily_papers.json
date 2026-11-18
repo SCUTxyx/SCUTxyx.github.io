@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18 01:58 UTC",
+  "generated_at": "2026-11-18 21:40 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,25 +9,410 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7118279389",
-      "url": "https://doi.org/10.3390/electronics15225308",
-      "pdf": "https://doi.org/10.3390/electronics15225308",
-      "title": "GenCAMO: Scene-Graph Contextual Decoupling for Environment-Aware and Mask-Free Camouflage Image–Dense Annotation Generation",
-      "summary": "Concealed dense prediction (CDP), including camouflaged object detection, RGB-D camouflaged object detection, and open-vocabulary camouflaged object segmentation, requires reasoning about objects whose appearance closely resembles their surroundings. Progress is constrained by the scarcity of diverse camouflage images with consistent pixel-level and multimodal annotations. Although generative models offer a promising source of training data, synthesizing useful camouflage supervision requires preserving object identity and scene geometry while adapting foreground appearance to the environment.",
+      "id": "W7225150021",
+      "url": "https://doi.org/10.66977/xsci.2611.002z",
+      "pdf": "https://arxiv.org/pdf/2611.02673",
+      "title": "Auditing Representation-Space Fraud Detection: A Bayesian IRL Framework for Calibrated Uncertainty and Its Limits",
+      "summary": "Shilling detectors for recommender systems are almost always evaluated by one number, detection AUROC, with no account of when it can be trusted. We audit representation-space detection with VEIL (Variational Evaluation via Inverse-reinforcement Learning), a pairwise (Bradley–Terry) Bayesian reward-inference framework over frozen encoder embeddings, after the Bayesian auditing paradigm for LLM alignment [1]: (A) a base posterior; (B) a hierarchical ARD extension with a learned confidence; and (C) a label-routed organic/attacker mixture used as an evidence-accumulation check. We prove (Prop. 1)",
       "authors": [
-        "Shaojiang Yuan",
-        "Xiaoxue Lu",
-        "Chenglizhao Chen",
-        "Mengke Song"
+        "Shivam Swarup",
+        "Divya Prakash Shrivastava",
+        "Rakesh Thakur"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225770191",
+      "url": "https://doi.org/10.5281/zenodo.24140703",
+      "pdf": "https://doi.org/10.5281/zenodo.24140703",
+      "title": "Semantic Segmentation of Flooded Environments for Livestock Route Planning",
+      "summary": "Poster presented at the 9th Iberian Robotics Conference (ROBOT2026, Barcelona, Spain). Autonomous livestock herding in extensive farming environments requires robots to operate reliably across large outdoor areas subject to changing environmental conditions. In particular, flooding caused by heavy rainfall or irrigation can alter terrain traversability, making existing roads and pasture areas unsuitable for livestock movement. This work in progress explores the use of UAV imagery to provide updated terrain information for flood-aware livestock route planning. We use the FloodNet dataset, origi",
+      "authors": [
+        "Javier Miñambres-Calvo",
+        "Virginia Riego del Castillo",
+        "Lídia Sánchez-González",
+        "Francisco J. Rodríguez-Lera"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7235216439",
+      "url": "https://doi.org/10.5281/zenodo.24327658",
+      "pdf": "https://doi.org/10.5281/zenodo.24327658",
+      "title": "NANOSENSING FOR ACUPUNCTURE ROBOTICS STARLI · Family 15 · F071–F075 Scientific Technical Notebook | Research Working Edition v1.0 33 × STARLI | Prospective, nonclinical, falsifiable research design Let ancient questions retain their poetry, and future science retain its humility. F071 — Local Electrochemical Nanosensing for Acupuncture at the Limit F072 — Pressure and Contact Nanosensing for Acupuncture at the Limit F073 — Temperature Nanosensing for Acupuncture at the Limit F074 — Multisensor Fusion in Nano-Acupuncture at the Limit F075 — Self-Calibration of Nano-Acupuncture Sensor Drift at the Limit Reading map Fourteen research positions; thirty blueprint formula statements; forty-two analytic model notes; eighty-two six-stage chapters; two hundred research gates; thirty-three prototype concepts; a closing evidence register. This notebook expands the same research architecture with stage-specific practical checkpoints. No experimental findings are claimed. Preface 01 · Research identity Position Five questions share a calibration contract, not a single physical observable. Local Electrochemical Nanosensing for Acupuncture at the Limit Pressure and Contact Nanosensing for Acupuncture at the Limit Temperature Nanosensing for Acupuncture at the Limit Multisensor Fusion in Nano-Acupuncture at the Limit Self-Calibration of Nano-Acupuncture Sensor Drift at the Limit. Evidence The blueprint calls the common endpoint sensor residual in native units [a.u.]; the arbitrary-unit placeholder must be replaced by each actual quantity and its units before comparison. Boundary All work is restricted to inert chemical, force and temperature phantoms or offline synthetic records. Preface 02 · The five-branch coupling Position F071 establishes chemical interpretation; F072 defines contact; F073 qualifies thermal context; F074 integrates qualified observations; F075 audits calibration through time. Evidence Every handoff carries units, time, independent uncertainty and a validity mask. Boundary No common residual or model confidence can authorize actuation on a person.",
+      "summary": "NANOSENSING FOR ACUPUNCTURE ROBOTICS STARLI · Family 15 · F071–F075 Scientific Technical Notebook | Research Working Edition v1.0 33 × STARLI | Prospective, nonclinical, falsifiable research design Let ancient questions retain their poetry, and future science retain its humility. F071 — Local Electrochemical Nanosensing for Acupuncture at the Limit F072 — Pressure and Contact Nanosensing for Acupuncture at the Limit F073 — Temperature Nanosensing for Acupuncture at the Limit F074 — Multisensor Fusion in Nano-Acupuncture at the Limit F075 — Self-Calibration of Nano-Acupuncture Sensor Drift at t",
+      "authors": [
+        "33"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7235284160",
+      "url": "https://doi.org/10.5281/zenodo.24327313",
+      "pdf": "https://doi.org/10.5281/zenodo.24327313",
+      "title": "A Robot Should Know When Its Bus Is Gone: A Conservative Dual-Route, Fault-Isolation State Machine for Modular Servo Systems",
+      "summary": "Low-cost modular robotic arms commonly share serial-bus and power dependencies. A broken connector or local overcurrent can leave an otherwise functional robot unable to complete an authorized task. This technical report presents a minimal, dry-run fault-isolation and alternate-route proposal engine for six simulated servo joints. It represents primary/backup connectivity, measured-current threshold, observation age, explicit owner authorization, and STOP epochs, and generates proposed routes without contacting servos. In 1,000 deterministic generated cases, it satisfied 1,000/1,000 predefined",
+      "authors": [
+        "Terrynce Anson White"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7235349061",
+      "url": "https://doi.org/10.1007/s11701-026-04194-8",
+      "pdf": "",
+      "title": "Robotic sentinel lymph node biopsy with dual-tracer mapping in 76 patients with breast cancer: high detection rate and low false-negative rate",
+      "summary": "",
+      "authors": [
+        "Qiwen Liu",
+        "Yueyue Teng",
+        "Zongyan Li",
+        "Tong Wu",
+        "Xiaoyan Fu",
+        "Yongxin Wu",
+        "Haiyan Li"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7235459832",
+      "url": "https://doi.org/10.1007/s11701-026-04026-9",
+      "pdf": "",
+      "title": "Adoption, technique, and barriers in robotic abdominal wall surgery: the GLOBAL-HERNIA cross-sectional survey",
+      "summary": "",
+      "authors": [
+        "Francesco Brucchi",
+        "Giampaolo Formisano",
+        "Sofia Esposito",
+        "Micaela Piccoli",
+        "Paolo Pietro Bianchi",
+        "Gianlorenzo Dionigi",
+        "Filip E. Muysoms",
+        "the GLOBAL-HERNIA Survey Collaborators",
+        "Lavinia Amato",
+        "Jacopo Andreuccetti",
+        "Amedeo Antonelli",
+        "Giulio Argenio",
+        "Giulia Bacchiocchi",
+        "Ludovica Baldari",
+        "Alberto G. Barranquero",
+        "Emanuela Basile",
+        "Gabriele Bellio",
+        "Lorenza Beomonte Zobel",
+        "Frederik Christiaan Berrevoet",
+        "Pierre Blanc",
+        "Luigi Bonavina",
+        "Andrea Bottari",
+        "Marco Brizzolari",
+        "Oreste Claudio Buonomo",
+        "Tommaso Campagnaro",
+        "Damiano D. Caputo",
+        "Filippo Carannante",
+        "Silvio Caringi",
+        "Gianmaria Casoni Pattacini",
+        "Lidia Castagneto‐Gissey",
+        "Antonio Castaldi",
+        "Chong Yi Chin",
+        "Christos Chouliaras",
+        "Luigi Cobuccio",
+        "Pietro Coletta",
+        "Tiago Correia de Sá",
+        "Michele De Capua",
+        "Spiros Delis",
+        "Daniele Delogu",
+        "Michele De Rosa",
+        "Giada Di Flumeri",
+        "Andrea Divizia",
+        "Stefan Eisoldt",
+        "Denisa Eskiu",
+        "Alessia Fassari",
+        "Francesco Ferrara",
+        "Francesco Fleres",
+        "Giampaolo Formisano",
+        "Laura Fortuna",
+        "Christian Galatioto",
+        "Lukas Gantner",
+        "Mauro Giambusso",
+        "Alessio Biagio Filippo Giordano",
+        "Sara Giovampietro",
+        "Francesco Giovanardi",
+        "Luca Gordini",
+        "Andrea Martina Guida",
+        "Alessandro Iacomino",
+        "Tsvetomir M. Ivanov",
+        "Enrique Ricardo Jean-Silver",
+        "Lodovica Langellotti",
+        "Giovanni Guglielmo Laracca",
+        "Giulia Lauteri",
+        "Giovanni Battista Levi Sandri",
+        "Annarita Libia",
+        "Francesco Saverio Li Causi",
+        "Anthony Y. Lin",
+        "Dimitrios Linardoutsos",
+        "Víctor López‐López",
+        "Andrea‐Pierre Luzzi",
+        "Carlos Magalhães",
+        "Federico Maggi",
+        "Marta Maistri",
+        "Davide Marino",
+        "Valentina Enrica Marsella",
+        "Federica Marzi",
+        "Gianluca Mascianà",
+        "Lorena Massante",
+        "Fanny Massimi",
+        "Marco Materazzo",
+        "Claudio Mauriello",
+        "Franz Mayer",
+        "Simona Meneghini",
+        "Isabella Mondi",
+        "Salvador Morales‐Conde",
+        "Björn Mück",
+        "Luigi Noceroni",
+        "Fabio Massimo Oddi",
+        "Alessandro Palladino",
+        "Francesco Palmieri",
+        "Graziano Palmisano",
+        "Antonella Paone",
+        "Marco Pellicciaro",
+        "Marta Perego",
+        "Graziano Pernazza",
+        "Teresa Perra",
+        "Lorenzo Petagna",
+        "Gaetano Poillucci",
+        "Alberto Porcu",
+        "Rosnelifaizur Ramely"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.0
+    },
+    {
+      "id": "W7235595519",
+      "url": "https://doi.org/10.36922/ijb026330352",
+      "pdf": "https://doi.org/10.36922/ijb026330352",
+      "title": "Development and validation of a low-cost, open-source robotic extrusion printing platform for acellular hydrogel scaffold fabrication: A step toward multi-axis robotic bioprinting",
+      "summary": "Commercial multi-axis robotic bioprinting platforms remain prohibitively expensive for many laboratories, limiting access to robot-assisted biofabrication. This study converted a low-cost six-axis industrial robot (ABB IRB 120T with IRC5 Compact controller) into an open-source robotic extrusion printing platform and compared its dimensional performance with a commercial robotic bioprinter (BioAssemblyBot 400). Validation was limited to acellular hydrogel and planar toolpaths; cell-laden and non-planar printing remain necessary for biological validation. The platform integrated a modified print",
+      "authors": [
+        "Kenneth Houston",
+        "Perrin Woods",
+        "Ahasan Habib"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7235818563",
+      "url": "https://openalex.org/W7235818563",
+      "pdf": "",
+      "title": "Object Pose Tracking with Event and Frame Cameras",
+      "summary": "Accurate 6-DoF object pose estimation and tracking are essential capabilities for robotic systems operating in dynamic environments. However, conventional frame-based vision systems often suffer from motion blur, sensing latency, and degraded perception performance when observing fast-moving objects. Event cameras offer an attractive alternative by asynchronously measuring brightness changes with microsecond temporal resolution and high dynamic range, making them particularly suitable for high-speed object perception. Despite these advantages, event-based object pose tracking remains challengi",
+      "authors": [
+        "ZHICHAO LI"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7221503383",
+      "url": "https://doi.org/10.3390/network6040103",
+      "pdf": "https://doi.org/10.3390/network6040103",
+      "title": "Distributed Edge–Fog Architecture for Path Tracking in Geo-Referenced Mobile Robots via Low-Cost LPWAN Networks",
+      "summary": "The convergence of mobile robotics with telecommunications has driven the emergence of the Internet of Robotic Things (IoRT). However, deploying autonomous robots in unstructured environments faces a critical limitation: the unpredictable latency and high costs of the traditional Cloud Robotics model make it unfeasible in rural, agricultural, or remote industrial contexts with only low-speed network access. This paper presents a distributed Edge–Fog architecture for geo-referenced path tracking over low-cost LPWAN networks. The Fog layer, orchestrated with Node-RED, handles route planning (A*)",
+      "authors": [
+        "Brandon A. Maldonado-García",
+        "Adolfo Espinoza-Ruiz",
+        "Erica Cecilia Ruiz-Ibarra",
+        "Joaquin Mass-Sanchez",
+        "Armando García",
+        "Javier Vázquez Castillo"
       ],
       "published": "2026-11-15",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233540097",
+      "url": "https://doi.org/10.5281/zenodo.24249253",
+      "pdf": "https://doi.org/10.5281/zenodo.24249253",
+      "title": "AUTONOMOUS ROBOTS FOR EVERYDAY LIVING FAMILY 29 / F141-F145 | SCIENTIFIC & TECHNICAL NOTEBOOK | RESEARCH WORKING EDITION v1.0 33 x STARLI | WHITE RAINBOW RESEARCH LIBRARY This prospective and nonclinical work addresses domestic task cooperation, explicit personal adaptation, verified human safety, qualified module repair and revocable household permissions. It contains research hypotheses and synthetic geometry, not certified product behavior, clinical efficacy or authorization to record people. An independent resident veto is part of the engineering problem. Five official flagship research titles F141 | Distributed Cooperation of Domestic Service Robots at the Limit | 家庭服務機器人分散式協作的極限 F142 | Personal Needs Adaptation in Everyday Robotics at the Limit | 生活機器人個人需求自適應的極限 F143 | Safe Human–Robot Coexistence in Everyday Service Robotics at the Limit | 生活服務機器人安全人機共處的極限 F144 | Autonomous Maintenance and Component Replacement of Domestic Robots at the Limit | 家庭機器人自主維修與零件替換的極限 F145 | Privacy Protection and Autonomy Boundaries in Everyday Service Robotics at the Limit | 生活服務機器人隱私保護與自主權限的極限 Five concurrent evidence tracks 1 / Freeze research DNA: independent household mechanisms, explicit residents and rooms, physical baselines, negative outcomes and no hidden service/consent claims. 2 / Formalize mechanistic models: dimensionally interpretable task, speed, force, module and permission equations with 42 recomputable 3D synthetic hypothesis surfaces. 3 / Reconstruct external witnesses: real task receipts, independent motion traces, accessibility gauges, post-repair calibration and local/cloud data flow scans. 4 / Challenge competing worlds: manual preferences, simpler single robots, conservative fixed-speed safety, trained repair and offline least-privilege automation. 5 / Audit and permit transfer: retain every rejected task, near miss, user objection, unexpected actuator movement and deleted-data counterexample for blind successor replication. Research source genealogy and evidence taxonomy The user-supplied 915-page SWARM MANUFACTURING & ROBOTIC MATTER AT THE LIMIT is the available mother PDF. Its agent capabilities (Ch. 9-16), task coordination (Ch. 17-24), fault tolerance and independent verification (Ch. 49-56), modular reconfiguration (Ch. 57-64), human-swarm interaction (Ch. 72) and authority (Ch. 76-82) motivate this domestic adaptation. These are chapter trajectories of ONE book, not three different supplied mother volumes. ISO 13482:2014 and ISO/TR 23482-1:2020 inform safety questions; edition 2 was under publication on 15 Nov 2026. Neither standards nor literature certify the unbuilt prototypes.",
+      "summary": "",
+      "authors": [
+        "33"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233541602",
+      "url": "https://doi.org/10.5281/zenodo.24217170",
+      "pdf": "https://doi.org/10.5281/zenodo.24217170",
+      "title": "Non-Smooth Robotics, Granular Terramechanics, and Contact Dynamics on Projective Symplectic Bundles: Workless Dirac Constraints, Bilateral Burdet-Ferrandiz Regularization, Cryogenic Bekker-Wong Inversion, Anisotropic KYP Restitution, and Zero-Allocation 64-Byte WebGPU Execution",
+      "summary": "We formulate the complete mathematical, variational, tribological, numerical-precision, and silicon-execution architecture eliminating collision-stiffness step collapse, constraint work drift, stick-slip Clarke subgradient chattering, zero-velocity wheel-stall singularities, and polar geopotential instability in autonomous planetary rovers, articulated manipulators, and non-smooth granular terramechanics. Following 4/4 Quad-Directorate roadmap convergence (BDS-QUAD-APPLIED-ROADMAP-ALIGNMENT-2026, Unanimous Option A Vote) uniting the Relativistic PNT Engine Lead Operational Directorate, TriBody",
+      "authors": [
+        "AryaArunachalaAnanda Ghulam-e-Shah-e-Unmani",
+        "Aghora Abraham Global LLC"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233541922",
+      "url": "https://doi.org/10.67317/ijmsrt26nov055",
+      "pdf": "https://ijmsrt.com/storages/download-paper/IJMSRT26NOV055",
+      "title": "The Future of AI Healthcare Governance: Towards a Risk- Based Liability Framework",
+      "summary": "Artificial Intelligence (AI) is transforming healthcare delivery, but would you ever trust it more than your doctor? AI tools are being used for taking patient notes, doing predictive diagnosis and even robotic surgeries. They are shaping healthcare by making it more accessible and efficient. But they must be used with caution. Healthcare AI tools can show bias and raise concerns about data privacy and patient consent. The human touch is essential in health care,and AI tools are meant to assist, not replace, doctors. To effectively integrate artificial intelligence into healthcare, we need a r",
+      "authors": [
+        "Khushi Sheoran",
+        "Nikhil Naren"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7235082129",
+      "url": "https://doi.org/10.5281/zenodo.24327721",
+      "pdf": "https://doi.org/10.5281/zenodo.24327721",
+      "title": "Cost and production effects of offline reinforcement learning for delayed compositional sampling: Research code",
+      "summary": "Research code accompanying the paper “Cost and production effects of offline reinforcement learning for delayed compositional sampling.” The package includes process simulation, offline policy fitting, evaluation, statistical analysis and figure-generation scripts. Installation instructions, verified dependency versions and script-to-paper mappings are provided in README.md. This release contains code only. Required datasets and frozen evaluation records are distributed separately; see README.md for input requirements and verification scope. Original research code is released under the MIT lic",
+      "authors": [
+        "IMRAN MUHAMMAD",
+        "Fatima Zaidi"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7165171786",
+      "url": "https://doi.org/10.1038/s41598-026-70541-2",
+      "pdf": "https://www.nature.com/articles/s41598-026-70541-2_reference.pdf",
+      "title": "Risk-aware hybrid reinforcement learning and robust optimization for reliable PV-battery scheduling under uncertainty",
+      "summary": "High photovoltaic penetration makes residential battery scheduling sensitive to forecast error, tail cost, and model mismatch. This work present a closed-loop interface linking chronological residual-based conformal intervals, cardinality-budgeted receding robust dispatch, distributional cost critics in Soft Actor-Critic (SAC), an uncertainty- and margin-aware fusion/fallback rule, and final safety projection. Evaluation uses chronological household demand from the UCI Individual Household Electric Power Consumption dataset and NASA POWER hourly irradiance and ambient temperature. The processe",
+      "authors": [
+        "Bareq Kawwam Ahmed",
+        "Mehrdad Tarafdar Hagh",
+        "S.H. Hosseini"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233550859",
+      "url": "https://doi.org/10.68852/pf-261115.000002",
+      "pdf": "https://doi.org/10.68852/pf-261115.000002",
+      "title": "Occupancy-Based Certificates for the Relative Safety of Reinforcement Learning Agents",
+      "summary": "We study how to upper-bound the expected episodic cost of a candidate reinforcement-learning policy A relative to a trusted baseline B, using rollouts but no environment model. On a finite observation alphabet where expected per-step cost is policy-invariant given the symbol, J(A) ≤ J(B) + T TV(d_(A), d_(B)), with no i.i.d. assumption over time. For nondecreasing costs in an ordinal risk level, a one-sided Kolmogorov–Smirnov certificate restricted to cost-onset thresholds can be sharper; its finite-sample empirical-Bernstein slack has no $\\sqrt K$ term. We show that cost sufficiency is necessa",
+      "authors": [
+        "Nissan Pow"
+      ],
+      "published": "2026-11-15",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
@@ -57,116 +442,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7166166681",
-      "url": "https://doi.org/10.7759/s44389-026-00369-4",
-      "pdf": "https://doi.org/10.7759/s44389-026-00369-4",
-      "title": "Social-AgriNet: A Multimodal Vision Transformer Framework for Explainable Banana Disease Detection under Real-World Conditions",
-      "summary": "Banana diseases cause significant crop losses worldwide and threaten food security in many tropical and subtropical regions. Accurate disease diagnosis remains challenging under real-world field conditions characterized by cluttered backgrounds, conditions far removed from laboratory-controlled environments. This paper presents Social-AgriNet, an explainable multimodal deep learning framework for robust banana disease detection from field-acquired imagery. The proposed architecture integrates a Vision Transformer (ViT-Base/16) backbone, an EfficientNet-B2 auxiliary branch, an image-derived met",
+      "id": "W7108317401",
+      "url": "https://doi.org/10.17605/osf.io/yx9rj",
+      "pdf": "https://doi.org/10.17605/osf.io/yx9rj",
+      "title": "The use of cognitive bias modification to reduce body dissatisfaction: Manipulation of interpretation bias, perfectionism, and cognitive flexibility",
+      "summary": "The aim of this study is to experimentally manipulate interpretation bias, perfectionism, and cognitive flexibility using cognitive bias modification techniques and to understand which cognitive process, if not all, can reduce body dissatisfaction.",
       "authors": [
-        "Moïse Kambale Kasambya"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225844157",
-      "url": "https://openalex.org/W7225844157",
-      "pdf": "https://discovery.ucl.ac.uk/id/eprint/10232801/1/ID_611.pdf",
-      "title": "From Concept to Shape: An Analogue-AI Framework for Architectural Synthesis",
-      "summary": "Current applications of Generative Artificial Intelligence (GenAI) in architectural design education emphasize open-ended ideation and image production, offering limited support for architectural synthesis. This paper proposes a hybrid analogue-AI framework for integrating Generative AI (GenAI) into the architectural design studio, employing GenAI across three stages — problem framing, solution generation, and informed refinement within which the design space repeatedly expands and contracts. Building on Author´s (2025a) AI-assisted workflow and Author’s (2025b) decomposition of the design pro",
-      "authors": [
-        "Bárbara Ruschel Lorenzoni",
-        "Angélica Paiva Ponzio",
-        "Ava Fatah gen. Schieck"
+        "Yen-Tzu Kung",
+        "Yun zhen, Wu",
+        "WEI-CHIEH CHIU",
+        "Yu-Ching Sun",
+        "Wang, Yun-Lin",
+        "Yu-Han Pao"
       ],
       "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W4402025898",
-      "url": "https://doi.org/10.1016/j.compind.2026.104565",
-      "pdf": "http://dx.doi.org/10.2139/ssrn.4940092",
-      "title": "A novel iron ore mass measurement method based on 3D point cloud",
-      "summary": "",
-      "authors": [
-        "Fei Li",
-        "Xiaoyan Liu",
-        "Yufeng Yin",
-        "Cong Li"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7226789131",
-      "url": "https://doi.org/10.29250/sead.1778884",
-      "pdf": "https://dergipark.org.tr/en/download/article-file/5217872",
-      "title": "Rethinking Plagiarism in the Age of AI: Types, Causes, and Emerging Approaches to Safeguarding Academic Integrity",
-      "summary": "The increasing use of artificial intelligence technologies in academic writing has reopened debates on the definition and boundaries of plagiarism. This study examines different types of plagiarism—direct plagiarism, mosaic plagiarism, self-plagiarism, data/image plagiarism, translation plagiarism, and AI-assisted plagiarism—and analyzes their underlying causes across individual, institutional, cultural, and technological dimensions. Furthermore, it evaluates global prevention strategies, including university policies, detection software, educational programs, the role of publishers and profes",
-      "authors": [
-        "Cumhur Sancaktar Selamet"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7227661764",
-      "url": "https://doi.org/10.5281/zenodo.24235057",
-      "pdf": "https://doi.org/10.5281/zenodo.24235057",
-      "title": "Code and results: Comparing Four Explanation Methods for Melanoma Classification: Mask Agreement, Faithfulness and Error Discrimination Against Reference Maps",
-      "summary": "Code, notebooks and saved results for the article \"Comparing Four Explanation Methods for Melanoma Classification: Mask Agreement, Faithfulness and Error Discrimination Against Reference Maps\" (Discover Computer Vision, revised version). The deposit contains the Kaggle training and explanation notebook (EfficientNet-B0 on HAM10000 with a lesion-level split; Grad-CAM, Integrated Gradients, LIME and occlusion), the revision notebook (reference maps, sign conventions, deletion and insertion, ROAD, randomisation check, repeat training runs), all per-image outputs for four training runs, Python scr",
-      "authors": [
-        "Okoi Michael Obeten",
-        "Christiana Uchenna Ezeanya"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7230457672",
-      "url": "https://doi.org/10.5281/zenodo.24235855",
-      "pdf": "https://doi.org/10.5281/zenodo.24235855",
-      "title": "STARLI | FAMILY 11 LIGHT-CONTROLLED NANO-ACUPUNCTURE An English Scientific and Technical Notebook / F051-F055 / Forty-Family Acupuncture Research Program Edited as a distinct, prospective nonclinical research notebook. This is not an experiment, a verified therapeutic intervention, or a claim of clinical safety. Synthetic model surfaces and the independent phantom tests remain analytically separate. The five official flagship identities F051 | Photoresponsive Nano-Acupuncture Materials at the Limit / 光響應奈米針灸材料極限 F052 | Photothermal Nanostimulation and Local Heating at the Limit / 光熱奈米刺激與局部溫升極限 F053 | Low-Energy Optical Microrobot Actuation at the Limit / 光控微機器人低能量驅動極限 F054 | Optical Localization and Nano-Acupuncture Tracking at the Limit / 光學定位與奈米針灸追蹤極限 F055 | Thermal Safety Boundaries in Light-Controlled Nano-Acupuncture at the Limit / 光控奈米針灸熱安全邊界極限 Argument and research architecture Prologue 01 | A light-driven question is not yet an acupuncture intervention Family 11 investigates photoresponsive nano-acupuncture materials at the limit through nonclinical optical benches. A light-driven question is not yet an acupuncture intervention is framed as an experimental obligation. The common test object is a light-responsive phantom with an independent temperature probe; the shared constraint is not to mistake instrument agreement for causation. All outputs are hypotheses, analytic relationships or explicitly synthetic illustrations. This preface on a light-driven question is not yet an acupuncture intervention follows flagship F051, which brings photoresponsive material identity into contact with spectrally resolved absorptance [1]. Its strong rival is absorber-drift and passive-layer mimicry. Measurements must preserve delivered irradiance, absorbed power, wavelength, detector calibration, source lot and the timestamps of rejected experiments. A false picture may arise from sensor response, geometry and operator selection even when optical motion is technically possible elsewhere in the literature. In a light-driven question is not yet an acupuncture intervention, the philosophical language of restraint and responsive action is used only to formulate questions: when should a system remain still, and what does evidence authorize? It neither verifies meridians nor establishes clinical efficacy. The experimental lineage is reversible: every chapter points to a negative case, rival explanation and independently executable condition of defeat. Prologue 02 | Why a thermal witness is more important than a compelling image Family 11 investigates photothermal nanostimulation and local heating at the limit through nonclinical optical benches. Why a thermal witness is more important than a compelling image is framed as an experimental obligation. The common test object is a light-responsive phantom with an independent temperature probe; the shared constraint is not to mistake instrument agreement for causation. All outputs are hypotheses, analytic relationships or explicitly synthetic illustrations. This preface on why a thermal witness is more important than a compelling image follows flagship F052, which brings heat-source identification into contact with independently calibrated temperature increment [K]. Its strong rival is emissivity error and missed local hot spots. Measurements must preserve delivered irradiance, absorbed power, wavelength, detector calibration, source lot and the timestamps of rejected experiments. A false picture may arise from sensor response, geometry and operator selection even when optical motion is technically possible elsewhere in the literature. In why a thermal witness is more important than a compelling image, the philosophical language of restraint and responsive action is used only to formulate questions: when should a system remain still, and what does evidence authorize? It neither verifies meridians nor establishes clinical efficacy. The experimental lineage is reversible: every chapter points to a negative case, rival explanation and independently executable condition of defeat. Prologue 03 | Five flagships, one accountable optical bench Family 11 investigates low-energy optical microrobot actuation at the limit through nonclinical optical benches. Five flagships, one accountable optical bench is framed as an experimental obligation. The common test object is a light-responsive phantom with an independent temperature probe; the shared constraint is not to mistake instrument agreement for causation. All outputs are hypotheses, analytic relationships or explicitly synthetic illustrations. This preface on five flagships, one accountable optical bench follows flagship F053, which brings light-to-motion transduction into contact with optical trajectory displacement [um]. Its strong rival is passive convection and thermophoretic drift. Measurements must preserve delivered irradiance, absorbed power, wavelength, detector calibration, source lot and the timestamps of rejecte",
-      "summary": "",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-11-15",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -177,15 +466,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7231089038",
-      "url": "https://doi.org/10.5281/zenodo.24235236",
-      "pdf": "https://doi.org/10.5281/zenodo.24235236",
-      "title": "Subpixel Camera-Based Structural Damage Identification with Physics-Guided Deep Learning",
-      "summary": "This independent technical research report presents a simulation-based framework for structural damage detection and localization using computer vision, finite element modeling, vibration analysis, and deep learning. The study integrates Euler–Bernoulli beam modeling, synthetic camera recordings, subpixel displacement tracking, natural-frequency and mode-shape estimation, and TensorFlow neural networks. The research comprises 35 computational experiments investigating hidden stiffness damage, camera measurement noise, motion magnification, environmental uncertainty, and damage identification. ",
+      "id": "W7235056706",
+      "url": "https://doi.org/10.3998/fc.12672",
+      "pdf": "https://doi.org/10.3998/fc.12672",
+      "title": "The Invisual Power of the Visible in Raymond Depardon’s Urgences and Jorge Pelicano’s Suddenly my Thoughts Halt",
+      "summary": "When it comes to filming patients in the specific context of their psychiatric institution, observing and subsequently constructing a visual point of view becomes a demanding process. Through a particular way of using the camera as a tool to embody a living experience from this setting, French photographer and director Raymond Depardon and Portuguese filmmaker Jorge Pelicano go beyond merely documenting the Hôtel Dieu and Conde Ferreira Hospitals. The grief that emanates from their images concerns the whole of society as they are manifestations of a concrete, yet universal language of sufferin",
       "authors": [
-        "Toufik Al Hajj"
+        "Glória Alhinho"
       ],
-      "published": "2026-11-15",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -196,416 +485,131 @@
       "trending": 0.0
     },
     {
-      "id": "W7232205277",
-      "url": "https://doi.org/10.1186/s12885-026-16557-3",
-      "pdf": "https://link.springer.com/content/pdf/10.1186/s12885-026-16557-3.pdf",
-      "title": "Preoperative prediction of lymphovascular space invasion in early-stage cervical cancer using a deep learning-based 3D super-resolution MRI radiomics model",
-      "summary": "BACKGROUND: Lymphovascular space invasion (LVSI) is a critical prognostic factor guiding adjuvant therapy in early-stage cervical cancer, yet its preoperative assessment is often limited by the spatial resolution of standard MRI. This study aimed to investigate the value of a deep learning-based 3D super-resolution (SR) MRI radiomics model in predicting LVSI and to evaluate how SR reconstruction impacts image quality and radiomic feature robustness. METHODS: This retrospective study included 117 patients with early-stage cervical cancer (training cohort: n = 81; validation cohort: n = 36). A 3",
+      "id": "W7235305457",
+      "url": "https://doi.org/10.3998/fc.12675",
+      "pdf": "https://doi.org/10.3998/fc.12675",
+      "title": "Cinematic Space as Textured: Sensorial Horror in Silent Hill (2006)",
+      "summary": "This essay approaches cinematic space in horror cinema as textured. While texture has often been examined in relation to the felt qualities of the body, especially within the body horror subgenre, I argue that it must also be understood as a property of the spaces that surround and shape embodied experience. Through a close analysis of Silent Hill and its two contrasting textural regimes, I demonstrate that cinematic space functions not simply as a projection of interior psychology but as an active sensory field, whose material qualities organise fear and meaning at the level of perception. By",
       "authors": [
-        "Yan Guo",
-        "Yongqing Ye",
-        "Qinglin Mu",
-        "Wenguang Huang",
-        "Shigang Luo"
+        "Jiawei You"
       ],
-      "published": "2026-11-15",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
       "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7166272107",
-      "url": "https://openalex.org/W7166272107",
+      "id": "W7235346347",
+      "url": "https://doi.org/10.1016/j.clsr.2026.106435",
+      "pdf": "https://doi.org/10.1016/j.clsr.2026.106435",
+      "title": "Legal gaps in social and mobile service robots regulation",
+      "summary": "",
+      "authors": [
+        "Marie Schwed-Shenker",
+        "Eduard Fosch‐Villaronga",
+        "Bart H. M. Custers"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7235485483",
+      "url": "https://doi.org/10.22158/sll.v10n4p104",
+      "pdf": "https://doi.org/10.22158/sll.v10n4p104",
+      "title": "A Study on the Transformation Mechanisms of Political Metaphors from the Perspective of Embodied-Cognitive Translation Studies —A Case Study of the Uyghur Translations of Selected Works of Mao Zedong (Volumes I-IV)",
+      "summary": "The interlingual translation of political literature fulfils dual functions: presenting political intentions and reshaping cognitive schemas. Drawing on the “embodiment-cognition-language” chain of Embodied-Cognitive Translation Studies, this paper proposes a continuum model of “source-domain retention-cognitive attenuation” and systematically examines 328 political metaphors extracted from the Uyghur translation of Selected Works of Mao Zedong (Volumes I-IV). The findings are as follows: (1) Translators adopt four successive strategies: embodied-cognitive equivalence, embodied-cognitive recon",
+      "authors": [
+        "Ma Xiaoyun",
+        "Xaidya Ibrahim"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7235565423",
+      "url": "https://doi.org/10.5281/zenodo.24327244",
+      "pdf": "https://doi.org/10.5281/zenodo.24327244",
+      "title": "Certified robustness margins of hybrid robot gaits: code, certificates and reproduction scripts",
+      "summary": "Code, stored certificates and reproduction scripts for two preprints on certified robustness margins of hybrid robot gaits:(1) \"Certified Robustness Margins for Hybrid Robot Gaits: Interval Continuation Through Smooth and Constraint-Induced Bifurcations\";(2) \"What Can Feedback Buy? Capability Limits and Margin-Gradient Design of Push-off Controllers and Small Neural Policies\". The archive contains two Python implementations of the certification pipeline with different algorithms (multiple shooting with interval jets and parametric Krawczyk continuation; single shooting with affine-form tubes, ",
+      "authors": [
+        "Yuan Shen"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7235685262",
+      "url": "https://doi.org/10.1007/s11370-026-00765-8",
       "pdf": "",
-      "title": "Suivi précis in situ de la diffusion d’électrolytes en phase aqueuse dans des milieux nanoconfinants modèles par réflectométrie des rayons X durs",
+      "title": "Passive load-sensitive hydraulic flow distribution for improved motion tracking in 4WID/4WIS mobile robots",
       "summary": "",
       "authors": [
-        "Diane Rébiscoul",
-        "Samuel Tardif",
-        "Zijie Lu",
-        "Hassan Khoder",
-        "Markus Baum",
-        "F. Rieutord",
-        "Rachel Rodriguez Lama",
-        "Vincent Larrey",
-        "Alejandro Fernández-Martínez",
-        "Kunyu Wang",
-        "Bertrand Siboulet"
+        "Eunwon Lee",
+        "Jinhyun Kim"
       ],
       "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7172368554",
-      "url": "https://openalex.org/W7172368554",
-      "pdf": "https://hal.science/hal-05704718v1",
-      "title": "Prédire l'occupation des sols pour estimer l'exposition historique aux pesticides: une analyse critique",
-      "summary": "In the context of environmental epidemiology, we aim to estimate exposure to pesticides using historical aerial photographs over the French territory. Such images are available in very high spatial resolution since 1950 and offer a unique opportunity for environmental-oriented studies through multiple decades. We leverage the existence of sparse labels to train DeepGouramic, a deep learning classification model, according to six land cover classes chosen for pesticide exposure studies. We replicate a study linking birth pesticide exposure to testicular cancer. The results are exploited to asse",
-      "authors": [
-        "Léopold Jouffroy",
-        "Lény Grassot",
-        "Astrid Coste",
-        "Clément Mallet"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225483680",
-      "url": "https://openalex.org/W7225483680",
+      "id": "W7235689998",
+      "url": "https://doi.org/10.1007/s11701-026-04218-3",
       "pdf": "",
-      "title": "IEW Celebration Video Premiere",
-      "summary": "Be Featured in Our Celebration Video - Send us a photo or short video of yourself, your family, your cultural traditions, or a special place that represents your heritage; your submission may be featured in our International Education Week celebration video! Video Submission - A short video of yourself or your family highlighting where you're from and your favorite cultural tradition. If you're an F-1 student, please state which site location you attend and the respective Site Director. Photo Submission - A photo of yourself or a photo of yourself with your family that represents your cultural",
+      "title": "Association of the number of collecting system entries with warm ischemia time during robot-assisted partial nephrectomy",
+      "summary": "",
       "authors": [
-        "Department of Student Engagement"
+        "Mitsuru Komeya",
+        "Kota Kobayashi",
+        "Ryosuke Jikuya",
+        "Tomoyuki Tatenuma",
+        "Go Noguchi",
+        "Hiroki Ito",
+        "Yusuke Ito",
+        "Kentaro Muraoka",
+        "Hisashi Hasumi",
+        "Kazuhide Makiyama"
       ],
       "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7233672034",
-      "url": "https://openalex.org/W7233672034",
-      "pdf": "https://hal.science/hal-05863025",
-      "title": "Towards Intelligent and Sustainable Structural Health Monitoring",
-      "summary": "Reliable defect detection and characterisation are essential for improving the safety, durability and sustainability of engineering structures. This study investigates a guided-wave scattering approach for characterising structural defects through the frequency-dependent amplitude and phase of scattered Lamb waves. Using finite element simulations of aluminium plates containing circular through-holes of different sizes, a beamforming-based imaging method [1,2] is employed to localise defects and extract two complementary descriptors: the scattering cross-section, which quantifies the strength ",
-      "authors": [
-        "Elie Farha",
-        "Lynda Chehami",
-        "Emmanuel Moulin",
-        "Amadou Sall DIA",
-        "Nikolay Smagin"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W4226165704",
-      "url": "https://doi.org/10.1038/s41598-026-74112-3",
-      "pdf": "https://www.nature.com/articles/s41598-026-74112-3_reference.pdf",
-      "title": "The brain tumor sequence registration (BraTS-Reg) challenge for establishing correspondence between pre-operative and follow-up MRI scans of diffuse glioma patients",
-      "summary": "Abstract Registration of longitudinal brain MRI scans containing pathologies remains a challenging problem, due to substantial changes in tissue appearance. While medical image registration methods have advanced considerably, they often lack the required precision and robustness. To address this gap, we introduced the brain tumor sequence registration (BraTS-Reg) challenge, the first public benchmark specifically designed for deformable registration between pre-operative and follow-up scans of patients with adult-type diffuse gliomas. Conducted in conjunction with ISBI-2022 and MICCAI-2022, Br",
-      "authors": [
-        "Bhakti Baheti",
-        "Satrajit Chakrabarty",
-        "Hamed Akbari",
-        "Michel Bilello",
-        "Benedikt Wiestler",
-        "Julian Schwarting",
-        "Evan Calabrese",
-        "Jeffrey D. Rudie",
-        "Syed Abidi",
-        "Mina S. Mousa",
-        "Javier E. Villanueva-Meyer",
-        "Brandon K. K. Fields",
-        "Florian Kofler",
-        "Russell Takeshi Shinohara",
-        "Juan Eugenio Iglesias",
-        "Tony C. W. Mok",
-        "Albert C. S. Chung",
-        "Marek Wodziński",
-        "Artur Jurgas",
-        "Niccolò Marini",
-        "Manfredo Atzori",
-        "Henning Müller",
-        "Christoph Großbröhmer",
-        "Hanna Siebert",
-        "Lasse Hansen",
-        "Mattias P. Heinrich",
-        "Luca Canalini",
-        "Jan Klein",
-        "Annika Gerken",
-        "Stefan Heldmann",
-        "Alessa Hering",
-        "Horst K. Hahn",
-        "Mingyuan Meng",
-        "Lei Bi",
-        "Dagan Feng",
-        "Jinman Kim",
-        "Ramy A. Zeineldin",
-        "Mohamed E. Karar",
-        "Franziska Mathis-Ullrich",
-        "Oliver Burgert",
-        "Javid Abderezaei",
-        "Aymeric Pionteck",
-        "Agamdeep Chopra",
-        "Mehmet Kurt",
-        "Kewei Yan",
-        "Yonghong Yan",
-        "Zhe Tang",
-        "Jianqiang Ma",
-        "Sahar Almahfouz Nasser",
-        "Nikhil Cherian Kurian",
-        "Mohit Meena",
-        "Saqib Shamsi",
-        "Amit Sethi",
-        "Nicholas James Tustison",
-        "Brian Avants",
-        "Philip Cook",
-        "James C. Gee",
-        "Lin Tian",
-        "Hastings Greer",
-        "Marc Niethammer",
-        "Andrew Hoopes",
-        "Malte Hoffmann",
-        "Adrian V. Dalca",
-        "Stergios Christodoulidis",
-        "Théo Estienne",
-        "Maria Vakalopoulou",
-        "Nikos Paragios",
-        "Daniel S. Marcus",
-        "Christos A. Davatzikos",
-        "Aristeidis Sotiras",
-        "Bjoern H. Menze",
-        "Spyridon Bakas",
-        "Diana Waldmannstetter"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 2.5
-    },
-    {
-      "id": "W7139913190",
-      "url": "https://doi.org/10.1016/j.aei.2026.105441",
-      "pdf": "https://doi.org/10.2139/ssrn.6447960",
-      "title": "Semantic enhanced multi-object action modeling benchmark and LVLM prompt optimization for airport visual surveillance",
-      "summary": "",
-      "authors": [
-        "ShengJie Zhang",
-        "Yang Yang",
-        "Yufan Hu",
-        "Zhuojian Zhang",
-        "Kaiquan Cai"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 1.5
-    },
-    {
-      "id": "W7141176924",
-      "url": "https://doi.org/10.1016/j.engappai.2026.116756",
-      "pdf": "https://doi.org/10.2139/ssrn.6478737",
-      "title": "Gradient-consistent conditional generative augmentation for small-sample defect detection on the inner surface of artillery barrels",
-      "summary": "",
-      "authors": [
-        "Zhenkai SUN",
-        "Mingchi Ju",
-        "Tailin Han",
-        "Xuesong Yang",
-        "Xinghan Lu",
-        "Xue-song YANG"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7154594930",
-      "url": "https://doi.org/10.1186/s13019-026-04796-1",
-      "pdf": "https://doi.org/10.1186/s13019-026-04796-1",
-      "title": "Clinical application of CT-guided lung nodule localization needles in preoperative localization of small pulmonary nodules",
-      "summary": "Abstract Background To investigate the safety and efficacy of CT-guided lung nodule localization needles for the preoperative localization of small pulmonary nodules. Methods A retrospective study was conducted on 102 patients with a total of 113 small pulmonary nodules who underwent preoperative localization at Jinan Fourth People’s Hospital from January 2024 to December 2025. Nodule diameter and depth, localization time, the number of pleural punctures, the localization success rate, and postoperative complications (hook dislodgement, hemorrhage, and pneumothorax) were recorded. All patients",
-      "authors": [
-        "Rongxue Xu",
-        "Hengli Dou",
-        "Meng Zhang",
-        "Zhenming Liu"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7160101374",
-      "url": "https://doi.org/10.34133/csbj.0296",
-      "pdf": "https://doi.org/10.34133/csbj.0296",
-      "title": "InVitroGap: an open-source tool for automated quantification of wound closure in the in vitro scratch assay",
-      "summary": "Abstract Background Scratch assays are widely used to study wound closure in vitro, but quantitative image analysis remains constrained by manual variability, proprietary workflows, and tools requiring programming expertise. We developed InVitroGap, a Python-based application with a browser-accessible interface for automated quantification of scratch assay closure from sequential microscopy images. Methods RCC-ER and Renca cells were seeded in 96-well ImageLock plates and scratched using a WoundMaker device for uniform linear wounds or a 200 µL pipette tip for crisscross wounds. Phase-contrast",
-      "authors": [
-        "Rakesh K. Arya",
-        "Mohit Sindhani",
-        "Sahab Ram Dewala",
-        "Christopher Weight",
-        "Laura Bukavina"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 1.5
-    },
-    {
-      "id": "W7203564648",
-      "url": "https://doi.org/10.1016/j.cma.2026.119554",
-      "pdf": "https://doi.org/10.1016/j.cma.2026.119554",
-      "title": "Canonical minimization principles for Cahn–Hilliard diffusion and associated coupled problems based on flux interpolations with a higher-order continuity",
-      "summary": "A variational-based framework for the description of coupled Cahn–Hilliard diffusion problems with a higher-order continuity requirement for the primary field is introduced which in this work is accomplished by the use of isogeometric analysis but the proposed scheme could also be incorporated into other discretization strategies such as discontinuous Galerkin methods. Contrary to established approaches, a representation is derived where an inverse Fickian diffusion law is deduced from the minimization principle which results in a method that uses the species-flux vector as a degree of freedom",
-      "authors": [
-        "Basavesh Yaraguntappa",
-        "Marc‐André Keip",
-        "Andreas Krischok"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7216097305",
-      "url": "https://doi.org/10.1080/01431161.2026.2761082",
-      "pdf": "https://doi.org/10.5281/zenodo.23059018",
-      "title": "Genetic optimization of super-resolution for structural enhancement of Sentinel-2 imagery using comparative feature matching for floating offshore wind monitoring",
-      "summary": "Free optical Earth-observation missions such as Sentinel-2 provide frequent coverage of offshore wind farms, but their 10 m spatial resolution limits the analysis of floating platforms, which often occupy only a few pixels. This study presents a cluster-conditioned enhancement framework that maps Sentinel-2 RGB imagery to a nominal 0.75 m grid using a fixed WDSR super-resolution model and a genetic algorithm that optimizes interpolation, filtering, contrast, sharpening, and post-processing parameters. GEOSAT-2 imagery at 0.75 m resolution is used to define appearance-based clusters, validate t",
-      "authors": [
-        "Mário Vieira",
-        "Leonardo Viegas Filipe"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221082402",
-      "url": "https://doi.org/10.64131/fununarabiyyah.v2i1.56",
-      "pdf": "https://journal.mutiarahatimoeslem.id/index.php/fununarabiyyah/article/download/56/43",
-      "title": "The Role of Visual, Auditory, and Kinesthetic Learning Styles in Optimizing Arabic Language Learning",
-      "summary": "Learning style is one of the supporting factors for students in obtaining learning material. However, each individual has a different learning style, including visual, auditory and kinesthetic. Therefore, a teacher is required to be active and innovative in creating learning, so that students can maximize learning in their own way. To answer the problem formulation of what are the characteristics of visual, auditory and kinesthetic learning styles in Arabic language learning? The research uses qualitative methods with a literature study approach to theoretically examine the characteristics of ",
-      "authors": [
-        "Nur Azizah",
-        "Adelia Irsyadillah Al Hidjaz",
-        "Alma Idatun Nahlah",
-        "Rewan Khalil Abd-elsalam Elhewy"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7225990470",
-      "url": "https://doi.org/10.5281/zenodo.19377260",
-      "pdf": "https://doi.org/10.5281/zenodo.19377260",
-      "title": "Dataset for: Rapid Radial Protoplanetary Disk Evolution and Debris Disk Formation in Taurus–Auriga",
-      "summary": "This dataset includes all fits images and associated measurements sets fot the all sources observed with the SMA as part of the SMA Class III survey, as published in \"Rapid Protoplanetary Disk Evolution and Debris Disk Formation in Taurus–Auriga\" (ApJ). Note the file limit for Zenodo means that these are stored as zipped files (allFitsFiles.zip). There are two types of file ID in this zip: fits images and measurement sets.Images have the following naming convention: {source_ID}.allObsID.nat.im.image.fits -- for sources that included multiple measurement sets; and {source_ID}.{obs_ID}.nat.im.im",
-      "authors": [
-        "Joshua Bennett Lovell",
-        "Sean M. Andrews",
-        "Grant M. Kennedy",
-        "David J. Wilner",
-        "Richard D. Alexander",
-        "Adam L. Kraus",
-        "Daniel M. Krolikowski",
-        "Luca Matrà",
-        "Mark C. Wyatt",
-        "Jonathan P. Williams"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7226352995",
-      "url": "https://doi.org/10.5281/zenodo.24235727",
-      "pdf": "https://doi.org/10.5281/zenodo.24235727",
-      "title": "Performance Comparison of SAR Image Formation Algorithms",
-      "summary": "",
-      "authors": [
-        "Brenda Micaelle Santos Figueiredo",
-        "Renato Machado",
-        "Paulo Ricardo Branco da Silva",
-        "Marina Gonçalves Moreira"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 1.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.0
     }
   ]
 }
