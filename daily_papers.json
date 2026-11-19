@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18 21:40 UTC",
+  "generated_at": "2026-11-19 01:35 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,607 +9,524 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7225150021",
-      "url": "https://doi.org/10.66977/xsci.2611.002z",
-      "pdf": "https://arxiv.org/pdf/2611.02673",
-      "title": "Auditing Representation-Space Fraud Detection: A Bayesian IRL Framework for Calibrated Uncertainty and Its Limits",
-      "summary": "Shilling detectors for recommender systems are almost always evaluated by one number, detection AUROC, with no account of when it can be trusted. We audit representation-space detection with VEIL (Variational Evaluation via Inverse-reinforcement Learning), a pairwise (Bradley–Terry) Bayesian reward-inference framework over frozen encoder embeddings, after the Bayesian auditing paradigm for LLM alignment [1]: (A) a base posterior; (B) a hierarchical ARD extension with a learned confidence; and (C) a label-routed organic/attacker mixture used as an evidence-accumulation check. We prove (Prop. 1)",
+      "id": "W4416610277",
+      "url": "https://doi.org/10.1137/25m1764281",
+      "pdf": "https://arxiv.org/pdf/2505.23247",
+      "title": "Accelerating RLHF Training with Reward Variance Increase",
+      "summary": "Abstract. Reinforcement learning from human feedback (RLHF) is an essential technique for ensuring that large language models (LLMs) are aligned with human values and preferences during the posttraining phase. As an effective RLHF approach, group relative policy optimization (GRPO) has demonstrated success in many LLM-based applications. However, efficient GRPO-based RLHF training remains a challenge. Recent studies reveal that a higher reward variance of the initial policy model leads to faster RLHF training. Inspired by this finding, we propose a practical reward adjustment model to accelera",
       "authors": [
-        "Shivam Swarup",
-        "Divya Prakash Shrivastava",
-        "Rakesh Thakur"
+        "Zonglin Yang",
+        "Zhengguo Gu",
+        "Houduo Qi",
+        "Ye Yuan"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
+      "score": 12.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7225770191",
-      "url": "https://doi.org/10.5281/zenodo.24140703",
-      "pdf": "https://doi.org/10.5281/zenodo.24140703",
-      "title": "Semantic Segmentation of Flooded Environments for Livestock Route Planning",
-      "summary": "Poster presented at the 9th Iberian Robotics Conference (ROBOT2026, Barcelona, Spain). Autonomous livestock herding in extensive farming environments requires robots to operate reliably across large outdoor areas subject to changing environmental conditions. In particular, flooding caused by heavy rainfall or irrigation can alter terrain traversability, making existing roads and pasture areas unsuitable for livestock movement. This work in progress explores the use of UAV imagery to provide updated terrain information for flood-aware livestock route planning. We use the FloodNet dataset, origi",
-      "authors": [
-        "Javier Miñambres-Calvo",
-        "Virginia Riego del Castillo",
-        "Lídia Sánchez-González",
-        "Francisco J. Rodríguez-Lera"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7235216439",
-      "url": "https://doi.org/10.5281/zenodo.24327658",
-      "pdf": "https://doi.org/10.5281/zenodo.24327658",
-      "title": "NANOSENSING FOR ACUPUNCTURE ROBOTICS STARLI · Family 15 · F071–F075 Scientific Technical Notebook | Research Working Edition v1.0 33 × STARLI | Prospective, nonclinical, falsifiable research design Let ancient questions retain their poetry, and future science retain its humility. F071 — Local Electrochemical Nanosensing for Acupuncture at the Limit F072 — Pressure and Contact Nanosensing for Acupuncture at the Limit F073 — Temperature Nanosensing for Acupuncture at the Limit F074 — Multisensor Fusion in Nano-Acupuncture at the Limit F075 — Self-Calibration of Nano-Acupuncture Sensor Drift at the Limit Reading map Fourteen research positions; thirty blueprint formula statements; forty-two analytic model notes; eighty-two six-stage chapters; two hundred research gates; thirty-three prototype concepts; a closing evidence register. This notebook expands the same research architecture with stage-specific practical checkpoints. No experimental findings are claimed. Preface 01 · Research identity Position Five questions share a calibration contract, not a single physical observable. Local Electrochemical Nanosensing for Acupuncture at the Limit Pressure and Contact Nanosensing for Acupuncture at the Limit Temperature Nanosensing for Acupuncture at the Limit Multisensor Fusion in Nano-Acupuncture at the Limit Self-Calibration of Nano-Acupuncture Sensor Drift at the Limit. Evidence The blueprint calls the common endpoint sensor residual in native units [a.u.]; the arbitrary-unit placeholder must be replaced by each actual quantity and its units before comparison. Boundary All work is restricted to inert chemical, force and temperature phantoms or offline synthetic records. Preface 02 · The five-branch coupling Position F071 establishes chemical interpretation; F072 defines contact; F073 qualifies thermal context; F074 integrates qualified observations; F075 audits calibration through time. Evidence Every handoff carries units, time, independent uncertainty and a validity mask. Boundary No common residual or model confidence can authorize actuation on a person.",
-      "summary": "NANOSENSING FOR ACUPUNCTURE ROBOTICS STARLI · Family 15 · F071–F075 Scientific Technical Notebook | Research Working Edition v1.0 33 × STARLI | Prospective, nonclinical, falsifiable research design Let ancient questions retain their poetry, and future science retain its humility. F071 — Local Electrochemical Nanosensing for Acupuncture at the Limit F072 — Pressure and Contact Nanosensing for Acupuncture at the Limit F073 — Temperature Nanosensing for Acupuncture at the Limit F074 — Multisensor Fusion in Nano-Acupuncture at the Limit F075 — Self-Calibration of Nano-Acupuncture Sensor Drift at t",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7235284160",
-      "url": "https://doi.org/10.5281/zenodo.24327313",
-      "pdf": "https://doi.org/10.5281/zenodo.24327313",
-      "title": "A Robot Should Know When Its Bus Is Gone: A Conservative Dual-Route, Fault-Isolation State Machine for Modular Servo Systems",
-      "summary": "Low-cost modular robotic arms commonly share serial-bus and power dependencies. A broken connector or local overcurrent can leave an otherwise functional robot unable to complete an authorized task. This technical report presents a minimal, dry-run fault-isolation and alternate-route proposal engine for six simulated servo joints. It represents primary/backup connectivity, measured-current threshold, observation age, explicit owner authorization, and STOP epochs, and generates proposed routes without contacting servos. In 1,000 deterministic generated cases, it satisfied 1,000/1,000 predefined",
-      "authors": [
-        "Terrynce Anson White"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7235349061",
-      "url": "https://doi.org/10.1007/s11701-026-04194-8",
+      "id": "W7233791310",
+      "url": "https://doi.org/10.1177/09544070261502980",
       "pdf": "",
-      "title": "Robotic sentinel lymph node biopsy with dual-tracer mapping in 76 patients with breast cancer: high detection rate and low false-negative rate",
-      "summary": "",
+      "title": "Vehicle adaptive cruise control based on safety constraints and continuous action surface reconstruction: An improved Q-learning method",
+      "summary": "The heavy vehicle mass and long braking delay mean that any following distance violation may lead to a serious rear-end collision. Although reinforcement learning has self-learning potential, it tends to output dangerous actions due to blind exploration during the early training stage. Moreover, the “cross gear jump” caused by discrete state spaces leads to abrupt acceleration changes, impairing ride comfort and drivetrain life. To address these problems, this paper proposes an improved Q learning control framework integrated with domain knowledge. First, a continuous safety reward function ba",
       "authors": [
-        "Qiwen Liu",
-        "Yueyue Teng",
-        "Zongyan Li",
-        "Tong Wu",
-        "Xiaoyan Fu",
-        "Yongxin Wu",
-        "Haiyan Li"
+        "Zhanfeng Wang",
+        "Yuhang Zhang",
+        "Ziliang Zhao",
+        "Kai Li",
+        "Wenxue Han",
+        "Bin Guo"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7235459832",
-      "url": "https://doi.org/10.1007/s11701-026-04026-9",
-      "pdf": "",
-      "title": "Adoption, technique, and barriers in robotic abdominal wall surgery: the GLOBAL-HERNIA cross-sectional survey",
-      "summary": "",
+      "id": "W7139939849",
+      "url": "https://doi.org/10.1007/978-3-032-45473-7_6",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-45473-7_6.pdf",
+      "title": "Uncovering Latent Phase Structures and Branching Logic in Locomotion Policies: A Case Study on HalfCheetah",
+      "summary": "In locomotion control tasks, Deep Reinforcement Learning (DRL) has demonstrated high performance; however, the decision-making process of the learned policy remains a black box, making it difficult for humans to understand. On the other hand, in periodic motions such as walking, it is well known that implicit motion phases exist, such as the stance phase and the swing phase. Focusing on this point, this study hypothesizes that a policy trained for locomotion control may also represent a phase structure that is interpretable by humans. To examine this hypothesis in a controlled setting, we cons",
       "authors": [
-        "Francesco Brucchi",
-        "Giampaolo Formisano",
-        "Sofia Esposito",
-        "Micaela Piccoli",
-        "Paolo Pietro Bianchi",
-        "Gianlorenzo Dionigi",
-        "Filip E. Muysoms",
-        "the GLOBAL-HERNIA Survey Collaborators",
-        "Lavinia Amato",
-        "Jacopo Andreuccetti",
-        "Amedeo Antonelli",
-        "Giulio Argenio",
-        "Giulia Bacchiocchi",
-        "Ludovica Baldari",
-        "Alberto G. Barranquero",
-        "Emanuela Basile",
-        "Gabriele Bellio",
-        "Lorenza Beomonte Zobel",
-        "Frederik Christiaan Berrevoet",
-        "Pierre Blanc",
-        "Luigi Bonavina",
-        "Andrea Bottari",
-        "Marco Brizzolari",
-        "Oreste Claudio Buonomo",
-        "Tommaso Campagnaro",
-        "Damiano D. Caputo",
-        "Filippo Carannante",
-        "Silvio Caringi",
-        "Gianmaria Casoni Pattacini",
-        "Lidia Castagneto‐Gissey",
-        "Antonio Castaldi",
-        "Chong Yi Chin",
-        "Christos Chouliaras",
-        "Luigi Cobuccio",
-        "Pietro Coletta",
-        "Tiago Correia de Sá",
-        "Michele De Capua",
-        "Spiros Delis",
-        "Daniele Delogu",
-        "Michele De Rosa",
-        "Giada Di Flumeri",
-        "Andrea Divizia",
-        "Stefan Eisoldt",
-        "Denisa Eskiu",
-        "Alessia Fassari",
-        "Francesco Ferrara",
-        "Francesco Fleres",
-        "Giampaolo Formisano",
-        "Laura Fortuna",
-        "Christian Galatioto",
-        "Lukas Gantner",
-        "Mauro Giambusso",
-        "Alessio Biagio Filippo Giordano",
-        "Sara Giovampietro",
-        "Francesco Giovanardi",
-        "Luca Gordini",
-        "Andrea Martina Guida",
-        "Alessandro Iacomino",
-        "Tsvetomir M. Ivanov",
-        "Enrique Ricardo Jean-Silver",
-        "Lodovica Langellotti",
-        "Giovanni Guglielmo Laracca",
-        "Giulia Lauteri",
-        "Giovanni Battista Levi Sandri",
-        "Annarita Libia",
-        "Francesco Saverio Li Causi",
-        "Anthony Y. Lin",
-        "Dimitrios Linardoutsos",
-        "Víctor López‐López",
-        "Andrea‐Pierre Luzzi",
-        "Carlos Magalhães",
-        "Federico Maggi",
-        "Marta Maistri",
-        "Davide Marino",
-        "Valentina Enrica Marsella",
-        "Federica Marzi",
-        "Gianluca Mascianà",
-        "Lorena Massante",
-        "Fanny Massimi",
-        "Marco Materazzo",
-        "Claudio Mauriello",
-        "Franz Mayer",
-        "Simona Meneghini",
-        "Isabella Mondi",
-        "Salvador Morales‐Conde",
-        "Björn Mück",
-        "Luigi Noceroni",
-        "Fabio Massimo Oddi",
-        "Alessandro Palladino",
-        "Francesco Palmieri",
-        "Graziano Palmisano",
-        "Antonella Paone",
-        "Marco Pellicciaro",
-        "Marta Perego",
-        "Graziano Pernazza",
-        "Teresa Perra",
-        "Lorenzo Petagna",
-        "Gaetano Poillucci",
-        "Alberto Porcu",
-        "Rosnelifaizur Ramely"
+        "Daisuke Yasui",
+        "Toshitaka Matsuki",
+        "Hiroshi Sato"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.0
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
     },
     {
-      "id": "W7235595519",
-      "url": "https://doi.org/10.36922/ijb026330352",
-      "pdf": "https://doi.org/10.36922/ijb026330352",
-      "title": "Development and validation of a low-cost, open-source robotic extrusion printing platform for acellular hydrogel scaffold fabrication: A step toward multi-axis robotic bioprinting",
-      "summary": "Commercial multi-axis robotic bioprinting platforms remain prohibitively expensive for many laboratories, limiting access to robot-assisted biofabrication. This study converted a low-cost six-axis industrial robot (ABB IRB 120T with IRC5 Compact controller) into an open-source robotic extrusion printing platform and compared its dimensional performance with a commercial robotic bioprinter (BioAssemblyBot 400). Validation was limited to acellular hydrogel and planar toolpaths; cell-laden and non-planar printing remain necessary for biological validation. The platform integrated a modified print",
+      "id": "W7214726114",
+      "url": "https://doi.org/10.31234/osf.io/7u56t",
+      "pdf": "https://doi.org/10.31234/osf.io/7u56t",
+      "title": "Correcting misconceptions and shaping preferences about energy with reinforcement learning",
+      "summary": "Addressing the climate crisis requires citizens to make informed choices about sustainable energy policy, yet public debates are often shaped by inaccurate beliefs about the environmental and health impacts of different energy sources. Misconceptions about key features of energy sources, such as their greenhouse gas emissions, mortality rates, and contribution to electricity production, are particularly dangerous for this debate, as they risk systematically distorting public support for effective decarbonisation strategies. Here we investigate whether a brief reinforcement‑based intervention c",
       "authors": [
-        "Kenneth Houston",
-        "Perrin Woods",
-        "Ahasan Habib"
+        "Caroline Pioger",
+        "Fabien Cerrotti",
+        "Wataru Toyokawa",
+        "Maël P. Lebreton",
+        "Stefano Palminteri"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W4403713484",
+      "url": "https://doi.org/10.1088/1361-6528/aec26d",
+      "pdf": "https://iopscience.iop.org/article/10.1088/1361-6528/aec26d/pdf",
+      "title": "Unsupervised reward-driven image segmentation in automated scanning transmission electron microscopy experiments",
+      "summary": "Automated experiments in scanning transmission electron microscopy (STEM) require rapid image segmentation to optimize the data representation for human interpretation, decision-making, site-selective spectroscopy, and atomic manipulation. Currently, segmentation tasks are typically performed using supervised machine learning methods, which require human-labeled data and are sensitive to out-of-distribution drift effects caused by changes in resolution, sampling, or beam shape. Here, we operationalize and benchmark a recently proposed reward-driven optimization workflow for on-the-fly image an",
+      "authors": [
+        "Kamyar Barakati",
+        "Utkarsh Pratiush",
+        "Austin Houston",
+        "Gerd J. Duscher",
+        "Sergei V. Kalinin"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 1.5
     },
     {
-      "id": "W7235818563",
-      "url": "https://openalex.org/W7235818563",
-      "pdf": "",
-      "title": "Object Pose Tracking with Event and Frame Cameras",
-      "summary": "Accurate 6-DoF object pose estimation and tracking are essential capabilities for robotic systems operating in dynamic environments. However, conventional frame-based vision systems often suffer from motion blur, sensing latency, and degraded perception performance when observing fast-moving objects. Event cameras offer an attractive alternative by asynchronously measuring brightness changes with microsecond temporal resolution and high dynamic range, making them particularly suitable for high-speed object perception. Despite these advantages, event-based object pose tracking remains challengi",
+      "id": "W7160923265",
+      "url": "https://doi.org/10.1145/3863955",
+      "pdf": "https://doi.org/10.1145/3863955",
+      "title": "RFAmpDesigner: A Two-Level LLM-guided Optimization Framework for Automated Differential CMOS RF Amplifier Sizing",
+      "summary": "Automated RF amplifier sizing is challenging because the design process is inherently hierarchical, the parameter space is high-dimensional and strongly coupled, and high-fidelity circuit simulation is expensive. Conventional optimization and reinforcement learning methods typically require many iterations and make limited use of RF domain knowledge, making them costly under tight simulation budgets. Large language models (LLMs) provide broad prior knowledge and reasoning capabilities, but are unreliable for direct numerical optimization. This paper presents RFAmpDesigner, a two-level optimiza",
       "authors": [
-        "ZHICHAO LI"
+        "Hang Lu",
+        "Guochang Li",
+        "Qianyu Chen",
+        "Huiyan Gao",
+        "Shaogang Wang",
+        "Xuanyu He",
+        "Yiwei Liu",
+        "Gaopeng Chen",
+        "Gaopeng Chen",
+        "Xiaokang Qi",
+        "Chunyi Song",
+        "Xiaokang Qi",
+        "Zhiwei Xu"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
+      "score": 3.0,
+      "pick": "AI & LLM",
+      "pick_emoji": "✨",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233815968",
+      "url": "https://doi.org/10.33422/jarss.v9i3.1816",
+      "pdf": "https://dpublication.com/journal/JARSS/article/download/1816/966/12381",
+      "title": "The Everyday Life of Culture: Knowledge Transmission and Continuity in Indigenous and Adivasi Communities of South India",
+      "summary": "This article explores the transmission of traditional, ecological, cosmological, and social knowledge between the Kāṭṭu Nāyakar, Yerukala, and Irula communities of southern India. It argues that day-to-day activities such as domestic work, subsistence agriculture, divination, ritual, games and seasonal mobility constitute a structured learning ecology in which knowledge is learned through embodied participation rather than formal education. This article presents the Ethnocentric Collaborative Decolonisation Project (ECDP), an innovative methodological framework based on the doctoral research o",
+      "authors": [
+        "Prudhvi Kumar Kanyadari"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7221503383",
-      "url": "https://doi.org/10.3390/network6040103",
-      "pdf": "https://doi.org/10.3390/network6040103",
-      "title": "Distributed Edge–Fog Architecture for Path Tracking in Geo-Referenced Mobile Robots via Low-Cost LPWAN Networks",
-      "summary": "The convergence of mobile robotics with telecommunications has driven the emergence of the Internet of Robotic Things (IoRT). However, deploying autonomous robots in unstructured environments faces a critical limitation: the unpredictable latency and high costs of the traditional Cloud Robotics model make it unfeasible in rural, agricultural, or remote industrial contexts with only low-speed network access. This paper presents a distributed Edge–Fog architecture for geo-referenced path tracking over low-cost LPWAN networks. The Fog layer, orchestrated with Node-RED, handles route planning (A*)",
+      "id": "W4285182784",
+      "url": "https://doi.org/10.1287/opre.2022.0205",
+      "pdf": "https://doi.org/10.2139/ssrn.4115721",
+      "title": "Exploration Optimization for Dynamic Assortment Personalization under Linear Preferences",
+      "summary": "We study dynamic assortment personalization, where an online retailer adaptively selects assortments based on customer attributes to learn preferences and maximize revenue. We assume that product utilities depend linearly on customer attributes through an unknown coefficient matrix, leading to an exploration–exploitation trade-off. We identify price-driven and linearity-driven exploration efficiencies, showing that not all products need to be offered to all customer profiles to recover optimal assortments. We establish an instance-dependent regret lower bound characterized by a linear program,",
       "authors": [
-        "Brandon A. Maldonado-García",
-        "Adolfo Espinoza-Ruiz",
-        "Erica Cecilia Ruiz-Ibarra",
-        "Joaquin Mass-Sanchez",
-        "Armando García",
-        "Javier Vázquez Castillo"
+        "Fernando Bernstein",
+        "Sajad Modaresi",
+        "Denis Sauré"
       ],
-      "published": "2026-11-15",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7233540097",
-      "url": "https://doi.org/10.5281/zenodo.24249253",
-      "pdf": "https://doi.org/10.5281/zenodo.24249253",
-      "title": "AUTONOMOUS ROBOTS FOR EVERYDAY LIVING FAMILY 29 / F141-F145 | SCIENTIFIC & TECHNICAL NOTEBOOK | RESEARCH WORKING EDITION v1.0 33 x STARLI | WHITE RAINBOW RESEARCH LIBRARY This prospective and nonclinical work addresses domestic task cooperation, explicit personal adaptation, verified human safety, qualified module repair and revocable household permissions. It contains research hypotheses and synthetic geometry, not certified product behavior, clinical efficacy or authorization to record people. An independent resident veto is part of the engineering problem. Five official flagship research titles F141 | Distributed Cooperation of Domestic Service Robots at the Limit | 家庭服務機器人分散式協作的極限 F142 | Personal Needs Adaptation in Everyday Robotics at the Limit | 生活機器人個人需求自適應的極限 F143 | Safe Human–Robot Coexistence in Everyday Service Robotics at the Limit | 生活服務機器人安全人機共處的極限 F144 | Autonomous Maintenance and Component Replacement of Domestic Robots at the Limit | 家庭機器人自主維修與零件替換的極限 F145 | Privacy Protection and Autonomy Boundaries in Everyday Service Robotics at the Limit | 生活服務機器人隱私保護與自主權限的極限 Five concurrent evidence tracks 1 / Freeze research DNA: independent household mechanisms, explicit residents and rooms, physical baselines, negative outcomes and no hidden service/consent claims. 2 / Formalize mechanistic models: dimensionally interpretable task, speed, force, module and permission equations with 42 recomputable 3D synthetic hypothesis surfaces. 3 / Reconstruct external witnesses: real task receipts, independent motion traces, accessibility gauges, post-repair calibration and local/cloud data flow scans. 4 / Challenge competing worlds: manual preferences, simpler single robots, conservative fixed-speed safety, trained repair and offline least-privilege automation. 5 / Audit and permit transfer: retain every rejected task, near miss, user objection, unexpected actuator movement and deleted-data counterexample for blind successor replication. Research source genealogy and evidence taxonomy The user-supplied 915-page SWARM MANUFACTURING & ROBOTIC MATTER AT THE LIMIT is the available mother PDF. Its agent capabilities (Ch. 9-16), task coordination (Ch. 17-24), fault tolerance and independent verification (Ch. 49-56), modular reconfiguration (Ch. 57-64), human-swarm interaction (Ch. 72) and authority (Ch. 76-82) motivate this domestic adaptation. These are chapter trajectories of ONE book, not three different supplied mother volumes. ISO 13482:2014 and ISO/TR 23482-1:2020 inform safety questions; edition 2 was under publication on 15 Nov 2026. Neither standards nor literature certify the unbuilt prototypes.",
-      "summary": "",
-      "authors": [
-        "33"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7233541602",
-      "url": "https://doi.org/10.5281/zenodo.24217170",
-      "pdf": "https://doi.org/10.5281/zenodo.24217170",
-      "title": "Non-Smooth Robotics, Granular Terramechanics, and Contact Dynamics on Projective Symplectic Bundles: Workless Dirac Constraints, Bilateral Burdet-Ferrandiz Regularization, Cryogenic Bekker-Wong Inversion, Anisotropic KYP Restitution, and Zero-Allocation 64-Byte WebGPU Execution",
-      "summary": "We formulate the complete mathematical, variational, tribological, numerical-precision, and silicon-execution architecture eliminating collision-stiffness step collapse, constraint work drift, stick-slip Clarke subgradient chattering, zero-velocity wheel-stall singularities, and polar geopotential instability in autonomous planetary rovers, articulated manipulators, and non-smooth granular terramechanics. Following 4/4 Quad-Directorate roadmap convergence (BDS-QUAD-APPLIED-ROADMAP-ALIGNMENT-2026, Unanimous Option A Vote) uniting the Relativistic PNT Engine Lead Operational Directorate, TriBody",
-      "authors": [
-        "AryaArunachalaAnanda Ghulam-e-Shah-e-Unmani",
-        "Aghora Abraham Global LLC"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7233541922",
-      "url": "https://doi.org/10.67317/ijmsrt26nov055",
-      "pdf": "https://ijmsrt.com/storages/download-paper/IJMSRT26NOV055",
-      "title": "The Future of AI Healthcare Governance: Towards a Risk- Based Liability Framework",
-      "summary": "Artificial Intelligence (AI) is transforming healthcare delivery, but would you ever trust it more than your doctor? AI tools are being used for taking patient notes, doing predictive diagnosis and even robotic surgeries. They are shaping healthcare by making it more accessible and efficient. But they must be used with caution. Healthcare AI tools can show bias and raise concerns about data privacy and patient consent. The human touch is essential in health care,and AI tools are meant to assist, not replace, doctors. To effectively integrate artificial intelligence into healthcare, we need a r",
-      "authors": [
-        "Khushi Sheoran",
-        "Nikhil Naren"
-      ],
-      "published": "2026-11-15",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7235082129",
-      "url": "https://doi.org/10.5281/zenodo.24327721",
-      "pdf": "https://doi.org/10.5281/zenodo.24327721",
-      "title": "Cost and production effects of offline reinforcement learning for delayed compositional sampling: Research code",
-      "summary": "Research code accompanying the paper “Cost and production effects of offline reinforcement learning for delayed compositional sampling.” The package includes process simulation, offline policy fitting, evaluation, statistical analysis and figure-generation scripts. Installation instructions, verified dependency versions and script-to-paper mappings are provided in README.md. This release contains code only. Required datasets and frozen evaluation records are distributed separately; see README.md for input requirements and verification scope. Original research code is released under the MIT lic",
-      "authors": [
-        "IMRAN MUHAMMAD",
-        "Fatima Zaidi"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
+      "score": 2.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7165171786",
-      "url": "https://doi.org/10.1038/s41598-026-70541-2",
-      "pdf": "https://www.nature.com/articles/s41598-026-70541-2_reference.pdf",
-      "title": "Risk-aware hybrid reinforcement learning and robust optimization for reliable PV-battery scheduling under uncertainty",
-      "summary": "High photovoltaic penetration makes residential battery scheduling sensitive to forecast error, tail cost, and model mismatch. This work present a closed-loop interface linking chronological residual-based conformal intervals, cardinality-budgeted receding robust dispatch, distributional cost critics in Soft Actor-Critic (SAC), an uncertainty- and margin-aware fusion/fallback rule, and final safety projection. Evaluation uses chronological household demand from the UCI Individual Household Electric Power Consumption dataset and NASA POWER hourly irradiance and ambient temperature. The processe",
+      "id": "W4322097190",
+      "url": "https://doi.org/10.5465/amd.2025.0303",
+      "pdf": "https://doi.org/10.2139/ssrn.4365176",
+      "title": "Intellectual Tenacity at Work: Generative AI Exposure and the Economic Returns to Occupational Personality Requirements",
+      "summary": "Technology, including generative artificial intelligence (GenAI), is changing professional work, but its implications for how occupational personality requirements are rewarded in the labor market remain unclear. Using job-incumbent ratings from the U.S. Department of Labor’s Occupational Information Network (O*NET), we identify two personality requirement composites: intellectual tenacity (achievement/effort, persistence, initiative, analytical thinking, innovation, and independence) and social adjustment (emotion regulation, concern for others, social orientation, cooperation, and stress tol",
       "authors": [
-        "Bareq Kawwam Ahmed",
-        "Mehrdad Tarafdar Hagh",
-        "S.H. Hosseini"
+        "Christos Andreas Makridis",
+        "Louis Hickman"
       ],
-      "published": "2026-11-15",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
+      "score": 2.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7233550859",
-      "url": "https://doi.org/10.68852/pf-261115.000002",
-      "pdf": "https://doi.org/10.68852/pf-261115.000002",
-      "title": "Occupancy-Based Certificates for the Relative Safety of Reinforcement Learning Agents",
-      "summary": "We study how to upper-bound the expected episodic cost of a candidate reinforcement-learning policy A relative to a trusted baseline B, using rollouts but no environment model. On a finite observation alphabet where expected per-step cost is policy-invariant given the symbol, J(A) ≤ J(B) + T TV(d_(A), d_(B)), with no i.i.d. assumption over time. For nondecreasing costs in an ordinal risk level, a one-sided Kolmogorov–Smirnov certificate restricted to cost-onset thresholds can be sharper; its finite-sample empirical-Bernstein slack has no $\\sqrt K$ term. We show that cost sufficiency is necessa",
+      "id": "W4404520156",
+      "url": "https://doi.org/10.1111/mafi.70066",
+      "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mafi.70066",
+      "title": "Efficient Trading With Price Impact",
+      "summary": "ABSTRACT This paper studies how to compute trading strategies that trade off expected returns, risk, and the trading costs generated by price impact in an efficient manner. For a general model where impact is nonlinear and decays gradually, we show that the performance of linear feedback policies can still be computed in closed form. These are optimal for linear impact and linear decay dynamics only. However, when the linear impact parameters are optimized for the nonlinear impact model at hand, then the performance of the resulting policy is competitive with state‐of‐the‐art machine‐learning ",
       "authors": [
-        "Nissan Pow"
+        "Xavier Brokmann",
+        "Lukas Gonon",
+        "Guangyi He",
+        "David Itkin",
+        "Johannes Muhle‐Karbe"
       ],
-      "published": "2026-11-15",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
+      "score": 2.5,
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7154461826",
-      "url": "https://doi.org/10.24272/j.issn.2095-8137.2025.568",
-      "pdf": "https://www.zoores.ac.cn/en/article/pdf/preview/10.24272/j.issn.2095-8137.2025.568.pdf",
-      "title": "鸽子外纹体中颜色选择性神经元群体的神经表征",
-      "summary": "Understanding how birds encode object color is fundamental to elucidating the neural mechanisms of color vision. Although behavioral studies have shown high color-discrimination accuracy in birds, it remains unclear whether higher-order visual areas organize color information in a structured manner. Here, we performed multi-site multi-unit activity recordings from the pigeon entopallium while presenting multi-category images that systematically varied in hue, luminance, and saturation. Many entopallium sites exhibited robust hue selectivity that remained stable across luminance and saturation ",
-      "authors": [
-        "HE Qing-zhi",
-        "Juncai Zhu",
-        "Niu Xiao-Ke",
-        "Wu Peng",
-        "Zhang Ru-Peng",
-        "Li Bo",
-        "Zhizhong WANG",
-        "Zhizhong Wang"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7108317401",
-      "url": "https://doi.org/10.17605/osf.io/yx9rj",
-      "pdf": "https://doi.org/10.17605/osf.io/yx9rj",
-      "title": "The use of cognitive bias modification to reduce body dissatisfaction: Manipulation of interpretation bias, perfectionism, and cognitive flexibility",
-      "summary": "The aim of this study is to experimentally manipulate interpretation bias, perfectionism, and cognitive flexibility using cognitive bias modification techniques and to understand which cognitive process, if not all, can reduce body dissatisfaction.",
-      "authors": [
-        "Yen-Tzu Kung",
-        "Yun zhen, Wu",
-        "WEI-CHIEH CHIU",
-        "Yu-Ching Sun",
-        "Wang, Yun-Lin",
-        "Yu-Han Pao"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7235056706",
-      "url": "https://doi.org/10.3998/fc.12672",
-      "pdf": "https://doi.org/10.3998/fc.12672",
-      "title": "The Invisual Power of the Visible in Raymond Depardon’s Urgences and Jorge Pelicano’s Suddenly my Thoughts Halt",
-      "summary": "When it comes to filming patients in the specific context of their psychiatric institution, observing and subsequently constructing a visual point of view becomes a demanding process. Through a particular way of using the camera as a tool to embody a living experience from this setting, French photographer and director Raymond Depardon and Portuguese filmmaker Jorge Pelicano go beyond merely documenting the Hôtel Dieu and Conde Ferreira Hospitals. The grief that emanates from their images concerns the whole of society as they are manifestations of a concrete, yet universal language of sufferin",
-      "authors": [
-        "Glória Alhinho"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7235305457",
-      "url": "https://doi.org/10.3998/fc.12675",
-      "pdf": "https://doi.org/10.3998/fc.12675",
-      "title": "Cinematic Space as Textured: Sensorial Horror in Silent Hill (2006)",
-      "summary": "This essay approaches cinematic space in horror cinema as textured. While texture has often been examined in relation to the felt qualities of the body, especially within the body horror subgenre, I argue that it must also be understood as a property of the spaces that surround and shape embodied experience. Through a close analysis of Silent Hill and its two contrasting textural regimes, I demonstrate that cinematic space functions not simply as a projection of interior psychology but as an active sensory field, whose material qualities organise fear and meaning at the level of perception. By",
-      "authors": [
-        "Jiawei You"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7235346347",
-      "url": "https://doi.org/10.1016/j.clsr.2026.106435",
-      "pdf": "https://doi.org/10.1016/j.clsr.2026.106435",
-      "title": "Legal gaps in social and mobile service robots regulation",
+      "id": "W7167833014",
+      "url": "https://doi.org/10.1016/j.adhoc.2026.104498",
+      "pdf": "https://doi.org/10.2139/ssrn.7084778",
+      "title": "Receiver-seed guided hybrid Q-learning for low-latency broadcast scheduling in multi-hop wireless networks",
       "summary": "",
       "authors": [
-        "Marie Schwed-Shenker",
-        "Eduard Fosch‐Villaronga",
-        "Bart H. M. Custers"
+        "Van-Hieu Nguyen",
+        "Van-Vi Vo",
+        "Hyunseung Choo",
+        "Tiến Dũng Nguyễn"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7235485483",
-      "url": "https://doi.org/10.22158/sll.v10n4p104",
-      "pdf": "https://doi.org/10.22158/sll.v10n4p104",
-      "title": "A Study on the Transformation Mechanisms of Political Metaphors from the Perspective of Embodied-Cognitive Translation Studies —A Case Study of the Uyghur Translations of Selected Works of Mao Zedong (Volumes I-IV)",
-      "summary": "The interlingual translation of political literature fulfils dual functions: presenting political intentions and reshaping cognitive schemas. Drawing on the “embodiment-cognition-language” chain of Embodied-Cognitive Translation Studies, this paper proposes a continuum model of “source-domain retention-cognitive attenuation” and systematically examines 328 political metaphors extracted from the Uyghur translation of Selected Works of Mao Zedong (Volumes I-IV). The findings are as follows: (1) Translators adopt four successive strategies: embodied-cognitive equivalence, embodied-cognitive recon",
+      "id": "W7223173892",
+      "url": "https://doi.org/10.3390/educsci16111953",
+      "pdf": "https://doi.org/10.3390/educsci16111953",
+      "title": "Artificial Intelligence in Middle and Secondary Education: Instructional Opportunities, Limitations and Ethical Considerations",
+      "summary": "Middle and secondary school educators should utilize and implement Artificial Intelligence (AI) as a support tool for instruction, not a replacement for their pedagogy and lesson planning. Utilizing and implementing AI can assist with lesson planning, differentiation, feedback, and generating learning materials; its uses should be guided by clear expectations, professional judgment, and school policy. Educators should also teach their students how to use AI ethically, verify outputs for accuracy and bias, and protect student privacy by avoiding sensitive data. Most importantly, assessments sho",
       "authors": [
-        "Ma Xiaoyun",
-        "Xaidya Ibrahim"
+        "Adam Stefanile"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7235565423",
-      "url": "https://doi.org/10.5281/zenodo.24327244",
-      "pdf": "https://doi.org/10.5281/zenodo.24327244",
-      "title": "Certified robustness margins of hybrid robot gaits: code, certificates and reproduction scripts",
-      "summary": "Code, stored certificates and reproduction scripts for two preprints on certified robustness margins of hybrid robot gaits:(1) \"Certified Robustness Margins for Hybrid Robot Gaits: Interval Continuation Through Smooth and Constraint-Induced Bifurcations\";(2) \"What Can Feedback Buy? Capability Limits and Margin-Gradient Design of Push-off Controllers and Small Neural Policies\". The archive contains two Python implementations of the certification pipeline with different algorithms (multiple shooting with interval jets and parametric Krawczyk continuation; single shooting with affine-form tubes, ",
+      "id": "W7233718837",
+      "url": "https://doi.org/10.3390/math14224204",
+      "pdf": "https://doi.org/10.3390/math14224204",
+      "title": "Robust Reinforcement Learning-Based Vehicle Localization for Both Urban Roads and GPS-Denied Environments",
+      "summary": "Accurate vehicle localization is critical for the safe operation of autonomous vehicles. However, in GPS-denied environments such as tunnels or urban canyons, localization accuracy significantly deteriorates due to poor GPS signal quality. Traditional methods, such as extended Kalman filtering (EKF) and map matching, face limitations: EKF struggles with system nonlinearity and noise model assumptions, while map matching relies heavily on high-definition (HD) maps and often suffers in complex environments. Reinforcement learning (RL)-based approaches have shown promise, but they have typically ",
       "authors": [
-        "Yuan Shen"
+        "Donghyun Lee",
+        "Taeyoung Oh",
+        "Jaeyeon Yoo",
+        "Jinwoo Yoo"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7235685262",
-      "url": "https://doi.org/10.1007/s11370-026-00765-8",
+      "id": "W7233723844",
+      "url": "https://doi.org/10.1177/0309524x261506803",
+      "pdf": "https://doi.org/10.1177/0309524x261506803",
+      "title": "A surrogate-assisted reinforcement learning framework for layout optimization and economic assessment of dense urban vertical-axis wind turbine arrays",
+      "summary": "Urban wind energy is limited by space constraints and wake losses in dense arrays. This study integrates CFD-informed surrogate modelling with reinforcement learning to optimize compact vertical-axis wind turbine (VAWT) layouts. A three-stage clustering method reduces 82,103 complete hourly records from Winnipeg (2016–2025) to four representative speed states. A 14-component Gaussian mixture identifies joint speed–direction regimes; k -means extracts 12 centroids, which are aggregated into four weighted speeds (2.99, 3.18, 6.25 and 10.12 m s -1 ) covering the full record. A five-layer neural n",
+      "authors": [
+        "Ali A. Zaidi"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233726127",
+      "url": "https://doi.org/10.17632/xpw8gdsvff",
+      "pdf": "https://doi.org/10.17632/xpw8gdsvff",
+      "title": "Data and code for Social Reinforcement Learning Drives Near-optimal Investment Patterns in Networked Best-Shot Games",
+      "summary": "This dataset accompanies the study \"Social Reinforcement Learning Drives Near-optimal Investment Patterns in Networked Best-Shot Games\". It provides simulation data and code for studying reinforcement learning and investment patterns in networked best-shot games on periodic lattices and Watts–Strogatz, Barabási–Albert, and Erdős–Rényi networks. The files are organized by manuscript figure. File descriptions, model parameters, data provenance, and reproduction instructions are provided in README.md.",
+      "authors": [
+        "Xinyi Zhu"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233760961",
+      "url": "https://doi.org/10.56201/jafm.v10.no9.2024.pg42.62",
       "pdf": "",
-      "title": "Passive load-sensitive hydraulic flow distribution for improved motion tracking in 4WID/4WIS mobile robots",
-      "summary": "",
+      "title": "Artificial Intelligence and Fraud Detection of Listed Deposit Money Banks in Nigeria",
+      "summary": "The study examined the impact of artificial intelligence on fraud detection of listed deposit money banks in Nigeria. Fraud detection was used as independent variable while Artificial intelligence was used as the independent variable. The determinants of artificial intelligence in this study will be automated chatbot, deep learning machine, machine learning solutions and natural language processing. The geographical coverage of this study will be in Nigeria. The study will cover 11years spanning from 2012 to 2022; within this period CBN introduced cashless policy into the Nigerian Financial sy",
       "authors": [
-        "Eunwon Lee",
-        "Jinhyun Kim"
+        "Hussaini Hannah Ojone"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7235689998",
-      "url": "https://doi.org/10.1007/s11701-026-04218-3",
-      "pdf": "",
-      "title": "Association of the number of collecting system entries with warm ischemia time during robot-assisted partial nephrectomy",
-      "summary": "",
+      "id": "W7233763478",
+      "url": "https://doi.org/10.5194/egusphere-2026-6049",
+      "pdf": "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-6049/egusphere-2026-6049.pdf",
+      "title": "The energy module of FRIDA v2.1: endogenous investment and the timing of climate policy in the global energy system",
+      "summary": "Abstract. Integrated assessment models that derive energy-transition pathways from cost optimization or prescribed scenarios often diverge from observed investment behaviour. Here we present the energy module of FRIDA v2.1, a feedback-based, fully coupled global integrated assessment model built using System Dynamics, in which energy investment is endogenous. Total energy investment is set by a proportional–integral–derivative controller that responds to the relative mismatch between energy supply and demand, and is allocated across coal, oil, gas, solar, wind, hydropower, biofuel and nuclear ",
       "authors": [
-        "Mitsuru Komeya",
-        "Kota Kobayashi",
-        "Ryosuke Jikuya",
-        "Tomoyuki Tatenuma",
-        "Go Noguchi",
-        "Hiroki Ito",
-        "Yusuke Ito",
-        "Kentaro Muraoka",
-        "Hisashi Hasumi",
-        "Kazuhide Makiyama"
+        "Benjamin Blanz",
+        "Alexandre C. Köberle",
+        "Francisco Mahú",
+        "María Ofelia Molina",
+        "William Alexander Schoenberg"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-16",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233764946",
+      "url": "https://doi.org/10.1371/journal.pmen.0000730",
+      "pdf": "https://journals.plos.org/mentalhealth/article/file?id=10.1371/journal.pmen.0000730&type=printable",
+      "title": "Assessing the validity and reliability of computational phenotyping of motivation",
+      "summary": "Motivational disorders are a core clinical feature in neuropsychiatric disorders. The conventional method to assess motivation relies on clinical scales, however, an alternative approach is to use behavioral tasks, that can be combined with computational modelling. This is the so-called \"computational phenotyping of motivation\" approach. Nevertheless, if one wants to use computational phenotyping of motivation in longitudinal studies, it is crucial to assess the internal validity and the reliability of this approach. We employed two types of reward/effort trade-off tasks: preference tasks, whe",
+      "authors": [
+        "Claire Jaffré",
+        "Pablo Carrillo",
+        "Étienne Pigeon",
+        "Jean Daunizeau",
+        "Raphaël Le Bouc",
+        "Jacob Dhôte",
+        "Mathias Pessiglione",
+        "Fabien Vinckier"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233777190",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014955",
+      "pdf": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1014955&type=printable",
+      "title": "Epidemic control under incomplete observations through mechanistic state reconstruction and multi-agent learning",
+      "summary": "Epidemic-control policies are usually optimized from reported infection states, but these reports are often incomplete because testing capacity, reporting behavior, delays, and asymptomatic infections vary across regions and time. Such observation gaps can distort the state used by the controller and lead to suboptimal testing and isolation decisions. We develop a three-stage computational epidemiology framework that links observation modeling, state reconstruction, and policy optimization. First, we extend a metapopulation SEIQR model to represent fully observable, steady partially observable",
+      "authors": [
+        "Shang Wang",
+        "Yuxiao Luo",
+        "Yunduan Cui",
+        "Meng Zhang",
+        "Min Kang",
+        "Ling Yin"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233780666",
+      "url": "https://doi.org/10.64898/2026.11.10.765227",
+      "pdf": "https://www.biorxiv.org/content/biorxiv/early/2026/11/16/2026.11.10.765227.full.pdf",
+      "title": "Multimodal private information and reward value shape information use during ant foraging",
+      "summary": "Animals use both private information acquired through experience and social information produced by conspecifics when making behavioural decisions. The combination of sensory cues and their associated reward value may influence how animals weigh private information against social information. We investigated information use during foraging in the ant Pristomyrmex punctatus using Y-maze experiments with learned visual and olfactory cues and trail pheromones. Workers learned both types of private cue and showed no significant preference between them when they were placed in conflict. When privat",
+      "authors": [
+        "Yu Tazuhara",
+        "Yuka Ito",
+        "Masaru Hojo"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233790140",
+      "url": "https://doi.org/10.3389/fncel.2026.2046146",
+      "pdf": "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2026.2046146/pdf",
+      "title": "Editorial: Cellular and network mechanisms underlying behavioral functions of the prefrontal cortex and reward circuitry pertaining to psychopathology, volume II",
+      "summary": "The prefrontal cortex (PFC) plays a central role in executive functions, including goal-directed behavior, working memory, cognitive flexibility, and decision-making, enabling individuals to adapt their actions to changing environmental demands. Disruptions in the cellular, synaptic, and circuit-level mechanisms that support PFC function can impair these processes and contribute to the development of numerous neuropsychiatric disorders, including schizophrenia, bipolar disorder, attention-deficit disorders, anxiety disorders, and substance use disorders. Alterations in neuronal architecture, s",
+      "authors": [
+        "Jonna M. Leyrer‐Jackson",
+        "MARK P. THOMAS",
+        "M. Foster Olive"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233795698",
+      "url": "https://doi.org/10.1007/978-3-032-44529-2_10",
+      "pdf": "https://doi.org/10.1007/978-3-032-44529-2_10",
+      "title": "AgriLemma in the Classroom: a Pilot Study for Game-Based Agricultural Education",
+      "summary": "Serious games designed for professional stakeholder projects rarely find use elsewhere and risk becoming redundant once the project ends. Education offers a natural second life for these games, bringing experiential learning into classrooms where students first encounter complex, real-world problems. This paper presents a pilot study of AgriLemma—a serious game originally designed for farmers and policymakers—run as a single classroom session for students training to become agri-entrepreneurs, at the start of a bachelor-level course on horticultural production management. The session aimed to ",
+      "authors": [
+        "Aashna Mittal",
+        "Daniël Magwegwe"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 1.0
+    },
+    {
+      "id": "W7233808879",
+      "url": "https://doi.org/10.24136/ceref.2026.010",
+      "pdf": "https://journals.economic-research.pl/ceref/article/download/4681/2757",
+      "title": "Youth policy as economic investment: Human capital, digital youth work and local development in the European Union",
+      "summary": "European youth policy is conventionally analysed through the lenses of participation, inclusion, citizenship, mobility and personal development. However, many of its instruments also generate effects that are economically significant, although they are not always captured by conventional measures of public expenditure efficiency. Investment in youth work, non-formal education, digital learning environments and the institutional capacity of youth organisations may contribute to human capital formation, employability, social capital, organisational productivity and local development. This articl",
+      "authors": [
+        "Paulina Bojanowska"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233709735",
+      "url": "https://doi.org/10.56201/ijcsmt.vol.10.no6.2024.pg193.225",
+      "pdf": "",
+      "title": "A Generative AI Framework for Self-Learning and Autonomous Optimization in Cloud Infrastructure Management",
+      "summary": "The rapid evolution of cloud computing has intensified the need for intelligent, adaptive management systems capable of handling complex workloads, resource provisioning, and energy optimization autonomously. This review explores a Generative Artificial Intelligence (AI) Framework for Self-Learning and Autonomous Optimization in Cloud Infrastructure Management, emphasizing how generative models such as Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and Large Language Models (LLMs) enable proactive decision-making across distributed environments. The paper examines how",
+      "authors": [
+        "Jolly I Ogbole"
+      ],
+      "published": "2026-11-16",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 2.0,
+      "pick": "AI & LLM",
+      "pick_emoji": "✨",
+      "trending": 0.0
     }
   ]
 }
