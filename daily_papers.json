@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19 21:55 UTC",
+  "generated_at": "2026-11-20 01:31 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,39 +9,50 @@
   "count": 24,
   "papers": [
     {
-      "id": "W4416610277",
-      "url": "https://doi.org/10.1137/25m1764281",
-      "pdf": "https://arxiv.org/pdf/2505.23247",
-      "title": "Accelerating RLHF Training with Reward Variance Increase",
-      "summary": "Abstract. Reinforcement learning from human feedback (RLHF) is an essential technique for ensuring that large language models (LLMs) are aligned with human values and preferences during the posttraining phase. As an effective RLHF approach, group relative policy optimization (GRPO) has demonstrated success in many LLM-based applications. However, efficient GRPO-based RLHF training remains a challenge. Recent studies reveal that a higher reward variance of the initial policy model leads to faster RLHF training. Inspired by this finding, we propose a practical reward adjustment model to accelera",
+      "id": "W7213510113",
+      "url": "https://doi.org/10.1145/3829340.3842336",
+      "pdf": "https://doi.org/10.1145/3829340.3842336",
+      "title": "InterMASH: A Unified Geometric Representation for Grasp Synthesis",
+      "summary": "Grasp synthesis aims to generate stable and physically plausible hand–object interactions, and has become a fundamental problem in both human hand modeling and robotic manipulation. However, a unified representation across human and robotic hands is still lacking, mainly due to differences in hand morphology and surface modeling. Prior methods typically rely on either contact maps or dense implicit descriptors to represent interaction, but these representations are often incomplete or computationally expensive and redundant. We propose InterMASH, a unified geometric representation that establi",
       "authors": [
-        "Zonglin Yang",
-        "Zhengguo Gu",
-        "Houduo Qi",
-        "Ye Yuan"
+        "Xuanze Yang",
+        "Yumeng Liu",
+        "Haiyang Xin",
+        "Changhao Li",
+        "Haowei Shen",
+        "Kai Xu",
+        "Ligang Liu",
+        "Ruizhen Hu"
       ],
-      "published": "2026-11-16",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 12.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 12.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7140205654",
-      "url": "https://doi.org/10.1007/978-3-032-45470-6_11",
-      "pdf": "https://doi.org/10.1007/978-3-032-45470-6_11",
-      "title": "TREX: Trajectory Explanations for Multi-objective Reinforcement Learning",
-      "summary": "Reinforcement Learning (RL) has demonstrated its ability to solve complex decision-making problems in a variety of domains, by optimizing reward signals obtained through interaction with an environment. However, many real-world scenarios involve multiple, potentially conflicting objectives that cannot be easily represented by a single scalar reward. Multi-Objective Reinforcement Learning (MORL) addresses this limitation by enabling agents to optimize several objectives simultaneously, explicitly reasoning about trade-offs between them. However, the ``black box\" nature of the RL models makes th",
+      "id": "W7161243847",
+      "url": "https://doi.org/10.1145/3829340.3842368",
+      "pdf": "https://doi.org/10.1145/3829340.3842368",
+      "title": "DiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models",
+      "summary": "Reinforcement learning has emerged as a powerful tool for improving diffusion-based text-to-image models, but existing methods are largely limited to single-task optimization. Extending RL to multiple tasks is challenging: joint optimization suffers from cross-task interference and imbalance, while cascade RL is cumbersome and prone to catastrophic forgetting. We propose DiffusionOPD, a new multi-task training paradigm for diffusion models based on Online Policy Distillation (OPD). DiffusionOPD first trains task-specific teachers independently, then distills their capabilities into a unified s",
       "authors": [
-        "Dilina Chandika Rajapakse",
-        "Juan C. Rosero",
-        "Ivana Dusparić"
+        "Quanhao Li",
+        "Junqiu Yu",
+        "Kaixun Jiang",
+        "Yujie Wei",
+        "Zhen Xing",
+        "Pandeng Li",
+        "Ruihang Chu",
+        "Shiwei Zhang",
+        "Yu Liu",
+        "Zuxuan Wu"
       ],
-      "published": "2026-11-19",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -52,17 +63,261 @@
       "trending": 0.0
     },
     {
-      "id": "W7235816565",
-      "url": "https://openalex.org/W7235816565",
+      "id": "W7129370055",
+      "url": "https://doi.org/10.1145/3829340.3842230",
+      "pdf": "https://doi.org/10.1145/3829340.3842230",
+      "title": "PAct: Part-Decomposed Single-View Articulated Object Generation",
+      "summary": "Articulated 3D assets are central to interactive 3D applications, including embodied AI, robotics, and VR/AR, where functional part decomposition and valid kinematic motion are essential. Yet producing high-fidelity articulated assets remains difficult to scale, as it requires reliable part decomposition and kinematic rigging. Existing approaches largely fall into two paradigms: optimization-based reconstruction or score-distillation methods, which can be accurate but often require tens of minutes to hours per instance, and feedforward methods that rely on template or part retrieval, producing",
+      "authors": [
+        "Qingming Liu",
+        "Xinyue Yao",
+        "Shuyuan Zhang",
+        "Yueci Deng",
+        "Guiliang Liu",
+        "Zhen Liu",
+        "Kui Jia"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7166687493",
+      "url": "https://doi.org/10.1145/3829340.3842350",
+      "pdf": "https://doi.org/10.1145/3829340.3842350",
+      "title": "DCGrasp: Distance-aware Controllable Grasp Generation",
+      "summary": "Generating 3D hand-object interactions is essential for applications in robotics, AR/VR, and synthetic data generation, where flexible controllability and strong generalization to diverse object geometries are required. However, existing methods rarely satisfy these requirements, limiting their practical applicability. We present DCGrasp, a multi-modal diffusion framework for distance-aware controllable grasp generation. DCGrasp is built on a novel grasp energy term that computes Distance Profile, a signed distance from each hand vertex to the nearest object point, coupled with distance-aware ",
+      "authors": [
+        "Hiroyasu Akada",
+        "Jesús Pérez",
+        "Emre Aksan",
+        "Vasileios Choutas",
+        "Cristian Romero",
+        "Alberto Garcia-Garcia",
+        "Vladislav Golyanik",
+        "Christian Theobalt",
+        "Thabo Beeler"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7204530983",
+      "url": "https://doi.org/10.1145/3829340.3842158",
+      "pdf": "https://doi.org/10.1145/3829340.3842158",
+      "title": "SpatialCrafter: Single-Image World Modeling with Generative 3D Proxies",
+      "summary": "Explorable image-to-scene generation is essential for applications in gaming, robotics, and virtual reality. Existing methods based on video diffusion model (VDM) commonly rely on incomplete conditioning signals such as sparse point clouds or 2D panoramas, leading to stochastic hallucinations, long-term drifts and suboptimal 3D consistency. We present SpatialCrafter, a novel two-stage framework that addresses these issues by introducing a global 3D proxy for high-fidelity image-to-scene generation. Specifically, we decompose the generation process into global proxy generation and appearance re",
+      "authors": [
+        "Chuan Fang",
+        "Lingteng Qiu",
+        "Yixun Liang",
+        "Rui Chen",
+        "Kunming Luo",
+        "Zhaohua Zheng",
+        "Tongyuan Bai",
+        "Fengqing Tian",
+        "Zilong Dong",
+        "Zihan Zhou",
+        "Ping Tan"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7212031647",
+      "url": "https://doi.org/10.1145/3829340.3842182",
+      "pdf": "https://doi.org/10.1145/3829340.3842182",
+      "title": "CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements",
+      "summary": "Transferring human hand demonstrations to robotic grippers has recently emerged as a cost-effective solution for robot learning. However, existing methods are largely confined to simple, planar tasks and fail to handle complex spatial movements (e.g., intricate trajectories involving rotations or flips) that are essential for robot manipulation. Motivated by this gap, we adopt an implicit, data-driven approach guided by fine-grained hand-pose motions. To this end, we introduce a scalable acquisition pipeline to collect hand-gripper paired demonstrations, governed by a rigorous protocol that pr",
+      "authors": [
+        "Hongxiang Zhao",
+        "Mutian Xu",
+        "Zeyu Jin",
+        "Yiming Hao",
+        "Shuguang Cui",
+        "Xiaoguang Han"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7212066375",
+      "url": "https://doi.org/10.1145/3829340.3842357",
+      "pdf": "https://doi.org/10.1145/3829340.3842357",
+      "title": "Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior",
+      "summary": "Developing unified physics-based humanoid controllers that can navigate complex 3D scenes and manipulate objects remains a longstanding challenge. Existing approaches are often specialized for either locomotion or object-centric manipulation, or rely on task-specific reward engineering that does not scale well across diverse behaviors. We present CHIP, a unified, physics-grounded framework for learning reusable humanoid interaction skills from heterogeneous motion data. Central to our approach is a conditional interaction prior that models a context-dependent distribution over these skills wit",
+      "authors": [
+        "Jianan Li",
+        "Xiao Chen",
+        "Tien-Tsin Wong"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W4407093038",
+      "url": "https://doi.org/10.1080/01605682.2026.2757159",
+      "pdf": "https://arxiv.org/pdf/2501.18803",
+      "title": "Deceptive sequential decision-making via regularised policy optimisation",
+      "summary": "Autonomous systems are increasingly expected to operate in the presence of adversaries, though adversaries may infer sensitive information simply by observing a system. Therefore, we present a deceptive sequential decision-making framework that not only conceals sensitive information, but actively misleads adversaries about it. We model autonomous systems as Markov decision processes, with adversaries using inverse reinforcement learning to recover reward functions. To counter them, we present three regularisation strategies for policy synthesis problems that actively deceive an adversary abou",
+      "authors": [
+        "Yerin Kim",
+        "Alexander Benvenuti",
+        "Bo Chen",
+        "Mustafa O. Karabag",
+        "Abhishek N. Kulkarni",
+        "Nathaniel D. Bastian",
+        "Ufuk Topcu",
+        "Matthew Hale"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7162196309",
+      "url": "https://doi.org/10.1364/jocn.605888",
+      "pdf": "https://doi.org/10.1364/jocn.605888",
+      "title": "Graph transformers and stabilized reinforcement learning for large-scale dynamic routing modulation and spectrum allocation in elastic optical networks",
+      "summary": "Reinforcement learning (RL) has been widely applied to dynamic routing, modulation, and spectrum assignment (RMSA) in optical networks, yet no prior work has trained a transformer model for this task. We attribute this to the high data and compute requirements of transformers and potential training instabilities with RL. We address this gap by combining recent advances from the machine learning literature (rotary positional encodings for graph-structured data, off-policy invalid action masking, and valid mass regularization) with GPU-accelerated simulation to achieve, for the first time to our",
+      "authors": [
+        "Michael Doherty",
+        "Alejandra Beghelli",
+        "Laura Toni"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225281285",
+      "url": "https://openalex.org/W7225281285",
       "pdf": "",
-      "title": "When the evaluator is a robot: Exploring the social conditions under which robotic presence reduces Stroop interference",
+      "title": "Bridging Humans and Technology Through Touch - Human-Centered Haptic Technologies for Tactile Perception, Sensorimotor Augmentation, and Industrial Assistance",
+      "summary": "The sense of touch is the only human sense that requires physical contact, linking together perception and action in a closed sensorimotor loop that no other modality can fully replicate. Yet the gap between human haptic capability and what engineered systems can measure, transmit, or reproduce remains wide. This thesis investigates how haptic technologies can be designed to acquire, transmit, amplify, and exploit human tactile perception, in order to improve interaction with remote environments, robotic systems, and industrial processes. Adopting a human-centered perspective, it argues that t",
+      "authors": [
+        "Michele Pompilio"
+      ],
+      "published": "2026-11-20",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7140162424",
+      "url": "https://doi.org/10.22541/authorea.15012339/v1",
+      "pdf": "https://www.authorea.com/doi/pdf/10.22541/authorea.15012339/v1",
+      "title": "Feasibility of Augmented Reality-Guided Robotic Ultrasound with Cone-Beam CT Integration for Spine Procedures",
+      "summary": "Needle placement in spine interventions is critical for effective pain management, yet it depends on reliable identification of anatomical landmarks and careful trajectory planning. Conventional imaging guidance often relies on both computed tomography (CT) and X-ray fluoroscopy, exposing patients and staff to high doses of radiation while providing limited real-time 3D feedback. The choice of visualization may also affect operator performance and cognitive workload. We present an optical see-through augmented reality (OST-AR)–guided robotic system for spine procedures that provides in situ vi",
+      "authors": [
+        "Feng Li",
+        "Tianyu Song",
+        "Felix Pabst",
+        "Miruna-Alexandra Gafencu",
+        "Yordanka Velikova",
+        "Yuan Bi",
+        "Ulrich Eck",
+        "Nassir Navab"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7162333581",
+      "url": "https://doi.org/10.1145/3829340.3842344",
+      "pdf": "https://doi.org/10.1145/3829340.3842344",
+      "title": "SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control",
+      "summary": "Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control. We propose SCRIPT, a scalable diffusion policy with a multi-stage training framework for language-driven physics-based humanoid control. The core of SCRIPT is a Joint Action-State-Text Diffusion Transformer (JAST-DiT), which represents",
+      "authors": [
+        "Jingyan Zhang",
+        "Han Liang",
+        "Ruichi Zhang",
+        "Bin Li",
+        "Juze Zhang",
+        "Xin Chen",
+        "Jingya Wang",
+        "Lan Xu",
+        "Jingyi Yu"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7162399332",
+      "url": "https://doi.org/10.1007/s12555-026-00233-0",
+      "pdf": "https://arxiv.org/pdf/2605.24813",
+      "title": "Manifold-Constrained MPPI: Real-Time Sampling-Based Control for Nonlinear Equality-Constrained Robotic Systems",
       "summary": "",
       "authors": [
-        "Pablo Croizet",
-        "Clément Belletier",
-        "Ludovic Ferrand"
+        "Seulchan Lee",
+        "Jinwoo Kim"
       ],
-      "published": "2026-11-19",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -73,15 +328,16 @@
       "trending": 0.0
     },
     {
-      "id": "W7236179726",
-      "url": "https://doi.org/10.5281/zenodo.24355514",
-      "pdf": "https://doi.org/10.5281/zenodo.24355514",
-      "title": "On the Myth of Rotational Infinity: Non-Singular 3D Rotations Without Euler Angles or Quaternions",
-      "summary": "ABSTRACT This paper presents a focused investigation into a single foundational problem: the algebraic origin and universal elimination of rotational and kinematic singularities (infinity and 0/0) in spatial physics. Analyzing any single discipline in isolation cannot distinguish a universal mathematical defect from a local coordinate anomaly; accordingly, this study audits the identical singularity mechanism across four progressive regimes: planar geometry (S¹), three-dimensional spatial kinematics (SO(3)), incompressible continuum vortex dynamics, and articulated 6-DOF robotic control. Acros",
+      "id": "W7165480959",
+      "url": "https://doi.org/10.5281/zenodo.20784512",
+      "pdf": "https://doi.org/10.5281/zenodo.20784512",
+      "title": "Dimensional measurements of robot-printed wood-PLA cubes: Box–Behnken design and validation prints",
+      "summary": "This dataset supports the article “Response surface analysis of process parameters and geometric accuracy in robotic additive manufacturing of wood-based PLA composites”. It contains the caliper measurements (height, outer width and wall thickness), mass, print log and visual shape class of 30 hollow single-wall cubes (100 × 100 × 100 mm) printed with an ABB IRB 1600 robot and a KFM Eco 3D 18 screw pellet extruder (3 mm nozzle) from KCL Formi 3D PLA-10 and PLA-20. The cubes follow a Box–Behnken design in travel speed (20–40 mm/s), extruder rotation ratio (5–11 rev/m) and nozzle temperature (17",
       "authors": [
-        "Ameen Ullah Khan"
+        "Osama A. Q. Ziada",
+        "Ares Gomez-Gallegos"
       ],
-      "published": "2026-11-19",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -92,19 +348,56 @@
       "trending": 0.0
     },
     {
-      "id": "W7236430906",
-      "url": "https://doi.org/10.1007/978-1-0716-5695-2_21",
+      "id": "W7212325920",
+      "url": "https://doi.org/10.1145/3829340.3842170",
+      "pdf": "https://doi.org/10.1145/3829340.3842170",
+      "title": "InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds",
+      "summary": "Physics-based character control is a long-standing challenge in computer graphics and robotics, requiring policies that satisfy complex dynamics while producing realistic motion. Recent Deep RL approaches, particularly imitation learning methods such as DeepMimic, have had broad impact beyond animation, influencing robotics by enabling agile and expressive behaviors. While these approaches achieve impressive results, they remain computationally inefficient to train in practice. Despite GPU-accelerated simulation, we find that end-to-end pipelines often underutilize hardware due to overheads ou",
+      "authors": [
+        "Ikjun Choi",
+        "Geonho Leem",
+        "Jungdam Won"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7226035430",
+      "url": "https://doi.org/10.1007/s11701-026-04197-5",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-04197-5.pdf",
+      "title": "Surgical Intelligence Labs: a technical feasibility study of smartphone-based egocentric data capture and computational retargeting for robotic surgery",
+      "summary": "Surgical robotics could benefit from demonstrations of manual operating-room work, yet most existing surgical datasets emphasize endoscopic video or robot kinematics. We developed and evaluated a smartphone-based method for capturing first-person video, head pose, device motion and hand motion in a non-clinical simulation. Surgical Intelligence Labs is an iPhone application that records first-person video with synchronized ARKit camera pose and device motion. Apple Vision provides 21 two-dimensional hand keypoints per hand; an articulated model fits these keypoints in three dimensions and maps",
+      "authors": [
+        "Mustafa Khan",
+        "Joao Bombardelli"
+      ],
+      "published": "2026-11-17",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233527112",
+      "url": "https://openalex.org/W7233527112",
       "pdf": "",
-      "title": "Robot Navigation for Precise Puncture of Solid Tumors",
-      "summary": "",
+      "title": "Modulair verstevigde actuatoren voor functionele zachte robots",
+      "summary": "In order to design a whole robotic system where smart building blocks interact with each other to create intelligence on a system level, it is paramount that the nonlinear input-output properties of a single structure can be designed for. To design these nonlinear structures, we will employ metamaterial technology that is known for being highly tunable. The metamaterials that will be used in this thesis consist of periodically arranged unit cells, that show non-linear mechanical properties as a result of their structure rather than the material they are made out of. When the unit cell is compo",
       "authors": [
-        "Chao An",
-        "Mengxuan Zuo",
-        "Soujun Zhou",
-        "Changjiang Xu",
-        "Bin Li"
+        "Imran Qayyum Mundial"
       ],
-      "published": "2026-11-19",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -115,19 +408,15 @@
       "trending": 0.0
     },
     {
-      "id": "W4416684431",
-      "url": "https://doi.org/10.1137/25m1790208",
-      "pdf": "https://arxiv.org/pdf/2509.00554",
-      "title": "Delayed Interactions in Active Agents: Stability and Formations",
-      "summary": "Abstract. Active agents with time-delayed interactions arise naturally in various real-world systems, such as biological systems, transportation networks, and robotic swarms. Such systems are typically modeled as delay differential equations (DDEs) that incorporate inertial effects. In this paper, we investigate the stability of pattern formation of active agents with inertia and time delays in both uncoupled and coupled scenarios. We derive and analyze a high-dimensional linear DDE model that characterizes the stability of such formations. Starting with the uncoupled scenario, where agents ar",
+      "id": "W7233885305",
+      "url": "https://doi.org/10.6084/m9.figshare.35032222",
+      "pdf": "https://doi.org/10.6084/m9.figshare.35032222",
+      "title": "Smart Agriculture Robot for Sowing Seed",
+      "summary": "Abstract: In the recent trend of Smart Agriculture making use of Robots plays a very important role. Scarcity of skilled laborers and environmental changes have made man to replace with machines. The automation in forming process is mainly for time saving, energy efficiency of repeated work in farming fields and increased productivity of crop and market trends. The main prerequisite for a good crop yielding is its seeding procedure. In this paper a Robotic vehicle is designed for Seeding in the form using an Arduino controlled by Bluetooth/RF. Certain types of sensors are also used. Agricultur",
       "authors": [
-        "Yu Wang",
-        "Andreas Amann",
-        "Jinde Cao",
-        "Jürgen Kurths",
-        "Serhiy Yanchuk"
+        "Prakash Kanade"
       ],
-      "published": "2026-11-16",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -138,299 +427,110 @@
       "trending": 0.0
     },
     {
-      "id": "W7116957143",
-      "url": "https://doi.org/10.1007/s10143-026-04577-3",
-      "pdf": "https://www.medrxiv.org/content/medrxiv/early/2025/12/22/2025.12.19.25342721.full.pdf",
-      "title": "Endovascular robotic-assisted system for cerebral angiography (ERASE): Rationale, design, and protocol of a multicenter randomized controlled trial",
-      "summary": "",
+      "id": "W7203612375",
+      "url": "https://doi.org/10.1145/3829340.3842238",
+      "pdf": "https://doi.org/10.1145/3829340.3842238",
+      "title": "CRAFT: Constrained Reward via Attention Fine-Tuning for Subject Personalization without Composed Targets",
+      "summary": "Subject-driven image personalization—generating new images that preserve the identity of one or several reference subjects in novel scenes—is a foundational capability for modern visual content creation. It is currently dominated by generalized methods that fine-tune a pretrained multimodal diffusion transformer (MMDiT) on hundreds of thousands to millions of paired (reference, composed-target) examples, where each composed target is a synthesized image of the subject in a novel scene. Producing such targets demands a costly multi-stage curation pipeline—LLM-based prompt generation, T2I-based ",
       "authors": [
-        "Yuanli Zhao",
-        "Siming Gui",
-        "Jia Jiang",
-        "Yang Zhao",
-        "Qi Liu",
-        "Jianbo Chang",
-        "Anqi Li",
-        "Xiaobo Zhang",
-        "Fang Wang",
-        "Xiaoqing Zhang",
-        "Jun Lin",
-        "Yuhua Jiang",
-        "Xinke Liu",
-        "Ya Gao",
-        "Xiangyu Meng",
-        "Wei You",
-        "Wentao Gong",
-        "Sheng Guan",
-        "Yanan Sun",
-        "Xiangqi Meng",
-        "Cong-Hui Li",
-        "Xiang Xu",
-        "李聪慧",
-        "Youxiang Li"
+        "Jihun Park",
+        "Kyoungmin Lee",
+        "Jongmin Gim",
+        "Hyeonseo Jo",
+        "Jaeyeul Kim",
+        "Han Zou",
+        "Zhao‐Wen Zhan",
+        "Yan Zhang",
+        "Sunghoon Im"
       ],
-      "published": "2026-11-16",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
       "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
       "trending": 0.0
     },
     {
-      "id": "W7140164663",
-      "url": "https://doi.org/10.1038/s41598-026-78816-4",
-      "pdf": "https://www.nature.com/articles/s41598-026-78816-4_reference.pdf",
-      "title": "Underwater dielectric elastomer actuators with large bending deformation for soft robots",
-      "summary": "Soft robots are promising platforms for underwater exploration and biological sampling because of their compliance and adaptability. Dielectric elastomer actuators (DEAs), particularly bending DEAs, are appealing for underwater soft robots because they enable diverse robotic architectures. However, existing underwater bending DEAs are limited in deformation magnitude and speed. Here, we present an underwater DEA comprising a layered elastomer with an encapsulated water electrode, an inextensible layer, and transverse reinforcing frames. The inextensible layer restricts deformation on one side ",
+      "id": "W4409316939",
+      "url": "https://doi.org/10.1007/s10846-026-02388-8",
+      "pdf": "https://doi.org/10.1007/s10846-026-02388-8",
+      "title": "Markov Decision Process-based Real-time Navigation for Autonomous Aerial Vehicles Using Video",
+      "summary": "Abstract Autonomous aerial vehicle navigation is critical for applications ranging from search and rescue operations to warehouse automation, requiring real-time decision-making under severe computational and power constraints. While traditional geometric approaches using 3D point clouds provide accurate navigation, they impose prohibitive computational overhead for resource-constrained drones, and existing computer vision algorithms for semantic navigation create a fundamental performance bottleneck where static parameter configurations fail to adapt to varying environmental conditions. This ",
       "authors": [
-        "Chiho Murata",
-        "Takumi Shibuya",
-        "Subaru Yoshizaki",
-        "Naoki A Uemura",
-        "Kengo Kusama",
-        "Daisuke Nakane",
-        "Masahiro Shimizu",
-        "Jun Shintake"
+        "Khizar Anjum",
+        "Parul Pandey",
+        "Vidyasagar Sadhu",
+        "Roberto Tron",
+        "Dario Pompili"
       ],
-      "published": "2026-11-16",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
       "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
       "trending": 0.0
     },
     {
-      "id": "W7162338281",
-      "url": "https://doi.org/10.1007/s11250-026-05475-y",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s11250-026-05475-y.pdf",
-      "title": "Use of infrared thermography and machine learning to predict the infectious etiology of subclinical bovine mastitis in a robotic milking system",
-      "summary": "Mastitis is a major challenge for dairy production, and infrared thermography (IRT) is a promising non-invasive tool for monitoring udder health. This study evaluated whether thermal information obtained by IRT, combined with animal, production, and environmental variables, could be used in supervised machine learning models to predict subclinical mastitis (SCM) and its most probable infectious etiology in pasture-raised cows managed under a voluntary milking system. Eighty-nine lactating cows from a single herd underwent thermographic evaluation over six months, and milk samples from 530 mamm",
+      "id": "W4417531487",
+      "url": "https://doi.org/10.1145/3829340.3842302",
+      "pdf": "https://doi.org/10.1145/3829340.3842302",
+      "title": "The World is Your Canvas: Painting Promptable Events with Reference Images, Trajectories, and Text",
+      "summary": "We present WorldCanvas, an Image-to-Video (I2V) synthesis framework designed to support the generation of promptable events. Unlike text-only approaches and existing trajectory-controlled methods that merely support basic motion control, WorldCanvas achieves comprehensive control over the who, when, where, and what of an event. Our approach combines trajectories—encoding motion, timing, and visibility—with natural language for semantic intent and reference images for visual grounding of object identity. This synergistic control enables the generation of complex events, including multi-agent in",
       "authors": [
-        "Fernando David Caracuschanski",
-        "Raul Costa Mascarenhas Santana",
-        "Larissa Cristina Brassolatti",
-        "Maria Laura da Silva",
-        "Christine Elisabeth Grudzinski",
-        "Marcos Veiga dos Santos",
-        "Teresa Cristina Alves",
-        "Alexandre Rossetto Garcia",
-        "Simone Cristina Méo Niciura",
-        "Luiz Francisco Zafalon"
+        "Hanlin Wang",
+        "Hao Ouyang",
+        "Qiuyu Wang",
+        "Yue Yu",
+        "Yihao Meng",
+        "Wen Wang",
+        "Ka Leong Cheng",
+        "Shuailei Ma",
+        "Qingyan Bai",
+        "Yixuan Li",
+        "Cheng Chen",
+        "Yanhong Zeng",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Qifeng Chen"
       ],
-      "published": "2026-11-16",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
       "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
       "trending": 0.0
     },
     {
-      "id": "W7164839002",
-      "url": "https://doi.org/10.1016/j.compag.2026.112559",
-      "pdf": "https://doi.org/10.2139/ssrn.6947464",
-      "title": "Growth-axis-aware approach pose estimation for robotic apple harvesting with spatial geometric constraints",
-      "summary": "",
+      "id": "W4411025661",
+      "url": "https://doi.org/10.1038/s41467-026-79431-7",
+      "pdf": "https://www.nature.com/articles/s41467-026-79431-7_reference.pdf",
+      "title": "Focused ultrasound neuromodulation of mediodorsal thalamus disrupts decision flexibility during reward learning",
+      "summary": "Abstract When learning to find the most beneficial course of action, the prefrontal cortex guides decisions by comparing estimates of the relative value of the options available. Basic neuroscience studies in animals support the view that the thalamus can regulate this activity within and across the prefrontal cortex. We studied a group of patients (n = 37) undergoing unilateral MR-guided focused ultrasound for essential tremor, performing the restless bandit, a reward reinforcement learning task, immediately before and after thalamotomy. Thalamotomy significantly impaired the proportion of sw",
       "authors": [
-        "Xiaobo Fan",
-        "Tao Li",
-        "Hongyun Zhao",
-        "Youjun Yue",
-        "Qingchun Feng",
-        "Xiujing Wang",
-        "Jiayue Yuan"
+        "Graeme M Mackenzie",
+        "William Gilmour",
+        "Isla R. M. Barnard",
+        "Shen-Shen Yang",
+        "Szabolcs Suveges",
+        "Jennifer A. Macfarlane",
+        "Avinash Kumar Kanodia",
+        "James Manfield",
+        "Sadaquate Khan",
+        "Jibril Osman‐Farah",
+        "Antonella Macerollo",
+        "J. Douglas Steele",
+        "Tom Gilbertson"
       ],
-      "published": "2026-11-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7165664325",
-      "url": "https://doi.org/10.1038/s41596-026-01449-4",
-      "pdf": "https://doi.org/10.1038/s41596-026-01449-4",
-      "title": "A robotics- and machine learning-integrated workflow for discovering all-natural plastic substitutes",
-      "summary": "The global accumulation of nondegradable petrochemical plastic waste is driving the search for biodegradable substitutes derived from natural resources. However, discovering all-natural composite materials that match the optical, thermal and mechanical performance of commercial plastics remains challenging because traditional iterative optimization is inefficient. Here the workflow described in this Protocol accelerates the screening process by using automated robotics for liquid handing and machine learning to predict material properties. The procedure begins by commanding a pipetting robot t",
-      "authors": [
-        "Yang Li",
-        "Abhishek Sose",
-        "Po-Yen Chen",
-        "Po‐Yen Chen"
-      ],
-      "published": "2026-11-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7215803957",
-      "url": "https://doi.org/10.54708/siit-2026-no4-p129",
-      "pdf": "http://siit.ugatu.su/index.php/journal/article/download/359/448",
-      "title": "Методика обнаружения, классификации и координирован-ного реагирования на многовекторные атаки в децентрализованной киберфизической среде с замкнутой обратной связью по параметрам доверия",
-      "summary": "The task of protecting robotic agents operating in a decentralized cyber-physical environment without a trusted center against multi-vector attacks—coordinated actions that combine network, behavioral, and physical channels within a single scenario—is considered. A detection and classification methodology is proposed, constructed as an input-output-consistent composition of six algorithmic components: trust-aware group zoning, hybrid detection based on a generative adversarial network and reinforcement learning, federated learning, multidimensional traffic reconstruction, distributed verificat",
-      "authors": [
-        "В. И. Петренко"
-      ],
-      "published": "2026-11-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7219650986",
-      "url": "https://doi.org/10.54708/siit-2026-no5-p76",
-      "pdf": "http://siit.ugatu.su/index.php/journal/article/download/367/456",
-      "title": "Разработка автоматизированной системы интеллектуального управления водоснабжением озеленённых территорий",
-      "summary": "This paper proposes a method for developing an intelligent automated management system for the green areas of a university campus, using Sumgait State University as a case study, based on an electronic map, the Internet of Things (IoT), machine learning, mobile robotics, and an unmanned aerial vehicle (UAV). The research object is the spatially distributed green infrastructure of a university campus, including lawns, trees, shrubs, and flower zones that require continuous monitoring, optimal water supply, and regular maintenance. A matrix-based electronic map model is developed, in which the c",
-      "authors": [
-        "Х. Керимова"
-      ],
-      "published": "2026-11-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7221827018",
-      "url": "https://doi.org/10.1007/s11701-026-04110-0",
-      "pdf": "https://www.researchsquare.com/article/rs-11172107/latest.pdf",
-      "title": "Hugo RAS versus da Vinci Xi for robot-assisted simple hysterectomy in endometrial cancer: a concurrent-period comparison of operative efficiency, cost structure, and the cost of early adoption",
-      "summary": "Abstract Assessing a newly introduced robotic platform is complicated by structural confounding between platform and calendar time, which makes device-specific performance hard to separate from early-adoption learning. We compared the Hugo robotic-assisted surgery (RAS) system with the da Vinci Xi in robot-assisted simple hysterectomy for endometrial cancer, confining the primary analysis to the period of concurrent use of the two platforms. This single-centre retrospective cohort included 219 patients with clinical stage I endometrial cancer operated between May 2018 and November 2025; proced",
-      "authors": [
-        "Ikuko Sakamoto",
-        "Takahiro Nozaki",
-        "Naoki Fukada",
-        "Yoshihiko Ito",
-        "Keiko Kagami"
-      ],
-      "published": "2026-11-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7222896919",
-      "url": "https://doi.org/10.1186/s42234-026-00217-9",
-      "pdf": "https://link.springer.com/content/pdf/10.1186/s42234-026-00217-9.pdf",
-      "title": "Longevity of continuous prosthetic finger control using implanted electromyographic signals without recalibration",
-      "summary": "BACKGROUND: For decades, the field of robotic prosthetic hands has been hindered by a fundamental lack in effective, reliable control strategies. Currently, myoelectric hand prostheses are most often controlled with muscle activity recorded from the surface of the skin, or surface-electromyography (EMG). However, surface-based systems are mainly limited to grip control that requires frequent calibration. METHODS: In this study, we use EMG signals recorded from electrodes implanted in regenerative peripheral nerve interfaces and residual innervated muscles of the arm to decode continuous moveme",
-      "authors": [
-        "Olivia G. Lee",
-        "Luis Hernan Cubillos",
-        "Hisham Temmar",
-        "Dylan M Wallace",
-        "Aren Hite",
-        "Jesse Christopher DeMatteo",
-        "Joseph T. Costello",
-        "Jake J. Joseph",
-        "Madison  M. Kelberman",
-        "Miranda G. Copenhaver",
-        "Theodore A. Kung",
-        "Deanna H. Gates",
-        "Paul Stephen Cederna",
-        "Cynthia A. Chestek"
-      ],
-      "published": "2026-11-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7233554862",
-      "url": "https://doi.org/10.1007/s11701-026-04169-9",
-      "pdf": "",
-      "title": "Robotic-assisted versus conventional neck dissection for oral cavity cancer: a systematic review and meta-analysis",
-      "summary": "",
-      "authors": [
-        "Chenglu Ruan",
-        "Lin Wang"
-      ],
-      "published": "2026-11-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7233599353",
-      "url": "https://doi.org/10.1007/s11695-026-09031-3",
-      "pdf": "",
-      "title": "Robotic-Assisted Versus Laparoscopic Revisional Roux-en-Y Gastric Bypass: A Systematic Review and Meta-Analysis",
-      "summary": "",
-      "authors": [
-        "Felippe Furlan Kelher",
-        "Vitória Maia Corrêa",
-        "Fernanda de Moraes Nava",
-        "Lucas Monteiro Delgado",
-        "Cláudia Theis",
-        "Sérgio Mazzola Poli de Figueiredo",
-        "F.A. Marques",
-        "Bernardo Fontel Pompeu"
-      ],
-      "published": "2026-11-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7139939849",
-      "url": "https://doi.org/10.1007/978-3-032-45473-7_6",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-45473-7_6.pdf",
-      "title": "Uncovering Latent Phase Structures and Branching Logic in Locomotion Policies: A Case Study on HalfCheetah",
-      "summary": "In locomotion control tasks, Deep Reinforcement Learning (DRL) has demonstrated high performance; however, the decision-making process of the learned policy remains a black box, making it difficult for humans to understand. On the other hand, in periodic motions such as walking, it is well known that implicit motion phases exist, such as the stance phase and the swing phase. Focusing on this point, this study hypothesizes that a policy trained for locomotion control may also represent a phase structure that is interpretable by humans. To examine this hypothesis in a controlled setting, we cons",
-      "authors": [
-        "Daisuke Yasui",
-        "Toshitaka Matsuki",
-        "Hiroshi Sato"
-      ],
-      "published": "2026-11-16",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -441,19 +541,22 @@
       "trending": 0.0
     },
     {
-      "id": "W7214726114",
-      "url": "https://doi.org/10.31234/osf.io/7u56t",
-      "pdf": "https://doi.org/10.31234/osf.io/7u56t",
-      "title": "Correcting misconceptions and shaping preferences about energy with reinforcement learning",
-      "summary": "Addressing the climate crisis requires citizens to make informed choices about sustainable energy policy, yet public debates are often shaped by inaccurate beliefs about the environmental and health impacts of different energy sources. Misconceptions about key features of energy sources, such as their greenhouse gas emissions, mortality rates, and contribution to electricity production, are particularly dangerous for this debate, as they risk systematically distorting public support for effective decarbonisation strategies. Here we investigate whether a brief reinforcement‑based intervention c",
+      "id": "W7115572617",
+      "url": "https://doi.org/10.3389/frai.2026.1799444",
+      "pdf": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1799444/pdf",
+      "title": "Three methods, one problem: classical and AI approaches to no-three-in-line",
+      "summary": "Background The No-Three-In-Line problem asks for the maximum number of points that can be placed on an n × n grid with no three collinear, representing a famous problem in combinatorial geometry. Methods We compare three approaches: (i) integer linear programming (ILP) using Gurobi, (ii) transformer-based pattern learning via PatternBoost, and (iii) reinforcement learning using proximal policy optimization (PPO). Results ILP achieves provably optimal solutions up to 19 × 19 grids. PatternBoost matches optimal performance up to 14 × 14 grids, and finds 29 points on 15 × 15 grids (optimal is 30)",
       "authors": [
-        "Caroline Pioger",
-        "Fabien Cerrotti",
-        "Wataru Toyokawa",
-        "Maël P. Lebreton",
-        "Stefano Palminteri"
+        "Pranav Ramanathan",
+        "Thomas Prellberg",
+        "Matthew James Lewis",
+        "Christian Beck",
+        "Prathamesh Dinesh Joshi",
+        "Raj Abhijit Dandekar",
+        "Rajat Dandekar",
+        "Sreedath Panat"
       ],
-      "published": "2026-11-16",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -464,137 +567,24 @@
       "trending": 0.0
     },
     {
-      "id": "W7134818291",
-      "url": "https://doi.org/10.1007/s11263-026-03077-7",
-      "pdf": "https://doi.org/10.1007/s11263-026-03077-7",
-      "title": "Human–AI Divergence in Ego-Centric Action Recognition Under Spatial and Spatiotemporal Manipulations",
-      "summary": "Abstract Humans consistently outperform state-of-the-art AI models in action recognition, particularly in challenging real-world conditions involving low resolution, occlusion, and visual clutter.e those utilised by humans Understanding the sources of this performance gap is essential for developing more robust and human-aligned models. In this paper, we present a large-scale human AI comparative study of egocentric action recognition using human-defined Minimal Identifiable Recognition Crops (MIRCs), defined as the smallest spatial or spatiotemporal regions sufficient for reliable human recog",
+      "id": "W7131627738",
+      "url": "https://doi.org/10.3390/make8110385",
+      "pdf": "https://doi.org/10.3390/make8110385",
+      "title": "A Brief Tutorial on Reinforcement Learning: From MDP to DDPG",
+      "summary": "Following the evolution from theoretical foundations to advanced deep learning algorithms, a coherent overview of reinforcement learning (RL) is proposed in this tutorial. We begin with the mathematical formalization of sequential decision-making via Markov decision processes (MDPs). In MDPs, the Bellman equation and the Bellman optimality equation play important roles; they provide the basis for policy evaluation and the fundamental condition for optimal behavior, respectively. The movement from these equations to practical algorithms is explored, starting with model-based dynamic programming",
       "authors": [
-        "Sadegh Rahmaniboldaji",
-        "Filip Rybansky",
-        "Quoc C. Vuong",
-        "Anya C. Hurlbert",
-        "Frank Guérin",
-        "Andrew Gilbert"
+        "Tian Zhang",
+        "Zhirong Su"
       ],
-      "published": "2026-11-19",
+      "published": "2026-11-17",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7235872593",
-      "url": "https://doi.org/10.1007/978-1-0716-5695-2_22",
-      "pdf": "",
-      "title": "From Experience to Precision: The Role of Artificial Intelligence and Robot-Assisted Surgery in Modern Precision Medicine",
-      "summary": "",
-      "authors": [
-        "Yinsong Sun",
-        "Xuefeng Luo",
-        "Xiangru Shen",
-        "Zhenglin Zhu",
-        "Senrui Liu",
-        "Zhu Xiong",
-        "Xiaolong Li",
-        "Shouji Chen",
-        "Yundi Yang",
-        "Lin Yang",
-        "Jiacheng Liu",
-        "Dehua Wang",
-        "Yiting Lei",
-        "Chen Zhao",
-        "Wei Xu",
-        "Ke Li",
-        "Hong Chen",
-        "Wei Huang",
-        "Junyi Liao"
-      ],
-      "published": "2026-11-19",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
-    },
-    {
-      "id": "W7236349015",
-      "url": "https://doi.org/10.1051/aacus/2026123",
-      "pdf": "https://doi.org/10.1051/aacus/2026123",
-      "title": "Auditory localization and subjective assessment of autonomous cleaning robot sounds: A VR experiment on speed, operating mode and alerting signals",
-      "summary": "Mobile autonomous robots are increasingly present in everyday environments, where their sounds play a key role in situational awareness and acceptance. Nevertheless, human responses to robot noise remain underexplored. This study examined how robot operating modes and added alerting sounds affect auditory localization and subjective ratings for a professional cleaning robot. Recordings of the robot operating at two velocities during cleaning and non-cleaning were presented. The non-cleaning mode was additionally combined with multi-tone and noise alerting signals, each with and without amplitu",
-      "authors": [
-        "Marlene Wessels",
-        "Leon Müller",
-        "Maier, Anna, Luisa",
-        "Johannes Kraus"
-      ],
-      "published": "2026-11-19",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236497544",
-      "url": "https://doi.org/10.21203/rs.3.rs-11532793/v1",
-      "pdf": "https://doi.org/10.21203/rs.3.rs-11532793/v1",
-      "title": "Dynamic Multi-Robot Task Allocation in Multi-Floor Hospitals: An Urgency-Aware Auction Framework",
-      "summary": "Abstract Multi-robot hospital delivery involves coordinating the transport of medical supplies across different floors while accommodating dynamically arriving requests and urgent delivery demands. Inter-floor elevator transfers and the need to serve multiple destinations make task allocation dependent not only on robot assignments but also on the composition and execution order of delivery queues. To address these challenges, this paper proposes a Greedy Coalition Auction Algorithm (GCAA) for dynamic task allocation in multi-floor hospitals. The algorithm constructs capacity-limited task queu",
-      "authors": [
-        "Yupeng Zou",
-        "Qifan He",
-        "Zhishen Zhou",
-        "Xuejin Zhu",
-        "Yongfei Ma",
-        "Yujie Li",
-        "He Zhao",
-        "Xutao Chen",
-        "Suli Zou"
-      ],
-      "published": "2026-11-19",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4403713484",
-      "url": "https://doi.org/10.1088/1361-6528/aec26d",
-      "pdf": "https://iopscience.iop.org/article/10.1088/1361-6528/aec26d/pdf",
-      "title": "Unsupervised reward-driven image segmentation in automated scanning transmission electron microscopy experiments",
-      "summary": "Automated experiments in scanning transmission electron microscopy (STEM) require rapid image segmentation to optimize the data representation for human interpretation, decision-making, site-selective spectroscopy, and atomic manipulation. Currently, segmentation tasks are typically performed using supervised machine learning methods, which require human-labeled data and are sensitive to out-of-distribution drift effects caused by changes in resolution, sampling, or beam shape. Here, we operationalize and benchmark a recently proposed reward-driven optimization workflow for on-the-fly image an",
-      "authors": [
-        "Kamyar Barakati",
-        "Utkarsh Pratiush",
-        "Austin Houston",
-        "Gerd J. Duscher",
-        "Sergei V. Kalinin"
-      ],
-      "published": "2026-11-16",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
     }
   ]
 }
