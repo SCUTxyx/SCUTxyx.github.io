@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20 21:37 UTC",
+  "generated_at": "2026-11-21 01:01 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,72 +9,17 @@
   "count": 24,
   "papers": [
     {
-      "id": "W4415026044",
-      "url": "https://doi.org/10.1145/3856802",
-      "pdf": "https://doi.org/10.1145/3856802",
-      "title": "A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI",
-      "summary": "Navigation and manipulation are core capabilities in Embodied AI, but training agents to perform them directly in the real-world is costly, time-consuming, and unsafe. Therefore, sim-to-real transfer has emerged as a key approach, yet the sim-to-real gap persists. This survey examines how physics simulators address this gap by analyzing properties that have received limited attention in prior surveys. We also analyze their features for navigation and manipulation tasks, as well as their hardware requirements. Additionally, we offer a resource with benchmark datasets, metrics, simulation platfo",
+      "id": "W7225150021",
+      "url": "https://doi.org/10.66977/xsci.2611.002z",
+      "pdf": "https://xsci.com/preprint/doi/10.66977/xsci.2611.002z.pdf",
+      "title": "Auditing Representation-Space Fraud Detection: A Bayesian IRL Framework for Calibrated Uncertainty and Its Limits",
+      "summary": "Shilling detectors for recommender systems are almost always evaluated by one number, detection AUROC, with no account of when it can be trusted. We audit representation-space detection with VEIL (Variational Evaluation via Inverse-reinforcement Learning), a pairwise (Bradley–Terry) Bayesian reward-inference framework over frozen encoder embeddings, after the Bayesian auditing paradigm for LLM alignment [1]: (A) a base posterior; (B) a hierarchical ARD extension with a learned confidence; and (C) a label-routed organic/attacker mixture used as an evidence-accumulation check. We prove (Prop. 1)",
       "authors": [
-        "Liang Wei Wong",
-        "Xueyang Kang",
-        "Kaixin Bai",
-        "Jianwei Zhang"
+        "Shivam Swarup",
+        "Divya Prakash Shrivastava",
+        "Rakesh Thakur"
       ],
-      "published": "2026-11-17",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 18.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 3.0
-    },
-    {
-      "id": "W7236646452",
-      "url": "https://doi.org/10.1007/978-3-032-45367-9_7",
-      "pdf": "",
-      "title": "On-Device Color-Class Detection Under Severe Memory Constraints: A Quantized FOMO Study with a Confidence-Gated Classical Fallback for Embedded Robotic Manipulation",
-      "summary": "",
-      "authors": [
-        "Katherine Yagua-Muñoz",
-        "Kevin Restrepo-Parra",
-        "César Baquero",
-        "Kevin R. Landázuri",
-        "Diego A. Almeida-Galárraga",
-        "Fernando Villalba-Meneses",
-        "Vladimir Bonilla",
-        "José Enrique Colimba Néjer",
-        "Luis Zhinín-Vera",
-        "César Guevara"
-      ],
-      "published": "2026-11-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4407093038",
-      "url": "https://doi.org/10.1080/01605682.2026.2757159",
-      "pdf": "https://arxiv.org/pdf/2501.18803",
-      "title": "Deceptive sequential decision-making via regularised policy optimisation",
-      "summary": "Autonomous systems are increasingly expected to operate in the presence of adversaries, though adversaries may infer sensitive information simply by observing a system. Therefore, we present a deceptive sequential decision-making framework that not only conceals sensitive information, but actively misleads adversaries about it. We model autonomous systems as Markov decision processes, with adversaries using inverse reinforcement learning to recover reward functions. To counter them, we present three regularisation strategies for policy synthesis problems that actively deceive an adversary abou",
-      "authors": [
-        "Yerin Kim",
-        "Alexander Benvenuti",
-        "Bo Chen",
-        "Mustafa O. Karabag",
-        "Abhishek N. Kulkarni",
-        "Nathaniel D. Bastian",
-        "Ufuk Topcu",
-        "Matthew Hale"
-      ],
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -85,36 +30,99 @@
       "trending": 0.0
     },
     {
-      "id": "W7162196309",
-      "url": "https://doi.org/10.1364/jocn.605888",
-      "pdf": "https://doi.org/10.1364/jocn.605888",
-      "title": "Graph transformers and stabilized reinforcement learning for large-scale dynamic routing modulation and spectrum allocation in elastic optical networks",
-      "summary": "Reinforcement learning (RL) has been widely applied to dynamic routing, modulation, and spectrum assignment (RMSA) in optical networks, yet no prior work has trained a transformer model for this task. We attribute this to the high data and compute requirements of transformers and potential training instabilities with RL. We address this gap by combining recent advances from the machine learning literature (rotary positional encodings for graph-structured data, off-policy invalid action masking, and valid mass regularization) with GPU-accelerated simulation to achieve, for the first time to our",
+      "id": "W7152632487",
+      "url": "https://doi.org/10.1007/s41315-026-00604-0",
+      "pdf": "https://www.researchsquare.com/article/rs-8693518/latest.pdf",
+      "title": "An investigation of 6-DOF robot path planning using evolutionary algorithms",
+      "summary": "Multi-objective optimization (MOO) plays a vital role in robotics, where several conflicting objectives—such as minimizing energy consumption, execution time, and motion jerk—must be simultaneously satisfied. Traditional single-objective approaches fail to represent the trade-offs among such competing criteria, motivating the adoption of population-based evolutionary and swarm intelligence algorithms. This study presents a novel comparative investigation of two leading multi-objective optimization methods, MOPSO and NSGA-II, for 6-DOF robotic trajectory planning. The study also lays the founda",
       "authors": [
-        "Michael Doherty",
-        "Alejandra Beghelli",
-        "Laura Toni"
+        "Mohamed Gamal Ebrahem AbdelJawad",
+        "A Gaaboub Ibrahim",
+        "Tarek Tawfeek"
       ],
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 7.5,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     },
     {
-      "id": "W7225281285",
-      "url": "https://openalex.org/W7225281285",
+      "id": "W7224213689",
+      "url": "https://doi.org/10.1088/1748-3190/aebb86",
+      "pdf": "https://iopscience.iop.org/article/10.1088/1748-3190/aebb86/pdf",
+      "title": "Substrate-dependent friction and climbing performance in a flying snake",
+      "summary": "Locomotion in limbless animals depends on friction between the body and substrate. In snakes, the skin-substrate interface can generate frictional anisotropy, lowering resistance during forward motion while increasing resistance during backward or transverse motion. These properties have inspired models and robots that rely on directional friction, yet empirical measurements remain limited across species and substrates. We measured static and dynamic coefficients of friction in a flying snake, Chrysopelea paradisi , using an inclined-plane method on four artificial substrates and one natural s",
+      "authors": [
+        "Jonas Scherer",
+        "Hodjat Pendar",
+        "John J. Socha"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225076123",
+      "url": "https://doi.org/10.63580/iti.fi.45796",
+      "pdf": "https://doi.org/10.63580/iti.fi.45796",
+      "title": "Research Spotlight 7 - Comparative Trueness of Static, Dynamic, and Robotic Computer-Assisted Implant Surgery: A Comprehensive Umbrella Review",
+      "summary": "A series that provides concise summaries of high-impact studies, offering a clear and accessible overview of the latest evidence.",
+      "authors": [
+        "Asbjørn Jokstad"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225770191",
+      "url": "https://doi.org/10.5281/zenodo.24140703",
+      "pdf": "https://doi.org/10.5281/zenodo.24140703",
+      "title": "Semantic Segmentation of Flooded Environments for Livestock Route Planning",
+      "summary": "Poster presented at the 9th Iberian Robotics Conference (ROBOT2026, Barcelona, Spain). Autonomous livestock herding in extensive farming environments requires robots to operate reliably across large outdoor areas subject to changing environmental conditions. In particular, flooding caused by heavy rainfall or irrigation can alter terrain traversability, making existing roads and pasture areas unsuitable for livestock movement. This work in progress explores the use of UAV imagery to provide updated terrain information for flood-aware livestock route planning. We use the FloodNet dataset, origi",
+      "authors": [
+        "Javier Miñambres-Calvo",
+        "Virginia Riego del Castillo",
+        "Lídia Sánchez-González",
+        "Francisco J. Rodríguez-Lera"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7234739653",
+      "url": "https://doi.org/10.1108/mbe-12-2025-0270",
       "pdf": "",
-      "title": "Bridging Humans and Technology Through Touch - Human-Centered Haptic Technologies for Tactile Perception, Sensorimotor Augmentation, and Industrial Assistance",
-      "summary": "The sense of touch is the only human sense that requires physical contact, linking together perception and action in a closed sensorimotor loop that no other modality can fully replicate. Yet the gap between human haptic capability and what engineered systems can measure, transmit, or reproduce remains wide. This thesis investigates how haptic technologies can be designed to acquire, transmit, amplify, and exploit human tactile perception, in order to improve interaction with remote environments, robotic systems, and industrial processes. Adopting a human-centered perspective, it argues that t",
+      "title": "Evaluating the impact of strategic service redesign on customer satisfaction in a franchise restaurant chain",
+      "summary": "Purpose Online social media customer reviews are an important source for businesses to identify ways to improve customer experience and evaluate their service performance. For casual dining restaurants, service delivery is fundamental to their business success. Along with menu changes, a franchisor had shifted to a personalised in-house experience and online engagement compared to robotic style speedy delivery of orders. This study aims to evaluate the impact of a service redesign in an Asian fusion restaurant chain’s performance using a text mining approach. This paper aims to examine the inf",
       "authors": [
-        "Michele Pompilio"
+        "Magesh Nagarajan",
+        "Awinder Kaur"
       ],
-      "published": "2026-11-20",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -125,150 +133,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7236578482",
-      "url": "https://doi.org/10.1007/979-8-8688-2845-4_15",
-      "pdf": "",
-      "title": "GPS Monitor",
-      "summary": "GPS (Global Positioning System) location mapping is an inherent feature of many modern devices, including navigation systems, smartphones, and tracking devices. A GPS-capable device typically includes an off-the-shelf module that handles low-level GPS processing tasks such as satellite signal detection, latitude and longitude calculations, and other related computations. Given their relatively low cost and ease of use, GPS modules are often incorporated into maker projects such as DIY robots, model cars, and drones.",
-      "authors": [
-        "Daniel Kusswurm"
-      ],
-      "published": "2026-11-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236606638",
-      "url": "https://doi.org/10.1007/s11701-026-04199-3",
-      "pdf": "",
-      "title": "Three-dimensional guidance and AI-assisted navigation in robot-assisted partial nephrectomy: a function-based scoping review",
-      "summary": "",
-      "authors": [
-        "Chen-Yue Liu",
-        "Jun-Dong Zhao",
-        "Ming‐Ze Sun",
-        "Gong-Lin Tang",
-        "Hong-Wei Zhao"
-      ],
-      "published": "2026-11-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236612977",
-      "url": "https://doi.org/10.1007/s11701-026-04164-0",
-      "pdf": "",
-      "title": "Full robotic simultaneous resections of colorectal synchronous liver metastasis. a single center case series",
-      "summary": "",
-      "authors": [
-        "Pietro Calcagno",
-        "Michele Mazzola",
-        "Antonio Benedetti",
-        "Pietro Carnevali",
-        "Alessandro Giani",
-        "Michele Paternò",
-        "Andrea Zironda",
-        "Alessandro Giacomoni",
-        "Giovanni Carlo Ferrari"
-      ],
-      "published": "2026-11-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236674978",
-      "url": "https://doi.org/10.1007/978-3-032-36095-3_2",
-      "pdf": "https://doi.org/10.1007/978-3-032-36095-3_2",
-      "title": "A Method to Evaluate the Logistics Performance in Automated Waterborne Transport and Logistics Cases",
-      "summary": "Automation is on the rise in the logistics sector, affecting both land-based and waterborne transportation. Demonstrations of automated vessels, mooring systems, and robotic cargo handling, supported by digitalisation in ports and freight centres, highlight significant potential. However, a structured methodology to evaluate the logistics performance of such innovations remains missing, as their translation into logistics practice and systemic impact are not fully comprehended. This paper presents a holistic methodology that combines cost-benefit analysis, aligned with EC guidelines, with oper",
-      "authors": [
-        "Cyril Alias",
-        "Anastasiya Azarko",
-        "Vladislav Maraš",
-        "Angeliki Stouraiti",
-        "Jonas zum Felde",
-        "Harilaos N. Psaraftis"
-      ],
-      "published": "2026-11-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236678653",
-      "url": "https://doi.org/10.20965/jaciii.2026.p2000",
-      "pdf": "https://doi.org/10.20965/jaciii.2026.p2000",
-      "title": "Modeling Robot Head-Direction Duration and Switching Frequency During Side-by-Side Walking with a Human",
-      "summary": "Recent advancements in robotics have led to extensive research on social robots capable of moving alongside humans. However, existing studies on mobile robotics have largely overlooked head-direction behavior in the context of side-by-side interactions during walking. As an initial step toward addressing this gap, the present study investigated human head-direction behavior during side-by-side conversational walking. We developed a robot head-direction model based on the collected data and examined its implementation in a mobile robot. This approach provides a data-driven basis for designing r",
-      "authors": [
-        "Shudai Deguchi",
-        "Takashi Minato",
-        "Takamasa Iio"
-      ],
-      "published": "2026-11-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236686255",
-      "url": "https://doi.org/10.1007/978-3-032-36095-3_152",
-      "pdf": "https://doi.org/10.1007/978-3-032-36095-3_152",
-      "title": "Autonomous Robots Enabling Smart, Data-Driven Railway Maintenance",
-      "summary": "Railway transport is essential for sustainable mobility, but increased utilization accelerates infrastructure wear, raising maintenance demands that must be met without compromising availability or cost-efficiency. Emerging technologies in digitalization, AI, and robotics offer promising solutions, yet flexible, on-track inspection systems remain underexplored. This paper presents the development of lightweight, rail bound Multi-Purpose Inspection Robots (MPIRs) designed as research platforms for autonomous data acquisition in railway environments. Two prototypes are currently being developed ",
-      "authors": [
-        "Vivien Lacorre",
-        "Krister Wolff",
-        "Louis-Romain Joly"
-      ],
-      "published": "2026-11-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236734480",
-      "url": "https://doi.org/10.5281/zenodo.24382038",
-      "pdf": "https://doi.org/10.5281/zenodo.24382038",
-      "title": "Human Bioelectric Field Measurement SCIENTIFIC TECHNICAL NOTEBOOK | FAMILY 17 | 33 × STARLI Let ancient questions retain their poetry, and future science retain its humility. A prospective nonclinical research notebook. Proposed experiments use isolated, nonliving phantoms only. No clinical results, human exposure limits, or therapeutic efficacy are claimed. F081 — Spatial Distribution of Human Skin Surface Potentials at the Limit F082 — Reconstruction of Local Human Current Density at the Limit F083 — Time-Varying Human Bioelectric Field Dynamics at the Limit F084 — Environmental Noise Separation in Human Bioelectric Fields at the Limit F085 — Cross-Instrument Reproducibility of Human Bioelectric Fields at the Limit Research position and lineage The third volume opens Surface voltage is an observation, not an automatic map of its internal cause. This family transfers the robotics program into passive metrology. The five flagships share a differential-voltage witness but answer distinct questions. Use isolated electrode phantoms; actual human recordings require separate ethics, consent and authorization. The reference is part of the instrument Voltage is relational. An additive potential gauge is not equivalent to a moving physical reference, which can alter the differential channel. Freeze lead labels, geometry and reference identity. Carry the reference trace and calibration into each blind comparison. An inverse image is not a unique source Many source configurations agree on sampled boundary voltages. A regularizer expresses a preference, not new physical information. Require a known-source phantom, sensitivity analysis and a set-valued interpretation where identifiability fails.",
-      "summary": "Human Bioelectric Field Measurement SCIENTIFIC TECHNICAL NOTEBOOK | FAMILY 17 | 33 × STARLI Let ancient questions retain their poetry, and future science retain its humility. A prospective nonclinical research notebook. Proposed experiments use isolated, nonliving phantoms only. No clinical results, human exposure limits, or therapeutic efficacy are claimed. F081 — Spatial Distribution of Human Skin Surface Potentials at the Limit F082 — Reconstruction of Local Human Current Density at the Limit F083 — Time-Varying Human Bioelectric Field Dynamics at the Limit F084 — Environmental Noise Separa",
+      "id": "W7235216439",
+      "url": "https://doi.org/10.5281/zenodo.24327658",
+      "pdf": "https://doi.org/10.5281/zenodo.24327658",
+      "title": "NANOSENSING FOR ACUPUNCTURE ROBOTICS STARLI · Family 15 · F071–F075 Scientific Technical Notebook | Research Working Edition v1.0 33 × STARLI | Prospective, nonclinical, falsifiable research design Let ancient questions retain their poetry, and future science retain its humility. F071 — Local Electrochemical Nanosensing for Acupuncture at the Limit F072 — Pressure and Contact Nanosensing for Acupuncture at the Limit F073 — Temperature Nanosensing for Acupuncture at the Limit F074 — Multisensor Fusion in Nano-Acupuncture at the Limit F075 — Self-Calibration of Nano-Acupuncture Sensor Drift at the Limit Reading map Fourteen research positions; thirty blueprint formula statements; forty-two analytic model notes; eighty-two six-stage chapters; two hundred research gates; thirty-three prototype concepts; a closing evidence register. This notebook expands the same research architecture with stage-specific practical checkpoints. No experimental findings are claimed. Preface 01 · Research identity Position Five questions share a calibration contract, not a single physical observable. Local Electrochemical Nanosensing for Acupuncture at the Limit Pressure and Contact Nanosensing for Acupuncture at the Limit Temperature Nanosensing for Acupuncture at the Limit Multisensor Fusion in Nano-Acupuncture at the Limit Self-Calibration of Nano-Acupuncture Sensor Drift at the Limit. Evidence The blueprint calls the common endpoint sensor residual in native units [a.u.]; the arbitrary-unit placeholder must be replaced by each actual quantity and its units before comparison. Boundary All work is restricted to inert chemical, force and temperature phantoms or offline synthetic records. Preface 02 · The five-branch coupling Position F071 establishes chemical interpretation; F072 defines contact; F073 qualifies thermal context; F074 integrates qualified observations; F075 audits calibration through time. Evidence Every handoff carries units, time, independent uncertainty and a validity mask. Boundary No common residual or model confidence can authorize actuation on a person.",
+      "summary": "Support STARLI Research Gates ☕ If you find value in our open research, scientific explorations, and technological blueprints for the future, you are warmly invited to support our continued creative journey. All our research publications remain freely accessible. Your voluntary contribution helps us open more research gates and cultivate new possibilities for future generations. https://ko-fi.com/starli33 Let beauty have the ability to continue happening. 33 | STARLI · White Rainbow Era",
       "authors": [
         "33"
       ],
-      "published": "2026-11-20",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -279,17 +152,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7236766551",
-      "url": "https://doi.org/10.1097/mou.0000000000001463",
-      "pdf": "",
-      "title": "Robotic-assisted prostate and kidney surgery: evolution, outcomes, and future directions",
-      "summary": "Purpose of review Robotic prostate and kidney surgery has moved beyond proving technical feasibility. This review examines how recent evidence is shifting the field from platform-driven surgery toward patient-, anatomy-, and information-driven selection. Recent findings In radical prostatectomy, randomized trials show that intraoperative frozen-section assessment and augmented-reality guidance can modify nerve-sparing decisions and improve functional or oncological endpoints. In partial nephrectomy, three-dimensional virtual models have progressed from anatomical planning to perfusion-aware se",
+      "id": "W7235284160",
+      "url": "https://doi.org/10.5281/zenodo.24327313",
+      "pdf": "https://doi.org/10.5281/zenodo.24327313",
+      "title": "A Robot Should Know When Its Bus Is Gone: A Conservative Dual-Route, Fault-Isolation State Machine for Modular Servo Systems",
+      "summary": "Low-cost modular robotic arms commonly share serial-bus and power dependencies. A broken connector or local overcurrent can leave an otherwise functional robot unable to complete an authorized task. This technical report presents a minimal, dry-run fault-isolation and alternate-route proposal engine for six simulated servo joints. It represents primary/backup connectivity, measured-current threshold, observation age, explicit owner authorization, and STOP epochs, and generates proposed routes without contacting servos. In 1,000 deterministic generated cases, it satisfied 1,000/1,000 predefined",
       "authors": [
-        "Daniele Amparore",
-        "Alexandru Turcan",
-        "Francesco Porpiglia"
+        "Terrynce Anson White"
       ],
-      "published": "2026-11-20",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -300,19 +171,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7236779066",
-      "url": "https://doi.org/10.4271/2026-99-2521",
-      "pdf": "",
-      "title": "Research on Mechanical Configuration Design and Optimization of a Variable Reluctance Spherical Actuator for Robot Joints",
-      "summary": "The advancement of precision medicine, aerospace, and intelligent robotics has shown the disadvantage of traditional single-degree-of-freedom (DOF) actuator. Traditional robot’s structural redundancy, bulky size, and cumulative errors render them not siutfed for the stringent multi-DOF motion control demands of modern high-end device, especially in space-constrained applications. This paper presents a new variable reluctance spherical actuator (VRSA). This spherical actuator aims to combine small size, light weight, and high dynamic ability using a noval spherical structure. Firstly, we propos",
+      "id": "W7235300169",
+      "url": "https://doi.org/10.1007/978-3-658-51527-0_8",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-658-51527-0_8.pdf",
+      "title": "Epistemic Agency, Embodiment, and the Future of Participatory Democracy in the Age of AI",
+      "summary": "Participatory and deliberative democratic theories require citizens to exercise epistemic agency and cultivate epistemic virtues such as independent belief formation, willingness to revise one’s beliefs, and openness to listening to divergent perspectives. Building on the author’s work, the paper examines how democracy is challenged and transformed in the age of AI: AI enables personalized opinion manipulation and epistemic bubbles, while also offering tools to enhance democratic processes. It then analyzes how an embodied conception of knowledge—emphasizing lived experience, situated understa",
       "authors": [
-        "Yinghuang Liu",
-        "Xuetong Hu",
-        "Zhenye Qiu",
-        "Pu Xing",
-        "Kangkang Li"
+        "Mark Coeckelbergh"
       ],
-      "published": "2026-11-20",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -323,20 +190,21 @@
       "trending": 0.0
     },
     {
-      "id": "W7236779166",
-      "url": "https://doi.org/10.1007/s11701-026-04190-y",
-      "pdf": "https://doi.org/10.1007/s11701-026-04190-y",
-      "title": "Reporting of procedural information and data access in surgical robotics across four specialties",
+      "id": "W7235349061",
+      "url": "https://doi.org/10.1007/s11701-026-04194-8",
+      "pdf": "",
+      "title": "Robotic sentinel lymph node biopsy with dual-tracer mapping in 76 patients with breast cancer: high detection rate and low false-negative rate",
       "summary": "",
       "authors": [
-        "Sung-Ah Che",
-        "Byoung-Eun Yang",
-        "Sang-Yoon Park",
-        "Ji Yeon Na",
-        "Iman Malakuti",
-        "Soo‐Hwan Byun"
+        "Qiwen Liu",
+        "Yueyue Teng",
+        "Zongyan Li",
+        "Tong Wu",
+        "Xiaoyan Fu",
+        "Yongxin Wu",
+        "Haiyan Li"
       ],
-      "published": "2026-11-20",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -347,19 +215,15 @@
       "trending": 0.0
     },
     {
-      "id": "W7236790716",
-      "url": "https://doi.org/10.20965/jaciii.2026.p1816",
-      "pdf": "https://doi.org/10.20965/jaciii.2026.p1816",
-      "title": "Semantic-Topological Cognitive Maps for Assistive Indoor Navigation of a Robot Partner",
-      "summary": "Assistive indoor mobile robots are increasingly expected to connect natural-language requests about familiar places and objects with the metric maps used for localization and motion planning. Metric simultaneous localization and mapping (SLAM) supports reliable geometry and collision avoidance, whereas many open-vocabulary scene-graph systems remain separated from the navigation stacks used on deployed robots. This paper presents a semantic-topological cognitive map (STCM) that bridges these representations for assistive navigation. The system derives place nodes from a LiDAR–inertial pose str",
+      "id": "W7235421570",
+      "url": "https://doi.org/10.1007/s10551-026-06524-0",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s10551-026-06524-0.pdf",
+      "title": "Exploring the Role of Cultural Capital in the Navigation of Religion-Based Stigma in the Workspace",
+      "summary": "Drawing on a study of 32 skilled Muslim humanitarian migrants, I show how cultural capital is discursively leveraged to navigate perceptions of religious stigma in the British workspace in a contested social process. Highlighting how the strategies used to navigate stigmatising connotations attached to religion (asserting worth, differentiating, aligning and minimising) are inscribed in embodied and institutionalised forms of cultural capital, I illustrate how stigma and privilege can coalesce in skilled individuals’ self-constructions. I draw attention to the tensions between the individual a",
       "authors": [
-        "Anhar Risnumawan",
-        "Achmad Fahrul Aji",
-        "Raditya Artha Rochmanto",
-        "Teuku Zikri Fatahillah",
-        "Naoyuki Kubota"
+        "Dulini Fernando"
       ],
-      "published": "2026-11-20",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -370,15 +234,114 @@
       "trending": 0.0
     },
     {
-      "id": "W7236819169",
-      "url": "https://doi.org/10.5281/zenodo.24383416",
-      "pdf": "https://doi.org/10.5281/zenodo.24383416",
-      "title": "Precision Manufacturing, Industrial Robotics, and Thermodynamic Power Systems",
+      "id": "W7235459832",
+      "url": "https://doi.org/10.1007/s11701-026-04026-9",
+      "pdf": "",
+      "title": "Adoption, technique, and barriers in robotic abdominal wall surgery: the GLOBAL-HERNIA cross-sectional survey",
       "summary": "",
       "authors": [
-        "Shanazarov Begench"
+        "Francesco Brucchi",
+        "Giampaolo Formisano",
+        "Sofia Esposito",
+        "Micaela Piccoli",
+        "Paolo Pietro Bianchi",
+        "Gianlorenzo Dionigi",
+        "Filip E. Muysoms",
+        "the GLOBAL-HERNIA Survey Collaborators",
+        "Lavinia Amato",
+        "Jacopo Andreuccetti",
+        "Amedeo Antonelli",
+        "Giulio Argenio",
+        "Giulia Bacchiocchi",
+        "Ludovica Baldari",
+        "Alberto G. Barranquero",
+        "Emanuela Basile",
+        "Gabriele Bellio",
+        "Lorenza Beomonte Zobel",
+        "Frederik Christiaan Berrevoet",
+        "Pierre Blanc",
+        "Luigi Bonavina",
+        "Andrea Bottari",
+        "Marco Brizzolari",
+        "Oreste Claudio Buonomo",
+        "Tommaso Campagnaro",
+        "Damiano D. Caputo",
+        "Filippo Carannante",
+        "Silvio Caringi",
+        "Gianmaria Casoni Pattacini",
+        "Lidia Castagneto‐Gissey",
+        "Antonio Castaldi",
+        "Chong Yi Chin",
+        "Christos Chouliaras",
+        "Luigi Cobuccio",
+        "Pietro Coletta",
+        "Tiago Correia de Sá",
+        "Michele De Capua",
+        "Spiros Delis",
+        "Daniele Delogu",
+        "Michele De Rosa",
+        "Giada Di Flumeri",
+        "Andrea Divizia",
+        "Stefan Eisoldt",
+        "Denisa Eskiu",
+        "Alessia Fassari",
+        "Francesco Ferrara",
+        "Francesco Fleres",
+        "Giampaolo Formisano",
+        "Laura Fortuna",
+        "Christian Galatioto",
+        "Lukas Gantner",
+        "Mauro Giambusso",
+        "Alessio Biagio Filippo Giordano",
+        "Sara Giovampietro",
+        "Francesco Giovanardi",
+        "Luca Gordini",
+        "Andrea Martina Guida",
+        "Alessandro Iacomino",
+        "Tsvetomir M. Ivanov",
+        "Enrique Ricardo Jean-Silver",
+        "Lodovica Langellotti",
+        "Giovanni Guglielmo Laracca",
+        "Giulia Lauteri",
+        "Giovanni Battista Levi Sandri",
+        "Annarita Libia",
+        "Francesco Saverio Li Causi",
+        "Anthony Y. Lin",
+        "Dimitrios Linardoutsos",
+        "Víctor López‐López",
+        "Andrea‐Pierre Luzzi",
+        "Carlos Magalhães",
+        "Federico Maggi",
+        "Marta Maistri",
+        "Davide Marino",
+        "Valentina Enrica Marsella",
+        "Federica Marzi",
+        "Gianluca Mascianà",
+        "Lorena Massante",
+        "Fanny Massimi",
+        "Marco Materazzo",
+        "Claudio Mauriello",
+        "Franz Mayer",
+        "Simona Meneghini",
+        "Isabella Mondi",
+        "Salvador Morales‐Conde",
+        "Björn Mück",
+        "Luigi Noceroni",
+        "Fabio Massimo Oddi",
+        "Alessandro Palladino",
+        "Francesco Palmieri",
+        "Graziano Palmisano",
+        "Antonella Paone",
+        "Marco Pellicciaro",
+        "Marta Perego",
+        "Graziano Pernazza",
+        "Teresa Perra",
+        "Lorenzo Petagna",
+        "Gaetano Poillucci",
+        "Alberto Porcu",
+        "Rosnelifaizur Ramely"
       ],
-      "published": "2026-11-20",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -386,95 +349,19 @@
       "score": 6.0,
       "pick": "Embodied AI & Robotics",
       "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236902287",
-      "url": "https://openalex.org/W7236902287",
-      "pdf": "",
-      "title": "Assurance of Safety and Reliability of Robotic Autonomous Systems: Handling Uncertainties Through Model Checking",
-      "summary": "Safety and reliability play a crucial role when designing Robotic Autonomous Systems (RAS). Robots are increasingly operating beyond factory settings. In controlled industrial environments, safety is primarily ensured by designing the workspace to keep robots surrounded with safety barriers. However, in fields, orchards or poly-tunnels, robots are exposed to a different set of challenges. Deployed in such environments, a robot must carry a defensible safety claim, and that claim has to convince a regulator, a certifier, or the user who runs the field. Formal methods offer one route to such a c",
-      "authors": [
-        "Atef Azaiez"
-      ],
-      "published": "2026-11-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7140162424",
-      "url": "https://doi.org/10.22541/authorea.15012339/v1",
-      "pdf": "https://www.authorea.com/doi/pdf/10.22541/authorea.15012339/v1",
-      "title": "Feasibility of Augmented Reality-Guided Robotic Ultrasound with Cone-Beam CT Integration for Spine Procedures",
-      "summary": "Needle placement in spine interventions is critical for effective pain management, yet it depends on reliable identification of anatomical landmarks and careful trajectory planning. Conventional imaging guidance often relies on both computed tomography (CT) and X-ray fluoroscopy, exposing patients and staff to high doses of radiation while providing limited real-time 3D feedback. The choice of visualization may also affect operator performance and cognitive workload. We present an optical see-through augmented reality (OST-AR)–guided robotic system for spine procedures that provides in situ vi",
-      "authors": [
-        "Feng Li",
-        "Tianyu Song",
-        "Felix Pabst",
-        "Miruna-Alexandra Gafencu",
-        "Yordanka Velikova",
-        "Yuan Bi",
-        "Ulrich Eck",
-        "Nassir Navab"
-      ],
-      "published": "2026-11-17",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236757662",
-      "url": "https://doi.org/10.1007/978-3-032-36095-3_73",
-      "pdf": "https://doi.org/10.1007/978-3-032-36095-3_73",
-      "title": "Extraction of Empty Container Repositioning Rules from a Reinforcement Learning Policy",
-      "summary": "Due to imbalances in global trade, shipping containers frequently accumulate in regions where they are not immediately needed, while other regions experience shortages. This mismatch forces shipping companies to engage in costly repositioning efforts to balance container supply. Despite these costs, failure to ensure adequate container supply can lead to even more significant consequences, such as rolled-over export shipments or cancelled bookings. To manage container fleet, shipping companies deploy inventory policies and apply repositioning rules to allocate empty containers and find a balan",
-      "authors": [
-        "Ksenija Ļohina",
-        "Dmitry Pavlyuk"
-      ],
-      "published": "2026-11-20",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
       "trending": 1.0
     },
     {
-      "id": "W4411025661",
-      "url": "https://doi.org/10.1038/s41467-026-79431-7",
-      "pdf": "https://www.nature.com/articles/s41467-026-79431-7_reference.pdf",
-      "title": "Focused ultrasound neuromodulation of mediodorsal thalamus disrupts decision flexibility during reward learning",
-      "summary": "When learning to find the most beneficial course of action, the prefrontal cortex guides decisions by comparing estimates of the relative value of the options available. Basic neuroscience studies in animals support the view that the thalamus can regulate this activity within and across the prefrontal cortex. We studied a group of patients (n = 37) undergoing unilateral MR-guided focused ultrasound for essential tremor, performing the restless bandit, a reward reinforcement learning task, immediately before and after thalamotomy. Thalamotomy significantly impaired the proportion of switch choi",
+      "id": "W7235082129",
+      "url": "https://doi.org/10.5281/zenodo.24327721",
+      "pdf": "https://doi.org/10.5281/zenodo.24327721",
+      "title": "Cost and production effects of offline reinforcement learning for delayed compositional sampling: Research code",
+      "summary": "Research code accompanying the paper “Cost and production effects of offline reinforcement learning for delayed compositional sampling.” The package includes process simulation, offline policy fitting, evaluation, statistical analysis and figure-generation scripts. Installation instructions, verified dependency versions and script-to-paper mappings are provided in README.md. This release contains code only. Required datasets and frozen evaluation records are distributed separately; see README.md for input requirements and verification scope. Original research code is released under the MIT lic",
       "authors": [
-        "Graeme M Mackenzie",
-        "William Gilmour",
-        "Isla R. M. Barnard",
-        "Shen-Shen Yang",
-        "Szabolcs Suveges",
-        "Jennifer A. Macfarlane",
-        "Avinash Kumar Kanodia",
-        "James Manfield",
-        "Sadaquate Khan",
-        "Jibril Osman‐Farah",
-        "Antonella Macerollo",
-        "J. Douglas Steele",
-        "Tom Gilbertson"
+        "IMRAN MUHAMMAD",
+        "Fatima Zaidi"
       ],
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -485,22 +372,18 @@
       "trending": 0.0
     },
     {
-      "id": "W7115572617",
-      "url": "https://doi.org/10.3389/frai.2026.1799444",
-      "pdf": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1799444/pdf",
-      "title": "Three methods, one problem: classical and AI approaches to no-three-in-line",
-      "summary": "Background The No-Three-In-Line problem asks for the maximum number of points that can be placed on an n × n grid with no three collinear, representing a famous problem in combinatorial geometry. Methods We compare three approaches: (i) integer linear programming (ILP) using Gurobi, (ii) transformer-based pattern learning via PatternBoost, and (iii) reinforcement learning using proximal policy optimization (PPO). Results ILP achieves provably optimal solutions up to 19 × 19 grids. PatternBoost matches optimal performance up to 14 × 14 grids, and finds 29 points on 15 × 15 grids (optimal is 30)",
+      "id": "W7235833182",
+      "url": "https://doi.org/10.1038/s41598-026-77395-8",
+      "pdf": "https://www.nature.com/articles/s41598-026-77395-8_reference.pdf",
+      "title": "A hierarchical resilient tri-level energy management for islanded multi-energy system with risk-aware learning-in-the-loop RL algorithm",
+      "summary": "Coordinated energy management is crucial for the effective operation of integrated multi-energy systems (IMESs), which integrate water, heat, and electricity networks. The primary objectives of this coordination include reducing operational costs, minimizing hazards, and ensuring a reliable supply of energy. Traditional methodologies tend to address these objectives within a singular optimization framework, which often constrains their capacity to accommodate the distinct operational requirements associated with economic scheduling, vulnerability assessment, and service restoration. This study",
       "authors": [
-        "Pranav Ramanathan",
-        "Thomas Prellberg",
-        "Matthew James Lewis",
-        "Christian Beck",
-        "Prathamesh Dinesh Joshi",
-        "Raj Abhijit Dandekar",
-        "Rajat Dandekar",
-        "Sreedath Panat"
+        "Wenwu Tan",
+        "Hongyi Liao",
+        "Ali Hashim Alwan",
+        "Abbas Zare Ghaleh Seyyedi"
       ],
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -511,44 +394,238 @@
       "trending": 0.0
     },
     {
-      "id": "W7131627738",
-      "url": "https://doi.org/10.3390/make8110385",
-      "pdf": "https://doi.org/10.3390/make8110385",
-      "title": "A Brief Tutorial on Reinforcement Learning: From MDP to DDPG",
-      "summary": "Following the evolution from theoretical foundations to advanced deep learning algorithms, a coherent overview of reinforcement learning (RL) is proposed in this tutorial. We begin with the mathematical formalization of sequential decision-making via Markov decision processes (MDPs). In MDPs, the Bellman equation and the Bellman optimality equation play important roles; they provide the basis for policy evaluation and the fundamental condition for optimal behavior, respectively. The movement from these equations to practical algorithms is explored, starting with model-based dynamic programming",
+      "id": "W7154461826",
+      "url": "https://doi.org/10.24272/j.issn.2095-8137.2025.568",
+      "pdf": "https://www.zoores.ac.cn/en/article/pdf/preview/10.24272/j.issn.2095-8137.2025.568.pdf",
+      "title": "鸽子外纹体中颜色选择性神经元群体的神经表征",
+      "summary": "Understanding how birds encode object color is fundamental to elucidating the neural mechanisms of color vision. Although behavioral studies have shown high color-discrimination accuracy in birds, it remains unclear whether higher-order visual areas organize color information in a structured manner. Here, we performed multi-site multi-unit activity recordings from the pigeon entopallium while presenting multi-category images that systematically varied in hue, luminance, and saturation. Many entopallium sites exhibited robust hue selectivity that remained stable across luminance and saturation ",
       "authors": [
-        "Tian Zhang",
-        "Zhirong Su"
+        "HE Qing-zhi",
+        "Juncai Zhu",
+        "Niu Xiao-Ke",
+        "Wu Peng",
+        "Zhang Ru-Peng",
+        "Li Bo",
+        "Zhizhong WANG",
+        "Zhizhong Wang"
       ],
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
       "trending": 0.0
     },
     {
-      "id": "W7139939849",
-      "url": "https://doi.org/10.1007/978-3-032-45473-7_6",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-45473-7_6.pdf",
-      "title": "Uncovering Latent Phase Structures and Branching Logic in Locomotion Policies: A Case Study on HalfCheetah",
-      "summary": "In locomotion control tasks, Deep Reinforcement Learning (DRL) has demonstrated high performance; however, the decision-making process of the learned policy remains a black box, making it difficult for humans to understand. On the other hand, in periodic motions such as walking, it is well known that implicit motion phases exist, such as the stance phase and the swing phase. Focusing on this point, this study hypothesizes that a policy trained for locomotion control may also represent a phase structure that is interpretable by humans. To examine this hypothesis in a controlled setting, we cons",
+      "id": "W7125911188",
+      "url": "https://doi.org/10.1167/jov.26.11.6",
+      "pdf": "https://doi.org/10.1167/jov.26.11.6",
+      "title": "Object recognition from dynamic cues: Examining the inversion effect",
+      "summary": "Humans can identify and categorize objects in a dynamic visual scene with remarkable accuracy. To achieve this, our visual system relies not only on static information but also on dynamic cues. Turning a static image upside down hinders recognition. Similar inversion effects have been found in dynamic videos of human action. However, it is unknown whether this inversion effect extends to a broader set of categories when only dynamic cues are available. Here, we used object kinematograms to investigate the inversion effect on object recognition using only dynamic cues. We extracted motion cues ",
       "authors": [
-        "Daisuke Yasui",
-        "Toshitaka Matsuki",
-        "Hiroshi Sato"
+        "Niloufar Faridani",
+        "Shifa Maqsood",
+        "Sophia Robert",
+        "Amirali Soltani Tehrani",
+        "Maryam Vaziri-Pashkam"
       ],
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7140321836",
+      "url": "https://doi.org/10.1145/3802544",
+      "pdf": "https://doi.org/10.1145/3802544",
+      "title": "SparseTG-GS: Test Case Generation via Sparse Perturbation Group",
+      "summary": "Deep Neural Networks (DNNs) have been widely applied in the field of computer vision. While DNNs exhibit remarkable accuracy in classification tasks, they remain susceptible to adversarial examples. Robustness testing for DNNs has become crucial. Existing test case generation methods suffer from certain limitations, such as dispersed distribution of perturbations, insufficient realism, and high time cost. This article proposes a test case generation method, Sparse Perturbation-Based Test Case Generation—Group-Wise Sparsity (SparseTG-GS). Initially, superpixel segmentation is applied to partiti",
+      "authors": [
+        "Shunhui Ji",
+        "Yunhe Li",
+        "Yan Xiao",
+        "Hai Dong",
+        "LiMing Hu",
+        "Pengcheng Zhang"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W4417166042",
+      "url": "https://doi.org/10.1016/j.cexr.2026.100187",
+      "pdf": "https://doi.org/10.1016/j.cexr.2026.100187",
+      "title": "Mediating the cognitive foundations of embodied skill: Mobile augmented reality and the sociological preservation of traditional craft education",
+      "summary": "This study addresses skill discontinuity in traditional embodied crafts, using Taiwanese pastry-mold craftsmanship as a case. We examine how a Mobile Augmented Reality (MAR) platform transmits the cognitive foundations of craft practice (procedural sequence knowledge, iconographic meaning, and cultural context) to the “3C generation.” A mixed-methods, one-group pre-test/post-test quasi-experimental design ( N = 30) measured knowledge outcomes and user acceptance. No psychomotor, motion-analytic, or expert-rated performance measures were collected; the study therefore speaks to the cognitive pr",
+      "authors": [
+        "Ching-Yi Wang"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7108317401",
+      "url": "https://doi.org/10.17605/osf.io/yx9rj",
+      "pdf": "https://doi.org/10.17605/osf.io/yx9rj",
+      "title": "The use of cognitive bias modification to reduce body dissatisfaction: Manipulation of interpretation bias, perfectionism, and cognitive flexibility",
+      "summary": "The aim of this study is to experimentally manipulate interpretation bias, perfectionism, and cognitive flexibility using cognitive bias modification techniques and to understand which cognitive process, if not all, can reduce body dissatisfaction.",
+      "authors": [
+        "Yen-Tzu Kung",
+        "Yun zhen, Wu",
+        "WEI-CHIEH CHIU",
+        "Yu-Ching Sun",
+        "Wang, Yun-Lin",
+        "Yu-Han Pao"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7128466625",
+      "url": "https://doi.org/10.1126/scirobotics.aeg6618",
+      "pdf": "https://arxiv.org/pdf/2602.08328",
+      "title": "Controlled flight of an insect-scale flapping-wing robot via integrated onboard sensing and computation",
+      "summary": "Aerial insects can effortlessly navigate dense vegetation, whereas similarly sized aerial robots typically depend on offboard sensors and computation to maintain stable flight. This disparity restricts insect-scale robots to operation in motion-capture environments, substantially limiting their applicability to tasks such as search-and-rescue operations and precision agriculture. In this work, we present a 1.29-gram aerial robot capable of hovering and tracking trajectories with solely onboard sensing and computation. The combination of a sensor suite, estimators, and a low-level controller ac",
+      "authors": [
+        "Hsiao Yi-Hsuan",
+        "Quang Phuc Kieu",
+        "Zhongtao Guan",
+        "Suhan Kim",
+        "Jiaze Cai",
+        "Owen Matteson",
+        "Jonathan P. How",
+        "E. Farrell Helbling",
+        "YuFeng Chen"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7137875154",
+      "url": "https://doi.org/10.1558/jsrnc.33332",
+      "pdf": "",
+      "title": "Manufacturing Dark Green Religion in the European Ecovillage Milieu",
+      "summary": "Ecovillages in Europe are places of embodied and performed dark green religion (DGR) where the gap between environmental values and behavior highlighted by Yi-Fu Tuan in 1970 may, at least in part, be narrowed. Ecovillages may also enable the human animal to better adapt to its habitats, in part due to DGR worldviews and the dwelling practices informed by various of its nature reverencing spiritualities. Indeed, by selecting popular public-facing ecovillages and utilising a mixed methodology of autoethnography, ecolinguistics, and lived networks analysis I argue that many ecovillages, both glo",
+      "authors": [
+        "Todd Jared LeVasseur",
+        "Bron Raymond Taylor"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7167672055",
+      "url": "https://doi.org/10.24272/j.issn.2095-8137.2026.015",
+      "pdf": "https://www.zoores.ac.cn/en/article/pdf/preview/10.24272/j.issn.2095-8137.2026.015.pdf",
+      "title": "寄生虫对宿主的适应性操纵：从现象到因果框架",
+      "summary": "Parasite-induced alterations in host phenotypes are widespread across diverse taxa, yet their evolutionary significance remains difficult to establish. A central challenge in this field is not the scarcity of examples, but distinguishing adaptive parasite manipulation from host responses to infection or incidental pathological consequences. The adaptive manipulation hypothesis proposes that parasites modify host traits in ways that increase transmission or reproductive success, but empirical evidence for this interpretation remains largely correlative, with few studies establishing a direct ca",
+      "authors": [
+        "Zhou Shiqi",
+        "liu mengyao",
+        "Mengyao Liu",
+        "Ruyun Deng",
+        "Lynch Michael",
+        "Michael Lynch",
+        "Zhiqiang Ye",
+        "中国科学院昆明动物研究所, 遗传进化与动物模型全国重点实验室, 云南 昆明 650201, 中国",
+        "亚利桑那州立大学, 生物设计院, 坦佩, 亚利桑那州 85287, 美国"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7202170586",
+      "url": "https://doi.org/10.1162/jocn.a.2723",
+      "pdf": "https://doi.org/10.18112/openneuro.ds008600.v1.0.1",
+      "title": "The Effect of Perceptually Challenging Conditions on Speech and Sign Language Perception",
+      "summary": "Language is often processed in perceptually challenging conditions. Although the neural correlates of speech processing in such conditions have been well studied, this is not the case for sign language. Thus, it is unknown whether the neural mechanisms involved in this process are comparable across language modalities. One reason for the lack of studies in sign language might be attributed to the difficulties in adapting perceptual manipulations from the context of speech to sign language. In the present study, we aim to address the gap in the literature by investigating whether the neural cor",
+      "authors": [
+        "Cristina Tobías Figuerola",
+        "Carine Signoret",
+        "Emil Holmer",
+        "Josefine Andin"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214684092",
+      "url": "https://doi.org/10.1162/jocn.a.2725",
+      "pdf": "",
+      "title": "Awareness-dependent Attentional Templates: Neural Mechanism Differentiation Driven by Visual Working Memory Load",
+      "summary": "Visual working memory (VWM) guides attention via internal attentional templates, but whether this relies on a \"single\" or \"multiple\" templates and how awareness and VWM load regulate its neural mechanisms remain unclear. This study used a VWM-guided visual search paradigm with backward masking (awareness manipulation) and EEG. Behavioral results showed that aware VWM supported multi-template attention guidance, while subjectively unaware VWM only allowed single-template guidance. EEG revealed that alpha oscillations over posterior electrodes indexed attention allocation. Neural mechanisms diff",
+      "authors": [
+        "Yifan Zhang",
+        "Yueling Sun",
+        "Yaochun Cai",
+        "Xilin Zhang",
+        "Jiachen Lu"
+      ],
+      "published": "2026-11-18",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     }
   ]
