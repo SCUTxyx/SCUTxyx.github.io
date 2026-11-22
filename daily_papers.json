@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22 00:01 UTC",
+  "generated_at": "2026-11-22 20:31 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -236,6 +236,33 @@
       "trending": 0.0
     },
     {
+      "id": "W7237349662",
+      "url": "https://doi.org/10.13140/rg.2.2.25531.99363",
+      "pdf": "",
+      "title": "Von Mises-Fisher Mixture Models over Frozen-Encoder Embedding Directions for Anisotropy-Corrected Demonstration Retrieval in Robotic Policy Specialization",
+      "summary": "",
+      "authors": [
+        "Farah Siddiqui",
+        "Camille Roy",
+        "Matteo Rinaldi",
+        "Arjun Mehta",
+        "Giulia Ferraro",
+        "Natalie Brooks",
+        "Gabriel Tremblay",
+        "Adrian Whitaker",
+        "Seo Nayun"
+      ],
+      "published": "2026-11-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
       "id": "W4416042268",
       "url": "https://doi.org/10.1177/02783649261503499",
       "pdf": "https://arxiv.org/pdf/2502.15037",
@@ -448,70 +475,6 @@
       "trending": 1.0
     },
     {
-      "id": "W7236179726",
-      "url": "https://doi.org/10.5281/zenodo.24355514",
-      "pdf": "https://doi.org/10.5281/zenodo.24355514",
-      "title": "On the Myth of Rotational Infinity: Non-Singular 3D Rotations Without Euler Angles or Quaternions",
-      "summary": "This paper presents a focused investigation into a single foundational problem: the algebraic origin and universal elimination of rotational and kinematic singularities (infinity and 0/0) in spatial physics. Analyzing any single discipline in isolation cannot distinguish a universal mathematical defect from a local coordinate anomaly; accordingly, this study audits the identical singularity mechanism across four progressive regimes: planar geometry (S¹), three-dimensional spatial kinematics (SO(3)), incompressible continuum vortex dynamics, and articulated 6-DOF robotic control. Across all fou",
-      "authors": [
-        "Ameen Ullah Khan"
-      ],
-      "published": "2026-11-19",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236309309",
-      "url": "https://doi.org/10.1007/978-3-032-44811-8_18",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-44811-8_18.pdf",
-      "title": "Deploying AI Models in Cloud-Edge Robotics: A Comparative Study of Distribution Patterns with ROS 2",
-      "summary": "In edge robotics, the deployment of computer resource-intensive AI models remains a pivotal challenge. This paper compares four different patterns—Monolithic Docker Images, Microservices with Pre-Built Images, Dynamic Module Loading, and Overlay Workspaces—to highlight trade-offs in storage footprint, management complexity, and performance constraints, offering insights into how each pattern performs under limited computing resources. The aim is to bridge current gaps in container-based approaches for AI-driven robotics. This comparative study provides guidance on efficient and flexible deploy",
-      "authors": [
-        "Francisco Fraile",
-        "Miguel Á. Mateo-Casalí",
-        "Daniel González",
-        "Raúl Poler"
-      ],
-      "published": "2026-11-19",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236430906",
-      "url": "https://doi.org/10.1007/978-1-0716-5695-2_21",
-      "pdf": "",
-      "title": "Robot Navigation for Precise Puncture of Solid Tumors",
-      "summary": "",
-      "authors": [
-        "Chao An",
-        "Mengxuan Zuo",
-        "Soujun Zhou",
-        "Changjiang Xu",
-        "Bin Li"
-      ],
-      "published": "2026-11-19",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
       "id": "W7151602128",
       "url": "https://doi.org/10.1145/3842721.3849662",
       "pdf": "https://doi.org/10.1145/3842721.3849662",
@@ -540,6 +503,49 @@
       "authors": [
         "George A. Levis",
         "Antonio Di Maio"
+      ],
+      "published": "2026-11-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224951824",
+      "url": "https://doi.org/10.1145/3842721.3856772",
+      "pdf": "https://doi.org/10.1145/3842721.3856772",
+      "title": "METRO: MAP-Enhanced Twin Rollouts for Reinforcement Learning-Based Coverage and Capacity Optimization",
+      "summary": "Few-shot coverage and capacity optimization (CCO) under a small adjustment budget is challenging: model-based methods suffer from simulator mismatch, while feedback-based methods are sample-starved. We address this challenge with a rollout-based policy-improvement framework. Rather than deploying the trained policy's highest-probability action directly, we use the policy as a proposal mechanism and a maximum a posteriori (MAP)-calibrated digital twin (DT) as the evaluator. The policy samples candidate actions; each is simulated for multiple steps inside the twin, and only the highest-return ca",
+      "authors": [
+        "Jindan Li",
+        "Samuel Albert",
+        "Yan Xin",
+        "Jianzhong Charlie Zhang",
+        "Tianyi Chen"
+      ],
+      "published": "2026-11-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7237364135",
+      "url": "https://doi.org/10.1007/978-3-032-36098-4_129",
+      "pdf": "https://doi.org/10.1007/978-3-032-36098-4_129",
+      "title": "Real-World Reinforcement Learning for Multimodal Urban Traffic Signal Control",
+      "summary": "Adaptive urban traffic signal control must coordinate motorized traffic, public transport, cyclists, and pedestrians under heterogeneous and highly dynamic demand. Reinforcement learning (RL) is promising for this task, but many published studies still rely on simplified networks or unconstrained control actions. This paper presents an RL-based controller for a calibrated microscopic simulation of a real multimodal urban junction in Jena, Germany, with substantial tram and pedestrian activity. The controller operates directly on the field-approved phase program, selects only legal next phases,",
+      "authors": [
+        "Tobias Nousch",
+        "Django Adam"
       ],
       "published": "2026-11-22",
       "primary_category": "openalex",
