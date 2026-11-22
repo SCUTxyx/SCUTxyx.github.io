@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21 20:18 UTC",
+  "generated_at": "2026-11-22 00:01 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,17 +9,158 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7225150021",
-      "url": "https://doi.org/10.66977/xsci.2611.002z",
-      "pdf": "https://xsci.com/preprint/doi/10.66977/xsci.2611.002z.pdf",
-      "title": "Auditing Representation-Space Fraud Detection: A Bayesian IRL Framework for Calibrated Uncertainty and Its Limits",
-      "summary": "Shilling detectors for recommender systems are almost always evaluated by one number, detection AUROC, with no account of when it can be trusted. We audit representation-space detection with VEIL (Variational Evaluation via Inverse-reinforcement Learning), a pairwise (Bradley–Terry) Bayesian reward-inference framework over frozen encoder embeddings, after the Bayesian auditing paradigm for LLM alignment [1]: (A) a base posterior; (B) a hierarchical ARD extension with a learned confidence; and (C) a label-routed organic/attacker mixture used as an evidence-accumulation check. We prove (Prop. 1)",
+      "id": "W7117159154",
+      "url": "https://doi.org/10.1145/3842721.3849636",
+      "pdf": "https://doi.org/10.1145/3842721.3849636",
+      "title": "MEO: Mining Reliable Expert Signals for Offline Reinforcement Learning in Wireless Networks",
+      "summary": "The operation of next-generation wireless networks increasingly hinges on Deep Reinforcement Learning (DRL) to optimize critical network decisions. Offline RL trains agents using accessible datasets and thus eliminates costly online interactions, rendering it particularly advantageous in dynamic wireless environments that demand low latency and high safety. However, its capability remains under-explored in wireless settings, where offline data are often limited and subject to partial observability. As a result, the learned policy fails to fully capture the informative decision patterns hidden ",
       "authors": [
-        "Shivam Swarup",
-        "Divya Prakash Shrivastava",
-        "Rakesh Thakur"
+        "Lipeng Zu",
+        "Hansong Zhou",
+        "Yu Qian",
+        "Shayok Chakraborty",
+        "Yukun Yuan",
+        "Linke Guo",
+        "Xiaonan Zhang"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 12.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7124169224",
+      "url": "https://doi.org/10.1098/rsta.2025.0154",
+      "pdf": "https://royalsocietypublishing.org/rsta/article-pdf/doi/10.1098/rsta.2025.0154/6178149/rsta.2025.0154.pdf",
+      "title": "Model-agnostic solutions for deep reinforcement learning in non-ergodic contexts",
+      "summary": "Reinforcement learning (RL) remains a central optimization framework in machine learning. Although RL agents can converge to optimal solutions, the definition of ‘optimality’ depends on the environment's statistical properties. The Bellman equation, central to most RL algorithms, is formulated in terms of expected values of future rewards. However, when ergodicity is broken, long-term outcomes depend on the specific trajectory rather than on the ensemble average. In such settings, the ensemble average diverges from the time-average growth experienced by individual agents, with expected-value f",
+      "authors": [
+        "Bert Verbruggen",
+        "Arne Vanhoyweghen",
+        "Vincent Ginis"
+      ],
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7140205654",
+      "url": "https://doi.org/10.1007/978-3-032-45470-6_11",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-45470-6_11.pdf",
+      "title": "TREX: Trajectory Explanations for Multi-objective Reinforcement Learning",
+      "summary": "Reinforcement Learning (RL) has demonstrated its ability to solve complex decision-making problems in a variety of domains, by optimizing reward signals obtained through interaction with an environment. However, many real-world scenarios involve multiple, potentially conflicting objectives that cannot be easily represented by a single scalar reward. Multi-Objective Reinforcement Learning (MORL) addresses this limitation by enabling agents to optimize several objectives simultaneously, explicitly reasoning about trade-offs between them. However, the “black box” nature of the RL models makes the",
+      "authors": [
+        "Dilina Chandika Rajapakse",
+        "Juan C. Rosero",
+        "Ivana Dusparić"
+      ],
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 10.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7166563656",
+      "url": "https://doi.org/10.1080/01691864.2026.2759397",
+      "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/01691864.2026.2759397?needAccess=true",
+      "title": "Learning stable in-grasp manipulation in a non-dropping action space",
+      "summary": "Traditionally, dexterous manipulation controllers are designed using analytic models constrained by strong assumptions about the hand and the objects being manipulated. Reinforcement learning (RL) has become another common approach in which skills are explored openly in an end-to-end manner but is inefficient because of unnoticeable instability and conflicts in learning objectives. This paper attempts to efficiently explore stable and accurate manipulation skills by decomposing dexterous skills into multiple simpler/analyzable components. Each skill component is subsequently learned with const",
+      "authors": [
+        "Ha Thang Long Doan",
+        "Hikaru Arita",
+        "Kazuto Nakashima",
+        "Kenji Tahara"
+      ],
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7235869541",
+      "url": "https://doi.org/10.1007/978-3-032-44811-8_17",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-44811-8_17.pdf",
+      "title": "A Generalizable Gripper Interface for Hardware-Agnostic Policy Learning in Robotic Manipulation",
+      "summary": "This paper introduces a novel gripper interface designed to improve task demonstration in robot learning by providing a hardware- agnostic solution for capturing gripper-state information. By aligning gripper data collection with a unified representation, a consistent and standardized format for diverse gripper data regardless of end-effector configuration, we address the need for an interface that accommodates a variety of end-effector configurations without sacrificing ease of deployment, benefiting flexible processes aimed at products with a high degree of customization. Existing diffusion-",
+      "authors": [
+        "Alejandro González",
+        "Mario Cavero-Vidal",
+        "Óscar Palacín",
+        "Francisco Fernández-Mora",
+        "Alberto San-Miguel",
+        "Néstor García"
+      ],
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7220996997",
+      "url": "https://doi.org/10.1145/3842721.3849640",
+      "pdf": "https://arxiv.org/pdf/2610.07550",
+      "title": "Foundation Model-Aided Multi-Agent Reinforcement Learning for Wireless Random Access Network Optimization",
+      "summary": "Random access (RA) is one of the most foundational medium access control (MAC) layer scheduling schemes for handling unpredictable data traffic from multiple terminals. While multi-agent reinforcement learning (MARL) has been explored to optimize RA-based wireless networks, its reliance on experience-driven, distributed policy learning incurs significant training overhead for each optimization task, limiting its feasibility in real-world applications. In this work, we propose to leverage a foundation model (FM) to improve MARL efficiency across diverse RA network optimization tasks. Specifical",
+      "authors": [
+        "Myeung Suk Oh",
+        "Zhiyao Zhang",
+        "Alvaro Velasquez",
+        "Nathaniel D. Bastian",
+        "Jia Liu"
+      ],
+      "published": "2026-11-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
+    },
+    {
+      "id": "W7135024738",
+      "url": "https://doi.org/10.1098/rsta.2025.0156",
+      "pdf": "https://royalsocietypublishing.org/rsta/article-pdf/doi/10.1098/rsta.2025.0156/6178254/rsta.2025.0156.pdf",
+      "title": "Ergodicity in reinforcement learning",
+      "summary": "In reinforcement learning, we typically aim to optimize the expected value of the sum of rewards an agent collects over a trajectory. However, if the process generating these rewards is non-ergodic, the expected value, i.e. the average over infinitely many trajectories with a given policy, is uninformative for the average over a single, but infinitely long trajectory. Thus, if we care about how the individual agent performs during deployment, the expected value is not a good optimization objective. In this paper, we discuss the impact of non-ergodic reward processes on reinforcement learning a",
+      "authors": [
+        "Dominik Baumann",
+        "Erfaun Noorani",
+        "Arsenii Mustafin",
+        "Xinyi Sheng",
+        "Bert Verbruggen",
+        "Arne Vanhoyweghen",
+        "Vincent Ginis",
+        "Thomas B. Schön"
+      ],
+      "published": "2026-11-19",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -30,19 +171,17 @@
       "trending": 0.0
     },
     {
-      "id": "W7167069481",
-      "url": "https://doi.org/10.1038/s41598-026-71501-6",
-      "pdf": "https://doi.org/10.1038/s41598-026-71501-6",
-      "title": "A complete-coverage path-planning algorithm based on local path cost",
-      "summary": "Complete coverage path planning (CCPP) is a core enabling technology for autonomous operation and navigation of mobile robots and unmanned surface vehicles (USVs). However, in large-scale and complex environments, due to the lack of directional guidance in population evolution, existing heuristic path planners often suffer from slow convergence, premature trapping in local optima, and excessive turning maneuvers along the planned tour. To mitigate the blindness of conventional mutation operators, this paper proposes a complete-coverage path-planning algorithm based on local path cost (CCPP-LPC",
+      "id": "W7220955823",
+      "url": "https://doi.org/10.1145/3842721.3850090",
+      "pdf": "https://doi.org/10.1145/3842721.3850090",
+      "title": "Demo: Closed-Loop Sionna-Isaac Sim Co-Simulation Framework for Wireless-Aware Robot Navigation over ROS 2",
+      "summary": "A robot that offloads its control loop to the network carries the receiver with it, so link quality is decided by where it goes. Simulating this requires both a physics engine and a site-specific propagation model at once; to our knowledge no simulator natively unifies both, with existing couplings of the two limited to offline analyses. We demonstrate a real-time co-simulation framework coupling NVIDIA Isaac Sim and NVIDIA Sionna over ROS 2 that closes the perception-action-communication (PAC) loop between them. Sionna ray-traces the base-station-to-robot channel over the exact geometry Isaac",
       "authors": [
-        "Xia Wang",
-        "Yuhang Zhu",
-        "Jianing Tang",
-        "Z Dai",
-        "Chenjia Li"
+        "Yi Shen Lim",
+        "Seungeun Oh",
+        "Jihong Park"
       ],
-      "published": "2026-11-21",
+      "published": "2026-11-22",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -53,19 +192,90 @@
       "trending": 0.0
     },
     {
-      "id": "W7169637818",
-      "url": "https://doi.org/10.1007/978-3-032-38039-5_13",
-      "pdf": "https://research-portal.uws.ac.uk/en/publications/2d22d9c5-ed1d-4a4b-8a39-a8d03519d207",
-      "title": "Pitfalls in Multispectral In-Field Strawberry Detection: Challenges and First Results for Ripeness Classification in Robotic Harvesting",
+      "id": "W7224846140",
+      "url": "https://doi.org/10.1145/3842721.3849649",
+      "pdf": "https://doi.org/10.1145/3842721.3849649",
+      "title": "Distributed Collaborative Positioning through ISAC for GPS-Denied Robotic Swarms",
+      "summary": "Robotic swarms in GPS-denied environments require accurate position and velocity in real-time for all nodes, without external infrastructure or centralized control. Existing positioning approaches, including collaborative positioning, fail because of non-scalable (O(N2)) measurement overhead or centralized architectures that cannot keep pace with high-mobility swarms. We present DiCoP, a novel paradigm of Distributed Collaborative Positioning through asynchronous, multi-static ISAC. Each node broadcasts a lightweight ISAC waveform, enabling all neighbors to passively and asynchronously measure",
+      "authors": [
+        "Yu-Tai Lin",
+        "Ting-Wei Hsu",
+        "Karthikeyan Sundaresan"
+      ],
+      "published": "2026-11-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224929112",
+      "url": "https://doi.org/10.1145/3842721.3849681",
+      "pdf": "https://doi.org/10.1145/3842721.3849681",
+      "title": "Towards Agile and Active Scene Update for Embodied Space Exploration: A WiFi-Guided Approach",
+      "summary": "Timely scene updating is essential for embodied agents operating in dynamic indoor environments. While cameras and LiDAR are effective for high-fidelity reconstruction and verification, relying on them alone for long-term maintenance is costly, since robots must repeatedly revisit large areas to rediscover relatively sparse changes. This paper presents WiDR, a WiFi-guided framework for efficient and active scene updating. The key idea is to use ubiquitous wireless signals as a low-overhead prior indicating where meaningful changes are likely to occur, thereby guiding visual or depth-based veri",
+      "authors": [
+        "Cheng Pan",
+        "Cong Zhang",
+        "Edith C.‐H. Ngai",
+        "Jiangchuan Liu",
+        "Bo Li"
+      ],
+      "published": "2026-11-22",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W4416042268",
+      "url": "https://doi.org/10.1177/02783649261503499",
+      "pdf": "https://arxiv.org/pdf/2502.15037",
+      "title": "DEFT: Differentiable branched discrete elastic rods for modeling furcated DLOs in real-time",
+      "summary": "Autonomous wire harness assembly requires robots to manipulate complex branched cables with high precision and reliability. A key challenge to automating this process is accurately predicting how branched cables deform during manipulation. Although well-studied for single Deformable Linear Objects (DLOs), existing methods do not extend directly to Branched DLOs (BDLOs), whose junctions couple bending, twisting, and stretching across branches in ways that connecting multiple DLO models cannot capture. To address this challenge, this paper introduces Differentiable discrete branched Elastic rods",
+      "authors": [
+        "Yizhou Chen",
+        "Felicia Sang",
+        "Shicheng Peng",
+        "Xiaoyue Wu",
+        "Yeheng Zong",
+        "Yuzhen Chen",
+        "Anran Li",
+        "Bohao Zhang",
+        "Ram Vasudevan"
+      ],
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7161903876",
+      "url": "https://doi.org/10.1016/j.engstruct.2026.124161",
+      "pdf": "https://doi.org/10.2139/ssrn.6805252",
+      "title": "Automated assembly of precast deck panel systems with notched connections: An integrated robotic system using target detection and visual SLAM",
       "summary": "",
       "authors": [
-        "Tomo Lange",
-        "Tim Tiedemann",
-        "Kai Von Luck",
-        "Peer Stelldinger",
-        "Keshav Dahal"
+        "Da Huang",
+        "Xin Nie",
+        "Chentao Ye",
+        "Zijun Yi",
+        "Jian‐Sheng Fan"
       ],
-      "published": "2026-11-21",
+      "published": "2026-11-19",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -76,94 +286,21 @@
       "trending": 0.0
     },
     {
-      "id": "W7237047770",
-      "url": "https://doi.org/10.1007/s11701-026-04227-2",
-      "pdf": "",
-      "title": "Treatment burden and long-term morbidity after transoral robotic vs. nonrobotic surgery for oropharyngeal cancer",
-      "summary": "",
+      "id": "W7167495238",
+      "url": "https://doi.org/10.7554/elife.111607.2",
+      "pdf": "https://doi.org/10.7554/elife.111607.2",
+      "title": "Coordinated beak–tongue mechanics enable dexterous seed manipulation in songbirds",
+      "summary": "Dexterous manipulation of objects relies on precise coordination between anatomical elements. In seed-eating birds, seeds are manipulated and dehusked using both the beak and tongue, but the functional roles and coordination of these structures remain unresolved. Here, we quantified the 3D movements of the upper beak, lower beak, tongue, and seed in a hard-biting and a weak-biting songbird species using X-ray Reconstruction of Moving Morphology (XROMM) and measured contractile properties of their primary jaw muscles. We show that the tongue serves as the main tool for seed rotation, transport,",
       "authors": [
-        "Nayeon Choi",
-        "Seok-Joo Moon",
-        "Sang Hoo Park",
-        "Younghac Kim",
-        "Taek Yoon Cheong",
-        "Dong Wook Shin",
-        "Hong Kwan Kim",
-        "Dongryul Oh",
-        "Danbee Kang"
+        "Maja Mielke",
+        "Falk Mielke",
+        "Nicholas W. Gladman",
+        "Dan A. Tatulescu",
+        "Anthony Herrel",
+        "Coen P. H. Elemans",
+        "Sam Van Wassenbergh"
       ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237168890",
-      "url": "https://doi.org/10.1007/s11701-026-04195-7",
-      "pdf": "https://doi.org/10.1007/s11701-026-04195-7",
-      "title": "Patient perception of robotic-assisted spine surgery",
-      "summary": "Patient behaviors related to pursuing robotic-assisted spine surgery remain poorly characterized. This study evaluated patients’ perceptions of robotic-assisted spine surgery and behaviors related to seeking robotic-assisted care. We surveyed 116 adult spine patients at initial consultation ( n = 101) or postoperative follow-up after confirmed robotic-assisted surgery ( n = 15). Questions assessed perceived attributes of robotic-assisted versus traditional surgery, comfort, surgical preference, willingness to recommend robotic spine surgery, perceived robotic involvement, and whether patients ",
-      "authors": [
-        "Robert G. WATKINS V",
-        "David L. Skaggs",
-        "Christopher Mikhail"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237187058",
-      "url": "https://doi.org/10.1007/s11701-026-04193-9",
-      "pdf": "",
-      "title": "Alternative multiport robotic platforms versus da Vinci in colorectal cancer surgery: a systematic review and platform-stratified meta-analysis",
-      "summary": "",
-      "authors": [
-        "Abdulaziz Altamimi",
-        "Razan Abdulwahab Alanazi",
-        "Mohammad Awad Hussain Al-Mohy",
-        "Saeed Ali Al-Shahrani",
-        "Faisal Bander Aldalbahi",
-        "Nasser Saeed Al Manaa",
-        "Abdullah Abdulrhman Albahouth",
-        "Bassem Assi",
-        "Osama Essa Mujammami",
-        "Eid Mohammed Alharbi",
-        "Faisal Shuayl Alkathiri",
-        "Ali Ibrahim A. Alshehri"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237212847",
-      "url": "https://doi.org/10.1007/978-3-032-38039-5_17",
-      "pdf": "",
-      "title": "Vision-Based Multi-camera Robotics Simulation: The SIMLAN Open-Source Framework for Industrial Environments",
-      "summary": "",
-      "authors": [
-        "Hamid Ebadi",
-        "Pär Aronsson"
-      ],
-      "published": "2026-11-21",
+      "published": "2026-11-19",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -174,37 +311,84 @@
       "trending": 1.5
     },
     {
-      "id": "W7237242309",
-      "url": "https://doi.org/10.1007/978-3-032-38039-5_19",
+      "id": "W7167911808",
+      "url": "https://doi.org/10.1007/s10921-026-01458-z",
+      "pdf": "https://doi.org/10.1007/s10921-026-01458-z",
+      "title": "Experimental Study on Robotic Eddy Current Inspection of Aeroengine Turbine Blades",
+      "summary": "This study proposes an automated eddy current inspection technology to address the challenges in detecting subsurface cold-shut defects in aero-engine turbine blades. First, based on the principle of eddy current testing, an optimal bridge absolute probe configuration was designed through electromagnetic field finite element simulation to optimize the magnetic core materials and coil parameters, thereby eliminating blind detection zones in manual operations. Second, a robot-turntable cooperative inspection system is constructed to develop an automated prototype. Finally, trajectory planning wa",
+      "authors": [
+        "Kai Song",
+        "Wenyu Xie",
+        "Wenbo Zhou",
+        "Yuhua You",
+        "Junxian Liu",
+        "Rongbiao Wang"
+      ],
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7214093547",
+      "url": "https://doi.org/10.3390/act15110614",
+      "pdf": "https://doi.org/10.3390/act15110614",
+      "title": "Design, Simulation, and Experimental Validation of a Soft Robotic Finger with Variable Stiffness and Embedded Sensing",
+      "summary": "This work presents a soft finger that combines pneumatic actuation, variable stiffness, and embedded sensing and was designed, simulated, and experimentally tested. The finger integrates a fiber-reinforced pneumatic actuator with three interconnected chambers, located at the metacarpophalangeal (MCP), proximal interphalangeal (PIP), and distal interphalangeal (DIP) joints, which generate single-input underactuated bending. The prototype was fabricated by silicone casting in 3D-printed molds and incorporates a bio-based granular filler that allows post-deformation stiffening. Bending under pres",
+      "authors": [
+        "Konstantinos Karagiannis",
+        "Ioanna Tzoumani",
+        "George Nikolakopoulos",
+        "Panagiotis Ν. Koustoumpardis"
+      ],
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225137519",
+      "url": "https://doi.org/10.1364/ao.614984",
       "pdf": "",
-      "title": "Humanoid Robots in the Family: Adult and Child Perspectives on Domestic Robots",
+      "title": "Real-time underwater optical image restoration using a progressive transformer-CNN model",
+      "summary": "Underwater optical imaging is inevitably degraded by particle scattering and wavelength-dependent absorption, which jointly cause image blur, low contrast, and color casts. These optical degradations impose three critical requirements on underwater image enhancement for robotic vision systems: accurate extraction of local details, effective modeling of global scene structure, and real-time processing. However, existing CNN- or transformer-based architectures alone often fail to satisfy all three demands simultaneously. To address this, we propose a progressive transformer-CNN (TCP) model for r",
+      "authors": [
+        "Xu Su",
+        "Xing Peng",
+        "Xinjie Zhao"
+      ],
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7235816565",
+      "url": "https://openalex.org/W7235816565",
+      "pdf": "",
+      "title": "When the evaluator is a robot: Exploring the social conditions under which robotic presence reduces Stroop interference",
       "summary": "",
       "authors": [
-        "Hasini Manda",
-        "Ahmed Sabbir Arif"
+        "Pablo Croizet",
+        "Clément Belletier",
+        "Ludovic Ferrand"
       ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7152632487",
-      "url": "https://doi.org/10.1007/s41315-026-00604-0",
-      "pdf": "https://www.researchsquare.com/article/rs-8693518/latest.pdf",
-      "title": "An investigation of 6-DOF robot path planning using evolutionary algorithms",
-      "summary": "Multi-objective optimization (MOO) plays a vital role in robotics, where several conflicting objectives—such as minimizing energy consumption, execution time, and motion jerk—must be simultaneously satisfied. Traditional single-objective approaches fail to represent the trade-offs among such competing criteria, motivating the adoption of population-based evolutionary and swarm intelligence algorithms. This study presents a novel comparative investigation of two leading multi-objective optimization methods, MOPSO and NSGA-II, for 6-DOF robotic trajectory planning. The study also lays the founda",
-      "authors": [
-        "Mohamed Gamal Ebrahem AbdelJawad",
-        "A Gaaboub Ibrahim",
-        "Tarek Tawfeek"
-      ],
-      "published": "2026-11-18",
+      "published": "2026-11-19",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -215,17 +399,20 @@
       "trending": 0.0
     },
     {
-      "id": "W7224213689",
-      "url": "https://doi.org/10.1088/1748-3190/aebb86",
-      "pdf": "https://iopscience.iop.org/article/10.1088/1748-3190/aebb86/pdf",
-      "title": "Substrate-dependent friction and climbing performance in a flying snake",
-      "summary": "Locomotion in limbless animals depends on friction between the body and substrate. In snakes, the skin-substrate interface can generate frictional anisotropy, lowering resistance during forward motion while increasing resistance during backward or transverse motion. These properties have inspired models and robots that rely on directional friction, yet empirical measurements remain limited across species and substrates. We measured static and dynamic coefficients of friction in a flying snake, Chrysopelea paradisi , using an inclined-plane method on four artificial substrates and one natural s",
+      "id": "W7235883409",
+      "url": "https://doi.org/10.1007/978-3-032-44811-8_15",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-44811-8_15.pdf",
+      "title": "An LLM-Based Multi-agent System for Digital Twin Integration in Industry 5.0",
+      "summary": "As we move from Industry 4.0 to Industry 5.0, fully automated systems start to give way to human-centric ones, in which human traits such as creativity and problem solving are leveraged and augmented through AI assistance. Human-AI collaboration is therefore fundamental. However, industrial processes are becoming increasingly complex. They are now hyper-connected ecosystems, integrating IIoT, AI, robotics or digital twins with new data streams and interdependencies. For a human, extracting and analyzing data from this complex ecosystem so that informed decisions can be taken becomes a non-triv",
       "authors": [
-        "Jonas Scherer",
-        "Hodjat Pendar",
-        "John J. Socha"
+        "Jose Sousa",
+        "Davide Rua Carneiro",
+        "Miguel Guimarães",
+        "Filipe Oliveira",
+        "Romão Santos",
+        "Mariana Amaro"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-19",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -236,15 +423,40 @@
       "trending": 0.0
     },
     {
-      "id": "W7225076123",
-      "url": "https://doi.org/10.63580/iti.fi.45796",
-      "pdf": "https://doi.org/10.63580/iti.fi.45796",
-      "title": "Research Spotlight 7 - Comparative Trueness of Static, Dynamic, and Robotic Computer-Assisted Implant Surgery: A Comprehensive Umbrella Review",
-      "summary": "A series that provides concise summaries of high-impact studies, offering a clear and accessible overview of the latest evidence.",
+      "id": "W7235904213",
+      "url": "https://doi.org/10.1007/978-3-032-44811-8_16",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-44811-8_16.pdf",
+      "title": "Deep Learning-Based Robot Perception for Agile Manufacturing: An Automotive Case Study on Precise Battery Assembly",
+      "summary": "Wider industrial adoption of advanced automation remains constrained by factors such as limited cognitive capabilities, inefficiencies in system reconfiguration, and the complexity of robot programming. In high-precision manufacturing significant challenges persist in robotized component handling and autonomous variant detection. Despite notable research advancements in AI-driven perception systems, detection and manipulation of small components with complex geometries, such as flexible or irregularly shaped parts, continue to pose significant challenges, particularly when these objects are ra",
       "authors": [
-        "Asbjørn Jokstad"
+        "Giannis Gkini",
+        "Panagiotis Angelakis",
+        "Loukas Prezas",
+        "Zoi Arkouli",
+        "Christos Gkrizis",
+        "Nikos Dimitropoulos",
+        "Sotiris Makris"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.0
+    },
+    {
+      "id": "W7236179726",
+      "url": "https://doi.org/10.5281/zenodo.24355514",
+      "pdf": "https://doi.org/10.5281/zenodo.24355514",
+      "title": "On the Myth of Rotational Infinity: Non-Singular 3D Rotations Without Euler Angles or Quaternions",
+      "summary": "This paper presents a focused investigation into a single foundational problem: the algebraic origin and universal elimination of rotational and kinematic singularities (infinity and 0/0) in spatial physics. Analyzing any single discipline in isolation cannot distinguish a universal mathematical defect from a local coordinate anomaly; accordingly, this study audits the identical singularity mechanism across four progressive regimes: planar geometry (S¹), three-dimensional spatial kinematics (SO(3)), incompressible continuum vortex dynamics, and articulated 6-DOF robotic control. Across all fou",
+      "authors": [
+        "Ameen Ullah Khan"
+      ],
+      "published": "2026-11-19",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -255,16 +467,61 @@
       "trending": 0.0
     },
     {
-      "id": "W7235082129",
-      "url": "https://doi.org/10.5281/zenodo.24327721",
-      "pdf": "https://doi.org/10.5281/zenodo.24327721",
-      "title": "Cost and production effects of offline reinforcement learning for delayed compositional sampling: Research code",
-      "summary": "Research code accompanying the paper “Cost and production effects of offline reinforcement learning for delayed compositional sampling.” The package includes process simulation, offline policy fitting, evaluation, statistical analysis and figure-generation scripts. Installation instructions, verified dependency versions and script-to-paper mappings are provided in README.md. This release contains code only. Required datasets and frozen evaluation records are distributed separately; see README.md for input requirements and verification scope. Original research code is released under the MIT lic",
+      "id": "W7236309309",
+      "url": "https://doi.org/10.1007/978-3-032-44811-8_18",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-44811-8_18.pdf",
+      "title": "Deploying AI Models in Cloud-Edge Robotics: A Comparative Study of Distribution Patterns with ROS 2",
+      "summary": "In edge robotics, the deployment of computer resource-intensive AI models remains a pivotal challenge. This paper compares four different patterns—Monolithic Docker Images, Microservices with Pre-Built Images, Dynamic Module Loading, and Overlay Workspaces—to highlight trade-offs in storage footprint, management complexity, and performance constraints, offering insights into how each pattern performs under limited computing resources. The aim is to bridge current gaps in container-based approaches for AI-driven robotics. This comparative study provides guidance on efficient and flexible deploy",
       "authors": [
-        "IMRAN MUHAMMAD",
-        "Fatima Zaidi"
+        "Francisco Fraile",
+        "Miguel Á. Mateo-Casalí",
+        "Daniel González",
+        "Raúl Poler"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7236430906",
+      "url": "https://doi.org/10.1007/978-1-0716-5695-2_21",
+      "pdf": "",
+      "title": "Robot Navigation for Precise Puncture of Solid Tumors",
+      "summary": "",
+      "authors": [
+        "Chao An",
+        "Mengxuan Zuo",
+        "Soujun Zhou",
+        "Changjiang Xu",
+        "Bin Li"
+      ],
+      "published": "2026-11-19",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7151602128",
+      "url": "https://doi.org/10.1145/3842721.3849662",
+      "pdf": "https://doi.org/10.1145/3842721.3849662",
+      "title": "Restless Bandits with Individual Penalty Constraints: Near-Optimal Indices and Deep Reinforcement Learning",
+      "summary": "This paper investigates the Restless Multi-Armed Bandit (RMAB) framework under individual penalty constraints to address resource allocation challenges in dynamic wireless networked environments. Unlike conventional RMAB models, our model allows each user (arm) to have distinct and stringent performance constraints, such as energy limits, activation limits, or age of information minimums, enabling the capture of diverse objectives including fairness and efficiency. To find the optimal resource allocation policy, we propose a new Penalty-Optimal Whittle (POW) index policy. The POW index of an u",
+      "authors": [
+        "Nida Zamir",
+        "I-Hong Hou"
+      ],
+      "published": "2026-11-22",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -275,268 +532,23 @@
       "trending": 0.0
     },
     {
-      "id": "W7154461826",
-      "url": "https://doi.org/10.24272/j.issn.2095-8137.2025.568",
-      "pdf": "https://www.zoores.ac.cn/en/article/pdf/preview/10.24272/j.issn.2095-8137.2025.568.pdf",
-      "title": "鸽子外纹体中颜色选择性神经元群体的神经表征",
-      "summary": "Understanding how birds encode object color is fundamental to elucidating the neural mechanisms of color vision. Although behavioral studies have shown high color-discrimination accuracy in birds, it remains unclear whether higher-order visual areas organize color information in a structured manner. Here, we performed multi-site multi-unit activity recordings from the pigeon entopallium while presenting multi-category images that systematically varied in hue, luminance, and saturation. Many entopallium sites exhibited robust hue selectivity that remained stable across luminance and saturation ",
+      "id": "W7224849169",
+      "url": "https://doi.org/10.1145/3842721.3849685",
+      "pdf": "https://doi.org/10.1145/3842721.3849685",
+      "title": "PRISM: Reinforced Semantic Communication for Decentralized Federated Anomaly Detection in Vehicular Networks",
+      "summary": "Decentralized Federated Learning (DFL) enables collaborative learning that preserves privacy, but faces critical communication challenges in bandwidth-constrained environments such as vehicular networks. We propose Policy-driven Representation and Information Selection Method (PRISM), a Reinforcement Learning (RL)-based method that optimizes semantic communication in DFL through adaptive representation selection and intelligent topology management. Our dual-model architecture separates task learning (autoencoder-based anomaly detection) from communication control (Proximal Policy Optimization ",
       "authors": [
-        "HE Qing-zhi",
-        "Juncai Zhu",
-        "Niu Xiao-Ke",
-        "Wu Peng",
-        "Zhang Ru-Peng",
-        "Li Bo",
-        "Zhizhong WANG",
-        "Zhizhong Wang"
+        "George A. Levis",
+        "Antonio Di Maio"
       ],
-      "published": "2026-11-18",
+      "published": "2026-11-22",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237016910",
-      "url": "https://doi.org/10.5281/zenodo.24409011",
-      "pdf": "https://doi.org/10.5281/zenodo.24409011",
-      "title": "Untitled Experimental Video",
-      "summary": "This 60-second experimental video features heavily processed, high-contrast visuals paired with a continuous ambient soundscape. Visual Style: The footage is aggressively posterized and overexposed, reducing the image to stark blacks, blown-out whites, and saturated primary/secondary hues (predominantly yellow, cyan, green, and red). 00:00 – 00:04: Opens with a high-contrast silhouette of a hand/arm reaching near a paneled door, with dark, textured forms in the lower foreground. 00:05 – 00:23: Shifts to a low-angle static shot looking past several rounded, yellow-tinted objects in the foregrou",
-      "authors": [
-        "Daha Kim"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
-    },
-    {
-      "id": "W7124232260",
-      "url": "https://doi.org/10.1007/978-3-032-38039-5_18",
-      "pdf": "",
-      "title": "Beyond Technical Features: The Role of Partner Familiarity and Co-presence in Older Adults’ Telepresence Robot Acceptance",
-      "summary": "",
-      "authors": [
-        "Melisa Conde"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7163176446",
-      "url": "https://doi.org/10.1186/s12917-026-06083-6",
-      "pdf": "https://doi.org/10.1186/s12917-026-06083-6",
-      "title": "Candidate gene polymorphisms, MHC-linked markers, genome-wide loci and host-gene manipulation in relation to Newcastle disease outcomes in chickens: a systematic review",
-      "summary": "Background Newcastle disease (ND), caused by avian orthoavulavirus 1, remains a major constraint on chicken production. This review evaluated evidence linking host genetic variants and experimental manipulation of named host genes to Newcastle disease virus (NDV) outcomes in chickens. Methods Following PRISMA 2020, Scopus, Web of Science, and PubMed were searched from January 2000 to October 2026, and records from preliminary searches were added. Eligible studies genotyped host variation, or knocked out, substituted, or overexpressed a named host gene, in chickens or chicken cells and measured",
-      "authors": [
-        "Nsiyapnze Katte Yato Katte",
-        "Shey Ndogmi Yoniwo",
-        "Blaise Arnaud Hako Touko",
-        "Julius Awah‐Ndukum"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236991985",
-      "url": "https://doi.org/10.5281/zenodo.24409211",
-      "pdf": "https://doi.org/10.5281/zenodo.24409211",
-      "title": "Sync and Control",
-      "summary": "This 2-minute-54-second documentation video showcases an interactive audiovisual sculpture in operation, pairing physical manipulation with responsive projection mapping and live electronic/mechanical sound. Physical Setup: A matte-black, multi-tiered sculptural structure with a hinged side panel sits atop a white rectangular pedestal. Exposed electronic components, breadboards, and draped cables rest between the base of the sculpture and the pedestal. Visual Projection: A luminous projection mapped onto the upper front face of the white pedestal displays shifting, saturated color gradients (m",
-      "authors": [
-        "Daha Kim"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237015353",
-      "url": "https://doi.org/10.2991/978-94-6239-847-4_6",
-      "pdf": "https://doi.org/10.2991/978-94-6239-847-4_6",
-      "title": "The Research on Trajectory Planning of Agricultural Intelligent Robot Based on Quintic Polynomials",
-      "summary": "",
-      "authors": [
-        "Daquan Yu",
-        "Gang Liu",
-        "Jia Qin",
-        "Peng Pang",
-        "Dan Liu",
-        "Yanli Zhang"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237042884",
-      "url": "https://doi.org/10.1007/s11701-026-04217-4",
-      "pdf": "https://doi.org/10.1007/s11701-026-04217-4",
-      "title": "Preparation–need concordance and patient readiness in robot-assisted surgery: a scoping review",
-      "summary": "",
-      "authors": [
-        "Roison Andro Narvaez",
-        "Aqeel Adnan C. Al-Mahdaly",
-        "Ronalyn Topacio",
-        "Heinrich Presas",
-        "Marilane Ferrer",
-        "Josephine M. De Leon"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237185538",
-      "url": "https://doi.org/10.1007/s11701-026-04215-6",
-      "pdf": "",
-      "title": "Short-term postoperative outcomes of endoscopic treatment versus robot-assisted pyeloplasty for ureteropelvic junction obstruction",
-      "summary": "",
-      "authors": [
-        "Jad Hamawi",
-        "Alaa Balaghi",
-        "Elie Abi Khalil",
-        "Maher Abdessater"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4417166042",
-      "url": "https://doi.org/10.1016/j.cexr.2026.100187",
-      "pdf": "https://doi.org/10.1016/j.cexr.2026.100187",
-      "title": "Mediating the cognitive foundations of embodied skill: Mobile augmented reality and the sociological preservation of traditional craft education",
-      "summary": "This study addresses skill discontinuity in traditional embodied crafts, using Taiwanese pastry-mold craftsmanship as a case. We examine how a Mobile Augmented Reality (MAR) platform transmits the cognitive foundations of craft practice (procedural sequence knowledge, iconographic meaning, and cultural context) to the “3C generation.” A mixed-methods, one-group pre-test/post-test quasi-experimental design ( N = 30) measured knowledge outcomes and user acceptance. No psychomotor, motion-analytic, or expert-rated performance measures were collected; the study therefore speaks to the cognitive pr",
-      "authors": [
-        "Ching-Yi Wang"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7108317401",
-      "url": "https://doi.org/10.17605/osf.io/yx9rj",
-      "pdf": "https://doi.org/10.17605/osf.io/yx9rj",
-      "title": "The use of cognitive bias modification to reduce body dissatisfaction: Manipulation of interpretation bias, perfectionism, and cognitive flexibility",
-      "summary": "The aim of this study is to experimentally manipulate interpretation bias, perfectionism, and cognitive flexibility using cognitive bias modification techniques and to understand which cognitive process, if not all, can reduce body dissatisfaction.",
-      "authors": [
-        "Yen-Tzu Kung",
-        "Yun zhen, Wu",
-        "WEI-CHIEH CHIU",
-        "Yu-Ching Sun",
-        "Wang, Yun-Lin",
-        "Yu-Han Pao"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7128466625",
-      "url": "https://doi.org/10.1126/scirobotics.aeg6618",
-      "pdf": "https://arxiv.org/pdf/2602.08328",
-      "title": "Controlled flight of an insect-scale flapping-wing robot via integrated onboard sensing and computation",
-      "summary": "Aerial insects can effortlessly navigate dense vegetation, whereas similarly sized aerial robots typically depend on offboard sensors and computation to maintain stable flight. This disparity restricts insect-scale robots to operation in motion-capture environments, substantially limiting their applicability to tasks such as search-and-rescue operations and precision agriculture. In this work, we present a 1.29-gram aerial robot capable of hovering and tracking trajectories with solely onboard sensing and computation. The combination of a sensor suite, estimators, and a low-level controller ac",
-      "authors": [
-        "Hsiao Yi-Hsuan",
-        "Quang Phuc Kieu",
-        "Zhongtao Guan",
-        "Suhan Kim",
-        "Jiaze Cai",
-        "Owen Matteson",
-        "Jonathan P. How",
-        "E. Farrell Helbling",
-        "YuFeng Chen"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7137875154",
-      "url": "https://doi.org/10.1558/jsrnc.33332",
-      "pdf": "",
-      "title": "Manufacturing Dark Green Religion in the European Ecovillage Milieu",
-      "summary": "Ecovillages in Europe are places of embodied and performed dark green religion (DGR) where the gap between environmental values and behavior highlighted by Yi-Fu Tuan in 1970 may, at least in part, be narrowed. Ecovillages may also enable the human animal to better adapt to its habitats, in part due to DGR worldviews and the dwelling practices informed by various of its nature reverencing spiritualities. Indeed, by selecting popular public-facing ecovillages and utilising a mixed methodology of autoethnography, ecolinguistics, and lived networks analysis I argue that many ecovillages, both glo",
-      "authors": [
-        "Todd Jared LeVasseur",
-        "Bron Raymond Taylor"
-      ],
-      "published": "2026-11-18",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     }
   ]
