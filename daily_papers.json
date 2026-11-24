@@ -1,11 +1,555 @@
 {
-  "generated_at": "2026-11-23 00:33 UTC",
+  "generated_at": "2026-11-24 01:19 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
     "cs.LG",
     "cs.AI"
   ],
-  "count": 0,
-  "papers": []
+  "count": 24,
+  "papers": [
+    {
+      "id": "W7172535591",
+      "url": "https://doi.org/10.1002/smb2.70081",
+      "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smb2.70081",
+      "title": "Human Centric Embodied Intelligence for Soft Wearable Robotics",
+      "summary": "Soft wearable robots have evolved rapidly from proof‐of‐concept devices into promising platforms for rehabilitation, occupational assistance, and human augmentation. As the field matures, its central challenge extends beyond developing softer materials and more capable actuators to integrating sensing, intelligence, and human adaptation into systems that users can wear comfortably, trust, and benefit from over long periods. This transition motivates the concept of human centric embodied intelligence (HCEI). In HCEI, intelligence emerges from the coupled human–robot system, through the interact",
+      "authors": [
+        "Rainier F. Natividad",
+        "Chen‐Hua Yeow"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7236778796",
+      "url": "https://doi.org/10.4028/p-jv1vt8",
+      "pdf": "",
+      "title": "Surface Microstructure Engineering of Carbon Black/Ecoflex Nanocomposite for Enhanced Piezoresistive Sensors Performance",
+      "summary": "Flexible strain sensors based on piezoresistive mechanism have gained considerable interest in wearable devices, soft robotic system and electronic skin due to its advantages such as flexible and capability to detect mechanical deformation through electrical signal variation. Despite recent advances, developing sensors with reliable sensitivity, simple fabrication, and cost-effective processing remains a significant challenge. In this study, carbon black (CB)/Ecoflex composite sensors were fabricated using a 3D printing-assisted technique to investigate the influence of conductive filler conce",
+      "authors": [
+        "Fatimah Khairiah Abd Hamid",
+        "Nor Diyana Md Sin",
+        "Nur Amalina Muhamad",
+        "Mohamad Hafiz Mamat",
+        "Nurul Ezaila Alias",
+        "Zaharah Johari",
+        "Noor Dzulaikha Daud"
+      ],
+      "published": "2026-11-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7237338333",
+      "url": "https://doi.org/10.1108/ec-11-2025-1397",
+      "pdf": "",
+      "title": "Optimization method for spatial robot arm locking-unit layout based on plant root adaptive growth patterns",
+      "summary": "Purpose To address the optimization problem of spatial robotic arm locking-unit layout, this study proposes a collaborative optimization method based on the adaptive growth patterns of plant roots. The approach aims to enhance the fundamental frequency of the robotic arm system while reducing the number of locking units. Design/methodology/approach Drawing upon the adaptive growth principles of monocotyledonous roots, a collaborative optimization model for the position–stiffness–quantity of locking units was established. By constructing simplified spatial robotic arm models and three-dimension",
+      "authors": [
+        "Haitao Bu",
+        "Gang Wang",
+        "Xutong Zhang",
+        "Fei Yang",
+        "Honghao Yue",
+        "Yaqiong Zhao"
+      ],
+      "published": "2026-11-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W4405917855",
+      "url": "https://doi.org/10.1007/s11263-026-03106-5",
+      "pdf": "https://doi.org/10.1007/s11263-026-03106-5",
+      "title": "Sound2Vision: Generating Diverse Visuals from Audio through Cross-Modal Latent Alignment",
+      "summary": "How does audio describe the world around us? In this work, we propose a method for generating images of visual scenes from diverse in-the-wild sounds. This cross-modal generation task is challenging due to the significant information gap between auditory and visual signals. We address this challenge by designing a model that aligns audio-visual modalities by enriching audio features with visual information and translating them into the visual latent space. These features are then fed into the pre-trained image generator to produce images. To enhance image quality, we use sound source localizat",
+      "authors": [
+        "Sung-Bin Kim",
+        "Arda Senocak",
+        "Hyunwoo Ha",
+        "Tae-Hyun Oh"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W4415332934",
+      "url": "https://doi.org/10.1177/02783649261505482",
+      "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/02783649261505482?download=true",
+      "title": "Recent advances in multi-agent human trajectory prediction: A comprehensive review",
+      "summary": "With the emergence of powerful data-driven methods in human trajectory prediction (HTP), gaining a finer understanding of multi-agent interactions lies within hand’s reach, with important implications in areas such as social robot navigation, autonomous driving, and crowd modeling. This survey reviews some of the most recent advancements in deep learning-based multi-agent trajectory prediction, focusing on studies published between 2020 and 2025. We categorize the existing methods based on their architectural design, their input representations, and their overall prediction strategies. Further",
+      "authors": [
+        "Céline Finet",
+        "Stephane Da Silva Martins",
+        "Jean-Bernard Hayet",
+        "Ioannis Karamouzas",
+        "Sylvie Le Hégarat‐Mascle",
+        "Julien Pettré",
+        "Emanuel Aldea"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7161070816",
+      "url": "https://doi.org/10.1007/s00371-026-04835-x",
+      "pdf": "https://doi.org/10.21203/rs.3.rs-9439284/v1",
+      "title": "MGSMamba: hierarchical grouped learning with shifted bidirectional state-space models for point cloud classification and segmentation",
+      "summary": "Point cloud classification is a fundamental task in 3D vision and robotics, yet effectively capturing local geometric structures while modeling global contextual dependencies remains challenging. Existing Mamba-based frameworks excel in sequential modeling but often underutilize spatial and structural information intrinsic to unordered3D point clouds. To address these limitations, we propose MGSMamba, a multi-stagepoint cloud classification framework integrating grouping structures with bidirectionalstate space modeling. Our framework implements a hierarchical three-level feature extraction pr",
+      "authors": [
+        "Yang Yu",
+        "Zengyi Zhang",
+        "Qiang Zeng",
+        "Qijun Hu",
+        "Xingpeng Zhang",
+        "Leping He",
+        "Qijie Cai",
+        "Yu Bai"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7167069481",
+      "url": "https://doi.org/10.1038/s41598-026-71501-6",
+      "pdf": "https://www.nature.com/articles/s41598-026-71501-6_reference.pdf",
+      "title": "A complete-coverage path-planning algorithm based on local path cost",
+      "summary": "Complete coverage path planning (CCPP) is a core enabling technology for autonomous operation and navigation of mobile robots and unmanned surface vehicles (USVs). However, in large-scale and complex environments, due to the lack of directional guidance in population evolution, existing heuristic path planners often suffer from slow convergence, premature trapping in local optima, and excessive turning maneuvers along the planned tour. To mitigate the blindness of conventional mutation operators, this paper proposes a complete-coverage path-planning algorithm based on local path cost (CCPP-LPC",
+      "authors": [
+        "Xia Wang",
+        "Yuhang Zhu",
+        "Jianing Tang",
+        "Z Dai",
+        "Chenjia Li"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7169637818",
+      "url": "https://doi.org/10.1007/978-3-032-38039-5_13",
+      "pdf": "https://research-portal.uws.ac.uk/en/publications/2d22d9c5-ed1d-4a4b-8a39-a8d03519d207",
+      "title": "Pitfalls in Multispectral In-Field Strawberry Detection: Challenges and First Results for Ripeness Classification in Robotic Harvesting",
+      "summary": "",
+      "authors": [
+        "Tomo Lange",
+        "Tim Tiedemann",
+        "Kai Von Luck",
+        "Peer Stelldinger",
+        "Keshav Dahal"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7215046946",
+      "url": "https://doi.org/10.1145/3871070",
+      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3871070?download=true",
+      "title": "Intent Representation and Human Distraction Modulate the Effects of Legible Robot Motion in Hallway Navigation",
+      "summary": "Legibility in human-robot interaction (HRI) is often described as the property of robot motion that enables an observer to confidently and quickly infer the robot’s intent. Mature frameworks exist for generating legible motion in front of static observers, typically by making the robot’s destination apparent as early as possible. Social robot navigation in public spaces, however, presents a different challenge: pedestrians are themselves in motion, often with divided attention, and must coordinate with the robot in real time. In such encounters, where the robot is ultimately headed may matter ",
+      "authors": [
+        "Pranav Goyal",
+        "Andrew Stratton",
+        "Christoforos Mavrogiannis"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7237047770",
+      "url": "https://doi.org/10.1007/s11701-026-04227-2",
+      "pdf": "",
+      "title": "Treatment burden and long-term morbidity after transoral robotic vs. nonrobotic surgery for oropharyngeal cancer",
+      "summary": "",
+      "authors": [
+        "Nayeon Choi",
+        "Seok-Joo Moon",
+        "Sang Hoo Park",
+        "Younghac Kim",
+        "Taek Yoon Cheong",
+        "Dong Wook Shin",
+        "Hong Kwan Kim",
+        "Dongryul Oh",
+        "Danbee Kang"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7237168890",
+      "url": "https://doi.org/10.1007/s11701-026-04195-7",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-04195-7.pdf",
+      "title": "Patient perception of robotic-assisted spine surgery",
+      "summary": "Patient behaviors related to pursuing robotic-assisted spine surgery remain poorly characterized. This study evaluated patients' perceptions of robotic-assisted spine surgery and behaviors related to seeking robotic-assisted care. We surveyed 116 adult spine patients at initial consultation (n = 101) or postoperative follow-up after confirmed robotic-assisted surgery (n = 15). Questions assessed perceived attributes of robotic-assisted versus traditional surgery, comfort, surgical preference, willingness to recommend robotic spine surgery, perceived robotic involvement, and whether patients ha",
+      "authors": [
+        "Robert G. WATKINS V",
+        "David L. Skaggs",
+        "Christopher Mikhail"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7237187058",
+      "url": "https://doi.org/10.1007/s11701-026-04193-9",
+      "pdf": "",
+      "title": "Alternative multiport robotic platforms versus da Vinci in colorectal cancer surgery: a systematic review and platform-stratified meta-analysis",
+      "summary": "",
+      "authors": [
+        "Abdulaziz Altamimi",
+        "Razan Abdulwahab Alanazi",
+        "Mohammad Awad Hussain Al-Mohy",
+        "Saeed Ali Al-Shahrani",
+        "Faisal Bander Aldalbahi",
+        "Nasser Saeed Al Manaa",
+        "Abdullah Abdulrhman Albahouth",
+        "Bassem Assi",
+        "Osama Essa Mujammami",
+        "Eid Mohammed Alharbi",
+        "Faisal Shuayl Alkathiri",
+        "Ali Ibrahim A. Alshehri"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7237212847",
+      "url": "https://doi.org/10.1007/978-3-032-38039-5_17",
+      "pdf": "",
+      "title": "Vision-Based Multi-camera Robotics Simulation: The SIMLAN Open-Source Framework for Industrial Environments",
+      "summary": "",
+      "authors": [
+        "Hamid Ebadi",
+        "Pär Aronsson"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7237242309",
+      "url": "https://doi.org/10.1007/978-3-032-38039-5_19",
+      "pdf": "",
+      "title": "Humanoid Robots in the Family: Adult and Child Perspectives on Domestic Robots",
+      "summary": "",
+      "authors": [
+        "Hasini Manda",
+        "Ahmed Sabbir Arif"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7237331289",
+      "url": "https://doi.org/10.6084/m9.figshare.35081606",
+      "pdf": "https://doi.org/10.6084/m9.figshare.35081606",
+      "title": "Obstacle-aided locomotion using piecewise helixes and a teleoperation interface for snake robots in rough terrain",
+      "summary": "This paper proposes a motion control framework for non-wheeled snake robots in rough terrain that integrates obstacle-aided locomotion using piecewise helixes with an intuitive teleoperation interface. The proposed method consists of a steering and coordination strategy for locomotion using piecewise helixes, along with a teleoperation interface system designed to implement this approach. To ensure continuous locomotion without getting stuck in rough terrain, the robot performs collision avoidance for its head and maintains appropriate contact with obstacles based on operator input. To facilit",
+      "authors": [
+        "Yuto Yoshida",
+        "Ching Wen Chin",
+        "Motoyasu Tanaka"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7216564770",
+      "url": "https://doi.org/10.5281/zenodo.24415086",
+      "pdf": "https://temjournals.com/temj/index.php/temj/article/view/732",
+      "title": "ILLUMINATING THE SHADOWS: ADVANCED SPATIOTEMPORAL FRAMEWORKS FOR DISRUPTING VIDEO-BASED CHILD EXPLOITATION IN OPAQUE DIGITAL ECOSYSTEMS",
+      "summary": "The rapid migration of online child exploitation (OCE) from static imagery and text-based groomingtoward real-time‚ encrypted live-streaming environments presents a critical vulnerability in contemporary digital forensics. Traditional video moderation frameworks‚ which predominantly rely on computationally exhaustive frame-by-frame analysisor monolithic 3D Convolutional Neural Networks (3D-CNNs)‚ are structurally ill-equipped to processhigh-velocity‚ high-bandwidth streaming telemetry at the network edge‚ frequently resulting in catastrophiclatency and unacceptable false-negative rates. To res",
+      "authors": [
+        "Anjan Bera",
+        "Sanjay Nag"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7203772053",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.120614",
+      "pdf": "https://doi.org/10.1016/j.marpolbul.2026.120614",
+      "title": "Fishers reward program promoting their role as cleaners of the ocean",
+      "summary": "Marine litter poses an environmental and socio-economic challenge in European seas, imposing costs on fishers who passively collect waste during routine operations. This study explores reward-based programs to incentivise coastal fishers to collect marine litter, drawing on qualitative evidence from Croatia, Italy, Malta, Portugal, and Spain. The study contributes to the debate on recognising fisheries for their environmental contribution beyond seafood production, framing marine litter removal as a public environmental good requiring policy support. Data was collected through workshops with 1",
+      "authors": [
+        "Marina Astudillo-Pascual",
+        "Gillian B. Ainsworth",
+        "Kirsten Bonnici",
+        "Marija Pia Gatt",
+        "Andrea Ivanković",
+        "Stefania Campogianni",
+        "Elettra Giampaolett",
+        "Priscila da Silva",
+        "Angel Gutiérrez",
+        "Cristina Pita",
+        "Sebastián Villasante"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7236732815",
+      "url": "https://doi.org/10.4028/p-2hx8rt",
+      "pdf": "",
+      "title": "Robot-Assisted 3D Metallography: System Development, Methodology, and Applications",
+      "summary": "Classical metallography using 2D sections provides reliable information on phase fractions but is limited for the quantitative determination of spatial geometries such as pore shapes, graphite morphology, conductor track geometries, or dendrite structures. Automated serial sectioning systems, known as 3D metallography, enable the generation of large-volume image stacks with high lateral resolution and controlled contrast through chemical etching, followed by digital reconstruction as 3D digital twins. This work integrates the methodological foundations and system architecture of the RASI syste",
+      "authors": [
+        "Anton Lemaisheuski",
+        "Dirk Bettge",
+        "Anja Pfennig"
+      ],
+      "published": "2026-11-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7124033878",
+      "url": "https://doi.org/10.1038/s41598-026-79572-1",
+      "pdf": "https://doi.org/10.1038/s41598-026-79572-1",
+      "title": "Quantification and classification of carbon nanotubes in electron micrographs using vision foundation models",
+      "summary": "Accurate characterization of carbon nanotube morphologies in electron microscopy images is vital for exposure assessment and toxicological studies, yet current workflows rely on slow, subjective manual segmentation. This work presents a unified framework that leverages vision foundation models to automate the quantification and classification of carbon nanotubes (CNTs) in electron microscopy images. First, an interactive quantification tool built on the Segment Anything Model segments particles with near-perfect accuracy using minimal user input. Second, a classification pipeline uses the resu",
+      "authors": [
+        "S. Pradeep",
+        "Chen Wang",
+        "Matthew M. Dahm",
+        "Jeff D. Eldredge",
+        "Candace S. J. Tsai"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 1.5
+    },
+    {
+      "id": "W7135232893",
+      "url": "https://doi.org/10.22541/authorea.15012558/v1",
+      "pdf": "https://www.authorea.com/doi/pdf/10.22541/authorea.15012558/v1",
+      "title": "Towards Automated Initial Probe Placement in Transthoracic Teleultrasound Using Human Mesh and Skeleton Recovery",
+      "summary": "Cardiac and lung ultrasound require operators to locate patient-specific intercostal acoustic windows and adjust probe position, rotation, and force to acquire standard views. In teleultrasound, experts may navigate using ultrasound images after approximate placement, but limited 3D perception makes remote guidance of initial placement difficult. We present tUS-PIPG, a framework for teleultrasound Patient registration and anatomy-informed Initial Probe placement Guidance. A novice captures calibrated RGB and depth images using a mixed reality headset. An edge server reconstructs the patient’s ",
+      "authors": [
+        "Yu Chung Lee",
+        "David Black",
+        "Ryan Yeung",
+        "Septimiu E. Salcudean"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7147490073",
+      "url": "https://doi.org/10.17605/osf.io/hvde5",
+      "pdf": "https://doi.org/10.17605/osf.io/hvde5",
+      "title": "Task Framing Effects on Personality-Based Team Formation",
+      "summary": "This study examines how task framing influences personality-based team selection decisions. Participants will form four-person teams for an entrepreneurial venture after reading task descriptions that vary in their emphasis on different work approaches. We will analyze whether framing systematically shifts which personality traits people prioritize when selecting teammates, and whether this produces differences in team diversity. The study uses experimental manipulation of task descriptions combined with selection from standardized personality profiles. Results will inform understanding of how",
+      "authors": [
+        "Abdelhadi Elbguir",
+        "Fatimaezzahra Benmarrakchi"
+      ],
+      "published": "2026-11-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7233522431",
+      "url": "https://openalex.org/W7233522431",
+      "pdf": "",
+      "title": "Neural Correlates of the Dark Triad and the Role of Psychopathic Meanness in Inter-Brain Synchrony during Group Decision-Making",
+      "summary": "Socially aversive personality traits are characterized by interpersonal tendencies such as manipulation, callousness, exploitiveness, and disregard for others. Neuroimaging research has identified structural and functional neural correlates of narcissism, Machiavellianism, and psychopathy, but these traits have often been investigated separately and through univariate or region-focused approaches. This dissertation examined socially aversive personality at complementary neural and interpersonal levels, using the Dark Triad as a broad framework in the first two studies and psychopathic meanness",
+      "authors": [
+        "Alessandro Grecucci",
+        "Gianluca Esposito",
+        "Andrea Bizzego",
+        "Richard Bakiaj"
+      ],
+      "published": "2026-11-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W2791300004",
+      "url": "https://doi.org/10.5281/zenodo.24418663",
+      "pdf": "http://www.antropoweb.cz/webzin/index.php/webzin/article/download/252/269",
+      "title": "The Binding of José Arcadio to the Fence: A Cognitive Ethnography of Situational Normativity of Moral Controversy in the LARP Game Cien Años",
+      "summary": "1. Abstract (2017; language revised 2026) This paper is both an ethnographic probe into an exotic setting of normativity – the fictional world enacted and embodied in a larp (a role-playing simulation) – and a theoretical essay on artificial intersubjectivity in role-playing simulations in general. Drawing on participant observation and semi-structured interviews, it analyses selected parts of the recent Czech larp Cien Años de Soledad (One Hundred Years of Solitude), inspired by Gabriel García Márquez's novel. The aim is to explore some aspects of the general problem of the situational normat",
+      "authors": [
+        "Tomáš Hampejs"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7124232260",
+      "url": "https://doi.org/10.1007/978-3-032-38039-5_18",
+      "pdf": "",
+      "title": "Beyond Technical Features: The Role of Partner Familiarity and Co-presence in Older Adults’ Telepresence Robot Acceptance",
+      "summary": "",
+      "authors": [
+        "Melisa Conde"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    }
+  ]
 }
