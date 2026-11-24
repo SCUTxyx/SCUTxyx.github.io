@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24 04:32 UTC",
+  "generated_at": "2026-11-24 23:20 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -66,6 +66,96 @@
         "Fei Yang",
         "Honghao Yue",
         "Yaqiong Zhao"
+      ],
+      "published": "2026-11-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7238812639",
+      "url": "https://doi.org/10.1007/978-981-92-8146-6_23",
+      "pdf": "",
+      "title": "PainterVLA: Text-Guided Perceptual Restoration for Robust Vision-Language-Action Models",
+      "summary": "",
+      "authors": [
+        "Yonghong Guo",
+        "Yigui Luo",
+        "Minqi Luo",
+        "Yuqi Kuang",
+        "Hejing Cai"
+      ],
+      "published": "2026-11-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7238838871",
+      "url": "https://doi.org/10.1007/978-981-92-8146-6_33",
+      "pdf": "",
+      "title": "InfoVLA: A Mid-Layer Information Bottleneck for Robust Vision-Language-Action Policies",
+      "summary": "",
+      "authors": [
+        "Ziming Liu",
+        "Qingxin Ming",
+        "Mingxuan Jing",
+        "Jin Zheng",
+        "Linjuan Cheng",
+        "Yuquan Wu"
+      ],
+      "published": "2026-11-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 3.0
+    },
+    {
+      "id": "W7238844307",
+      "url": "https://doi.org/10.5281/zenodo.24486000",
+      "pdf": "https://doi.org/10.5281/zenodo.24486000",
+      "title": "Replication package for \"Uncertainty in the Wild: A Cross-Domain Catalogue of Uncertainty Interactions in Autonomous and Self-Adaptive Systems\"",
+      "summary": "Uncertainty in the Wild: catalogue and analysis scripts (v1.0.0) This release is the reproducibility package of the paper Uncertainty in the Wild: A Cross-Domain Catalogue of Uncertainty Interactions in Autonomous and Self-Adaptive Systems. What is included Catalogue (uip_analysis/data/): eighteen uncertainty-interaction exemplars (CS1–CS18) from six domains (automotive, robotics, aerospace, healthcare, smart cities, IT/cloud), with the contributors' answers to the common problem- and solution-space template, and the manual coding of the interaction categories. Scripts (uip_analysis/): Python ",
+      "authors": [
+        "Genaína Nunes Rodrigues",
+        "Javier Cámara",
+        "Raffaela Mirandola",
+        "Nelly Bencomo",
+        "Matteo Camilli",
+        "Nicolás Cardozo",
+        "Ivana Dusparić",
+        "Fuyuki Ishikawa",
+        "Anne Koziolek",
+        "Livia Lestingi",
+        "Jialong Li",
+        "Marin Litoiu",
+        "Gabriel A. Moreno",
+        "Alessandro V. Papadopoulos",
+        "Diego Pérez-Palacín",
+        "Danilo Pianini",
+        "Ralf Reussner",
+        "Patrizia Scandurra",
+        "Vincenzo Scotti",
+        "Gabriel Tamura",
+        "Kenji Tei",
+        "Christos Tsigkanos",
+        "Karthik Vaidhyanathan",
+        "Gricel Vazquez",
+        "Norha M. Villegas"
       ],
       "published": "2026-11-24",
       "primary_category": "openalex",
@@ -245,136 +335,46 @@
       "trending": 0.0
     },
     {
-      "id": "W7237168890",
-      "url": "https://doi.org/10.1007/s11701-026-04195-7",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/s11701-026-04195-7.pdf",
-      "title": "Patient perception of robotic-assisted spine surgery",
-      "summary": "Patient behaviors related to pursuing robotic-assisted spine surgery remain poorly characterized. This study evaluated patients' perceptions of robotic-assisted spine surgery and behaviors related to seeking robotic-assisted care. We surveyed 116 adult spine patients at initial consultation (n = 101) or postoperative follow-up after confirmed robotic-assisted surgery (n = 15). Questions assessed perceived attributes of robotic-assisted versus traditional surgery, comfort, surgical preference, willingness to recommend robotic spine surgery, perceived robotic involvement, and whether patients ha",
+      "id": "W7169864912",
+      "url": "https://doi.org/10.1007/978-981-92-8146-6_2",
+      "pdf": "https://arxiv.org/pdf/2607.16206",
+      "title": "PPO-HSC: An Exploratory Reinforcement Learning Framework Based on Wide-Area Policy Coverage Optimization",
+      "summary": "",
       "authors": [
-        "Robert G. WATKINS V",
-        "David L. Skaggs",
-        "Christopher Mikhail"
+        "Yujie Shen",
+        "Haowen Chen"
       ],
-      "published": "2026-11-21",
+      "published": "2026-11-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7237187058",
-      "url": "https://doi.org/10.1007/s11701-026-04193-9",
+      "id": "W7238781758",
+      "url": "https://doi.org/10.1007/978-981-92-8137-4_7",
       "pdf": "",
-      "title": "Alternative multiport robotic platforms versus da Vinci in colorectal cancer surgery: a systematic review and platform-stratified meta-analysis",
+      "title": "Deep Operator World Models for Policy Mirror Descent in Reinforcement Learning",
       "summary": "",
       "authors": [
-        "Abdulaziz Altamimi",
-        "Razan Abdulwahab Alanazi",
-        "Mohammad Awad Hussain Al-Mohy",
-        "Saeed Ali Al-Shahrani",
-        "Faisal Bander Aldalbahi",
-        "Nasser Saeed Al Manaa",
-        "Abdullah Abdulrhman Albahouth",
-        "Bassem Assi",
-        "Osama Essa Mujammami",
-        "Eid Mohammed Alharbi",
-        "Faisal Shuayl Alkathiri",
-        "Ali Ibrahim A. Alshehri"
+        "Hiroki Kawai",
+        "Ryogo Tanaka",
+        "Takuya Konishi",
+        "Yoshinobu Kawahara"
       ],
-      "published": "2026-11-21",
+      "published": "2026-11-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237212847",
-      "url": "https://doi.org/10.1007/978-3-032-38039-5_17",
-      "pdf": "",
-      "title": "Vision-Based Multi-camera Robotics Simulation: The SIMLAN Open-Source Framework for Industrial Environments",
-      "summary": "",
-      "authors": [
-        "Hamid Ebadi",
-        "Pär Aronsson"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 1.5
-    },
-    {
-      "id": "W7237242309",
-      "url": "https://doi.org/10.1007/978-3-032-38039-5_19",
-      "pdf": "",
-      "title": "Humanoid Robots in the Family: Adult and Child Perspectives on Domestic Robots",
-      "summary": "",
-      "authors": [
-        "Hasini Manda",
-        "Ahmed Sabbir Arif"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7237331289",
-      "url": "https://doi.org/10.6084/m9.figshare.35081606",
-      "pdf": "https://doi.org/10.6084/m9.figshare.35081606",
-      "title": "Obstacle-aided locomotion using piecewise helixes and a teleoperation interface for snake robots in rough terrain",
-      "summary": "This paper proposes a motion control framework for non-wheeled snake robots in rough terrain that integrates obstacle-aided locomotion using piecewise helixes with an intuitive teleoperation interface. The proposed method consists of a steering and coordination strategy for locomotion using piecewise helixes, along with a teleoperation interface system designed to implement this approach. To ensure continuous locomotion without getting stuck in rough terrain, the robot performs collision avoidance for its head and maintains appropriate contact with obstacles based on operator input. To facilit",
-      "authors": [
-        "Yuto Yoshida",
-        "Ching Wen Chin",
-        "Motoyasu Tanaka"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7216564770",
-      "url": "https://doi.org/10.5281/zenodo.24415086",
-      "pdf": "https://temjournals.com/temj/index.php/temj/article/view/732",
-      "title": "ILLUMINATING THE SHADOWS: ADVANCED SPATIOTEMPORAL FRAMEWORKS FOR DISRUPTING VIDEO-BASED CHILD EXPLOITATION IN OPAQUE DIGITAL ECOSYSTEMS",
-      "summary": "The rapid migration of online child exploitation (OCE) from static imagery and text-based groomingtoward real-time‚ encrypted live-streaming environments presents a critical vulnerability in contemporary digital forensics. Traditional video moderation frameworks‚ which predominantly rely on computationally exhaustive frame-by-frame analysisor monolithic 3D Convolutional Neural Networks (3D-CNNs)‚ are structurally ill-equipped to processhigh-velocity‚ high-bandwidth streaming telemetry at the network edge‚ frequently resulting in catastrophiclatency and unacceptable false-negative rates. To res",
-      "authors": [
-        "Anjan Bera",
-        "Sanjay Nag"
-      ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
     },
     {
       "id": "W7203772053",
@@ -394,6 +394,26 @@
         "Angel Gutiérrez",
         "Cristina Pita",
         "Sebastián Villasante"
+      ],
+      "published": "2026-11-21",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7237002129",
+      "url": "https://doi.org/10.2991/978-94-6239-832-0_11",
+      "pdf": "https://www.atlantis-press.com/article/126029009.pdf",
+      "title": "EASQ: Energy-Aware Container Scheduling with Tabular Q-Learning for Orchestrated Cloud Clusters",
+      "summary": "Default container schedulers place workloads using rules fixed at deployment time: Docker Swarm’s spread strategy equalises container counts across nodes, and Kubernetes’s bin-packing (MostAllocated) scoring profile packs them by requested—not consumed—resources. Both ignore what a placement costs in watts. We formulate container placement as a Markov decision process and train a tabular Q-learning agent, EASQ, whose shaped reward charges each placement its marginal power increase while penalising utilisation beyond a safety threshold. A rank-based action space and a coarse 80-state encoding k",
+      "authors": [
+        "Vivek Saxena",
+        "Anoop Kumar"
       ],
       "published": "2026-11-21",
       "primary_category": "openalex",
@@ -427,41 +447,21 @@
       "trending": 0.0
     },
     {
-      "id": "W7124033878",
-      "url": "https://doi.org/10.1038/s41598-026-79572-1",
-      "pdf": "https://doi.org/10.1038/s41598-026-79572-1",
-      "title": "Quantification and classification of carbon nanotubes in electron micrographs using vision foundation models",
-      "summary": "Accurate characterization of carbon nanotube morphologies in electron microscopy images is vital for exposure assessment and toxicological studies, yet current workflows rely on slow, subjective manual segmentation. This work presents a unified framework that leverages vision foundation models to automate the quantification and classification of carbon nanotubes (CNTs) in electron microscopy images. First, an interactive quantification tool built on the Segment Anything Model segments particles with near-perfect accuracy using minimal user input. Second, a classification pipeline uses the resu",
+      "id": "W7213232589",
+      "url": "https://doi.org/10.1007/978-981-92-8233-3_32",
+      "pdf": "https://arxiv.org/pdf/2609.14761",
+      "title": "From Visual Feedback to Textual Reviews: A Multi-agent Vision-Language Framework for Image-Grounded Review Assistance",
+      "summary": "",
       "authors": [
-        "S. Pradeep",
-        "Chen Wang",
-        "Matthew M. Dahm",
-        "Jeff D. Eldredge",
-        "Candace S. J. Tsai"
+        "Utsav Kumar Nareti",
+        "Ayush Bansal",
+        "Kumari Priya",
+        "Chandranath Adak",
+        "Soumi Chattopadhyay",
+        "Muhammad Saqib",
+        "Saeed Anwar"
       ],
-      "published": "2026-11-21",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 1.5
-    },
-    {
-      "id": "W7135232893",
-      "url": "https://doi.org/10.22541/authorea.15012558/v1",
-      "pdf": "https://www.authorea.com/doi/pdf/10.22541/authorea.15012558/v1",
-      "title": "Towards Automated Initial Probe Placement in Transthoracic Teleultrasound Using Human Mesh and Skeleton Recovery",
-      "summary": "Cardiac and lung ultrasound require operators to locate patient-specific intercostal acoustic windows and adjust probe position, rotation, and force to acquire standard views. In teleultrasound, experts may navigate using ultrasound images after approximate placement, but limited 3D perception makes remote guidance of initial placement difficult. We present tUS-PIPG, a framework for teleultrasound Patient registration and anatomy-informed Initial Probe placement Guidance. A novice captures calibrated RGB and depth images using a mixed reality headset. An edge server reconstructs the patient’s ",
-      "authors": [
-        "Yu Chung Lee",
-        "David Black",
-        "Ryan Yeung",
-        "Septimiu E. Salcudean"
-      ],
-      "published": "2026-11-21",
+      "published": "2026-11-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -514,15 +514,18 @@
       "trending": 0.0
     },
     {
-      "id": "W2791300004",
-      "url": "https://doi.org/10.5281/zenodo.24418663",
-      "pdf": "http://www.antropoweb.cz/webzin/index.php/webzin/article/download/252/269",
-      "title": "The Binding of José Arcadio to the Fence: A Cognitive Ethnography of Situational Normativity of Moral Controversy in the LARP Game Cien Años",
-      "summary": "1. Abstract (2017; language revised 2026) This paper is both an ethnographic probe into an exotic setting of normativity – the fictional world enacted and embodied in a larp (a role-playing simulation) – and a theoretical essay on artificial intersubjectivity in role-playing simulations in general. Drawing on participant observation and semi-structured interviews, it analyses selected parts of the recent Czech larp Cien Años de Soledad (One Hundred Years of Solitude), inspired by Gabriel García Márquez's novel. The aim is to explore some aspects of the general problem of the situational normat",
+      "id": "W7238781058",
+      "url": "https://doi.org/10.1108/ria-04-2026-0228",
+      "pdf": "",
+      "title": "Nonsingular fast terminal second-order sliding mode control for a walking rehabilitation training robot based on improved time delay estimation",
+      "summary": "Purpose To address the insufficient trajectory tracking accuracy of walking rehabilitation training robot (WRTR) in practical use and the limitations of controller design caused by fixed-model, this paper aims to propose a nonsingular fast terminal second-order sliding mode control scheme based on an improved time delay estimation (TDE). Design/methodology/approach First, the yaw angle oscillations induced by the alternating omnidirectional wheel grounding characteristics (OWGC), the uncertainties in human–robot interaction parameters and the external nonlinear time-varying disturbances are id",
       "authors": [
-        "Tomáš Hampejs"
+        "Hongbin Chang",
+        "Binjie Shao",
+        "Ping Bo Sun",
+        "Shuoyu Wang"
       ],
-      "published": "2026-11-21",
+      "published": "2026-11-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -533,15 +536,34 @@
       "trending": 0.0
     },
     {
-      "id": "W7124232260",
-      "url": "https://doi.org/10.1007/978-3-032-38039-5_18",
+      "id": "W7238784747",
+      "url": "https://doi.org/10.62792/ut.icfra.y2026.i2.pp46",
       "pdf": "",
-      "title": "Beyond Technical Features: The Role of Partner Familiarity and Co-presence in Older Adults’ Telepresence Robot Acceptance",
-      "summary": "",
+      "title": "STEAM PROJECT DESIGN IN ARTS EDUCATION: FROM RESEARCH AND EXPERIMENTATION TO CREATIVE OUTCOMES",
+      "summary": "The integration of the arts with science, technology, engineering, and mathematics increasingly defines the content of modern school education; however, the artistic component in STEAM projects is often reduced to mere decoration of a technical product. This article aims to substantiate the author's model of STEAM project design in arts education, ensuring a consistent transition from an artistic idea – through research, experimentation, and construction – to a tangible, student-created product, and to test it by creating an artist-robot. The study was conducted as a qualitative single-case st",
       "authors": [
-        "Melisa Conde"
+        "Шатайло Наталія"
       ],
-      "published": "2026-11-21",
+      "published": "2026-11-24",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7238794724",
+      "url": "https://doi.org/10.62792/ut.icfra.y2026.i2.pp44",
+      "pdf": "",
+      "title": "TEACHERS’ ATTITUDES AND RESPONSES TO BULLYING AT SCHOOL",
+      "summary": "Bullying is a form of intentional, repeated aggressive behavior aimed at causing physical, psychological or emotional harm to an individual perceived as weaker or disadvantaged. It occurs when there is an imbalance of power between the perpetrator and the victim, with the former using physical force, intimidation, insults or other forms of manipulation to exercise control or hurt the other person. School bullying is recognized as a global phenomenon affecting a substantial proportion of children and adolescents and, consequently, our society as well. This paper examines the concept of bullying",
+      "authors": [
+        "Afërdita JAHJA-ASANI"
+      ],
+      "published": "2026-11-24",
       "primary_category": "openalex",
       "categories": [
         "openalex"
