@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25 03:16 UTC",
+  "generated_at": "2026-11-25 22:53 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -34,25 +34,6 @@
       "trending": 0.0
     },
     {
-      "id": "W7237433473",
-      "url": "https://doi.org/10.5281/zenodo.24432809",
-      "pdf": "https://doi.org/10.5281/zenodo.24432809",
-      "title": "Code, pre-registration and results for \"Noise-Conditioned Fall-Rate Envelopes of Released Learned Locomotion Controllers: A Three-Tier Study with Frozen Criteria\"",
-      "summary": "Code, frozen pre-registration, run records and exported results of the study \"Noise-Conditioned Fall-Rate Envelopes of Released Learned Locomotion Controllers: A Three-Tier Study with Frozen Criteria\" ([submitted to] IEEE Transactions on Robotics). The archive zpkg_2026-11-21_r4.tar.gz contains:- the simulation and analysis code, both as it was run and in its corrected version (docs/CHANGES_2026-11-20.md, asrun_batch7/);- the time-stamped, append-only pre-registration (EXPERIMENTS.md, PROTOCOL.md; in Chinese), an English translation of the confirmatory criteria (docs/PREREGISTRATION_EN.md) and",
-      "authors": [
-        "Yuan Shen"
-      ],
-      "published": "2026-11-22",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 9.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
       "id": "W7220996997",
       "url": "https://doi.org/10.1145/3842721.3849640",
       "pdf": "https://arxiv.org/pdf/2610.07550",
@@ -74,6 +55,32 @@
       "pick": "Reinforcement Learning",
       "pick_emoji": "🎮",
       "trending": 1.5
+    },
+    {
+      "id": "W7239410557",
+      "url": "https://doi.org/10.1007/978-981-92-8156-5_19",
+      "pdf": "",
+      "title": "Tuning the Eyes and Brain: How Does Structural Fine-Tuning Adapt Semantic VLMs for Robotics?",
+      "summary": "",
+      "authors": [
+        "Dongxiao Hu",
+        "Yichen Luo",
+        "C. Wang",
+        "Anda Liu",
+        "Jia Wang",
+        "Dapeng Lan",
+        "Yu Liu",
+        "Zhibo Pang"
+      ],
+      "published": "2026-11-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
     },
     {
       "id": "W7133213107",
@@ -215,75 +222,43 @@
       "trending": 0.0
     },
     {
-      "id": "W7237409577",
-      "url": "https://doi.org/10.83842/roboticintdat",
-      "pdf": "",
-      "title": "Robotic Intelligence and Data Governance",
-      "summary": "Robotic Intelligence and Data Governance is a specialised research publication within Political science, in the Social Sciences domain of Peer-Reviewed Academic Research Journals. Its editorial focus is governance and public administration and closely related areas of Political science. It publishes",
-      "authors": [],
-      "published": "2026-11-22",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237446860",
-      "url": "https://doi.org/10.5281/zenodo.24439552",
-      "pdf": "https://doi.org/10.5281/zenodo.24439552",
-      "title": "AI-BASED HAND GESTURE-CONTROLLED ROBOTIC VEHICLE USING ESP32 WITH DYNAMIC SPEED CONTROL",
-      "summary": "Conventional robotic vehicles are operatedwith push-button remotes or smartphone applications thatrequire continuous manual input and are difficult to use forpeople with limited dexterity. This paper presents an AI-basedhand gesture-controlled robotic vehicle using the ESP32 withdynamic speed control. The system has a glove-mountedtransmitter and a vehicle-mounted receiver, each built aroundan ESP32 microcontroller. At the transmitter, an MPU6050accelerometer and gyroscope captures hand tilt andorientation, a complementary filter estimates pitch and roll,and windowed features are classified by",
+      "id": "W7239350475",
+      "url": "https://doi.org/10.5281/zenodo.24518015",
+      "pdf": "https://doi.org/10.5281/zenodo.24518015",
+      "title": "Your Chatbot Was Trained Like a Pigeon",
+      "summary": "This article traces, for readers outside computer science, how reinforcement learning grew out of behaviourist psychology: Thorndike's law of effect and Skinner's operant conditioning underpin reward-driven learning, while Pavlovian prediction returns through temporal-difference learning, whose prediction error was later found in dopamine neurons. It explains reinforcement learning from human feedback as a form of shaping, and reward hacking and sycophancy as its characteristic failures. It draws three lessons for teachers: a classroom game for teaching reinforcement learning, a mirror on scho",
       "authors": [
-        "K.RAHUL, B.SRILEKHA, N.SANTHOSH, I.UDAY, ABHIRAM"
+        "Hafiz Hanif"
       ],
-      "published": "2026-11-22",
+      "published": "2026-11-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
-      "id": "W7237507671",
-      "url": "https://doi.org/10.5525/gla.thesis.86375",
-      "pdf": "https://doi.org/10.5525/gla.thesis.86375",
-      "title": "Flexible self-powered piezoelectric pressure sensors based on chitosan for wearable health monitoring",
-      "summary": "With the rapid development of the Internet of Things, wearable electronics and smart medical technologies, flexible pressure sensors are evolving towards being lightweight, self-powered, biocompatible and environmentally sustainable. Piezoelectric pressure sensors can directly convert mechanical stimuli into electrical signals, enabling dynamic pressure sensing without the need for an external power source. As a result, they are widely used in fields such as electronic skin, health monitoring, human-machine interaction, and intelligent robotics. However, the piezoelectric materials currently i",
-      "authors": [
-        "Zhao Wang"
-      ],
-      "published": "2026-11-22",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237596241",
-      "url": "https://doi.org/10.83842/knowledgegraint",
+      "id": "W7239410538",
+      "url": "https://doi.org/10.1007/978-981-92-8156-5_2",
       "pdf": "",
-      "title": "Knowledge Graphs: Intelligent Infrastructure",
-      "summary": "Knowledge Graphs: Intelligent Infrastructure is a specialised research publication within Computer and information sciences, in the Natural Sciences domain of Peer-Reviewed Academic Research Journals. Its editorial focus is robotics and intelligent systems and closely related areas of Computer and i",
-      "authors": [],
-      "published": "2026-11-22",
+      "title": "Two Opinions, One Action: Decoupling Extrinsic and Intrinsic Reward for Curiosity-Driven Reinforcement Learning",
+      "summary": "",
+      "authors": [
+        "Wenhao Yue",
+        "Junteng Zheng",
+        "Jeff Orchard"
+      ],
+      "published": "2026-11-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
@@ -390,144 +365,166 @@
       "trending": 0.0
     },
     {
-      "id": "W7237419749",
-      "url": "https://doi.org/10.1002/aic.70761",
-      "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aic.70761",
-      "title": "Reinforcement learning with behavioral cloning and self‐attention for integrated scheduling and control in batch plants",
-      "summary": "In this work, integration of scheduling and control is approached through a multi‐decision Deep Reinforcement Learning agent that simultaneously performs scheduling and control actions in a reactive fashion in chemical batch plants. Due to the complexity in batch processes, multiple techniques are proposed to enhance the policy training. A heuristic‐based policy was developed using knowledge of the objectives and constraints of both tasks. A dataset was built and used for supervised pretraining of the agent's networks. Recurrent neural networks are used to account for measurement noise by proc",
+      "id": "W7239350547",
+      "url": "https://doi.org/10.5281/zenodo.24517679",
+      "pdf": "https://doi.org/10.5281/zenodo.24517679",
+      "title": "A Winning Transcript Is Not a Located Bottleneck: What Replacing an Image With Its Caption or Code Measures, Why the Same Gain Is Read as a Perception Failure and as a Selection Failure, and the Information-Matched Ladder That Would Tell Them Apart",
+      "summary": "(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Life of Research When a multimodal language model is handed a caption or the plotting code of an image instead of the image itself, it often answers more questions correctly. A 2026 study reports gains of 10.2 to 23.6 points for two Qwen3.5 models on chart, math and general visual question answering, and reads the gain as evidence of a bottleneck that sits between perception and reasoning: the model sees the right evidence but selects the wrong evidence. A 2025 geometry study reports the same kind of gain and reads it the opposite way, as ",
       "authors": [
-        "Daniel Rangel-Martínez",
-        "Jaime Andres McCormick‐Mantilla",
-        "Luis Ricardez‐Sandoval"
+        "Pranay M. Mahendrakar"
       ],
-      "published": "2026-11-22",
+      "published": "2026-11-25",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237508153",
-      "url": "https://doi.org/10.1038/s41598-026-66633-8",
-      "pdf": "https://www.nature.com/articles/s41598-026-66633-8_reference.pdf",
-      "title": "Robust adaptive model-free tracking control via ACRL-based dynamic gains FOESO of LIM drive for transportation systems applications",
-      "summary": "This article proposes a robust adaptive model-free tracking control (RAMFTC) based on actor-critic reinforcement learning (ACRL) for a linear induction motor (LIM) drive to achieve high-dynamic performance in transportation systems. Owing to the uncertainties, friction forces, parameter disparities, and exterior disturbances that exist in the LIM drive system, the design of a model-based controller cannot achieve this control purpose. The RAMFTC scheme incorporates a model-free integral sliding-mode controller (MF-FOISMC) and a dynamic gains fractional-order extended state observer (DG-FOESO).",
-      "authors": [
-        "Fayez F. M. Elsousy",
-        "Dhafer Jaber Almakhles",
-        "Mahmoud M. N. Amin",
-        "Mahmoud F. Elmorshedy"
-      ],
-      "published": "2026-11-22",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237539031",
-      "url": "https://doi.org/10.66221/wsdbvc85",
-      "pdf": "https://doi.org/10.66221/wsdbvc85",
-      "title": "DO RELIGAMENTO CONVENCIONAL À DECISÃO INFORMADA: REVISÃO CRÍTICA DE TRÊS ESTUDOS SOBRE RELIGAMENTO ADAPTATIVO E SELF-HEALING EM SISTEMAS DE POTÊNCIA",
-      "summary": "Fixed dead-time reclosing does not check whether the fault persists; smart grids allow measurement-based decisions. This work critically reviews three papers, selected purposively and non-systematically, on adaptive reclosing in transmission and self-healing in distribution, and produces a comparison matrix, a table of extracted results and a list of gaps. In the test networks of one study, the MISOCP reference solution decided in under 1 s, and the faster reinforcement learning policy served 7.9% to 18.9% less energy. The distribution studies lack field validation, and the review reports no t",
-      "authors": [
-        "Marcelo Henrique Fernandes",
-        "Felipe Alves",
-        "João Gabriel Gomes",
-        "João Batista Nascimento",
-        "Sérgio Andrade"
-      ],
-      "published": "2026-11-22",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237403481",
-      "url": "https://doi.org/10.5281/zenodo.24443930",
-      "pdf": "https://doi.org/10.5281/zenodo.24443930",
-      "title": "DeepFake-AI: Unified Multi-Modal Spatial-Frequency and Temporal Forensics Benchmark with Real-Time Ingestion",
-      "summary": "Publication-grade deep learning forensic framework for spatial-temporal artifact detection in generative video and digital image manipulation.",
-      "authors": [
-        "Dar Rehan Rasool",
-        "Ahmed, Riyaz",
-        "Jawad, M. Abdul"
-      ],
-      "published": "2026-11-22",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 1.5
-    },
-    {
-      "id": "W4415963133",
-      "url": "https://doi.org/10.1002/advs.78906",
-      "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78906",
-      "title": "Deep Learning Model Based on Automated CT Image Segmentation for Predicting Pathological Complete Response in Lung Cancer Patients Receiving Neoadjuvant Immunotherapy and Chemotherapy: A Multicenter Study",
-      "summary": "Background This study aims to establish a deep learning model based on interactive 3D segmentation to predict NICT efficacy. Methods This study collected 517 NSCLC patients who underwent NICT and surgery at three centers. VISTA3D is applied in this study for CT images to achieve automatic tumor identification in NSCLC patients via automated segmentation combined with point prompts. Multiplex immunofluorescence was performed to compare the tumor immune microenvironment between low‐risk and high‐risk patients stratified by the model. Based on this model, patients likely to benefit from adjuvant ",
-      "authors": [
-        "Junfeng Zhao",
-        "Weihao Gai",
-        "Mengjie Fang",
-        "Xiran He",
-        "Xiang Yan",
-        "Ying Li",
-        "Jiaxuan Chen",
-        "Chuankun Han",
-        "Yali Xu",
-        "Nan Hong",
-        "Gen Lin",
-        "Yang Du",
-        "Yintao Li"
-      ],
-      "published": "2026-11-22",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 4.5,
+      "score": 3.0,
       "pick": "Computer Vision",
       "pick_emoji": "👁",
       "trending": 0.0
     },
     {
-      "id": "W4416158412",
-      "url": "https://doi.org/10.1007/978-3-032-36098-4_56",
-      "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-36098-4_56.pdf",
-      "title": "Multi-agent AI Framework for Road Situation Detection and C-ITS Message Generation",
-      "summary": "Conventional road-situation detection methods achieve strong performance in predefined scenarios but fail in unseen cases and lack semantic interpretation, which is crucial for reliable traffic recommendations. This work introduces a multi-agent AI framework that combines multimodal large language models (MLLMs) with vision-based perception for road-situation monitoring. The framework processes camera feeds and coordinates dedicated agents for situation detection, distance estimation, decision-making, and Cooperative Intelligent Transport System (C-ITS) message generation. Evaluation is conduc",
+      "id": "W7239359008",
+      "url": "https://doi.org/10.1108/jices-08-2025-0202",
+      "pdf": "",
+      "title": "Ethics and trust in social robot adoption for tourism: insights from Albania",
+      "summary": "Purpose Social robots are beginning to interact with guests in hotels, restaurants and tourist attractions, yet little is known about how travellers in emerging markets perceive their ethical implications or decide whether to trust them. This study aims to explore how participants in Albania evaluate the ethics of social robots and how these evaluations shape trust and adoption intention in tourism. Design/methodology/approach Drawing on the technology acceptance model, the service robot acceptance model and the ethical awareness-trust framework, this study analysed responses from 205 surveyed",
       "authors": [
-        "Kailin Tong",
-        "Selim Solmaz",
-        "Kenan Mujkic",
-        "Gottfried Allmer",
-        "Bo Leng"
+        "Kreshnik Vukatana",
+        "Anxhela Ferhataj",
+        "Valentina Sinaj"
+      ],
+      "published": "2026-11-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239394794",
+      "url": "https://doi.org/10.1007/978-3-032-46128-5_25",
+      "pdf": "",
+      "title": "How Much Influence is Enough? Investigating Narrative Interactivity in Child–Robot Interaction",
+      "summary": "",
+      "authors": [
+        "Michelle Greiner",
+        "Birgit Lugrin"
+      ],
+      "published": "2026-11-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239411478",
+      "url": "https://doi.org/10.1007/978-3-032-42258-3_11",
+      "pdf": "",
+      "title": "Designing Interpretable and Actionable AI Feedback for Embodied Cello Practice: A UX Evaluation",
+      "summary": "",
+      "authors": [
+        "Kexin Sha",
+        "Zhenyu Cheryl Qian",
+        "Raymond Kwon",
+        "Kristen Yeon-Ji Yun"
+      ],
+      "published": "2026-11-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239434884",
+      "url": "https://doi.org/10.5281/zenodo.24517691",
+      "pdf": "https://doi.org/10.5281/zenodo.24517691",
+      "title": "Gallagher Embodied Feedback and Responsibility Boundary Review Kit for Technical Teams",
+      "summary": "Operational worksheet and acceptance checklist translating Shaun Gallagher's 4E cognition and body-schema framework into engineering action-chain responsibility reviews, noticing/stopping role verification, and concrete system guardrails. Authored by Dmitry Efremov (ORCID: 0009-0004-7080-4829).",
+      "authors": [
+        "Dmitry Efremov"
+      ],
+      "published": "2026-11-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.0
+    },
+    {
+      "id": "W7239436407",
+      "url": "https://doi.org/10.5281/zenodo.24517754",
+      "pdf": "https://doi.org/10.5281/zenodo.24517754",
+      "title": "Wing Flapping Kinematics for Aerial-Aquatic Robots",
+      "summary": "Experimental dataset accompanying the manuscript \"Wing Flapping Kinematics for Aerial-Aquatic Robots\". The archive contains wind-tunnel optimization data, aquatic swimming optimization data, and free-flight validation trials collected with a 250 g flapping-wing aerial-aquatic vehicle across varying flapping frequencies (f) and upstroke ratios (USR). Archive Structure: Aerial_Optimization/ Wind-tunnel Bayesian optimization experiments conducted at a constant 6 m/s airspeed and 14° angle of attack across 30 iterations (5 evaluations per initial design point, 3 evaluations per subsequent iteratio",
+      "authors": [
+        "Anonymous"
+      ],
+      "published": "2026-11-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239436988",
+      "url": "https://doi.org/10.5281/zenodo.24517498",
+      "pdf": "https://doi.org/10.5281/zenodo.24517498",
+      "title": "Theorising \"Embodiment as Epistemology\": Movement, Somatic Friction, and the Body as Generator of Questions.",
+      "summary": "Building directly on FP-08-01 (Proposing \"Embodiment as Epistemology\"), this exploratory conceptual note begins theorising how the living, positioned body actively participates in the anthropological process of inquiry. Mainstream social science and development research routinely treat epistemology as a disembodied inventory of \"what is known,\" formulated in advance through literature reviews and deductive logic. Even where feminist standpoint theory insists upon researcher positionality, reflexivity frequently stops short of the physical organism. Distinguishing embodiment as epistemology fro",
+      "authors": [
+        "Agnes Nasozi Kamya"
+      ],
+      "published": "2026-11-25",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7171636872",
+      "url": "https://doi.org/10.3390/su182311878",
+      "pdf": "https://doi.org/10.3390/su182311878",
+      "title": "Advancing the Analysis of Trade-Related Associations in Environmental Decoupling: The Trade-Weighted Cross-(De)coupling Model Applied to Brazilian Land Resources",
+      "summary": "International trade contributes to economic development by facilitating the exchange of goods that embody finite natural resources and environmental impacts. Whether economic growth can be decoupled from resource depletion, and how trade enters that relation, remains debated. Production-based approaches typically overlook trade-embodied effects, while consumption-based methods are often limited to aggregate measures. Closing that gap means starting from the resource-use intensity of each partner and recording whether the change in the importer’s domestic intensity and the change in the exporte",
+      "authors": [
+        "Marco Antônio Montoya",
+        "Gabriela Allegretti",
+        "Pedro Antonio Miller",
+        "Felipe Dalzotto Artuzo",
+        "Elen Presotto",
+        "Edson Talamini"
       ],
       "published": "2026-11-22",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
       "trending": 0.0
     }
   ]
