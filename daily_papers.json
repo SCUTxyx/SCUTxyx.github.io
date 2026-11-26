@@ -1,11 +1,550 @@
 {
-  "generated_at": "2026-11-26 02:34 UTC",
+  "generated_at": "2026-11-26 22:41 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
     "cs.LG",
     "cs.AI"
   ],
-  "count": 0,
-  "papers": []
+  "count": 24,
+  "papers": [
+    {
+      "id": "W4406273353",
+      "url": "https://doi.org/10.1016/j.rcim.2026.103467",
+      "pdf": "https://doi.org/10.1016/j.rcim.2026.103467",
+      "title": "Dexterous lifting of deformable materials via pneumatic grasping in manufacturing: Lifting by one end",
+      "summary": "Grasping and manipulation of deformable materials in robotic cells is often costly and not widely accessible. However, the use of localized pneumatic gripping systems can enhance accessibility. Current methods that use pneumatic grippers to handle deformable materials in manufacturing struggle with effective lifting. This paper introduces a method for dexterously lifting textile deformable materials from one edge in manufacturing, using a previously developed gripper designed for deformable materials and an improved version that minimizes material vibrations. By precisely adjusting the orienta",
+      "authors": [
+        "Roman Mykhailyshyn",
+        "Jonathan Lee",
+        "Mykhailo Mykhailyshyn",
+        "Kensuke Harada",
+        "Ann Majewicz Fey"
+      ],
+      "published": "2026-11-23",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 18.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7239877404",
+      "url": "https://doi.org/10.5281/zenodo.24545975",
+      "pdf": "https://doi.org/10.5281/zenodo.24545975",
+      "title": "AI Governance, Safety, and Embodied AI — Original Research Manuscripts Archive (2026)",
+      "summary": "This archive preserves nine original research manuscripts by Vladisav Jovanović on AI governance, human oversight, accountability, autonomy, and embodied AI safety. The archive is organized into two parts: Part 06A — AI Governance and Meaningful Human Control: Seven original manuscripts addressing human oversight, shared responsibility, bounded delegation, corrective control, clinical decision support, and human autonomy. Part 06B — Embodied AI: Two original manuscripts addressing embodiment, robotic agency, physical safety, runtime assurance, and persistent correction. The manuscripts have be",
+      "authors": [
+        "Vladisav Jovanovic"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 12.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W4415988079",
+      "url": "https://doi.org/10.2514/1.g009718",
+      "pdf": "https://arxiv.org/pdf/2508.21260",
+      "title": "Remarks on Stochastic Cloning and Delayed-State Filtering",
+      "summary": "Many estimation problems in aerospace navigation and robotics involve measurements that depend on prior states. A prominent example is odometry, which measures the relative change between states over time. Accurately handling these delayed-state measurements requires capturing their correlations with prior state estimates, and a widely used approach is stochastic cloning (SC), which augments the state vector to account for these correlations. This work revisits a long-established but often overlooked alternative—the delayed-state Kalman filter—and demonstrates that a properly derived filter yi",
+      "authors": [
+        "Tara Mina",
+        "Lindsey Marinello",
+        "John Christian"
+      ],
+      "published": "2026-11-23",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7171496948",
+      "url": "https://doi.org/10.21203/rs.3.rs-11647096/v1",
+      "pdf": "https://doi.org/10.21203/rs.3.rs-11647096/v1",
+      "title": "Accuracy potential of visual localization exploiting high-end street-level imagery",
+      "summary": "Many applications, such as surveying, autonomous navigation, robotics and augmented reality, require accurate pose information with respect to a reference frame. Visual localization can complement GNSS positioning, whose availability and accuracy are often limited. However, the accuracy potential of visual localization has not yet been systematically investigated against survey-grade requirements, and no publicly available large-scale outdoor dataset provides ground-truth poses accurate enough for such an investigation. We address both gaps. First, we present the FHNW Muttenz dataset. It cover",
+      "authors": [
+        "Jonas Meyer",
+        "Stephan Nebiker",
+        "Pascal Theiler",
+        "Norbert Haala"
+      ],
+      "published": "2026-11-23",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 9.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239898589",
+      "url": "https://doi.org/10.1108/ria-09-2025-0303",
+      "pdf": "",
+      "title": "Control of a ball balancing robot using a standalone reinforcement learning agent",
+      "summary": "Purpose The purpose of this study is to design and evaluate a standalone reinforcement learning (RL) controller for a ball-balancing robot (ballbot). Conventional linear controllers such as proportional integral derivative (PID) or linear quadratic regulator (LQR) require simplified models that neglect nonlinear couplings, whereas nonlinear methods such as nonlinear model predictive control (NMPC) and sliding mode control impose high computational demands that hinder real-time implementation. These limitations make RL a necessary alternative, as it can directly learn robust control policies fr",
+      "authors": [
+        "Abdelrahman Nashat",
+        "Mustafa Abdelrahman",
+        "Mohamed Hassan",
+        "AbdelRahman Ahmed Morsi"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7237339706",
+      "url": "https://doi.org/10.1007/978-981-92-8230-2_10",
+      "pdf": "",
+      "title": "Layer Plasticity Gating for Structural Credit Assignment in Policy-Gradient RL",
+      "summary": "",
+      "authors": [
+        "Emir Arditi",
+        "Erhan Öztop"
+      ],
+      "published": "2026-11-23",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225980159",
+      "url": "https://openalex.org/W7225980159",
+      "pdf": "",
+      "title": "From Point Clouds to 3D Global Path Planning: Robot-Tailored Traversability Voxel Maps for Autonomous Ground Robot Navigation in Multi-Floor Environments",
+      "summary": "Autonomous navigation of ground robots in complex, non-planar, multi-floor environments requires spatial representations and path planners that capture full three-dimensional terrain geometry, respect the physical characteristics of the platform, and remain computationally tractable for repeated planning queries. Two-dimensional and so-called 2.5D representations are inherently unable to encode the vertical structure of such environments, making them unsuitable for this class of problems. Full three-dimensional volumetric structures either evaluate traversability on demand during search, incre",
+      "authors": [
+        "Riccardo Parosi"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239726487",
+      "url": "https://doi.org/10.1007/978-981-92-8125-1_35",
+      "pdf": "",
+      "title": "A MeanFlow-Based Geometry-Aware Model for Fast and Reliable Dexterous Grasp Generation in Cluttered Scenes",
+      "summary": "",
+      "authors": [
+        "Yaxuan Xu",
+        "Weishang Wu",
+        "Xinjun Pei",
+        "Xiaofan Deng",
+        "Qimeng Yang",
+        "Jinmiao Song",
+        "Hui Ma"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7239756835",
+      "url": "https://doi.org/10.21203/rs.3.rs-11749929/v1",
+      "pdf": "https://doi.org/10.21203/rs.3.rs-11749929/v1",
+      "title": "Quality, guideline concordance, and readability of large language model responses to patient questions on robotic surgery in gynecology and gynecologic oncology: a bilingual Turkish–English cross-sectional study",
+      "summary": "Background: How well chatbots answer surgical questions outside English is unclear. We compared the quality, guideline concordance and readability of Turkish and English answers to patient questions about robot-assisted gynecologic surgery. Methods: In this preregistered cross-sectional study, we submitted 42 benign and oncologic questions in each language to the free versions of ChatGPT, Gemini and Claude (252 responses). Two chatbot-blinded clinicians independently scored each response with the Quality Analysis of Medical Artificial Intelligence (QAMAI) tool (range 6–30) and rated potential ",
+      "authors": [
+        "Zınar Serhanoğlu",
+        "Sema Karakaş",
+        "Burcu Akay Serhanoğlu",
+        "Fulya G. Sagir",
+        "Özgür Aslan",
+        "Basri Çakıroğlu"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239790289",
+      "url": "https://doi.org/10.1007/978-981-92-8119-0_30",
+      "pdf": "",
+      "title": "Collaborative Robotic Arm Positioning and Assembly Control Based on YOLO26-Circle and Geometric Constraints",
+      "summary": "",
+      "authors": [
+        "Tiantian Sun",
+        "Chunhua Deng",
+        "Haoyu Yin",
+        "Tian Qi",
+        "Xing Xu"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239845020",
+      "url": "https://doi.org/10.1007/978-981-92-8122-0_33",
+      "pdf": "",
+      "title": "Real-World Indoor Navigation with a Pretrained Policy and World Model",
+      "summary": "",
+      "authors": [
+        "Riko Yokozawa",
+        "Shun Imai",
+        "Shingo Murata"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7158089960",
+      "url": "https://doi.org/10.1093/pnasnexus/pgag406",
+      "pdf": "https://doi.org/10.1093/pnasnexus/pgag406",
+      "title": "From wake dynamics to energy consumption in free-swimming biohybrid robotic jellyfish: A multiscale analysis",
+      "summary": "Measuring energy consumption of marine organisms often requires enclosing the animal in a comparatively small, sealed chamber to quantify changes in oxygen concentration of the surrounding water. This can limit measurements of free-swimming organisms by introducing recirculation effects and movement restrictions. We experimentally investigate free-swimming jellyfish energy consumption at two scales: individual pulses and multi-day swimming. Prescribing pulse frequency using onboard microelectronic swim controllers enables the comparison of wake energetics at different swimming stroke frequenci",
+      "authors": [
+        "Simon R. Anuszczyk",
+        "Kyra Phaychanpheng",
+        "John O. Dabiri"
+      ],
+      "published": "2026-11-23",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7168243786",
+      "url": "https://doi.org/10.26599/nr.2026.94909003",
+      "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/NR.2026.94909003.pdf",
+      "title": "An octopus-sucker inspired triboelectric self-decoupling three-axis force-sensing strategy",
+      "summary": "Approximately one-third of fresh fruits are lost in the supply chain, with half the losses occurring during in-field harvesting and in-plant grading. The complexity of supply chain, waste, and economic losses could be reduced through integrated non-destructive harvesting and in-field quality grading. Here, we developed a self-decoupled tactile sensor for robotic soft gripper, embedding three-axis self-decoupled triboelectric soft tactile sensors across fingers. During single harvesting operation, the strategy can measure the gripping force, fruit firmness, and weight by tactile sensors. Hence,",
+      "authors": [
+        "Linlin Sun",
+        "Zhengwen Chen",
+        "Zeshuo Wang",
+        "Yufeng Li",
+        "Zixu Chen",
+        "Mingyang Lu",
+        "Haidi Chu",
+        "Xianglong Liu",
+        "Linlong Jing",
+        "Xinpeng Cao",
+        "Yongxian Wang",
+        "Shenghui Fu",
+        "Shuangxi Liu",
+        "Shuo Kang",
+        "Jing Wang",
+        "Hongjian Zhang",
+        "Jinxing Wang",
+        "Wei Tang"
+      ],
+      "published": "2026-11-23",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7202287596",
+      "url": "https://doi.org/10.1186/s12891-026-10628-z",
+      "pdf": "https://doi.org/10.1186/s12891-026-10628-z",
+      "title": "Femoral external rotation adjustment improves patellar tracking but does not affect short-term clinical outcomes in robotic-assisted functional-alignment TKA",
+      "summary": "Femoral rotational adjustment is a key intraoperative variable in robotic-assisted total knee arthroplasty (TKA) and may influence patellofemoral mechanics, soft tissue balancing, and anterior compartment morphology. However, the clinical and radiographic implications of individualized rotational adjustment remain incompletely understood. This study aimed to evaluate the associations of femoral external rotational adjustment with patellofemoral alignment, soft tissue release, anterior compartment morphology, and short-term clinical outcomes following robotic-assisted TKA. A retrospective analy",
+      "authors": [
+        "Mengran Shen",
+        "Yuzhu Wu",
+        "Hongxu Li",
+        "Qihan Ma",
+        "Bailiang Wang",
+        "Jinhui Ma"
+      ],
+      "published": "2026-11-23",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7202352499",
+      "url": "https://doi.org/10.3390/diseases14120440",
+      "pdf": "https://doi.org/10.3390/diseases14120440",
+      "title": "Carbon Dioxide Gas Embolism in Minimally Invasive Liver Surgery: A Scoping Review of Incidence, Mechanisms, and Risk Determinants",
+      "summary": "Purpose: Minimally invasive liver surgery combines carbon dioxide pneumoperitoneum with deliberately lowered central venous pressure, a combination that drives gas into veins opened during transection. We aimed to map the incidence, mechanisms, and determinants of gas embolism during laparoscopic and robotic hepatectomy and to propose a flow-chart of immediate actions for its management. Methods: This PRISMA-ScR-compliant scoping review, registered on the Open Science Framework, searched PubMed/MEDLINE, Scopus, and the Cochrane Library for English-language studies published up to July 2026 (se",
+      "authors": [
+        "Salvatore Spiezia",
+        "Paolo Bianco",
+        "G Garella",
+        "Gennaro Quarto",
+        "Agostino Fernicola",
+        "Francesco Stanzione",
+        "Germano Guerra",
+        "Graziano Ceccarelli",
+        "Aldo Rocca",
+        "Pasquale Avella"
+      ],
+      "published": "2026-11-23",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7225179773",
+      "url": "https://doi.org/10.1088/1361-6501/aebd0c",
+      "pdf": "",
+      "title": "Bidirectional energy-flow modulation for passive visual admittance control using vision–force measurement fusion",
+      "summary": "Precision and compliance are essential to high-contact robotic tasks, while contact oscillations can be vital to both the end effector as well as the operation object. Passivity-based energy regulation of robot manipulators is a promising way to maintain decent operation behavior. However, current passive admittance methods in Cartesian-space depend on accurate pose reconstruction, making them difficult to apply directly to vision-guided high-precision alignment tasks. Furthermore, conventional passivity-based control usually requires large damping or strong energy constraints, leading to cons",
+      "authors": [
+        "Wenru Lu",
+        "Лей Ма",
+        "Deqing Huang",
+        "Na Qin",
+        "Dongrui Wang"
+      ],
+      "published": "2026-11-23",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7167604527",
+      "url": "https://doi.org/10.1007/978-981-92-8134-3_5",
+      "pdf": "https://arxiv.org/pdf/2607.03752",
+      "title": "EmCom-Diffusion: Probing Visual Reflection in Emergent Languages via Image Generation",
+      "summary": "",
+      "authors": [
+        "Haruumi Omoto",
+        "Tadahiro Taniguchi"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7224115662",
+      "url": "https://doi.org/10.1142/s0218126626503147",
+      "pdf": "",
+      "title": "Creative Design Transformations: From Plain to Stylized Cloth Patterns Using Sam and Stable Diffusion Generative Model",
+      "summary": "Advances in image processing and artificial intelligence have brought about a substantial revolution in the design industry, particularly in image inpainting techniques, which have improved accuracy, originality, and creative patterns. Image inpainting restores blurred or corrupted areas of an image while enabling the creation of diverse visual patterns. This research focuses on transforming plain fabric designs into stylized cloth patterns using text-based prompts. It leverages a Vision Transformer (ViT)-based pretrained segment anything model (SAM) and the stable diffusion (SD) inpainting mo",
+      "authors": [
+        "V. Uma Rani",
+        "R. Kaladevi",
+        "J. Jebamalar Tamil Selvi",
+        "S. Senthamizh Selvi"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239718163",
+      "url": "https://doi.org/10.5281/zenodo.24545852",
+      "pdf": "https://doi.org/10.5281/zenodo.24545852",
+      "title": "When Imagination Lies: Frozen World Models Overrate the Policies They Train",
+      "summary": "A policy trained inside a learned world model is graded by the model it is optimized against. We measure what that does to the grade. Actor-critic agents train inside frozen TD-MPC2 models on three DeepMind Control tasks, and every checkpoint is scored in paired imagined and real episodes. We pre-registered a rise-then-fall curve for real return; it did not hold (the primary and two of three secondary hypotheses failed). The registered fallback did: the imagined-minus-real gap grows with training in every task (pooled exponent 0.268, 95% CI [0.238, 0.312]), from near zero to about 700–800 poin",
+      "authors": [
+        "Atmik Shetty"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
+    },
+    {
+      "id": "W7239841872",
+      "url": "https://doi.org/10.5281/zenodo.24546162",
+      "pdf": "https://doi.org/10.5281/zenodo.24546162",
+      "title": "Quantum Transformer World model",
+      "summary": "A Quantum Transformer World Model — code and run records Implementation and complete experimental records for work on quantum sequence modelling and model-based reinforcement learning. The architecture. A transformer over a window of recent latent states, with a parameterised quantum circuit (PQC) as the token-mixing block of one encoder layer, serving as the dynamics prior of a DreamerV3-style recurrent state-space model and trained end to end. Because latent imagination rolls the model forward on the prior alone, the policy trains entirely on trajectories generated through a quantum circuit.",
+      "authors": [
+        "Veronika Liutarevich",
+        "Cyril C. Renaud"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 1.5
+    },
+    {
+      "id": "W7202391857",
+      "url": "https://doi.org/10.1007/s10791-026-10848-w",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s10791-026-10848-w.pdf",
+      "title": "Adaptive multi-agent deep reinforcement learning for distributed Zero Trust Architectures in global financial ecosystems",
+      "summary": "Digitalization of global financial systems has been one of the main exposures of financial infrastructures to highly sophisticated cyber attacks. Based on the industry reports released recently, it is stated that close to 25% of global internet attacks target financial organizations and the average data breach cost per attack is about 5.9 million USD. However, although Zero Trust Architecture (ZTA) emerges as a promising security approach that guarantees continuous authentication and stringent control of access for all users and devices, conventional designs of ZTA rely on centralized policy e",
+      "authors": [
+        "Ankur Mahida"
+      ],
+      "published": "2026-11-23",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 5.0,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
+      "trending": 0.0
+    },
+    {
+      "id": "W7201986894",
+      "url": "https://doi.org/10.47788/cpvp5581",
+      "pdf": "",
+      "title": "3. Unbounded Visual Narratives as a Medium to Invite Viewers to Cultivate Embodied, Affective Responses to Fire",
+      "summary": "This urgent book foregrounds the role of the senses in understanding the more-than-human. It explicates the aesthetics of the more-than-human, emphasizing the critical situation it faces today through multiple environmental crises, including pollution, climate change, and species extinction. Drawing on perspectives fr",
+      "authors": [
+        "Megan Lolley"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239759138",
+      "url": "https://doi.org/10.1108/ils-02-2025-0024",
+      "pdf": "",
+      "title": "Embodied modeling and ecological system exploration in a mixed reality environment for young children",
+      "summary": "Purpose This study aims to investigate how embodied activity designs within a mixed reality (MR) environment can support early elementary students in science learning by engaging with scientific concepts through multiple embodied perspectives. Design/methodology/approach This study designed three types of activities within an MR environment to enable young children to assume different perspectives as they create embodied models of honeybees as pollinators. The participants were 16 first- and second-grade students (5–7 years of age) from a private school in a midwestern city in the USA. Student",
+      "authors": [
+        "Xintian Tu",
+        "Joshua Adam Danish"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7239771396",
+      "url": "https://doi.org/10.21203/rs.3.rs-11591183/v1",
+      "pdf": "https://doi.org/10.21203/rs.3.rs-11591183/v1",
+      "title": "Pharmacokinetic Evaluation of Unbound Serum Concentrations and Related Tissue Concentrations of Cefazolin in Urological Surgery",
+      "summary": "Purpose The efficacy of cefazolin (CEZ) prophylaxis is usually inferred from total serum (TS) concentrations, although unbound serum (US) concentrations better reflect pharmacological activity. The aim of this study was to measure TS, US, and tissue CEZ concentrations during robot-assisted partial nephrectomy (RAPN) and radical prostatectomy (RARP) to evaluate the adequacy of the current regimen. Methods Patients who received a single 1-g CEZ dose 1 hour before surgery between December 2021 and February 2025 were included (RAPN, n = 26; RARP, n = 67). TS, US, renal tissue (RT), and peri-organ ",
+      "authors": [
+        "Yoko Takayama",
+        "Toshiaki Komatsu",
+        "Yuzuru Adachi",
+        "Shin Nihonyanagi",
+        "Masaomi Ikeda",
+        "Hideyasu Tsumura",
+        "Daisuke Ishii",
+        "Hirotsugu Okamoto",
+        "Masatsugu Iwamura",
+        "Kazumasa Matsumoto"
+      ],
+      "published": "2026-11-26",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    }
+  ]
 }
