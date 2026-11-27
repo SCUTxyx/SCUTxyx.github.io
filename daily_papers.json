@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27 02:33 UTC",
+  "generated_at": "2026-11-27 22:26 UTC",
   "query_categories": [
     "cs.RO",
     "cs.CV",
@@ -9,23 +9,22 @@
   "count": 24,
   "papers": [
     {
-      "id": "W7237356620",
-      "url": "https://doi.org/10.5281/zenodo.24372321",
-      "pdf": "https://doi.org/10.5281/zenodo.24372321",
-      "title": "Supplementary Video S1: Doing More with Less – Complex Manipulation with a Contact-Adaptive Robotic Hand",
-      "summary": "This supplementary video accompanies the manuscript \"Doing More with Less: Complex Manipulation with a Contact-Adaptive Robotic Hand\" by Hyung Gon Shin and Sanghoon Jung. The video presents experimental demonstrations of a five-fingered anthropomorphic robotic hand incorporating a contact-adaptive split-stage gear–spring mechanism. The robotic hands are controlled through motion gloves and a branch-shadowing interface, allowing the operator to provide arm movements, bimanual coordination, perception, and decision-making. The demonstrations include adaptive grasping of objects with different si",
+      "id": "W7240067897",
+      "url": "https://doi.org/10.5281/zenodo.24572484",
+      "pdf": "https://doi.org/10.5281/zenodo.24572484",
+      "title": "Policy-order equivalence across all transition kernels",
+      "summary": "This note gives a finite criterion for the all-transition-kernel policy-order question posed by Joar Skalse and Alessandro Abate in Appendix A.7 of Partial Identifiability and Misspecification in Inverse Reinforcement Learning. It compares the weak orders of all stationary randomized policies for two successor-dependent rewards on a finite discounted Markov decision process with a full-support start law. At one kernel, eliminating baseline occupancy coordinates produces a vector of Bellman advantage numerators for each reward. Equality of weak orders is positive proportionality or simultaneous",
       "authors": [
-        "Hyunggon Shin",
-        "정상훈"
+        "DannyExperiments"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-27",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 15.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
+      "score": 7.5,
+      "pick": "Reinforcement Learning",
+      "pick_emoji": "🎮",
       "trending": 0.0
     },
     {
@@ -61,6 +60,131 @@
         "Marta Di Grezia",
         "Aurora Cartabellotta",
         "Giuseppe Brisinda"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7240045688",
+      "url": "https://doi.org/10.1007/978-981-92-8113-8_37",
+      "pdf": "",
+      "title": "BC-Slim: Efficient Visual Behavioral Cloning via Structured Channel Sparsification for Robot Manipulation",
+      "summary": "",
+      "authors": [
+        "Zhenyuan Dong",
+        "Jiahui Jiang",
+        "Shijing He",
+        "Ziyi Zhang",
+        "Chengbao Liu",
+        "Peng Zhang"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7240077885",
+      "url": "https://doi.org/10.1108/jmtm-08-2026-1057",
+      "pdf": "",
+      "title": "Beyond physical fit: integrating humanoid robots into manufacturing systems",
+      "summary": "Purpose This study examines how humanoid robots are integrated into existing manufacturing systems and why human-compatible morphology does not by itself produce productive integration. Design/methodology/approach A comparative qualitative study examines 8 deployment and contrast groupings in China from 2024 to August 2026, centered on three longitudinal anchor trajectories. The 13-document empirical corpus prioritizes manufacturing–customer evidence over vendor claims and triangulates customer communications, developer reports, institutional material and independent reporting. Findings Humano",
+      "authors": [
+        "Paul Lacourbe"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
+    },
+    {
+      "id": "W7240091388",
+      "url": "https://doi.org/10.65649/7nxcj760",
+      "pdf": "https://doi.org/10.65649/7nxcj760",
+      "title": "Universal Basic Capital: A Review of Economic Implications of Robotized Wealth Distribution",
+      "summary": "Automation, artificial intelligence, and robotics are reshaping the structure of the global economy. While these technologies raise productivity, they also concentrate returns among the owners of automated capital and widen the gap between labour income and capital income. Universal Basic Capital (UBC) is a redistributive model in which a share of the wealth generated by robots and AI is pooled and paid out to every citizen, most commonly as a periodic dividend. This review brings together evidence on global output, stock-market capitalisation, and robotisation trends, and it translates those ",
+      "authors": [
+        "Luka Chkheidze"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7240093007",
+      "url": "https://doi.org/10.1007/978-981-92-8110-7_27",
+      "pdf": "",
+      "title": "Co-optimization of Robot Locomotion and Constraint-Aware Terrain Design via Automatic Curriculum Generation",
+      "summary": "",
+      "authors": [
+        "Taiki Yano",
+        "Hiroshi Yoshitake",
+        "Nobutaka Kimura"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7240098759",
+      "url": "https://doi.org/10.1007/978-3-032-45753-0_21",
+      "pdf": "",
+      "title": "From Enterprise Models to Robotic Execution: A Multi-layer Spatial Conceptual Modeling Approach for Robotic Automation",
+      "summary": "",
+      "authors": [
+        "Daniel Borcard",
+        "Hans-Georg Fill"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 6.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7240106291",
+      "url": "https://doi.org/10.5281/zenodo.24498488",
+      "pdf": "https://doi.org/10.5281/zenodo.24498488",
+      "title": "GRASP Taxonomy Hand Motion Dataset",
+      "summary": "This dataset pairs full-body motion capture with finger kinematics for all 33 grasp types in the GRASP Taxonomy. Two seated participants, one left-hand dominant and one right-hand dominant, performed each grasp ten times with each hand, yielding 1,320 trials. Each grasp type was performed on one designated object from a set of 14. Each trial begins at rest and includes grasping, a hold of approximately three seconds, release, and return to rest. Each trial is available in four CSV data tiers. The raw OptiTrack Motive recordings contain optical marker trajectories and full-body skeletal estimat",
+      "authors": [
+        "Yunhyuk Jang",
+        "Wonseok Shin",
+        "Bummo Ahn",
+        "Suncheol Kwon"
       ],
       "published": "2026-11-27",
       "primary_category": "openalex",
@@ -118,95 +242,6 @@
       "trending": 0.0
     },
     {
-      "id": "W7225766456",
-      "url": "https://doi.org/10.3389/fopht.2026.1971746",
-      "pdf": "https://www.frontiersin.org/journals/ophthalmology/articles/10.3389/fopht.2026.1971746/pdf",
-      "title": "Governing the next generation: a framework for the safe and equitable deployment of artificial intelligence, robotics, and immersive technologies in ophthalmology",
-      "summary": "Objective A new generation of technologies – artificial intelligence (AI), AI-guided surgical robotics, and immersive systems including virtual and augmented reality – are transforming ophthalmic practice across diagnoses, surgery, training, and patient engagement. Each domain has generated compelling clinical evidence; each has also exposed governance gaps – that, if unaddressed, risk entrenching inequalities, undermining patient safety, and erode clinical trust. This Mini Review synthesises the governance landscape across all three technology domains. Methods A narrative review of primary ev",
-      "authors": [
-        "Shameer Mohamed Naleer",
-        "Safras Mohamed Naleer"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7235667941",
-      "url": "https://doi.org/10.66977/xsci.2611.0047",
-      "pdf": "https://xsci.com/preprint/doi/10.66977/xsci.2611.0047.pdf",
-      "title": "Practice Is Not Free: Measuring the Embodied Cost of Reset-Free Robot Practice",
-      "summary": "When a robot practices without human resets, every attempt still costs wall-clock time, actuator wear, and sometimes a person's attention, yet the schedulers that decide what to practice next treat attempts as free. We present an open, low-cost testbed for measuring these costs: a self-built SO-101 arm runs two demonstration-trained ACT policies that reset each other, with a vision-based success detector and a ledger that records the time, joint travel, and human interventions of every attempt. We formulate cost-aware practice scheduling, in which task selection is rewarded by measured compete",
-      "authors": [
-        "Vedant Telrandhe",
-        "Sushil Sharma"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7236778796",
-      "url": "https://doi.org/10.4028/p-jv1vt8",
-      "pdf": "",
-      "title": "Surface Microstructure Engineering of Carbon Black/Ecoflex Nanocomposite for Enhanced Piezoresistive Sensors Performance",
-      "summary": "Flexible strain sensors based on piezoresistive mechanism have gained considerable interest in wearable devices, soft robotic system and electronic skin due to its advantages such as flexible and capability to detect mechanical deformation through electrical signal variation. Despite recent advances, developing sensors with reliable sensitivity, simple fabrication, and cost-effective processing remains a significant challenge. In this study, carbon black (CB)/Ecoflex composite sensors were fabricated using a 3D printing-assisted technique to investigate the influence of conductive filler conce",
-      "authors": [
-        "Fatimah Khairiah Abd Hamid",
-        "Nor Diyana Md Sin",
-        "Nur Amalina Muhamad",
-        "Mohamad Hafiz Mamat",
-        "Nurul Ezaila Alias",
-        "Zaharah Johari",
-        "Noor Dzulaikha Daud"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7237338333",
-      "url": "https://doi.org/10.1108/ec-11-2025-1397",
-      "pdf": "",
-      "title": "Optimization method for spatial robot arm locking-unit layout based on plant root adaptive growth patterns",
-      "summary": "Purpose To address the optimization problem of spatial robotic arm locking-unit layout, this study proposes a collaborative optimization method based on the adaptive growth patterns of plant roots. The approach aims to enhance the fundamental frequency of the robotic arm system while reducing the number of locking units. Design/methodology/approach Drawing upon the adaptive growth principles of monocotyledonous roots, a collaborative optimization model for the position–stiffness–quantity of locking units was established. By constructing simplified spatial robotic arm models and three-dimension",
-      "authors": [
-        "Haitao Bu",
-        "Gang Wang",
-        "Xutong Zhang",
-        "Fei Yang",
-        "Honghao Yue",
-        "Yaqiong Zhao"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 6.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
       "id": "W4313483549",
       "url": "https://doi.org/10.1287/moor.2024.0443",
       "pdf": "https://arxiv.org/pdf/2301.00241",
@@ -248,39 +283,37 @@
       "trending": 0.0
     },
     {
-      "id": "W7238781758",
-      "url": "https://doi.org/10.1007/978-981-92-8137-4_7",
+      "id": "W7240049633",
+      "url": "https://doi.org/10.1007/978-981-92-8131-2_40",
       "pdf": "",
-      "title": "Deep Operator World Models for Policy Mirror Descent in Reinforcement Learning",
+      "title": "Trajectory-Aware Diffusion Scheduling: A Search-Based Framework for Training-Free Text-to-Video Generation",
       "summary": "",
       "authors": [
-        "Hiroki Kawai",
-        "Ryogo Tanaka",
-        "Takuya Konishi",
-        "Yoshinobu Kawahara"
+        "Yingda Yu",
+        "Jiaqi Xuan",
+        "Guanchao Tong"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-27",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 5.0,
-      "pick": "Reinforcement Learning",
-      "pick_emoji": "🎮",
-      "trending": 1.5
+      "score": 4.5,
+      "pick": "Computer Vision",
+      "pick_emoji": "👁",
+      "trending": 0.0
     },
     {
-      "id": "W7236732815",
-      "url": "https://doi.org/10.4028/p-2hx8rt",
+      "id": "W7240025227",
+      "url": "https://doi.org/10.1680/jstbu.26.00161",
       "pdf": "",
-      "title": "Robot-Assisted 3D Metallography: System Development, Methodology, and Applications",
-      "summary": "Classical metallography using 2D sections provides reliable information on phase fractions but is limited for the quantitative determination of spatial geometries such as pore shapes, graphite morphology, conductor track geometries, or dendrite structures. Automated serial sectioning systems, known as 3D metallography, enable the generation of large-volume image stacks with high lateral resolution and controlled contrast through chemical etching, followed by digital reconstruction as 3D digital twins. This work integrates the methodological foundations and system architecture of the RASI syste",
+      "title": "Multi-task deep learning for crack detection, segmentation and quantification in tunnels",
+      "summary": "Crack detection and quantification in tunnel chutes is vital for ensuring infrastructure safety and preventing failures. Traditional methods, reliant on manual checks and basic image processing, are inefficient and inaccurate because they overlook tunnel-specific conditions. This paper introduces a multi-task deep learning model aimed at automating structural health monitoring in this context. The proposed solution integrates the U-shaped convolutional neural network for crack segmentation, version five of the you only look once algorithm for detection and a quantification model to measure cra",
       "authors": [
-        "Anton Lemaisheuski",
-        "Dirk Bettge",
-        "Anja Pfennig"
+        "Ronglin Liu",
+        "Jumin Zhao"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-27",
       "primary_category": "openalex",
       "categories": [
         "openalex"
@@ -291,30 +324,28 @@
       "trending": 0.0
     },
     {
-      "id": "W4414295954",
-      "url": "https://doi.org/10.1186/s12859-026-06682-y",
-      "pdf": "https://doi.org/10.1186/s12859-026-06682-y",
-      "title": "ZipAEr: A compressive convolutional autoencoder for high-dimensional spatial omics data at subcellular resolution",
-      "summary": "Background Recent advances in spatial transcriptomics, such as the CosMx Spatial Molecular Imager, enable the detection and quantification of thousands of RNA transcripts at subcellular resolution. While these data offer unprecedented insight, computational analysis remains a significant bottleneck. Current methods typically aggregate transcripts at the cell level, relying on precise cell segmentation—a notoriously difficult task in complex tissues like the brain. Deep learning autoencoders offer a segmentation-free, pixel-level alternative but face a major engineering hurdle: standard convolu",
+      "id": "W4416816339",
+      "url": "https://doi.org/10.1007/978-981-92-8110-7_24",
+      "pdf": "https://arxiv.org/pdf/2511.21510",
+      "title": "Tool-RoCo: An Agent-as-Tool Large Language Model Benchmark for Multi-robot Cooperation and Autonomy",
+      "summary": "",
       "authors": [
-        "Shiva Kazempour",
-        "Javad Razavian",
-        "Sogand Sajedi",
-        "Miranda E. Orr",
-        "Megan S Pater",
-        "Grant R. Kolar",
-        "Soroosh Solhjoo",
-        "Habil Zare"
+        "Ke Zhang",
+        "Xiaoning Zhao",
+        "Ce Zheng",
+        "Wenqi Zhang",
+        "Chen Sun",
+        "Toshiharu Sugawara"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-27",
       "primary_category": "openalex",
       "categories": [
         "openalex"
       ],
-      "score": 4.5,
-      "pick": "Computer Vision",
-      "pick_emoji": "👁",
-      "trending": 0.0
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 1.5
     },
     {
       "id": "W7236892317",
@@ -338,6 +369,124 @@
       "trending": 0.0
     },
     {
+      "id": "W7240029889",
+      "url": "https://doi.org/10.37680/aphorisme.v7i2.11091",
+      "pdf": "https://doi.org/10.37680/aphorisme.v7i2.11091",
+      "title": "The Conceptualization of Emotions Through Embodied Conceptual Metaphors in Imru’ Al-Qais’s Poem to Umm Jundub",
+      "summary": "This study examines how Imru’ al-Qais’s poem “Umm Jundub” conceptualizes emotions through embodied conceptual metaphors, focusing on the concrete source domains the poet selects and how these domains construct affective categories. This study examines which embodied domains govern affective meaning and to what extent the use of these domains can appropriately be described as emotions. This study aims to identify emotions conceptually represented through a qualitative-interpretive approach, using a five-stage analytical model: 1) stylistic-constructional analysis, 2) embodied domain mapping, 3)",
+      "authors": [
+        "Muhammad Harish Zaky Abdullah",
+        "Tamim Mulloh"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7240033796",
+      "url": "https://doi.org/10.1108/jchmsd-09-2025-0321",
+      "pdf": "",
+      "title": "Condition of historical materials, restoration scenarios cost comparison and environmental impact: case study from Võru, Estonia",
+      "summary": "Purpose To examine whether urban mining principles on the example of the historic building in the conservation area of Võru, Estonia can reduce embodied carbon/energy and cost feasibility, while respecting cultural heritage values. Design/methodology/approach During this study, visual, non-destructive inspection of structures and materials was conducted; volume estimates compiled; embodied carbon/energy using the Inventory of Carbon and Energy (henceforth ICE) values (A1–A3 system boundaries) calculated; three restoration cost scenarios aligned to Estonian standards (EVS, 2005) were compared t",
+      "authors": [
+        "Aljona Gineiko",
+        "Mihkel Kiviste",
+        "Riin Alatalu"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7240040324",
+      "url": "https://doi.org/10.22501/rc.5134598",
+      "pdf": "https://doi.org/10.22501/rc.5134598",
+      "title": "How Performance Thinks Body, Uncertainty, Relation, Recurrence, Retrospective Situatedness, and Ethical Exposure",
+      "summary": "This self-reflective paper examines artistic research as the deliberate construction of situations in which thinking can unfold differently. Drawing on my trajectory as a performer, writer, and member of the artist duo VestAndPage (formed in 2006 by my wife and art partner, Verena Stenke, and me), I consider how embodied practice, conceptual revision, uncertainty, documentation, and dissemination recursively transform one another. I approach the porous body as a relational and material threshold and retrospective situatedness as a method for reopening earlier artistic work from an altered embo",
+      "authors": [
+        "Andrea Pagnes"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7240053515",
+      "url": "https://doi.org/10.1680/jcien.25.00516",
+      "pdf": "",
+      "title": "The CAR framework: architectural and circular integration for resilient coastal defence",
+      "summary": "The limitations of monolithic ‘grey’ coastal defences are addressed in this paper by proposing an integrated theoretical framework for sustainable, adaptive infrastructure. The appropriate design response to coastal risk varies with urbanisation, site conditions and ecological context– that spectrum is treated as a working premise in this paper. The novel circular–aesthetic–resilience (CAR) framework is introduced, which fuses three interdependent pillars: (a) closed-loop material flow (prioritising beneficial reuse of sediment while accounting for the embodied carbon dioxide of necessary chem",
+      "authors": [
+        "Deborah Hayes"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7240065016",
+      "url": "https://doi.org/10.5281/zenodo.24573644",
+      "pdf": "https://doi.org/10.5281/zenodo.24573644",
+      "title": "The Field Reply: Revisiting Searle's Chinese Room Through a Field Theory of Mind",
+      "summary": "John Searle's Chinese Room challenges the inference from successful symbolic manipulation to understanding. The Systems Reply locates the candidate capacity in the organized system rather than in its individual components. This paper develops a complementary methodological question: under what relational and evidential conditions can a specified functional understanding capacity legitimately be attributed to a cognitive system? Building on the Field Theory of Mind, the Field Reply distinguishes the semantic capacity from the evidence warranting its attribution. A Comprehension Field Protocol i",
+      "authors": [
+        "Rogério Figurelli"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
+      "id": "W7240097535",
+      "url": "https://doi.org/10.1007/978-3-032-45753-0_13",
+      "pdf": "",
+      "title": "Goal-Based Analysis of Safety Dependencies in Human-Robot Interaction",
+      "summary": "",
+      "authors": [
+        "Jeshwitha Jesus Raja",
+        "Marian Daun"
+      ],
+      "published": "2026-11-27",
+      "primary_category": "openalex",
+      "categories": [
+        "openalex"
+      ],
+      "score": 3.0,
+      "pick": "Embodied AI & Robotics",
+      "pick_emoji": "🤖",
+      "trending": 0.0
+    },
+    {
       "id": "W4205845738",
       "url": "https://doi.org/10.17658/issn.2058-5462",
       "pdf": "https://doi.org/10.17658/issn.2058-5462",
@@ -347,172 +496,6 @@
         "Bramich, Beth",
         "Deville, Noski",
         "Singh, Nicola"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W4403713484",
-      "url": "https://doi.org/10.1088/1361-6528/aec26d",
-      "pdf": "https://iopscience.iop.org/article/10.1088/1361-6528/aec26d/pdf",
-      "title": "Unsupervised reward-driven image segmentation in automated scanning transmission electron microscopy experiments",
-      "summary": "Automated experiments in scanning transmission electron microscopy (STEM) require rapid image segmentation to optimize the data representation for human interpretation, decision-making, site-selective spectroscopy, and atomic manipulation. Currently, segmentation tasks are typically performed using supervised machine learning methods, which require human-labeled data and are sensitive to out-of-distribution drift effects caused by changes in resolution, sampling, or beam shape. Here, we operationalize and benchmark a recently proposed reward-driven optimization workflow for on-the-fly image an",
-      "authors": [
-        "Kamyar Barakati",
-        "Utkarsh Pratiush",
-        "Austin Houston",
-        "Gerd J. Duscher",
-        "Sergei V. Kalinin"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 1.5
-    },
-    {
-      "id": "W7117126874",
-      "url": "https://doi.org/10.1117/1.apn.6.1.016014",
-      "pdf": "https://doi.org/10.1117/1.apn.6.1.016014",
-      "title": "Sculpting ultrafast mid-infrared light for solid-state high-harmonic generation",
-      "summary": "The ability to sculpt light in space, time, and polarization has revolutionized studies of light–matter interaction and enabled breakthroughs in optical communication, imaging, and ultrafast science. Among the many degrees of freedom of light, orbital angular momentum (OAM) further expands these capabilities by unlocking new regimes of control in information encoding, particle trapping and manipulation, and symmetry-driven selection rules. However, exploiting OAM to drive nonlinear, nonperturbative effects in solids remains challenging, especially in the mid-infrared (MIR) spectral region, key",
-      "authors": [
-        "Bálint Kiss",
-        "Carmelo Rosales‐Guzmán",
-        "Stephan Fritzsche",
-        "Qiwen Zhan"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7117299506",
-      "url": "https://doi.org/10.1103/lzmt-tyw7",
-      "pdf": "https://doi.org/10.1103/lzmt-tyw7",
-      "title": "Optical detection and manipulation of pseudospin orders in Wigner crystals",
-      "summary": "In Wigner-crystal states of two-dimensional electrons, the spin ordering remains poorly understood. The small energy differences between candidate spin orders make theoretical studies less reliable, and probing magnetic order at a nonzero wave vector is experimentally challenging. In modern realizations of Wigner crystals, the electronic spin degree of freedom is often replaced by a valley pseudospin associated with nonzero Berry curvature. The resulting anomalous velocity couples the electrons’ pseudospin texture to their orbital vibration. We show that this mechanism enables optical detectio",
-      "authors": [
-        "Yichen Dong",
-        "Eugene Demler",
-        "Zhiyuan Sun"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7126212570",
-      "url": "https://doi.org/10.1103/z4wf-c76p",
-      "pdf": "https://doi.org/10.1103/z4wf-c76p",
-      "title": "Generating persistent-current superpositions in Bose-Einstein condensates using dynamic optical potentials",
-      "summary": "Precise and flexible manipulation of the motional state of ultracold atoms is a fundamental enabling technology for diverse applications such as quantum sensing and quantum computation. In this paper, we propose a general, simple, and highly efficient method to engineer the motional state of a Bose-Einstein condensate with time-dependent optical fields, which can be realized experimentally with existing light sculpting techniques. We demonstrate numerically how to engineer superpositions of persistent currents in a toroidal trap, achieving very high fidelity. We also study in detail the stabil",
-      "authors": [
-        "Renzo Testa",
-        "Donatella Cassettari"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7138129135",
-      "url": "https://doi.org/10.1088/1361-6420/aec624",
-      "pdf": "https://iopscience.iop.org/article/10.1088/1361-6420/aec624/pdf",
-      "title": "Well-posedness and instability of free electron quantum tomography",
-      "summary": "Recent advancements in photon induced near-field electron microscopy (PINEM) enable the preparation, coherent manipulation and characterization of free-electron quantum states. The available measurement consists of electron energy spectrograms and the goal is the reconstruction of a density matrix representing the quantum state. This requires the solution of a constrained linear inverse problem, where a positive semi-definite trace-class operator is reconstructed given its diagonal in different bases. We show the well-posedness of this problem by exploiting the regularizing effect of the posit",
-      "authors": [
-        "Florian Oberender"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7139959891",
-      "url": "https://doi.org/10.1017/nws.2026.10052",
-      "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D4FB054148E0C924EB285C3A84E40282/S2050124226100526a.pdf/div-class-title-measuring-esg-risk-in-supply-networks-div.pdf",
-      "title": "Measuring ESG risk in supply networks",
-      "summary": "Environmental, Social, and Governance (ESG) rating is a way for investors to prioritize investments in companies with good corporate behavior. However, ESG ratings are vulnerable to manipulation in a number of ways. In this paper we study how trade with badly rated companies can affect a target company’s own rating. To do this, we introduce a scoring framework to account for the effect of bad actors deep in the supply chain. This scoring framework is flexible enough to reflect different rater’s opinions and preferences for ESG assessment. These scores allow updating of the target’s ESG rating,",
-      "authors": [
-        "Rudy Arthur",
-        "Guillherme Machado"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7147490073",
-      "url": "https://doi.org/10.17605/osf.io/hvde5",
-      "pdf": "https://doi.org/10.17605/osf.io/hvde5",
-      "title": "Task Framing Effects on Personality-Based Team Formation",
-      "summary": "This study examines how task framing influences personality-based team selection decisions. Participants will form four-person teams for an entrepreneurial venture after reading task descriptions that vary in their emphasis on different work approaches. We will analyze whether framing systematically shifts which personality traits people prioritize when selecting teammates, and whether this produces differences in team diversity. The study uses experimental manipulation of task descriptions combined with selection from standardized personality profiles. Results will inform understanding of how",
-      "authors": [
-        "Abdelhadi Elbguir",
-        "Fatimaezzahra Benmarrakchi"
-      ],
-      "published": "2026-11-24",
-      "primary_category": "openalex",
-      "categories": [
-        "openalex"
-      ],
-      "score": 3.0,
-      "pick": "Embodied AI & Robotics",
-      "pick_emoji": "🤖",
-      "trending": 0.0
-    },
-    {
-      "id": "W7155160172",
-      "url": "https://doi.org/10.1103/l5q1-yckm",
-      "pdf": "https://arxiv.org/pdf/2604.19428",
-      "title": "Directional scattering induced optical forces on a Mie particle near a metal interface",
-      "summary": "Optical manipulation of Mie-resonant dielectric nanoparticles is strongly influenced by their enhanced scattering and multipolar response, which fundamentally modify the balance of optical forces. In this work, we study the optical forces acting on a resonant dielectric nanoparticle placed near a metal interface, where scattering occurs into both free-space and surface plasmon-polariton (SPP) channels. We show that the interference of the induced multipoles leads to highly directional scattering in these channels, and the direction and magnitude of the scattering-induced force are directly lin",
-      "authors": [
-        "Semyon Borodulin",
-        "Natalia Kostina",
-        "Mihail Petrov"
       ],
       "published": "2026-11-24",
       "primary_category": "openalex",
